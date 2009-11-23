@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><DisplayData><ResourceID>spase://vspo/displayData/P_LANL_HDR_MPA_PLOTS</ResourceID><ResourceHeader><ResourceName>LANL MPA plasma spectra and moments plots</ResourceName><ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate><Description>Daily plots in three formats of geosynchronous MPA (Magnetospheric Plasma Analyzer) data for each relevant LANL spacecraft (7 as of 2006), separately for ions and electrons. Two spectral plots show color coded fluxes vs. time, (a) vs. energy in four 90 deg spin phase bins and (b) vs. spin phase in four energy bins. The third plot type shows many moments vs. time, including ion and electron densities, parallel and perpendicular temperatures, and distribution function symmetry axis directions.</Description><Contact><PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/LANL</RepositoryID><Availability>Online</Availability><AccessRights>Restricted</AccessRights><AccessURL><Name>Main MPA page at LANL</Name><URL>http://mpa.lanl.gov/</URL></AccessURL><AccessURL><Name>MPA plot retrieval page at LANL</Name><URL>http://mpa.lanl.gov/cgi-bin/search.cgi</URL></AccessURL><Format>GIF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://vspo/instrument/151</InstrumentID><InstrumentID>spase://vspo/instrument/153</InstrumentID><InstrumentID>spase://vspo/instrument/155</InstrumentID><InstrumentID>spase://vspo/instrument/157</InstrumentID><InstrumentID>spase://vspo/instrument/159</InstrumentID><InstrumentID>spase://vspo/instrument/346</InstrumentID><InstrumentID>spase://vspo/instrument/347</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>1995-01-01T00:00:00</StartDate><RelativeStopDate>-P1D</RelativeStopDate><Note>Data from at least some spacecraft are current to within about a day</Note></TimeSpan></TemporalDescription>      <!--InstrumentRegion=Earth.Magnetosphere--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></DisplayData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <DisplayData>
+    <ResourceID>spase://vspo/displayData/P_LANL_HDR_MPA_PLOTS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LANL MPA plasma spectra and moments plots</ResourceName>
+      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+      <Description>Daily plots in three formats of geosynchronous MPA (Magnetospheric Plasma Analyzer) data for each relevant LANL spacecraft (7 as of 2006), separately for ions and electrons. Two spectral plots show color coded fluxes vs. time, (a) vs. energy in four 90 deg spin phase bins and (b) vs. spin phase in four energy bins. The third plot type shows many moments vs. time, including ion and electron densities, parallel and perpendicular temperatures, and distribution function symmetry axis directions.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Restricted</AccessRights>
+      <AccessURL>
+        <Name>Main MPA page at LANL</Name>
+        <URL>http://mpa.lanl.gov/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>MPA plot retrieval page at LANL</Name>
+        <URL>http://mpa.lanl.gov/cgi-bin/search.cgi</URL>
+      </AccessURL>
+      <Format>GIF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://vspo/instrument/151</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/153</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/155</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/157</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/159</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/346</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/347</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1995-01-01T00:00:00</StartDate>
+        <RelativeStopDate>-P1D</RelativeStopDate>
+        <Note>Data from at least some spacecraft are current to within about a day</Note>
+      </TimeSpan>
+    </TemporalDescription>
+    <!--InstrumentRegion=Earth.Magnetosphere-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </DisplayData>
+</Spase>

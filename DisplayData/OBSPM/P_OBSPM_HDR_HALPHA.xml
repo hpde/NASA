@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><DisplayData><ResourceID>spase://vspo/displayData/P_OBSPM_HDR_HALPHA</ResourceID><ResourceHeader><ResourceName>OBSPM H-alpha Solar Images</ResourceName><ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate><Description>H-alpha solar imagery from OBservatoire Solaire de Paris a Meudon (OBSPM)</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>Paris Observatory site</Name><URL>http://www.obspm.fr/</URL></AccessURL><AccessURL><Name>Virtual Solar Observatory</Name><URL>http://www.virtualsolar.org/</URL></AccessURL><Format>FITS</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://vspo/instrument/172</InstrumentID><MeasurementType>ImageIntensity</MeasurementType><TemporalDescription><TimeSpan><StartDate>2004-10-22T00:00:00</StartDate><RelativeStopDate>-P3D</RelativeStopDate><Note>Data are current to within days.</Note></TimeSpan></TemporalDescription><SpectralRange>Optical</SpectralRange>      <!--InstrumentRegion=Earth.Surface--><ObservedRegion>Sun</ObservedRegion><ObservedRegion>Sun.Photosphere</ObservedRegion></DisplayData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <DisplayData>
+    <ResourceID>spase://vspo/displayData/P_OBSPM_HDR_HALPHA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OBSPM H-alpha Solar Images</ResourceName>
+      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+      <Description>H-alpha solar imagery from OBservatoire Solaire de Paris a Meudon (OBSPM)</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Paris Observatory site</Name>
+        <URL>http://www.obspm.fr/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>Virtual Solar Observatory</Name>
+        <URL>http://www.virtualsolar.org/</URL>
+      </AccessURL>
+      <Format>FITS</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://vspo/instrument/172</InstrumentID>
+    <MeasurementType>ImageIntensity</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2004-10-22T00:00:00</StartDate>
+        <RelativeStopDate>-P3D</RelativeStopDate>
+        <Note>Data are current to within days.</Note>
+      </TimeSpan>
+    </TemporalDescription>
+    <SpectralRange>Optical</SpectralRange>
+    <!--InstrumentRegion=Earth.Surface-->
+    <ObservedRegion>Sun</ObservedRegion>
+    <ObservedRegion>Sun.Photosphere</ObservedRegion>
+  </DisplayData>
+</Spase>

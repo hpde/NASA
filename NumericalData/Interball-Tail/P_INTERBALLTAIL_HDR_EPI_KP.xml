@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_INTERBALLTAIL_HDR_EPI_KP</ResourceID><ResourceHeader><ResourceName>Interball Tail energetic particle 2-min Key Parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Interball Tail energetic proton (22-28 keV, 1-3 MeV) and electron (21-26, 76-95, 150-500 keV) fluxes from DOK-2 and SKA-2 sensors, 2-min key parameters</Description><Contact><PersonID>spase://SMWG/Person/E.I.Morozova</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Karel.Kudela</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/interball/tail/epi</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Interball-1/DOK2</InstrumentID><InstrumentID>spase://SMWG/Instrument/Interball-1/SKA2</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>1995-08-04T00:00:00</StartDate><StopDate>2000-10-16T00:00:00</StopDate></TimeSpan><Cadence>PT2M</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_INTERBALLTAIL_HDR_EPI_KP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Interball Tail energetic particle 2-min Key Parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Interball Tail energetic proton (22-28 keV, 1-3 MeV) and electron (21-26, 76-95, 150-500 keV) fluxes from DOK-2 and SKA-2 sensors, 2-min key parameters</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/E.I.Morozova</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Karel.Kudela</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/interball/tail/epi</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Interball-1/DOK2</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Interball-1/SKA2</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1995-08-04T00:00:00</StartDate>
+        <StopDate>2000-10-16T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT2M</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

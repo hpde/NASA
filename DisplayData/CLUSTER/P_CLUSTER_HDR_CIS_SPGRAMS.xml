@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><DisplayData><ResourceID>spase://vspo/displayData/P_CLUSTER_HDR_CIS_SPGRAMS</ResourceID><ResourceHeader><ResourceName>Cluster CIS Spectrograms</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>6-hour energy-time spectrograms from the CIS/CODIF ion mass spectrometer and the CIS/HIA ion sensor on Clusters 1, 3, 4</Description><Contact><PersonID>spase://SMWG/Person/Henri.Reme</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/CESR</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>CIS home page at CESR, France</Name><URL>http://cluster.cesr.fr:8000/</URL></AccessURL><Format>PNG</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>      <!-- CIS --><InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/CIS</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/CIS</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/CIS</InstrumentID>      <!-- CODIF --><InstrumentID>spase://vspo/instrument/309</InstrumentID><InstrumentID>spase://vspo/instrument/310</InstrumentID><InstrumentID>spase://vspo/instrument/311</InstrumentID>      <!-- HIA --><InstrumentID>spase://vspo/instrument/312</InstrumentID><InstrumentID>spase://vspo/instrument/313</InstrumentID><InstrumentID>spase://vspo/instrument/314</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>IonComposition</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-01-01T00:00:00</StartDate><RelativeStopDate>-P1Y</RelativeStopDate><Note>As of May, 2004, the data were 1 year behind current.</Note></TimeSpan></TemporalDescription>      <!--InstrumentRegion=Earth.Magnetosphere--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></DisplayData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <DisplayData>
+    <ResourceID>spase://vspo/displayData/P_CLUSTER_HDR_CIS_SPGRAMS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster CIS Spectrograms</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>6-hour energy-time spectrograms from the CIS/CODIF ion mass spectrometer and the CIS/HIA ion sensor on Clusters 1, 3, 4</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/CESR</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CIS home page at CESR, France</Name>
+        <URL>http://cluster.cesr.fr:8000/</URL>
+      </AccessURL>
+      <Format>PNG</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <!-- CIS -->
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/CIS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/CIS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/CIS</InstrumentID>
+    <!-- CODIF -->
+    <InstrumentID>spase://vspo/instrument/309</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/310</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/311</InstrumentID>
+    <!-- HIA -->
+    <InstrumentID>spase://vspo/instrument/312</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/313</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/314</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-01-01T00:00:00</StartDate>
+        <RelativeStopDate>-P1Y</RelativeStopDate>
+        <Note>As of May, 2004, the data were 1 year behind current.</Note>
+      </TimeSpan>
+    </TemporalDescription>
+    <!--InstrumentRegion=Earth.Magnetosphere-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </DisplayData>
+</Spase>

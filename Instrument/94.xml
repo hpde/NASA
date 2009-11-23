@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/94</ResourceID><ResourceHeader><ResourceName>SXI</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SXI on GOES12</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SXI on GOES12</InvestigationName><ObservatoryID>spase://SMWG/Observatory/GOES12</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/94</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SXI</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SXI on GOES12</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SXI on GOES12</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES12</ObservatoryID>
+  </Instrument>
+</Spase>

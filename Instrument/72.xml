@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/72</ResourceID><ResourceHeader><ResourceName>SSM Special Sensor Fluxgate Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</InvestigationName><ObservatoryID>spase://SMWG/Observatory/DMSP_5D-2</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/72</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSM Special Sensor Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-2</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_SWICS_UDS_DIGITAL</ResourceID><ResourceHeader><ResourceName>Ulysses SWICS digital data via UDS</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Ulysses SWICS N,V,T for He++, C6+, O6+ and Ne8+, Fe charge state, Fe to O ratio and C6+/C5+ and O7+/O6+ charge state ratios; 3-hr avgs</Description><Contact><PersonID>spase://SMWG/Person/George.Gloeckler</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/UDS</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>annual gzipped-ASCII files from UDS</Name><URL>http://ulysses-ops.esa.int/ulysses/archive/swics.html</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Ulysses/SWICS</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>IonComposition</MeasurementType><TemporalDescription><TimeSpan><StartDate>1990-12-07T00:00:00</StartDate><StopDate>2008-08-31T00:00:00</StopDate></TimeSpan><Cadence>PT3H</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_SWICS_UDS_DIGITAL</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses SWICS digital data via UDS</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Ulysses SWICS N,V,T for He++, C6+, O6+ and Ne8+, Fe charge state, Fe to O ratio and C6+/C5+ and O7+/O6+ charge state ratios; 3-hr avgs</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>annual gzipped-ASCII files from UDS</Name>
+        <URL>http://ulysses-ops.esa.int/ulysses/archive/swics.html</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/SWICS</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1990-12-07T00:00:00</StartDate>
+        <StopDate>2008-08-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT3H</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>

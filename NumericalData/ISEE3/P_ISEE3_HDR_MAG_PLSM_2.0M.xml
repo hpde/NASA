@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ISEE3_HDR_MAG_PLSM_2.0M</ResourceID><ResourceHeader><ResourceName>ISEE 3 2-m merged magnetic field and plasma data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>ISEE 3 2-m merged magnetic field and plasma data, annual ASCII files, L1 orbit phase 1978-1982 (plasma data only to 1980.02.19)</Description><Contact><PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Samuel.J.Bame</PersonID>             <!-- plasma PI --><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/isee3_merged.html</URL></AccessURL><AccessURL><Name>NSSDC's ftp area</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/2_min_merged_mag_plasma/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID><MeasurementType>MagneticField</MeasurementType><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>1978-08-13T00:00:00</StartDate><StopDate>1982-07-27T00:00:00</StopDate></TimeSpan><Cadence>PT2M</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ISEE3_HDR_MAG_PLSM_2.0M</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE 3 2-m merged magnetic field and plasma data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>ISEE 3 2-m merged magnetic field and plasma data, annual ASCII files, L1 orbit phase 1978-1982 (plasma data only to 1980.02.19)</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Samuel.J.Bame</PersonID>
+        <!-- plasma PI -->
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/isee3_merged.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>NSSDC's ftp area</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/2_min_merged_mag_plasma/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1978-08-13T00:00:00</StartDate>
+        <StopDate>1982-07-27T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT2M</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_NOBEYAMA_HDR</ResourceID><ResourceHeader><ResourceName>Nobeyama Radioheliograph Images and Data</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>Nobeyama Radioheliograph images, movies, data, several products, 17 and 34 GHz, polarization; resolutions between 1-min and 1 day</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NSRO</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>Nobeyama Radioheliograph site</Name><URL>http://solar.nro.nao.ac.jp/norh/</URL></AccessURL><Format>FITS</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://vspo/instrument/170</InstrumentID><MeasurementType>ImageIntensity</MeasurementType><TemporalDescription><TimeSpan><StartDate>1992-07-01T00:00:00</StartDate><RelativeStopDate>-P1D</RelativeStopDate><Note>Data are current to within a day.</Note></TimeSpan><Cadence>PT60S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Sun</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_NOBEYAMA_HDR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nobeyama Radioheliograph Images and Data</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>Nobeyama Radioheliograph images, movies, data, several products, 17 and 34 GHz, polarization; resolutions between 1-min and 1 day</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NSRO</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Nobeyama Radioheliograph site</Name>
+        <URL>http://solar.nro.nao.ac.jp/norh/</URL>
+      </AccessURL>
+      <Format>FITS</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://vspo/instrument/170</InstrumentID>
+    <MeasurementType>ImageIntensity</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1992-07-01T00:00:00</StartDate>
+        <RelativeStopDate>-P1D</RelativeStopDate>
+        <Note>Data are current to within a day.</Note>
+      </TimeSpan>
+      <Cadence>PT60S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Sun</ObservedRegion>
+  </NumericalData>
+</Spase>

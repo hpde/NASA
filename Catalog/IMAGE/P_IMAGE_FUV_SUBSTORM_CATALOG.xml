@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><Catalog><ResourceID>spase://vspo/catalog/P_IMAGE_FUV_SUBSTORM_CATALOG</ResourceID><ResourceHeader><ResourceName>IMAGE FUV Substorm Onset Catalog</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>This is a table of times of substorm onsets observed by IMAGE/FUV.  The raw instrument counts in the FUV image with the greatest number of counts at time of onset, the X and Y pixel numbers for this greatest-count pixel, the onset geographic and geomagnetic latitude and longitude angles and local time, and the geocentric distance of IMAGE are also given for each onset.</Description><Contact><PersonID>spase://SMWG/Person/Harald.U.Frey</PersonID><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Steven.B.Mende</PersonID><Role>GeneralContact</Role></Contact><InformationURL><Name>FUV Home Page at UCB</Name><URL>http://sprg.ssl.berkeley.edu/image/</URL><Description>IMAGE/FUV Home Page at UCB</Description></InformationURL></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/UCB</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>Substorm Catalog at UCB</Name><URL>http://sprg.ssl.berkeley.edu/image/wic_summary/substorms/</URL><Description>Substorm Catalog at UCB</Description></AccessURL><Format>Text</Format></AccessInformation><InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID><PhenomenonType>Substorm</PhenomenonType><TimeSpan><StartDate>2000-05-16T00:00:00</StartDate><StopDate>2005-12-18T00:00:00</StopDate></TimeSpan><Keyword>Substorm onsets</Keyword><InputResourceID>UNKNOWN</InputResourceID></Catalog></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <Catalog>
+    <ResourceID>spase://vspo/catalog/P_IMAGE_FUV_SUBSTORM_CATALOG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMAGE FUV Substorm Onset Catalog</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>This is a table of times of substorm onsets observed by IMAGE/FUV.  The raw instrument counts in the FUV image with the greatest number of counts at time of onset, the X and Y pixel numbers for this greatest-count pixel, the onset geographic and geomagnetic latitude and longitude angles and local time, and the geocentric distance of IMAGE are also given for each onset.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Harald.U.Frey</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steven.B.Mende</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>FUV Home Page at UCB</Name>
+        <URL>http://sprg.ssl.berkeley.edu/image/</URL>
+        <Description>IMAGE/FUV Home Page at UCB</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Substorm Catalog at UCB</Name>
+        <URL>http://sprg.ssl.berkeley.edu/image/wic_summary/substorms/</URL>
+        <Description>Substorm Catalog at UCB</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID>
+    <PhenomenonType>Substorm</PhenomenonType>
+    <TimeSpan>
+      <StartDate>2000-05-16T00:00:00</StartDate>
+      <StopDate>2005-12-18T00:00:00</StopDate>
+    </TimeSpan>
+    <Keyword>Substorm onsets</Keyword>
+    <InputResourceID>UNKNOWN</InputResourceID>
+  </Catalog>
+</Spase>

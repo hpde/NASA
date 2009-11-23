@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><DisplayData><ResourceID>spase://vspo/displayData/P_IMAGE_HDR_FUV-SIE_124S</ResourceID><ResourceHeader><ResourceName>IMAGE FUV SIE Auroral Images, Key Parameters</ResourceName><ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate><Description>Electron Auroral Images at 1356A, Key Parameters, IMAGE Far UltraViolet (FUV) Spectrographic Imaging camera Electrons (SIE)</Description><Contact><PersonID>spase://SMWG/Person/Steven.B.Mende</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/sie</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID><MeasurementType>ImageIntensity</MeasurementType><TemporalDescription><TimeSpan><StartDate>2000-04-25T00:00:00</StartDate><StopDate>2005-12-18T00:00:00</StopDate></TimeSpan></TemporalDescription><SpectralRange>Ultraviolet</SpectralRange><DisplayCadence>PT124S</DisplayCadence>      <!--InstrumentRegion=Earth.Magnetosphere--><ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion></DisplayData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <DisplayData>
+    <ResourceID>spase://vspo/displayData/P_IMAGE_HDR_FUV-SIE_124S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMAGE FUV SIE Auroral Images, Key Parameters</ResourceName>
+      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+      <Description>Electron Auroral Images at 1356A, Key Parameters, IMAGE Far UltraViolet (FUV) Spectrographic Imaging camera Electrons (SIE)</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Steven.B.Mende</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/sie</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID>
+    <MeasurementType>ImageIntensity</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-04-25T00:00:00</StartDate>
+        <StopDate>2005-12-18T00:00:00</StopDate>
+      </TimeSpan>
+    </TemporalDescription>
+    <SpectralRange>Ultraviolet</SpectralRange>
+    <DisplayCadence>PT124S</DisplayCadence>
+    <!--InstrumentRegion=Earth.Magnetosphere-->
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+  </DisplayData>
+</Spase>

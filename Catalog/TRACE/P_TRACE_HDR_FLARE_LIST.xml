@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><Catalog><ResourceID>spase://vspo/catalog/P_TRACE_HDR_FLARE_LIST</ResourceID><ResourceHeader><ResourceName>TRACE Flare Catalog</ResourceName><ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate><Description>TRACE flare catalog, with links to TRACE images and movies and to flare-specific data from other sources</Description><Contact><PersonID>Solar and Stellar X-ray Group at SAO, http://hea-www.harvard.edu/SSXG/</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/SAO</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>SAO/Harvard</Name><URL>http://hea-www.harvard.edu/trace/flare_catalog/</URL></AccessURL><Format>Text</Format></AccessInformation>      <!-- &amp;amp;amp;lt;ProviderProcessingLevel&amp;amp;amp;gt;CALIBRATED&amp;amp;amp;lt;/ProviderProcessingLevel&amp;amp;amp;gt; -->      <!-- UNKNOWN Instrument ID         &amp;amp;amp;lt;OBSERVATORY&amp;amp;amp;gt;TRACE&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      --><PhenomenonType>SolarFlare</PhenomenonType><TimeSpan><StartDate>1998-11-22T00:00:00</StartDate><StopDate>2003-11-04T00:00:00</StopDate></TimeSpan>      <!-- &amp;amp;amp;lt;SpectralRange&amp;amp;amp;gt;Ultraviolet&amp;amp;amp;lt;/SpectralRange&amp;amp;amp;gt;      &amp;amp;amp;lt;InstrumentRegion&amp;amp;amp;gt;Earth.NearSurface&amp;amp;amp;lt;/InstrumentRegion&amp;amp;amp;gt;      &amp;amp;amp;lt;ObservedRegion&amp;amp;amp;gt;Sun&amp;amp;amp;lt;/ObservedRegion&amp;amp;amp;gt; --><InputResourceID>UNKNOWN</InputResourceID></Catalog></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <Catalog>
+    <ResourceID>spase://vspo/catalog/P_TRACE_HDR_FLARE_LIST</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TRACE Flare Catalog</ResourceName>
+      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+      <Description>TRACE flare catalog, with links to TRACE images and movies and to flare-specific data from other sources</Description>
+      <Contact>
+        <PersonID>Solar and Stellar X-ray Group at SAO, http://hea-www.harvard.edu/SSXG/</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SAO</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>SAO/Harvard</Name>
+        <URL>http://hea-www.harvard.edu/trace/flare_catalog/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <!-- &amp;amp;amp;lt;ProviderProcessingLevel&amp;amp;amp;gt;CALIBRATED&amp;amp;amp;lt;/ProviderProcessingLevel&amp;amp;amp;gt; -->
+    <!-- UNKNOWN Instrument ID         &amp;amp;amp;lt;OBSERVATORY&amp;amp;amp;gt;TRACE&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      -->
+    <PhenomenonType>SolarFlare</PhenomenonType>
+    <TimeSpan>
+      <StartDate>1998-11-22T00:00:00</StartDate>
+      <StopDate>2003-11-04T00:00:00</StopDate>
+    </TimeSpan>
+    <!-- &amp;amp;amp;lt;SpectralRange&amp;amp;amp;gt;Ultraviolet&amp;amp;amp;lt;/SpectralRange&amp;amp;amp;gt;      &amp;amp;amp;lt;InstrumentRegion&amp;amp;amp;gt;Earth.NearSurface&amp;amp;amp;lt;/InstrumentRegion&amp;amp;amp;gt;      &amp;amp;amp;lt;ObservedRegion&amp;amp;amp;gt;Sun&amp;amp;amp;lt;/ObservedRegion&amp;amp;amp;gt; -->
+    <InputResourceID>UNKNOWN</InputResourceID>
+  </Catalog>
+</Spase>

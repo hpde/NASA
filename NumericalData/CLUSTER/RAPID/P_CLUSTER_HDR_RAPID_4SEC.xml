@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_RAPID_4SEC</ResourceID><ResourceHeader><ResourceName>Cluster RAPID 4-sec Electron and Proton Fluxes</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Cluster RAPID Electron (20-400 keV) and Proton (40-1500 keV) fluxes in PAPCO-input IDL savesets and in PAPCO-produced zipped ASCII</Description><Contact><PersonID>spase://SMWG/Person/Peter.W.Daly</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/LANL</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in zipped ASCII from CCR site at LANL</Name><URL>http://leadbelly.lanl.gov/ccr/CCR_ftp_sites.html</URL></AccessURL><AccessURL><Name>as IDL saveset from CCR site at LANL</Name><URL>http://leadbelly.lanl.gov/ccr/level2-data/cgi-bin/get_ccr_digital.cgi</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/RAPID</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/RAPID</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/RAPID</InstrumentID><InstrumentID>sspase://SMWG/Instrument/Cluster2-Tango/RAPID</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-02-01T00:00:00</StartDate><RelativeStopDate>-P9M</RelativeStopDate><Note>As of February, 2006, data were about 9 months behind current.</Note></TimeSpan><Cadence>PT4.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_RAPID_4SEC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster RAPID 4-sec Electron and Proton Fluxes</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Cluster RAPID Electron (20-400 keV) and Proton (40-1500 keV) fluxes in PAPCO-input IDL savesets and in PAPCO-produced zipped ASCII</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.W.Daly</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in zipped ASCII from CCR site at LANL</Name>
+        <URL>http://leadbelly.lanl.gov/ccr/CCR_ftp_sites.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>as IDL saveset from CCR site at LANL</Name>
+        <URL>http://leadbelly.lanl.gov/ccr/level2-data/cgi-bin/get_ccr_digital.cgi</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/RAPID</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/RAPID</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/RAPID</InstrumentID>
+    <InstrumentID>sspase://SMWG/Instrument/Cluster2-Tango/RAPID</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-02-01T00:00:00</StartDate>
+        <RelativeStopDate>-P9M</RelativeStopDate>
+        <Note>As of February, 2006, data were about 9 months behind current.</Note>
+      </TimeSpan>
+      <Cadence>PT4.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/363</ResourceID><ResourceHeader><ResourceName>XRS</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>X-Ray Sensor on GOES11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>X-Ray Sensor on GOES11</InvestigationName><ObservatoryID>spase://SMWG/Observatory/GOES11</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/363</ResourceID>
+    <ResourceHeader>
+      <ResourceName>XRS</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>X-Ray Sensor on GOES11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>X-Ray Sensor on GOES11</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES11</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/262</ResourceID><ResourceHeader><ResourceName>STICS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>STICS on WIND</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>STICS on WIND</InvestigationName><ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/262</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STICS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>STICS on WIND</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>STICS on WIND</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+  </Instrument>
+</Spase>

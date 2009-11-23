@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_IMPPARAMS_HDR_II</ResourceID><ResourceHeader><ResourceName>ISEE 3 - IMP 8 Impact Parameters</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>ISEE 3 - IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description><Contact><PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/impact_ii.html</URL></AccessURL><AccessURL><Name>hourly and daily values via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/miscellaneous/orbits/impact_parameters/imp_isee3/</URL></AccessURL><Format>Text</Format></AccessInformation>      <!-- UNKNOWN - Instrument ID      &amp;amp;amp;lt;InstrumentID&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;IMP8&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;ISEE3&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      &amp;amp;amp;lt;/InstrumentID&amp;amp;amp;gt;      --><MeasurementType>Ephemeris</MeasurementType><TemporalDescription><TimeSpan><StartDate>1978-08-16T00:00:00</StartDate><StopDate>1984-01-31T00:00:00</StopDate></TimeSpan><Cadence>PT3600.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_IMPPARAMS_HDR_II</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE 3 - IMP 8 Impact Parameters</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>ISEE 3 - IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/impact_ii.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>hourly and daily values via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/miscellaneous/orbits/impact_parameters/imp_isee3/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <!-- UNKNOWN - Instrument ID      &amp;amp;amp;lt;InstrumentID&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;IMP8&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;ISEE3&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      &amp;amp;amp;lt;/InstrumentID&amp;amp;amp;gt;      -->
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1978-08-16T00:00:00</StartDate>
+        <StopDate>1984-01-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT3600.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

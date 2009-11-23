@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_PION10_HDR_MAG_15MIN</ResourceID><ResourceHeader><ResourceName>Pioneer 10 Magnetometer 15-min data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Pioneer 10 15-min averaged magnetic field vectors in RTN coordinates, with covariances, cruise phase, ASCII</Description><Contact><PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in ASCII via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/pioneer/pioneer10/mag/ip_15min_ascii/data</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Pioneer10/MAG</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>1972-03-03T00:00:00</StartDate><StopDate>1975-11-17T00:00:00</StopDate></TimeSpan><Cadence>PT900.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_PION10_HDR_MAG_15MIN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pioneer 10 Magnetometer 15-min data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Pioneer 10 15-min averaged magnetic field vectors in RTN coordinates, with covariances, cruise phase, ASCII</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in ASCII via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/pioneer/pioneer10/mag/ip_15min_ascii/data</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Pioneer10/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1972-03-03T00:00:00</StartDate>
+        <StopDate>1975-11-17T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT900.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>

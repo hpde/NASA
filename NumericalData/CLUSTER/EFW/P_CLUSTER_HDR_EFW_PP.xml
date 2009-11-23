@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_EFW_PP</ResourceID><ResourceHeader><ResourceName>Cluster EFW Prime Parameter Data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Cluster EFW 4-sec electric field spectral density at 0.3-10 and 10-180 Hz, duskward electric field</Description><Contact><PersonID>spase://SMWG/Person/Mats.Andre</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/EFW</InstrumentID><MeasurementType>ElectricField</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-01-01T00:00:00</StartDate><StopDate>2004-10-31T00:00:00</StopDate><Note>Data extended through October, 2004, as of February, 2006.</Note></TimeSpan><Cadence>PT4S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_EFW_PP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster EFW Prime Parameter Data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Cluster EFW 4-sec electric field spectral density at 0.3-10 and 10-180 Hz, duskward electric field</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mats.Andre</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/EFW</InstrumentID>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-01-01T00:00:00</StartDate>
+        <StopDate>2004-10-31T00:00:00</StopDate>
+        <Note>Data extended through October, 2004, as of February, 2006.</Note>
+      </TimeSpan>
+      <Cadence>PT4S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

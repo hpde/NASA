@@ -1,2 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_SAMPEX_HDR_CDAWEB</ResourceID><ResourceHeader><ResourceName>SAMPEX Fluxes, all instruments</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>30-s and polar cap averaged fluxes, all instruments, CDAWeb</Description><Contact><PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/R.Parthasarathy</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/sampex/</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/SAMPEX/MAST</InstrumentID><InstrumentID>spase://SMWG/Instrument/SAMPEX/HILT</InstrumentID><InstrumentID>spase://SMWG/Instrument/SAMPEX/PET</InstrumentID><InstrumentID>spase://SMWG/Instrument/SAMPEX/LICA</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><MeasurementType>IonComposition</MeasurementType><TemporalDescription><TimeSpan><StartDate>1992-07-06T00:00:00</StartDate><RelativeStopDate>-P3M</RelativeStopDate><Note>Data are current to within 2-3 months; data are expected to flow until mid-2004.</Note></TimeSpan><Cadence>PT30.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_SAMPEX_HDR_CDAWEB</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SAMPEX Fluxes, all instruments</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>30-s and polar cap averaged fluxes, all instruments, CDAWeb</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Parthasarathy</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/sampex/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/SAMPEX/MAST</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/SAMPEX/HILT</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/SAMPEX/PET</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/SAMPEX/LICA</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1992-07-06T00:00:00</StartDate>
+        <RelativeStopDate>-P3M</RelativeStopDate>
+        <Note>Data are current to within 2-3 months; data are expected to flow until mid-2004.</Note>
+      </TimeSpan>
+      <Cadence>PT30.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_CLUSTER1_HDR_PEACE_60S</ResourceID><ResourceHeader><ResourceName>Cluster PEACE Summary Parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Cluster PEACE (Plasma Electron And Current Experiment) Summary Parameters</Description><Contact><PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/cl/sp/pea</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/PEACE</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-02-01T00:00:00</StartDate><StopDate>2002-12-25T00:00:00</StopDate><Note>As of February 2006, most recent data were for October 2004.</Note></TimeSpan><Cadence>PT60S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_CLUSTER1_HDR_PEACE_60S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster PEACE Summary Parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Cluster PEACE (Plasma Electron And Current Experiment) Summary Parameters</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/cl/sp/pea</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/PEACE</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-02-01T00:00:00</StartDate>
+        <StopDate>2002-12-25T00:00:00</StopDate>
+        <Note>As of February 2006, most recent data were for October 2004.</Note>
+      </TimeSpan>
+      <Cadence>PT60S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

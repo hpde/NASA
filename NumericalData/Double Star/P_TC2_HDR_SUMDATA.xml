@@ -1,2 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_TC2_HDR_SUMDATA</ResourceID><ResourceHeader><ResourceName>Double Star 1-Min Summary Parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>1-min summary parameters from Double Star TC1 and TC2 spacecraft, all instruments with various time coverages, plus spacecraft positions and separations and spin axis directions</Description><Contact><PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>             <!-- ASPOC --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/C.Carr</PersonID>             <!-- FGM --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>             <!-- PEACE --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Henri.Reme</PersonID>             <!-- HIA_CIS --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Nicole.Cornilleau-Wehrlin</PersonID>             <!-- STAFF and DWP --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/W.Zhang</PersonID>             <!-- HEED --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/J.Liang</PersonID>             <!-- HEPD --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Y.Zhai</PersonID>             <!-- HID --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Susan.M.P.McKenna-Lawlor</PersonID>             <!-- NUADU --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Q.Ren</PersonID>             <!-- LEID --><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Z.Wang</PersonID>             <!-- LFEW --><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/CSDS</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>Summary Data site at RAL/UK</Name><URL>http://www.cluster.rl.ac.uk/dpub-query/output_form?SUMMARY=1</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/DoubleStar1/ASPOC</InstrumentID><InstrumentID>spase://vspo/instrument/317</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/FGM</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/HEED</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/HEPD</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/HIA</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/HID</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/PEACE</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar1/STAFF-DWP</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/FGM</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/HEED</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/HEPD</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/HID</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/LEID</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/LFEW</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/NUADU</InstrumentID><InstrumentID>spase://SMWG/Instrument/DoubleStar2/PEACE</InstrumentID><MeasurementType>MagneticField</MeasurementType><MeasurementType>ElectricField</MeasurementType><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>2004-01-01T00:00:00</StartDate><RelativeStopDate>-P14D</RelativeStopDate><Note>Some TC1 (near-equatorial spacecraft) data are current to within about two weeks.  As of 8/17/04, very little TC2 (near-polar spacecraft) data had begun to appear.</Note></TimeSpan><Cadence>PT1M</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_TC2_HDR_SUMDATA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Double Star 1-Min Summary Parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>1-min summary parameters from Double Star TC1 and TC2 spacecraft, all instruments with various time coverages, plus spacecraft positions and separations and spin axis directions</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>
+        <!-- ASPOC -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/C.Carr</PersonID>
+        <!-- FGM -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
+        <!-- PEACE -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
+        <!-- HIA_CIS -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nicole.Cornilleau-Wehrlin</PersonID>
+        <!-- STAFF and DWP -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/W.Zhang</PersonID>
+        <!-- HEED -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Liang</PersonID>
+        <!-- HEPD -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Y.Zhai</PersonID>
+        <!-- HID -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Susan.M.P.McKenna-Lawlor</PersonID>
+        <!-- NUADU -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Q.Ren</PersonID>
+        <!-- LEID -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Z.Wang</PersonID>
+        <!-- LFEW -->
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/CSDS</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Summary Data site at RAL/UK</Name>
+        <URL>http://www.cluster.rl.ac.uk/dpub-query/output_form?SUMMARY=1</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/ASPOC</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/317</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/FGM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HEED</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HEPD</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HIA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HID</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/PEACE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/STAFF-DWP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/FGM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/HEED</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/HEPD</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/HID</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/LEID</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/LFEW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/NUADU</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/PEACE</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ElectricField</MeasurementType>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2004-01-01T00:00:00</StartDate>
+        <RelativeStopDate>-P14D</RelativeStopDate>
+        <Note>Some TC1 (near-equatorial spacecraft) data are current to within about two weeks.  As of 8/17/04, very little TC2 (near-polar spacecraft) data had begun to appear.</Note>
+      </TimeSpan>
+      <Cadence>PT1M</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

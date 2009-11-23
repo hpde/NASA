@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ACE_HDR_POS_720S</ResourceID><ResourceHeader><ResourceName>ACE GSE 12-min Position Data</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>ACE GSE Positions at 12 min resolution</Description><Contact><PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/or_ssc</URL></AccessURL><AccessURL><Name>Satellite Situation Center</Name><URL>http://sscweb.gsfc.nasa.gov</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><MeasurementType>Ephemeris</MeasurementType><TemporalDescription><TimeSpan><StartDate>1997-08-26T00:00:00</StartDate><RelativeStopDate>-P2M</RelativeStopDate><Note>Data are current to within about 2 months.</Note></TimeSpan><Cadence>PT720S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ACE_HDR_POS_720S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE GSE 12-min Position Data</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>ACE GSE Positions at 12 min resolution</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/or_ssc</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>Satellite Situation Center</Name>
+        <URL>http://sscweb.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1997-08-26T00:00:00</StartDate>
+        <RelativeStopDate>-P2M</RelativeStopDate>
+        <Note>Data are current to within about 2 months.</Note>
+      </TimeSpan>
+      <Cadence>PT720S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

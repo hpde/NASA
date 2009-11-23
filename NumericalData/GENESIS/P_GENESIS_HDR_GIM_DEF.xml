@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_GENESIS_HDR_GIM_DEF</ResourceID><ResourceHeader><ResourceName>Genesis Ion Monitor definitive ion parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Genesis GIM ion bulk density, velocity, temperature, alpha to proton ratio</Description><Contact><PersonID>spase://SMWG/Person/Roger.Wiens</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/LANL</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>Genesis site at LANL, ASCII and HDF5</Name><URL>ftp://nis-ftp.lanl.gov/pub/projects/genesis/3dmom/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Genesis/GIM-GEM</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-08-08T00:00:00</StartDate><StopDate>2003-05-31T00:00:00</StopDate></TimeSpan><Cadence>PT150.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_GENESIS_HDR_GIM_DEF</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Genesis Ion Monitor definitive ion parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Genesis GIM ion bulk density, velocity, temperature, alpha to proton ratio</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roger.Wiens</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Genesis site at LANL, ASCII and HDF5</Name>
+        <URL>ftp://nis-ftp.lanl.gov/pub/projects/genesis/3dmom/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Genesis/GIM-GEM</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-08-08T00:00:00</StartDate>
+        <StopDate>2003-05-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT150.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_IMPPARAMS_HDR_IWAG</ResourceID><ResourceHeader><ResourceName>ACE Wind Genesis IMP 8 Impact Parameters</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>ACE Wind Genesis IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description><Contact><PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/impact_iwag.html</URL></AccessURL><AccessURL><Name>hourly and daily values via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/miscellaneous/orbits/impact_parameters/imp_wind_ace_genesis/</URL></AccessURL><Format>Text</Format></AccessInformation>      <!-- UNKNOWN - which instruments?      &amp;amp;amp;lt;InstrumentID&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;IMP8&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;WIND&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;ACE&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;GENESIS&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      &amp;amp;amp;lt;/InstrumentID&amp;amp;amp;gt;      --><MeasurementType>Ephemeris</MeasurementType><TemporalDescription><TimeSpan><StartDate>1994-11-16T00:00:00</StartDate><RelativeStopDate>-P1M</RelativeStopDate><Note>Data are periodically updated.  As of mid-January, 2006, data ran to the end of 2005.</Note></TimeSpan><Cadence>PT3600.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_IMPPARAMS_HDR_IWAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE Wind Genesis IMP 8 Impact Parameters</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>ACE Wind Genesis IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/impact_iwag.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>hourly and daily values via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/miscellaneous/orbits/impact_parameters/imp_wind_ace_genesis/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <!-- UNKNOWN - which instruments?      &amp;amp;amp;lt;InstrumentID&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;IMP8&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;WIND&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;ACE&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;         &amp;amp;amp;lt;OBSERVATORY xmlns=""&amp;amp;amp;gt;GENESIS&amp;amp;amp;lt;/OBSERVATORY&amp;amp;amp;gt;      &amp;amp;amp;lt;/InstrumentID&amp;amp;amp;gt;      -->
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1994-11-16T00:00:00</StartDate>
+        <RelativeStopDate>-P1M</RelativeStopDate>
+        <Note>Data are periodically updated.  As of mid-January, 2006, data ran to the end of 2005.</Note>
+      </TimeSpan>
+      <Cadence>PT3600.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

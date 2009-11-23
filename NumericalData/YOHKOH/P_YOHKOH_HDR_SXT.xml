@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_YOHKOH_HDR_SXT</ResourceID><ResourceHeader><ResourceName>Yohkoh SXT Solar Images</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Yohkoh SXT (Soft X ray Telescope) Solar Images. SXT had the following design capabilities: effective area: 78 sq. mm at 8 A, dynamic range &gt; 10**7, time resolution of 0.5 to 2 s, angular resolution &lt; 3 arc s FWHM at 8 A, spectral range 3 - 45 A</Description><Contact><PersonID>spase://SMWG/Person/Tadashi.Hirayama</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Loren.W.Acton</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/MSU</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>via ftp from Montana</Name><URL>ftp://mithra.physics.montana.edu/pub/yoarch/weekdirs/</URL></AccessURL><AccessURL><Name>from Montana via VSO</Name><URL>http://www.virtualsolar.org</URL></AccessURL><Format>FITS</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID><MeasurementType>ImageIntensity</MeasurementType><TemporalDescription><TimeSpan><StartDate>1991-09-03T00:00:00</StartDate><StopDate>2000-12-14T00:00:00</StopDate></TimeSpan></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Sun</ObservedRegion><ObservedRegion>Sun.Corona</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_YOHKOH_HDR_SXT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Yohkoh SXT Solar Images</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Yohkoh SXT (Soft X ray Telescope) Solar Images. SXT had the following design capabilities: effective area: 78 sq. mm at 8 A, dynamic range &gt; 10**7, time resolution of 0.5 to 2 s, angular resolution &lt; 3 arc s FWHM at 8 A, spectral range 3 - 45 A</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tadashi.Hirayama</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Loren.W.Acton</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/MSU</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>via ftp from Montana</Name>
+        <URL>ftp://mithra.physics.montana.edu/pub/yoarch/weekdirs/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>from Montana via VSO</Name>
+        <URL>http://www.virtualsolar.org</URL>
+      </AccessURL>
+      <Format>FITS</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID>
+    <MeasurementType>ImageIntensity</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1991-09-03T00:00:00</StartDate>
+        <StopDate>2000-12-14T00:00:00</StopDate>
+      </TimeSpan>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Sun</ObservedRegion>
+    <ObservedRegion>Sun.Corona</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_IMAGE_HDR_THRU_GSFC_PROJ_PAGE</ResourceID><ResourceHeader><ResourceName>IMAGE s/c data, all instruments</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Data at multiple processing levels from all IMAGE instruments</Description><Contact><PersonID>spase://SMWG/Person/James.L.Burch</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/James.L.Green</PersonID><Role>DataProducer</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>IMAGE Project Page</Name><URL>http://image.gsfc.nasa.gov</URL></AccessURL><Format>UDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED and UNCALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/IMAGE/LENA</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMAGE/MENA</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMAGE/HENA</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMAGE/EUV</InstrumentID><MeasurementType>Waves.Passive</MeasurementType><MeasurementType>Waves.Passive</MeasurementType><MeasurementType>Waves.Passive</MeasurementType><MeasurementType>Waves.Passive</MeasurementType><TemporalDescription><TimeSpan><StartDate>2000-05-01T00:00:00</StartDate><RelativeStopDate>-P7D</RelativeStopDate><Note>Data are current to within a week</Note></TimeSpan></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion><ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_IMAGE_HDR_THRU_GSFC_PROJ_PAGE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMAGE s/c data, all instruments</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Data at multiple processing levels from all IMAGE instruments</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.L.Green</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>IMAGE Project Page</Name>
+        <URL>http://image.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <Format>UDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED and UNCALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/LENA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/MENA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/HENA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMAGE/EUV</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2000-05-01T00:00:00</StartDate>
+        <RelativeStopDate>-P7D</RelativeStopDate>
+        <Note>Data are current to within a week</Note>
+      </TimeSpan>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_IMP8_HDR_EECA_NSSDC</ResourceID><ResourceHeader><ResourceName>IMP 8 UMD 11-min fluxes</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>IMP8 U. Maryland 11-min energetic particle fluxes</Description><Contact><PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in ASCII via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/imp/imp8/particles_umd/11min_ascii/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/IMP8/EECA</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>1973-11-01T00:00:00</StartDate><StopDate>2001-10-26T00:00:00</StopDate></TimeSpan><Cadence>PT660S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_IMP8_HDR_EECA_NSSDC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMP 8 UMD 11-min fluxes</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>IMP8 U. Maryland 11-min energetic particle fluxes</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in ASCII via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/imp/imp8/particles_umd/11min_ascii/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/IMP8/EECA</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1973-11-01T00:00:00</StartDate>
+        <StopDate>2001-10-26T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT660S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_SDIC_HDR_SIDC_SUNSPOT_NUMBERS</ResourceID><ResourceHeader><ResourceName>Sunspot Numbers</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>Daily and monthly sunspot numbers</Description><Contact><PersonID>spase://SMWG/Person/Ronald.Vanderlinden</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/SIDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>World Data Center for the Sunspot Index, Royal Observatory of Belgium</Name><URL>http://sidc.oma.be/html/sunspot.html</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID/><MeasurementType>ActivityIndex</MeasurementType><TemporalDescription><TimeSpan><StartDate>1700-01-01T00:00:00</StartDate><RelativeStopDate>-P1M</RelativeStopDate><Note>Data are available to end of most recent whole month.</Note></TimeSpan><Cadence>PT86400.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Sun</ObservedRegion><ObservedRegion>Sun.Photosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_SDIC_HDR_SIDC_SUNSPOT_NUMBERS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Sunspot Numbers</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>Daily and monthly sunspot numbers</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ronald.Vanderlinden</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SIDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>World Data Center for the Sunspot Index, Royal Observatory of Belgium</Name>
+        <URL>http://sidc.oma.be/html/sunspot.html</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID/>
+    <MeasurementType>ActivityIndex</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1700-01-01T00:00:00</StartDate>
+        <RelativeStopDate>-P1M</RelativeStopDate>
+        <Note>Data are available to end of most recent whole month.</Note>
+      </TimeSpan>
+      <Cadence>PT86400.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Sun</ObservedRegion>
+    <ObservedRegion>Sun.Photosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

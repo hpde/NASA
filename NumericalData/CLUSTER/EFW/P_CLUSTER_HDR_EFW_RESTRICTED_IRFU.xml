@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_EFW_RESTRICTED_IRFU</ResourceID><ResourceHeader><ResourceName>Cluster EFW Spinfit Data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Cluster EFW 5.15-sec spinfit digital electric field data</Description><Contact><PersonID>spase://SMWG/Person/Mats.Andre</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/IRFU</RepositoryID><Availability>Online</Availability><AccessRights>Restricted</AccessRights><AccessURL><Name>Swedish Institute of Space Physics, Uppsala</Name><URL>http://cluster.irfu.se/efw/data/</URL></AccessURL><Format>PDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/EFW</InstrumentID><InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/EFW</InstrumentID><MeasurementType>ElectricField</MeasurementType><TemporalDescription><TimeSpan><StartDate>2001-01-01T00:00:00</StartDate><StopDate>2001-12-31T00:00:00</StopDate><Note>Data did not extend beyond 2001 as of mid-June, 2005.</Note></TimeSpan><Cadence>PT5.15S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_CLUSTER_HDR_EFW_RESTRICTED_IRFU</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster EFW Spinfit Data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Cluster EFW 5.15-sec spinfit digital electric field data</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mats.Andre</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/IRFU</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Restricted</AccessRights>
+      <AccessURL>
+        <Name>Swedish Institute of Space Physics, Uppsala</Name>
+        <URL>http://cluster.irfu.se/efw/data/</URL>
+      </AccessURL>
+      <Format>PDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/EFW</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/EFW</InstrumentID>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2001-01-01T00:00:00</StartDate>
+        <StopDate>2001-12-31T00:00:00</StopDate>
+        <Note>Data did not extend beyond 2001 as of mid-June, 2005.</Note>
+      </TimeSpan>
+      <Cadence>PT5.15S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

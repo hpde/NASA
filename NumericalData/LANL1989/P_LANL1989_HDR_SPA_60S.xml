@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_LANL1989_HDR_SPA_60S</ResourceID><ResourceHeader><ResourceName>LANL1989 SPA 1-min Key Parameters</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>LANL1989 Synchronous Orbit Particle Analyzer 1-min key parameters - densities, temperatures, fluxes for 50-225 and 315-1500 keV electrons and for 50-400 keV and 1.2-5.0 MeV protons, also higher Z data</Description><Contact><PersonID>spase://SMWG/Person/Eric.Dors</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/lanl/89_spa</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://vspo/instrument/152</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>1992-08-01T00:00:00</StartDate><StopDate>2002-12-01T00:00:00</StopDate></TimeSpan><Cadence>PT60S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_LANL1989_HDR_SPA_60S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LANL1989 SPA 1-min Key Parameters</ResourceName>
+      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+      <Description>LANL1989 Synchronous Orbit Particle Analyzer 1-min key parameters - densities, temperatures, fluxes for 50-225 and 315-1500 keV electrons and for 50-400 keV and 1.2-5.0 MeV protons, also higher Z data</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/lanl/89_spa</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://vspo/instrument/152</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1992-08-01T00:00:00</StartDate>
+        <StopDate>2002-12-01T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT60S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+  </NumericalData>
+</Spase>

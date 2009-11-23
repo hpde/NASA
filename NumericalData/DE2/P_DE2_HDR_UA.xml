@@ -1,2 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_DE2_HDR_UA</ResourceID><ResourceHeader><ResourceName>DE-2 16-s Unified Abstract data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Dynamics Explorer (DE)-2 16-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description><Contact><PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/ae_de2.html</URL></AccessURL><AccessURL><Name>via ftp download</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/combined_plasma_neutrals_ua/ua_16s_ascii/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/RPA</InstrumentID><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/IDM</InstrumentID><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/WATS</InstrumentID><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/LANG</InstrumentID><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/FPI</InstrumentID><InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/NACS</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>NeutralGas</MeasurementType><TemporalDescription><TimeSpan><StartDate>1981-08-06T00:00:00</StartDate><StopDate>1983-02-15T00:00:00</StopDate></TimeSpan><Cadence>PT16S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion><ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_DE2_HDR_UA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DE-2 16-s Unified Abstract data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Dynamics Explorer (DE)-2 16-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/ae_de2.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>via ftp download</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/combined_plasma_neutrals_ua/ua_16s_ascii/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/RPA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/IDM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/WATS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/LANG</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/FPI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/NACS</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>NeutralGas</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1981-08-06T00:00:00</StartDate>
+        <StopDate>1983-02-15T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT16S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

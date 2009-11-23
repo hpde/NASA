@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_PROGNOZ6_HDR_MAG_10S</ResourceID><ResourceHeader><ResourceName>Prognoz6 10-s magnetic field data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Prognoz6 10-s magnetic field data in GSE and GSM</Description><Contact><PersonID>spase://SMWG/Person/Vladislav.M.Petrov</PersonID><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Evgeniya.A.Eroshenko</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/prognoz6.html</URL></AccessURL><AccessURL><Name>ftp site at NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/prognoz/prognoz6/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Prognoz6/MAG</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>1977-09-26T00:00:00</StartDate><StopDate>1978-01-22T00:00:00</StopDate></TimeSpan><Cadence>PT10.24S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_PROGNOZ6_HDR_MAG_10S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Prognoz6 10-s magnetic field data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Prognoz6 10-s magnetic field data in GSE and GSM</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vladislav.M.Petrov</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Evgeniya.A.Eroshenko</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/prognoz6.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>ftp site at NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/prognoz/prognoz6/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Prognoz6/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-26T00:00:00</StartDate>
+        <StopDate>1978-01-22T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT10.24S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_POLAR_HDR_EFI_6S</ResourceID><ResourceHeader><ResourceName>Polar EFI 6-sec Key Parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Polar EFI (Electric Field Instrument) key parameters, 6-sec field components and spectral densities at 3 frequencies</Description><Contact><PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/efi</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/POLAR/EFI</InstrumentID><MeasurementType>ElectricField</MeasurementType><TemporalDescription><TimeSpan><StartDate>1996-03-15T00:00:00</StartDate><StopDate>2008-04-16T00:00:00</StopDate></TimeSpan><Cadence>PT6S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.Magnetosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_POLAR_HDR_EFI_6S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar EFI 6-sec Key Parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Polar EFI (Electric Field Instrument) key parameters, 6-sec field components and spectral densities at 3 frequencies</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/efi</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/POLAR/EFI</InstrumentID>
+    <MeasurementType>ElectricField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1996-03-15T00:00:00</StartDate>
+        <StopDate>2008-04-16T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT6S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

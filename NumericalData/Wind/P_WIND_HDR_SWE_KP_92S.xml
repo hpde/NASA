@@ -1,2 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_WIND_HDR_SWE_KP_92S</ResourceID><ResourceHeader><ResourceName>Wind SWE 92-s Proton Key Parameters</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Wind SWE 92-s and 1-h proton density, thermal speed and flow velocity, key parameters</Description><Contact><PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID><Role>CoInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/MIT_CSR</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>in ASCII via ftp from MIT, also 27-d plots</Name><URL>ftp://space.mit.edu/pub/plasma/wind/kp_files/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>1994-11-17T00:00:00</StartDate><RelativeStopDate>-P21D</RelativeStopDate><Note>Data are current to within weeks.</Note></TimeSpan><Cadence>PT92.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_WIND_HDR_SWE_KP_92S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Wind SWE 92-s Proton Key Parameters</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Wind SWE 92-s and 1-h proton density, thermal speed and flow velocity, key parameters</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/MIT_CSR</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>in ASCII via ftp from MIT, also 27-d plots</Name>
+        <URL>ftp://space.mit.edu/pub/plasma/wind/kp_files/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1994-11-17T00:00:00</StartDate>
+        <RelativeStopDate>-P21D</RelativeStopDate>
+        <Note>Data are current to within weeks.</Note>
+      </TimeSpan>
+      <Cadence>PT92.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

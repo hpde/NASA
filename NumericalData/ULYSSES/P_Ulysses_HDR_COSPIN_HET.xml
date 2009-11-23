@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_COSPIN_HET</ResourceID><ResourceHeader><ResourceName>Ulysses COSPIN HET 5-92 MeV, 10-min Proton Fluxes</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>10-min proton (5-92 MeV in 5 channels, &gt;92 MeV), electron (1-10 MeV, 3 channels) and Z&gt;=3 (26-173 MeV/n, 4 channels) count rates, from the High Energy Telescope (HET) of the COSPIN investigation on Ulysses.</Description><Contact><PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov</URL></AccessURL><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/het/</URL></AccessURL><AccessURL><Name>in ASCII via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/het/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID><InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>1990-10-23T00:00:00</StartDate><StopDate>2008-08-31T00:00:00</StopDate></TimeSpan><Cadence>PT10M</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_COSPIN_HET</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses COSPIN HET 5-92 MeV, 10-min Proton Fluxes</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>10-min proton (5-92 MeV in 5 channels, &gt;92 MeV), electron (1-10 MeV, 3 channels) and Z&gt;=3 (26-173 MeV/n, 4 channels) count rates, from the High Energy Telescope (HET) of the COSPIN investigation on Ulysses.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/het/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>in ASCII via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/het/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1990-10-23T00:00:00</StartDate>
+        <StopDate>2008-08-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT10M</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>

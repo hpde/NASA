@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><Service><ResourceID>spase://vspo/catalog/P_COMBINED_DOC_OMNI</ResourceID><ResourceHeader><ResourceName>OMNI documentation</ResourceName><ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate><Description>OMNI Documentation</Description><Contact><PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessURL><Name>OMNI Documentation Page</Name><URL>http://omniweb.gsfc.nasa.gov/html/omni2_doc.html</URL></AccessURL></Service></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <Service>
+    <ResourceID>spase://vspo/catalog/P_COMBINED_DOC_OMNI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OMNI documentation</ResourceName>
+      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+      <Description>OMNI Documentation</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>OMNI Documentation Page</Name>
+      <URL>http://omniweb.gsfc.nasa.gov/html/omni2_doc.html</URL>
+    </AccessURL>
+  </Service>
+</Spase>

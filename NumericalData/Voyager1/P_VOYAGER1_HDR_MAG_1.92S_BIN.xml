@@ -1,2 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_VOYAGER1_HDR_MAG_1.92S_BIN</ResourceID><ResourceHeader><ResourceName>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data in VMS binary files</Description><Contact><PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID><Role>CoInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>daily VMS binary files</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL></AccessURL><Format>Binary</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>1977-09-05T00:00:00</StartDate><StopDate>1989-12-31T00:00:00</StopDate></TimeSpan><Cadence>PT1.92S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_VOYAGER1_HDR_MAG_1.92S_BIN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data in VMS binary files</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>daily VMS binary files</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
+      </AccessURL>
+      <Format>Binary</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-05T00:00:00</StartDate>
+        <StopDate>1989-12-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT1.92S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>

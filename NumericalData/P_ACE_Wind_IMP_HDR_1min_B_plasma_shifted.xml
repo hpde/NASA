@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ACE_WIND_IMP_HDR_1MIN_B_PLASMA_SHIFTED</ResourceID><ResourceHeader><ResourceName>ACE Wind IMP 8 1-min IMF and plasma data at bow shock nose</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Solar wind magnetic field and plasma data at 1-min resolution, as shifted from ACE, Wind and IMP 8 locations to the vicinity of the bow shock nose using the minimum variance technique of Weimer et al (2003).  Preliminary version as of April 2006.</Description><Contact><PersonID>spase://SMWG/Person/Joseph.H.King</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser, plots and lists, FTPBrowser</Name><URL>http://omniweb.gsfc.nasa.gov/form/sc_merge_min1.html</URL></AccessURL><AccessURL><Name>FTPBrowser, scatter plots and regressions</Name><URL>http://omniweb.gsfc.nasa.gov/form/sc_scat_min1.html</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID><InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID><InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID><InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID><InstrumentID>spase://SMWG/Instrument/IMP8/PLS</InstrumentID><MeasurementType>MagneticField</MeasurementType><MeasurementType>ThermalPlasma</MeasurementType><TemporalDescription><TimeSpan><StartDate>1998-01-01T00:00:00</StartDate><StopDate>1998-12-31T00:00:00</StopDate></TimeSpan><Cadence>PT60S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ACE_WIND_IMP_HDR_1MIN_B_PLASMA_SHIFTED</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE Wind IMP 8 1-min IMF and plasma data at bow shock nose</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Solar wind magnetic field and plasma data at 1-min resolution, as shifted from ACE, Wind and IMP 8 locations to the vicinity of the bow shock nose using the minimum variance technique of Weimer et al (2003).  Preliminary version as of April 2006.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser, plots and lists, FTPBrowser</Name>
+        <URL>http://omniweb.gsfc.nasa.gov/form/sc_merge_min1.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>FTPBrowser, scatter plots and regressions</Name>
+        <URL>http://omniweb.gsfc.nasa.gov/form/sc_scat_min1.html</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/IMP8/PLS</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1998-01-01T00:00:00</StartDate>
+        <StopDate>1998-12-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT60S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

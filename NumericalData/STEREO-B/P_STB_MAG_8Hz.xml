@@ -1,12 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://VSPO/NumericalData/STEREO-B/MAG/PT0.125S</ResourceID><ResourceHeader><ResourceName>STEREO-B IMPACT/MAG 8-Hz Magnetic Field Parameters</ResourceName><ReleaseDate>2009-06-23T00:00:00</ReleaseDate><Description>This data product contains 0.125-s values of solar wind
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/STEREO-B/MAG/PT0.125S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-B IMPACT/MAG 8-Hz Magnetic Field Parameters</ResourceName>
+      <ReleaseDate>2009-06-23T00:00:00</ReleaseDate>
+      <Description>This data product contains 0.125-s values of solar wind
 magnetic field data taken by the IMPACT/Magnetometer on STEREO-B.  The interface 
 allows selection of STEREO A or STEREO B data and of vector quantities in RTN or 
 spacecraft coordinates.  It also allows selection of either of two parameter sets: 
 [Bx, By, Bz, |B|] or [RBx, RBy, RBz, |B|, cone and clock angles].  Further, the 
 interface enables easy migration between plot vs. ASCII data presentation options 
-and among the three available resolutions (1, 8, 32 Hz).</Description><Acknowledgement>Please acknowledge the IMPACT PI, Dr. Janet Luhmann (UCB), 
+and among the three available resolutions (1, 8, 32 Hz).</Description>
+      <Acknowledgement>Please acknowledge the IMPACT PI, Dr. Janet Luhmann (UCB), 
 and the Key Persons for the IMPACT Magnetometer (C. Smith, Bartol) and the late 
-M. Acuna (GSFC).</Acknowledgement><Contact><PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>IMPACT MAG data-descriptive page at UCLA page</Name><URL>http://www-ssc.igpp.ucla.edu/ssc/stereo/</URL></InformationURL></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/UCLA</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>IMPACT MAG Interface at UCLA</Name><URL>http://aten.igpp.ucla.edu/forms/stereo/ascii_heliocentric_8hz_final.html</URL></AccessURL><Format>Text</Format><Acknowledgement>Please acknowledge the IMPACT PI, Dr. Janet Luhmann (UCB), the Key
+M. Acuna (GSFC).</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IMPACT MAG data-descriptive page at UCLA page</Name>
+        <URL>http://www-ssc.igpp.ucla.edu/ssc/stereo/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UCLA</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>IMPACT MAG Interface at UCLA</Name>
+        <URL>http://aten.igpp.ucla.edu/forms/stereo/ascii_heliocentric_8hz_final.html</URL>
+      </AccessURL>
+      <Format>Text</Format>
+      <Acknowledgement>Please acknowledge the IMPACT PI, Dr. Janet Luhmann (UCB), the Key
 Persons for IMPACT/MAG, Drs. C. Smith (Bartol) and the late M. Acuna (GSFC), and 
-Dr. C.T. Russell for the data interface.</Acknowledgement></AccessInformation><ProcessingLevel>Calibrated</ProcessingLevel><InstrumentID>spase://SMWG/Instrument/STEREO-B/IMPACT/MAG</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>2007-11-07T00:00:00</StartDate><RelativeStopDate>P6M</RelativeStopDate><Note>As of June 23, 2009, last data were for December 31, 2008.</Note></TimeSpan><Cadence>PT0.125S</Cadence></TemporalDescription><ObservedRegion>Heliosphere.Remote1AU</ObservedRegion></NumericalData></Spase>
+Dr. C.T. Russell for the data interface.</Acknowledgement>
+    </AccessInformation>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/STEREO-B/IMPACT/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2007-11-07T00:00:00</StartDate>
+        <RelativeStopDate>P6M</RelativeStopDate>
+        <Note>As of June 23, 2009, last data were for December 31, 2008.</Note>
+      </TimeSpan>
+      <Cadence>PT0.125S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
+  </NumericalData>
+</Spase>

@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/44</ResourceID><ResourceHeader><ResourceName>BUV Backscatter Ultraviolet</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>BUV Backscatter Ultraviolet on AE-E</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>BUV Backscatter Ultraviolet on AE-E</InvestigationName><ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/44</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BUV Backscatter Ultraviolet</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>BUV Backscatter Ultraviolet on AE-E</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>BUV Backscatter Ultraviolet on AE-E</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
+  </Instrument>
+</Spase>

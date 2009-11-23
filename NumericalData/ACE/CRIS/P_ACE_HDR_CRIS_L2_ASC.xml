@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ACE_HDR_CRIS_L2_ASC</ResourceID><ResourceHeader><ResourceName>ACE CRIS L2 1-hr Z=3-28 flux data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>ACE CRIS L2 1-hr Z=3-28 flux data at ASC</Description><Contact><PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID><Role>GeneralContact</Role></Contact><Contact><PersonID>spase://SMWG/Person/Richard.Leske</PersonID><Role>TechnicalContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>ACE Science Center</Name><URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_CRIS.html</URL></AccessURL><AccessURL><Name>ACE/CRIS L2 data in HDF via ftp</Name><URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/cris/</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov</URL></AccessURL><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/cris_h2</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/ACE/CRIS</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><MeasurementType>IonComposition</MeasurementType><TemporalDescription><TimeSpan><StartDate>1997-08-14T00:00:00</StartDate><RelativeStopDate>-P21D</RelativeStopDate><Note>Data are presently ~2-3 weeks delayed</Note></TimeSpan><Cadence>PT3600S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ACE_HDR_CRIS_L2_ASC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE CRIS L2 1-hr Z=3-28 flux data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>ACE CRIS L2 1-hr Z=3-28 flux data at ASC</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>ACE Science Center</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_CRIS.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>ACE/CRIS L2 data in HDF via ftp</Name>
+        <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/cris/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/cris_h2</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/ACE/CRIS</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1997-08-14T00:00:00</StartDate>
+        <RelativeStopDate>-P21D</RelativeStopDate>
+        <Note>Data are presently ~2-3 weeks delayed</Note>
+      </TimeSpan>
+      <Cadence>PT3600S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

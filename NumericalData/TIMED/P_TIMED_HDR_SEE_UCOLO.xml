@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_TIMED_HDR_SEE_UCOLO</ResourceID><ResourceHeader><ResourceName>TIMED SEE Data from U. Colorado via ftp</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Several TIMED SEE data types from U. Colorado via ftp, mostly in netCDF. The basic data are full-solar-disk spectra in the 0.1-200 nm wavelength range.</Description><Contact><PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/UCOLO</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>PI ftp site at U. Colorado</Name><URL>ftp://laspftp.colorado.edu/pub/SEE_Data/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/TIMED/SEE</InstrumentID><MeasurementType>Irradiance</MeasurementType><MeasurementType>Spectrum</MeasurementType><TemporalDescription><TimeSpan><StartDate>2002-01-07T00:00:00</StartDate><RelativeStopDate>-P1M</RelativeStopDate><Note>Data are current to within a month.</Note></TimeSpan></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion><ObservedRegion>Sun</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_TIMED_HDR_SEE_UCOLO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TIMED SEE Data from U. Colorado via ftp</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Several TIMED SEE data types from U. Colorado via ftp, mostly in netCDF. The basic data are full-solar-disk spectra in the 0.1-200 nm wavelength range.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UCOLO</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PI ftp site at U. Colorado</Name>
+        <URL>ftp://laspftp.colorado.edu/pub/SEE_Data/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/TIMED/SEE</InstrumentID>
+    <MeasurementType>Irradiance</MeasurementType>
+    <MeasurementType>Spectrum</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2002-01-07T00:00:00</StartDate>
+        <RelativeStopDate>-P1M</RelativeStopDate>
+        <Note>Data are current to within a month.</Note>
+      </TimeSpan>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <ObservedRegion>Sun</ObservedRegion>
+  </NumericalData>
+</Spase>

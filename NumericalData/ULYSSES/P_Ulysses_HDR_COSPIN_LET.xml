@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_COSPIN_LET</ResourceID><ResourceHeader><ResourceName>Ulysses COSPIN LET Low Energy Proton and Higher Z, 10-min Fluxes</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>10-min spin-averaged and 8-sectored fluxes of protons (0.9-3.8 and 3.8-8.0 MeV) and spin-averaged fluxes of protons (8-19 MeV), helium (1-19 MeV/n), Li-Be-B (1.9-26 MeV/n), C-N-O (2.6-39), Z&gt;=10, 10&lt;Z&gt;20, Z&gt;=20 and electrons (0.3-1.0) from the Low Energy Telescope (LET) of the COSPIN investigation on Ulysses.</Description><Contact><PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID><Role>PrincipalInvestigator</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov</URL></AccessURL><AccessURL><Name>in CDF via ftp from CDAWeb</Name><URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/let/</URL></AccessURL><AccessURL><Name>in ASCII via ftp from NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/let/</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID><InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID><MeasurementType>EnergeticParticles</MeasurementType><MeasurementType>IonComposition</MeasurementType><TemporalDescription><TimeSpan><StartDate>1990-10-26T00:00:00</StartDate><StopDate>2008-08-31T00:00:00</StopDate></TimeSpan><Cadence>PT10M</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_COSPIN_LET</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses COSPIN LET Low Energy Proton and Higher Z, 10-min Fluxes</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>10-min spin-averaged and 8-sectored fluxes of protons (0.9-3.8 and 3.8-8.0 MeV) and spin-averaged fluxes of protons (8-19 MeV), helium (1-19 MeV/n), Li-Be-B (1.9-26 MeV/n), C-N-O (2.6-39), Z&gt;=10, 10&lt;Z&gt;20, Z&gt;=20 and electrons (0.3-1.0) from the Low Energy Telescope (LET) of the COSPIN investigation on Ulysses.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>in CDF via ftp from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/let/</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>in ASCII via ftp from NSSDC</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/let/</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1990-10-26T00:00:00</StartDate>
+        <StopDate>2008-08-31T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT10M</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>

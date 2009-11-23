@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_WIND_HDR_3DP_UCB</ResourceID><ResourceHeader><ResourceName>Wind 3DP Plasma data at UCB</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Wind 3DP thermal and energetic ion and electron distributions and moments, multiple CDF file types</Description><Contact><PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/Davin.Larsen</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/UCB</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>3DP site at UCB</Name><URL>http://sprg.ssl.berkeley.edu/wind3dp/esahome.html</URL></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>EnergeticParticles</MeasurementType><TemporalDescription><TimeSpan><StartDate>1994-11-15T00:00:00</StartDate><RelativeStopDate>-P21D</RelativeStopDate><Note>24-s ion moments current to within few weeks</Note></TimeSpan><Cadence>PT24.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.NearEarth</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_WIND_HDR_3DP_UCB</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Wind 3DP Plasma data at UCB</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Wind 3DP thermal and energetic ion and electron distributions and moments, multiple CDF file types</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Davin.Larsen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>3DP site at UCB</Name>
+        <URL>http://sprg.ssl.berkeley.edu/wind3dp/esahome.html</URL>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1994-11-15T00:00:00</StartDate>
+        <RelativeStopDate>-P21D</RelativeStopDate>
+        <Note>24-s ion moments current to within few weeks</Note>
+      </TimeSpan>
+      <Cadence>PT24.00S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
+</Spase>

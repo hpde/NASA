@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_AEE_HDR_UA</ResourceID><ResourceHeader><ResourceName>AE-E 15-s Unified Abstract data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Atmospheric Explorer (AE)-E 15-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description><Contact><PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>FTPBrowser</Name><URL>http://ftpbrowser.gsfc.nasa.gov/ae_e.html</URL></AccessURL><AccessURL><Name>via ftp download</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ae/ae_e/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/AE-D/RPA</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/BIMS</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-D/CEP</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/MESA</InstrumentID><InstrumentID>spase://vspo/instrument/38</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-D/NACE</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/NATE</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/OSS</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/PES</InstrumentID><InstrumentID>spase://SMWG/Instrument/AE-C/VAE</InstrumentID><InstrumentID>spase://vspo/instrument/44</InstrumentID><MeasurementType>ThermalPlasma</MeasurementType><MeasurementType>NeutralGas</MeasurementType><TemporalDescription><TimeSpan><StartDate>1975-12-11T00:00:00</StartDate><StopDate>1981-06-06T00:00:00</StopDate></TimeSpan><Cadence>PT15S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion><ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_AEE_HDR_UA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AE-E 15-s Unified Abstract data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Atmospheric Explorer (AE)-E 15-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTPBrowser</Name>
+        <URL>http://ftpbrowser.gsfc.nasa.gov/ae_e.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>via ftp download</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ae/ae_e/</URL>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/AE-D/RPA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/BIMS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-D/CEP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/MESA</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/38</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-D/NACE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/NATE</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/OSS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/PES</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/AE-C/VAE</InstrumentID>
+    <InstrumentID>spase://vspo/instrument/44</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>NeutralGas</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1975-12-11T00:00:00</StartDate>
+        <StopDate>1981-06-06T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT15S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
+  </NumericalData>
+</Spase>

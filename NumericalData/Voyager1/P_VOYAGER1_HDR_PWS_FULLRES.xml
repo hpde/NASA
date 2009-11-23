@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://vspo/numericalData/P_VOYAGER1_HDR_PWS_FULLRES</ResourceID><ResourceHeader><ResourceName>Voyager 1 PWS full resolution plasma wave data</ResourceName><ReleaseDate>2007-06-01T00:00:00</ReleaseDate><Description>Full resolution plasma wave spectrum analyzer data from Voyager 1 PWS instrument</Description><Contact><PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID><Role>PrincipalInvestigator</Role></Contact><Contact><PersonID>spase://SMWG/Person/William.S.Kurth</PersonID><Role>DataProducer</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/PDS</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>PI site at U. Iowa for many PWS data sets</Name><URL>http://www-pw.physics.uiowa.edu/voyager/</URL></AccessURL><Format>Binary</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID><MeasurementType>Waves.Passive</MeasurementType><TemporalDescription><TimeSpan><StartDate>1977-09-07T00:00:00</StartDate><RelativeStopDate>-P3D</RelativeStopDate><Note>Data are current to within a few days</Note></TimeSpan><Cadence>PT4S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Outer</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.1</Version>
+  <NumericalData>
+    <ResourceID>spase://vspo/numericalData/P_VOYAGER1_HDR_PWS_FULLRES</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 PWS full resolution plasma wave data</ResourceName>
+      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+      <Description>Full resolution plasma wave spectrum analyzer data from Voyager 1 PWS instrument</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PI site at U. Iowa for many PWS data sets</Name>
+        <URL>http://www-pw.physics.uiowa.edu/voyager/</URL>
+      </AccessURL>
+      <Format>Binary</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-07T00:00:00</StartDate>
+        <RelativeStopDate>-P3D</RelativeStopDate>
+        <Note>Data are current to within a few days</Note>
+      </TimeSpan>
+      <Cadence>PT4S</Cadence>
+    </TemporalDescription>
+    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
+</Spase>
