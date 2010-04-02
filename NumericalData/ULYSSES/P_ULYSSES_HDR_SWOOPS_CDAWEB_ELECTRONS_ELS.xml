@@ -1,18 +1,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.1.0</Version>
     <NumericalData>
-        <ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_SWOOPS_CDAWEB_IONS_ELS</ResourceID>
+        <ResourceID>spase://vspo/numericalData/P_ULYSSES_HDR_SWOOPS_CDAWEB_ELECTRONS_ELS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Ulysses SWOOPS Ion Parameters Data.</ResourceName>
+            <ResourceName>Ulysses SWOOPS Electron N and T Parameters Data</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-            <Description>Full resolution and hourly Ulysses/SWOOPS proton densities, temperatures (min and max) and flow vectors, plus alpha particle densities.</Description>
+            <Description>Full resolution Ulysses/SWOOPS Total, Core and Halo Electron Densities and Temperatures</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Bruce.E.Goldstein</PersonID>
-                <Role>DataProducer</Role>
             </Contact>
         </ResourceHeader>
         <AccessInformation>
@@ -28,12 +24,8 @@
                 <URL>http://ulysses-ops.esa.int/ulysses/archive/swoops.html</URL>
             </AccessURL>
             <AccessURL>
-                <Name>full resolution data in ASCII via ftp from NSSDC</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/plasma/swoops/ion/hires/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>hourly averages in ASCII via ftp from NSSDC</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/plasma/swoops/ion/hour/</URL>
+                <Name>in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/plasma/swoops/electron/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -45,7 +37,7 @@
                 <StartDate>1990-11-18T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
-            <Cadence>PT335S</Cadence>
+            <Cadence>PT335.00S</Cadence>
         </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
