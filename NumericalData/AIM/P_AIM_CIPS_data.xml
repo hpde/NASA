@@ -3,9 +3,9 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/AIM/CIPS/All_Data</ResourceID>
         <ResourceHeader>
-            <ResourceName>Multi-level AIM/CIPS data</ResourceName>
+            <ResourceName>AIM/CIPS noctilucent cloud images and movies, etc.</ResourceName>
             <ReleaseDate>2010-03-17T00:00:00</ReleaseDate>
-            <Description>AIM/CIPS data are available in multiple 
+            <Description>AIM/CIPS (Cloud Imaging and Particle Size) data are available in multiple 
 processing levels: 1a (calibrated and geolocated albedo); 1b (map-
 projected albedo at 5km x 5km resolution); 1c (same as 1b, but with 
 Rayleigh scattering background subtracted); 2 (imagery for 15 orbit-
@@ -26,7 +26,7 @@ during that region's summer.(</Description>
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>Interface page at Hampton University</Name>
+                <Name>Info interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/library/documentation/instruments/cips/cips_docs.html</URL>
             </InformationURL>
         </ResourceHeader>
@@ -35,10 +35,10 @@ during that region's summer.(</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Interface page at Hampton University</Name>
+                <Name>Data interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=cips</URL>
                 <Description>For levels 2, 3a, 4 only; see InformationURL for other data</Description>
-            </AccessURL>
+            </AccessURL>            
             <Format>NetCDF</Format>
             <Encoding>GZIP</Encoding>
         </AccessInformation>

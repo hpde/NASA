@@ -3,9 +3,9 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/AIM/CDE/L1_L2_Data</ResourceID>
         <ResourceHeader>
-            <ResourceName>Multi-level AIM/CDE data</ResourceName>
+            <ResourceName>AIM/CDE dust grain impact data</ResourceName>
             <ReleaseDate>2010-03-17T00:00:00</ReleaseDate>
-            <Description>AIM/CDE (Cosmic Dust Experiment) are available
+            <Description>AIM/CDE (Cosmic Dust Experiment) data are available
 as Levels 1 and 2 daily netCDF files.  L1 data contains, for each dust 
 grain impact, a time tag, pulse height data, a number of electrons released 
 by the impact, and engineering and housekeeping data.  L2 data adds the mass 
@@ -17,8 +17,8 @@ Polar Mesospheric Cloud brightness.(</Description>
                 <PersonID>spase://SMWG/Person/Mihaly.Horanyi</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-            <InformationURL>
-                <Name>Interface page at Hampton University</Name>
+           <InformationURL>
+                <Name>info interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/library/documentation/instruments/cde/cde_docs.html</URL>
             </InformationURL>
         </ResourceHeader>
@@ -27,11 +27,11 @@ Polar Mesospheric Cloud brightness.(</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Interface page at Hampton University</Name>
+                <Name>Data interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=cde</URL>
                 <Description>For levels 1 and 2 only</Description>
-            </AccessURL>
-            <Format>NetCDF</Format>
+            </AccessURL>            
+        <Format>NetCDF</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/AIM/CDE</InstrumentID>
         <MeasurementType>Dust</MeasurementType>

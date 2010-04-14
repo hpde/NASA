@@ -3,9 +3,9 @@
     <NumericalData>
         <ResourceID>spase://VSPO/DisplayData/AIM/SOFIE/L3_Data</ResourceID>
         <ResourceHeader>
-            <ResourceName>Level 3 AIM/SOFIE data</ResourceName>
+            <ResourceName>AIM/SOFIE daily plots, parameters vs.alt. &amp; long., etc. (L3 Summary data)</ResourceName>
             <ReleaseDate>2010-03-25T00:00:00</ReleaseDate>
-            <Description>this data set contains color-coded pairs of
+            <Description>this SOFIE (Solar Occultation for Ice Experiment) data set contains color-coded pairs of
 daily plots of several physical parameters vs altitude and longitude.  
 Parameters include temperature, mixing ratios for H2O, O3 and CH4, and 
 ice mass.  Members of each pair are for the northern and southern
@@ -16,7 +16,7 @@ data.</Description>
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>Interface page at Hampton University</Name>
+                <Name>Info interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/instrmt/sofie.html</URL>
             </InformationURL>
         </ResourceHeader>
@@ -25,7 +25,7 @@ data.</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Interface page at GATS, Inc.</Name>
+                <Name>Data interface page at GATS, Inc.</Name>
                 <URL>http://sofie.gats-inc.com/sofie/index.php</URL>
             </AccessURL>
             <Format>NetCDF</Format>

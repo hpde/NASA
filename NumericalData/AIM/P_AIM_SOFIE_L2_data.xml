@@ -3,10 +3,10 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/AIM/SOFIE/L2_Data</ResourceID>
         <ResourceHeader>
-            <ResourceName>Level 2 AIM/SOFIE data</ResourceName>
+            <ResourceName>AIM/SOFIE mixing ratios, extinction profiles, etc. (L2 data)</ResourceName>
             <ReleaseDate>2010-03-25T00:00:00</ReleaseDate>
             <Description>The daily netCDF files at GATS, Inc., hold level 2
-SOFIE data.  These include primary absorber mixing ratios (CO2, CH4, NO,H2O, O3), 
+SOFIE (Solar Occultation for Ice Experiment) data.  These include primary absorber mixing ratios (CO2, CH4, NO,H2O, O3), 
 10 aerosol extinction profiles, uncertainity profiles for mixing ratios and 
 extinctions, 83 km measurement lat./long., Temperatures, Pressures, 
 Time, [0.150 km sampling, 150km to 3.0km, 30 profiles/day]. Vertical resolutions 
@@ -17,9 +17,8 @@ and pressures.</Description>
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>Interface page at Hampton University</Name>
-                <URL>http://aim.hamptonu.edu/library/documentation/instruments/
-sofie/sofie_docs.html</URL>
+                <Name>Info interface page at Hampton U.</Name>
+                <URL>http://aim.hamptonu.edu/library/documentation/instruments/sofie/sofie_docs.html</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -27,9 +26,9 @@ sofie/sofie_docs.html</URL>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Interface page at Hampton University</Name>
-                <URL>http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=sofie</URL>
-            </AccessURL>
+                <Name>Data interface page at GATS, Inc.</Name>
+                <URL>http://sofie.gats-inc.com/sofie/index.php</URL>
+            </AccessURL>                
             <Format>NetCDF</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/AIM/SOFIE</InstrumentID>
