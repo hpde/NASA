@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://vspo/numericalData/P_TC2_HDR_SUMDATA</ResourceID>
+  <DisplayData>
+    <ResourceID>spase://VSPO/DisplayData/P_TC1_HDR_QLPLOTS</ResourceID>
     <ResourceHeader>
-      <ResourceName>Double Star 1-Min Summary Parameters</ResourceName>
+      <ResourceName>Double Star Quicklook Plots</ResourceName>
       <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>1-min summary parameters from Double Star TC1 and TC2 spacecraft, all instruments with various time coverages, plus spacecraft positions and separations and spin axis directions</Description>
+      <Description>6-Hour GIF plots of multi-instrument quick look data from Double Star TC1 and TC2 spacecraft</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>
         <!-- ASPOC -->
@@ -68,10 +68,10 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Summary Data site at RAL/UK</Name>
-        <URL>http://www.cluster.rl.ac.uk/dpub-query/output_form?SUMMARY=1</URL>
+        <Name>Double Star site at ESA</Name>
+        <URL>http://dione.iwf.oeaw.ac.at/dsdsweb-cgi/dsdsweb_pick</URL>
       </AccessURL>
-      <Format>CDF</Format>
+      <Format>PNG</Format>
     </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/DoubleStar1/ASPOC</InstrumentID>
@@ -98,12 +98,11 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2004-01-01T00:00:00</StartDate>
-        <RelativeStopDate>-P14D</RelativeStopDate>
-        <Note>Some TC1 (near-equatorial spacecraft) data are current to within about two weeks.  As of 8/17/04, very little TC2 (near-polar spacecraft) data had begun to appear.</Note>
+        <RelativeStopDate>-P7D</RelativeStopDate>
+        <Note>TC1 (near-equatorial spacecraft) plots are current to within about a week.  As of 8/17/04, TC2 (near-polar spacecraft) plots had not yet begun to appear.</Note>
       </TimeSpan>
-      <Cadence>PT1M</Cadence>
     </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
+    <!--InstrumentRegion=Earth.Magnetosphere-->
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+  </DisplayData>
 </Spase>
