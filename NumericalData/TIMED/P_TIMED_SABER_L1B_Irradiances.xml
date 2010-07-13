@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/P_TIMED_L1B_SABER_IR_IRRADIANCE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED SABER Level 1b IR Irradiance Data</ResourceName>
+            <ReleaseDate>2010-07-07T00:00:00</ReleaseDate>
+            <Description>These level 1b data sets of IR radiances come from the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument on board theThermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) mission.  Calibrated IR radiance profiles from 0 to 150 km that are measured in 10 channels (1.27 to 16.9 µm) are converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>TIMED Mission Data Center at Johns Hopkins University</Name>
+                <URL>http://www.timed.jhuapl.edu/WWW/scripts/mdc_home.pl</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+                <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/SABER</InstrumentID>
+        <MeasurementType>Irradiance</MeasurementType>
+        <MeasurementType>Spectrum</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-01-25T01:21:56</StartDate>
+                <RelativeStopDate>-P1M</RelativeStopDate>
+                <Note>Version 1.07 Data are current to within a month.</Note>
+            </TimeSpan>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.NearSurface</ObservedRegion> 
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+

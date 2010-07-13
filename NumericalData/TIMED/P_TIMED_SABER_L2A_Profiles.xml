@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/P_TIMED_L2A_SABER_PROFILES</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED SABER Level 2A Data</ResourceName>
+            <ReleaseDate>2010-07-07T00:00:00</ReleaseDate>
+            <Description>This level 2A data set from the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument on board the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) mission contains 1) Profiles of kinetic temperature, presssure and neutral density; 2) Mixing ratios of ozone (O3), water vapor (H2O), carbon dioxide (CO2), oxygen (O), and hydrogen (H); and 3) Volume emission rates of O, oxygen (O2), hydroxyl (OH), and nitric oxide (NO).</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>TIMED Mission Data Center at Johns Hopkins University</Name>
+                <URL>http://www.timed.jhuapl.edu/WWW/scripts/mdc_home.pl</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+                <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/SABER</InstrumentID>
+        <MeasurementType>Profile</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-01-25T01:21:48</StartDate>
+                <RelativeStopDate>-P1M</RelativeStopDate>
+                <Note>Version 1.07 Data are current to within a month.</Note>
+            </TimeSpan>
+        </TemporalDescription>  
+        <ObservedRegion>Earth.NearSurface</ObservedRegion> 
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
