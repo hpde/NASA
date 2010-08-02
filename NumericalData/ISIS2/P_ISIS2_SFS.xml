@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ISIS 2/SFS/AveragedIonongrams</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISIS 2 Swept-/Fixed-Averaged Ionograms</ResourceName>
+            <ReleaseDate>2010-07-21T00:00:00</ReleaseDate>
+            <Description>This data set consists of ISIS 2 (International Satellites for Ionospheric Studies)ionograms that have been obtained through a data restoration project. The ISIS ionograms, consisting of a fixed-frequency and a swept-frequency part, were digitized from the original ISIS telemetry tapes. The digitized sounder data consisting of 8-bit receiver-amplitude values collected at a 40 kHz rate contain the time and the frequency associated with each sounder pulse. The frequency of each sounder pulse is determined from a 3rd degree interpolation between the times of the frequency markers as identified in the sounder video during the A/D operation. Included in this data set are the average-resolution ionograms (averages of each 4 successive 40 kHz 8-bit values) in CDF format. 
+
+Software to read and display the individual CDF files is available at
+
+ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/software/
+
+These CDF files were produced at NSSDC from the original PI-provided ionogram data. Other ionogram data sets available at NSSDC include the full resolution ionograms and average ionograms both in the PI-provided (OS2) binary format, ASCII header files with pass-specific information and the PCM data which contain header, time, AGC, frequency-marker information and telemetry-level data from all other ISIS instruments. The binary average ionograms and the ASCII header files are available online at
+
+ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/
+
+ISIS 1 and 2 data are available to the extent permitted by telemetry scheduling and the location of telemetry stations. A list of stations can be found at
+
+http://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
+and their location on a worldmap is shown in
+
+http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>info about the digitization project</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Data from NSSDCFTP</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/</URL>
+                <Description>Data from telemetry stations</Description>
+            </AccessURL>
+            <Format>NetCDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/ISIS2/SWS</InstrumentID>
+        <MeasurementType>Waves.Active</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1971-04-01T09:22:52</StartDate>	 
+                <StopDate>1984-01-27T18:16:53</StopDate>  	 
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
