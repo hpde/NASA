@@ -1,43 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_GEOTAIL_HDR_CPI_HPA_64S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Geotail CPI HPA 64-sec bulk parameters</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Geotail CPI (Comprehensive Plasma Inst) HPA (Hot Plasma Analyzer 64-sec Bulk Plasma Parameters (mainly for magnetotail)</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/geotail/cpi_hpamom</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <!-- No corresponding value in SPASE enumProcessingLevel      &amp;amp;amp;lt;ProviderProcessingLevel&amp;amp;amp;gt;CALCULATED&amp;amp;amp;lt;/ProviderProcessingLevel&amp;amp;amp;gt;      -->
-    <InstrumentID>spase://SMWG/Instrument/Geotail/CPI</InstrumentID>
-    <InstrumentID>spase://vspo/instrument/2</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1992-10-06T00:00:00Z</StartDate>
-        <StopDate>2004-12-20T00:00:00Z</StopDate>
-      </TimeSpan>
-      <Cadence>PT1M4S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Earth.Magnetosphere-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_GEOTAIL_HDR_CPI_HPA_64S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Geotail CPI HPA 64-sec bulk parameters</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Geotail CPI (Comprehensive Plasma Inst) HPA (Hot Plasma Analyzer 64-sec Bulk Plasma Parameters (mainly for magnetotail)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/geotail/cpi_hpamom</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>      <!-- No corresponding value in SPASE enumProcessingLevel      &amp;amp;lt;ProviderProcessingLevel&amp;amp;gt;CALCULATED&amp;amp;lt;/ProviderProcessingLevel&amp;amp;gt;      -->
+        <InstrumentID>spase://SMWG/Instrument/Geotail/CPI</InstrumentID>
+        <InstrumentID>spase://vspo/instrument/2</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1992-10-06T00:00:00Z</StartDate>
+                <StopDate>2004-12-20T00:00:00Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT1M4S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Earth.Magnetosphere-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

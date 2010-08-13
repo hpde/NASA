@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_GOES9_HDR_MAG_60S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>GOES 9 MAG 1-Min Key Parameters</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>GOES 9 Magnetometer 1-Min Key Parameters, in GSE and GSM Coordinates</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/goes/9_mag</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/101</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1995-12-01T00:00:00</StartDate>
-        <StopDate>1998-07-27T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT60S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_GOES9_HDR_MAG_60S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>GOES 9 MAG 1-Min Key Parameters</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>GOES 9 Magnetometer 1-Min Key Parameters, in GSE and GSM Coordinates</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/goes/9_mag</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/101</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1995-12-01T00:00:00</StartDate>
+                <StopDate>1998-07-27T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT60S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

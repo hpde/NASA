@@ -1,69 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://NSSDC/NumericalData/SPHE_00358</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Helios 2 Magnetic Field Spectral Density</ResourceName>
-      <ReleaseDate>2008-03-12T00:00:00</ReleaseDate>
-      <Description>This data set contains 8-sec averaged and peak spectral densities of magnetic field component variations in 8 spectral bands with center frequencies logarithmically equispaced between 6.8 Hz and 1470 Hz.  Data records also contain time, spacecraft position, spacecraft-sun-Earth angle, spin vector direction, data quality flags, etc.</Description>
-      <Acknowledgement>Please acknowledge the PI, Dr. Fritz Neubauer, and NSSDC.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC Data Set Catalog 506</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/staging/review_08/all_catalogs/dsc_0506.pdf</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Offline</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
-      </AccessURL>
-      <Format>Binary</Format>
-      <DataExtent>
-        <Bytes>600</Bytes>
-        <Units>MB</Units>
-      </DataExtent>
-    </AccessInformation>
-    <ProcessingLevel>Uncalibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Helios2/E4</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <MeasurementType>Spectrum</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1976-01-15T00:00:00</StartDate>
-        <StopDate>1976-11-21T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT8S</Cadence>
-    </TemporalDescription>
-    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-    <Parameter>
-      <Name>Magnetic field spectral density</Name>
-      <Description>Eight spectral densities for each of two field components (the spin-aligned component and one of the normal-to-spin-vector components) for either mean values or peak values (determined by flag set elsewhere in data record).</Description>
-      <Caveats>Data records actually contain sensor output voltages and conversion factors for transforming to spectral densities.</Caveats>
-      <Cadence>PT8S</Cadence>
-      <Units>Volts</Units>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
-      <Structure>
-        <StructureType>Array</StructureType>
-        <Size>2 8</Size>
-        <Description>spectral densities for 8 frequency channels, for 2 magnetic field components</Description>
-      </Structure>
-      <Measured>
-        <Field>
-          <FieldQuantity>Magnetic</FieldQuantity>
-          <!--  &amp;amp;lt;FrequencyRange&amp;amp;gt;               &amp;amp;lt;Low&amp;amp;gt;6.8 &amp;amp;lt;/Low&amp;amp;gt;               &amp;amp;lt;High&amp;amp;gt;1470&amp;amp;lt;/High&amp;amp;gt;               &amp;amp;lt;Units&amp;amp;gt;Hz&amp;amp;lt;/Units&amp;amp;gt;            &amp;amp;lt;/FrequencyRange&amp;amp;gt; -->
-        </Field>
-      </Measured>
-    </Parameter>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://NSSDC/NumericalData/SPHE_00358</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Helios 2 Magnetic Field Spectral Density</ResourceName>
+            <ReleaseDate>2008-03-12T00:00:00</ReleaseDate>
+            <Description>This data set contains 8-sec averaged and peak spectral densities of magnetic field component variations in 8 spectral bands with center frequencies logarithmically equispaced between 6.8 Hz and 1470 Hz.  Data records also contain time, spacecraft position, spacecraft-sun-Earth angle, spin vector direction, data quality flags, etc.</Description>
+            <Acknowledgement>Please acknowledge the PI, Dr. Fritz Neubauer, and NSSDC.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC Data Set Catalog 506</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/staging/review_08/all_catalogs/dsc_0506.pdf</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Offline</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>NSSDC</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
+            </AccessURL>
+            <Format>Binary</Format>
+            <DataExtent>
+                <Bytes>600</Bytes>
+                <Units>MB</Units>
+            </DataExtent>
+        </AccessInformation>
+        <ProcessingLevel>Uncalibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Helios2/E4</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>Spectrum</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1976-01-15T00:00:00</StartDate>
+                <StopDate>1976-11-21T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT8S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+        <Parameter>
+            <Name>Magnetic field spectral density</Name>
+            <Description>Eight spectral densities for each of two field components (the spin-aligned component and one of the normal-to-spin-vector components) for either mean values or peak values (determined by flag set elsewhere in data record).</Description>
+            <Caveats>Data records actually contain sensor output voltages and conversion factors for transforming to spectral densities.</Caveats>
+            <Cadence>PT8S</Cadence>
+            <Units>Volts</Units>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+                <CoordinateSystemName>GSE</CoordinateSystemName>
+            </CoordinateSystem>
+            <Structure>
+                <StructureType>Array</StructureType>
+                <Size>2 8</Size>
+                <Description>spectral densities for 8 frequency channels, for 2 magnetic field components</Description>
+            </Structure>
+            <Measured>
+                <Field>
+                    <FieldQuantity>Magnetic</FieldQuantity>          <!--  &amp;lt;FrequencyRange&amp;gt;               &amp;lt;Low&amp;gt;6.8 &amp;lt;/Low&amp;gt;               &amp;lt;High&amp;gt;1470&amp;lt;/High&amp;gt;               &amp;lt;Units&amp;gt;Hz&amp;lt;/Units&amp;gt;            &amp;lt;/FrequencyRange&amp;gt; -->
+                </Field>
+            </Measured>
+        </Parameter>
+    </NumericalData>
 </Spase>

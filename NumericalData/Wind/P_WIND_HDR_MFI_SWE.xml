@@ -1,47 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_MFI_SWE</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Wind SWE MFI 92-s data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>Daily CDF files 92-s Wind/SWE ion plasma parameters and Wind/MFI magnetic field data with graphical display and ASCII output options</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
-        <!-- for MFI data and interface -->
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
-        <!-- A. Lazarus/MIT for SWE data -->
-        <Role>CoInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>GSFC/LEP (Szabo) interface to Wind MFI and SWE data</Name>
-        <URL>http://lepmfi.gsfc.nasa.gov/mfi/plots.html</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1994-11-16T00:00:00</StartDate>
-        <RelativeStopDate>-P3D</RelativeStopDate>
-        <Note>Data are current to within a few days</Note>
-      </TimeSpan>
-      <Cadence>PT92.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_MFI_SWE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Wind SWE MFI 92-s data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Daily CDF files 92-s Wind/SWE ion plasma parameters and Wind/MFI magnetic field data with graphical display and ASCII output options</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>             <!-- for MFI data and interface -->
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>             <!-- A. Lazarus/MIT for SWE data -->
+                <Role>CoInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>GSFC/LEP (Szabo) interface to Wind MFI and SWE data</Name>
+                <URL>http://wind.gsfc.nasa.gov/mfi_swe_plot.php</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1994-11-16T00:00:00</StartDate>
+                <RelativeStopDate>-P3D</RelativeStopDate>
+                <Note>Data are current to within a few days</Note>
+            </TimeSpan>
+            <Cadence>PT92.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

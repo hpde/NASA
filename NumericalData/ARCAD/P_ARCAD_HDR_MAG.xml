@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ARCAD_HDR_MAG</ResourceID>
-    <ResourceHeader>
-      <ResourceName>ARCAD Magnetic Field Data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>ARCAD magnetic field data at 2.5-s resolution; altitude &lt; 2000 km, near polar</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>FTPBrowser</Name>
-        <URL>http://ftpbrowser.gsfc.nasa.gov/arcad_mag.html</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/arcad/magnet/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Aureol3/TRAC</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1981-10-01T00:00:00</StartDate>
-        <StopDate>1982-03-01T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT2.50S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.NearSurface</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ARCAD_HDR_MAG</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ARCAD Magnetic Field Data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>ARCAD magnetic field data at 2.5-s resolution; altitude &lt; 2000 km, near polar</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTPBrowser</Name>
+                <URL>http://ftpbrowser.gsfc.nasa.gov/arcad_mag.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/arcad/magnet/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Aureol3/TRAC</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1981-10-01T00:00:00</StartDate>
+                <StopDate>1982-03-01T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT2.50S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
+    </NumericalData>
 </Spase>

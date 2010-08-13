@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ISEE3_HDR_MAG_0.167S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>ISEE 3 0.167-s magnetic field data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>ISEE 3 0.167-s magnetic field data, g-zipped ASCII, 6-hr files, deep tail through comet GZ encounter orbit phases</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>FTPBrowser</Name>
-        <URL>http://ftpbrowser.gsfc.nasa.gov/isee3.html</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>NSSDC's ftp area</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1982-12-02T00:00:00</StartDate>
-        <StopDate>1985-09-17T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT0.167S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ISEE3_HDR_MAG_0.167S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISEE 3 0.167-s magnetic field data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>ISEE 3 0.167-s magnetic field data, g-zipped ASCII, 6-hr files, deep tail through comet GZ encounter orbit phases</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTPBrowser</Name>
+                <URL>http://ftpbrowser.gsfc.nasa.gov/isee3.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>NSSDC's ftp area</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1982-12-02T00:00:00</StartDate>
+                <StopDate>1985-09-17T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT0.167S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,49 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_GEOTAIL_HDR_LEP_64S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Geotail LEP 64-sec Key Parameters</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Geotail LEP (Low-Energy Particles) 64-sec Solar Wind Key Parameters</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/geotail/lep</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>ISAS DARTS</Name>
-        <!-- &amp;amp;lt;URL&amp;amp;gt;http://www.darts.isas.ac.jp/spdb/index.html&amp;amp;lt;/URL&amp;amp;gt; -->
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/90</InstrumentID>
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1992-01-01T00:00:00</StartDate>
-        <RelativeStopDate>-P14D</RelativeStopDate>
-        <Note>Data are current to within days or weeks.</Note>
-      </TimeSpan>
-      <Cadence>PT64S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_GEOTAIL_HDR_LEP_64S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Geotail LEP 64-sec Key Parameters</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Geotail LEP (Low-Energy Particles) 64-sec Solar Wind Key Parameters</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/geotail/lep</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>ISAS DARTS</Name>               <!-- &amp;lt;URL&amp;gt;http://www.darts.isas.ac.jp/spdb/index.html&amp;lt;/URL&amp;gt; -->
+                <URL>http://www.darts.isas.ac.jp/stp/geotail/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/90</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1992-01-01T00:00:00</StartDate>
+                <RelativeStopDate>-P14D</RelativeStopDate>
+                <Note>Data are current to within days or weeks.</Note>
+            </TimeSpan>
+            <Cadence>PT64S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

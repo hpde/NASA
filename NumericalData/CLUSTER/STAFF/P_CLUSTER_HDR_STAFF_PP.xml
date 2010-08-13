@@ -1,46 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_STAFF_PP</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Cluster STAFF Prime Parameters</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>Cluster STAFF Prime Parameters from all four spacecraft, 4-sec-resolution spectral density in magnetic field in 3 bands (0.3-10 Hz, 10-180 Hz, 180-4000 Hz) parallel and perpendicular to mean field, also electric field spectral density in 10-180 and 180-4000 Hz bands</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Nicole.Cornilleau-Wehrlin</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/STAFF</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/STAFF</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/STAFF</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/STAFF</InstrumentID>
-    <MeasurementType>Waves.Passive</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2001-01-09T00:00:00</StartDate>
-        <RelativeStopDate>-P1M</RelativeStopDate>
-        <Note>Data were 1 month behind as of February, 2006.</Note>
-      </TimeSpan>
-      <Cadence>PT4.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_STAFF_PP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster STAFF Prime Parameters</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Cluster STAFF Prime Parameters from all four spacecraft, 4-sec-resolution spectral density in magnetic field in 3 bands (0.3-10 Hz, 10-180 Hz, 180-4000 Hz) parallel and perpendicular to mean field, also electric field spectral density in 10-180 and 180-4000 Hz bands</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Nicole.Cornilleau-Wehrlin</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/STAFF</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/STAFF</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/STAFF</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/STAFF</InstrumentID>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-01-09T00:00:00</StartDate>
+                <RelativeStopDate>-P1M</RelativeStopDate>
+                <Note>Data were 1 month behind as of February, 2006.</Note>
+            </TimeSpan>
+            <Cadence>PT4.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_SOHO_HDR_CELIAS_300S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>SOHO CELIAS Key Parameters</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>SOHO CELIAS (Charge, Element and Isotope Analysis System), key parameters, 5-min solar wind speeds</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Peter.A.Bochsler</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/soho/cels</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1995-12-22T00:00:00</StartDate>
-        <StopDate>2002-01-31T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT300S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_SOHO_HDR_CELIAS_300S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SOHO CELIAS Key Parameters</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>SOHO CELIAS (Charge, Element and Isotope Analysis System), key parameters, 5-min solar wind speeds</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.A.Bochsler</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/soho/cels</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1995-12-22T00:00:00</StartDate>
+                <StopDate>2002-01-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT300S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+    </NumericalData>
 </Spase>

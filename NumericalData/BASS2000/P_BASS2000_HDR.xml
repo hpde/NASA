@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_BASS2000_HDR</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Solar Data at Meudon and Tarbes via BASS 2000</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Multiple solar data products held at Meudon and Tarbes sites in France, via the BASS (Base de donnees Solaire Sol) 2000 web site.  Included are Nancay radioheliograph data, Meudon spectroheliograph data, THEMIS data and Pic du Mida coronagraph data</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Nadege.Meunier</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>French BASS 2000 web site</Name>
-        <URL>http://bass2000.bagn.obs-mip.fr/projet/index_e.htm</URL>
-      </AccessURL>
-      <Format>FITS</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/357</InstrumentID>
-    <InstrumentID>spase://vspo/instrument/358</InstrumentID>
-    <InstrumentID>spase://vspo/instrument/359</InstrumentID>
-    <InstrumentID>spase://vspo/instrument/360</InstrumentID>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <MeasurementType>Spectrum</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1989-12-01T00:00:00</StartDate>
-        <RelativeStopDate>P0M</RelativeStopDate>
-        <Note>Various products have various start dates.  Virtually all are routinely extended, with product-specific lag times.</Note>
-      </TimeSpan>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Sun</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_BASS2000_HDR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Solar Data at Meudon and Tarbes via BASS 2000</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Multiple solar data products held at Meudon and Tarbes sites in France, via the BASS (Base de donnees Solaire Sol) 2000 web site.  Included are Nancay radioheliograph data, Meudon spectroheliograph data, THEMIS data and Pic du Mida coronagraph data</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Nadege.Meunier</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>French BASS 2000 web site</Name>
+                <URL>http://bass2000.bagn.obs-mip.fr/projet/index_e.htm</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/357</InstrumentID>
+        <InstrumentID>spase://vspo/instrument/358</InstrumentID>
+        <InstrumentID>spase://vspo/instrument/359</InstrumentID>
+        <InstrumentID>spase://vspo/instrument/360</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <MeasurementType>Spectrum</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1989-12-01T00:00:00</StartDate>
+                <RelativeStopDate>P0M</RelativeStopDate>
+                <Note>Various products have various start dates.  Virtually all are routinely extended, with product-specific lag times.</Note>
+            </TimeSpan>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
 </Spase>

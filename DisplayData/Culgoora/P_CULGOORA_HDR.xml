@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/P_CULGOORA_HDR</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Culgoora Solar Radio Spectrographs</ResourceName>
-      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
-      <Description>Culgoora Observatory solar radio spectrographs (18-1800 MHz) and H-alpha images</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Michael.Dahlem</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Culgoora</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>Culgoora Observatory site</Name>
-        <URL>http://www.ips.gov.au/Main.php?CatID=5&amp;SecID=2&amp;SecName=Culgoora%20Observatory&amp;SubSecID=1&amp;SubSecName=Overview</URL>
-      </AccessURL>
-      <Format>Binary</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/61</InstrumentID>
-    <MeasurementType>Spectrum</MeasurementType>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2004-01-06T00:00:00</StartDate>
-        <RelativeStopDate>-P1D</RelativeStopDate>
-        <Note>Data are current to within a day.  The 18-1800 MHz range is swept in 3 sec.</Note>
-      </TimeSpan>
-    </TemporalDescription>
-    <SpectralRange>RadioFrequency</SpectralRange>
-    <DisplayCadence>PT3600S</DisplayCadence>
-    <!--InstrumentRegion=Earth.Surface-->
-    <ObservedRegion>Sun</ObservedRegion>
-  </DisplayData>
+    <Version>2.1.0</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/P_CULGOORA_HDR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Culgoora Solar Radio Spectrographs</ResourceName>
+            <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+            <Description>Culgoora Observatory solar radio spectrographs (18-1800 MHz) and H-alpha images</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.Dahlem</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/Culgoora</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Culgoora Observatory site</Name>
+                <URL>http://www.ips.gov.au/Main.php?CatID=5&amp;SecID=2&amp;SecName=Culgoora%20Observatory&amp;SubSecID=1&amp;SubSecName=Overview</URL>
+            </AccessURL>
+            <Format>Binary</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/61</InstrumentID>
+        <MeasurementType>Spectrum</MeasurementType>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2004-01-06T00:00:00</StartDate>
+                <RelativeStopDate>-P1D</RelativeStopDate>
+                <Note>Data are current to within a day.  The 18-1800 MHz range is swept in 3 sec.</Note>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>RadioFrequency</SpectralRange>
+        <DisplayCadence>PT3600S</DisplayCadence>      <!--InstrumentRegion=Earth.Surface-->
+        <ObservedRegion>Sun</ObservedRegion>
+    </DisplayData>
 </Spase>

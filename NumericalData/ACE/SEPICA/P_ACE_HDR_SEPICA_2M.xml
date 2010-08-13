@@ -1,45 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ACE_HDR_SEPICA_2M</ResourceID>
-    <ResourceHeader>
-      <ResourceName>ACE SEPICA L2 2-min H and He flux data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>ACE SEPICA L2 2-min H and He flux data, by charge states, at ASC</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Eberhard.S.Moebius</PersonID>
-        <Role>PrincipalInvestigator</Role>
-        <!--Eberhard Moebius at UNH is Lead Investigator-->
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>ACE Science Center (ASC)</Name>
-        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SEPICA.html</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in HDF via ftp from ASC</Name>
-        <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/sepica/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/ACE/SEPICA</InstrumentID>
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <MeasurementType>IonComposition</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1997-10-07T00:00:00</StartDate>
-        <RelativeStopDate>-P14D</RelativeStopDate>
-        <Note>Data are presently ~2 weeks delayed</Note>
-      </TimeSpan>
-      <Cadence>PT120S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ACE_HDR_SEPICA_2M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ACE SEPICA L2 2-min H and He flux data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>ACE SEPICA L2 2-min H and He flux data, by charge states, at ASC</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Eberhard.S.Moebius</PersonID>
+                <Role>PrincipalInvestigator</Role>            <!--Eberhard Moebius at UNH is Lead Investigator-->
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>ACE Science Center (ASC)</Name>
+                <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SEPICA.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in HDF via ftp from ASC</Name>
+                <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/sepica/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ACE/SEPICA</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <MeasurementType>IonComposition</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1997-10-07T00:00:00</StartDate>
+                <RelativeStopDate>-P14D</RelativeStopDate>
+                <Note>Data are presently ~2 weeks delayed</Note>
+            </TimeSpan>
+            <Cadence>PT120S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

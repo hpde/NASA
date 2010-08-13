@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.2</Version>
+    <Version>2.1.0</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/CHAMP/All_Data</ResourceID>
         <ResourceHeader>
@@ -11,7 +10,7 @@ and processing levels, including vector and scalar magnetic field data,
 coefficients for a CHAMP-based main magnetic field model, electron density 
 profiles, etc., are available from the CHAMP Data Center which is hosted by 
 ISDC (Information Systems and Data Center) at GFZ (GeoForschungsZentrum, 
-Potsdam).  Registration is required for open data access.</Description>            
+Potsdam).  Registration is required for open data access.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bernd.Ritschel</PersonID>
                 <Role>GeneralContact</Role>
@@ -22,8 +21,7 @@ Potsdam).  Registration is required for open data access.</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
-            
-<RepositoryID>spase://SMWG/Repository/ISDC/CHAMP</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/ISDC/CHAMP</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>

@@ -1,57 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ACE_HDR_MAG_1HR</ResourceID>
-    <ResourceHeader>
-      <ResourceName>ACE MAG L2 1-hr magnetic field data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>ACE MAG L2 1-hr, 1-day, 27-day magnetic field averages at ASC</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-        <Role>GeneralContact</Role>
-        <!-- Experiment Manager -->
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Charles.W.Smith</PersonID>
-        <Role>DataProducer</Role>
-        <!-- Data Manager -->
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>ACE Science Center (ASC)</Name>
-        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_MAG.html</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in HDF via ftp from ASC</Name>
-        <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/mag/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/mfi_h2</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1997-09-01T00:00:00</StartDate>
-        <RelativeStopDate>-P5M</RelativeStopDate>
-        <Note>Data are presently ~5 months delayed</Note>
-      </TimeSpan>
-      <Cadence>PT3600S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ACE_HDR_MAG_1HR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ACE MAG L2 1-hr magnetic field data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>ACE MAG L2 1-hr, 1-day, 27-day magnetic field averages at ASC</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>GeneralContact</Role>             <!-- Experiment Manager -->
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Charles.W.Smith</PersonID>
+                <Role>DataProducer</Role>             <!-- Data Manager -->
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>ACE Science Center (ASC)</Name>
+                <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_MAG.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in HDF via ftp from ASC</Name>
+                <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/mag/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/mfi_h2</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1997-09-01T00:00:00</StartDate>
+                <RelativeStopDate>-P5M</RelativeStopDate>
+                <Note>Data are presently ~5 months delayed</Note>
+            </TimeSpan>
+            <Cadence>PT3600S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

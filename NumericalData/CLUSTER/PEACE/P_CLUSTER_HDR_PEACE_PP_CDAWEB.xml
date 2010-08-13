@@ -1,46 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_PEACE_PP_CDAWEB</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Cluster PEACE Prime Parameters at CDAWeb</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>Cluster PEACE Prime Parameters from CDAWeb for all 4 spacecraft, 4-sec resolution electron density, velocity, parallel and perpendicular temperatures and parallel heat flux</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/PEACE</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/PEACE</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/PEACE</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/PEACE</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2001-01-14T00:00:00</StartDate>
-        <StopDate>2004-10-31T00:00:00</StopDate>
-        <Note>As of February, 2006, data were available through October, 2004.</Note>
-      </TimeSpan>
-      <Cadence>PT4.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_PEACE_PP_CDAWEB</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster PEACE Prime Parameters at CDAWeb</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Cluster PEACE Prime Parameters from CDAWeb for all 4 spacecraft, 4-sec resolution electron density, velocity, parallel and perpendicular temperatures and parallel heat flux</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/PEACE</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/PEACE</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/PEACE</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/PEACE</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-01-14T00:00:00</StartDate>
+                <StopDate>2004-10-31T00:00:00</StopDate>
+                <Note>As of February, 2006, data were available through October, 2004.</Note>
+            </TimeSpan>
+            <Cadence>PT4.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

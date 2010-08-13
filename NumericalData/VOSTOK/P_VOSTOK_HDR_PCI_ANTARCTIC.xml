@@ -1,40 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_VOSTOK_HDR_PCI_ANTARCTIC</ResourceID>
-    <ResourceHeader>
-      <ResourceName>PCI (Polar Cap Index), Antarctica</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>PCI (Polar Cap Index), Vostok, Antarctica.  15-m data 1978-1991 and 1-m data thereafter.  Via CEDAR database.  Also called PCS - Polar Cap South</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/CEDAR</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Restricted</AccessRights>
-      <AccessURL>
-        <Name>In ASCII via ftp from NGDC</Name>
-        <URL>ftp://ftp.ngdc.noaa.gov/STP/SOLAR_DATA/RELATED_INDICES/PC_INDEX/VOSTOK</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/243</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <MeasurementType>ActivityIndex</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1978-01-01T00:00:00</StartDate>
-        <RelativeStopDate>-P15M</RelativeStopDate>
-        <Note>As of April, 2004, the data were about 15 months behind current date.</Note>
-      </TimeSpan>
-      <Cadence>PT1M</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Surface</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_VOSTOK_HDR_PCI_ANTARCTIC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>PCI (Polar Cap Index), Antarctica</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>PCI (Polar Cap Index), Vostok, Antarctica.  15-m data 1978-1991 and 1-m data thereafter.  Via CEDAR database.  Also called PCS - Polar Cap South</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/CEDAR</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Restricted</AccessRights>
+            <AccessURL>
+                <Name>In ASCII via ftp from NGDC</Name>
+                <URL>ftp://ftp.ngdc.noaa.gov/STP/SOLAR_DATA/RELATED_INDICES/PC_INDEX/VOSTOK</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/243</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ActivityIndex</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1978-01-01T00:00:00</StartDate>
+                <RelativeStopDate>-P15M</RelativeStopDate>
+                <Note>As of April, 2004, the data were about 15 months behind current date.</Note>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Surface</ObservedRegion>
+    </NumericalData>
 </Spase>

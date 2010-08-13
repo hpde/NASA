@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_INTTAIL_HDR_DEFORBIT_120S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Interball Tail Ephemeris Data</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Interball Tail 2-min ephemeris data in GSE and GSM coordinates</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Victoria.I.Prokhorenko</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/interball/tail/orbit</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <MeasurementType>Ephemeris</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1995-08-07T00:00:00</StartDate>
-        <StopDate>2000-10-16T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT120S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_INTTAIL_HDR_DEFORBIT_120S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Interball Tail Ephemeris Data</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Interball Tail 2-min ephemeris data in GSE and GSM coordinates</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Victoria.I.Prokhorenko</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/interball/tail/orbit</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1995-08-07T00:00:00</StartDate>
+                <StopDate>2000-10-16T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT120S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,29 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <Service>
-    <ResourceID>spase://VSPO/Service/P_CCMC_HDR_HELIOSPH_RUN</ResourceID>
-    <ResourceHeader>
-      <ResourceName>CCMC: Heliospheric Models</ResourceName>
-      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
-      <Description>Run heliospheric models (Heliospheric Tomography of Jackson/Hick, Exospheric Solar Wind Model of Lamy/Pierrard 'soon') at CCMC</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Masha.Kuznetsova</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Bernard.V.Jackson</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>CCMC top page</Name>
-        <URL>http://ccmc.gsfc.nasa.gov/</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <AccessURL>
-      <Name>CCMC executable heliospheric models page</Name>
-      <URL>http://ccmc.gsfc.nasa.gov/models/models_at_glance.php</URL>
-    </AccessURL>
-    <!--      &amp;amp;amp;lt;MeasurementType&amp;amp;amp;gt;ThermalPlasma&amp;amp;amp;lt;/MeasurementType&amp;amp;amp;gt;      &amp;amp;amp;lt;ObservedRegion&amp;amp;amp;gt;Heliosphere&amp;amp;amp;lt;/ObservedRegion&amp;amp;amp;gt;      -->
-  </Service>
+    <Version>2.1.0</Version>
+    <Service>
+        <ResourceID>spase://VSPO/Service/P_CCMC_HDR_HELIOSPH_RUN</ResourceID>
+        <ResourceHeader>
+            <ResourceName>CCMC: Heliospheric Models</ResourceName>
+            <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+            <Description>Run heliospheric models (Heliospheric Tomography of Jackson/Hick, Exospheric Solar Wind Model of Lamy/Pierrard 'soon') at CCMC</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Masha.Kuznetsova</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Bernard.V.Jackson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>CCMC top page</Name>
+                <URL>http://ccmc.gsfc.nasa.gov/</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>CCMC executable heliospheric models page</Name>
+            <URL>http://ccmc.gsfc.nasa.gov/models/models_at_glance.php</URL>
+        </AccessURL>      <!--      &amp;amp;lt;MeasurementType&amp;amp;gt;ThermalPlasma&amp;amp;lt;/MeasurementType&amp;amp;gt;      &amp;amp;lt;ObservedRegion&amp;amp;gt;Heliosphere&amp;amp;lt;/ObservedRegion&amp;amp;gt;      -->
+    </Service>
 </Spase>

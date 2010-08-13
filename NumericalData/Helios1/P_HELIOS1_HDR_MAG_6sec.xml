@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.1.0</Version><NumericalData><ResourceID>spase://VSPO/NumericalData/P_HELIOS1_HDR_MAG_6SEC</ResourceID><ResourceHeader><ResourceName>Helios 1 6-sec magnetic field data</ResourceName><ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate><Description>Helios 1 6-sec magnetic field averages from Mariani/Ness experiment</Description><Contact><PersonID>spase://SMWG/Person/Franco.Mariani</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>ftp area at NSSDC</Name><URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios1/mag/6sec_ness/</URL></AccessURL><AccessURL><Name>CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL></AccessURL><Format>Text</Format></AccessInformation><ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel><InstrumentID>spase://vspo/instrument/102</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>1974-12-15T00:00:00</StartDate><StopDate>1978-12-29T00:00:00</StopDate></TimeSpan><Cadence>PT6.00S</Cadence></TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth--><ObservedRegion>Heliosphere.Inner</ObservedRegion></NumericalData></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_HELIOS1_HDR_MAG_6SEC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Helios 1 6-sec magnetic field data</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Helios 1 6-sec magnetic field averages from Mariani/Ness experiment</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Franco.Mariani</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>ftp area at NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios1/mag/6sec_ness/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/102</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1974-12-15T00:00:00</StartDate>
+                <StopDate>1978-12-29T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT6.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    </NumericalData>
+</Spase>

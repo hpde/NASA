@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_LANL1990_HDR_MPA_86S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>LANL1990 MPA 86-s Key Parameters</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>LANL1990 Magnetospheric Plasma Analyzer 86-s ion and electron key parameters</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/lanl/90_mpa</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/153</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1993-03-15T00:00:00</StartDate>
-        <RelativeStopDate>-P3D</RelativeStopDate>
-        <Note>Data are current to within a few days.</Note>
-      </TimeSpan>
-      <Cadence>PT86S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_LANL1990_HDR_MPA_86S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL1990 MPA 86-s Key Parameters</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>LANL1990 Magnetospheric Plasma Analyzer 86-s ion and electron key parameters</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/lanl/90_mpa</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/153</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1993-03-15T00:00:00</StartDate>
+                <RelativeStopDate>-P3D</RelativeStopDate>
+                <Note>Data are current to within a few days.</Note>
+            </TimeSpan>
+            <Cadence>PT86S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

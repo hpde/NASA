@@ -1,145 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://NSSDC/NumericalData/SPHE_00321</ResourceID>
-    <ResourceHeader>
-      <ResourceName>ISEE 2 FPE plasma ion parameters</ResourceName>
-      <ReleaseDate>2007-12-28T00:00:00</ReleaseDate>
-      <Description>These are 3-sec or 12-sec (for high or low telemetry rates) plasma parameters (density, flow speed and azimuth, min and max temperatures, azimuth of max temperature) based on 2-D distributions (approximately in the GSE X Y plane).  Data are presently (December, 2007) offline in Text format.</Description>
-      <Acknowledgement>Please acknowledge J.R. Gosling and NSSDC</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102B-01</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Offline</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
-      </AccessURL>
-      <Format>Text</Format>
-      <DataExtent>
-        <Quantity>1</Quantity>
-        <Units>GB</Units>
-      </DataExtent>
-      <Acknowledgement>Please acknowledge J.R. Gosling and NSSDC</Acknowledgement>
-    </AccessInformation>
-    <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/ISEE2/FEP</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1977-10-26T00:00:00</StartDate>
-        <StopDate>1980-04-08T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT3S</Cadence>
-    </TemporalDescription>
-    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
-    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
-    <Parameter>
-      <Name>ion density</Name>
-      <Description>density computed as if all ions were protons</Description>
-      <Cadence>PT3S</Cadence>
-      <Units>number/cm**3</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>flow speed</Name>
-      <Cadence>PT3S</Cadence>
-      <Units>km/s</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>flow azimuth</Name>
-      <Description>Azimuth is zero for anti-sunward flow, and is negative for duskward flow.</Description>
-      <Cadence>PT3S</Cadence>
-      <Units>deg</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>minimum temperature</Name>
-      <Description>Minimum temperature over 360 deg in azimuth</Description>
-      <Cadence>PT3S</Cadence>
-      <Units>K</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <Qualifier>Perpendicular</Qualifier>
-        <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>maximum temperature</Name>
-      <Description>Maximum temperature per spin</Description>
-      <Cadence>PT3S</Cadence>
-      <Units>K</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <Qualifier>Parallel</Qualifier>
-        <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>temperature azimuth</Name>
-      <Description>Azimuthal direction of maximum temperature</Description>
-      <Cadence>PT3S</Cadence>
-      <Units>deg</Units>
-      <Particle>
-        <ParticleType>Ion</ParticleType>
-        <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
-    <Parameter>
-      <Name>spacecraft radial distance</Name>
-      <Cadence>PT3S</Cadence>
-      <Units>Re</Units>
-      <Support>
-        <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>spacecraft latitude</Name>
-      <Cadence>PT3S</Cadence>
-      <Units>deg</Units>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-        <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
-      <Support>
-        <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-    <Parameter>
-      <Name>spacecraft longitude</Name>
-      <Cadence>PT3S</Cadence>
-      <Units>deg</Units>
-      <CoordinateSystem>
-        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-        <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
-      <Support>
-        <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://NSSDC/NumericalData/SPHE_00321</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISEE 2 FPE plasma ion parameters</ResourceName>
+            <ReleaseDate>2007-12-28T00:00:00</ReleaseDate>
+            <Description>These are 3-sec or 12-sec (for high or low telemetry rates) plasma parameters (density, flow speed and azimuth, min and max temperatures, azimuth of max temperature) based on 2-D distributions (approximately in the GSE X Y plane).  Data are presently (December, 2007) offline in Text format.</Description>
+            <Acknowledgement>Please acknowledge J.R. Gosling and NSSDC</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102B-01</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Offline</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>NSSDC</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
+            </AccessURL>
+            <Format>Text</Format>
+            <DataExtent>
+                <Quantity>1</Quantity>
+                <Units>GB</Units>
+            </DataExtent>
+            <Acknowledgement>Please acknowledge J.R. Gosling and NSSDC</Acknowledgement>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ISEE2/FEP</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1977-10-26T00:00:00</StartDate>
+                <StopDate>1980-04-08T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT3S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <Parameter>
+            <Name>ion density</Name>
+            <Description>density computed as if all ions were protons</Description>
+            <Cadence>PT3S</Cadence>
+            <Units>number/cm**3</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <ParticleQuantity>NumberDensity</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>flow speed</Name>
+            <Cadence>PT3S</Cadence>
+            <Units>km/s</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <ParticleQuantity>Velocity</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>flow azimuth</Name>
+            <Description>Azimuth is zero for anti-sunward flow, and is negative for duskward flow.</Description>
+            <Cadence>PT3S</Cadence>
+            <Units>deg</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <ParticleQuantity>Velocity</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>minimum temperature</Name>
+            <Description>Minimum temperature over 360 deg in azimuth</Description>
+            <Cadence>PT3S</Cadence>
+            <Units>K</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <Qualifier>Perpendicular</Qualifier>
+                <ParticleQuantity>Temperature</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>maximum temperature</Name>
+            <Description>Maximum temperature per spin</Description>
+            <Cadence>PT3S</Cadence>
+            <Units>K</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <Qualifier>Parallel</Qualifier>
+                <ParticleQuantity>Temperature</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>temperature azimuth</Name>
+            <Description>Azimuthal direction of maximum temperature</Description>
+            <Cadence>PT3S</Cadence>
+            <Units>deg</Units>
+            <Particle>
+                <ParticleType>Ion</ParticleType>
+                <ParticleQuantity>Temperature</ParticleQuantity>
+            </Particle>
+        </Parameter>
+        <Parameter>
+            <Name>spacecraft radial distance</Name>
+            <Cadence>PT3S</Cadence>
+            <Units>Re</Units>
+            <Support>
+                <SupportQuantity>Positional</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>spacecraft latitude</Name>
+            <Cadence>PT3S</Cadence>
+            <Units>deg</Units>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+                <CoordinateSystemName>GSE</CoordinateSystemName>
+            </CoordinateSystem>
+            <Support>
+                <SupportQuantity>Positional</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>spacecraft longitude</Name>
+            <Cadence>PT3S</Cadence>
+            <Units>deg</Units>
+            <CoordinateSystem>
+                <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+                <CoordinateSystemName>GSE</CoordinateSystemName>
+            </CoordinateSystem>
+            <Support>
+                <SupportQuantity>Positional</SupportQuantity>
+            </Support>
+        </Parameter>
+    </NumericalData>
 </Spase>

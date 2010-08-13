@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_IMP8_HDR_MAG_1H</ResourceID>
-    <ResourceHeader>
-      <ResourceName>IMP 8 MAG hourly IMF data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>IMP 8 magnetic field hourly averages, solar wind only</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>FTPBrowser</Name>
-        <URL>http://ftpbrowser.gsfc.nasa.gov/imp8_mag_hr_sw.html</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/imp/imp8/mag/1hr_ascii_sw/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/IMP8/MAG</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1973-10-30T00:00:00</StartDate>
-        <StopDate>2000-06-10T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT1H</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_IMP8_HDR_MAG_1H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IMP 8 MAG hourly IMF data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>IMP 8 magnetic field hourly averages, solar wind only</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTPBrowser</Name>
+                <URL>http://ftpbrowser.gsfc.nasa.gov/imp8_mag_hr_sw.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/imp/imp8/mag/1hr_ascii_sw/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/IMP8/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1973-10-30T00:00:00</StartDate>
+                <StopDate>2000-06-10T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1H</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

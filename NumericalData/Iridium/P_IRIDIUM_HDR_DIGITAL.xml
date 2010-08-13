@@ -1,39 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_IRIDIUM_HDR_DIGITAL</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Iridium magnetic field digital indices</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Various summaries of Birkeland current system magnetic field data from ~70 Iridium spacecraft; cf. Anderson et al, JGR, 107, SMP-11, 2002.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Brian.Jay.Anderson</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>JHU/APL site with plots and digital data</Name>
-        <URL>http://dysprosium.jhuapl.edu/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <MeasurementType>MagneticField</MeasurementType>
-    <MeasurementType>ActivityIndex</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1999-02-18T00:00:00</StartDate>
-        <RelativeStopDate>-P21D</RelativeStopDate>
-        <Note>Data are current to within a few weeks</Note>
-      </TimeSpan>
-      <Cadence>PT900.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.NearSurface</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_IRIDIUM_HDR_DIGITAL</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Iridium magnetic field digital indices</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Various summaries of Birkeland current system magnetic field data from ~70 Iridium spacecraft; cf. Anderson et al, JGR, 107, SMP-11, 2002.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Brian.Jay.Anderson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>JHU/APL site with plots and digital data</Name>
+                <URL>http://dysprosium.jhuapl.edu/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ActivityIndex</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1999-02-18T00:00:00</StartDate>
+                <RelativeStopDate>-P21D</RelativeStopDate>
+                <Note>Data are current to within a few weeks</Note>
+            </TimeSpan>
+            <Cadence>PT900.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
+    </NumericalData>
 </Spase>

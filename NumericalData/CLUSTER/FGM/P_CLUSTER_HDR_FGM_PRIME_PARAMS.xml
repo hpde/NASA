@@ -1,45 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_FGM_PRIME_PARAMS</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Cluster FGM 4-s Mag Field Data, All S/c</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>Cluster FGM 4-sec Magnetic Field Prime Parameter Data From All 4 Cluster Spacecraft</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Tim.Oddy</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/IC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>Imperial College site</Name>
-        <URL>http://jakal.sp.ph.ic.ac.uk/fgm/fgm_pp_data.php</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/FGM</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/FGM</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/FGM</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/FGM</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2001-02-01T00:00:00</StartDate>
-        <StopDate>2004-05-31T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT4S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_CLUSTER_HDR_FGM_PRIME_PARAMS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster FGM 4-s Mag Field Data, All S/c</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Cluster FGM 4-sec Magnetic Field Prime Parameter Data From All 4 Cluster Spacecraft</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Tim.Oddy</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/IC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Imperial College site</Name>
+                <URL>http://jakal.sp.ph.ic.ac.uk/fgm/fgm_pp_data.php</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/FGM</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/FGM</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/FGM</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/FGM</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-02-01T00:00:00</StartDate>
+                <StopDate>2004-05-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT4S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

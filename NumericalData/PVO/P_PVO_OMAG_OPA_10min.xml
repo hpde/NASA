@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.2</Version>
+    <Version>2.1.0</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/OMAG_OPA/PT10M</ResourceID>
         <ResourceHeader>
@@ -11,7 +10,7 @@ parameters are given.  Users may plot or list one of two sets of parameters.
 The first has time, RBx, RBy, RBz,|B|, V, Np, Tp, perp pressure.
 The second has time, perp pressure, dynamic pressure, entropy.
 Spacecraft position data are included on listings.  Data are mostly
-from solar wind orbit phases</Description>            
+from solar wind orbit phases</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
                 <Role>PrincipalInvestigator</Role>

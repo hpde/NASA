@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ESF_HDR_EVANS</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Evans Solar Facility Spectroheliographs</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Daily Solar Full Disk Spectroheliographs at 6563A and 3934A taken at John W. Evans Solar Facility</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Thomas.Rimmele</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NOAO</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>ftp site at NOAO</Name>
-        <URL>ftp://solarch.tuc.noao.edu/ESF_SHG_cdrom/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>Virtual Solar Observatory</Name>
-        <URL>http://www.virtualsolar.org/</URL>
-      </AccessURL>
-      <Format>FITS</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://vspo/instrument/75</InstrumentID>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1996-02-05T00:00:00</StartDate>
-        <StopDate>1999-05-28T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT86400S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Sun</ObservedRegion>
-    <ObservedRegion>Sun.Photosphere</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ESF_HDR_EVANS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Evans Solar Facility Spectroheliographs</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Daily Solar Full Disk Spectroheliographs at 6563A and 3934A taken at John W. Evans Solar Facility</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.Rimmele</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NOAO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>ftp site at NOAO</Name>
+                <URL>ftp://solarch.tuc.noao.edu/ESF_SHG_cdrom/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Virtual Solar Observatory</Name>
+                <URL>http://www.virtualsolar.org/</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://vspo/instrument/75</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-02-05T00:00:00</StartDate>
+                <StopDate>1999-05-28T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT86400S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Sun</ObservedRegion>
+        <ObservedRegion>Sun.Photosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

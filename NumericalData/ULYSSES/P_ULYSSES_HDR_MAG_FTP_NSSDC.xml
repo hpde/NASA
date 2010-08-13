@@ -1,51 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_MAG_FTP_NSSDC</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ulysses magnetic field data via nssdcftp</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>1-s, 1-m and 1-hr Ulysses magnetic field data via ftp at NSSDC; field magnitude and RTN components; daily 1-s files, 10-day 1-m files, 1-yr hourly files; ASCII</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
-        <Role>DataProducer</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>1-sec data in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/second/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>1-min data in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/minute/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>1-hour data in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/hour/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/FGM</InstrumentID>
-    <MeasurementType>MagneticField</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1990-10-25T00:00:00</StartDate>
-        <StopDate>2008-08-31T00:00:00</StopDate>
-        <Note>1-s data ends in 1994.</Note>
-      </TimeSpan>
-      <Cadence>PT1M</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_MAG_FTP_NSSDC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses magnetic field data via nssdcftp</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>1-s, 1-m and 1-hr Ulysses magnetic field data via ftp at NSSDC; field magnitude and RTN components; daily 1-s files, 10-day 1-m files, 1-yr hourly files; ASCII</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>1-sec data in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/second/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>1-min data in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/minute/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>1-hour data in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/mag/interplanetary/hour/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/FGM</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-10-25T00:00:00</StartDate>
+                <StopDate>2008-08-31T00:00:00</StopDate>
+                <Note>1-s data ends in 1994.</Note>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

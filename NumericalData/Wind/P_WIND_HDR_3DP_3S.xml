@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_3DP_3S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Wind 3DP 3-s onboard-computed ion moments</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>Wind 3DP proton and alpha particle moments (computed on-board), 3-s resolution,</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_pm</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1994-12-01T00:00:00</StartDate>
-        <StopDate>2000-10-14T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT3S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_3DP_3S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Wind 3DP 3-s onboard-computed ion moments</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Wind 3DP proton and alpha particle moments (computed on-board), 3-s resolution,</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_pm</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1994-12-01T00:00:00</StartDate>
+                <StopDate>2000-10-14T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT3S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

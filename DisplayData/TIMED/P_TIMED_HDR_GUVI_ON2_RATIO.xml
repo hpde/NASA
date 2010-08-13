@@ -1,41 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/P_TIMED_HDR_GUVI_ON2_RATIO</ResourceID>
-    <ResourceHeader>
-      <ResourceName>TIMED GUVI O/N2 Ratio Plots</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>UV O/N2 Ratio Plots from TIMED GUVI</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>TIMED Site at JHU/APL</Name>
-        <URL>http://www.timed.jhuapl.edu/scripts/mdc_survey_products.html</URL>
-      </AccessURL>
-      <Format>JPEG</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2002-01-07T00:00:00</StartDate>
-        <RelativeStopDate>-P3M</RelativeStopDate>
-        <Note>Data are current to within several months.</Note>
-      </TimeSpan>
-    </TemporalDescription>
-    <!--InstrumentRegion=Earth.NearSurface-->
-    <ObservedRegion>Earth.NearSurface</ObservedRegion>
-    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    <!-- &amp;amp;amp;lt;ObservedRegion&amp;amp;amp;gt;Thermosphere&amp;amp;amp;lt;/ObservedRegion&amp;amp;amp;gt; No SPASE term for thermosphere -->
-    <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
-  </DisplayData>
+    <Version>2.1.0</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/P_TIMED_HDR_GUVI_ON2_RATIO</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED GUVI O/N2 Ratio Plots</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>UV O/N2 Ratio Plots from TIMED GUVI</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>TIMED Site at JHU/APL</Name>
+                <URL>http://www.timed.jhuapl.edu/scripts/mdc_survey_products.html</URL>
+            </AccessURL>
+            <Format>JPEG</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-01-07T00:00:00</StartDate>
+                <RelativeStopDate>-P3M</RelativeStopDate>
+                <Note>Data are current to within several months.</Note>
+            </TimeSpan>
+        </TemporalDescription>      <!--InstrumentRegion=Earth.NearSurface-->
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>      <!-- &amp;amp;lt;ObservedRegion&amp;amp;gt;Thermosphere&amp;amp;lt;/ObservedRegion&amp;amp;gt; No SPASE term for thermosphere -->
+        <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
+    </DisplayData>
 </Spase>

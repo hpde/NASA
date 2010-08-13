@@ -1,47 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/P_IMAGE_HDR_EUV_600S</ResourceID>
-    <ResourceHeader>
-      <ResourceName>IMAGE EUV Key Parameters: Ion Images</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>IMAGE EUV Key Parameters, Ion Images, 10-min resolution</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Bill.Roy.Sandel</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/euv</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>EUV home page</Name>
-        <URL>http://euv.lpl.arizona.edu/euv/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/IMAGE/EUV</InstrumentID>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>2000-03-28T00:00:00</StartDate>
-        <StopDate>2005-12-18T00:00:00</StopDate>
-      </TimeSpan>
-    </TemporalDescription>
-    <SpectralRange>Ultraviolet</SpectralRange>
-    <DisplayCadence>PT600S</DisplayCadence>
-    <!--InstrumentRegion=Earth.Magnetosphere-->
-    <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-  </DisplayData>
+    <Version>2.1.0</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/P_IMAGE_HDR_EUV_600S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IMAGE EUV Key Parameters: Ion Images</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>IMAGE EUV Key Parameters, Ion Images, 10-min resolution</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Bill.Roy.Sandel</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/euv</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>EUV home page</Name>
+                <URL>http://euv.lpl.arizona.edu/euv/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/IMAGE/EUV</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-03-28T00:00:00</StartDate>
+                <StopDate>2005-12-18T00:00:00</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>Ultraviolet</SpectralRange>
+        <DisplayCadence>PT600S</DisplayCadence>      <!--InstrumentRegion=Earth.Magnetosphere-->
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </DisplayData>
 </Spase>

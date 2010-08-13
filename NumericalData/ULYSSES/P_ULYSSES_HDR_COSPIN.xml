@@ -1,53 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_COSPIN</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ulysses COSPIN 10-min fluxes</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>10-min ion (many Z) and electron fluxes</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <MeasurementType>IonComposition</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1990-10-23T00:00:00</StartDate>
-        <StopDate>2008-08-31T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT10M</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_COSPIN</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses COSPIN 10-min fluxes</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>10-min ion (many Z) and electron fluxes</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <MeasurementType>IonComposition</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-10-23T00:00:00</StartDate>
+                <StopDate>2008-08-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT10M</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

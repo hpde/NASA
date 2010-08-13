@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.2</Version>
+    <Version>2.1.0</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Hinode/All_Data</ResourceID>
         <ResourceHeader>
@@ -10,8 +9,8 @@
 are accessible via links from the NASA/MSFC Project web page and from the 
 DARTS data archive in Japan.  Data are from all three instruments, the 
 Solar Optical Telescope (SOT), the X-Ray Telescope (XRT) and the EUV 
-Imaging Spectrometer (EIS)</Description>            
-<Acknowledgement>see guidelines at
+Imaging Spectrometer (EIS)</Description>
+            <Acknowledgement>see guidelines at
 http://hinode.nao.ac.jp/hsc_e/acknowledgement_e.shtml</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>

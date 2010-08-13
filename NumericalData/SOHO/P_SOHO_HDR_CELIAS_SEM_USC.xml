@@ -1,40 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_SOHO_HDR_CELIAS_SEM_USC</ResourceID>
-    <ResourceHeader>
-      <ResourceName>SOHO/CELIAS EUV Data</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>SOHO/CELIAS/SEM 15-s, 5-m, 10-m and daily full-solar-disk EUV fluxes in ASCII files</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Don.McMullin</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/USC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>USC site for file downloads</Name>
-        <URL>http://www.usc.edu/dept/space_science/semdatafolder/semdownload.htm</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
-    <MeasurementType>ImageIntensity</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1996-01-01T00:00:00</StartDate>
-        <RelativeStopDate>-P5M</RelativeStopDate>
-        <Note>As of May 25, 2004, data were available to 12/31/2003.</Note>
-      </TimeSpan>
-      <Cadence>PT15.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Sun</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_SOHO_HDR_CELIAS_SEM_USC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SOHO/CELIAS EUV Data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>SOHO/CELIAS/SEM 15-s, 5-m, 10-m and daily full-solar-disk EUV fluxes in ASCII files</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Don.McMullin</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/USC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>USC site for file downloads</Name>
+                <URL>http://www.usc.edu/dept/space_science/semdatafolder/semdownload.htm</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/SOHO/CELIAS</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-01-01T00:00:00</StartDate>
+                <RelativeStopDate>-P5M</RelativeStopDate>
+                <Note>As of May 25, 2004, data were available to 12/31/2003.</Note>
+            </TimeSpan>
+            <Cadence>PT15.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
 </Spase>

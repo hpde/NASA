@@ -1,38 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_PION10_HDR_PLASMA_FULLRES</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Pioneer 10 full resolution plasma data</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Pioneer 10 plasma ion density, temperature, flow speed and direction angles, full resolution (10 minutes or lower resolution)</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Paul.R.Gazis</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/pioneer/pioneer10/plasma/version31/v31_summary_ascii/</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Pioneer10/PLS</InstrumentID>
-    <MeasurementType>ThermalPlasma</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1972-04-19T00:00:00</StartDate>
-        <StopDate>1995-09-07T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT600.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_PION10_HDR_PLASMA_FULLRES</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Pioneer 10 full resolution plasma data</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Pioneer 10 plasma ion density, temperature, flow speed and direction angles, full resolution (10 minutes or lower resolution)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Paul.R.Gazis</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/pioneer/pioneer10/plasma/version31/v31_summary_ascii/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Pioneer10/PLS</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1972-04-19T00:00:00</StartDate>
+                <StopDate>1995-09-07T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT600.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

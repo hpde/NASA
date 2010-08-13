@@ -1,47 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_COSPIN_AT1</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ulysses COSPIN AT1 0.7-6.5 MeV, 10-min Proton Fluxes</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>10-min proton and Z&gt;=1 fluxes, sectored and spin-averaged, several energy channels mostly between 0.7 and 6.5 MeV/n, also Z&gt;=2, 3.1-23 MeV/n fluxes, from Anisotropy Telescope (AT) 1 of COSPIN investigation on Ulysses.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in CDF via ftp from CDAWeb</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/at1/</URL>
-      </AccessURL>
-      <AccessURL>
-        <Name>in ASCII via ftp from NSSDC</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/at1/10min_new/</URL>
-      </AccessURL>
-      <Format>CDF</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1991-01-01T00:00:00</StartDate>
-        <StopDate>2008-08-31T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT10M</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_COSPIN_AT1</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses COSPIN AT1 0.7-6.5 MeV, 10-min Proton Fluxes</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>10-min proton and Z&gt;=1 fluxes, sectored and spin-averaged, several energy channels mostly between 0.7 and 6.5 MeV/n, also Z&gt;=2, 3.1-23 MeV/n fluxes, from Anisotropy Telescope (AT) 1 of COSPIN investigation on Ulysses.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/at1/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/particle/cospin/at1/10min_new/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1991-01-01T00:00:00</StartDate>
+                <StopDate>2008-08-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT10M</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

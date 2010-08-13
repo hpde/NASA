@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_UDS_DIGITAL</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ulysses HISCALE ion and electron fluxes at UDS</ResourceName>
-      <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-      <Description>High-resolution and hourly ion and electron fluxes</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
-        <Role>DataProducer</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>annual gzipped-ASCII files from UDS</Name>
-        <URL>http://ulysses-ops.esa.int/ulysses/archive/hiscale.html</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Ulysses/HISCALE</InstrumentID>
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <MeasurementType>IonComposition</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1990-11-14T00:00:00</StartDate>
-        <StopDate>2008-08-31T00:00:00</StopDate>
-      </TimeSpan>
-      <Cadence>PT2M</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_UDS_DIGITAL</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses HISCALE ion and electron fluxes at UDS</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>High-resolution and hourly ion and electron fluxes</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>annual gzipped-ASCII files from UDS</Name>
+                <URL>http://ulysses-ops.esa.int/ulysses/archive/hiscale.html</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/HISCALE</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <MeasurementType>IonComposition</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-11-14T00:00:00</StartDate>
+                <StopDate>2008-08-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT2M</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

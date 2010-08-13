@@ -1,29 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <Service>
-    <ResourceID>spase://VSPO/Service/P_IRI_HDR</ResourceID>
-    <ResourceHeader>
-      <ResourceName>International Reference Ionosphere Model</ResourceName>
-      <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
-      <Description>International Reference Ionosphere (IRI) empirical model</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>About the IRI</Name>
-        <URL>http://modelweb.gsfc.nasa.gov/ionos/iri.html</URL>
-      </InformationURL>
-      <InformationURL>
-        <Name>Access IRI code via ftp</Name>
-        <URL>ftp://nssdcftp.gsfc.nasa.gov/models/ionospheric/iri/</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <AccessURL>
-      <Name>Execute IRI code at NSSDC</Name>
-      <URL>http://omniweb.gsfc.nasa.gov/vitmo/iri_vitmo.html</URL>
-    </AccessURL>
-    <!--      &amp;amp;amp;lt;MeasurementType&amp;amp;amp;gt;ThermalPlasma&amp;amp;amp;lt;/MeasurementType&amp;amp;amp;gt;      &amp;amp;amp;lt;ObservedRegion&amp;amp;amp;gt;Earth.NearSurface.Ionosphere&amp;amp;amp;lt;/ObservedRegion&amp;amp;amp;gt;      -->
-  </Service>
+    <Version>2.1.0</Version>
+    <Service>
+        <ResourceID>spase://VSPO/Service/P_IRI_HDR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>International Reference Ionosphere Model</ResourceName>
+            <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+            <Description>International Reference Ionosphere (IRI) empirical model</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>About the IRI</Name>
+                <URL>http://modelweb.gsfc.nasa.gov/ionos/iri.html</URL>
+            </InformationURL>
+            <InformationURL>
+                <Name>Access IRI code via ftp</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/models/ionospheric/iri/</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>Execute IRI code at NSSDC</Name>
+            <URL>http://omniweb.gsfc.nasa.gov/vitmo/iri_vitmo.html</URL>
+        </AccessURL>      <!--      &amp;amp;lt;MeasurementType&amp;amp;gt;ThermalPlasma&amp;amp;lt;/MeasurementType&amp;amp;gt;      &amp;amp;lt;ObservedRegion&amp;amp;gt;Earth.NearSurface.Ionosphere&amp;amp;lt;/ObservedRegion&amp;amp;gt;      -->
+    </Service>
 </Spase>

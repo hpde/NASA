@@ -17,7 +17,7 @@ Polar Mesospheric Cloud brightness.(</Description>
                 <PersonID>spase://SMWG/Person/Mihaly.Horanyi</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-           <InformationURL>
+            <InformationURL>
                 <Name>info interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/library/documentation/instruments/cde/cde_docs.html</URL>
             </InformationURL>
@@ -30,8 +30,8 @@ Polar Mesospheric Cloud brightness.(</Description>
                 <Name>Data interface page at Hampton U.</Name>
                 <URL>http://aim.hamptonu.edu/sds/cal_index_aim.php?instrument=cde</URL>
                 <Description>For levels 1 and 2 only</Description>
-            </AccessURL>            
-        <Format>NetCDF</Format>
+            </AccessURL>
+            <Format>NetCDF</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/AIM/CDE</InstrumentID>
         <MeasurementType>Dust</MeasurementType>

@@ -1,6 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>2.0.1</Version><NumericalData><ResourceID>spase://VSPO/NumericalData/CNOFS_VEFI_BFIELD_1SEC</ResourceID><ResourceHeader><ResourceName>CNOFS VEFI 1-sec Magnetic Field preliminary data</ResourceName><ReleaseDate>2010-05-15T00:00:00.000Z</ReleaseDate><Description>This data set contains magnetic field data from the fluxgate
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/CNOFS_VEFI_BFIELD_1SEC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>CNOFS VEFI 1-sec Magnetic Field preliminary data</ResourceName>
+            <ReleaseDate>2010-05-15T00:00:00.000Z</ReleaseDate>
+            <Description>This data set contains magnetic field data from the fluxgate
 magnetometer associated with the C/NOFS Vector  
 Electric Field Instrument (VEFI).  The data include 1-sec
 resolution magnetic field components (North, West, Up) and 
-spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description><Contact><PersonID>spase://spdf/person/Robert.F.Pfaff</PersonID><Role>GeneralContact</Role></Contact><InformationURL><Name>VEFI Data Products</Name><URL>http://vefi.gsfc.nasa.gov/vefi/dataproducts.html</URL></InformationURL></ResourceHeader><AccessInformation><RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID><Availability>Online</Availability><AccessRights>Open</AccessRights><AccessURL><Name>PRELIMINARY data from CDAWeb</Name><URL>http://cdaweb.gsfc.nasa.gov/</URL><Description>1-sec Magnetic Field preliminary data</Description></AccessURL><Format>CDF</Format></AccessInformation><ProviderProcessingLevel>Preliminary Calibrated</ProviderProcessingLevel><InstrumentID>spase://SMWG/Instrument/CNOFS/VEFI</InstrumentID><MeasurementType>MagneticField</MeasurementType><TemporalDescription><TimeSpan><StartDate>2008-05-09T00:00:00.000Z</StartDate><StopDate>2009-04-30T23:59:59.000Z</StopDate></TimeSpan><Cadence>PT1S</Cadence></TemporalDescription><ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion><Caveats>The data are PRELIMINARY, and as such, are intended for BROWSE PURPOSES ONLY. Continuous coverage is not guaranteed; check the inventory graph for coverage.</Caveats><InputResourceID>None</InputResourceID></NumericalData></Spase>
+spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
+            <Contact>
+                <PersonID>spase://spdf/person/Robert.F.Pfaff</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>VEFI Data Products</Name>
+                <URL>http://vefi.gsfc.nasa.gov/vefi/dataproducts.html</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PRELIMINARY data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <Description>1-sec Magnetic Field preliminary data</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>Preliminary Calibrated</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/CNOFS/VEFI</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2008-05-09T00:00:00.000Z</StartDate>
+                <StopDate>2009-04-30T23:59:59.000Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT1S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <Caveats>The data are PRELIMINARY, and as such, are intended for BROWSE PURPOSES ONLY. Continuous coverage is not guaranteed; check the inventory graph for coverage.</Caveats>
+        <InputResourceID>None</InputResourceID>
+    </NumericalData>
+</Spase>

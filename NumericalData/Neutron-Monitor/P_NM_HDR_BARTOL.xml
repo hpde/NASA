@@ -1,39 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/P_NM_HDR_BARTOL</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Neutron Monitor Count Rates at Bartol</ResourceName>
-      <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-      <Description>Hourly neutron monitor rates (digital and plots) from the 11-station ?Spaceship Earth? at Bartol Research Institute</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/John.Bieber</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Bartol</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>Top Neutron Monitor page at Bartol</Name>
-        <URL>http://neutronm.bartol.udel.edu//</URL>
-      </AccessURL>
-      <Format>Text</Format>
-    </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <!-- UNKNOWN Instrument ID      &amp;amp;amp;lt;InstrumentID&amp;amp;amp;gt;         &amp;amp;amp;lt;INSTRUMENT_ABBREVIATION&amp;amp;amp;gt;Neutron Monitor&amp;amp;amp;lt;/INSTRUMENT_ABBREVIATION&amp;amp;amp;gt;      &amp;amp;amp;lt;/InstrumentID&amp;amp;amp;gt;      -->
-    <MeasurementType>EnergeticParticles</MeasurementType>
-    <TemporalDescription>
-      <TimeSpan>
-        <StartDate>1957-08-13T00:00:00</StartDate>
-        <RelativeStopDate>-P1M</RelativeStopDate>
-        <Note>Data are current to within a month.</Note>
-      </TimeSpan>
-      <Cadence>PT3600.00S</Cadence>
-    </TemporalDescription>
-    <!--InstrumentRegion=Heliosphere.NearEarth-->
-    <ObservedRegion>Earth.Surface</ObservedRegion>
-  </NumericalData>
+    <Version>2.1.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_NM_HDR_BARTOL</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Neutron Monitor Count Rates at Bartol</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
+            <Description>Hourly neutron monitor rates (digital and plots) from the 11-station ?Spaceship Earth? at Bartol Research Institute</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/John.Bieber</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/Bartol</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Top Neutron Monitor page at Bartol</Name>
+                <URL>http://neutronm.bartol.udel.edu//</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>      <!-- UNKNOWN Instrument ID      &amp;amp;lt;InstrumentID&amp;amp;gt;         &amp;amp;lt;INSTRUMENT_ABBREVIATION&amp;amp;gt;Neutron Monitor&amp;amp;lt;/INSTRUMENT_ABBREVIATION&amp;amp;gt;      &amp;amp;lt;/InstrumentID&amp;amp;gt;      -->
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1957-08-13T00:00:00</StartDate>
+                <RelativeStopDate>-P1M</RelativeStopDate>
+                <Note>Data are current to within a month.</Note>
+            </TimeSpan>
+            <Cadence>PT3600.00S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Surface</ObservedRegion>
+    </NumericalData>
 </Spase>
