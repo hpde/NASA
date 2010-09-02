@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.1.0</Version>
+    <Version>2.2.0</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/PT1M</ResourceID>
         <ResourceHeader>
@@ -22,6 +23,16 @@ HEE, HEEQ and HCI direction angles.  460 kB daily files are available.</Descript
                 <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
             </InformationURL>
         </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb FTP site</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/behind/l2/plastic/1dmax/1min/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
             <Availability>Online</Availability>
@@ -52,3 +63,5 @@ HEE, HEEQ and HCI direction angles.  460 kB daily files are available.</Descript
         <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
     </NumericalData>
 </Spase>
+
+
