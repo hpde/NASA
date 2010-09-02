@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.1.0</Version>
+    <Version>2.2.0</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/PT1H</ResourceID>
         <ResourceHeader>
@@ -24,6 +25,16 @@ available.</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb FTP site</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/ahead/l2/plastic/1dmax/1hr/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -46,10 +57,11 @@ available.</Description>
             <TimeSpan>
                 <StartDate>2007-02-15T00:00:00</StartDate>
                 <RelativeStopDate>P3M</RelativeStopDate>
-                <Note>As of October 28, 2009, last data were for March 30, 2009.</Note>
             </TimeSpan>
             <Cadence>PT1H</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
     </NumericalData>
 </Spase>
+
+
