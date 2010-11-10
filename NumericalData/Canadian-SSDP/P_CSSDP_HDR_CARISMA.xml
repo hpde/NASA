@@ -25,11 +25,11 @@
             </AccessURL>
             <AccessURL>
                 <Name>CARISMA site</Name>
-                <URL>http://portal.cssdp.ca:8080/ssdp/jsp/instrumentData.jsp</URL>
+                <URL>http://bluebird.phys.ualberta.ca/carisma/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>Magnetometer data from CSSDP</Name>
-                <URL>http://portal.cssdp.ca:8080/ssdp/jsp/instrumentData.jsp?sp=mag&amp;sc=label_mag</URL>
+                <URL>http://portal.cssdp.ca/ssdp/app/static/data_providers/cgsm/carisma.html</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
