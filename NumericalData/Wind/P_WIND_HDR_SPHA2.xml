@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_SPHA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Wind Spin Phase Data</ResourceName>
+            <ReleaseDate>2010-11-22T00:00:00Z</ReleaseDate>
+            <Description>This data set contains spin phase data for the Wind spacecraft that will be of interest to the infrequent users.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWEB</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/spha/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+		<Description>WI_K0_SPHA</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                 <StartDate>1994-11-01T09:06:02</StartDate>
+                <StopDate>2010-11-21T23:58:35</StopDate>
+                <Note>Continuous coverage not guaranteed</Note>
+            </TimeSpan>
+            <Cadence>PT600S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
