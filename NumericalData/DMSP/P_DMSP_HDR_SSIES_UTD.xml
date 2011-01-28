@@ -25,11 +25,10 @@
         <InstrumentID>spase://SMWG/Instrument/DMSP_5D-2/SSIES</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>
-            <TimeSpan>
-                <StartDate>1992-01-01T00:00:00</StartDate>
-                <RelativeStopDate>-P2M</RelativeStopDate>
-                <Note>Data are 1-2 months behind current (as of 10/04)</Note>
-            </TimeSpan>
+           <TimeSpan>
+                <StartDate>1995-03-29T00:00:00</StartDate>
+                <StopDate>2005-12-31T00:00:00</StopDate>
+            </TimeSpan>            
             <Cadence>PT4.0S</Cadence>
         </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
         <ObservedRegion>Earth.NearSurface</ObservedRegion>
