@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Predicted Trajectories and Relative Positions</ResourceName>
             <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate>
-            <Description>Cluster JSOC Predicted Geometric Positions</Description>
+            <Description>Cluster JSOC Predicted Geometric Positions, all spacecraft</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
                 <Role>GeneralContact</Role>
@@ -25,7 +25,10 @@
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
-        <InstrumentID>spase://vspo/instrument/56</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Rumba/Ephemeris</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Salsa/Ephemeris</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Samba/Ephemeris</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster2-Tango/Ephemeris</InstrumentID>        
         <MeasurementType>Ephemeris</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
