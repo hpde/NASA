@@ -33,6 +33,15 @@
                 <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/geotail/sw_min_merged</URL>
                 <Description>in ASCII via ftp</Description>
             </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb FTP download</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/geotail/magplasmasw_1min/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <Description>GE_1min_mag_plasma_SW_only</Description>
+            </AccessURL>
             <Format>Text</Format>
             <DataExtent>
                 <Quantity>265</Quantity>
