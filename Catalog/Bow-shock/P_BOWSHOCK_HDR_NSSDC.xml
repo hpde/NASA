@@ -37,6 +37,13 @@
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>      <!-- UNKNOWN Which instruments?      &amp;amp;lt;OBSERVATORY&amp;amp;gt;IMP8&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;GEOTAIL&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;CLUSTER1&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;MAGION4&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;IMP8&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;GEOTAIL&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;CLUSTER1&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;OBSERVATORY&amp;amp;gt;MAGION4&amp;amp;lt;/OBSERVATORY&amp;amp;gt;      &amp;amp;lt;PROJECT&amp;amp;gt;IMP&amp;amp;lt;/PROJECT&amp;amp;gt;      &amp;amp;lt;PROJECT&amp;amp;gt;CLUSTER&amp;amp;lt;/PROJECT&amp;amp;gt;      -->
+        <InstrumentID>spase://SMWG/Instrument/IMP8/MAG</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/IMP8/PLS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/MGF</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/CPI</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Magion-4/MAG</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Magion-4/VDPS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/FGM</InstrumentID>
         <PhenomenonType>BowShockCrossing</PhenomenonType>      <!-- &amp;amp;lt;ProviderProcessingLevel&amp;amp;gt;CALIBRATED&amp;amp;lt;/ProviderProcessingLevel&amp;amp;gt;      &amp;amp;lt;MeasurementType&amp;amp;gt;MagneticField&amp;amp;lt;/MeasurementType&amp;amp;gt;      &amp;amp;lt;MeasurementType&amp;amp;gt;ThermalPlasma&amp;amp;lt;/MeasurementType&amp;amp;gt; -->
         <TimeSpan>
             <StartDate>1973-10-31T00:00:00</StartDate>
