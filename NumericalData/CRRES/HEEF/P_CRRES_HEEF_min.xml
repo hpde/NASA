@@ -16,7 +16,7 @@ Fluxmeter (HEEF) on the CRRES spacecraft.  The energy range covered is
 is contained within the companion documentation.</Description>
       <Acknowledgement>Please acknowledge Donald Brautigam at AFRL.</Acknowledgement>
       <Contact>
-         <PersonID>Donald.H.Brautigam</PersonID>
+         <PersonID>spase://SMWG/Person/Donald.H.Brautigam</PersonID>
          <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -39,7 +39,7 @@ now a readme at nssdcftp.</Description>
 Phyics Data Facility at NASA/Goddard.</Acknowledgement>
    </AccessInformation>
    <ProcessingLevel>Calibrated</ProcessingLevel>
-   <InstrumentID>spase://SMWG/instrument/CRRES/HEEF</InstrumentID>
+   <InstrumentID>spase://SMWG/Instrument/CRRES/HEEF</InstrumentID>
    <MeasurementType>EnergeticParticles</MeasurementType>
    <TemporalDescription>
       <TimeSpan>
