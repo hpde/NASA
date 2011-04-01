@@ -2,7 +2,8 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
 <Version>2.2.0</Version>
 <NumericalData>
-   <ResourceID>spase://VSPO/NumericalData/ACE/MFI_SWEPAM/Weygand</ResourceID>
+   
+<ResourceID>spase://VSPO/NumericalData/ACE/MAG_SWEPAM/Weygand</ResourceID>
    <ResourceHeader>
       <ResourceName>ACE field and plasma data propagated to (17,0,0) Re</ResourceName>
       <ReleaseDate>2010-10-08T00:00:00</ReleaseDate>
@@ -71,7 +72,7 @@ interface at UCLA</Description>
       <Acknowledgement>Please acknowledge C. Smith, ACE/MFI PI,
 D. McComas, ACE/SWEPAM PI, and J.M. Weygand.</Acknowledgement>
    </AccessInformation>
-   <InstrumentID>spase://SMWG/Instrument/ACE/MFI</InstrumentID>
+   <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
    <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
    <MeasurementType>MagneticField</MeasurementType>
    <MeasurementType>ThermalPlasma</MeasurementType>
