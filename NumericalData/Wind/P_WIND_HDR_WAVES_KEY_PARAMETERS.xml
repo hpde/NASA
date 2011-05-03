@@ -1,27 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_WAVES_DENSITY</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_WAVES_KEY_PARAMETERS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Wind WAVES Electron Density</ResourceName>
+            <ResourceName>Wind WAVES Key Parameters</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-            <Description>Wind WAVES electron density at 18-s resolution determined from neural network analysis of in situ Fpe line, via CDAWeb</Description>
+            <Description>This set of Wind WAVES key parameters contains electric field average intensity in dB above background at 76 log-spaced frequencies (250-9.4e6 Hz) that is determined from neural network analysis of in situ Fpe line.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
         </ResourceHeader>
-        <AccessInformation>
+       <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWEB</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>in CDF via ftp from CDAWeb</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/wav_h0/</URL>
-            </AccessURL>            
-	    <AccessURL>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/wav_K0/</URL>
+            </AccessURL>
+            <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+		<Description>WI_K0_WAV</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -39,3 +41,5 @@
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     </NumericalData>
 </Spase>
+
+
