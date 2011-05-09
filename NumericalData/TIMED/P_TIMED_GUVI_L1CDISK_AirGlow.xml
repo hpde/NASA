@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/P_TIMED_GUVI_L1CDISK_Air_Glow_Fluxes</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED GUVI Level 1C FUV Airglow Fluxes</ResourceName>
+            <ReleaseDate>2010-07-15T00:00:00</ReleaseDate>
+            <Description>This level 1C data set from the Global Ultraviolet Imager (GUVI) instrument on board the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) mission contains far-ultraviolet (FUV) airglow in calibrated, geolocated (at a 150-km altitude), and rectified intensities (gridded and binned to a 25 km x 25 km resolution) for the 5 wavelengths bands: HI(121.6nm), OI(130.4nm), OI(135.6nm), LBHS(141-152.8nm), and LBHL(167.2-181.2nm), providing a ground swath of 3000 km width in a nearly contiguous global coverage every day. There are 5 display options:  (1) Mapped images of the (lin or log) intensities by orbit using a transverse Mercator projection. (2) Mapped images of the (lin or log) intensities using a polar projection of the North and South pole areas.  Generating thumbnails for (1) or (2) for one day takes about 1 minute.  (3) Movies of plot types (1),(2): There are 15 orbits/frames per day, max is 2 days, i.e. 30  frames. (4) Images of intensities as scanned along the orbit. (5) Line plots of intensities at selected across-track positions.
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>TIMED Mission Data Center at Johns Hopkins University</Name>
+                <URL>http://guvi.jhuapl.edu/data/understanding.shtml</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+           <AccessURL>
+                <Name>In CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/l1cdisk/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+        <MeasurementType>Profile</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-10-18T06:10:25</StartDate>
+                <StopDate>2007-12-10T22:52:41</StopDate>
+            </TimeSpan>
+        </TemporalDescription>  
+        <ObservedRegion>Earth.NearSurface</ObservedRegion> 
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+

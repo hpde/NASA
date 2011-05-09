@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/P_TIMED_GUVI_L1CDISK_Air_Glow_Flux_14-day_Movies</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TIMED GUVI Level 1C FUV Airglow Fluxes 14-day Movies</ResourceName>
+            <ReleaseDate>2010-07-15T00:00:00</ReleaseDate>
+            <Description>These level 1C movies from the Global Ultraviolet Imager (GUVI) instrument on board the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) mission contains far-ultraviolet (FUV) airglow fluxes in calibrated, geolocated (at a 150-km altitude), and rectified intensities (gridded and binned to a 25 km x 25 km resolution).  Each data set consist of movies with 14 days of mapped images of the log intensities by orbit for one of the 5 wavelengths bands: HI(121.6nm), OI(130.4nm), OI(135.6nm), LBHS(141-152.8nm), and LBHL(167.2-181.2nm)wavelengths, using either a transverse Mercator projection, or a North Polar projection, or a South Polar projection.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>TIMED Mission Data Center at Johns Hopkins University</Name>
+                <URL>http://guvi.jhuapl.edu/data/understanding.shtml</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+           <AccessURL>
+                <Name>In CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/l1cdisk_movies/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/TIMED/GUVI</InstrumentID>
+        <MeasurementType>Profile</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-05-26T00:00:00</StartDate>
+                <StopDate>2007-12-21T23:00:00</StopDate>
+            </TimeSpan>
+        </TemporalDescription>  
+        <ObservedRegion>Earth.NearSurface</ObservedRegion> 
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
