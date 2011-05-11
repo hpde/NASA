@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
-    <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/P_TIMED_GUVI_L1CDISK_Air_Glow_Flux_14-day_Movies</ResourceID>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/TIMED/GUVI/P_TIMED_GUVI_L1CDISK_Air_Glow_Flux_14-day_Movies</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED GUVI Level 1C FUV Airglow Fluxes 14-day Movies</ResourceName>
             <ReleaseDate>2010-07-15T00:00:00</ReleaseDate>
@@ -20,7 +19,7 @@
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
-           <AccessURL>
+            <AccessURL>
                 <Name>In CDF via ftp from CDAWeb</Name>
                 <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/timed/guvi/l1cdisk_movies/</URL>
             </AccessURL>
@@ -37,10 +36,8 @@
                 <StartDate>2001-05-26T00:00:00</StartDate>
                 <StopDate>2007-12-21T23:00:00</StopDate>
             </TimeSpan>
-        </TemporalDescription>  
-        <ObservedRegion>Earth.NearSurface</ObservedRegion> 
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    </NumericalData>
+    </DisplayData>
 </Spase>
-
-
