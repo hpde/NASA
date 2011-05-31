@@ -10,6 +10,10 @@
                 <PersonID>spase://SMWG/Person/Nadege.Meunier</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <InformationURL>
+                <Name>Info on the BASS 2000 database</Name>
+                <URL>http://bass2000.bagn.obs-mip.fr/Tarbes/</URL>
+            </InformationURL>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
@@ -17,7 +21,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>French BASS 2000 web site</Name>
-                <URL>http://bass2000.bagn.obs-mip.fr/projet/index_e.htm</URL>
+                <URL>http://bass2000.obspm.fr/home.php</URL>
             </AccessURL>
             <Format>FITS</Format>
         </AccessInformation>
