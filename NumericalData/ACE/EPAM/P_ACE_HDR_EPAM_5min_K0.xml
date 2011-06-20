@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_ACE_HDR_EPAM_K0_5min</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ACE EPAM 5-minute Key Parameter data</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>This set of key parameters contain ACE EPAM 5-minute spin averaged proton (0.76-1.22 MeV), alpha particle (0.047-0.065 MeV, 0.112-0.187 MeV, 0.310-0.580 MeV, and 1.06-1.91 MeV), and electron (0.038-0.053 MeV and 0.175-0.315 MeV) fluxes. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/epm/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>AC_K0_EPM</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ACE/EPAM</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <MeasurementType>IonComposition</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2010-03-01T00:00:00</StartDate>
+                <RelativeStopDate>-P14D</RelativeStopDate>
+                <Note>Data are presently current within few weeks</Note>
+            </TimeSpan>
+            <Cadence>PT3600S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
