@@ -11,7 +11,7 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <Contact>
-                <PersonID>spase://SMWG/Person/Dieter.Bilitza</PersonID>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
         </ResourceHeader>
@@ -25,13 +25,17 @@
                 <Description>Converted from binary/IBM 360</Description>
             </AccessURL>
             <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/neprof/</URL>
+            </AccessURL>
+            <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
-                <Description>CRC Electron Density Profiles</Description>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_NEPROF_TOPS</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
-        <InstrumentID>spase://SMWG/Instrument/ISIS2/SWS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/ISIS2/SFS</InstrumentID>
         <MeasurementType>Profile</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
