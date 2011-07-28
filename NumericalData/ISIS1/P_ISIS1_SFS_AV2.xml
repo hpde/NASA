@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ISIS 1/SFS/AveragedIonongrams</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISIS 1 Swept-/Fixed-Averaged Ionograms</ResourceName>
+            <ReleaseDate>2010-07-21T00:00:00</ReleaseDate>
+            <Description>This data set consists of ISIS 1 (International Satellites for Ionospheric Studies)ionograms that have been obtained through a data restoration project. The ISIS ionograms, consisting of a fixed-frequency and a swept-frequency part, were digitized from the original ISIS telemetry tapes. The digitized sounder data consisting of 8-bit receiver-amplitude values collected at a 40 kHz rate contain the time and the frequency associated with each sounder pulse. The frequency of each sounder pulse is determined from a 3rd degree interpolation between the times of the frequency markers as identified in the sounder video during the A/D operation. Included in this data set are the average-resolution ionograms (averages of each 4 successive 40 kHz 8-bit values) in CDF format. 
+
+Software to read and display the individual CDF files is available at
+
+ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/software/
+
+These CDF files were produced at NSSDC from the original PI-provided ionogram data. Other ionogram data sets available at NSSDC include the full resolution ionograms and average ionograms both in the PI-provided (OS2) binary format, ASCII header files with pass-specific information and the PCM data which contain header, time, AGC, frequency-marker information and telemetry-level data from all other ISIS instruments. The binary average ionograms and the ASCII header files are available online at
+
+ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/
+
+ISIS 1 and 2 data are available to the extent permitted by telemetry scheduling and the location of telemetry stations. A list of stations can be found at
+
+http://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
+and their location on a worldmap is shown in
+
+http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>info about the digitization project</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>         
+            <AccessURL>
+                <Name>Data from NSSDCFTP</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/</URL>
+                <Description>Data from multiple telemetry stations</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kerguelen Island, Frace data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/ker/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kerguelen Island, Frace data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_KER</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kashima, Japan data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/ksh/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Kashima, Japan data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_KSH</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kwajalein, Marshall Is. data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/kwa/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Kwajalein, Marshall Is. data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_KWA</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ouagadougou, Burkina Faso data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/odg/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Ouagadougou, Burkina Faso data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_ODG</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Orroral, Australia data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/orr/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Orroral, Australia data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_ORR</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ottawa, Canada data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/ott/</URL>
+            </AccessURL> 
+           <AccessURL>
+                <Name>Ottawa, Canada data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_OTT</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Quito, Equador data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/qui/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Quito, Equador data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_QUI</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Resolute Bay, Canada data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/res/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Resolute Bay, Canada data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_RES</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Santiago, Chile data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/snt/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Santiago, Chile data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_SNT</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Sodankyla, Finland data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/sod/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Sodankyla, Finland data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_SOD</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Tromso, Norway data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/tro/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Tromso, Norway data inCDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_TRO</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Fairbanks, Alaska data in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/ula/</URL>
+            </AccessURL> 
+            <AccessURL>
+                <Name>Fairbanks, Alaska data in CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+		<Description>I1_AV_ULA</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+       <InstrumentID>spase://SMWG/Instrument/ISIS1/SFS</InstrumentID>
+        <MeasurementType>Waves.Active</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1969-01-30T14:50:12</StartDate>	 
+                <StopDate>1983-12-30T15:19:33</StopDate>  	 
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
