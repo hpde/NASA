@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_Cluster-Samba_JP_PMP_60S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster Samba JSOC Predicted Magnetic Positions</ResourceName>
+            <ReleaseDate>2011-07-25T00:00:00Z</ReleaseDate>
+            <Description>This dataset contains Cluster Samba JSOC predicted magnetic positions and magnetic field magnitude.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/c3/jp/pmp/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+		<Description>C3_JP_PMP</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/Ephemeris</InstrumentID>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-08-14T20:35:00</StartDate>
+                <RelativeStopDate>P3M</RelativeStopDate>
+                <Note>Data (predicted) typically end a few months into the future.</Note>
+            </TimeSpan>
+            <Cadence>PT60S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
