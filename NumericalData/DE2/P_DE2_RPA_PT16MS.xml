@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+<Version>2.2.0</Version>
+<NumericalData>
+   <ResourceID>spase://VSPO/NumericalData/DE2/RPA/PT0.016S</ResourceID>
+   <ResourceHeader>
+      <ResourceName>DE 2 16ms RPA Ion Densities</ResourceName>
+      <ReleaseDate>2011-05-18T00:00:00</ReleaseDate>
+      <Description>This data set contains total ion densities obtained
+at 16ms resolution from the DE 2 Retarding Potential Analyzer.
+Corrections for spacecraft potential were included in the density
+determinations.  Data are available in ASCII from nssdcftp and 
+in CDF format from CDAWeb (as well as CDAWeb plots and lists).
+The data span the 18-month DE 2 lifetime, except for a gap from 
+1981/317 to 1982/057.</Description>
+      <Acknowledgement>Please acknowledge the RPA Principal Investigators,
+Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name>Readme file at NSSDC/SPDF</Name>
+         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/plasma_rpa/</URL>
+      </InformationURL>
+   </ResourceHeader>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+         <Name>SPDF CDF ftp area</Name>
+         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/de/de2/rpa16ms/</URL>
+         <Description>For ftp retrieval of daily CDF files</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <DataExtent>
+         <Quantity>10</Quantity>
+         <Units>MB</Units>
+         <Per>P1D</Per>
+      </DataExtent>
+      <Acknowledgement>Please acknowledge the RPA Principal Investigators,
+Drs. W.B. Hanson (original P.I.) and R.A. Heelis and the Space Physics 
+Data Facility at NASA/GSFC</Acknowledgement>
+   </AccessInformation>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+         <Name>SPDF ASCII ftp area</Name>
+         <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/plasma_rpa/Ni_16ms_ascii/</URL>
+         <Description>For ftp retrieval of one-orbit ASCII files</Description>
+      </AccessURL>
+      <AccessURL>
+         <Name>CDAWeb</Name>
+         <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+         <Description>For CDAWeb subset, plot and list capabilities</Description>
+      </AccessURL>
+      <Format>Text</Format>
+      <DataExtent>
+         <Quantity>1500</Quantity>
+         <Units>KB</Units>
+         <Per>PT2H</Per>
+      </DataExtent>
+      <Acknowledgement>Please acknowledge the RPA Principal Investigators,
+Drs. W.B. Hanson (original P.I.) and R.A. Heelis and the Space Physics 
+Data Facility at NASA/GSFC</Acknowledgement>
+   </AccessInformation>
+   <ProcessingLevel>Calibrated</ProcessingLevel>
+   <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/RPA</InstrumentID>
+   <MeasurementType>ThermalPlasma</MeasurementType>
+   <TemporalDescription>
+      <TimeSpan>
+         <StartDate>1981-08-03T00:00:00</StartDate>
+         <StopDate>1983-02-17T00:00:00</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.016S</Cadence>
+   </TemporalDescription>
+   <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+</NumericalData>
+</Spase>
+
