@@ -1,7 +1,8 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_MFI_311</ResourceID>
+        
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_MFI_311</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind MFI 3-s, 1-m, 1-h data</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
@@ -34,7 +35,7 @@
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/MFI</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

@@ -2,11 +2,15 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_EPACT_KP_CDAWEB</ResourceID>
+        
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_EPACT_KP_CDAWEB</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind EPACT Key Parameter Data</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-            <Description>This set of high energy particle data from the WIND EPACT (Energetic Particles: Acceleration, Composition and Transport) telescopes contains fluxes for helium, oxygen, iron and combined CNO ions in energy bins below 1 MeV/nuc and averaged over 92 seconds.</Description>
+            <Description>This set of high energy particle data from the 
+Wind EPACT (Energetic Particles: Acceleration, Composition and 
+Transport) 
+telescopes contains fluxes for helium, oxygen, iron and combined CNO ions in energy bins below 1 MeV/nuc and averaged over 92 seconds.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>
                 <Role>GeneralContact</Role>
@@ -28,7 +32,7 @@
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/EPACT</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/EPACT</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/P_WIND_HDR_GWS</ResourceID>
+        <ResourceID>spase://VSPO/DisplayData/P_Wind_HDR_GWS</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind daily Survey Plots</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
@@ -20,14 +20,14 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Daily plots of WIND field and plasma data</Name>
+                <Name>Daily plots of Wind field and plasma data</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=wind_daily_kp_plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/MFI</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/MFI</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/SWE</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>

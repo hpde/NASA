@@ -2,7 +2,8 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_WAVES_KEY_PARAMETERS</ResourceID>
+        
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_WAVES_KEY_PARAMETERS</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind WAVES Key Parameters</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
@@ -28,7 +29,7 @@
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/WAVES</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/WAVES</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

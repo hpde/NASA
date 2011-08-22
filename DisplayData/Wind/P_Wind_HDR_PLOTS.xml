@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/P_WIND_HDR_PLOTS</ResourceID>
+        <ResourceID>spase://VSPO/DisplayData/P_Wind_HDR_PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind WAVES Daily Plots</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
@@ -22,7 +22,7 @@
             <Format>GIF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/WAVES</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/WAVES</InstrumentID>
         <MeasurementType>Waves.Passive</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

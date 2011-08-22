@@ -2,11 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_3DP_ELSP</ResourceID>
+        
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_3DP_PLSP</ResourceID>
         <ResourceHeader>
-            <ResourceName>Wind 3DP 24-sec ESSA LOW Electron Omnidirectional Fluxes</ResourceName>
+            <ResourceName>Wind 3DP 24-sec ESSA LOW Ion Omnidirectional Fluxes and Moments</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-            <Description>This set of plasma data in the interplanetary medium was derived from the WIND 3-D Plasma and Energetic Particle Experiment, specifically from the electron electrostatic analyzers LOW (EESA LOW) measurements of electron fluxes in omnidirections from 3 eV to 30 keV.</Description>
+            <Description>This set of plasma data in the interplanetary 
+medium was derived from the Wind 3-D Plasma and Energetic Particle 
+Experiment, specifically from the ion electrostatic analyzers LOW (PESA LOW) measurements of ion fluxes in omnidirections from 3 eV to 30 keV.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
                 <Role>GeneralContact</Role>
@@ -18,23 +21,23 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>in CDF via ftp from CDAWeb</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_elsp/</URL>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/3dp_plsp/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-		<Description>WI_ELSP_3DP</Description>
+		<Description>WI_PLSP_3DP</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/3DP</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/3DP</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1994-11-15T00:00:00</StartDate>
-                <StopDate>2009-12-31T00:00:00</StopDate>
+                <StopDate>2009-10-09T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT24S</Cadence>
         </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->

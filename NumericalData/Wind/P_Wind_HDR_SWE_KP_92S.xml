@@ -1,7 +1,8 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_SWE_KP_92S</ResourceID>
+        
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_SWE_KP_92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind SWE 92-s Proton Key Parameters</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
@@ -22,7 +23,7 @@
             <Format>Text</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/SWE</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Wind/SWE</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

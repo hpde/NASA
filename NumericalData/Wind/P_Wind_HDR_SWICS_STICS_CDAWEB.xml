@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>        
-<ResourceID>spase://VSPO/NumericalData/P_WIND_HDR_SWICS_STICS_CDAWEB</ResourceID>
+<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_SWICS_STICS_CDAWEB</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind SWICS and STICS KP Data</ResourceName>
           <ReleaseDate>2010-11-22T00:00:00Z</ReleaseDate>
@@ -51,8 +51,10 @@ and O+6.  The above averages are made over 4 hrs.</Description>
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/WIND/SMS/SWICS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/WIND/SMS/STICS</InstrumentID>
+        
+<InstrumentID>spase://SMWG/Instrument/Wind/SMS/SWICS</InstrumentID>
+        
+<InstrumentID>spase://SMWG/Instrument/Wind/SMS/STICS</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
