@@ -1,0 +1,56 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_IMAGE_HDR_PREORBIT_120S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IMAGE Predicted Orbit Data</ResourceName>
+            <ReleaseDate>2011-09-21T00:00:00Z</ReleaseDate>
+            <Description>IMAGE Predicted Orbit Data, GSE and GSM Coordinates</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/image/pre_or</URL>
+                <Description>ftp access to CDF files</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <Description>Plots, lists and files from CDAWeb</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SSCWeb</Name>
+                <URL>http://sscweb.gsfc.nasa.gov/</URL>
+                <Description>Coordinates, plots and lists from SSCWeb</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-03-27T00:00:00</StartDate>
+                <StopDate>2006-06-21T00:00:00</StopDate>
+                <Note>Data are current to within about a week.</Note>
+            </TimeSpan>
+            <Cadence>PT120S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+    </NumericalData>
+</Spase>
