@@ -30,7 +30,12 @@
         <InstrumentID>spase://SMWG/Instrument/POLAR/EFI</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/POLAR/MFE</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
-        <TemporalDescription/>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-02-25T00:00:00</StartDate>
+                <StopDate>2008-04-28T00:00:00</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
         <DisplayCadence>PT60S</DisplayCadence>      <!--InstrumentRegion=Earth.Magnetosphere-->
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     </DisplayData>

@@ -24,14 +24,25 @@ HEE, HEEQ and HCI direction angles.  460 kB daily files are available.</Descript
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>CDAWeb interface for displays, files, and listings.</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb FTP site</Name>
                 <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/behind/l2/plastic/1dmax/1min/</URL>
             </AccessURL>
-            <Format>Text</Format>
+            <Format>CDF</Format>
         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
@@ -55,7 +66,7 @@ HEE, HEEQ and HCI direction angles.  460 kB daily files are available.</Descript
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2007-03-01T00:00:00</StartDate>
-                <RelativeStopDate>P3M</RelativeStopDate>
+                <RelativeStopDate>-P3M</RelativeStopDate>
                 <Note>As of October 28, 2009, last data were for March 30, 2009.</Note>
             </TimeSpan>
             <Cadence>PT1M</Cadence>

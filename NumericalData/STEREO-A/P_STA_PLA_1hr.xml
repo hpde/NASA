@@ -25,14 +25,25 @@ available.</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>CDAWeb interface for displays, files, and listings.</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb FTP site</Name>
                 <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/ahead/l2/plastic/1dmax/1hr/</URL>
             </AccessURL>
-            <Format>Text</Format>
+            <Format>CDF</Format>
         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
@@ -56,7 +67,7 @@ available.</Description>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2007-02-15T00:00:00</StartDate>
-                <RelativeStopDate>P3M</RelativeStopDate>
+                <RelativeStopDate>-P3M</RelativeStopDate>
             </TimeSpan>
             <Cadence>PT1H</Cadence>
         </TemporalDescription>

@@ -61,7 +61,7 @@
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2007-01-01T00:00:00</StartDate>
-                <RelativeStopDate>P4M</RelativeStopDate>
+                <RelativeStopDate>-P4M</RelativeStopDate>
                 <Note>Exact stop and end dates differ for different instruments'
 data.  Lag time of latest data is typically some months.</Note>
             </TimeSpan>

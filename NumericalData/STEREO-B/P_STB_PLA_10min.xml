@@ -24,15 +24,26 @@ files and 1.5 MB monthly files are available.</Description>
                 <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
             </InformationURL>
         </ResourceHeader>
+       <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>CDAWeb interface for displays, files, and listings.</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb FTP site</Name>
                 <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/behind/l2/plastic/1dmax/10min/</URL>
             </AccessURL>
-            <Format>Text</Format>
+            <Format>CDF</Format>
         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
@@ -56,7 +67,7 @@ files and 1.5 MB monthly files are available.</Description>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2007-03-01T00:00:00</StartDate>
-                <RelativeStopDate>P3M</RelativeStopDate>
+                <RelativeStopDate>-P3M</RelativeStopDate>
             </TimeSpan>
             <Cadence>PT10M</Cadence>
         </TemporalDescription>
