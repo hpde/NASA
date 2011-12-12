@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
-    <NumericalData>
-        
-<ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_SPHA</ResourceID>
+    <NumericalData>        
+        <ResourceID>spase://VSPO/NumericalData/P_Wind_HDR_SPHA</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Spin Phase Data</ResourceName>
             <ReleaseDate>2010-11-22T00:00:00Z</ReleaseDate>
@@ -14,7 +13,7 @@
             </Contact>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWEB</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
