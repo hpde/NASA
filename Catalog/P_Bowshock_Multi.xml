@@ -8,7 +8,7 @@ http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
     <ResourceID>spase://VSPO/Catalog/BS_Multisource</ResourceID>
     <ResourceHeader>
       <ResourceName>Multi-spacecraft bow shock crossing list</ResourceName>
-      <ReleaseDate>2010-01-15T00:00:00</ReleaseDate>
+      <ReleaseDate>2012-01-15T00:00:00</ReleaseDate>
       <Description>Lists of bow shock crossings observed by the IMP 8,
 Geotail, Magion-4 and Cluster/Rumba spacecraft.  For each crossing, time 
 and spacecraft location are given, plus GSE and GSM components of upstream 
@@ -29,6 +29,22 @@ data are extensively documented at the value-added interface and
 references therein.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID> <!-- for IMP 8 -->
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.D.Richardson</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ramona.L.Kessel</PersonID> <!-- for other spacecraft -->
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
