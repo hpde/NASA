@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <NumericalData>
@@ -6,27 +5,41 @@
         <ResourceHeader>
             <ResourceName>Ulysses URAP WFA 10-min Electric Field Peak Data via CDAWeb</ResourceName>
             <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
-            <Description>This set of WFA (Waveform Analyzer) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak electric field intensities in 10-min intervals via CDAWeb. The frequency spectra are determined from measurements on the Y and Z antenna of the URAP instrument in units of microvolts/ Hz^0.5 for frequency channels from 0.22-448 Hz. </Description>
+            <Description>This set of WFA (Waveform Analyzer) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak electric field intensities in 10-min intervals via CDAWeb. The frequency spectra are determined from measurements on the Y and Z antenna of the URAP instrument in units of microvolts/ Hz^0.5 for frequency channels from 0.22-448 Hz.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
         </ResourceHeader>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>10-min data in CDF via ftp from CDAWeb</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/wfep_m0/</URL>
-		<Description>UY_M0_WFEP</Description>
-            </AccessURL>
-            <Format>CDF</Format>
-        </AccessInformation>
+
+       <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Via ftp in ASCII from nssdcftp</Name>
+        <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/radio/urap/uds_10min_ascii/wfep/</URL>
+        <Description>For ftp downloads of ASCII Ulysses URAP data</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Via ftp in CDF from CDAWeb</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/wfep_m0/</URL>
+        <Description>For ftp downloads of CDF formatted data from CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>
         <MeasurementType>Waves.Passive</MeasurementType>
@@ -41,5 +54,3 @@
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>
-
-
