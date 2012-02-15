@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_48S_ASC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 2 MAG 48-s ASCII data at nssdcftp</ResourceName>
+            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <Description>Voyager 2 MAG 48-s ASCII data</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>nssdcftp</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager2/magnetic_fields/ip_48s_ascii</URL>
+                <Description>monthly ASCII files at 48-s resolution</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1977-08-20T00:00:00</StartDate>
+                <StopDate>1989-08-29T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT48S</Cadence>
+        </TemporalDescription>      
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
+</Spase>
