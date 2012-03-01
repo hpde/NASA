@@ -16,6 +16,17 @@
                 <Role>GeneralContact</Role>
             </Contact>
         </ResourceHeader>
+         <AccessInformation>
+             <RepositoryID>spase://SMWG/Repository/SAMPEX_Data_Center</RepositoryID>
+             <Availability>Online</Availability>
+             <AccessRights>Open</AccessRights>
+             <AccessURL>
+                 <Name>SAMPEX Data Center</Name>
+                 <URL>http://www.srl.caltech.edu/sampex/DataCenter/DATA/polarcap/flux_polarcap_avgd_ascii/data/</URL>
+                 <Description>In ASCII via ftp</Description>
+             </AccessURL>
+	         <Format>Text</Format>
+         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
