@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
+    <Version>2.2.2</Version>
     <Catalog>
         <ResourceID>spase://VSPO/Catalog/P_TRACE_HDR_FLARE_LIST</ResourceID>
         <ResourceHeader>
             <ResourceName>TRACE Flare Catalog</ResourceName>
-            <ReleaseDate>2007-03-05T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2012-03-08T00:00:00Z</ReleaseDate>
             <Description>TRACE flare catalog, with links to TRACE images and movies and to flare-specific data from other sources</Description>
             <Contact>
                 <PersonID>Solar and Stellar X-ray Group at SAO, http://hea-www.harvard.edu/SSXG/</PersonID>
@@ -27,6 +27,5 @@
             <StartDate>1998-05-09T00:00:00</StartDate>
             <StopDate>2010-05-08T00:00:00</StopDate>
         </TimeSpan>      <!-- <SpectralRange>Ultraviolet</SpectralRange>      <InstrumentRegion>Earth.NearSurface</InstrumentRegion>      <ObservedRegion>Sun</ObservedRegion> -->
-        <InputResourceID>UNKNOWN</InputResourceID>
     </Catalog>
 </Spase>

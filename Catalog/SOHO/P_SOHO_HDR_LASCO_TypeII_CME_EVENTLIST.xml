@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
+    <Version>2.2.2</Version>
     <Catalog>
         <ResourceID>spase://VSPO/Catalog/P_SOHO_HDR_LASCO_TypeII_CME_EVENTLIST</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO LASCO Type II CME Event List</ResourceName>
-            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2012-03-08T00:00:00</ReleaseDate>
             <Description>SOHO LASCO Type II radio burst and CME (Coronal Mass Ejection) Event List.  Gives detailed descriptions and data for CMEs associated with Type II radio bursts.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Nat.Gopalswamy</PersonID>
@@ -28,6 +28,5 @@
             <RelativeStopDate>-P6M</RelativeStopDate>
             <Note>Data are current to within about 6 months.</Note>
         </TimeSpan>      <!--      &amp;amp;lt;InstrumentRegion&amp;amp;gt;Heliosphere.NearEarth&amp;amp;lt;/InstrumentRegion&amp;amp;gt;      &amp;amp;lt;ObservedRegion&amp;amp;gt;Sun&amp;amp;lt;/ObservedRegion&amp;amp;gt;      -->
-        <InputResourceID>UNKNOWN</InputResourceID>
     </Catalog>
 </Spase>
