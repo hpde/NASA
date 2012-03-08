@@ -1,56 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-<Version>2.2.1</Version>
- <NumericalData>
-   <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
-   <ResourceHeader>
-      <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20 Hz</ResourceName>
-      <ReleaseDate>2012-01-18T00:00:00</ReleaseDate>
-      <Description>This MESSENGER/MAG data set contains cruise-phase
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20 Hz</ResourceName>
+            <ReleaseDate>2012-01-18T00:00:00</ReleaseDate>
+            <Description>This MESSENGER/MAG data set contains cruise-phase
 magnetic field vectors in RTN coordinates at time resolutions typically
 of 0.5s or 1.0s and sometimes as fine as 0.05s.</Description>
-      <Acknowledgement>Acknowledge the Experiment Scientist, Brian
+            <Acknowledgement>Acknowledge the Experiment Scientist, Brian
 Anderson of JHU_APL, and the organization from which the data were
 acquired.</Acknowledgement>
-      <Contact>
-         <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
-         <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-         <Name>PDS Data Descriptive page</Name>
-         <URL>http://starbrite.jpl.nasa.gov/pds/viewProfile.jsp?dsid=MESS-E/
+            <Contact>
+                <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>PDS Data Descriptive page</Name>
+                <URL>http://starbrite.jpl.nasa.gov/pds/viewProfile.jsp?dsid=MESS-E/
 V/H/SW-MAG-3-CDR-CALIBRATED-V1.0</URL>
-      </InformationURL>
-   </ResourceHeader>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-         <Name>PDS_PPI</Name>
-         <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/MESSMAGDATA_2001</URL>
-         <Description>Access to data and documentation; note "amp;" needs to be deleted if
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PDS_PPI</Name>
+                <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/MESSMAGDATA_2001</URL>
+                <Description>Access to data and documentation; note "amp;" needs to be deleted if
 you try to cut/paste/use this URL.</Description>
-      </AccessURL>
-      <Format>Text</Format>
-   </AccessInformation>
-   <InstrumentID>spase://SMWG/Instrument/MESSENGER/MAG</InstrumentID>
-   <MeasurementType>MagneticField</MeasurementType>
-   <TemporalDescription>
-      <TimeSpan>
-         <StartDate>2004-08-12T00:00:00</StartDate>
-         <RelativeStopDate>-P8M</RelativeStopDate>
-      </TimeSpan>
-      <Cadence>PT0.05S</Cadence>
-   </TemporalDescription>
-   <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-   <ObservedRegion>Mercury</ObservedRegion>
-   <ObservedRegion>Venus</ObservedRegion>
-   <Caveats>See the Information URL given above for intervals more
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/MESSENGER/Magnetometer</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2004-08-12T00:00:00</StartDate>
+                <RelativeStopDate>-P8M</RelativeStopDate>
+            </TimeSpan>
+            <Cadence>PT0.05S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+        <ObservedRegion>Mercury</ObservedRegion>
+        <ObservedRegion>Venus</ObservedRegion>
+        <Caveats>See the Information URL given above for intervals more
 likely to have data quality issues.</Caveats>
- </NumericalData>
+    </NumericalData>
 </Spase>
-

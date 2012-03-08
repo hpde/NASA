@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
+    <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://NSSDC/NumericalData/SPHE_00885</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/SPHE_00885</ResourceID>
         <ResourceHeader>
             <ResourceName>Apollo 14 ALSEP Electron and Proton Spectra</ResourceName>
-            <ReleaseDate>2008-02-28T00:00:00</ReleaseDate>
+            <ReleaseDate>2012-03-07T00:00:00</ReleaseDate>
             <Description>The data are 19.2-s count rates of electrons and protons at several energy steps between 40 eV and 20 keV.  Two electrostatic analyzers, each feeding 6 detectors, are oriented vertical from the lunar surface and 60 degrees from vertical, towards lunar west.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
@@ -29,7 +29,7 @@
             </AccessURL>
             <Format>CDF</Format>
             <DataExtent>
-                <Bytes>500</Bytes>
+                <Quantity>500</Quantity>
                 <Units>MB</Units>
             </DataExtent>
         </AccessInformation>
@@ -52,11 +52,9 @@
             <Cadence>PT19S</Cadence>
             <Units>counts per 1.2 sec</Units>
             <Structure>
-                <StructureType>Array</StructureType>
                 <Size>2 6 8</Size>
                 <Description>2 for electrostatic analyzers A and B, 6 for the 6 detector per electrostatic analyzer, 8 for the voltage steps per cycle.</Description>
             </Structure>
-            <Measured>
                 <Particle>
                     <ParticleType>Electron</ParticleType>
                     <ParticleType>Proton</ParticleType>
@@ -67,7 +65,6 @@
                         <Units>eV</Units>
                     </EnergyRange>
                 </Particle>
-            </Measured>
         </Parameter>
     </NumericalData>
 </Spase>

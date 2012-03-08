@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/P_MFI_FULL_1MIN_NSSDCFTP</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind MFI 1-min magnetic field data</ResourceName>
-            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2012-03-08T00:00:00</ReleaseDate>
             <Description>Magnetic field magnitude and GSE and GSM cartesian components at 1-min resolution, plus standard deviations in averages and Wind position data, in ASCII</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
@@ -49,14 +49,12 @@
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
             </CoordinateSystem>
-            <Measured>
                 <Field>
-                    <FieldQualifier>Average</FieldQualifier>
-                    <FieldQualifier>Component</FieldQualifier>
-                    <FieldQualifier>Vector</FieldQualifier>
+                    <Qualifier>Average</Qualifier>
+                    <Qualifier>Component</Qualifier>
+                    <Qualifier>Vector</Qualifier>
                     <FieldQuantity>Magnetic</FieldQuantity>
                 </Field>
-            </Measured>
         </Parameter>
         <Parameter>
             <Name>GSM Cartesian components</Name>
@@ -68,14 +66,12 @@
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>CGM</CoordinateSystemName>
             </CoordinateSystem>
-            <Measured>
                 <Field>
-                    <FieldQualifier>Average</FieldQualifier>
-                    <FieldQualifier>Component</FieldQualifier>
-                    <FieldQualifier>Vector</FieldQualifier>
+                    <Qualifier>Average</Qualifier>
+                    <Qualifier>Component</Qualifier>
+                    <Qualifier>Vector</Qualifier>
                     <FieldQuantity>Magnetic</FieldQuantity>
                 </Field>
-            </Measured>
         </Parameter>
         <Parameter>
             <Name>Field magnitude</Name>
@@ -83,13 +79,11 @@
             <Description>1-min average of field magnitudes</Description>
             <Cadence>PT1M</Cadence>
             <Units>nT</Units>
-            <Measured>
                 <Field>
-                    <FieldQualifier>Magnitude</FieldQualifier>
-                    <FieldQualifier>Average</FieldQualifier>
+                    <Qualifier>Magnitude</Qualifier>
+                    <Qualifier>Average</Qualifier>
                     <FieldQuantity>Magnetic</FieldQuantity>
                 </Field>
-            </Measured>
         </Parameter>
         <Parameter>
             <Name>RMS in GSM field components</Name>
@@ -101,12 +95,10 @@
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSM</CoordinateSystemName>
             </CoordinateSystem>
-            <Measured>
                 <Field>
-                    <FieldQualifier>Variance</FieldQualifier>
+                    <Qualifier>Variance</Qualifier>
                     <FieldQuantity>Magnetic</FieldQuantity>
                 </Field>
-            </Measured>
         </Parameter>
         <Parameter>
             <Name>RMS in field magnitude</Name>
@@ -114,25 +106,27 @@
             <Description>RMS deviation in field magnitude</Description>
             <Cadence>PT1M</Cadence>
             <Units>nT</Units>
-            <Measured>
                 <Field>
-                    <FieldQualifier>Variance</FieldQualifier>
+                    <Qualifier>Variance</Qualifier>
                     <FieldQuantity>Magnetic</FieldQuantity>
                 </Field>
-            </Measured>
         </Parameter>
         <Parameter>
             <Name>Time</Name>
             <ParameterKey>Time</ParameterKey>
             <Description>Time at midpoint of average, given as year, month, day, hour, minute, second</Description>
             <Cadence>PT1M</Cadence>
-            <Support>Temporal</Support>
+            <Support>
+                 <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
         </Parameter>
         <Parameter>
             <Name>Number of points in average</Name>
             <ParameterKey>Number of points in average</ParameterKey>
             <Description>Number of fine scale points in average</Description>
-            <Support>Other</Support>
+            <Support>
+                 <SupportQuantity>Other</SupportQuantity>
+            </Support>
         </Parameter>
         <Parameter>
             <Name>GSE Wind position</Name>
@@ -144,7 +138,9 @@
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
             </CoordinateSystem>
-            <Support>Positional</Support>
+            <Support>
+                 <SupportQuantity>Positional</SupportQuantity>
+            </Support>
         </Parameter>
         <Parameter>
             <Name>GSM Wind position</Name>
@@ -156,7 +152,9 @@
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSM</CoordinateSystemName>
             </CoordinateSystem>
-            <Support>Positional</Support>
+            <Support>
+                 <SupportQuantity>Positional</SupportQuantity>
+            </Support>
         </Parameter>
     </NumericalData>
 </Spase>

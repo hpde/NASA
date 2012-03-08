@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
+    <Version>2.2.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/P_AEC_HDR_UA</ResourceID>
         <ResourceHeader>
             <ResourceName>AE-C 15-s Unified Abstract data</ResourceName>
-            <ReleaseDate>2007-06-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2012-03-07T00:00:00</ReleaseDate>
             <Description>Atmospheric Explorer (AE)-C 15-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -20,7 +20,7 @@
                 <URL>http://ftpbrowser.gsfc.nasa.gov/ae_c.html</URL>
             </AccessURL>
             <AccessURL>
-                <Name>via ftp download</Name>
+                <Name>via nssdcftp download</Name>
                 <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ae/ae_c/</URL>
             </AccessURL>
             <Format>Text</Format>
@@ -41,6 +41,10 @@
         <MeasurementType>ThermalPlasma</MeasurementType>
         <MeasurementType>NeutralGas</MeasurementType>      <!--InstrumentRegion=Heliosphere.NearEarth-->
         <TemporalDescription>
+           <TimeSpan>
+                <StartDate>1973-12-16T00:00:00</StartDate>
+                <StopDate>1978-12-11T00:00:00</StopDate>
+            </TimeSpan>
             <Cadence>PT15S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
