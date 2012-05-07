@@ -4,7 +4,7 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/SanMarco-DL/IVI/PT10S</ResourceID>
         <ResourceHeader>
-            <ResourceName>San Marco-DL Neutral Density Data at 1-s or 21-s</ResourceName>
+            <ResourceName>San Marco-DL Ion Velocity Instrument (IVI) 10-s Data</ResourceName>
             <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
             <Description>This set of plasma data came from the Retarding Potential Analyzer and 
 Ion Drift Meter instruments that constituted the San Marco Ion Velocitiy 
@@ -26,7 +26,7 @@ the voldesc and format files. Both files are ASCII text files.
 Further details about the San Marco spacecraft, experiment, and data sets can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/ 
  </Description>
             <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
-           <Contact>
+            <Contact>
                 <PersonID>spase://SMWG/Person/William.B.Hanson</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
@@ -50,10 +50,10 @@ Further details about the San Marco spacecraft, experiment, and data sets can be
                 <StopDate>1988-12-19T07:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT10S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-     </NumericalData>
+    </NumericalData>
 </Spase>
 
 
