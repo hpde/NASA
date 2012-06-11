@@ -50,7 +50,8 @@
             <Cadence>PT128S</Cadence>
             <Units/>
             <Structure>
-                       <Description>The proton distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
+               <Size>32 16 5</Size>
+                <Description>The proton distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
             </Structure>
                     <Particle>
                     <ParticleType>Proton</ParticleType>
@@ -61,14 +62,15 @@
                         <Units>eV</Units>
                     </EnergyRange>
                 </Particle>
-        </Parameter>
+         </Parameter>
         <Parameter>
             <Name>Electron distribution function</Name>
             <Description>electon fluxes at 32 energy steps, 16 azimuthal directions and 5 (1977-1980) or 6 (1982-1986) latitudinal look directions.</Description>
             <Cadence>PT128S</Cadence>
             <Units/>
             <Structure>
-                               <Description>The electon distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
+               <Size>32 16 5</Size>
+                <Description>The electon distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
             </Structure>
                 <Particle>
                     <ParticleType>Electron</ParticleType>
@@ -94,8 +96,8 @@
                 <Description>GSE x,y,z components of position vector</Description>
             </Structure>
             <Support>
-                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
+<SupportQuantity>Positional</SupportQuantity>
+       </Support>
         </Parameter>
     </NumericalData>
 </Spase>
