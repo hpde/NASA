@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Apollo15-LM/SWS/PT28S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Apollo 15 Solar Wind Measurements at the Lunar Surface 28-s Data</ResourceName>
+            <ReleaseDate>2012-05-01T00:00:00</ReleaseDate>
+            <Description>This data set contains the highest time resolution plasma data available (28 sec per spectrum) from the solar wind experiment onboard Apollo 15. Contained in each record are: time, proton density, alpha-to-proton ratio, bulk speed, angle of flow, most probable thermal speed, and various housekeeping and fit parameters relating to the reliability of the calculated plasma parameters. 
+
+During the local lunar night there is no solar wind signal so there are data gaps of about 15 days each lunation. </Description>
+            <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
+           <Contact>
+                <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/apollo/apollo15/sws_28s/</URL>   
+                <Description>APOLLO15_SWS_28S</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <Acknowledgement>Please acknowledge the Apollo science team and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+        </AccessInformation> 
+        <AccessInformation>  
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>   
+                <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
+            </AccessURL>      
+            <Format>Text</Format> 
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Apollo15-LM/SWS</InstrumentID>  
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1971-07-31T19:38:38</StartDate>
+                <StopDate>1972-06-30T18:14:35</StopDate>
+            </TimeSpan>
+            <Cadence>PT28S</Cadence>
+        </TemporalDescription>      
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>  
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>    
+     </NumericalData>
+</Spase>
+
+
