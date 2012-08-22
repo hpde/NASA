@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT48S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Voyager 1 MAG 48-s ASCII data at nssdcftp</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+         <Description>Voyager 1 MAG 48-s ASCII data for the heliospheric phase of the Voyager 1 mission.  For the mission phase near and beyond the heliospheric termination shock, go to http://vho.nasa.gov/mission/voyager/1/mag</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_MAG_48S_ASC</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>nssdcftp</Name>
+            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_48s_ascii</URL>
+            <Description>monthly ASCII files at 48-s resolution</Description>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
+      <MeasurementType>MagneticField</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1977-09-05T00:00:00</StartDate>
+            <StopDate>1989-12-31T00:00:00</StopDate>
+         </TimeSpan>
+         <Cadence>PT48S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+   </NumericalData>
+</Spase>

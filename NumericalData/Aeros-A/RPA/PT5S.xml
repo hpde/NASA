@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Aeros-A/RPA/PT5S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AEROS-A RPA ion and electron data</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+         <Description>AEROS-A RPA ionospheric ion composition and temperature and electron density and temperature data; variable resolution as fine as 5-s</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_AEROSA_HDR_FTPBROWSER</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTPBrowser</Name>
+            <URL>http://ftpbrowser.gsfc.nasa.gov/aeros.html</URL>
+         </AccessURL>
+         <AccessURL>
+            <Name>via ftp download</Name>
+            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/aeros/aeros-a/plasma_rpa/</URL>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/Aeros-A/RPA</InstrumentID>
+      <MeasurementType>ThermalPlasma</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1973-01-03T00:00:00Z</StartDate>
+            <StopDate>1973-08-03T00:00:00Z</StopDate>
+         </TimeSpan>
+         <Cadence>PT5S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+   </NumericalData>
+</Spase>

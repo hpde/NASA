@@ -1,0 +1,46 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Wind/Ephemeris/PT600S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Wind Orbit Data</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>Wind orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_PREDORBIT_600S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb FTP area</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/pre_or</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb HTTP area</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/wind/pre_or</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Wind/Ephemeris</InstrumentID>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1994-08-07T00:00:00</StartDate>
+                <StopDate>1994-08-07T00:00:00</StopDate>
+                <Note>Data are given to 1-2 months into the future</Note>
+            </TimeSpan>
+            <Cadence>PT600S</Cadence>
+        </TemporalDescription>      
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>

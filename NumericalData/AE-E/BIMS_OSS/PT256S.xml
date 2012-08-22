@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/AE-E/BIMS_OSS/PT256S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AE-E MSIS Neutral Density Data</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+         <Description>This set of neutral density data was deduced from the mass spectrometer measurements on the Atmosphere Explorer E's Bennett Ion-Mass Spectrometer and Open-Source Neutral Mass Spectrometer.  The density numbers (in cm-3) for hydrogen, nitrogen and molecular oxygen were provided by A. Hedin (GSFC, Code 914, now retired). They are related to A. Hedin's atmospheric modelling work (Mass Spectrometer and Incoherent Scatter atmospheric model - MSIS). In addition to density, the record includes also orbital parameters.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_AE-E_HDR_MSIS</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTPBrowser</Name>
+            <URL>http://ftpbrowser.gsfc.nasa.gov/ae_e.html</URL>
+         </AccessURL>
+         <AccessURL>
+            <Name>via nssdcftp download</Name>
+            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ae/ae_msis_data/</URL>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/AE-E/BIMS</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/AE-E/OSS</InstrumentID>
+      <MeasurementType>Radiance</MeasurementType>
+      <MeasurementType>ThermalPlasma</MeasurementType>
+      <MeasurementType>NeutralGas</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1977-07-01T00:00:00</StartDate>
+            <StopDate>1981-06-09T23:59:59</StopDate>
+         </TimeSpan>
+         <Cadence>PT256S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
+   </NumericalData>
+</Spase>

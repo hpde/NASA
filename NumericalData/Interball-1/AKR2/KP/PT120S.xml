@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Interball-1/AKR2/KP/PT120S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Interball Tail Radio Emission 2-min Key Parameters</ResourceName>
+            <ReleaseDate>2007-02-20T00:00:00Z</ReleaseDate> 
+            <Description>This set of Interball Tail Probe radio emission flux was measured in 2-min intervals in the 100, 252, 500 kHz frequencies, with the width of each channel at about 10 kHz. Loop antenna with 1.5 m2 area was used.
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/L.Fischer</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>in CDF via ftp from CDAWeb</Name>
+                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/interball/tail/akr</URL>
+		<Description>in CDF via FTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb HTTP area</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/interball/tail/akr/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+       </AccessInformation>
+       <AccessInformation>
+          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights> 
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Interball-1/AKR2</InstrumentID>
+        <MeasurementType>Waves</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1995-08-06T07:11:00</StartDate>
+                <StopDate>2000-10-16T01:17:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT120S</Cadence>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+

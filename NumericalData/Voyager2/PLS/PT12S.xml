@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Voyager2/PLS/PT12S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Voyager 2 PLS high resolution and 1-h plasma data.</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+         <Description>Voyager 2 PLS high resolution and 1-h plasma data. Some intervals with higher resolution data.  MIT copy of data more recent by weeks</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/John.D.Richardson</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_PLA_MIT</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>high resolution and hourly ASCII files at SPDF</Name>
+            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager2/plasma/</URL>
+         </AccessURL>
+         <AccessURL>
+            <Name>high resolution and hourly ASCII files at MIT</Name>
+            <URL>ftp://space.mit.edu/pub/plasma/vgr/v2/</URL>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/Voyager2/PLS</InstrumentID>
+      <MeasurementType>ThermalPlasma</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1977-08-21T00:00:00</StartDate>
+            <RelativeStopDate>-P3D</RelativeStopDate>
+            <Note>data current to within 2-3 days at MIT, few weeks at SPDF</Note>
+         </TimeSpan>
+         <Cadence>PT12S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+   </NumericalData>
+</Spase>

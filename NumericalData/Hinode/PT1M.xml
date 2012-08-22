@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Hinode/PT1M</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Hinode data (all-inclusive) via Project Page or DARTS</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+         <Description>A wealth of Hinode movie, image and digital data
+are accessible via links from the NASA/MSFC Project web page and from the 
+DARTS data archive in Japan.  Data are from all three instruments, the 
+Solar Optical Telescope (SOT), the X-Ray Telescope (XRT) and the EUV 
+Imaging Spectrometer (EIS)</Description>
+         <Acknowledgement>see guidelines at
+http://hinode.nao.ac.jp/hsc_e/acknowledgement_e.shtml</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NASA Project page at MSFC</Name>
+            <URL>http://solarb.msfc.nasa.gov/</URL>
+         </InformationURL>
+         <PriorID>spase://VSPO/NumericalData/Hinode/All_Data</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/MSFC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>NASA/MSFC Hinode page</Name>
+            <URL>http://solarb.msfc.nasa.gov/</URL>
+         </AccessURL>
+         <Format>Text</Format>
+         <Encoding>None</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/DARTS</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>DARTS Hinode page</Name>
+            <URL>http://darts.isas.jaxa.jp/hinode/top.do</URL>
+         </AccessURL>
+         <Format>Text</Format>
+         <Encoding>None</Encoding>
+      </AccessInformation>
+      <InstrumentID>spase://SMWG/Instrument/Hinode/SOT</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/Hinode/XRT</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/Hinode/EIS</InstrumentID>
+      <MeasurementType>ImageIntensity</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2006-10-01T00:00:00</StartDate>
+            <RelativeStopDate>-P1D</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT1M</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Sun</ObservedRegion>
+   </NumericalData>
+</Spase>

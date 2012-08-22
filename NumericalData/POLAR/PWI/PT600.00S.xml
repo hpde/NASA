@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/POLAR/PWI/PT600.00S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PWI digital data at full resolution, 1996-7</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+         <Description>PWI Sweep Frequency Receiver and Multi Channel Analyzer digital data at full resolution, accessible as ASCII tables</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PWI_HIRATE</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>U. Iowa site</Name>
+            <URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/data.html</URL>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/POLAR/PWI</InstrumentID>
+      <MeasurementType>Spectrum</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1996-02-27T00:00:00</StartDate>
+            <StopDate>1967-09-16T00:00:00</StopDate>
+         </TimeSpan>
+         <Cadence>PT600.00S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+   </NumericalData>
+</Spase>

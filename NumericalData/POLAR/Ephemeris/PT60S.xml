@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Polar Orbit Data</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+         <Description>Polar orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDORBIT_60S</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb FTP area</Name>
+            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/pre_or</URL>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb HTTP area</Name>
+            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/polar/pre_or</URL>
+            <Description>In CDF via HTTP from CDAWeb</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+         </AccessURL>
+         <Format>CDF</Format>
+      </AccessInformation>
+      <InstrumentID>spase://SMWG/Instrument/POLAR/Ephemeris</InstrumentID>
+      <MeasurementType>Ephemeris</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1996-02-27T00:00:00</StartDate>
+            <StopDate>2008-04-16T00:00:00</StopDate>
+         </TimeSpan>
+         <Cadence>PT60S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+   </NumericalData>
+</Spase>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/IonParams/PT335S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Ulysses SWOOPS Ion Parameters Data.</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+         <Description>Full resolution and hourly Ulysses/SWOOPS proton densities, temperatures (min and max) and flow vectors, plus alpha particle densities.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Bruce.E.Goldstein</PersonID>
+            <Role>DataProducer</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWOOPS_CDAWEB_IONS_ELS</PriorID>
+      </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>annual gzipped-ASCII files from UDS</Name>
+                <URL>ftp://www.rssd.esa.int/pub/ulysses/data/swoops/ions/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>full resolution data in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/plasma/swoops/ion/hires/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>hourly averages in ASCII via ftp from NSSDC</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/ulysses/plasma/swoops/ion/hour/</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ulysses/SWOOPS</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-11-18T00:00:00</StartDate>
+                <StopDate>2008-08-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT335S</Cadence>
+        </TemporalDescription>    
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
+</Spase>

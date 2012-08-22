@@ -1,0 +1,23 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <Service>
+        <ResourceID>spase://VSPO/Service/AE-AP/TrappedParticle.Models</ResourceID>
+        <ResourceHeader>
+            <ResourceName>AE-8 and AP-8 trapped particle models</ResourceName>
+            <ReleaseDate>2012-05-08T00:00:00Z</ReleaseDate>
+            <Description>AE-8 and AP-8 magnetospherically trapped particle flux models</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>About the AE-8 and AP-8 models</Name>
+                <URL>http://modelweb.gsfc.nasa.gov/magnetos/aeap.html</URL>
+            </InformationURL>
+        <PriorID>spase://VSPO/Service/P_AE8AP8_HDR</PriorID>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>Access AE-8 and AP-8 maps and code via ftp</Name>
+            <URL>ftp://nssdcftp.gsfc.nasa.gov/models/radiation_belt/radbelt/</URL>
+        </AccessURL>         </Service>
+</Spase>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.2</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/WDC/Thule/Magnetometer/PT1M</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PCI (Polar Cap Index), Greenland</ResourceName>
+         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+         <Description>PCI (Polar Cap Index), Thule (now Qaanaaq), Greenland; also called PCN - Polar Cap North</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ole.S.Rasmussen</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/NumericalData/P_VOSTOK_HDR_PCI_THULE</PriorID>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/WDC/Geomagnetism/DMI</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>PCN database at DMI, digital and plot output options</Name>
+            <URL>http://web.dmi.dk/projects/wdcc1/pcn/pcn.html</URL>
+         </AccessURL>
+         <AccessURL>
+            <Name>In ASCII via ftp from NGDC</Name>
+            <URL>ftp://ftp.ngdc.noaa.gov/STP/SOLAR_DATA/RELATED_INDICES/PC_INDEX/VOSTOK</URL>
+         </AccessURL>
+         <Format>Text</Format>
+      </AccessInformation>
+      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/WDC/Thule/Magnetometer</InstrumentID>
+      <MeasurementType>MagneticField</MeasurementType>
+      <MeasurementType>ActivityIndex</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1975-01-01T00:00:00</StartDate>
+            <RelativeStopDate>-P1D</RelativeStopDate>
+            <Note>Data are current to within hours.</Note>
+         </TimeSpan>
+         <Cadence>PT1M</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Surface</ObservedRegion>
+   </NumericalData>
+</Spase>
