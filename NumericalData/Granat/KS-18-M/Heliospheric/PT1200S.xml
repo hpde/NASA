@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Granat/KS-18-M/Heliospheric/PT1200S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Russian MSU Granat Heliopsheric Data</ResourceName>
+            <ReleaseDate>2012-08-03T00:00:00Z</ReleaseDate>
+            <Description>This set of heliospheric data in ASCII contains measurements of energetic particles by the KS-18-M instrument onboard the high-altitude satellite GRANAT at large distances from the Earth. Besides the geographic coordinates of the spacecraft, the altitude is also plotted for 1989-95 as an illustration of evolution of the GRANAT's perigee.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>NSSDC ftp area</Name>
+                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/russian_msu/granat/heliospheric_data/</URL>
+                <Description>In ASCII via nssdcftp</Description>
+            </AccessURL>
+            <Format>Text</Format>
+       </AccessInformation>
+           <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Granat/KS-18-M</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1989-12-02T00:00:00</StartDate>
+                <StopDate>1995-12-16T23:59:59</StopDate>
+            </TimeSpan>
+            <Cadence>PT1200S</Cadence>
+        </TemporalDescription>      
+        <ObservedRegion>Heliosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
+
+
