@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Reiner.Friedel</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_CAMMICE-FLUX_204S</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_CAMMICE-FLUX_204S</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
             <Availability>Online</Availability>
@@ -31,7 +31,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CCR site at LANL</Name>
-                <URL>http://leadbelly.lanl.gov/ccr</URL>
+                <URL>http://www.lanl-epdata.lanl.gov/ccr/</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -44,7 +44,7 @@
                 <StopDate>2000-03-16T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT204S</Cadence>
-        </TemporalDescription>    
+        </TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     </NumericalData>
 </Spase>
