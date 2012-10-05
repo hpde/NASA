@@ -1,48 +1,47 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/PT300S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ACE SWEPAM 5-min Key Parameter (recent) data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>ACE SWEPAM Solar Wind Plasma Experiment 5-Minute Key Parameters [PRELIM]</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_SWEPAM_300S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb FTP area</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/swe</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb HTTP area</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/ace/swe</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>2002-07-01T00:00:00</StartDate>
-            <RelativeStopDate>-P7D</RelativeStopDate>
-            <Note>Data are current to within about 1 week.</Note>
-         </TimeSpan>
-         <Cadence>PT300S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/PT300S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ACE SWEPAM 5-min Key Parameter (recent) data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>ACE SWEPAM Solar Wind Plasma Experiment 5-Minute Key Parameters [PRELIM]</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_SWEPAM_300S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_k0</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_k0</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALCULATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2002-07-01T00:00:00</StartDate>
+                <RelativeStopDate>-P7D</RelativeStopDate>
+                <Note>Data are current to within about 1 week.</Note>
+            </TimeSpan>
+            <Cadence>PT300S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
 </Spase>

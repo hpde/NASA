@@ -1,42 +1,46 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Alouette2/CEP/PT60S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Alouette 2 electron density data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>Alouette 2 ionospheric electron density data at 1-5 min resolution</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ALOUETTE2_HDR_NE</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>FTPBrowser</Name>
-            <URL>http://ftpbrowser.gsfc.nasa.gov/alouette2.html</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>in ASCII via ftp from NSSDC</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/alouette/plasma_lp/</URL>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Alouette2/CEP</InstrumentID>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1966-02-21T00:00:00</StartDate>
-            <StopDate>1967-02-16T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT60S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Alouette2/CEP/PT60S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Alouette 2 electron density data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>Alouette 2 ionospheric electron density data at 1-5 min resolution</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ALOUETTE2_HDR_NE</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTPBrowser</Name>
+                <URL>http://ftpbrowser.gsfc.nasa.gov/alouette2.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/plasma_lp/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/plasma_lp/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Alouette2/CEP</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1966-02-21T00:00:00</StartDate>
+                <StopDate>1967-02-16T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT60S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

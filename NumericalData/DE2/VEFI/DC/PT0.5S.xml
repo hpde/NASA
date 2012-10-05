@@ -11,19 +11,23 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>NSSDCftp Readme File</Name>
+                <Name>Readme file at SPDF</Name>
                 <URL>ftp://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b46595.txt</URL>
                 <Description>Information about DE Electric Field data from DE 2</Description>
             </InformationURL>
-          <PriorID>spase://VSPO/NumericalData/P_DE2_HDR_ELECTRIC_FIELDS_DCA_VEFI_0.5S</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_DE2_HDR_ELECTRIC_FIELDS_DCA_VEFI_0.5S</PriorID>
+        </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>NSSDCftp</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/electric_fields_vefi/dca_500ms_ascii/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/dca_500ms_ascii/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/dca_500ms_ascii/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -36,7 +40,7 @@
                 <StopDate>1983-02-16T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT0.5S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Earth.NearSurface</ObservedRegion>
     </NumericalData>
 </Spase>

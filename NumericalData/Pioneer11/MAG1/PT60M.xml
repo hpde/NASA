@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
@@ -11,15 +10,20 @@
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_PION11_HDR_MAG_1HR</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_PION11_HDR_MAG_1HR</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>in ASCII via ftp from NSSDC</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/pioneer/pioneer11/mag/ip_1hour_ascii/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/mag/ip_1hour_ascii/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/mag/ip_1hour_ascii/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -32,9 +36,7 @@
                 <StopDate>1976-12-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT60M</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>
-
-

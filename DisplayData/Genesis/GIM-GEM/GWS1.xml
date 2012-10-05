@@ -1,39 +1,38 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/Genesis/GIM-GEM/GWS1</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Genesis GIM daily Survey Plots</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>Daily gif_walk plots, Genesis ion data</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Roger.Wiens</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/DisplayData/P_GENESIS_HDR_GWS1</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Genesis site at LANL</Name>
-            <URL>http://genesis.lanl.gov/plots/test/mec/1day/</URL>
-         </AccessURL>
-         <Format>PNG</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Genesis/GIM-GEM</InstrumentID>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>2001-08-24T00:00:00</StartDate>
-            <RelativeStopDate>-P1D</RelativeStopDate>
-            <Note>Data are current to within hours.</Note>
-         </TimeSpan>
-      </TemporalDescription>
-      <DisplayCadence>PT150S</DisplayCadence>
-      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-   </DisplayData>
+    <Version>2.2.2</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/Genesis/GIM-GEM/GWS1</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Genesis GIM daily Survey Plots</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>Daily gif_walk plots, Genesis ion data</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Roger.Wiens</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/DisplayData/P_GENESIS_HDR_GWS1</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Genesis site at LANL</Name>
+                <URL>http://genesis.lanl.gov/plots/test/mec/1day/</URL>
+            </AccessURL>
+            <Format>PNG</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Genesis/GIM-GEM</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-08-24T00:00:00</StartDate>
+                <RelativeStopDate>-P1D</RelativeStopDate>
+                <Note>Data are current to within hours.</Note>
+            </TimeSpan>
+        </TemporalDescription>
+        <DisplayCadence>PT150S</DisplayCadence>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </DisplayData>
 </Spase>

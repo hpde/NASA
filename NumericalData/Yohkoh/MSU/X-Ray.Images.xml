@@ -1,40 +1,39 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Yohkoh/MSU/X-Ray.Images</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Yohkoh Solar X-ray Images via VSO/MSU</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>Yohkoh Solar X-ray Images from Montana State via Virtual Solar Observatory</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Piet.C.Martens</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_YOHKOH_HDR_VSO_MSU</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/MSU</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>VSO interface at Stanford</Name>
-            <URL>http://www.virtualsolar.org</URL>
-         </AccessURL>
-         <Format>FITS</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Yohkoh/HXT</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Yohkoh/BCS</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Yohkoh/WBS</InstrumentID>
-      <MeasurementType>ImageIntensity</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1991-09-01T00:00:00</StartDate>
-            <StopDate>2001-12-14T00:00:00</StopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <ObservedRegion>Sun</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Yohkoh/MSU/X-Ray.Images</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Yohkoh Solar X-ray Images via VSO/MSU</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>Yohkoh Solar X-ray Images from Montana State via Virtual Solar Observatory</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Piet.C.Martens</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_YOHKOH_HDR_VSO_MSU</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MSU</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>VSO interface at Stanford</Name>
+                <URL>http://www.virtualsolar.org</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Yohkoh/HXT</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Yohkoh/BCS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Yohkoh/WBS</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1991-09-01T00:00:00</StartDate>
+                <StopDate>2001-12-14T00:00:00</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,47 +1,51 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Helios1/E2/PT1H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Helios 1 E2 Hourly Magnetic Field Data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>This data set contains hour-averaged magnetic field vectors from the Neubauer/Maier experiment on Helios 1. It provides 1-hr average values of the solar ecliptic X, Y, Z components of the magnetic field, in units of centi-gamma. Also available are the number of samples of each component used in the averaging. The location of the spacecraft is specified in terms of ecliptic longitude, heliographic latitude, and radial distance from sun. Data quality flags are also included. </Description>
-         <Acknowledgement>Please acknowledge F. M. Neubauer (P.I.) and A. Maier, and NSSDC.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/A.Maier</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>nssdcftp readme</Name>
-            <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios1/mag/hour_neubauer/he1mgb_fmt.txt</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/P_HELIOS1_HDR_E2_MAG_1HR</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>nssdcftp</Name>
-            <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios1/mag/hour_neubauer/</URL>
-            <Description>Via nssdcftp</Description>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Helios1/E2</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1974-12-10T00:00:00</StartDate>
-            <StopDate>1976-04-30T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1H</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Helios1/E2/PT1H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Helios 1 E2 Hourly Magnetic Field Data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>This data set contains hour-averaged magnetic field vectors from the Neubauer/Maier experiment on Helios 1. It provides 1-hr average values of the solar ecliptic X, Y, Z components of the magnetic field, in units of centi-gamma. Also available are the number of samples of each component used in the averaging. The location of the spacecraft is specified in terms of ecliptic longitude, heliographic latitude, and radial distance from sun. Data quality flags are also included. </Description>
+            <Acknowledgement>Please acknowledge F. M. Neubauer (P.I.) and A. Maier, and NSSDC.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/A.Maier</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Readme file at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/hour_neubauer/he1mgb_fmt.txt</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/P_HELIOS1_HDR_E2_MAG_1HR</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/hour_neubauer/</URL>
+                <Description>Via SPDF ftp</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/hour_neubauer/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Helios1/E2</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1974-12-10T00:00:00</StartDate>
+                <StopDate>1976-04-30T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1H</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/WDC/Indices/AE/PT1M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>AE, AL and AU indices</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>AE, AL, AU and AO geomagnetic indices.  
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/WDC/Indices/AE/PT1M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>AE, AL and AU indices</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>AE, AL, AU and AO geomagnetic indices.  
 The web site of WDC for Geomagnetism at Kyoto U., url given below, 
 offers plots and numeric downloads for 1-minute and 1-hour AE and 
 related indices.  Hourly data are available from July, 1957, through 
@@ -21,49 +20,49 @@ another such interface provides 2.5 min AE values for 1966-1974.
 Alternative sources of many of the WDC/Kyoto-generated AE and related 
 indices include the 1-min and 1-hour OMNI data sets at 
 NASA/GSFC/SPDF.</Description>
-         <Acknowledgement>WDC for Geomagnetism (Kyoto-U., Japan)</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Toshihiko.Iyemori</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/AE_Indices</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/WDC/Geomagnetism/KyotoU</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>WDC for Geomagnetism at Kyoto U.</Name>
-            <URL>http://wdc.kugi.kyoto-u.ac.jp/aedir/index.html</URL>
-            <Description>Multi-option path to AE and related indices at 
+            <Acknowledgement>WDC for Geomagnetism (Kyoto-U., Japan)</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Toshihiko.Iyemori</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/AE_Indices</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/WDC/Geomagnetism/KyotoU</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>WDC for Geomagnetism at Kyoto U.</Name>
+                <URL>http://wdc.kugi.kyoto-u.ac.jp/aedir/index.html</URL>
+                <Description>Multi-option path to AE and related indices at 
 Kyoto, including index documentation and history files.</Description>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>OMNIWeb</Name>
-            <URL>http://omniweb.gsfc.nasa.gov</URL>
-            <Description>Path to both 1-min and 1-hour OMNI data sets, with
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>OMNIWeb</Name>
+                <URL>http://omniweb.gsfc.nasa.gov</URL>
+                <Description>Path to both 1-min and 1-hour OMNI data sets, with
 subset/plot/list functionalities, and to ftp accessibility.</Description>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
-      <MeasurementType>MagneticField</MeasurementType>
-      <MeasurementType>ActivityIndex</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1957-07-01T00:00:00</StartDate>
-            <RelativeStopDate>-P1D</RelativeStopDate>
-            <Note>Hourly data start in 1957, 1-min data in 1975.  
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ActivityIndex</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1957-07-01T00:00:00</StartDate>
+                <RelativeStopDate>-P1D</RelativeStopDate>
+                <Note>Hourly data start in 1957, 1-min data in 1975.  
 Most recent (real time) data are current to within hours.</Note>
-         </TimeSpan>
-         <Cadence>PT1M</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Earth.Surface</ObservedRegion>
-   </NumericalData>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Surface</ObservedRegion>
+    </NumericalData>
 </Spase>

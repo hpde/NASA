@@ -3,31 +3,32 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Cluster/Ephemeris/JP-PGP/PT1M</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Predicted Trajectories and Relative Positions, all spacecraft </ResourceName>
+            <ResourceName>Cluster Monthly JSOC Predicted Solar Cycle Trends</ResourceName>
             <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
-            <Description>Cluster JSOC Predicted Geometric Positions</Description>
+            <Description>This dataset contains Cluster JSOC monthly predicted sunspot number, solar wind pressure and standard deviation in interplanetary field.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_CLUSTER1_HDR_PGP_60S</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_CLUSTER_HDR_JP_PCY_1M</PriorID>
+        </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/cluster/cl/jp/pgp</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/jp/pcy/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/cluster/cl/jp/pgp</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/jp/pcy/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <Description>CL_JP_PCY</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -38,12 +39,12 @@
         <MeasurementType>Ephemeris</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2000-08-14T00:00:00</StartDate>
+                <StartDate>1999-01-01T00:00:00</StartDate>
                 <RelativeStopDate>P3M</RelativeStopDate>
                 <Note>Data (predicted) typically end a few months into the future.</Note>
             </TimeSpan>
-            <Cadence>PT60S</Cadence>
-        </TemporalDescription>   
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     </NumericalData>
 </Spase>

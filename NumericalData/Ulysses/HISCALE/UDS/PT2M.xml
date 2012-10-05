@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/UDS/PT2M</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/UDS/PT2M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses HISCALE ion and electron fluxes at UDS</ResourceName>
             <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
@@ -14,7 +14,7 @@
                 <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
                 <Role>DataProducer</Role>
             </Contact>
-                <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_UDS_DIGITAL</PriorID>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_UDS_DIGITAL</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
@@ -36,7 +36,7 @@
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT2M</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

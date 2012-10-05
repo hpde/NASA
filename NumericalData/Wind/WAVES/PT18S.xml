@@ -1,28 +1,28 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/PT18S</ResourceID>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/PT18S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind WAVES Electron Density</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
             <Description>Wind WAVES electron density at 18-s resolution determined from neural network analysis of in situ Fpe line, via CDAWeb</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_WAVES_DENSITY</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_WAVES_DENSITY</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/wind/wav_h0/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h0/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/wind/wav_h0/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
@@ -41,7 +41,7 @@
                 <Note>Data are current to within about two months.</Note>
             </TimeSpan>
             <Cadence>PT18S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     </NumericalData>
 </Spase>

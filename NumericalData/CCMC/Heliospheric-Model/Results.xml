@@ -14,8 +14,8 @@
                 <PersonID>spase://SMWG/Person/Bernard.V.Jackson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-    <PriorID>spase://VSPO/NumericalData/P_CCMC_HDR_HELIOSP_RESULTS</PriorID> 
-    </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_CCMC_HDR_HELIOSP_RESULTS</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/CCMC</RepositoryID>
             <Availability>Online</Availability>
@@ -30,7 +30,7 @@
             </AccessURL>
             <Format>HTML</Format>
         </AccessInformation>
-        <MeasurementType>ThermalPlasma</MeasurementType>      
+        <MeasurementType>ThermalPlasma</MeasurementType>
         <ObservedRegion>Heliosphere</ObservedRegion>
     </NumericalData>
 </Spase>

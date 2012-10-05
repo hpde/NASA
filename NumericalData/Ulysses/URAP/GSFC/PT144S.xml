@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-                  <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_GSFC690_DIGITAL</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_GSFC690_DIGITAL</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
             <Availability>Online</Availability>
@@ -32,7 +32,7 @@
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT144S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

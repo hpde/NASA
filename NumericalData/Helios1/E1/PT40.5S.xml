@@ -1,49 +1,53 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Helios1/E1/PT40.5S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>Helios 1 40-second merged magnetic field and plasma data via VHO</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
-            <Role>DataProducer</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_SPASE_HELIOS1_HDR_VHO_40SMERGED</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>nssdcftp</Name>
-            <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios1/merged/he1_40sec/</URL>
-            <Description>FTP path at SPDF/NSSDC</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Virtual Heliospheric Observatory - VHO</Name>
-            <URL>http://vho.nasa.gov/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>VHO Data Finder (including graphics)</Name>
-            <URL>http://vho.nasa.gov/vxo/index.php?rid=spase://VHO/NumericalData/Helios1/Combined/PT40.5S&amp;mtype=MagneticField</URL>
-         </AccessURL>
-         <Format>Text</Format>
-         <Encoding>ASCII</Encoding>
-         <Acknowledgement>Virtual Heliospheric Observatory</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Helios1/E1</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Helios1/E3</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1974-12-12T00:00:00Z</StartDate>
-            <StopDate>1985-09-04T00:00:00Z</StopDate>
-         </TimeSpan>
-         <Cadence>PT40.5S</Cadence>
-      </TemporalDescription>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Helios1/E1/PT40.5S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>Helios 1 40-second merged magnetic field and plasma data via VHO</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_SPASE_HELIOS1_HDR_VHO_40SMERGED</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/</URL>
+                <Description>FTP path at SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/</URL>
+                <Description>HTTP path at SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Virtual Heliospheric Observatory - VHO</Name>
+                <URL>http://vho.nasa.gov/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>VHO Data Finder (including graphics)</Name>
+                <URL>http://vho.nasa.gov/vxo/index.php?rid=spase://VHO/NumericalData/Helios1/Combined/PT40.5S&amp;mtype=MagneticField</URL>
+            </AccessURL>
+            <Format>Text</Format>
+            <Encoding>ASCII</Encoding>
+            <Acknowledgement>Virtual Heliospheric Observatory</Acknowledgement>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Helios1/E1</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Helios1/E3</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1974-12-12T00:00:00Z</StartDate>
+                <StopDate>1985-09-04T00:00:00Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT40.5S</Cadence>
+        </TemporalDescription>
+    </NumericalData>
 </Spase>

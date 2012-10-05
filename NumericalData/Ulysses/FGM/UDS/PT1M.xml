@@ -1,23 +1,22 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/FGM/UDS/PT1M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Ulysses magnetic field data files at UDS</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>1-min and 1-hour Ulysses magnetic field data at UDS, also 1-sec data for 1990-3; field magnitude and RTN components</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
-            <Role>DataProducer</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_MAG_UDS_DIGITAL</PriorID>
-      </ResourceHeader>
-       <AccessInformation>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/FGM/UDS/PT1M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses magnetic field data files at UDS</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>1-min and 1-hour Ulysses magnetic field data at UDS, also 1-sec data for 1990-3; field magnitude and RTN components</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_MAG_UDS_DIGITAL</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -36,7 +35,7 @@
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT1M</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

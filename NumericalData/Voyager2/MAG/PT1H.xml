@@ -1,43 +1,47 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 MAG 1-hr ASCII data at nsdcftp</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>Voyager 2 MAG 1-hr ASCII data</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1HR_ASC</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>nssdcftp</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
-            <Description>one ASCII file spanning 1977-1989</Description>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1977-08-20T00:00:00</StartDate>
-            <StopDate>1989-08-25T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1H</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 2 MAG 1-hr ASCII data at nsdcftp</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>Voyager 2 MAG 1-hr ASCII data</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1HR_ASC</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
+                <Description>one ASCII file spanning 1977-1989</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1977-08-20T00:00:00</StartDate>
+                <StopDate>1989-08-25T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1H</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

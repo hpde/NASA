@@ -26,7 +26,7 @@ M. Acuna (GSFC).</Acknowledgement>
             <PriorID>spase://VSPO/NumericalData/STEREO-A/MAG/PT0.031S</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
@@ -34,12 +34,12 @@ M. Acuna (GSFC).</Acknowledgement>
                 <URL>http://aten.igpp.ucla.edu/forms/stereo/ascii_heliocentric_full_final_Burst.html</URL>
             </AccessURL>
             <AccessURL>
-                <Name>Data in SC coordinates via FTP from CDAWEB</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/ahead/l1/impact/sc/magb/</URL>
+                <Name>Data in SC coordinates from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/sc/magb/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>Data in SC coordinates via HTTP from CDAWEB</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/stereo/ahead/l1/impact/sc/magb/</URL>
+                <Name>Data in SC coordinates from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/sc/magb/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
@@ -48,12 +48,12 @@ M. Acuna (GSFC).</Acknowledgement>
                 <Description>STA_L1_MAGB_SC</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Data in RTN coordinates via FTP from CDAWEB</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/stereo/ahead/l1/impact/rtn/magb/</URL>
+                <Name>Data in RTN coordinates from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/rtn/magb/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>Data in RTN coordinates via HTTP from CDAWEB</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/stereo/ahead/l1/impact/rtn/magb/</URL>
+                <Name>Data in RTN coordinates from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/rtn/magb/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Stephen.Walton</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_SFO_HDR_CFDT2</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_SFO_HDR_CFDT2</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SFO</RepositoryID>
             <Availability>Online</Availability>
@@ -36,7 +36,7 @@
                 <Note>As of August, 2005, data ran only to 2001.12.23.</Note>
             </TimeSpan>
             <Cadence>PT86400.00S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>

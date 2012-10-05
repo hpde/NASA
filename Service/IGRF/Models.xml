@@ -18,10 +18,11 @@
                 <Name>Access IGRF code and coefficients via ftp</Name>
                 <URL>ftp://nssdcftp.gsfc.nasa.gov/models/geomagnetic/igrf/fortran_code/</URL>
             </InformationURL>
-        <PriorID>spase://VSPO/Service/P_IGRF_HDR</PriorID>
+            <PriorID>spase://VSPO/Service/P_IGRF_HDR</PriorID>
         </ResourceHeader>
         <AccessURL>
             <Name>Execute IGRF code at NSSDC</Name>
             <URL>http://omniweb.gsfc.nasa.gov/vitmo/igrf_vitmo.html</URL>
-        </AccessURL>          </Service>
+        </AccessURL>
+    </Service>
 </Spase>

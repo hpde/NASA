@@ -1,50 +1,49 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/Cluster/WBD/UIOWA</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Cluster WBD Spectrograms</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
-         <Description>Cluster WBD Spectrograms, E and B in 25 Hz to 577 kHz range</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jolene.S.Pickett</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/DisplayData/P_CLUSTER_HDR_WBD_SPECTROGRAMS_UIOWA</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Top Cluster web page at U. Iowa</Name>
-            <URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/cluster/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>WBD data access page at U. Iowa</Name>
-            <URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/cluster/mop</URL>
-         </AccessURL>
-         <Format>GIF</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/WBD</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/WBD</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WBD</InstrumentID>
-      <MeasurementType>Waves.Passive</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>2000-12-10T00:00:00</StartDate>
-            <RelativeStopDate>-P7D</RelativeStopDate>
-            <Note>Data were current to within a week in mid-June, 2005.</Note>
-         </TimeSpan>
-      </TemporalDescription>
-      <SpectralRange>RadioFrequency</SpectralRange>
-      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-   </DisplayData>
+    <Version>2.2.2</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/Cluster/WBD/UIOWA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster WBD Spectrograms</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <Description>Cluster WBD Spectrograms, E and B in 25 Hz to 577 kHz range</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jolene.S.Pickett</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/DisplayData/P_CLUSTER_HDR_WBD_SPECTROGRAMS_UIOWA</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Top Cluster web page at U. Iowa</Name>
+                <URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/cluster/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>WBD data access page at U. Iowa</Name>
+                <URL>http://www-pw.physics.uiowa.edu/plasma-wave/istp/cluster/mop</URL>
+            </AccessURL>
+            <Format>GIF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/WBD</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WBD</InstrumentID>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-12-10T00:00:00</StartDate>
+                <RelativeStopDate>-P7D</RelativeStopDate>
+                <Note>Data were current to within a week in mid-June, 2005.</Note>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>RadioFrequency</SpectralRange>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </DisplayData>
 </Spase>

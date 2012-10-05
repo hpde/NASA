@@ -36,26 +36,27 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Data from NSSDCFTP</Name>
-                <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/</URL>
-                <Description>Data from multiple telemetry stations</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis1/all/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>FTP repository of ISIS-1 Topside sounder ionograms from multiple telemetry stations</Description>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis1/all/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>HTTP repository of ISIS-1 Topside sounder ionograms from multiple telemetry stations</Description>
             </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <Description>ISIS 1 ionograms data with subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>
-            <Format>CDF</Format>
+            <Format>Text</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/ISIS1/SFS</InstrumentID>
         <MeasurementType>Waves.Active</MeasurementType>

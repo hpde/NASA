@@ -10,7 +10,7 @@
                 <PersonID>spase://SMWG/Person/Nat.Gopalswamy</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-         <PriorID>spase://VSPO/Catalog/P_SOHO_HDR_LASCO_TypeII_CME_EVENTLIST</PriorID>
+            <PriorID>spase://VSPO/Catalog/P_SOHO_HDR_LASCO_TypeII_CME_EVENTLIST</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
@@ -21,13 +21,13 @@
                 <URL>http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html</URL>
             </AccessURL>
             <Format>Text</Format>
-        </AccessInformation>              
-<InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
-        <PhenomenonType>CoronalMassEjection</PhenomenonType>     
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
+        <PhenomenonType>CoronalMassEjection</PhenomenonType>
         <TimeSpan>
             <StartDate>1996-01-11T00:00:00</StartDate>
             <RelativeStopDate>-P6M</RelativeStopDate>
             <Note>Data are current to within about 6 months.</Note>
-        </TimeSpan>      
-</Catalog>
+        </TimeSpan>
+    </Catalog>
 </Spase>

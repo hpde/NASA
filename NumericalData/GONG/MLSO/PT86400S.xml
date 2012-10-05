@@ -10,7 +10,7 @@
                 <PersonID>spase://SMWG/Person/Frank.Hill</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_GONG_HDR_MLSO</PriorID>
+            <PriorID>spase://VSPO/NumericalData/P_GONG_HDR_MLSO</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SHA</RepositoryID>
@@ -37,7 +37,7 @@
                 <Note>Data are several months behind current.</Note>
             </TimeSpan>
             <Cadence>PT86400S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>

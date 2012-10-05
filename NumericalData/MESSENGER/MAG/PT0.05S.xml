@@ -26,34 +26,34 @@ Anderson of JHU_APL, and the organization from which the data were
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>PDS_PPI</Name>
-                <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/MESSMAGDATA_2001</URL>
-                <Description>Access to data and documentation; note "amp;" needs to be deleted if
-you try to cut/paste/use this URL.</Description>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
+                <Description>In CDF via ftp from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-                <Description>Access to MESSENGER interplanetary magnetic field data with subset, plot, list functionalities from CDAWeb</Description>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
+                <Description>In CDF via http from CDAWeb</Description>
             </AccessURL>
-            <Format>Text</Format>
+            <Format>CDF</Format>
+            <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb ftp area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/messenger/rtn/</URL>
-                <Description>In CDF via ftp from CDAWeb</Description>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <Description>Access to MESSENGER interplanetary magnetic field data with subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb http area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/pub/istp/messenger/rtn/</URL>
-                <Description>In CDF via http from CDAWeb</Description>
+                <Name>PDS_PPI</Name>
+                <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/MESSMAGDATA_2001</URL>
+                <Description>Access to data and documentation; note "amp;" needs to be deleted if
+you try to cut/paste/use this URL.</Description>
             </AccessURL>
-            <Format>CDF</Format>
-            <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+            <Format>Text</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/MESSENGER/Magnetometer</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>

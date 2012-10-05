@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/AveragedIonongrams</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ISIS 2 Swept-/Fixed-Averaged Ionograms</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>This data set consists of ISIS 1 and 2 (International Satellites for Ionospheric Studies)ionograms that have been obtained through a data restoration project. The ISIS ionograms, consisting of a fixed-frequency and a swept-frequency part, were digitized from the original ISIS telemetry tapes. The digitized sounder data consisting of 8-bit receiver-amplitude values collected at a 40 kHz rate contain the time and the frequency associated with each sounder pulse. The frequency of each sounder pulse is determined from a 3rd degree interpolation between the times of the frequency markers as identified in the sounder video during the A/D operation. Included in this data set are the average-resolution ionograms (averages of each 4 successive 40 kHz 8-bit values) in CDF format. 
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/AveragedIonongrams</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISIS 2 Swept-/Fixed-Averaged Ionograms</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>This data set consists of ISIS 1 and 2 (International Satellites for Ionospheric Studies)ionograms that have been obtained through a data restoration project. The ISIS ionograms, consisting of a fixed-frequency and a swept-frequency part, were digitized from the original ISIS telemetry tapes. The digitized sounder data consisting of 8-bit receiver-amplitude values collected at a 40 kHz rate contain the time and the frequency associated with each sounder pulse. The frequency of each sounder pulse is determined from a 3rd degree interpolation between the times of the frequency markers as identified in the sounder video during the A/D operation. Included in this data set are the average-resolution ionograms (averages of each 4 successive 40 kHz 8-bit values) in CDF format. 
 
 Software to read and display the individual CDF files is available at
 
@@ -22,357 +21,154 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
 and their location on a worldmap is shown in
 
 http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>info about the digitization project</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/ISIS 2/SFS/AveragedIonongrams</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Data from NSSDCFTP</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/</URL>
-            <Description>Data from multiple stations</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ascension Is., U.K. data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/acn/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ascension Is., U.K. data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/acn/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_ACN</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Terre Adelie, Antarctica data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/adl/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Terre Adelie, Antarctica data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/adl/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_ADL</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ahmedabad, India data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/ame/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ahmedabad, India data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/ame/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_AME</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Brazzavillle, Congo data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/brz/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Brazzavillle, Congo data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/brz/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_BRZ</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Johannesburg, South Africa data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/bur/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Johannesburg, South Africa data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/bur/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_BUR</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Las Palmas, Canary Is., Spain data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/cna/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Las Palmas, Canary Is., Spain data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/cna/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_CNA</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kerguelen Island, France data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/ker/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kerguelen Island, France data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/ker/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_KER</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kourou, French Guyana data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/kru/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kourou, French Guyana data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/kru/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_KRU</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kashima, Japan data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/ksh/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kashima, Japan data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/ksh/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_KSH</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kwajalein, Marshall Is. data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/kwa/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Kwajalein, Marshall Is. data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/kwa/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_KWA</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Lauder, New Zealand data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/lau/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Lauder, New Zealand data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/lau/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_LAU</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ouagadougou, Burkina Faso data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/odg/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ouagadougou, Burkina Faso data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/odg/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_ODG</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Orroral, Australia data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/orr/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Orroral, Australia data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/orr/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_ORR</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ottawa, Canada data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/ott/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Ottawa, Canada data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/ott/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_OTT</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Quito, Equador data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/qui/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Quito, Equador data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/qui/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_QUI</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Resolute Bay, Canada data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/res/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Resolute Bay, Canada data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/res/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_RES</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Santiago, Chile data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/snt/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Santiago, Chile data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/snt/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_SNT</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Sodankyla, Finland data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/sod/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Sodankyla, Finland data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/sod/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_SOD</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Falkland Is., U.K. data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/sol/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Falkland Is., U.K. data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/sol/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_SOL</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Syowa Base, Antartica data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/syo/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Syowa Base, Antartica data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/syo/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_SYO</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Tromso, Norway data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/tro/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Tromso, Norway data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/tro/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_TRO</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Fairbanks, Alaska data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/ula/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Fairbanks, Alaska data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/ula/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_ULA</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Winkfield, U.K. data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/wnk/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Winkfield, U.K. data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/wnk/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>I2_AV_WNK</Description>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/ISIS2/SFS</InstrumentID>
-      <MeasurementType>Waves.Active</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1969-01-30T14:50:12</StartDate>
-            <StopDate>1984-01-27T18:16:53</StopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-   </NumericalData>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>info about the digitization project</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/ISIS 2/SFS/AveragedIonongrams</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ascension Is., U.K. data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_ACN</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Terre Adelie, Antarctica data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_ADL</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ahmedabad, India data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_AME</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Brazzavillle, Congo data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_BRZ</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Johannesburg, South Africa data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_BUR</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Las Palmas, Canary Is., Spain data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_CNA</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kerguelen Island, France data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_KER</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kourou, French Guyana data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_KRU</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kashima, Japan data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_KSH</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Kwajalein, Marshall Is. data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_KWA</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Lauder, New Zealand data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_LAU</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ouagadougou, Burkina Faso data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_ODG</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Orroral, Australia data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_ORR</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Ottawa, Canada data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_OTT</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Quito, Equador data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_QUI</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Resolute Bay, Canada data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_RES</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Santiago, Chile data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_SNT</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Sodankyla, Finland data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_SOD</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Falkland Is., U.K. data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_SOL</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Syowa Base, Antartica data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_SYO</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Tromso, Norway data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_TRO</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Fairbanks, Alaska data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_ULA</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Winkfield, U.K. data from CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>I2_AV_WNK</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/ISIS2/SFS</InstrumentID>
+        <MeasurementType>Waves.Active</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1969-01-30T14:50:12</StartDate>
+                <StopDate>1984-01-27T18:16:53</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

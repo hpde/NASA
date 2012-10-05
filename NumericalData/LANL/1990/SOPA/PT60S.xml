@@ -1,47 +1,46 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/LANL/1990/SOPA/PT60S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>LANL1990 SPA 1-min Key Parameters</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>LANL1990 Synchronous Orbit Particle Analyzer 1-min key parameters - densities, temperatures, fluxes for 50-225 and 315-1500 keV electrons</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_LANL1990_HDR_SPA_60S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb FTP area</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/lanl/90_spa</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb HTTP area</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/lanl/90_spa</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/LANL/1990/SOPA</InstrumentID>
-      <MeasurementType>EnergeticParticles</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1992-08-01T00:00:00</StartDate>
-            <StopDate>2005-11-09T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT60S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/LANL/1990/SOPA/PT60S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL1990 SPA 1-min Key Parameters</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>LANL1990 Synchronous Orbit Particle Analyzer 1-min key parameters - densities, temperatures, fluxes for 50-225 and 315-1500 keV electrons</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_LANL1990_HDR_SPA_60S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/lanl/90_spa</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/lanl/90_spa</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/LANL/1990/SOPA</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1992-08-01T00:00:00</StartDate>
+                <StopDate>2005-11-09T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT60S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

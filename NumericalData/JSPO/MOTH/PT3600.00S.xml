@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Stuart.M.Jefferies</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_JSPO_HDR</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_JSPO_HDR</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SHA</RepositoryID>
             <Availability>Online</Availability>
@@ -32,7 +32,7 @@
                 <StopDate>2003-01-20T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT3600.00S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>

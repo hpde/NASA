@@ -8,12 +8,12 @@
             <Description>ACE MAG L2 1-hr, 1-day, 27-day magnetic field averages at ASC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-                <Role>GeneralContact</Role>                        
-             </Contact>
+                <Role>GeneralContact</Role>
+            </Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Smith</PersonID>
-                <Role>DataProducer</Role>                       
-                </Contact>
+                <Role>DataProducer</Role>
+            </Contact>
             <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_MAG_1HR</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -33,12 +33,12 @@
                 <URL>http://cdaweb.gsfc.nasa.gov</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/mfi_h2</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h2</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/ace/mfi_h2</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h2</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>
@@ -53,7 +53,7 @@
                 <Note>Data are presently ~5 months delayed</Note>
             </TimeSpan>
             <Cadence>PT3600S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     </NumericalData>
 </Spase>

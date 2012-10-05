@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Thomas.Rimmele</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-  <PriorID>spase://VSPO/NumericalData/P_ESF_HDR_EVANS</PriorID> 
-      </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_ESF_HDR_EVANS</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NOAO</RepositoryID>
             <Availability>Online</Availability>
@@ -35,8 +35,8 @@
                 <StopDate>1999-05-28T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT86400S</Cadence>
-        </TemporalDescription>            
- <ObservedRegion>Sun</ObservedRegion>
+        </TemporalDescription>
+        <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>
 </Spase>

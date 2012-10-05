@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/UDS/PHA/PT1H</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/UDS/PHA/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses EPAC daily pulse height data</ResourceName>
             <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
@@ -10,9 +10,9 @@
                 <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-           <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_EPAC_UDS_PHA_DIGITAL</PriorID>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_EPAC_UDS_PHA_DIGITAL</PriorID>
         </ResourceHeader>
-       <AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>

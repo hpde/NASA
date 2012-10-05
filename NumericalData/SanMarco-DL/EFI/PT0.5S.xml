@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
@@ -18,7 +17,7 @@ the satellite, the geographic longitude and latitude, the local solar
 time and the dip latitude, and a day/night flag for the DC data; (D) Non-
 reduced plasma ion densities measured by the Ion Velocity Instrument 
 (IVI). The DC portion of the EFI experiment is only valid for non-reduced 
-IVI data > 2.5 volts corresponding roughly to an electron density of 10^4 
+IVI data &gt; 2.5 volts corresponding roughly to an electron density of 10^4 
 electrons per cubic centimeter. Note that the AC data is valid at all 
 plasma densities. More details can be found in the acformat_sfdu.txt and the 
 voldesc_sfdu.txt files. Both of these files are ASCII text files.
@@ -27,7 +26,7 @@ Further details about the San Marco spacecraft, experiment, and data sets
 can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/ 
  </Description>
             <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
-           <Contact>
+            <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.L.Aggson</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
@@ -37,8 +36,13 @@ can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>via nssdcftp download</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/san_marco/electric_fields_efi/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/san_marco/electric_fields_efi/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/san_marco/electric_fields_efi/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -51,10 +55,8 @@ can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/
                 <StopDate>1988-06-19T07:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT0.5S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-     </NumericalData>
+    </NumericalData>
 </Spase>
-
-

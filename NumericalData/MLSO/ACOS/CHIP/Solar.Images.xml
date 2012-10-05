@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-             <PriorID>spase://VSPO/NumericalData/P_MLSO_HDR_CHIP_INTENS</PriorID>
-     </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_MLSO_HDR_CHIP_INTENS</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/HAO</RepositoryID>
             <Availability>Online</Availability>
@@ -36,7 +36,7 @@
                 <RelativeStopDate>-P1D</RelativeStopDate>
                 <Note>Data are available to current day</Note>
             </TimeSpan>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
         <ObservedRegion>Sun</ObservedRegion>
     </NumericalData>

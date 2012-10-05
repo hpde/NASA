@@ -1,42 +1,46 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/PT1M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ISEE 3 (ICE) 1-m deep space magnetic field data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>ISEE 3 (ICE) 1-m magnetic field data, monthly ASCII files, deep space orbit phases 1984-1990</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ISEE3_HDR_MAG_1.0M</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>FTPBrowser</Name>
-            <URL>http://ftpbrowser.gsfc.nasa.gov/isee_3_mag.html</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>NSSDC's ftp area</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1984-01-01T00:00:00</StartDate>
-            <StopDate>1990-12-31T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1M</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/PT1M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISEE 3 (ICE) 1-m deep space magnetic field data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>ISEE 3 (ICE) 1-m magnetic field data, monthly ASCII files, deep space orbit phases 1984-1990</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ISEE3_HDR_MAG_1.0M</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTPBrowser</Name>
+                <URL>http://ftpbrowser.gsfc.nasa.gov/isee_3_mag.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/ISEE3/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1984-01-01T00:00:00</StartDate>
+                <StopDate>1990-12-31T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    </NumericalData>
 </Spase>

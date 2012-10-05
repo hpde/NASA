@@ -14,10 +14,11 @@
                 <Name>About the CIRA-86 model</Name>
                 <URL>http://modelweb.gsfc.nasa.gov/atmos/cospar2.html</URL>
             </InformationURL>
-        <PriorID>spase://VSPO/Service/P_CIRA_HDR</PriorID>
+            <PriorID>spase://VSPO/Service/P_CIRA_HDR</PriorID>
         </ResourceHeader>
         <AccessURL>
             <Name>Access CIRA code via ftp</Name>
             <URL>ftp://nssdcftp.gsfc.nasa.gov/models/atmospheric/cira/</URL>
-        </AccessURL>         </Service>
+        </AccessURL>
+    </Service>
 </Spase>

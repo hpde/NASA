@@ -10,19 +10,19 @@
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDATTITUDE_60S</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDATTITUDE_60S</PriorID>
+        </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/pre_at/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_at/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/polar/pre_at/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_at/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
@@ -40,7 +40,7 @@
                 <StopDate>2008-06-14T23:50:00</StopDate>
             </TimeSpan>
             <Cadence>PT60S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     </NumericalData>
 </Spase>

@@ -1,23 +1,22 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Ulysses GRB data via CDAWeb</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>This data set from the Ulysses Gammay-Ray Bursts experiment contains 5-minute resolution filtered averages of cosmic gamma ray and solar X-Ray count rates. Count rate units are c/s. See Astron. Astrophys. Suppl. Ser., 92(2), 401-410, 1992 for more information.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Roger.W.Williams</PersonID>
-            <Role>DataProducer</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_GRB_CDAWEB</PriorID>
-      </ResourceHeader>
-       <AccessInformation>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses GRB data via CDAWeb</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>This data set from the Ulysses Gammay-Ray Bursts experiment contains 5-minute resolution filtered averages of cosmic gamma ray and solar X-Ray count rates. Count rate units are c/s. See Astron. Astrophys. Suppl. Ser., 92(2), 401-410, 1992 for more information.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Roger.W.Williams</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_GRB_CDAWEB</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
@@ -26,13 +25,13 @@
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/grb_m0/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/gamma/grb_cdaweb/grb_m0/</URL>
                 <Description>UY_M0_GRB</Description>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/ulysses/grb_m0/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/gamma/grb_cdaweb/grb_m0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -46,7 +45,7 @@
                 <StopDate>2006-12-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT5M</Cadence>
-        </TemporalDescription>  
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

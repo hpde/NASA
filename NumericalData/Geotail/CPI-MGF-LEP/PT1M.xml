@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Geotail/CPI-MGF-LEP/PT1M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Geotail field and plasma data propagated to (17,0,0) Re</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>This is a family of data sets containing 1-min
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Geotail/CPI-MGF-LEP/PT1M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Geotail field and plasma data propagated to (17,0,0) Re</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>This is a family of data sets containing 1-min
 resolution Geotail magnetic field and plasma parameters, in GSE and 
 GSM coordinates, both at the location of the Geotail spacecraft and 
 as propagated to the location (17,0,0) Re, GSE.  Plasma data are 
@@ -27,69 +26,69 @@ data for unique combinations of field vs. plasma parameters, GSE
 vs. GSM coordinates, CPI-based vs. LEP-based data, and propagated
 vs. unpropagated data.  See the VMO interface for a more detailed 
 breakout.</Description>
-         <Acknowledgement>Please acknowledge T. Nagai, MGF PI,
+            <Acknowledgement>Please acknowledge T. Nagai, MGF PI,
 W. Paterson, CPI, T. Mukai, LEP PI, and J.M. Weygand.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/William.R.Paterson</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Weygand page on propagated data</Name>
-            <URL>http://www.igpp.ucla.edu/jweygand/htmls/Propagated_SW.html</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/Geotail/MGF_CPI_LEP/Weygand</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Weygand propagated data at UCLA</Name>
-            <URL>http://vmo.igpp.ucla.edu/data1/Weygand</URL>
-            <Description>High level directory with many dataset-specific 
+            <Contact>
+                <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/William.R.Paterson</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Weygand page on propagated data</Name>
+                <URL>http://www.igpp.ucla.edu/jweygand/htmls/Propagated_SW.html</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/Geotail/MGF_CPI_LEP/Weygand</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Weygand propagated data at UCLA</Name>
+                <URL>http://vmo.igpp.ucla.edu/data1/Weygand</URL>
+                <Description>High level directory with many dataset-specific 
 subdirectories</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>VMO</Name>
-            <URL>http://vmo.gsfc.nasa.gov</URL>
-            <Description>VMO interface at GSFC, with easy link to VMO
+            </AccessURL>
+            <AccessURL>
+                <Name>VMO</Name>
+                <URL>http://vmo.gsfc.nasa.gov</URL>
+                <Description>VMO interface at GSFC, with easy link to VMO
 interface at UCLA</Description>
-         </AccessURL>
-         <Format>Text</Format>
-         <DataExtent>
-            <Quantity>100</Quantity>
-            <Units>MB</Units>
-            <Per>P1Y</Per>
-         </DataExtent>
-         <Acknowledgement>Please acknowledge T. Nagai, MGF PI,
+            </AccessURL>
+            <Format>Text</Format>
+            <DataExtent>
+                <Quantity>100</Quantity>
+                <Units>MB</Units>
+                <Per>P1Y</Per>
+            </DataExtent>
+            <Acknowledgement>Please acknowledge T. Nagai, MGF PI,
 W. Paterson, CPI, T. Mukai, LEP PI, and J.M. Weygand.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Geotail/MGF</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Geotail/CPI</InstrumentID>
-      <InstrumentID>spase://SMWG/Instrument/Geotail/LEP</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1992-10-09T00:00:00</StartDate>
-            <RelativeStopDate>PT3M</RelativeStopDate>
-            <Note>There are data only for Geotail's ~7-month solar wind
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/MGF</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/CPI</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/LEP</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1992-10-09T00:00:00</StartDate>
+                <RelativeStopDate>PT3M</RelativeStopDate>
+                <Note>There are data only for Geotail's ~7-month solar wind
 seasons each year.</Note>
-         </TimeSpan>
-         <Cadence>PT1M</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-   </NumericalData>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    </NumericalData>
 </Spase>

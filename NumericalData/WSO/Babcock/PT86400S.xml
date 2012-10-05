@@ -10,7 +10,7 @@
                 <PersonID>spase://SMWG/Person/Todd.Hoeksema</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_WSO_HDR_WILCOX</PriorID>
+            <PriorID>spase://VSPO/NumericalData/P_WSO_HDR_WILCOX</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/WSO</RepositoryID>
@@ -32,7 +32,7 @@
                 <Note>Data are available to within about a month of current.</Note>
             </TimeSpan>
             <Cadence>PT86400S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>

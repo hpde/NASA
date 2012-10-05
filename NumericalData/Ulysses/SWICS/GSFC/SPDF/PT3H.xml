@@ -1,33 +1,32 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Ulysses SWICS data via CDAWeb</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>Ulysses SWICS N,V,T for 8 species and charge states at 3-hr resolution, plus 13-min matrix rate data</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWICS_CDAWEB_DIGITAL</PriorID>
-      </ResourceHeader>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses SWICS data via CDAWeb</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>Ulysses SWICS N,V,T for 8 species and charge states at 3-hr resolution, plus 13-min matrix rate data</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWICS_CDAWEB_DIGITAL</PriorID>
+        </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ulysses/swi_m1/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/swics_cdaweb/swi_m1/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/ulysses/swi_m1/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/swics_cdaweb/swi_m1/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
@@ -47,7 +46,7 @@
                 <Note>the matrix rate data end 12/31/2000 (as of 03/2004)</Note>
             </TimeSpan>
             <Cadence>PT3H</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

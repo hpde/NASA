@@ -1,18 +1,17 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/URAP/UDS/PT144S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Ulysses URAP digital data via UDS</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>10 Minute Averaged and Peak Radio and Plasma Wave Intensities and 144 Second Averaged Radio Intensities via Ulysses Data System</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_UDS_DIGITAL</PriorID>
-      </ResourceHeader>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/URAP/UDS/PT144S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ulysses URAP digital data via UDS</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>10 Minute Averaged and Peak Radio and Plasma Wave Intensities and 144 Second Averaged Radio Intensities via Ulysses Data System</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_UDS_DIGITAL</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
             <Availability>Online</Availability>
@@ -34,7 +33,7 @@
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT144S</Cadence>
-        </TemporalDescription>      
+        </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>

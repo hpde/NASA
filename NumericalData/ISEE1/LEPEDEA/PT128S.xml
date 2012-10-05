@@ -1,24 +1,23 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ISEE1/LEPEDEA/PT128S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ISEE 1 LEPEDEA Distribution Functions, offline at NSSDC</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>This data set consists of three-dimensional proton and electron distribution functions.  The energy range is 1 eV to 45 keV or 215 eV to 45 keV, according to mode.  Time resolution for full distributions is 128 sec or 512 sec, depending on telemetry bit rate.  Eight latitude and 16 azimuth bins are used, spanning 180 deg and 360 deg.  Spacecraft position information is included.  Data are currently in VAX binary format.  Data are for discrete intervals 11/01/1977-12/31/1980, 10/15/1982-12/27/1983, 03/01/1986-06/01/1986</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Cheryl.Y.Huang</PersonID>
-            <Role>DataProducer</Role>
-         </Contact>
-         <InformationURL>
-            <Name>NSSDC Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?ds=SPMS-00308</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/SPMS-00308</PriorID>
-      </ResourceHeader>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/ISEE1/LEPEDEA/PT128S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ISEE 1 LEPEDEA Distribution Functions, offline at NSSDC</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>This data set consists of three-dimensional proton and electron distribution functions.  The energy range is 1 eV to 45 keV or 215 eV to 45 keV, according to mode.  Time resolution for full distributions is 128 sec or 512 sec, depending on telemetry bit rate.  Eight latitude and 16 azimuth bins are used, spanning 180 deg and 360 deg.  Spacecraft position information is included.  Data are currently in VAX binary format.  Data are for discrete intervals 11/01/1977-12/31/1980, 10/15/1982-12/27/1983, 03/01/1986-06/01/1986</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Cheryl.Y.Huang</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?ds=SPMS-00308</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/SPMS-00308</PriorID>
+        </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Offline</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
@@ -52,37 +51,37 @@
             <Cadence>PT128S</Cadence>
             <Units/>
             <Structure>
-               <Size>32 16 5</Size>
+                <Size>32 16 5</Size>
                 <Description>The proton distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
             </Structure>
-                    <Particle>
-                    <ParticleType>Proton</ParticleType>
-                    <ParticleQuantity>NumberFlux</ParticleQuantity>
-                    <EnergyRange>
-                        <Low>1</Low>
-                        <High>45000</High>
-                        <Units>eV</Units>
-                    </EnergyRange>
-                </Particle>
-         </Parameter>
+            <Particle>
+                <ParticleType>Proton</ParticleType>
+                <ParticleQuantity>NumberFlux</ParticleQuantity>
+                <EnergyRange>
+                    <Low>1</Low>
+                    <High>45000</High>
+                    <Units>eV</Units>
+                </EnergyRange>
+            </Particle>
+        </Parameter>
         <Parameter>
             <Name>Electron distribution function</Name>
             <Description>electon fluxes at 32 energy steps, 16 azimuthal directions and 5 (1977-1980) or 6 (1982-1986) latitudinal look directions.</Description>
             <Cadence>PT128S</Cadence>
             <Units/>
             <Structure>
-               <Size>32 16 5</Size>
+                <Size>32 16 5</Size>
                 <Description>The electon distribution is distributed across 32 records, one per energy step.  Each record contains 2 (protons, electrons) x 16 x 5 (1977-1980; x 6 for 1982-1986) values.</Description>
             </Structure>
-                <Particle>
-                    <ParticleType>Electron</ParticleType>
-                    <ParticleQuantity>NumberFlux</ParticleQuantity>
-                    <EnergyRange>
-                        <Low>1</Low>
-                        <High>45000</High>
-                        <Units>eV</Units>
-                    </EnergyRange>
-                </Particle>
+            <Particle>
+                <ParticleType>Electron</ParticleType>
+                <ParticleQuantity>NumberFlux</ParticleQuantity>
+                <EnergyRange>
+                    <Low>1</Low>
+                    <High>45000</High>
+                    <Units>eV</Units>
+                </EnergyRange>
+            </Particle>
         </Parameter>
         <Parameter>
             <Name>Spacecraft location</Name>
@@ -98,8 +97,8 @@
                 <Description>GSE x,y,z components of position vector</Description>
             </Structure>
             <Support>
-<SupportQuantity>Positional</SupportQuantity>
-       </Support>
+                <SupportQuantity>Positional</SupportQuantity>
+            </Support>
         </Parameter>
     </NumericalData>
 </Spase>

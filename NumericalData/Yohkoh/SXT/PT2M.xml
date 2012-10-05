@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Yohkoh/SXT/PT2M</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Yohkoh SXT multi-level digital data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>There are several data products from the 
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Yohkoh/SXT/PT2M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Yohkoh SXT multi-level digital data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>There are several data products from the 
 Yohkoh Soft X-ray Telescope (SXT) that are accessible through 
 the Yohkoh Legacy Archive (YLA) at Montana State University.  
 Digital data include Level 0 data, Level 1 Full Frame (whole 
@@ -21,44 +20,44 @@ about 128 sec or longer.  L3 images are optimized for viewing
 as a movie rather than quantitative analysis.  Display data 
 include one movie-quality image perday, taken near mid-day, 
 and weekly movies built from 12 images per day.</Description>
-         <Acknowledgement>Yohkoh data courtesy of the NASA-supported 
+            <Acknowledgement>Yohkoh data courtesy of the NASA-supported 
 Yohkoh Legacy Archive at Montana State University.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Loren.W.Acton</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Yohkoh Legacy Archive Top Page</Name>
-            <URL>http://ylstone.physics.montana.edu/ylegacy/</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/Yohkoh/SXT/DigitalData</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/YLA</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Yohkoh Legacy Archive</Name>
-            <URL>http://ylstone.physics.montana.edu/ylegacy/data_description.html</URL>
-            <Description>Path to ftp directories of Yohkoh Legacy Archive at Montana State University</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name> from YLA/Montana via VSO</Name>
-            <URL>http://sdac.virtualsolar.org/cgi/search</URL>
-         </AccessURL>
-         <Format>FITS</Format>
-         <Acknowledgement>Yohkoh data courtesy of the NASA-supported 
+            <Contact>
+                <PersonID>spase://SMWG/Person/Loren.W.Acton</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Yohkoh Legacy Archive Top Page</Name>
+                <URL>http://ylstone.physics.montana.edu/ylegacy/</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/Yohkoh/SXT/DigitalData</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/YLA</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Yohkoh Legacy Archive</Name>
+                <URL>http://ylstone.physics.montana.edu/ylegacy/data_description.html</URL>
+                <Description>Path to ftp directories of Yohkoh Legacy Archive at Montana State University</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name> from YLA/Montana via VSO</Name>
+                <URL>http://sdac.virtualsolar.org/cgi/search</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+            <Acknowledgement>Yohkoh data courtesy of the NASA-supported 
 Yohkoh Legacy Archive at Montana State University.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID>
-      <MeasurementType>ImageIntensity</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1991-09-03T00:00:00</StartDate>
-            <StopDate>2001-12-14T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT2M</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Sun</ObservedRegion>
-   </NumericalData>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Yohkoh/SXT</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1991-09-03T00:00:00</StartDate>
+                <StopDate>2001-12-14T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT2M</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
 </Spase>

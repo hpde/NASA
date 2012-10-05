@@ -1,87 +1,81 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>DE 2 500ms LANG Te and Ni Data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>This data set contains electron temperatures and 
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>DE 2 500ms LANG Te and Ni Data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>This data set contains electron temperatures and 
 ion densities obtained at 500ms resolution from the DE 2 Langmuir
 Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF 
 format from CDAWeb (as well as CDAWeb plots and lists).</Description>
-         <Acknowledgement>Please acknowledge the IDM Principal Investigator,
+            <Acknowledgement>Please acknowledge the IDM Principal Investigator,
 Dr. Larry Brace</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Readme file at NSSDC/SPDF</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/plasma_lang/00readme.txt</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb FTP area</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/de/de2/plasma500ms_lang/</URL>
-            <Description>For ftp retrieval of daily CDF files</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb HTTP area</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/de/de2/plasma500ms_lang/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <Format>CDF</Format>
-         <DataExtent>
-            <Quantity>1</Quantity>
-            <Units>MB</Units>
-            <Per>P1D</Per>
-         </DataExtent>
-         <Acknowledgement>Please acknowledge the LANG Principal Investigator,
+            <Contact>
+                <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Readme file at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
+                <Description>For ftp retrieval of daily CDF files</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <DataExtent>
+                <Quantity>1</Quantity>
+                <Units>MB</Units>
+                <Per>P1D</Per>
+            </DataExtent>
+            <Acknowledgement>Please acknowledge the LANG Principal Investigator,
 Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-      </AccessInformation>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>SPDF ASCII ftp area</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/de/de2/plasma_lang/Ne_Te_500ms_ascii/</URL>
-            <Description>For ftp retrieval of daily ASCII files</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-            <Description>For CDAWeb subset, plot and list capabilities</Description>
-         </AccessURL>
-         <Format>Text</Format>
-         <DataExtent>
-            <Quantity>2</Quantity>
-            <Units>MB</Units>
-            <Per>P1D</Per>
-         </DataExtent>
-         <Acknowledgement>Please acknowledge the LANG Principal Investigator,
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <Description>For CDAWeb subset, plot and list capabilities</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <DataExtent>
+                <Quantity>2</Quantity>
+                <Units>MB</Units>
+                <Per>P1D</Per>
+            </DataExtent>
+            <Acknowledgement>Please acknowledge the LANG Principal Investigator,
 Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-      </AccessInformation>
-      <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/LANG</InstrumentID>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1981-08-05T00:00:00</StartDate>
-            <StopDate>1983-02-16T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT0.5S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-   </NumericalData>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/LANG</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1981-08-05T00:00:00</StartDate>
+                <StopDate>1983-02-16T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT0.5S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

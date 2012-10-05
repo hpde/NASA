@@ -14,32 +14,33 @@
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-         <PriorID>spase://VSPO/NumericalData/ISIS 2/SFS/NEPROF_TOPS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/ISIS 2/SFS/NEPROF_TOPS</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>in ASCII via NSSDCFTP</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/isis/topside_sounder/</URL>
-                <Description>Converted from binary/IBM 360</Description>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/isis2/neprof/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/isis2/neprof/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov</URL>
                 <Description>I2_NEPROF_TOPS</Description>
             </AccessURL>
-            <Format>CDF</Format>
+            <Format>Text</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/ISIS2/SFS</InstrumentID>
         <MeasurementType>Profile</MeasurementType>

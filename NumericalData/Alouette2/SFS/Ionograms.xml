@@ -1,103 +1,102 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Alouette2/SFS/Ionograms</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Alouette 2 Topside Sounder Ionogram Over Multiple Stations</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>This data set consists of ionograms derived from Alouette 2 Sweep-Frequency Sounder measurements for the ionosphere above the F2 maximum (topside ionosphere). These ionograms are reduced data plots showing as a function of fixed and swept frequency the echo time delay (virtual range) of pulsed radio signals at 355 virtual heights. They were converted from the original analog telemetry tapes covering various stations: Winkfield, U.K. (lat/lon=51/359); Quito, Ecuador (lat/lon=-1/281); Lima, Peru (Lat=-12, Long=283); Santiago, Chile (lat/lon=-33/298); and Falkland Is., U.K. (lat/lon=-52/302).</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_Alouette2_HDR_Multi_Station_Topside_Sounder_Ionograms</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Winkfield data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/alouette2/wnk/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Winkfield data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/alouette2/wnk/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>ALOUETTE2_AV_WNK</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Quito data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/alouette2/qui/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Quito data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/alouette2/qui/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>ALOUETTE2_AV_QUI</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Lima data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/alouette2/lim/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Lima data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/alouette2/lim/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>ALOUETTE2_AV_LIM</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Santiago data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/alouette2/snt/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Santiago data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/alouette2/snt/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>ALOUETTE2_AV_SNT</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>Falkland Island data in CDF via FTP from CDAWeb</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/alouette2/sol</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>Falkland Island data in CDF via HTTP from CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/alouette2/sol</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
-            <Description>ALOUETTE2_AV_SOL</Description>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Alouette2/SFS</InstrumentID>
-      <MeasurementType>ThermalPlasma</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1965-11-29T13:42:37</StartDate>
-            <StopDate>1968-01-01T04:12:17</StopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Alouette2/SFS/Ionograms</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Alouette 2 Topside Sounder Ionogram Over Multiple Stations</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>This data set consists of ionograms derived from Alouette 2 Sweep-Frequency Sounder measurements for the ionosphere above the F2 maximum (topside ionosphere). These ionograms are reduced data plots showing as a function of fixed and swept frequency the echo time delay (virtual range) of pulsed radio signals at 355 virtual heights. They were converted from the original analog telemetry tapes covering various stations: Winkfield, U.K. (lat/lon=51/359); Quito, Ecuador (lat/lon=-1/281); Lima, Peru (Lat=-12, Long=283); Santiago, Chile (lat/lon=-33/298); and Falkland Is., U.K. (lat/lon=-52/302).</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_Alouette2_HDR_Multi_Station_Topside_Sounder_Ionograms</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Winkfield data from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/WNK_51N_359E/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Winkfield data from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/WNK_51N_359E/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>ALOUETTE2_AV_WNK</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Quito data from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/QUI_01S_281E/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Quito data from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/QUI_01S_281E/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>ALOUETTE2_AV_QUI</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Lima data from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/LIM_12S_283E/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Lima data from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/LIM_12S_283E/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>ALOUETTE2_AV_LIM</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Santiago data from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SNT_33S_298E/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Santiago data from SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SNT_33S_298E/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>ALOUETTE2_AV_SNT</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>Falkland Island from SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SOL_52S_302E</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Falkland Island  fromSPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SOL_52S_302E</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Description>ALOUETTE2_AV_SOL</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Alouette2/SFS</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1965-11-29T13:42:37</StartDate>
+                <StopDate>1968-01-01T04:12:17</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </NumericalData>
 </Spase>

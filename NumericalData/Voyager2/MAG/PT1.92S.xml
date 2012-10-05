@@ -1,42 +1,46 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1.92S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 MAG 1.92-s, 9.6-s and 48-s binary data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-         <Description>Voyager 2 MAG 1.92-s, 9.6-s and 48-s binary data in VMS binary files</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1.92S_BIN</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>VMS binary files via ftp from NSSDC</Name>
-            <URL>ftp://nssdcftp.gsfc.nasa.gov/spacecraft_data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
-         </AccessURL>
-         <Format>Binary</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1977-08-20T00:00:00</StartDate>
-            <StopDate>1989-08-28T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1.92S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1.92S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Voyager 2 MAG 1.92-s, 9.6-s and 48-s binary data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <Description>Voyager 2 MAG 1.92-s, 9.6-s and 48-s binary data in VMS binary files</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1.92S_BIN</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Binary</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1977-08-20T00:00:00</StartDate>
+                <StopDate>1989-08-28T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1.92S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+    </NumericalData>
 </Spase>

@@ -1,49 +1,48 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/POLAR/PIXIE/CDAWEB</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Polar PIXIE Auroral X-ray Plots and Movies, CDAWeb</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>Polar PIXIE Auroral X-Ray Plots and Movies, CDAWeb</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/David.L.Chenette</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_PIXIE_CDAWEB</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb FTP area</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/pixie/</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb HTTP area</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/polar/pixie/</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/POLAR/PIXIE</InstrumentID>
-      <MeasurementType>ImageIntensity</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1996-03-19T00:00:00</StartDate>
-            <StopDate>2002-11-09T00:00:00</StopDate>
-            <Note>Data may be brought to a more current state.</Note>
-         </TimeSpan>
-      </TemporalDescription>
-      <SpectralRange>XRays</SpectralRange>
-      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-   </DisplayData>
+    <Version>2.2.2</Version>
+    <DisplayData>
+        <ResourceID>spase://VSPO/DisplayData/POLAR/PIXIE/CDAWEB</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Polar PIXIE Auroral X-ray Plots and Movies, CDAWeb</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>Polar PIXIE Auroral X-Ray Plots and Movies, CDAWeb</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.L.Chenette</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_PIXIE_CDAWEB</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/pixie/pixie_k0/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pixie/pixie_k0/</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/POLAR/PIXIE</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-03-19T00:00:00</StartDate>
+                <StopDate>2002-11-09T00:00:00</StopDate>
+                <Note>Data may be brought to a more current state.</Note>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>XRays</SpectralRange>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+    </DisplayData>
 </Spase>

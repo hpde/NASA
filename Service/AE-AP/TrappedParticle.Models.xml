@@ -14,10 +14,11 @@
                 <Name>About the AE-8 and AP-8 models</Name>
                 <URL>http://modelweb.gsfc.nasa.gov/magnetos/aeap.html</URL>
             </InformationURL>
-        <PriorID>spase://VSPO/Service/P_AE8AP8_HDR</PriorID>
+            <PriorID>spase://VSPO/Service/P_AE8AP8_HDR</PriorID>
         </ResourceHeader>
         <AccessURL>
             <Name>Access AE-8 and AP-8 maps and code via ftp</Name>
             <URL>ftp://nssdcftp.gsfc.nasa.gov/models/radiation_belt/radbelt/</URL>
-        </AccessURL>         </Service>
+        </AccessURL>
+    </Service>
 </Spase>

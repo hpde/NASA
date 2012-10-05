@@ -1,7 +1,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-       <ResourceID>spase://VSPO/DisplayData/Kyoto/WDCC2/AE</ResourceID>
+        <ResourceID>spase://VSPO/DisplayData/Kyoto/WDCC2/AE</ResourceID>
         <ResourceHeader>
             <ResourceName>Minute AE Index Plots to Today</ResourceName>
             <ReleaseDate>2012-05-08T00:00:00Z</ReleaseDate>
@@ -10,7 +10,7 @@
                 <PersonID>spase://SMWG/Person/Toyo.Kamei</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-         <PriorID>spase://VSPO/DisplayData/P_KYOTO_HDR_DST_WDCC2</PriorID>
+            <PriorID>spase://VSPO/DisplayData/P_KYOTO_HDR_DST_WDCC2</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/YNAO</RepositoryID>

@@ -1,47 +1,51 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Helios2/E3/PT1H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Helios 2 E3 Hourly Magnetic Field Data</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-         <Description>This data set contains hour-averaged magnetic field vectors from the Ness/Mariani experiment on Helios 2. Each record contains time, magnetic field intensity and cartesian components in spacecraft-centered solar ecliptic coordinates, standard deviations, numbers of fine-scale points in the average, and an instrument mode indicator. It should be noted that the "average" mode, which was used a minority of the time and involved on-board averaging, may have incorrectly handled range changes caused by occasional significant changes in ambient field intensity. The data set had not been filtered for this effect upon delivery to NSSDC. </Description>
-         <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani, and NSSDC.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Franco.Mariani</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>nssdcftp readme</Name>
-            <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios2/mag/hour_ness/he2mga_fmt.txt</URL>
-         </InformationURL>
-         <PriorID>spase://VSPO/NumericalData/P_HELIOS2_HDR_E3_MAG_1HR</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>nssdcftp</Name>
-            <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/helios/helios2/mag/hour_ness/</URL>
-            <Description>Via nssdcftp</Description>
-         </AccessURL>
-         <Format>Text</Format>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Helios2/E3</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1976-01-17T00:00:00</StartDate>
-            <StopDate>1980-03-08T00:00:00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1H</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Inner</ObservedRegion>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Helios2/E3/PT1H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Helios 2 E3 Hourly Magnetic Field Data</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <Description>This data set contains hour-averaged magnetic field vectors from the Ness/Mariani experiment on Helios 2. Each record contains time, magnetic field intensity and cartesian components in spacecraft-centered solar ecliptic coordinates, standard deviations, numbers of fine-scale points in the average, and an instrument mode indicator. It should be noted that the "average" mode, which was used a minority of the time and involved on-board averaging, may have incorrectly handled range changes caused by occasional significant changes in ambient field intensity. The data set had not been filtered for this effect upon delivery to NSSDC. </Description>
+            <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani, and NSSDC.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Franco.Mariani</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Readme file at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/hour_ness/he2mga_fmt.txt</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/P_HELIOS2_HDR_E3_MAG_1HR</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/hour_ness/</URL>
+                <Description>Via SPDF ftp</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/hour_ness/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Helios2/E3</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1976-01-17T00:00:00</StartDate>
+                <StopDate>1980-03-08T00:00:00</StopDate>
+            </TimeSpan>
+            <Cadence>PT1H</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    </NumericalData>
 </Spase>

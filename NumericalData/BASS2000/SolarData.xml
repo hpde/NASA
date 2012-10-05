@@ -14,8 +14,8 @@
                 <Name>Info on the BASS 2000 database</Name>
                 <URL>http://bass2000.bagn.obs-mip.fr/Tarbes/</URL>
             </InformationURL>
-      <PriorID>spase://VSPO/NumericalData/P_BASS2000_HDR</PriorID> 
-  </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_BASS2000_HDR</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
             <Availability>Online</Availability>
@@ -39,7 +39,7 @@
                 <RelativeStopDate>P0M</RelativeStopDate>
                 <Note>Various products have various start dates.  Virtually all are routinely extended, with product-specific lag times.</Note>
             </TimeSpan>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
     </NumericalData>
 </Spase>

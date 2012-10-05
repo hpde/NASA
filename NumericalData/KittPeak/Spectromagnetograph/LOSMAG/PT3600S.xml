@@ -10,8 +10,8 @@
                 <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-              <PriorID>spase://VSPO/NumericalData/P_KPVT_HDR_SPMG_LOSMAG</PriorID>
-     </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_KPVT_HDR_SPMG_LOSMAG</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/KP</RepositoryID>
             <Availability>Online</Availability>
@@ -35,7 +35,7 @@
                 <StopDate>2003-09-21T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT3600S</Cadence>
-        </TemporalDescription>     
+        </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>

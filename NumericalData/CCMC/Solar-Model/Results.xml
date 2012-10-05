@@ -18,8 +18,8 @@
                 <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-          <PriorID>spase://VSPO/NumericalData/P_CCMC_HDR_SOLAR_RESULTS</PriorID>
-       </ResourceHeader>
+            <PriorID>spase://VSPO/NumericalData/P_CCMC_HDR_SOLAR_RESULTS</PriorID>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/CCMC</RepositoryID>
             <Availability>Online</Availability>
@@ -34,7 +34,7 @@
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
-        <MeasurementType>MagneticField</MeasurementType>    
+        <MeasurementType>MagneticField</MeasurementType>
         <ObservedRegion>Sun.Corona</ObservedRegion>
         <ObservedRegion>Sun</ObservedRegion>
     </NumericalData>

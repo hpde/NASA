@@ -1,0 +1,32 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <Service>
+        <ResourceID>spase://VSPO/Service/Ionospheric-Atmospheric.Models</ResourceID>
+        <ResourceHeader>
+            <ResourceName>CCMC: Ionosphere/Atmosphere Models</ResourceName>
+            <ReleaseDate>2012-05-08T00:00:00Z</ReleaseDate>
+            <Description>Run ionosphere/atmosphere models (SAMI2, CTIP) at CCMC</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Masha.Kuznetsova</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joseph.Huba</PersonID> <!-- for SAMI2 -->
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Tim.Fuller-Rowell</PersonID> <!--for CTIP -->
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>CCMC top page</Name>
+                <URL>http://ccmc.gsfc.nasa.gov/</URL>
+            </InformationURL>
+            <PriorID>spase://VSPO/Service/P_CCMC_HDR_IONOSPH_RUN</PriorID>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>CCMC executable ionosphere models page</Name>
+            <URL>http://ccmc.gsfc.nasa.gov/models/models_at_glance.php</URL>
+        </AccessURL>
+    </Service>
+</Spase>

@@ -25,13 +25,13 @@ density (He+2), bulk and thermal ion speeds (He+2, C+5, O+6, Fe+10), composition
                 <URL>http://cdaweb.gsfc.nasa.gov</URL>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb FTP area</Name>
-                <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/ace/swi_h3/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
                 <Description>AC_H3_SWI</Description>
             </AccessURL>
             <AccessURL>
-                <Name>CDAWeb HTTP area</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/ace/swi_h3/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>

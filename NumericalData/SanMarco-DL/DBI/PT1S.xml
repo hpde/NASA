@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
@@ -13,7 +12,7 @@
 Further details about the San Marco spacecraft, experiment, and data sets can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/ 
  </Description>
             <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
-           <Contact>
+            <Contact>
                 <PersonID>spase://SMWG/Person/Luigi.Broglio</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
@@ -23,8 +22,13 @@ Further details about the San Marco spacecraft, experiment, and data sets can be
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>via nssdcftp download</Name>
-                <URL>http://nssdcftp.gsfc.nasa.gov/spacecraft_data/san_marco/neutral_gas_dbi</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/san_marco/neutral_gas_dbi</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/san_marco/neutral_gas_dbi</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -37,10 +41,8 @@ Further details about the San Marco spacecraft, experiment, and data sets can be
                 <StopDate>1988-06-19T07:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT1S</Cadence>
-        </TemporalDescription>    
+        </TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-     </NumericalData>
+    </NumericalData>
 </Spase>
-
-

@@ -1,58 +1,57 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.2</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H0</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
-         <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-         <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>UVI Home Page</Name>
-            <URL>http://tideuvira.nsstc.nasa.gov/uvi</URL>
-            <Description>The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the user to view 36 second images and key parameter mosaics from the mission and download software, plus links to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.</Description>
-         </InformationURL>
-         <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H0</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb FTP area</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/uvi</URL>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb HTTP area</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/data/polar/uvi</URL>
-            <Description>In CDF via HTTP from CDAWeb</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-         </AccessURL>
-         <Format>CDF</Format>
-      </AccessInformation>
-      <ProcessingLevel>Calibrated</ProcessingLevel>
-      <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/POLAR/UVI</InstrumentID>
-      <MeasurementType>ImageIntensity</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1996-03-23T15:56:15</StartDate>
-            <StopDate>2008-02-10T18:40:28</StopDate>
-         </TimeSpan>
-      </TemporalDescription>
-      <SpectralRange>Ultraviolet</SpectralRange>
-      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-      <Caveats>UVI Key Parameters are summary data only.  In some cases parameters such as pointing and calibration were not be adequate to support quantitative scientific analysis.  They should not to be used for presentation, publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, and when the despun platform is pointed away from the earth.</Caveats>
-   </NumericalData>
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H0</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
+            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>UVI Home Page</Name>
+                <URL>http://tideuvira.nsstc.nasa.gov/uvi</URL>
+                <Description>The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the user to view 36 second images and key parameter mosaics from the mission and download software, plus links to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.</Description>
+            </InformationURL>
+            <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H0</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
+                <Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/POLAR/UVI</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-03-23T15:56:15</StartDate>
+                <StopDate>2008-02-10T18:40:28</StopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>Ultraviolet</SpectralRange>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <Caveats>UVI Key Parameters are summary data only.  In some cases parameters such as pointing and calibration were not be adequate to support quantitative scientific analysis.  They should not to be used for presentation, publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, and when the despun platform is pointed away from the earth.</Caveats>
+    </NumericalData>
 </Spase>
