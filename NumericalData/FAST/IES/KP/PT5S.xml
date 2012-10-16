@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/FAST/IES/KP/PT5S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>FAST IES Key Parameters</ResourceName>
+            <ReleaseDate>2015-01-01T12:00:00.000Z</ReleaseDate>
+            <Description>This data set provides the ion part of the 5-second (spin-averaged) FAST survey data from the Electrostatic Analysers (ESA) instrument in CDF format. It includes: the ion energy fluxes for 47 energies (3 eV - 25 keV) in the pitch angle ranges 0-30, 40-140, and 150-180 degrees; the ion energy fluxes for 32 pitch angles (-90 to 270 deg) in the energy ranges 0.05-1.0 keV and 1.0-25.0 keV; the integrated ion energy (and number) fluxes mapped to the magnetic foot point; and orbit information.  More specifically, 
+
+Ion Sensor Parameters include:  
+Inner Hemisphere R = 3.75 cm;
+dR/R = 0.075;
+FOV = 360 deg x 6.5 (FWHM) deg;  
+Angular resolution = 11.25 deg x 6.5 deg;
+Energy range: 3 eV to 25 keV;
+dE/E = 0.20 (FWHM); and
+Geometric Factor = 0.0136 x E  (cm2-sr-eV).
+
+Key Parameter Data include:
+Ion Energy-Time Spectrogram, 0-30 deg pitch angle;
+Ion Energy-Time Spectrogram, 40-140 deg pitch angle;
+Ion Energy-Time Spectrogram, 150-180 deg pitch angle;
+Ion Pitch Angle-Time Spectrogram, 0.05-1.0 keV;
+Ion Pitch Angle-Time Spectrogram, 1.0-25.0 keV;
+Ion Energy Flux mapped along B to 100 km altitude; and
+Ion Number Flux mapped along B to 100 km altitude </Description>
+           <Contact>
+                <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>FAST Documentation</Name>
+                <URL>http://sprg.ssl.berkeley.edu/fast/scienceops/fastdocs.html</URL>
+            </InformationURL>         
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+           <AccessURL>
+                <Name>SPDF FTP area</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
+           	<Description>In CDF via FTP from CDAWeb</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>SPDF HTTP area</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
+           	<Description>In CDF via HTTP from CDAWeb</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+                <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+           	<Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_IES</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/FAST/ESA</InstrumentID>
+        <MeasurementType>EnergeticParticles</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1996-08-30T22:01:00.000Z</StartDate>
+                <StopDate>2009-04-30T10:22:28.000Z</StopDate>
+            </TimeSpan>
+            <Cadence>PT5S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <Caveats>None</Caveats>
+     </NumericalData>
+</Spase>
