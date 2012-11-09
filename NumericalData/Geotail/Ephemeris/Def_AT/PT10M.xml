@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Geotail/Ephemeris/Def_AT/PT10M</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Geotail Definitive Attitude</ResourceName>
+            <ReleaseDate>2012-11-07T00:00:00Z</ReleaseDate>
+            <Description>Definitive Geotail spacecraft attitude in various coordinate systems.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Gerald.Blackwell</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/def_at/</URL>
+                <Description>FTP access the data from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/def_at/</URL>
+                <Description>HTTP access to the data from SPDF</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <Description>subset, plot, list functionalities from CDAWeb</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+        </AccessInformation>
+        <InstrumentID>spase://SMWG/Instrument/Geotail/Ephemeris</InstrumentID>
+        <MeasurementType>Ephemeris</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1992-07-28T00:00:00</StartDate>
+                <RelativeStopDate>-P7D</RelativeStopDate>
+            </TimeSpan>
+            <Cadence>PT10M</Cadence>
+        </TemporalDescription>
+	<ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+     </NumericalData>
+   </Spase>
+
+
