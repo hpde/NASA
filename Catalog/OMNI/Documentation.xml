@@ -1,6 +1,6 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <Service>
+    <Catalog>
         <ResourceID>spase://VSPO/Catalog/OMNI/Documentation</ResourceID>
         <ResourceHeader>
             <ResourceName>OMNI documentation</ResourceName>
@@ -16,5 +16,5 @@
             <Name>OMNI Documentation Page</Name>
             <URL>http://omniweb.gsfc.nasa.gov/html/omni2_doc.html</URL>
         </AccessURL>
-    </Service>
+    </Catalog>
 </Spase>
