@@ -23,7 +23,7 @@ sub-subdirectory named /README_S055, which contains a number of files some of wh
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to FITS data files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/skylab/uv_scanning_polychromator_spectroheliometer/fits_data/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/skylab/uv_scanning_polychromator_spectroheliometer/fits_data/</URL>
                 <Description>In FITS via HTTP from SPDF</Description>
             </AccessURL>
             <Format>FITS</Format>
@@ -39,7 +39,7 @@ sub-subdirectory named /README_S055, which contains a number of files some of wh
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to raw data files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/skylab/uv_scanning_polychromator_spectroheliometer/raw_data/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/skylab/uv_scanning_polychromator_spectroheliometer/raw_data/</URL>
                 <Description>In counts via HTTP from SPDF</Description>
             </AccessURL>
             <Format>GIF</Format>
