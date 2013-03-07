@@ -22,7 +22,11 @@
             </AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>spdf.gsfc.nasa.gov/pub/data/ae/ae_c/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ae/ae_c/</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ae/ae_c/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
