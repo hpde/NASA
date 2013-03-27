@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/CNOFS/CINDI/IVM/PT0.5S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>CNOFS CINDI IVM 500 ms Ion Drift Data</ResourceName>
+            <ReleaseDate>2013-03-15T00:00:00</ReleaseDate>
+            <Description>This data set contains plasma parameters of the equatorial F-region in the ionosphere measured by the Ion Velocity Meter (IVM) of the Coupled Ion-Neutral Dynamics Investigation (CINDI) payload on board the CNOFS spacecraft. Data are available in HDF format, with an IDL program to read and plot them.  Each file can range from only a fraction of an orbit (about 25 minutes each) to nearly two complete orbits and it contains six geophysical parameters: the ion temperature (Ti) in degrees Kelvin, the ion flow in m/s in the ram (i.e.--spacecraft velocity) direction (+Vx in the direction of spacecraft velocity), the ion flows in m/s in the horizontal and vertical directions (Vy and Vz) at right angles to the ram direction (+Vz is upward, +Vy is roughly northward), the total ion density (Ni) (the sum of O+ and H+ and He+ concentrations) in ions/cc, and the light ion density (the sum of H+ and He+ concentrations) in ions/cc. 
+In addition, ion velocities also are given in the coordinate system of the local magnetic field (parallel, perpendicular, and meridional) in the plots and as ASCII data on the UT Dallas website. Based on the IGRF model, the data are transformed into magnetic coordinates only if all three ion velocities in the spacecraft coordinates are available and good.</Description>
+<Acknowledgement>Please acknowledge NASA SPDF and the CINDI team at the University of Texas at Dallas that is supported by NASA grant NAS5-01068
+</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Center for Space Sciences at UT Dallas</Name>
+                <URL>http://cindispace.utdallas.edu/data.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cnofs/cindi/ivm_500ms_hdf/</URL>
+                <Description>In HDF via FTP from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/cnofs/cindi/ivm_500ms_hdf/</URL>
+                <Description>In HDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>HDF</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/CNOFS/CINDI/IVM</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2008-08-01T00:00:00</StartDate>
+                <RelativeStopDate>-P6M</RelativeStopDate>
+                <Note>Data are presently ~6 months delayed</Note>
+            </TimeSpan>
+            <Cadence>PT0.5S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.NearSurface</ObservedRegion>
+<Caveats> In general the ion temperature and densities can be trusted to be valid throughout the entire orbit and at all altitudes. However the flow data can only be trusted at lower altitudes. The analysis of the ram velocity becomes more uncertain as the percentage of the light ions becomes predominate. Under those conditions, the analysis routine sets Vx to zero and solves for the other parameters. Note that the Vy or Vz data are also removed here since the drift meter does not produce usable data under these conditions.  Likewise the crosstrack ion drift meter only works reliably when the percentage of O+ is very high and since the percentage of O+ decreases with increasing altitude, therefore the best crosstrack data come in the region near perigee and on the dayside.  However, data from perigee on the nightside or near apogee on the dayside can also be acceptable, depending on the ambient O+ densities.  The PI is currently working on determining the criteria for quality flags for the crosstrack data. Please view the crosstrack data with caution and do NOT use these data in a presentation or publication without first checking with one of the CINDI researchers. </Caveats> 
+    </NumericalData>
+</Spase>
+
+ 
+
+
