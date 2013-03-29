@@ -36,6 +36,11 @@
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>
+            <AccessURL>
+                <Name>SSCWeb</Name>
+                <URL>http://sscweb.gsfc.nasa.gov</URL>
+                <ProductKey>interballaurora</ProductKey>
+            </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>

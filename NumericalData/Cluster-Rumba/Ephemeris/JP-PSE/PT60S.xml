@@ -30,6 +30,11 @@
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
                 <Description>C1_JP_PSE</Description>
             </AccessURL>
+            <AccessURL>
+                <Name>SSCWeb</Name>
+                <URL>http://sscweb.gsfc.nasa.gov</URL>
+                <ProductKey>cluster1</ProductKey>
+            </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/Ephemeris</InstrumentID>
