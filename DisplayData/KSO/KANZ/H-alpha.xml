@@ -1,0 +1,43 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/DisplayData/KSO/KANZ/H-alpha</ResourceID>
+        <ResourceHeader>
+            <ResourceName>KSO H-alpha Solar Images</ResourceName>
+            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <Description>H-alpha solar imagery from Kanzelhoehe Solar Observatory (KSO), Austria</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dietmar.Baumgartner</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Kanzelhoehe Observatory Synoptic Archives site</Name>
+                <URL>http://cesar.kso.ac.at/synoptic/</URL>
+                <Description>Synoptic archives web site at the Kanzelhoehe Solar Observatory</Description>
+            </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/P_KANZ_HDR_HALPHA</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/KSO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Kanzelhoehe H-alpha 4 Megapixel Flare Patrol</Name>
+                <URL>http://cesar.kso.ac.at/synoptic/ha4m_years.php</URL>
+            </AccessURL>
+            <Format>JPEG</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/KSO/KANZ</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2000-01-20T00:00:00</StartDate>
+                <RelativeStopDate>-P1D</RelativeStopDate>
+                <Note>Data are current to within a day.</Note>
+            </TimeSpan>
+        </TemporalDescription>
+        <ObservedRegion>Sun</ObservedRegion>
+        <ObservedRegion>Sun.Photosphere</ObservedRegion>
+    </NumericalData>
+</Spase>
