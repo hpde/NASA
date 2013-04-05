@@ -10,6 +10,11 @@
                 <PersonID>spase://SMWG/Person/Dietmar.Baumgartner</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <InformationURL>
+                <Name>Kanzelhoehe Observatory Synoptic Archives site</Name>
+                <URL>http://cesar.kso.ac.at/synoptic/</URL>
+                <Description>Synoptic archives web site at the Kanzelhoehe Solar Observatory</Description>
+            </InformationURL>
             <PriorID>spase://VSPO/NumericalData/P_KANZ_HDR_HALPHA</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -17,14 +22,14 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Kanzelhoehe site</Name>
-                <URL>http://www.solobskh.ac.at/</URL>
+                <Name>Kanzelhoehe H-alpha 4 Megapixel Flare Patrol</Name>
+                <URL>http://cesar.kso.ac.at/synoptic/ha4m_years.php</URL>
             </AccessURL>
             <AccessURL>
                 <Name>Virtual Solar Observatory</Name>
                 <URL>http://www.virtualsolar.org/</URL>
             </AccessURL>
-            <Format>FITS</Format>
+            <Format>JPEG</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/KSO/KANZ</InstrumentID>
