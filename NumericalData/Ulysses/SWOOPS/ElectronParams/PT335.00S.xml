@@ -21,10 +21,6 @@
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>annual gzipped-ASCII files from UDS</Name>
-                <URL>ftp://www.rssd.esa.int/pub/ulysses/data/swoops/electrons/</URL>
-            </AccessURL>
-            <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/electron/</URL>
             </AccessURL>
@@ -32,6 +28,16 @@
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/electron/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>annual gzipped-ASCII files from ESA</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#data</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

@@ -3,7 +3,7 @@
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/Ulysses/SWOOPS/PLOTS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Ulysses SWOOPS Electron and Ion Parameters Plots via UDS</ResourceName>
+            <ResourceName>Ulysses SWOOPS Electron and Ion Parameters Plots via ESA</ResourceName>
             <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
             <Description>Plots of Ulysses/SWOOPS Electron, Proton and Alpha Particle Data via Ulysses Data System</Description>
             <Contact>
@@ -21,8 +21,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SWOOPS ion plots from UDS</Name>
-                <URL>http://www.rssd.esa.int/helio/cgi-bin/plots.pl?instrument=SWOOPS-IONS</URL>
+                <Name>SWOOPS ion plots from ESA</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>

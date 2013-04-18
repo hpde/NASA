@@ -3,9 +3,9 @@
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/Ulysses/FGM/PLOTS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Ulysses magnetic field data plots at UDS</ResourceName>
+            <ResourceName>Ulysses magnetic field data plots at ESA</ResourceName>
             <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-            <Description>1-min and 1-hour Ulysses magnetic field data at UDS, also 1-sec data for 1990-3</Description>
+            <Description>1-min and 1-hour Ulysses magnetic field data at ESA, also 1-sec data for 1990-3</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -17,12 +17,12 @@
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_MAG_PLOTS_UDS</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>VHM_FGM plots from UDS</Name>
-                <URL>http://www.rssd.esa.int/helio/cgi-bin/plots.pl?instrument=VHM_FGM</URL>
+                <Name>VHM_FGM plots from ESA</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>

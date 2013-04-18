@@ -13,12 +13,12 @@
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_EPAC_UDS_RATES_PLOT</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>EPAC rates plots from UDS</Name>
-                <URL>http://www.rssd.esa.int/helio/cgi-bin/plots.pl?instrument=EPAC</URL>
+                <Name>EPAC rates plots from ESA</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>

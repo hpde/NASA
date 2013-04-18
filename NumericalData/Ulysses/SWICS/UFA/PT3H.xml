@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/Ulysses/SWICS/PLOTS</ResourceID>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/UFA/PT3H</ResourceID>
         <ResourceHeader>
-            <ResourceName>Ulysses SWICS plots via ESA</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-            <Description>26 day plots of Ulysses/SWICS N,V,T for He++, C6+, O6+ and Ne8+, Fe charge state, Fe to O ratio and C and O charge state ratios</Description>
+            <ResourceName>Ulysses SWICS digital data via UFA</ResourceName>
+            <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
+            <Description>Ulysses SWICS N,V,T for He++, C6+, O6+ and Ne8+, Fe charge state, Fe to O ratio and C6+/C5+ and O7+/O6+ charge state ratios; 3-hr avgs</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -14,17 +14,18 @@
                 <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-            <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_SWICS_UDS_PLOTS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWICS_UDS_DIGITAL</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/UDS/PT3H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SWICS plots from ESA</Name>
-                <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
+                <Name>annual gzipped-ASCII files from ESA</Name>
+                <URL>http://ufa.esac.esa.int/ufa/#data</URL>
             </AccessURL>
-            <Format>GIF</Format>
+            <Format>Text</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/SWICS</InstrumentID>
@@ -35,7 +36,8 @@
                 <StartDate>1990-12-07T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
             </TimeSpan>
+            <Cadence>PT3H</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </DisplayData>
+    </NumericalData>
 </Spase>
