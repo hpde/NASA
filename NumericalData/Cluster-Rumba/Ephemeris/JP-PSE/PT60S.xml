@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Rumba JSOC Predicted Scientific Events</ResourceName>
             <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
-            <Description>This dataset contains Cluster Rumba JSOC predicted scientific events, orit number, and GSE positions.</Description>
+            <Description>This dataset contains Cluster Rumba JSOC predicted scientific events, orbit number, and GSE positions.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
                 <Role>GeneralContact</Role>
@@ -29,11 +29,6 @@
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
                 <Description>C1_JP_PSE</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>SSCWeb</Name>
-                <URL>http://sscweb.gsfc.nasa.gov</URL>
-                <ProductKey>cluster1</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
