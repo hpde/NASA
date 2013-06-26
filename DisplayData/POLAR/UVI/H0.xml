@@ -1,6 +1,6 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <NumericalData>
+    <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H0</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
@@ -53,5 +53,5 @@
         <SpectralRange>Ultraviolet</SpectralRange>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
         <Caveats>UVI Key Parameters are summary data only.  In some cases parameters such as pointing and calibration were not be adequate to support quantitative scientific analysis.  They should not to be used for presentation, publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, and when the despun platform is pointed away from the earth.</Caveats>
-    </NumericalData>
+    </DisplayData>
 </Spase>
