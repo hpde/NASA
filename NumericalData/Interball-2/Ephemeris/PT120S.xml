@@ -34,11 +34,12 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <ProductKey>IA_OR_DEF</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SSCWeb</Name>
-   <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
+                <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
                 <ProductKey>interballaurora</ProductKey>
             </AccessURL>
             <Format>Text</Format>

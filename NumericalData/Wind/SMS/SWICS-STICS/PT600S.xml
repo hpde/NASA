@@ -12,13 +12,11 @@
             </Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>
- Co_I for SWICS 
-        <Role>CoInvestigator</Role>
+                <Role>CoInvestigator</Role>
             </Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
- Co_I's for STICS 
-        <Role>CoInvestigator</Role>
+                <Role>CoInvestigator</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_SWICS_STICS_CDAWEB</PriorID>
         </ResourceHeader>
@@ -38,6 +36,7 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>WI_K0_SMS</ProductKey>
                 <Description>WI_K0_SMS</Description>
             </AccessURL>
             <Format>CDF</Format>

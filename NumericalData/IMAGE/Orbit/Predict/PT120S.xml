@@ -34,18 +34,8 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <ProductKey>IM_OR_PRE</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
-            </AccessURL>
-            <Format>Text</Format>
-        </AccessInformation>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>SSCWeb</Name>
-                <URL>http://sscweb.gsfc.nasa.gov/</URL>
-                <Description>Coordinates, plots and lists from SSCWeb</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

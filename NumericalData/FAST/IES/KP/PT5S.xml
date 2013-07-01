@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
@@ -25,28 +24,28 @@ Ion Pitch Angle-Time Spectrogram, 0.05-1.0 keV;
 Ion Pitch Angle-Time Spectrogram, 1.0-25.0 keV;
 Ion Energy Flux mapped along B to 100 km altitude; and
 Ion Number Flux mapped along B to 100 km altitude </Description>
-           <Contact>
+            <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
             <InformationURL>
                 <Name>FAST Documentation</Name>
                 <URL>http://sprg.ssl.berkeley.edu/fast/scienceops/fastdocs.html</URL>
-            </InformationURL>         
+            </InformationURL>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
-           <AccessURL>
+            <AccessURL>
                 <Name>SPDF FTP area</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
-           	<Description>In CDF via FTP from CDAWeb</Description>
+                <Description>In CDF via FTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>SPDF HTTP area</Name>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
-           	<Description>In CDF via HTTP from CDAWeb</Description>
+                <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -54,10 +53,11 @@ Ion Number Flux mapped along B to 100 km altitude </Description>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
-                <AccessURL>
+            <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
-           	<Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_IES</Description>
+                <ProductKey>FA_K0_IES</ProductKey>
+                <Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_IES</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
@@ -73,5 +73,5 @@ Ion Number Flux mapped along B to 100 km altitude </Description>
         </TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
         <Caveats>None</Caveats>
-     </NumericalData>
+    </NumericalData>
 </Spase>

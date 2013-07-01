@@ -1,105 +1,104 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-<Version>2.2.2</Version>
-<NumericalData>
-   <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Fe_charge_state/PT2H</ResourceID>
-   <ResourceHeader>
-      <ResourceName>STEREO-B PLASTIC 2-hour Iron Charge State Data</ResourceName>
-      <ReleaseDate>2012-10-31T00:00:00</ReleaseDate>
-      <Description>This data product contains 2-hour-integrated values of iron
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Fe_charge_state/PT2H</ResourceID>
+        <ResourceHeader>
+            <ResourceName>STEREO-B PLASTIC 2-hour Iron Charge State Data</ResourceName>
+            <ReleaseDate>2012-10-31T00:00:00</ReleaseDate>
+            <Description>This data product contains 2-hour-integrated values of iron
 ion charge state.  Counts are given for iron in each of 21 charge states, plus
 an average charge state, plus a measure of counting statistics.</Description>
-      <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation 
+            <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation 
 (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-         <Name>PLASTIC Index page at UNH</Name>
-         <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
-      </InformationURL>
-      <InformationURL>
-         <Name>Readme at STEREO Science Center</Name>
-         <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/READ_ME_PLASTIC_Iron_Charge.pdf</URL>
-      </InformationURL>
-   </ResourceHeader>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-         <Name>STEREO Science Center - ASCII</Name>
-         <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/text/</URL>
-         <Description>In ASCII via ftp from SSC</Description>
-      </AccessURL>
-      <Format>Text</Format>
-      <DataExtent>
-         <Quantity>450</Quantity>
-         <Units>KB</Units>
-         <Per>P1Y</Per>
-      </DataExtent>
-   </AccessInformation>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-         <Name>STEREO Science Center - CDF</Name>
-         <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/CDFs/B/</URL>
-         <Description>In CDF via ftp from SSC</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-      <DataExtent>
-         <Quantity>840</Quantity>
-         <Units>KB</Units>
-         <Per>P1Y</Per>
-      </DataExtent>
-   </AccessInformation>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-         <Name>CDAWeb</Name>
-         <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
-         <Description>Subset, plot and list, via CDAWeb</Description>
-      </AccessURL>
-      <Format>Text</Format>
-   </AccessInformation>
-   <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-         <Name>FTP access to files at SPDF</Name>
-         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr/</URL>
-         <Description>In CDF via ftp from SPDF</Description>
-      </AccessURL>
-      <AccessURL>
-         <Name>HTTP access to files at SPDF</Name>
-         <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr/</URL>
-         <Description>In CDF via http from SPDF</Description>
-      </AccessURL>
-      <Format>CDF</Format>
-      <DataExtent>
-         <Quantity>840</Quantity>
-         <Units>KB</Units>
-         <Per>P1Y</Per>
-      </DataExtent>
-   </AccessInformation>
-   <ProcessingLevel>Calibrated</ProcessingLevel>
-   <InstrumentID>spase://SMWG/Instrument/STEREO-B/PLASTIC</InstrumentID>
-   <MeasurementType>ThermalPlasma</MeasurementType>
-   <TemporalDescription>
-      <TimeSpan>
-         <StartDate>2007-01-22T00:00:00</StartDate>
-         <RelativeStopDate>-P1Y</RelativeStopDate>
-         <Note>As of October 24, 2012, last data were for December 31, 2010.</Note>
-      </TimeSpan>
-      <Cadence>PT2H</Cadence>
-   </TemporalDescription>
-   <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
-</NumericalData>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>PLASTIC Index page at UNH</Name>
+                <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
+            </InformationURL>
+            <InformationURL>
+                <Name>Readme at STEREO Science Center</Name>
+                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/READ_ME_PLASTIC_Iron_Charge.pdf</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>STEREO Science Center - ASCII</Name>
+                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/text/</URL>
+                <Description>In ASCII via ftp from SSC</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <DataExtent>
+                <Quantity>450</Quantity>
+                <Units>KB</Units>
+                <Per>P1Y</Per>
+            </DataExtent>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>STEREO Science Center - CDF</Name>
+                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/CDFs/B/</URL>
+                <Description>In CDF via ftp from SSC</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <DataExtent>
+                <Quantity>840</Quantity>
+                <Units>KB</Units>
+                <Per>P1Y</Per>
+            </DataExtent>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
+                <ProductKey>STB_L2_PLA_IRON_Q_2HR</ProductKey>
+                <Description>Subset, plot and list, via CDAWeb</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr/</URL>
+                <Description>In CDF via ftp from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l2/plastic/1ron/2hr/</URL>
+                <Description>In CDF via http from SPDF</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+            <DataExtent>
+                <Quantity>840</Quantity>
+                <Units>KB</Units>
+                <Per>P1Y</Per>
+            </DataExtent>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/STEREO-B/PLASTIC</InstrumentID>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2007-01-22T00:00:00</StartDate>
+                <RelativeStopDate>-P1Y</RelativeStopDate>
+                <Note>As of October 24, 2012, last data were for December 31, 2010.</Note>
+            </TimeSpan>
+            <Cadence>PT2H</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
+    </NumericalData>
 </Spase>
-

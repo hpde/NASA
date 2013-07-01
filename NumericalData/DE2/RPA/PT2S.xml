@@ -25,7 +25,7 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/00readme.txt</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/DE2/RPA/PT2S</PriorID>
         </ResourceHeader>
@@ -35,7 +35,7 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
                 <Description>For ftp retrieval of daily CDF files</Description>
             </AccessURL>
             <AccessURL>
@@ -60,6 +60,7 @@ Data Facility at NASA/GSFC</Acknowledgement>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>DE2_ION2S_RPA</ProductKey>
                 <Description>For CDAWeb subset, plot and list capabilities</Description>
             </AccessURL>
             <Format>Text</Format>
