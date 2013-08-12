@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Cluster-Samba/WHISPER/CAA/PT0.2S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Data at the ESA Cluster Active Archive</ResourceName>
+            <AlternateName>Cluster 2 Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Data at the ESA Cluster Active Archive</AlternateName>
+            <ReleaseDate>2013-07-25T15:51:47Z</ReleaseDate>
+            <Description>Two main types of data resulted from WHISPER (Waves of HF and Sounder for Probing Electron Density by Relaxation) onboard Cluster: the total electron density at standard time resolutions of either 2.15 or 52 s, and electric field spectra in the frequency range 2–82 KHz with time resolutions of 1.7 or 3.4 seconds.  Data products available from the Cluster Active Archive include: electron number density, electric spectral power density (natural waves), electric spectral power density from active and passive emission during sounding, and electric waveform power density (energy) in 0.2 second resolution.  
+
+Ancillary data include density comparisons with PEACE and CIS measurements onboard Cluster; sounding times; housekeeping data; electron density in spin-resolution (4 seconds) and 1 minute averages; electron gyrofrequency in plasmasphere; instrument parameters during natural mode and active mode; active to passive spectral power density coded ratio; and caveats.  Please note that WHISPER densities are used for calibrations of CLUSTER instruments, in particular particle instruments, which have difficulties to measure the colder part of the population, and EFW instrument, because spacecraft potential variations, currently used as a proxy of density variations, depend not only on the density but also on the energy of electrons. 
+
+For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description> 
+            <Acknowledgement>Dr. Pierrette Decreau, the WHISPER team and the Cluster Active Archive</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Pierrette.Decreau</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC Master Catalog listing for Cluster II Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER)</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-11</URL>
+                <Description>This site provides information concerning the Cluster II Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) instrument.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Cluster Active Archive Documentation</Name>
+                <URL>http://caa.estec.esa.int/caa/ug_cr_icd.xml</URL>
+                <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
+            </InformationURL>
+            <Association>
+                <AssociationID>spase://SMWG/Observatory/Cluster-Samba</AssociationID>
+                <AssociationType>ObservedBy</AssociationType>
+            </Association>
+         </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Access to files at CAA</Name>
+                <URL>http://caa.estec.esa.int/</URL>
+                <Description>Cluster II Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) data from active and passive electric wave field experiment. It's open access but registration is required.</Description>
+            </AccessURL>
+             <Format>CEF</Format>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/WHISPER</InstrumentID>
+        <MeasurementType>ElectricField</MeasurementType>
+        <MeasurementType>ThermalPlasma</MeasurementType>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-02-02T00:00:00.000</StartDate>
+                <RelativeStopDate>-P8M</RelativeStopDate>
+            </TimeSpan>
+            <Cadence>PT0.2S</Cadence>   
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+        </NumericalData>
+</Spase>
+
