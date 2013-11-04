@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</ResourceID>
         <ResourceHeader>
-            <ResourceName>Ulysses SWICS data via CDAWeb</ResourceName>
+            <ResourceName>Ulysses SWICS 3-hour averages data via CDAWeb</ResourceName>
             <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-            <Description>Ulysses SWICS N,V,T for 8 species and charge states at 3-hr resolution, plus 13-min matrix rate data</Description>
+            <Description>This data set contains 3-hour averages of ion data from the Ulysses Solar Wind Ion Composition Spectrometer (SWICS) instrument. Density, velocity, and temperature data are available for 10 speciess (H, He, C, N, O, Ne, Mg, Si, S, and Fe) and charge states at 3-hr resolution.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -14,7 +15,7 @@
                 <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-            <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWICS_CDAWEB_DIGITAL</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -43,11 +44,12 @@
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1990-12-07T00:00:00</StartDate>
-                <StopDate>2008-08-31T00:00:00</StopDate>
-                <Note>the matrix rate data end 12/31/2000 (as of 03/2004)</Note>
+                <StopDate>2009-06-30T00:00:00</StopDate>
             </TimeSpan>
             <Cadence>PT3H</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     </NumericalData>
 </Spase>
+
+
