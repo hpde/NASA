@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Cluster-Samba/DWP/CAA/PT4S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Cluster-Rumba/DWP/CAA/PT4S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Samba Digital Wave Processor (DWP) Data at the ESA Cluster Science Archive</ResourceName>
-            <AlternateName>Cluster 2 Samba Digital Wave Processor (DWP) Data at the ESA Cluster Active Archive</AlternateName>
+            <ResourceName>Cluster Rumba Digital Wave Processor (DWP) Data at the ESA Cluster Science Archive</ResourceName>
+            <AlternateName>Cluster 2 Rumba Digital Wave Processor (DWP) Data at the ESA Cluster Active Archive</AlternateName>
             <ReleaseDate>2013-07-12T15:51:47Z</ReleaseDate>
             <Description> As the central control and data processing unit for the Wave Experiement Consortium (WEC), the Digital Wave Processor (DWP) provided the following products in the Cluster Active Archive: (1) Time correction data (C1_CP_DWP_TCOR) with timing accuracy improved to 20 micro seconds; (2) Summary of the status of the Wave Experiment Consortium (C1_CP_DWP_ LOG) with one record for each interval that the WEC operates in the same mode for a total of 64 parameters including: instrument modes, telemetry use statistics, errors and anomalies, summary of voltage and temperature housekeeping; (3) A listing of the command sequences uplinked to the Wave Experiment Consortium (CM_CD_DWP_UT_PIOR); (4) High resolution particle correlator data for the fixed (pre-selected) energy band (C1_CP_DWP_COR_FX) and high resolution particle correlator data for the stepped energy (C1_CP_ DWP_COR_ST) which steps through the remaining 14 bands, at one step per spin; and (5) Documentation and software.  Electron energy range is from 0.6 eV to 26 keV in 15 energy bands (PEACE mode dependent) and frequency range, 1.4 kHz to 41.6 kHz in 32 frequency bands and DC to 4 Hz based on successive autocorrelation function (ACF) outputs.
  
@@ -19,9 +19,9 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
                 <Role>ProjectScientist</Role>
             </Contact>
             <InformationURL>
-                <Name>NSSDC Master Catalog listing for Cluster II Samba Digital Wave Processor (DWP)</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-07</URL>
-                <Description>This site provides information concerning the Cluster II Samba Digital Wave Processor (DWP).</Description>
+                <Name>NSSDC Master Catalog listing for Cluster II Rumba Digital Wave Processor (DWP)</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-07</URL>
+                <Description>This site provides information concerning the Cluster II Rumba Digital Wave Processor (DWP).</Description>
             </InformationURL>
             <InformationURL>
                 <Name>Cluster Science Archive (CSA) Documentation</Name>
@@ -29,7 +29,7 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
-                <AssociationID>spase://SMWG/Observatory/Cluster-Samba</AssociationID>
+                <AssociationID>spase://SMWG/Observatory/Cluster-Rumba</AssociationID>
                 <AssociationType>ObservedBy</AssociationType>
             </Association>
         </ResourceHeader>
@@ -40,12 +40,12 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
                 <URL>http://www.rssd.esa.int/csa</URL>
-                <Description>Cluster II Samba Digital Wave Processor (DWP) data; open access but registration is required.</Description>
+                <Description>Cluster II Rumba Digital Wave Processor (DWP) data; open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/Cluster-Samba/DWP</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/DWP</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

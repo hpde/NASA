@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Cluster-Salsa/ASPOC/CAA/PT0.033S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Salsa Active Spacecraft POtential Control (ASPOC) Data at the ESA Cluster Active Archive</ResourceName>
+            <ResourceName>Cluster Salsa Active Spacecraft POtential Control (ASPOC) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Salsa Active Spacecraft POtential Control (ASPOC) Data at CAA</AlternateName>
             <ReleaseDate>2013-06-26T15:51:47Z</ReleaseDate>
-            <Description> The primary objective of ASPOC (Active Spacecraft POtential Control) onboard Cluster is to insure the effective and complete measurement of the ambient plasma distribution functions down to low energy. Two main ASPOC data products are available from the Cluster Active Archive: ion bean current at 0.5 second resolution and ion current snapshot at 0.33 second resolution.  Ancillary data include command history, status of the instrument at 5.15 second resolution, preliminary emitted current parameters (at 4-second resolution and 1-minute aveerges) and caveats.  For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description> 
+            <Description> The primary objective of ASPOC (Active Spacecraft POtential Control) onboard Cluster is to insure the effective and complete measurement of the ambient plasma distribution functions down to low energy. Two main ASPOC data products are available from the Cluster Active Archive: ion bean current at 0.5 second resolution and ion current snapshot at 0.33 second resolution.  Ancillary data include command history, status of the instrument at 5.15 second resolution, preliminary emitted current parameters (at 4-second resolution and 1-minute aveerges) and caveats.  For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description>
             <Acknowledgement>Willi W. Riedler and the Cluster Active Archive</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Willi.W.Riedler</PersonID>
@@ -23,35 +22,35 @@
                 <Description>This site provides information concerning the Cluster II Salsa Active Spacecraft POtential Control Instrument.</Description>
             </InformationURL>
             <InformationURL>
-                <Name>Cluster Active Archive Documentation</Name>
-                <URL>http://caa.estec.esa.int/caa/ug_cr_icd.xml</URL>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
                 <AssociationID>spase://SMWG/Observatory/Cluster-Salsa</AssociationID>
                 <AssociationType>ObservedBy</AssociationType>
             </Association>
-         </ResourceHeader>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Access to files at the CAA</Name>
-                <URL>http://caa.estec.esa.int/</URL>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Salsa Active Spacecraft POtential Control (ASPOC) data; open access but registration is required.</Description>
             </AccessURL>
-             <Format>CEF</Format>
+            <Format>CEF</Format>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/ASPOC</InstrumentID>
-        <MeasurementType>ElectricField</MeasurementType>  
-         <TemporalDescription>
+        <MeasurementType>ElectricField</MeasurementType>
+        <TemporalDescription>
             <TimeSpan>
                 <StartDate>2001-01-01T00:00:00.000</StartDate>
                 <StopDate>2008-07-01T00:00:00.000</StopDate>
             </TimeSpan>
-            <Cadence>PT0.033S</Cadence> 
+            <Cadence>PT0.033S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -64,6 +63,5 @@
         <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-        </NumericalData>
+    </NumericalData>
 </Spase>
-

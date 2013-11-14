@@ -3,7 +3,7 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Cluster-Rumba/RAPID/CAA/PT4S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Rumba Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Active Archive</ResourceName>
+            <ResourceName>Cluster Rumba Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Rumba Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Active Archive</AlternateName>
             <ReleaseDate>2013-06-17T15:51:48Z</ReleaseDate>
             <Description>Data products from the dual-sensor spectrometer RAPID (Research with Adaptive Particle Imaging Detectors) available from the Cluster Active Archive include: omni-directional and 3-D distributions of energetic (more than 30 keV) ion and electron flux for up to eight energy channels; raw count rates; diagnstic products; and caveats, documentation, and summary plots.  Plasma distributions are available in the energy range from 20-400 KeV for electrons
@@ -19,8 +19,8 @@ with 9 polar directions and 16 azimuthal sectors. Ion fluxes are available in th
                 <Description>This site provides information concerning the Cluster II Rumba Research with Adaptive Particle Imaging Detectors Instrument.</Description>
             </InformationURL>
             <InformationURL>
-                <Name>Cluster Active Archive Documentation</Name>
-                <URL>http://caa.estec.esa.int/caa/ug_cr_icd.xml</URL>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
@@ -33,8 +33,8 @@ with 9 polar directions and 16 azimuthal sectors. Ion fluxes are available in th
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Access to files at CAA</Name>
-                <URL>http://caa.estec.esa.int/</URL>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Rumba Research with Adaptive Particle Imaging Detectors (RAPID) data; open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Cluster-Salsa/CIS/CAA/PT4S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Salsa Ion Spectrometry (CIS) Data at the ESA Cluster Active Archive</ResourceName>
+            <ResourceName>Cluster Salsa Ion Spectrometry (CIS) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Salsa Ion Spectrometry (CIS) Data at the ESA Cluster Active Archive</AlternateName>
             <ReleaseDate>2013-07-24T15:51:47Z</ReleaseDate>
             <Description>The Cluster Ion Spectrometry (CIS) data products include three-dimensional ion distributions (about 0-40 keV/e) in 4-s spacecraft spin resolution and mass-per-charge composition distribution that are measured by the Hot Ion Analyzer (HIA) and Composition Distribution Function (CODIF) analyzer on board the Cluster II Salsa spacecraft. Data products consist of processed raw data (Level 1 data), moments of the distribution functions (Level 2 data), and calibrated high-resolution data in a variety of physical units (Level 3 data). Furthermore, the calibration files and high-level processing software are also available. 
@@ -22,8 +21,7 @@ Two data processing software packages are available from CAA: the CIS_3D_MOM wri
 
 The CIS data archive at CAA also includes experiment documentation, graphical products for browsing through the data, and data caveats.
 
-For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description> 
-
+For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description>
             <Acknowledgement>NASA, Henri Reme and the Cluster Active Archive</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
@@ -38,17 +36,17 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
                 <AssociationID>spase://SMWG/Observatory/Cluster-Salsa</AssociationID>
                 <AssociationType>ObservedBy</AssociationType>
             </Association>
-         </ResourceHeader>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Access to files at CAA</Name>
-                <URL>http://caa.estec.esa.int/</URL>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Salsa Ion Spectrometry (CIS) data; open access but registration is required.</Description>
             </AccessURL>
-             <Format>CEF</Format>
+            <Format>CEF</Format>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/CIS</InstrumentID>
@@ -73,9 +71,6 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
         <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-<Caveats>Users of the CIS data should see http://cluster.irap.omp.eu/index.php?page=caveats&amp;langue=en for caveats.</Caveats>
-
-        </NumericalData>
+        <Caveats>Users of the CIS data should see http://cluster.irap.omp.eu/index.php?page=caveats&amp;langue=en for caveats.</Caveats>
+    </NumericalData>
 </Spase>
-
-

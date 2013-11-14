@@ -1,50 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Cluster-Salsa/RAPID/CAA/PT4S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Cluster-Rumba/RAPID/CAA/PT4S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Cluster Salsa Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Active Archive</ResourceName>
-            <AlternateName>Cluster 2 Salsa Research with Adaptive Particle Imaging Detectors (RAPID) Data at the Cluster Active Archive</AlternateName>
+            <ResourceName>Cluster Rumba Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Science Archive</ResourceName>
+            <AlternateName>Cluster 2 Rumba Research with Adaptive Particle Imaging Detectors (RAPID) Data at the ESA Cluster Active Archive</AlternateName>
             <ReleaseDate>2013-06-17T15:51:48Z</ReleaseDate>
             <Description>Data products from the dual-sensor spectrometer RAPID (Research with Adaptive Particle Imaging Detectors) available from the Cluster Active Archive include: omni-directional and 3-D distributions of energetic (more than 30 keV) ion and electron flux for up to eight energy channels; raw count rates; diagnstic products; and caveats, documentation, and summary plots.  Plasma distributions are available in the energy range from 20-400 KeV for electrons
 with 9 polar directions and 16 azimuthal sectors. Ion fluxes are available in the energy range of 2 KeV/nucleon to 1.50 MeV/nucleon for hydrogen, helium and carbon-nitrogen-oxygen (CNO) in 12 polar and 16 aximuthal directions.</Description>
-            <Acknowledgement>Dr. Berend Wilken and the Cluster Active Archive</Acknowledgement>
+            <Acknowledgement>Dr. Berend Wilken, the RAPID team, and the ESA Cluster Active Archive</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Berend.Wilken</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-             <InformationURL>
-                <Name>NSSDC Master Catalog listing for Cluster II Salsa Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-06</URL>
-                <Description>This site provides information concerning the Cluster II Salsa Research with Adaptive Particle Imaging Detectors Instrument.</Description>
+            <InformationURL>
+                <Name>NSSDC Master Catalog listing for Cluster II Rumba Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06</URL>
+                <Description>This site provides information concerning the Cluster II Rumba Research with Adaptive Particle Imaging Detectors Instrument.</Description>
             </InformationURL>
             <InformationURL>
-                <Name>Cluster Active Archive Documentation</Name>
-                <URL>http://caa.estec.esa.int/caa/ug_cr_icd.xml</URL>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
-                <AssociationID>spase://SMWG/Observatory/Cluster-Salsa</AssociationID>
+                <AssociationID>spase://SMWG/Observatory/Cluster-Rumba</AssociationID>
                 <AssociationType>ObservedBy</AssociationType>
             </Association>
         </ResourceHeader>
-       <AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Access to files at the CAA</Name>
-                <URL>http://caa.estec.esa.int/</URL>
-                <Description>Cluster II Salsa Research with Adaptive Particle Imaging Detectors (RAPID) data; open access but registration is required.</Description>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
+                <Description>Cluster II Rumba Research with Adaptive Particle Imaging Detectors (RAPID) data; open access but registration is required.</Description>
             </AccessURL>
-             <Format>CEF</Format>
+            <Format>CEF</Format>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
-        <ProviderResourceName>Cluster II Salsa Prime Parameter Research with Adaptive Particle Imaging Detectors (RAPID) Data</ProviderResourceName>
+        <ProviderResourceName>Cluster II Rumba Prime Parameter Research with Adaptive Particle Imaging Detectors (RAPID) Data</ProviderResourceName>
         <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
         <ProviderVersion>1</ProviderVersion>
-        <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/RAPID</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/RAPID</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
@@ -65,7 +64,5 @@ with 9 polar directions and 16 azimuthal sectors. Ion fluxes are available in th
         <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-     </NumericalData>
+    </NumericalData>
 </Spase>
-
-

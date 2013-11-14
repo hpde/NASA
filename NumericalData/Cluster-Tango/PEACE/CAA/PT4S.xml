@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version> 
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Cluster-Tango/PEACE/CAA/PT4S</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster Tango Plasma Electrons and Currents Experiment (PEACE) Data at the ESA Cluster Active Archive</ResourceName>
-            <AlternateName>Cluster 2 Tango Plasma Electrons and Currents Experiment (PEACE) Data at the ESA Cluster Active Archive</AlternateName>
+            <AlternateName>Cluster 2 Tango Plasma Electrons and Currents Experiment (PEACE) Data at the ESA Cluster Science Archive</AlternateName>
             <ReleaseDate>2013-07-13T15:51:47Z</ReleaseDate>
             <Description>The Plasma Electrons and Currents Experiment (PEACE) data products consist of prime and summary parameters (moments). Collected from two instruments, a low-energy electron analyzer (LEEA) and a high-energy electron analyzer (HEEA), the 3-D and 2-D data products contain the measured quantity in a suitable array, i.e., count rate, particle flux, particle energy flux or phase space density.    
 
@@ -26,41 +25,41 @@ The Prime Parameters (PP) are derived from the onboard moment sums, which are co
 In addition to these three categories of products, there are onboard selected pitch angle data (PAD), onboard moments Sums (OMS) in both normal and burst modes, and other diagnostic data. 
 
 For more details, see Chapter 8 of "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. 
-</Description> 
+</Description>
             <Acknowledgement>Andrew N. Fazakerley, the PEACE team and the ESA Cluster Active Archive</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
-          <Contact>
+            <Contact>
                 <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
                 <Role>ProjectScientist</Role>
             </Contact>
-             <InformationURL>
+            <InformationURL>
                 <Name>NSSDC Master Catalog listing for Cluster II Tango Plasma Electrons and Currents Experiment (PEACE)</Name>
                 <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-05</URL>
                 <Description>This site provides information concerning the Cluster II Tango Plasma Electrons and Currents Experiment.</Description>
             </InformationURL>
-           <InformationURL>
-                <Name>Cluster Active Archive Documentation</Name>
-                <URL>http://caa.estec.esa.int/caa/ug_cr_icd.xml</URL>
+            <InformationURL>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
                 <AssociationID>spase://SMWG/Observatory/Cluster-Tango</AssociationID>
                 <AssociationType>ObservedBy</AssociationType>
             </Association>
-         </ResourceHeader>
+        </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/CAA</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>Access to files at CAA</Name>
-                <URL>http://caa.estec.esa.int/</URL>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Tango Plasma Electrons and Currents Experiment (PEACE) data; open access but registration is required.</Description>
             </AccessURL>
-             <Format>CEF</Format>
+            <Format>CEF</Format>
         </AccessInformation>
         <ProcessingLevel>Calibrated</ProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/PEACE</InstrumentID>
@@ -84,5 +83,5 @@ For more details, see Chapter 8 of "The Cluster Active Archive: Studying the Ear
         <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
         <Caveats> See warnings and status details in the Interface Control Document that is available at the CAA website. Please contact the PEACE PI to request science quality data.</Caveats>
-        </NumericalData>
+    </NumericalData>
 </Spase>
