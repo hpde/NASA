@@ -1,0 +1,76 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Cluster-Rumba/WBD/CSA/PT0.000035S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cluster Rumba Wide Band Data (WBD) Plasma Waves at the ESA Cluster Science Archive</ResourceName>
+            <AlternateName>Cluster 2 Rumba Wide Band Data (WBD) Plasma Waves at the ESA Cluster Active Archive</AlternateName>
+            <ReleaseDate>2013-06-24T15:51:47Z</ReleaseDate>
+            <Description> The Cluster Wide Band Data (WBD) products at the Cluster Active Archive include full time resolution calibrated waveform data obtained in one of three frequency bandwidths: 9.5 kHz, 19 kHz, or 77 kHz in the range of 0-577 KHz along one axis using either an electric field
+antenna or a magnetic search coil sensor. The dataset also includes instrument mode, data quality and the angles required to orient the measurement with
+respect to the magnetic field and to the GSE coordinate system.  Calibrated electric field data are divided by 1000 to get V m^-1.  Because of the high sampling rate of the WBD data (27.4 to 219.5 kilosamples per second), the time resolution of the WBD data (~36 to 5 microseconds in the time domain) is very high. This results in a very large data volume. Because of this the WBD data are stored in CEF files (and in CDF files from which the CEF files were generated) with maximum length of 10 minutes and size of a few hundred Mbytes. The user of WBD data is thus cautioned to take this into consideration when requesting WBD data downloads from the CAA. The 10 minute CDF files can also be downloaded from NASA's CDAWeb. For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet.</Description>
+            <Acknowledgement>NASA, Prof. Donald A. Gurnett of the University of Iowa, the WBD team and the ESA Cluster Active Archive</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC Master Catalog listing for Cluster II Rumba Wideband (WBD)</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-10</URL>
+                <Description>This site provides information concerning the Cluster II Rumba Wide Band Data (WBD) investigation.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Cluster Science Archive (CSA) Documentation</Name>
+                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Cluster WBD Interpretation Issues and WBD Caveats</Name>
+                <URL>http://www-pw.physics.uiowa.edu/cluster/</URL>
+                <Description>PI website provides cautions against misinterpretation of WBD data and caveats related to data analysis.</Description>
+            </InformationURL>
+            <Association>
+                <AssociationID>spase://SMWG/Observatory/Cluster-Rumba</AssociationID>
+                <AssociationType>ObservedBy</AssociationType>
+            </Association>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/CSA</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Access to files at the Cluster Science Archive (CSA)</Name>
+                <URL>http://www.rssd.esa.int/csa</URL>
+                <Description>Cluster II Rumba Wide Band Data (WBD). It's open access but registration is required.</Description>
+            </AccessURL>
+            <Format>CEF</Format>
+        </AccessInformation>
+        <ProcessingLevel>Calibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID>
+        <MeasurementType>MagneticField</MeasurementType>
+        <MeasurementType>ElectricField</MeasurementType>
+        <MeasurementType>Spectrum</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2001-02-04T00:00:00.000</StartDate>
+                <StopDate>2006-12-30T03:59:59.000</StopDate>
+            </TimeSpan>
+            <Cadence>PT0.000035S</Cadence>
+        </TemporalDescription>
+        <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+        <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+        <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    </NumericalData>
+</Spase>
