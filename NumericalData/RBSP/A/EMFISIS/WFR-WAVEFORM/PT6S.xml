@@ -73,5 +73,236 @@
       </TimeSpan>
       <Cadence>PT6S</Cadence>
     </TemporalDescription>
-  </NumericalData>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Default time </Description>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BuSamples </Name>
+         <ParameterKey>BuSamples</ParameterKey>
+         <Description>BuSamples (as spectrogram vs Time Offsets) </Description>
+         <Units>nT </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BvSamples </Name>
+         <ParameterKey>BvSamples</ParameterKey>
+         <Description>---&gt; BvSamples </Description>
+         <Units>nT </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BwSamples </Name>
+         <ParameterKey>BwSamples</ParameterKey>
+         <Description>---&gt; BwSamples </Description>
+         <Units>nT </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EuSamples </Name>
+         <ParameterKey>EuSamples</ParameterKey>
+         <Description>EuSamples (as spectrogram vs Time Offsets) </Description>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EvSamples </Name>
+         <ParameterKey>EvSamples</ParameterKey>
+         <Description>---&gt; EvSamples </Description>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EwSamples </Name>
+         <ParameterKey>EwSamples</ParameterKey>
+         <Description>---&gt; EwSamples </Description>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>LWEzGainW </Name>
+         <ParameterKey>LWEzGainW</ParameterKey>
+         <Description>Attenuator select indicator for W axis (0=off) </Description>
+         <Caveats>Attenuator select indicator for W axis.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.   L2 and greater data has the attenuator gains folded into data to provide correct science units.  </Caveats>
+         <Units>(0=off) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>LWExEyGainUV </Name>
+         <ParameterKey>LWExEyGainUV</ParameterKey>
+         <Description>---&gt; Attenuator select indicator for U/V axes (0=off) </Description>
+         <Caveats>Attenuator select indicator for U and V axis.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.  L2 and greater data has the attenuator gains folded into data to provide correct science units. </Caveats>
+         <Units>(0=off) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>SCMGain </Name>
+         <ParameterKey>SCMGain</ParameterKey>
+         <Description>---&gt; Attenuator select indicator for MSC (0=off) </Description>
+         <Caveats>Attenuator select indicator for MSC.  0 - Off, 1 - On.   Switches in a 19 dB attenuator.  L2 and greater data has the attenuator gains folded into data to provide correct science units.  </Caveats>
+         <Units>(0=off) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>SPTT</ParameterKey>
+         <Description>Sun Pulse Time Tag </Description>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>timeOffsets </Name>
+         <ParameterKey>timeOffsets</ParameterKey>
+         <Description>timeOffsets </Description>
+         <Units>ns </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>fftSize </Name>
+         <ParameterKey>fftSize</ParameterKey>
+         <Description>size of FFT </Description>
+         <Caveats> </Caveats>
+         <Units> </Units>
+         <Structure>
+            <Size>1</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BuSpec </Name>
+         <ParameterKey>BuSpec</ParameterKey>
+         <Description>[NOT YET FUNCTIONAL] Bu Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>nT^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BvSpec </Name>
+         <ParameterKey>BvSpec</ParameterKey>
+         <Description>---&gt; [NOT YET FUNCTIONAL] Bv Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>nT^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>BwSpec </Name>
+         <ParameterKey>BwSpec</ParameterKey>
+         <Description>---&gt; [NOT YET FUNCTIONAL] Bw Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>nT^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EuSpec </Name>
+         <ParameterKey>EuSpec</ParameterKey>
+         <Description>[NOT YET FUNCTIONAL] Eu Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>V^2/m^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EvSpec </Name>
+         <ParameterKey>EvSpec</ParameterKey>
+         <Description>---&gt; [NOT YET FUNCTIONAL] Ev Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>V^2/m^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>EwSpec </Name>
+         <ParameterKey>EwSpec</ParameterKey>
+         <Description>---&gt; [NOT YET FUNCTIONAL] Ew Power Spectra </Description>
+         <Caveats> </Caveats>
+         <Units>V^2/m^2/Hz </Units>
+         <Structure>
+            <Size>16384</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>APID </Name>
+         <ParameterKey>APID</ParameterKey>
+         <Description>APID </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+   </NumericalData>
 </Spase>

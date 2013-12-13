@@ -51,5 +51,122 @@
       </TimeSpan>
       <Cadence>PT4S</Cadence>
     </TemporalDescription>
-  </NumericalData>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Default time </Description>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Mag </Name>
+         <ParameterKey>Mag</ParameterKey>
+         <Description>Magnetometer vector </Description>
+         <Units>nT </Units>
+         <Structure>
+            <Size>3</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Magnitude </Name>
+         <ParameterKey>Magnitude</ParameterKey>
+         <Description>Average magnitude (average of |B| values in the interval) </Description>
+         <Units>nT </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>delta </Name>
+         <ParameterKey>delta</ParameterKey>
+         <Description>Latitude (angle delta) of the field vector (where (0,0) is the positive Bx direction) </Description>
+         <Units>degrees </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>delta </Name>
+         <ParameterKey>lambda</ParameterKey>
+         <Description>Longitude (angle lambda) of the field vector (where (0,0) is the positive Bx direction) </Description>
+         <Units>degrees </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>B-rms </Name>
+         <ParameterKey>rms</ParameterKey>
+         <Description>B-rms (total standard deviation in B over averaging interval) </Description>
+         <Units>nT </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Mag </Name>
+         <ParameterKey>coordinates</ParameterKey>
+         <Description>S/C position vector </Description>
+         <Units>km </Units>
+         <Structure>
+            <Size>3</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>range_flag </Name>
+         <ParameterKey>range_flag</ParameterKey>
+         <Description>range_flag </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>MET partition </Name>
+         <ParameterKey>partition</ParameterKey>
+         <Description>---&gt; partition </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>MET </Name>
+         <ParameterKey>MET</ParameterKey>
+         <Description>---&gt; MET </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>calState_flag </Name>
+         <ParameterKey>calState</ParameterKey>
+         <Description>---&gt; calState_flag </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>magInvalid_flag </Name>
+         <ParameterKey>magInvalid</ParameterKey>
+         <Description>---&gt; magInvalid_flag </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>magFill_flag </Name>
+         <ParameterKey>magFill</ParameterKey>
+         <Description>---&gt; magFill_flag </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+   </NumericalData>
 </Spase>

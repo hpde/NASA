@@ -72,5 +72,96 @@
       </TimeSpan>
       <Cadence>PT6S</Cadence>
     </TemporalDescription>
-  </NumericalData>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Default time </Description>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFR Spectra </Name>
+         <ParameterKey>HFR_Spectra</ParameterKey>
+         <Description>HFR Spectra Data </Description>
+         <Units>V^2/m^2/Hz </Units>
+         <Structure>
+            <Size>82</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFR_frequencies </Name>
+         <ParameterKey>HFR_frequencies</ParameterKey>
+         <Description>---&gt; HFR center band frequencies </Description>
+         <Units>Hz </Units>
+         <Structure>
+            <Size>82</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFR_frequencies </Name>
+         <ParameterKey>HFR_frequencies_Fixed</ParameterKey>
+         <Description>HFR center band frequencies </Description>
+         <Units>Hz </Units>
+         <Structure>
+            <Size>82</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFR_bins </Name>
+         <ParameterKey>HFR_bins</ParameterKey>
+         <Description>---&gt; HFR bin size - Number of bins summed on board </Description>
+         <Structure>
+            <Size>82</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HBGain </Name>
+         <ParameterKey>HBGain</ParameterKey>
+         <Description>---&gt; HFR Gain Select (0 - Standard Gain, 1 - Attenuator On) </Description>
+         <Units>(0=stnd,1=Atten) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HBSelect </Name>
+         <ParameterKey>HBSelect</ParameterKey>
+         <Description>---&gt; HFR receiver Antenna Select (0 - U axis,1 - V axis,2 - W axis {spin axis}) </Description>
+         <Units>(0=U,1=V,2=W/Spin) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>SPTT</ParameterKey>
+         <Description>Sun Pulse Time Tag Epoch </Description>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>APID </Name>
+         <ParameterKey>APID</ParameterKey>
+         <Description>APID  APID of base L0 data for this product </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+   </NumericalData>
 </Spase>

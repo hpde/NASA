@@ -72,5 +72,161 @@
         <RelativeStopDate>-P30D</RelativeStopDate>
       </TimeSpan>
     </TemporalDescription>
-  </NumericalData>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Default time </Description>
+         <Caveats>Original base times </Caveats>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>Epoch_expanded</ParameterKey>
+         <Description>Expanded times </Description>
+         <Caveats>Computed Epoch's based on Epoch/basetime plus timeOffsets_NRV </Caveats>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFRsamples </Name>
+         <ParameterKey>HFRsamples_spec</ParameterKey>
+         <Description>V/m displayed as spectrogram of values vs time offsets </Description>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFRsamples </Name>
+         <ParameterKey>HFRsamples_times</ParameterKey>
+         <Description>V/m displayed as very high resolution time-series </Description>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFRsamples </Name>
+         <ParameterKey>HFRsamples</ParameterKey>
+         <Description>[NOT USEFUL] HFR Waveform </Description>
+         <Caveats>Original definition </Caveats>
+         <Units>V/m </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HBGain </Name>
+         <ParameterKey>HBGain</ParameterKey>
+         <Description>HFR Gain Select (0 - Standard Gain, 1 - Attenuator On) </Description>
+         <Units>(0=stnd,1=Atten) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HBSelect </Name>
+         <ParameterKey>HBSelect</ParameterKey>
+         <Description>---&gt; HFR receiver Antenna Select (0 - U axis,1 - V axis,2 - W axis {spin axis}) </Description>
+         <Units>(0=U,1=V,2=W/Spin) </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch </Name>
+         <ParameterKey>SPTT</ParameterKey>
+         <Description>Sun Pulse time tag.   Epoch of the last sun pulse. (Lowest 6 bits of MET and subseconds.    </Description>
+         <Caveats>Mask lowest six bits of MET and add SPTT to create sun pulse time in MET. </Caveats>
+         <Units>ns </Units>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>timeOffsets </Name>
+         <ParameterKey>timeOffsets</ParameterKey>
+         <Description>Time step, in seconds, for each of the 4096 points referenced from the first point.  </Description>
+         <Caveats> Absolute time for each sample point would be Epoch (converted to seconds) plus timeOffsets. </Caveats>
+         <Units>ns </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>HFR_Spec </Name>
+         <ParameterKey>HFR_Spec</ParameterKey>
+         <Description>[NOT YET FUNCTIONAL] Spectrogram of HFR waveform </Description>
+         <Caveats> </Caveats>
+         <Units>V^2/m^2/Hz </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>fftSize </Name>
+         <ParameterKey>fftSize</ParameterKey>
+         <Description>size of FFT </Description>
+         <Caveats> </Caveats>
+         <Units> </Units>
+         <Structure>
+            <Size>1</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>APID </Name>
+         <ParameterKey>APID</ParameterKey>
+         <Description>APID </Description>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>Comp No 1 </Name>
+         <ParameterKey>HFRsamples_spec_DEPEND_1</ParameterKey>
+         <Description>Comp No 1 </Description>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+      <Parameter>
+         <Name>NRV TimeOffsets </Name>
+         <ParameterKey>TimeOffsets_NRV</ParameterKey>
+         <Description>NRV TimeOffsets </Description>
+         <Caveats> Absolute time for each sample point would be Epoch (which is in ns) plus timeOffsets (also in ns). </Caveats>
+         <Units>ns </Units>
+         <Structure>
+            <Size>4096</Size>
+         </Structure>
+         <Mixed>
+            <MixedQuantity>Other</MixedQuantity>
+         </Mixed>
+      </Parameter>
+   </NumericalData>
 </Spase>
