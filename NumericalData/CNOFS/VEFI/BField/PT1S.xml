@@ -21,13 +21,31 @@ spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
             <PriorID>spase://VSPO/NumericalData/CNOFS_VEFI_BFIELD_1SEC</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>PRELIMINARY data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-                <Description>1-sec Magnetic Field preliminary data</Description>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
+                <ProductKey>CNOFS_VEFI_BFIELD_1SEC</ProductKey>
+                <Description>Plots, lists and files from CDAWeb.</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <Acknowledgement>the GSFC SPDF Team</Acknowledgement>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/bfield_1sec/</URL>
+                <Description>In CDF via FTP from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/bfield_1sec/</URL>
+                <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
