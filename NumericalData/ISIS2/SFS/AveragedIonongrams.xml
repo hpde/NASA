@@ -44,119 +44,131 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
+            <Format>CDF</Format>
+            <Encoding>None</Encoding>
+            <Acknowledgement>Please acknowledge the CDAWeb team at NASA/GSFC/SPDF</Acknowledgement>
+            </AccessInformation>              
+            <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+           <AccessRights>Open</AccessRights>
+           <AccessURL>
+              <Name>Subset, plot, list from CDAWeb</Name>           
+              <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
+              </AccessURL>
             <AccessURL>
-                <Name>Ascension Is., U.K. data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Ascension Is., U.K.</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_ACN</URL>
                 <Description>I2_AV_ACN</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Terre Adelie, Antarctica data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Terre Adelie, Antarctica</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_ADL</URL>
                 <Description>I2_AV_ADL</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Ahmedabad, India data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Ahmedabad, India</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_AME</URL>
                 <Description>I2_AV_AME</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Brazzavillle, Congo data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Brazzavillle, Congo</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_BRZ</URL>
                 <Description>I2_AV_BRZ</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Johannesburg, South Africa data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Johannesburg, South Africa</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_BUR</URL>
                 <Description>I2_AV_BUR</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Las Palmas, Canary Is., Spain data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Las Palmas, Canary Is., Spain</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_CNA</URL>
                 <Description>I2_AV_CNA</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Kerguelen Island, France data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Kerguelen Island, France</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_KER</URL>
                 <Description>I2_AV_KER</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Kourou, French Guyana data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Kourou, French Guyana</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_KRU</URL>
                 <Description>I2_AV_KRU</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Kashima, Japan data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Kashima, Japan</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_kSH</URL>
                 <Description>I2_AV_KSH</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Kwajalein, Marshall Is. data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Kwajalein, Marshall Is.</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_KWA</URL>
                 <Description>I2_AV_KWA</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Lauder, New Zealand data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Lauder, New Zealand</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_LAU</URL>
                 <Description>I2_AV_LAU</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Ouagadougou, Burkina Faso data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Ouagadougou, Burkina Faso</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_ODG</URL>
                 <Description>I2_AV_ODG</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Orroral, Australia data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Orroral, Australia</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_ORR</URL>
                 <Description>I2_AV_ORR</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Ottawa, Canada data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Ottawa, Canada</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_OTT</URL>
                 <Description>I2_AV_OTT</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Quito, Equador data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Quito, Equador</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_QUI</URL>
                 <Description>I2_AV_QUI</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Resolute Bay, Canada data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Resolute Bay, Canada</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_RES</URL>
                 <Description>I2_AV_RES</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Santiago, Chile data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Santiago, Chile</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_SNT</URL>
                 <Description>I2_AV_SNT</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Sodankyla, Finland data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Sodankyla, Finland</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_SOD</URL>
                 <Description>I2_AV_SOD</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Falkland Is., U.K. data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Falkland Is., U.K.</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_SOL</URL>
                 <Description>I2_AV_SOL</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Syowa Base, Antartica data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Syowa Base, Antartica</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_SYO</URL>
                 <Description>I2_AV_SYO</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Tromso, Norway data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Tromso, Norway</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_TRO</URL>
                 <Description>I2_AV_TRO</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Fairbanks, Alaska data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Fairbanks, Alaska</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_ULA</URL>
                 <Description>I2_AV_ULA</Description>
             </AccessURL>
             <AccessURL>
-                <Name>Winkfield, U.K. data from CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <Name>Winkfield, U.K.</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesI.html#I2_AV_WNK</URL>
                 <Description>I2_AV_WNK</Description>
             </AccessURL>
             <Format>CDF</Format>
