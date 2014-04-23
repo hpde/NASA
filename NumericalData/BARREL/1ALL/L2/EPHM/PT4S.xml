@@ -1,0 +1,156 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2.xsd"><Version>2.2.2</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/BARREL/1All/L2/EPHM/PT4S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BARREL Level 2 Ephemeris 4-s Data from 2013 Launches</ResourceName>
+      <ReleaseDate>2014-03-27T13:42:04Z</ReleaseDate>
+      <Description>This data group contains ephemeris data (Lat, Long, Alt, and Time) from multiple balloons of the BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) investigation in 2013. Data include geographic and magnetic coordinates. Geographic coordinates are obtained from onboard GPS unit; magnegic coordinates are derived using the IRBEM FORTRAN library for Kp=2 and Kp=6. Data products are each returned from the payload once every 4s.
+</Description>
+      <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Access to all releases of BARREL data and links to the Science Operation Center tools.</Name>
+        <URL>http://barreldata.ucsc.edu</URL>
+        <Description>BARREL Data Repository and Tools</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>BARREL Fact Sheet at PI site</Name>
+        <URL>http://www.dartmouth.edu/~barrel/documents/BARREL_fact_sheet.pdf</URL>
+        <Description>BARREL Data Repository and Tools</Description>
+      </InformationURL> 
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/barrel/l2</URL>
+        <Description>In CDF via ftp from CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
+        <Description>In CDF via http from CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the CDAWeb team at NASA/GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+     <Name>Subset, plot, list from CDAWeb</Name>
+<URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+<Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
+</AccessURL> 
+<AccessURL>
+<Name>Balloon 1A</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1A_L2_EPHM</URL>
+        <ProductKey>BAR_1A_L2_EPHM</ProductKey>
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1B</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1B_L2_EPHM</URL>
+        <ProductKey>BAR_1B_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1C</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1C_L2_EPHM</URL>
+        <ProductKey>BAR_1C_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1D</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1D_L2_EPHM</URL>
+        <ProductKey>BAR_1D_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1G</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1G_L2_EPHM</URL>
+        <ProductKey>BAR_1G_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+ <Name>Balloon 1H</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1H_L2_EPHM</URL>
+        <ProductKey>BAR_1H_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1I</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1I_L2_EPHM</URL>
+        <ProductKey>BAR_1I_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1J</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1J_L2_EPHM</URL>
+        <ProductKey>BAR_1J_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1K</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1K_L2_EPHM</URL>
+        <ProductKey>BAR_1K_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1M</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1M_L2_EPHM</URL>
+        <ProductKey>BAR_1M_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1O</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1O_L2_EPHM</URL>
+        <ProductKey>BAR_1O_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1Q</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1Q_L2_EPHM</URL>
+        <ProductKey>BAR_1Q_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1R</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1R_L2_EPHM</URL>
+        <ProductKey>BAR_1R_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1S</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1S_L2_EPHM</URL>
+        <ProductKey>BAR_1S_L2_EPHM</ProductKey>     
+      </AccessURL>      
+      <AccessURL>
+ <Name>Balloon 1T</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1T_L2_EPHM</URL>
+        <ProductKey>BAR_1T_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1U</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1U_L2_EPHM</URL>
+        <ProductKey>BAR_1U_L2_EPHM</ProductKey>     
+      </AccessURL>
+      <AccessURL>
+<Name>Balloon 1V</Name>
+        <URL>http://cdaweb.gsfc.nasa.gov/misc/NotesB.html#BAR_1V_L2_EPHM</URL>
+        <ProductKey>BAR_1V_L2_EPHM</ProductKey>         
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2013-01-28T12:38:10.000Z</StartDate>
+        <StopDate>2013-02-17T00:04:13.000Z</StopDate>     
+      </TimeSpan>
+      <Cadence>PT4S</Cadence>      
+    </TemporalDescription>
+<ObservedRegion>Earth.NearSurface.Stratosphere</ObservedRegion>
+<Caveats>Known hardware and calibration issues are:
+Payload 1L - Lost contact on ascent, returned no science data; 
+Payload 1N - GPS failure early in flight => location and timing errors exist; 
+Paylaod 1W - balloon failed on launch, returned no science data. </Caveats>   </NumericalData>
+</Spase>
