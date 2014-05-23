@@ -3,7 +3,7 @@
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/SOHO/MV</ResourceID>
         <ResourceHeader>
-            <ResourceName>SOHO Solar Coronal and UV daily Movies</ResourceName>
+            <ResourceName>SOHO Solar Coronal and UV Movies</ResourceName>
             <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
             <Description>Movies from the SOHO LASCO and EIT dectors of the Sun's atmosphere</Description>
             <Contact>
@@ -21,8 +21,18 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>LASCO site at Naval Research Lab</Name>
+                <Name>LASCO daily movies from NRL</Name>
                 <URL>http://lasco-www.nrl.navy.mil/daily_mpg/</URL>
+            </AccessURL>
+            <Format>MPEG</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Near Real Time Movies</Name>
+                <URL>http://sohodata.nascom.nasa.gov/cgi-bin/soho_movie_theater</URL>
             </AccessURL>
             <Format>MPEG</Format>
         </AccessInformation>
