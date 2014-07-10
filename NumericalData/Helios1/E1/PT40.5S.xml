@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data</ResourceName>
             <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
-            <Description>Helios 1 40-second merged magnetic field and plasma data via VHO</Description>
+            <Description>Helios 1 40-second merged magnetic field and plasma data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
                 <Role>DataProducer</Role>
@@ -26,6 +26,18 @@
                 <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/</URL>
                 <Description>HTTP path at SPDF</Description>
             </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_public/</URL>
+                <ProductKey>HELIOS1_40SEC_MAG-PLASMA</ProductKey>
+                <Description>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data in SPDF repository</Description>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Virtual Heliospheric Observatory - VHO</Name>
                 <URL>http://vho.nasa.gov/</URL>
