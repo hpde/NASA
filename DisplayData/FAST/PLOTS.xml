@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/FAST/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST spin-resolution summary plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2014-08-04T00:00:00</ReleaseDate>
             <Description>This data set displays summary plots of spin resolution (5-sec) electric and magnetic AC and DC fields data, energetic particle data, plasma waves and plasma data directly from UCB.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
@@ -33,8 +33,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FAST home page at UCB</Name>
-                <URL>http://plasma2.ssl.berkeley.edu/fast/</URL>
+                <Name>FAST Summary Data Selection</Name>
+                <URL>http://sprg.ssl.berkeley.edu/htbin/fastcgi/sumplotsNetscape/recentplot.pl</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>
