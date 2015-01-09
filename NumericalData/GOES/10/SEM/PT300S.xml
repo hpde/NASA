@@ -30,11 +30,17 @@
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>G0_K0_EP8</ProductKey>
             </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GOES data online at NOAA</Name>
-                <URL>http://www.sec.noaa.gov/Data/goes.html</URL>
+                <URL>http://www.ngdc.noaa.gov/stp/satellite/goes/</URL>
             </AccessURL>
-            <Format>CDF</Format>
+            <Format>Text</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/GOES/10/SEM</InstrumentID>

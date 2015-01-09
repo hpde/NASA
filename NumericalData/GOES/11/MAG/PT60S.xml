@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GOES/11/MAG/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>GOES 11 MAG 1-Min Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2014-01-09T10:00:00</ReleaseDate>
             <Description>GOES 11 Magnetometer 1-Min Key Parameters, in GSE and GSM Coordinates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
@@ -31,11 +31,17 @@
                 <ProductKey>GOES11_K0_MAG</ProductKey>
                 <Description>GOES11_K0_MAG</Description>
             </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NOAA/NGDC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GOES data online at NOAA</Name>
-                <URL>http://www.sec.noaa.gov/Data/goes.html</URL>
+                <URL>http://www.ngdc.noaa.gov/stp/satellite/goes/</URL>
             </AccessURL>
-            <Format>CDF</Format>
+            <Format>Text</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/GOES/11/MAG</InstrumentID>
