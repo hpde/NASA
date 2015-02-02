@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ST5-224/Ephemeris/PT1M</ResourceID>
         <ResourceHeader>
-            <ResourceName>ST5-224 1-min Position Data</ResourceName>
-            <ReleaseDate>2013-05-22T00:00:00</ReleaseDate>
+            <ResourceName>ST5-224 satellite position and magnetic field data</ResourceName>
+            <ReleaseDate>2015-02-02T00:00:00</ReleaseDate>
             <Description>ST5-C satellite position and magnetic field model information.</Description>
             <!-- Automatically generated for SSC on 2013-05-22T13:55:29Z -->
             <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
@@ -23,7 +22,30 @@
                 <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
                 <ProductKey>st5c</ProductKey>
             </AccessURL>
+            <AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL> ftp://spdf.gsfc.nasa.gov/pub/data/st5/224/</URL>
+                <Description> NASA/GSFC CDAWeb ftp access to the data.</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL> http://spdf.gsfc.nasa.gov/pub/data/st5/224/</URL>
+                <Description> NASA/GSFC CDAWeb ftp access to the data.</Description>
+            </AccessURL>
             <Format>CDF</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>CDAWeb</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <ProductKey>ST5-224_1SEC_MAG</ProductKey>
+                <Description>Tri-axial magnetometer data from NASA Space Technology 5.</Description>
+            </AccessURL>
+            <Format>Text</Format>
+            <Acknowledgement> Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/ST5-224/Ephemeris</InstrumentID>
         <MeasurementType>Ephemeris</MeasurementType>
@@ -262,7 +284,7 @@
         <Parameter>
             <Name>GEO local time</Name>
             <ParameterKey>GEO_LCT_T</ParameterKey>
-            <Description></Description>
+            <Description/>
             <Units>hours</Units>
             <ValidMin>0.0</ValidMin>
             <ValidMax>24.0</ValidMax>
@@ -346,7 +368,7 @@
         <Parameter>
             <Name>GM local time</Name>
             <ParameterKey>GM_LCT_T</ParameterKey>
-            <Description></Description>
+            <Description/>
             <Units>hours</Units>
             <ValidMin>0.0</ValidMin>
             <ValidMax>24.0</ValidMax>
@@ -430,7 +452,7 @@
         <Parameter>
             <Name>GSE local time</Name>
             <ParameterKey>GSE_LCT_T</ParameterKey>
-            <Description></Description>
+            <Description/>
             <Units>hours</Units>
             <ValidMin>0.0</ValidMin>
             <ValidMax>24.0</ValidMax>
@@ -585,7 +607,7 @@
         <Parameter>
             <Name>SM local time</Name>
             <ParameterKey>SM_LCT_T</ParameterKey>
-            <Description></Description>
+            <Description/>
             <Units>hours</Units>
             <ValidMin>0.0</ValidMin>
             <ValidMax>24.0</ValidMax>
