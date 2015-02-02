@@ -1,12 +1,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/PT24HR</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2HR</ResourceID>
         <ResourceHeader>
-            <ResourceName>ACE SWICS Solar Wind Daily-averaged Data </ResourceName>
+            <ResourceName>ACE SWICS Solar Wind 2-Hour Data</ResourceName>
             <ReleaseDate>2012-09-18T00:00:00</ReleaseDate>
-            <Description>This ACE data set contains Solar Wind Ion Composition Spectrometer (SWICS) level-2 daily averaged solar wind parameters, including
-composition (He/O, C/O, N/O, Ne/O, Mg/O, Si/O, S/O, Fe/O), bulk ion speed (He+2) and charge states (C+6/C+5, O+7/O+6 Carbon, Oxygen, Fe) at all solar wind speeds above 300 km/s (protons) and 170 km/s (Fe+16). Distribution functions of H and He isotopes are measured of both solar and interstellar sources up to energies of 100 keV/e.  Please note the N/O and S/O composition data are not present in the 1-hour or 2-hour SWICS datasets. </Description>
+            <Description>This ACE data set contains Solar Wind Ion Composition Spectrometer (SWICS) level-2 2-hr averaged solar wind parameters, including
+density (He+2), bulk and thermal ion speeds (He+2, C+5, O+6, Fe+10), composition (He/O, C/O, Ne/O, Mg/O, Si/O, Fe/O), and charge states (C+6/C+5, O+7/O+6 Carbon, Oxygen, Fe, Ne, Mg, Si) and solar wind type indicators at all solar wind speeds above 300 km/s (protons) and 170 km/s (Fe+16). Distribution functions of H and He isotopes are measured of both solar and interstellar sources up to energies of 100 keV/e. </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -23,16 +23,16 @@ composition (He/O, C/O, N/O, Ne/O, Mg/O, Si/O, S/O, Fe/O), bulk ion speed (He+2)
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov</URL>
-                <ProductKey>AC_H4_SWI</ProductKey>
+                <ProductKey>AC_H3_SWI</ProductKey>
             </AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h4/</URL>
-                <Description>AC_H4_SWI</Description>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
+                <Description>AC_H3_SWI</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h4/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>
@@ -45,10 +45,10 @@ composition (He/O, C/O, N/O, Ne/O, Mg/O, Si/O, S/O, Fe/O), bulk ion speed (He+2)
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1998-01-01T00:00:00</StartDate>
-                <RelativeStopDate>-P9M</RelativeStopDate>
-                <Note>Data are presently ~9 months delayed</Note>
+                <RelativeStopDate>-P14M</RelativeStopDate>
+                <Note>Data are presently ~14 months delayed</Note>
             </TimeSpan>
-            <Cadence>PT24H</Cadence>
+            <Cadence>PT2H</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     </NumericalData>
