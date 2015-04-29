@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Aeros-A/RPA/PT5S</ResourceID>
         <ResourceHeader>
             <ResourceName>AEROS-A RPA ion and electron data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2015-04-29T00:00:00</ReleaseDate>
             <Description>AEROS-A RPA ionospheric ion composition and temperature and electron density and temperature data; variable resolution as fine as 5-s</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -18,16 +18,16 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/aeros.html</URL>
+                <URL>http://omniweb.sci.gsfc.nasa.gov/ftpbrowser/aeros.html</URL>
             </AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa_ascii/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa/</URL>
-                <Description>In CDF via HTTP from SPDF</Description>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa_ascii/</URL>
+                <Description>In ascii via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
