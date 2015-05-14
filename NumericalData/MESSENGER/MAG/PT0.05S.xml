@@ -1,10 +1,10 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+    <Version>2.2.3</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
         <ResourceHeader>
             <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20Hz</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2015-04-29T00:00:00</ReleaseDate>
             <Description>This MESSENGER/MAG data set contains cruise-phase
 magnetic field vectors in RTN coordinates at time resolutions typically
 of 0.5s or 1.0s and sometimes as fine as 0.05s.</Description>
@@ -17,7 +17,7 @@ Anderson of JHU_APL, and the organization from which the data were
             </Contact>
             <InformationURL>
                 <Name>PDS Data Descriptive page</Name>
-                <URL>http://starbrite.jpl.nasa.gov/pds/viewProfile.jsp?dsid=MESS-E/V/H/SW-MAG-3-CDR-CALIBRATED-V1.0</URL>
+                <URL>https://starbrite.jpl.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=MESS-E/V/H/SW-MAG-3-CDR-CALIBRATED-V1.0</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</PriorID>
         </ResourceHeader>

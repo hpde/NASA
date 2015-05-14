@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/FAST/HResDATA</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST high resolution data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2014-08-04T00:00:00</ReleaseDate>
             <Description>High resolution data obtained by various instruments in the auroral region are available from UCB. They include electric and magnetic AC and DC fields data, energetic particle data, plasma waves and plasma data.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
@@ -33,8 +33,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FAST home page at UCB</Name>
-                <URL>http://plasma2.ssl.berkeley.edu/fast/</URL>
+                <Name>FAST Hi_Resolution CDFs</Name>
+                <URL>http://sprg.ssl.berkeley.edu/fast/hires/</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>

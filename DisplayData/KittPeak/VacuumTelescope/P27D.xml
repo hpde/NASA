@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/KittPeak/VacuumTelescope/P27D</ResourceID>
         <ResourceHeader>
             <ResourceName>NSO/KP Coronal Hole Maps</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2014-08-04T00:00:00</ReleaseDate>
             <Description>These are PDF files organized as one plot (one file) per 27.27 day Carrington rotation.  The files are determined from 1083 nm He I observations made at Kitt Peak.</Description>
             <Acknowledgement>Acknowledge Karen Harvey, Frank Recely and the National Solar Observatory at Kitt Peak</Acknowledgement>
             <Contact>
@@ -22,8 +22,8 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>NSO Kitt Peak site</Name>
-                <URL>ftp://nsokp.nso.edu/kpvt/synoptic/choles/</URL>
+                <Name>National Geophysical Data Center ftp site</Name>
+                <URL>ftp://ftp.ngdc.noaa.gov/STP/SGD/sgdpdf/</URL>
             </AccessURL>
             <Format>PDF</Format>
         </AccessInformation>
