@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
     <Version>2.2.3</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/MMS/3/Ephemeris</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/MMS/2/Ephemeris/PT1M</ResourceID>
         <ResourceHeader>
-            <ResourceName>MMS-3 Level 2 Position Data</ResourceName>
+            <ResourceName>MMS-2 Level 2 Position Data</ResourceName>
             <ReleaseDate>2015-05-06T00:00:00</ReleaseDate>
-            <Description>Aggregate of multiple MMS 3 Level 2 position products:
+            <Description>Aggregate of multiple MMS 2 Level 2 position products:
 - an earlier (pre-launch) long-range prediction that extends 2 years forward at 1 min resolution- MMSn (Proposed)
  - a more recent (post-launch) long-range prediction that only extends one year at 1 min resolution - MMSn (Predicted)
  - and  a definitive ephem at 30s resolution .  </Description>
@@ -40,8 +40,15 @@
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
-        <InstrumentID>spase://SMWG/Instrument/MMS/3/Ephemeris</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/MMS/2/Ephemeris</InstrumentID>
         <MeasurementType>Ephemeris</MeasurementType>
+       <TemporalDescription>
+            <TimeSpan>
+                <StartDate>2015-03-13T04:30:00</StartDate>
+                <RelativeStopDate>P3Y</RelativeStopDate>
+            </TimeSpan>
+            <Cadence>PT1M</Cadence>
+        </TemporalDescription>
                 <Parameter>
             <Name>Epoch Time</Name>
             <ParameterKey>Epoch</ParameterKey>
