@@ -34,20 +34,6 @@
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>Virtual Heliospheric Observatory - VHO</Name>
-                <URL>http://vho.nasa.gov/</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>VHO Data Finder (including graphics)</Name>
-                <URL>http://vho.nasa.gov/vxo/index.php?rid=spase://VHO/NumericalData/Helios2/Combined/PT40.5S&amp;mtype=MagneticField</URL>
-            </AccessURL>
-            <Format>Text</Format>
-        </AccessInformation>
         <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Helios2/E3</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/Helios2/E1</InstrumentID>
