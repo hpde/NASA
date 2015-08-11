@@ -57,7 +57,12 @@ Level 3 data include the pitch angles of the six telescopes, based upon the meas
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>CDAWeb</Name>
+                <Name>CDAWeb data before Jan 15,2015</Name>
+                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO-0</ProductKey>
+            </AccessURL>
+            <AccessURL>
+                <Name>CDAWeb data after Jan 15,2015</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_TOFXEO</ProductKey>
             </AccessURL>
