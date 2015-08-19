@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.3</Version>
     <NumericalData>
@@ -25,7 +24,7 @@ For a full explanation, see the description at http://stereo-ssc.nascom.nasa.gov
             </InformationURL>
             <InformationURL>
                 <Name>Readme at STEREO Science Center</Name>
-                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/HePlus/READ_ME_PLASTIC_HePlus_Fluxes.pdf</URL>
+                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/HePlus/HePlus_flux/READ_ME_PLASTIC_HePlus_Fluxes.pdf</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -38,12 +37,12 @@ For a full explanation, see the description at http://stereo-ssc.nascom.nasa.gov
                 <ProductKey>STA_L3_PLA_HEPLUS_24HR</ProductKey>
             </AccessURL>
             <AccessURL>
-              <Name>FTP access to files at SPDF</Name>
-              <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr</URL>
-             </AccessURL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr</URL>
+            </AccessURL>
             <AccessURL>
-              <Name>HTTP access to files at SPDF</Name>
-              <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -63,7 +62,7 @@ For a full explanation, see the description at http://stereo-ssc.nascom.nasa.gov
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>STEREO Science Center - CDF</Name>
-                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/HePlus/CDFs/</URL>
+                <URL>http://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/HePlus/HePlus_flux/CDFs/</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -79,5 +78,3 @@ For a full explanation, see the description at http://stereo-ssc.nascom.nasa.gov
         <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
     </NumericalData>
 </Spase>
-
-
