@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.3</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT3600S</ResourceID>
-        <ResourceHeader>
-            <ResourceName>ACE SWICS Solar Wind 1-Hour Data </ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
-            <Description>ACE SWICS_SWIMS L2 1-hr, 1-d, 27-d solar wind He, Mg, O, Fe TnV data, plus species ratios and charge states, at ASC</Description>
+ <ResourceHeader>
+ <ResourceName>ACE SWICS 1.1 Solar Wind 1-Hour Data </ResourceName>
+ <ReleaseDate>2015-08-19T00:00:00</ReleaseDate>
+            <Description>ACE SWICS_SWIMS 1.1 L2 1-hr, 1-d, 27-d solar wind He, Mg, O, Fe TnV data, plus species ratios and charge states, at ASC.  This SWICS 1.1 dataset consists of a re-release of significantly improved time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. It is a major new version produced with completely redesigned analysis methods to account more rigorously for instrumental and statistical effects (Shearer et al. 2014). Rare elements are now identified more reliably and estimates of statistical error are provided. These release notes describe the data, the methods used to determine them, and issues of data quality and measurement uncertainty.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -44,10 +44,10 @@
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1998-01-23T00:00:00</StartDate>
-                <RelativeStopDate>-P2M</RelativeStopDate>
-                <Note>Data are presently ~2 months delayed</Note>
-            </TimeSpan>
-            <Cadence>PT3600S</Cadence>
+                <StopDate>2011-08-23T00:00:00</StopDate>
+                <Note> The ACE SWICS 1.1 data set covers launch up to August 23, 2011, when a radiation and age-induced hardware anomaly altered the instrument's operational state. </Note>           
+</TimeSpan>
+                       <Cadence>PT3600S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     </NumericalData>
