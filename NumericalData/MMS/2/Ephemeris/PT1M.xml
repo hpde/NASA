@@ -5,11 +5,8 @@
         <ResourceID>spase://VSPO/NumericalData/MMS/2/Ephemeris/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>MMS-2 Level 2 Position Data</ResourceName>
-            <ReleaseDate>2015-05-06T00:00:00</ReleaseDate>
-            <Description>Aggregate of multiple MMS 2 Level 2 position products:
-- an earlier (pre-launch) long-range prediction that extends 2 years forward at 1 min resolution- MMSn (Proposed)
- - a more recent (post-launch) long-range prediction that only extends one year at 1 min resolution - MMSn (Predicted)
- - and  a definitive ephem at 30s resolution .  </Description>
+            <ReleaseDate>2015-09-15T00:00:00</ReleaseDate>
+            <Description>Grouping of 2 active versions of MMS-2 Level 2 position products: -  a definitive MMS-2 orbit (from the MEC L2 product produced at LANL) - and  the latest 3-year predict (generated from the SPICE kernels,which is what Flight Dynamics used and supplied to the JPL portal).  </Description>
             <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
