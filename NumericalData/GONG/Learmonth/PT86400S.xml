@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GONG/Learmonth/PT86400S</ResourceID>
         <ResourceHeader>
             <ResourceName>GONG Solar Data from Learmonth</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2015-10-21T00:00:00Z</ReleaseDate>
             <Description>GONG (Global Oscillations Network Group) helioseismology data from Learmonth Observatory, LOS_velocity and LOS_magnetic field data, 6768 A.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Frank.Hill</PersonID>
@@ -27,6 +27,7 @@
             <Format>FITS</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Learmonth/GONG</InstrumentID>
         <MeasurementType>Dopplergram</MeasurementType>
         <MeasurementType>Magnetogram</MeasurementType>
         <MeasurementType>ImageIntensity</MeasurementType>
