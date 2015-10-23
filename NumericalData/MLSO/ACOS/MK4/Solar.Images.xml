@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MLSO/ACOS/MK4/Solar.Images</ResourceID>
         <ResourceHeader>
             <ResourceName>Mauna Loa Solar Observatory ACOS/MK4 Images</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
             <Description>Mauna Loa Solar Observatory (MLSO) solar coronal images and movies in white light polarization brightness from the Mark-IV (Mk4) instrument of the Advanced Coronal Observing System (ACOS)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
@@ -27,8 +27,8 @@
             <Format>FITS</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/MK4</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/MK4</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

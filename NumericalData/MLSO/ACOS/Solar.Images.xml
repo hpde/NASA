@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MLSO/ACOS/Solar.Images</ResourceID>
         <ResourceHeader>
             <ResourceName>Solar Imagery from Mauna Loa Solar Observatory at HAO</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
             <Description>Mauna Loa Solar Observatory (MLSO) solar images and movies from the Advanced Coronal Observing System (ACOS), the Experiment for Coordinated Helioseismic Observations (ECHO) and the Precision Solar Photometric Telescope (PSPT).  ACOS includes the Chromospheric Helium Imaging Photometer (CHIP, 1083.0 nm), H-alpha prominence and solar disk monitor (PICS, 656.2 nm), and the Mk4 K-coronameter (sees white light K-corona from 1.12 to 2.79 solar radii).  ECHO observes oscillations in solar surface radial velocities.  PSPT observes the solar disk in three bandpasses: 605-610 nm (red), 408-412 nm (blue) and 393 nm (Ca II K). Some MLSO data contribute to the GONG program.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
@@ -35,12 +35,12 @@
             <Format>FITS</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/PICS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/MK4</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/ECHO</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/PSPT</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/CHIP</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PICS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/MK4</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ECHO</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PSPT</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
         <MeasurementType>Dopplergram</MeasurementType>
         <TemporalDescription>

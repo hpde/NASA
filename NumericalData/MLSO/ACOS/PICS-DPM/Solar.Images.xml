@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MLSO/ACOS/PICS-DPM/Solar.Images </ResourceID>
         <ResourceHeader>
             <ResourceName>Mauna Loa Solar Observatory PICS and DPM Images</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
             <Description>Mauna Loa Solar Observatory (MLSO) H-alpha solar disk and limb images and movies from the Polarimeter for Inner Coronal Studies (PICS) and the Digital Prominence Monitor (DPM) that PICS replaced in September, 1997.  PICS is part of the Advanced Coronal Observing System (ACOS). As of early 2005, VSO used 'dpm' for both DPM and PICS.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
@@ -27,9 +27,9 @@
             <Format>FITS</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/PICS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/DPM</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PICS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/DPM</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
         <TemporalDescription>
             <TimeSpan>

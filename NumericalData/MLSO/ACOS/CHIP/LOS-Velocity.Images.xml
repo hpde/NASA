@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MLSO/ACOS/CHIP/LOS-Velocity.Images</ResourceID>
         <ResourceHeader>
             <ResourceName>Mauna Loa Solar Observatory ACOS/CHIP LOS_Velocity Images</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
             <Description>Mauna Loa Solar Observatory (MLSO) solar line-of-sight velocity images (dopplergrams) and movies from the Chromospheric Helium Imaging Photometer (CHIP, 1083.0 nm) of the Advanced Coronal Observing System (ACOS).  As of early 2005, VSO used 'chp' rather than 'CHIP'.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
@@ -27,8 +27,8 @@
             <Format>FITS</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/CHIP</InstrumentID>
         <MeasurementType>Dopplergram</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
