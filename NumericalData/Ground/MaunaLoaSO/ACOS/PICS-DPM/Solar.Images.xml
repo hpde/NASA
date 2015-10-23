@@ -1,0 +1,45 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <NumericalData>
+        <ResourceID>spase://VSPO/NumericalData/Ground/MaunaLoaSO/ACOS/PICS-DPM/Solar.Images </ResourceID>
+        <ResourceHeader>
+            <ResourceName>Mauna Loa Solar Observatory PICS and DPM Images</ResourceName>
+             <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
+            <Description>Mauna Loa Solar Observatory (MLSO) H-alpha solar disk and limb images and movies from the Polarimeter for Inner Coronal Studies (PICS) and the Digital Prominence Monitor (DPM) that PICS replaced in September, 1997.  PICS is part of the Advanced Coronal Observing System (ACOS). As of early 2005, VSO used 'dpm' for both DPM and PICS.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <PriorID>spase://VSPO/NumericalData/P_MLSO_HDR_DPM_INTENS</PriorID>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/HAO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Mauna Loa Solar Observatory (MLSO) homepage at HAO</Name>
+                <URL>http://www2.hao.ucar.edu/mlso/mlso-home-page</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>Virtual Solar Observatory</Name>
+                <URL>http://www.virtualsolar.org/</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
+        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PICS</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/Ground/MaunaLoaSO/DPM</InstrumentID>
+        <MeasurementType>ImageIntensity</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1994-02-02T00:00:00</StartDate>
+                <RelativeStopDate>-P1D</RelativeStopDate>
+                <Note>Data are available to current day</Note>
+            </TimeSpan>
+        </TemporalDescription>      <!--InstrumentRegion=Heliosphere.NearEarth-->
+        <ObservedRegion>Sun.Corona</ObservedRegion>
+        <ObservedRegion>Sun.Chromosphere</ObservedRegion>
+        <ObservedRegion>Sun</ObservedRegion>
+    </NumericalData>
+</Spase>
