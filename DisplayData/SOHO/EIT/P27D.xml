@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+    <Version>2.2.6</Version>
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/SOHO/EIT/P27D</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO EIT Coronal Synoptic Maps</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
             <Description>For each Carrington rotation, there are two coronal
 synoptic maps of the sun in each of 3 Fe lines (171A, 195A, 284A) and 
 in He (304A)  These maps are from the Extreme Ultraviolet Imaging Telescope 
@@ -40,6 +41,16 @@ several sets of such maps</Description>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>EIT EUV maps at MEDOC</Name>
+                <URL>http://idoc-solar.ias.u-psud.fr/sitools/client-user/Solar/project-index.html</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/SOHO/EIT</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
         <TemporalDescription>
@@ -52,3 +63,5 @@ several sets of such maps</Description>
         <ObservedRegion>Sun.Corona</ObservedRegion>
     </DisplayData>
 </Spase>
+
+

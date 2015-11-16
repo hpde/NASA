@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.6</Version>
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/STEREO-B/SECCHI/Images</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B SECCHI telescopes images and movies</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+         <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
             <Description>Images and movies from each of the STEREO SECCHI 
 (Sun Earth Connection Coronal and Heliospheric Investigation) 
 telescopes (EUVI, COR1, COR2, HI), with images at the cadence 
@@ -48,6 +49,17 @@ May, 2008, DOI: 10.1007/s11214-008-9341-4</Description>
             </AccessURL>
             <Format>JPEG</Format>
         </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SECCHI movie site at IAS MEDOC</Name>
+                <URL>http://www.ias.u-psud.fr/festival_movies/</URL>
+                <Description>Movies</Description>
+            </AccessURL>
+            <Format>JPEG</Format>
+        </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/STEREO-B/SECCHI</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
         <TemporalDescription>
@@ -65,3 +77,5 @@ current.</Note>
         <ObservedRegion>Heliosphere.Inner</ObservedRegion>
     </DisplayData>
 </Spase>
+
+
