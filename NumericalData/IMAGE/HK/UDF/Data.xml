@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/HK/UDF/Data</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE housekeeping data in UDF, all instruments</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2016-02-08T00:00:00</ReleaseDate>
             <Description>This is a set of data at multiple processing levels from all IMAGE instruments.   Built by a UNIX-afficionado requiring editing .cshrc's, etc., the data are in Universal Data Format (UDF), and at the moment, has no PC install documentation. UDF software is available to read the IMAGE UDF files.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
@@ -104,7 +104,7 @@
         <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/IMAGE/FUV</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/IMAGE/EUV</InstrumentID>
-        <MeasurementType>Waves.Passive</MeasurementType>
+        <MeasurementType>InstrumentStatus</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2000-05-01T00:00:00</StartDate>

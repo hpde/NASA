@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/HK/CDAWeb/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE Housekeeping Data via CDAWeb</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2016-02-08T00:00:00</ReleaseDate>
             <Description>This set of housekeeping data from the IMAGE mission comes from the Central Interface Data Processor (CIDP) and the interface with the Spacecraft/System Control Unit (SCU).   The CIDP provides the following major functions for the Observatory:
 (1) Instrument data acquisition, processing, and compression.
 (2) Stored command processing.
@@ -219,7 +219,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <Format>Text</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/IMAGE/HK</InstrumentID>
-        <MeasurementType>Waves.Active</MeasurementType>
+        <MeasurementType>InstrumentStatus</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>2000-03-25T00:00:00.000Z</StartDate>
