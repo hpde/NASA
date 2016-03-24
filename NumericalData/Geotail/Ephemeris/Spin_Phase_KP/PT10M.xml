@@ -21,12 +21,12 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/spha/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/spha/</URL>
                 <Description>FTP access the data from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/spha/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/spha/</URL>
                 <Description>HTTP access to the data from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
