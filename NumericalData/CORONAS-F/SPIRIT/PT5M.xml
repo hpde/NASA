@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.6</Version>
     <NumericalData>
-        <ResourceID>spase://SMWG/NumericalData/CORONAS-F/SPIRIT/PT5M</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/CORONAS-F/SPIRIT/PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>CORONAS-F Full Sun XUV Spectroscopy Imaging (SPIRIT) Data</ResourceName>
-            <ReleaseDate>2015-11-20T00:00:00</ReleaseDate>
+            <ReleaseDate>2016-04-12T00:00:00</ReleaseDate>
             <Description>Data from the Full Sun XUV Spectroscopy Imaging (SPIRIT) onboard CORONAS-F.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/I.A.Zhitnik</PersonID>
@@ -13,7 +12,7 @@
             </Contact>
             <InformationURL>
                 <Name>Information about SPIRIT Data</Name>
-                <URL>http://coronas.izmiran.rssi.ru/F/SPIRIT/</URL>
+                <URL>http://coronas.izmiran.ru/F/SPIRIT//</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessInformation>
@@ -41,5 +40,3 @@
         <ObservedRegion>Sun</ObservedRegion>
     </NumericalData>
 </Spase>
-
-
