@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/SOHO/MDI/VSO</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO MDI Images via VSO</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
             <Description>Multiple general and specialized products at multiple processing levels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Rick.Bogart</PersonID>
@@ -19,6 +20,16 @@
             <AccessURL>
                 <Name>Virtual Solar Observatory - VSO</Name>
                 <URL>http://www.virtualsolar.org</URL>
+            </AccessURL>
+            <Format>FITS</Format>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>MEDOC site</Name>
+                <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
             </AccessURL>
             <Format>FITS</Format>
         </AccessInformation>
@@ -38,3 +49,5 @@
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
     </NumericalData>
 </Spase>
+
+

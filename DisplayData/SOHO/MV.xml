@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/SOHO/MV</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO Solar Coronal and UV Movies</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+             <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
             <Description>Movies from the SOHO LASCO and EIT dectors of the Sun's atmosphere</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
@@ -36,6 +37,17 @@
             </AccessURL>
             <Format>MPEG</Format>
         </AccessInformation>
+       <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Movies Archive at IAS MEDOC</Name>
+                <URL>http://www.ias.u-psud.fr/festival_movies/</URL>
+                <Description>Movies</Description>
+            </AccessURL>
+            <Format>MPEG</Format>
+        </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/SOHO/EIT</InstrumentID>
@@ -53,3 +65,5 @@
         <ObservedRegion>Sun</ObservedRegion>
     </DisplayData>
 </Spase>
+
+

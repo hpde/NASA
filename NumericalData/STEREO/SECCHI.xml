@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.6</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/STEREO/SECCHI</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO SECCHI data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+             <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
             <Description>STEREO SECCHI data at VSO</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
@@ -22,6 +23,16 @@
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>MEDOC site</Name>
+                <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/STEREO-A/SECCHI</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/STEREO-B/SECCHI</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -33,3 +44,5 @@
         </TemporalDescription>
     </NumericalData>
 </Spase>
+
+
