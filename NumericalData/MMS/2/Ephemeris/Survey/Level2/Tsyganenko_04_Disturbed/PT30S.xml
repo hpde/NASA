@@ -5,9 +5,8 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/2/Ephemeris/Survey/Level2/Tsyganenko_04_Disturbed/PT30S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS2 Magnetic Ephemeris and Coordinates MEC MMS 2 Magnetic Ephemeris and Support (Tsyganenko 2004 Model, Disturbed Conditions), Quick-Look Survey</ResourceName>
-         <ReleaseDate>2016-05-11T12:34:56.789</ReleaseDate>
-         <Description>MEC&gt;Magnetic Ephemeris and Coordinates
-                      MMS MEC Magnetic ephemeris and coordinates, Level 2 science data. PI institution is Los Alamos National Laboratory (LANL)</Description>
+         <ReleaseDate>2016-05-17T12:34:56.789</ReleaseDate>
+         <Description>Magnetospheric Multiscale 2 (MMS 2) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Survey (30 s) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 2004 magnetic field model for disturbed magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft, If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinatte transformation from GEI into 6 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
          <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Michael.G.Henderson</PersonID>
@@ -26,12 +25,12 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>At GSFC</Name>
+            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC)</Name>
             <URL>http://mms.gsfc.nasa.gov</URL>
             <Description>MMS homepage</Description>
          </InformationURL>
          <InformationURL>
-            <Name>LASP SDC</Name>
+            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Name>
             <URL>http://lasp.colorado.edu/mms/sdc</URL>
             <Description>Science Data Center</Description>
          </InformationURL>
@@ -68,7 +67,7 @@
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2015-03-13T00:00:00.000</StartDate>
-            <StopDate>2016-03-27T23:59:59.999</StopDate>
+            <StopDate>2016-04-12T23:59:59.999</StopDate>
          </TimeSpan>
          <Cadence>PT30S</Cadence>
       </TemporalDescription>
@@ -78,6 +77,8 @@
          <Description>Nanoseconds from J2000 with leap seconds included.</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT30S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
             <ValueFormat>i29</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -96,6 +97,7 @@
          <Description>Dipole tilt angle. Rotation angle (around Y-axis) between GSM and SM coordinate systems. In units of degrees.</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
             <AxisLabel>mms2_mec_dipole_tilt</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -116,6 +118,7 @@
          <Description>Greenwich Mean Sidereal Time (GMST).</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
             <AxisLabel>mms2_mec_gmst</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -136,6 +139,11 @@
          <Description>Magnetic Latitude.</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>SM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_mlat</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -156,6 +164,11 @@
          <Description>Magnetic Local Time.</Description>
          <Cadence>PT30S</Cadence>
          <Units>h</Units>
+         <UnitsConversion>0.2617993877&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>SM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_mlt</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -175,7 +188,6 @@
          <ParameterKey>mms2_mec_l_dipole</ParameterKey>
          <Description>Dipole L-shell value.</Description>
          <Cadence>PT30S</Cadence>
-         <Units>h</Units>
          <RenderingHints>
             <AxisLabel>mms2_mec_l_dipole</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -195,6 +207,10 @@
          <Description>Quaternion rotation from GEI/J2000 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -233,6 +249,11 @@
          <Description>Right ascension (deg) and declination (deg) of angular momentum (L)</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>J2000</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -264,6 +285,7 @@
          <Description>L-phase (Sun-to-body-X dihedral angle about angular momentum vector L) (deg)</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>mms2_mec_ang_mom_phase</AxisLabel>
@@ -303,6 +325,7 @@
          <Description>Dst index from QinDenton files. Used as input to magnetic field models</Description>
          <Cadence>PT30S</Cadence>
          <Units>nT</Units>
+         <UnitsConversion>1.0e9&gt;T</UnitsConversion>
          <RenderingHints>
             <AxisLabel>mms2_mec_dst</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -359,7 +382,12 @@
          <ParameterKey>mms2_mec_r_eci</ParameterKey>
          <Description>Geocentric Equatorial Inertial (GEI/J2000) position vector of mms2 (km)</Description>
          <Cadence>PT30S</Cadence>
+         <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -396,6 +424,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -432,6 +464,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -468,6 +504,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -503,6 +543,10 @@
          <Description>Quaternion rotation from GEI/J2000 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -542,6 +586,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -578,6 +626,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -613,6 +665,10 @@
          <Description>Quaternion rotation from GEI/J2000 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -652,6 +708,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>SM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -688,6 +748,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>SM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -723,6 +787,10 @@
          <Description>Quaternion rotation from GEI/J2000 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -762,6 +830,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -798,6 +870,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -833,6 +909,10 @@
          <Description>Quaternion rotation from GEI/J2000 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -872,6 +952,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -908,6 +992,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -943,6 +1031,10 @@
          <Description>Quaternion rotation from GEI/J2000 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -981,6 +1073,11 @@
          <Description>Geodetic latitude of mms2 spacecraft</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_lat</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1001,6 +1098,11 @@
          <Description>Geodetic longitude of mms2 spacecraft</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_lon</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1021,6 +1123,11 @@
          <Description>Geodetic height of mms2 spacecraft. (Height above WGS84 Spheroid.)</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
+         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_height</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1040,6 +1147,11 @@
          <Description>Geocentric position vector (in km) of the Sun in GEI/J2000 Coordinates.</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
+         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1075,6 +1187,11 @@
          <Description>Geocentric position vector (in km) of the Moon in GEI/J2000 Coordinates.</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
+         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GEI</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1154,6 +1271,10 @@
          <Cadence>PT30S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1192,6 +1313,7 @@
          <Description>Southern loss cone angle. Degrees.</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
             <AxisLabel>mms2_mec_loss_cone_angle_s</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1212,6 +1334,7 @@
          <Description>Northern loss cone angle. Degrees.</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
             <AxisLabel>mms2_mec_loss_cone_angle_n</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1232,6 +1355,11 @@
          <Description>Geodetic latitude and longitude of southern footpoint (100km geodetic height) of field threading the mms2 spacecraft</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1263,6 +1391,11 @@
          <Description>Geodetic latitude and longitude of northern footpoint (100km geodetic height) of field threading the mms2 spacecraft</Description>
          <Cadence>PT30S</Cadence>
          <Units>&#176;</Units>
+         <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1295,6 +1428,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1331,6 +1468,10 @@
          <Cadence>PT30S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1370,6 +1511,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1406,6 +1551,10 @@
          <Cadence>PT30S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1445,6 +1594,10 @@
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1481,6 +1634,10 @@
          <Cadence>PT30S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSM</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>

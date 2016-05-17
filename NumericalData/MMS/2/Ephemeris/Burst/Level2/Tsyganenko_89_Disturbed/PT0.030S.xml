@@ -5,9 +5,8 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/2/Ephemeris/Burst/Level2/Tsyganenko_89_Disturbed/PT0.030S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS2 Magnetic Ephemeris and Coordinates MEC MMS 2 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Burst Survey</ResourceName>
-         <ReleaseDate>2016-05-11T12:34:56.789</ReleaseDate>
-         <Description>MEC&gt;Magnetic Ephemeris and Coordinates
-                      MMS MEC Magnetic ephemeris and coordinates, Level 2 science data. PI institution is Los Alamos National Laboratory (LANL)</Description>
+         <ReleaseDate>2016-05-17T12:34:56.789</ReleaseDate>
+         <Description>Magnetospheric Multiscale 2 (MMS 2) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for disturbed magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft, If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinatte transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
          <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Michael.G.Henderson</PersonID>
@@ -26,12 +25,12 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>At GSFC</Name>
+            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC)</Name>
             <URL>http://mms.gsfc.nasa.gov</URL>
             <Description>MMS homepage</Description>
          </InformationURL>
          <InformationURL>
-            <Name>LASP SDC</Name>
+            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Name>
             <URL>http://lasp.colorado.edu/mms/sdc</URL>
             <Description>Science Data Center</Description>
          </InformationURL>
@@ -78,6 +77,8 @@
          <Description>Nanoseconds from J2000.0 with leap seconds included.</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT0.030S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
             <ValueFormat>i29</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -1279,6 +1280,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1315,6 +1320,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1392,6 +1401,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_lat</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1413,6 +1426,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_lon</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1434,6 +1451,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <AxisLabel>mms2_mec_geod_height</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
@@ -1662,6 +1683,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
@@ -1694,6 +1719,10 @@
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+         </CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>f18.6</ValueFormat>
