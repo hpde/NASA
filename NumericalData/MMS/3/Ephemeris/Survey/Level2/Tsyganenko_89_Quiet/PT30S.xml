@@ -67,7 +67,7 @@
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2015-03-13T00:00:00.000</StartDate>
-            <StopDate>2016-04-12T23:59:59.999</StopDate>
+            <RelativeStopDate>-P2M</RelativeStopDate>
          </TimeSpan>
          <Cadence>PT30S</Cadence>
       </TemporalDescription>
