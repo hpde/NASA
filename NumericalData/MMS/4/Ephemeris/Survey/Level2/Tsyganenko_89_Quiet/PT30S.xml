@@ -4,9 +4,9 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/MMS/4/Ephemeris/Survey/Level2/Tsyganenko_89_Quiet/PT30S</ResourceID>
       <ResourceHeader>
-         <ResourceName>MMS4 Magnetic Ephemeris and Coordinates MEC MMS 4 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Disturbed Conditions), Quick-Look Survey</ResourceName>
-         <ReleaseDate>2016-05-17T12:34:56.789</ReleaseDate>
-         <Description>Magnetospheric Multiscale 4 (MMS 4) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Survey (30 s) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft, If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinatte transformation from GEI into 6 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
+         <ResourceName>MMS4 Magnetic Ephemeris and Coordinates MEC MMS 4 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Quick-Look Survey</ResourceName>
+         <ReleaseDate>2016-05-19T12:34:56.789</ReleaseDate>
+         <Description>Magnetospheric Multiscale 4 (MMS 4) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Quick-Look (30 s) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 6 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
          <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Michael.G.Henderson</PersonID>
@@ -31,7 +31,7 @@
          </InformationURL>
          <InformationURL>
             <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Name>
-            <URL>http://lasp.colorado.edu/mms/sdc</URL>
+            <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
             <Description>Science Data Center</Description>
          </InformationURL>
       </ResourceHeader>
@@ -74,7 +74,7 @@
       <Parameter>
          <Name>Epoch</Name>
          <ParameterKey>Epoch</ParameterKey>
-         <Description>Nanoseconds from J2000 with leap seconds included.</Description>
+         <Description>Nanoseconds from J2000.0 with leap seconds included.</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT30S</Cadence>
          <Units>ns</Units>
@@ -204,9 +204,8 @@
          <Name>mms4_mec_quat_eci_to_bcs</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_bcs</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -219,19 +218,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_bcs_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_bcs_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_bcs_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_bcs_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -262,11 +261,11 @@
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_mec_ang_mom_vec_RA</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_mec_ang_mom_vec_DEC</Name>
                <Index>2</Index>
             </Element>
          </Structure>
@@ -307,7 +306,7 @@
          <Description>Kp index from QinDenton files (used as input to magnetic field models)</Description>
          <Cadence>PT30S</Cadence>
          <RenderingHints>
-            <AxisLabel>mms4_mec_kp</AxisLabel>
+            <AxisLabel>Kp</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
          </RenderingHints>
@@ -327,7 +326,7 @@
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>mms4_mec_dst</AxisLabel>
+            <AxisLabel>Dst</AxisLabel>
             <ValueFormat>f18.6</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
          </RenderingHints>
@@ -396,15 +395,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_eci_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_eci_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_eci_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -420,7 +419,7 @@
          <Name>mms4_mec_v_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_eci</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GEI/J2000 (i.e. ECI) coordinates (km/s)</Description>
+         <Description>Velocity of mms4 spacecraft in GEI/J2000.0 (i.e. ECI) coordinates (km/s)</Description>
          <Cadence>PT30S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -436,15 +435,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_eci_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_eci_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_eci_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -476,15 +475,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_gsm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -516,15 +515,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_gsm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -540,9 +539,8 @@
          <Name>mms4_mec_quat_eci_to_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gsm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -555,19 +553,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_gsm_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_gsm_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_gsm_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_gsm_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -598,15 +596,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_geo_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_geo_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_geo_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -638,15 +636,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_geo_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_geo_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_geo_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -662,9 +660,8 @@
          <Name>mms4_mec_quat_eci_to_geo</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_geo</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -677,19 +674,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_geo_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_geo_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_geo_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_geo_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -720,15 +717,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_sm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_sm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_sm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -760,15 +757,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_sm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_sm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_sm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -784,9 +781,8 @@
          <Name>mms4_mec_quat_eci_to_sm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_sm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -799,19 +795,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_sm_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_sm_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_sm_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_sm_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -842,15 +838,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_gse_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_gse_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_gse_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -882,15 +878,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_gse_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_gse_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_gse_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -906,9 +902,8 @@
          <Name>mms4_mec_quat_eci_to_gse</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gse</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -921,19 +916,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_gse_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_gse_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_gse_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_gse_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -948,7 +943,7 @@
          <Name>mms4_mec_r_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_gse2000</ParameterKey>
-         <Description>Geocentric Solar Ecliptic (J2000 Pole, GSE2000) position vector of mms4 (km)</Description>
+         <Description>Geocentric Solar Ecliptic (J2000.0 Pole, GSE2000) position vector of mms4 (km)</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -964,15 +959,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_gse2000_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_gse2000_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_gse2000_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1004,15 +999,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_v_gse2000_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_v_gse2000_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_v_gse2000_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1028,9 +1023,8 @@
          <Name>mms4_mec_quat_eci_to_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gse2000</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
          <Cadence>PT30S</Cadence>
-         <UnitsConversion>1.0e3&gt;m</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GEI</CoordinateSystemName>
@@ -1043,19 +1037,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_quat_eci_to_gse2000_qx</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_quat_eci_to_gse2000_qy</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_quat_eci_to_gse2000_qz</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_quat_eci_to_gse2000_qw</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -1144,7 +1138,7 @@
          <Name>mms4_mec_r_sun_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_sun_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Sun in GEI/J2000 Coordinates.</Description>
+         <Description>Geocentric position vector (in km) of the Sun in GEI/J2000.0 Coordinates.</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1160,15 +1154,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_sun_de421_eci_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_sun_de421_eci_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_sun_de421_eci_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1184,7 +1178,7 @@
          <Name>mms4_mec_r_moon_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_moon_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Moon in GEI/J2000 Coordinates.</Description>
+         <Description>Geocentric position vector (in km) of the Moon in GEI/J2000.0 Coordinates.</Description>
          <Cadence>PT30S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1200,15 +1194,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_r_moon_de421_eci_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_r_moon_de421_eci_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_r_moon_de421_eci_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1283,19 +1277,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_bsc_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_bsc_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_bsc_gsm_z</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_bsc_gsm_mag</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -1368,11 +1362,11 @@
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_pfs_geod_lat</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_pfs_geod_lon</Name>
                <Index>2</Index>
             </Element>
          </Structure>
@@ -1404,11 +1398,11 @@
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_pfn_geod_lat</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_pfn_geod_lon</Name>
                <Index>2</Index>
             </Element>
          </Structure>
@@ -1440,15 +1434,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_pfs_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_pfs_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_pfs_gsm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1480,19 +1474,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_bfs_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_bfs_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_bfs_gsm_z</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_bfs_gsm_mag</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -1523,15 +1517,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_pfn_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_pfn_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_pfn_gsm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1563,19 +1557,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_bfn_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_bfn_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_bfn_gsm_z</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_bfn_gsm_mag</Name>
                <Index>4</Index>
             </Element>
          </Structure>
@@ -1606,15 +1600,15 @@
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_pmin_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_pmin_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_pmin_gsm_z</Name>
                <Index>3</Index>
             </Element>
          </Structure>
@@ -1646,19 +1640,19 @@
          <Structure>
             <Size>4</Size>
             <Element>
-               <Name>1</Name>
+               <Name>mms4_bmin_gsm_x</Name>
                <Index>1</Index>
             </Element>
             <Element>
-               <Name>2</Name>
+               <Name>mms4_bmin_gsm_y</Name>
                <Index>2</Index>
             </Element>
             <Element>
-               <Name>3</Name>
+               <Name>mms4_bmin_gsm_z</Name>
                <Index>3</Index>
             </Element>
             <Element>
-               <Name>4</Name>
+               <Name>mms4_bmin_gsm_mag</Name>
                <Index>4</Index>
             </Element>
          </Structure>

@@ -4,9 +4,9 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/MMS/1/Ephemeris/Burst/Level2/Tsyganenko_89_Quiet/PT0.030S</ResourceID>
       <ResourceHeader>
-         <ResourceName>MMS1 Magnetic Ephemeris and Coordinates MEC MMS 1 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Disturbed Conditions), Burst Survey</ResourceName>
-         <ReleaseDate>2016-05-17T12:34:56.789</ReleaseDate>
-         <Description>Magnetospheric Multiscale 1 (MMS 1) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft, If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinatte transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
+         <ResourceName>MMS1 Magnetic Ephemeris and Coordinates MEC MMS 1 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Burst Survey</ResourceName>
+         <ReleaseDate>2016-05-19T12:34:56.789</ReleaseDate>
+         <Description>Magnetospheric Multiscale 1 (MMS 1) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
          <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Michael.G.Henderson</PersonID>
@@ -31,7 +31,7 @@
          </InformationURL>
          <InformationURL>
             <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Name>
-            <URL>http://lasp.colorado.edu/mms/sdc</URL>
+            <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
             <Description>Science Data Center</Description>
          </InformationURL>
       </ResourceHeader>
@@ -204,7 +204,7 @@
          <Name>mms1_mec_quat_eci_to_bcs</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_bcs</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -245,7 +245,7 @@
          <Name>mms1_mec_quat_eci_to_dbcs</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_dbcs</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to DBCS (ECI to DBCS). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to DBCS (ECI to DBCS). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -286,7 +286,7 @@
          <Name>mms1_mec_quat_eci_to_dmpa</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_dmpa</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to DMPA (ECI to DMPA). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to DMPA (ECI to DMPA). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -327,7 +327,7 @@
          <Name>mms1_mec_quat_eci_to_smpa</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_smpa</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to SMPA (ECI to SMPA). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to SMPA (ECI to SMPA). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -368,7 +368,7 @@
          <Name>mms1_mec_quat_eci_to_dsl</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_dsl</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to DSL (ECI to DSL). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to DSL (ECI to DSL). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -409,7 +409,7 @@
          <Name>mms1_mec_quat_eci_to_ssl</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_ssl</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to SSL (ECI to SSL). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to SSL (ECI to SSL). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -752,7 +752,7 @@
          <Name>mms1_mec_v_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_v_eci</ParameterKey>
-         <Description>Velocity of mms1 spacecraft in GEI/J2000 (i.e. ECI) coordinates (km/s)</Description>
+         <Description>Velocity of mms1 spacecraft in GEI/J2000.0 (i.e. ECI) coordinates (km/s)</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -872,7 +872,7 @@
          <Name>mms1_mec_quat_eci_to_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_gsm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -993,7 +993,7 @@
          <Name>mms1_mec_quat_eci_to_geo</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_geo</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1114,7 +1114,7 @@
          <Name>mms1_mec_quat_eci_to_sm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_sm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1235,7 +1235,7 @@
          <Name>mms1_mec_quat_eci_to_gse</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_gse</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1276,7 +1276,7 @@
          <Name>mms1_mec_r_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_r_gse2000</ParameterKey>
-         <Description>Geocentric Solar Ecliptic (J2000 Pole, GSE2000) position vector of mms1 (km)</Description>
+         <Description>Geocentric Solar Ecliptic (J2000.0 Pole, GSE2000) position vector of mms1 (km)</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1356,7 +1356,7 @@
          <Name>mms1_mec_quat_eci_to_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_quat_eci_to_gse2000</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
+         <Description>Quaternion rotation from GEI/J2000.0 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1471,7 +1471,7 @@
          <Name>mms1_mec_r_sun_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_r_sun_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Sun in GEI/J2000 Coordinates.</Description>
+         <Description>Geocentric position vector (in km) of the Sun in GEI/J2000.0 Coordinates.</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1511,7 +1511,7 @@
          <Name>mms1_mec_r_moon_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms1_mec_r_moon_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Moon in GEI/J2000 Coordinates.</Description>
+         <Description>Geocentric position vector (in km) of the Moon in GEI/J2000.0 Coordinates.</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
