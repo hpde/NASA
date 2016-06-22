@@ -4,7 +4,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/MAGEIS/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B MagEIS Level 2 data</ResourceName>
-      <ReleaseDate>2013-05-22T00:00:00</ReleaseDate>
+      <ReleaseDate>2016-06-22T00:00:00</ReleaseDate>
       <Description>This data set contains electron and proton fluxes from the Magnetic Electron Ion Spectrometer (MagEIS), which is one of three instruments on the Energetic Particle, Composition and Thermal Plasma Suite (ECT). MagEIS uses magnetic focusing and pulse height analysis from a set of four magnetic spectrometers covering three distinct energy ranges: Low (20 keV-1 MeV), Medium (Med35 and Med75 units), and High (700 keV to 4 MeV). Two identical Medium energy units on each Van Allen Probe spacecraft point in different directions to increase pitch angle coverage. Electrons enter the MagEIS aperture and are bent by the magnetic field through 180&#176; with energy-dependent diameters. Electrons are additionally energy-analyzed by an array of solid state detectors to ensure extremely clean differentiation between primary electron measurements and contaminating background radiation. In addition, the MagEIS High spectrometer contains a solid state telescope that measures protons from roughly 50 keV to 20 MeV, Helium ions from roughly 300 keV - 1.5 MeV and Oxygen ions from roughly 1-5 MeV. Electrons and protons are measured in alternate spacecraft spin resolution of 5 per minute.  
 </Description>
      <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
@@ -23,7 +23,7 @@
       </InformationURL>
       <InformationURL>
         <Name>ECT SOC and data services</Name>
-        <URL>http://www.rbsp-ect.lanl.gov</URL>
+        <URL>https://rbsp-ect.lanl.gov/</URL>
         <Description>at LANL</Description>
       </InformationURL>
       <InformationURL>
