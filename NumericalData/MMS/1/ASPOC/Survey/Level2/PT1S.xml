@@ -4,9 +4,9 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/MMS/1/ASPOC/Survey/Level2/PT1S</ResourceID>
       <ResourceHeader>
-         <ResourceName>MMS1 Active Spacecraft Potential Control, Sensors 1 and 2 ASPOC Level 2, Quick-Look Survey</ResourceName>
-         <ReleaseDate>2016-06-03T12:34:56.789</ReleaseDate>
-         <Description>MMS 1 Active Spacecraft Potential Control (ASPOC) - Sensors 1 and 2 Ion Beam Current Rates, Beam Energies, and Instrument Status variables. In tenuous plasma regions, the floating potential of a sunlit spacecraft is positively charged, reaching up to tens of Volts. The corresponding electric field disturbs the ambient plasma measurements obtained from electron and ion sensors and the large fluxes of attracted photo–electrons can significantly reduce the lifetime of the micro–channel plate. The electric field measurements can be also contaminated by the high spacecraft potential values. The Active Spacecraft Potential Control neutralizes the spacecraft potential by releasing positively charged Indium ions. The ASPOCs neutralize the electrical potential of the spacecraft, limiting or eliminating spurious electric fields that can contaminate measurements. This allows observations of the more scientifically important low-energy ions and electrons.</Description>
+         <ResourceName>MMS 1 Active Spacecraft Potential Control, Sensors 1 and 2 (ASPOC) Level 2, Quick-Look Survey</ResourceName>
+         <ReleaseDate>2016-06-23T12:34:56.789</ReleaseDate>
+         <Description>MMS 1 Active Spacecraft Potential Control (ASPOC) - Sensors 1 and 2 Ion Beam Current Rates, Beam Energies, and Instrument Status variables. In tenuous plasma regions, the floating potential of a sunlit spacecraft is positively charged, reaching up to tens of Volts. The corresponding electric field disturbs the ambient plasma measurements obtained from electron and ion sensors and the large fluxes of attracted photo-electrons can significantly reduce the lifetime of the micro-channel plate. The electric field measurements can be also contaminated by the high spacecraft potential values. The Active Spacecraft Potential Control neutralizes the spacecraft potential by releasing positively charged Indium ions. The ASPOCs neutralize the electrical potential of the spacecraft, limiting or eliminating spurious electric fields that can contaminate measurements. This allows observations of the more scientifically important low-energy ions and electrons.</Description>
          <Acknowledgement>K. Torkar, R. Nakamura, Refer to Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW) for rules of acknowledgement</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>
@@ -27,7 +27,7 @@
          <InformationURL>
             <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
             <URL>http://mms.gsfc.nasa.gov/</URL>
-            <Description>MMS home page</Description>
+            <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
          </InformationURL>
          <InformationURL>
             <Name>The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI).</Name>
@@ -52,12 +52,12 @@
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
             <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms1/aspoc/srvy/l2/</URL>
-            <Description>In CDF via ftp from SPDF.</Description>
+            <Description>In CDF via ftp from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
             <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms1/aspoc/srvy/l2/</URL>
-            <Description>In CDF via http from SPDF.</Description>
+            <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
@@ -79,6 +79,14 @@
          </TimeSpan>
          <Cadence>PT1S</Cadence>
       </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.EquatorialRegion</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
       <Parameter>
          <Name>Epoch</Name>
          <ParameterKey>Epoch</ParameterKey>
@@ -86,7 +94,7 @@
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>ns</Units>
-         <UnitsConversion>1.0e-9>s</UnitsConversion>
+         <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Epoch</AxisLabel>
@@ -108,7 +116,7 @@
          <Description>ASPOC Ion Emission Current Sum</Description>
          <Cadence>PT1S</Cadence>
          <Units>uA</Units>
-         <UnitsConversion>1.0e-6>A</UnitsConversion>
+         <UnitsConversion>1.0e-6&gt;A</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>I_ion</AxisLabel>
@@ -133,7 +141,7 @@
          <Description>ASPOC Unit 1 Ion Emission Current</Description>
          <Cadence>PT1S</Cadence>
          <Units>uA</Units>
-         <UnitsConversion>1.0e-6>A</UnitsConversion>
+         <UnitsConversion>1.0e-6&gt;A</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>I_ion</AxisLabel>
@@ -158,7 +166,7 @@
          <Description>ASPOC Unit 2 Ion Emission Current</Description>
          <Cadence>PT1S</Cadence>
          <Units>uA</Units>
-         <UnitsConversion>1.0e-6>A</UnitsConversion>
+         <UnitsConversion>1.0e-6&gt;A</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>I_ion</AxisLabel>
@@ -183,7 +191,7 @@
          <Description>ASPOC Unit 1 Emitted Beam Energy</Description>
          <Cadence>PT1S</Cadence>
          <Units>kV</Units>
-         <UnitsConversion>1.0e3>V</UnitsConversion>
+         <UnitsConversion>1.0e3&gt;V</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Energy</AxisLabel>
@@ -208,7 +216,7 @@
          <Description>ASPOC Unit 2 Emitted Beam Energy</Description>
          <Cadence>PT1S</Cadence>
          <Units>kV</Units>
-         <UnitsConversion>1.0e3>V</UnitsConversion>
+         <UnitsConversion>1.0e3&gt;V</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Energy</AxisLabel>
@@ -281,7 +289,7 @@
          <Description>Half width of measurement interval</Description>
          <Cadence>PT1S</Cadence>
          <Units>ns</Units>
-         <UnitsConversion>1.0e-9>s</UnitsConversion>
+         <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Half_int</AxisLabel>
             <ValueFormat>f13.1</ValueFormat>
