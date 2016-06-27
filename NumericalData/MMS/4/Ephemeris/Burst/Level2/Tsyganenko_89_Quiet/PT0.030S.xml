@@ -4,8 +4,8 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/MMS/4/Ephemeris/Burst/Level2/Tsyganenko_89_Quiet/PT0.030S</ResourceID>
       <ResourceHeader>
-         <ResourceName>MMS4 Magnetic Ephemeris and Coordinates MEC MMS 4 Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Burst Survey</ResourceName>
-         <ReleaseDate>2016-05-19T12:34:56.789</ReleaseDate>
+         <ResourceName>MMS 4 Magnetic Ephemeris and Coordinates (MEC) Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Burst Survey</ResourceName>
+         <ReleaseDate>2016-06-23T12:34:56.789</ReleaseDate>
          <Description>Magnetospheric Multiscale 4 (MMS 4) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
          <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
          <Contact>
@@ -25,14 +25,14 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC)</Name>
-            <URL>http://mms.gsfc.nasa.gov</URL>
+            <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
+            <URL>http://mms.gsfc.nasa.gov/</URL>
             <Description>MMS homepage</Description>
          </InformationURL>
          <InformationURL>
-            <Name>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Name>
+            <Name>The MMS Mission home page at the Science Data Center (SDC) LASP, UC Boulder</Name>
             <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
-            <Description>Science Data Center</Description>
+            <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
          </InformationURL>
       </ResourceHeader>
       <AccessInformation>
@@ -41,23 +41,23 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms4/mec/brst/l2/epht89q</URL>
-            <Description>In CDF via ftp from SPDF.</Description>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms4/mec/brst/l2/epht89q/</URL>
+            <Description>In CDF via ftp from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms4/mec/brst/l2/epht89q</URL>
-            <Description>In CDF via http from SPDF.</Description>
+            <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms4/mec/brst/l2/epht89q/</URL>
+            <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>http://cdaweb.gsfc.nasa.gov</URL>
+            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
             <ProductKey>MMS4_MEC_BRST_L2_EPHT89Q</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
-         <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
+         <Acknowledgement>M.G. Henderson, S.K. Morley. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/MMS/4/Ephemeris</InstrumentID>
@@ -71,10 +71,18 @@
          </TimeSpan>
          <Cadence>PT0.030S</Cadence>
       </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.EquatorialRegion</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
       <Parameter>
          <Name>Epoch</Name>
          <ParameterKey>Epoch</ParameterKey>
-         <Description>Nanoseconds from J2000.0 with leap seconds included.</Description>
+         <Description>Epoch</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT0.030S</Cadence>
          <Units>ns</Units>
@@ -94,7 +102,7 @@
          <Name>mms4_mec_dipole_tilt</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_dipole_tilt</ParameterKey>
-         <Description>Dipole tilt angle. Rotation angle (around Y-axis) between GSM and SM coordinate systems. In units of degrees.</Description>
+         <Description>mms4_mec_dipole_tilt</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -115,7 +123,7 @@
          <Name>mms4_mec_gmst</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_gmst</ParameterKey>
-         <Description>Greenwich Mean Sidereal Time (GMST).</Description>
+         <Description>mms4_mec_gmst</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -136,7 +144,7 @@
          <Name>mms4_mec_mlat</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_mlat</ParameterKey>
-         <Description>Magnetic Latitude.</Description>
+         <Description>mms4_mec_mlat</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -161,7 +169,7 @@
          <Name>mms4_mec_mlt</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_mlt</ParameterKey>
-         <Description>Magnetic Local Time.</Description>
+         <Description>mms4_mec_mlt</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>h</Units>
          <UnitsConversion>0.2617993877&gt;rad</UnitsConversion>
@@ -186,7 +194,7 @@
          <Name>mms4_mec_l_dipole</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_l_dipole</ParameterKey>
-         <Description>Dipole L-shell value.</Description>
+         <Description>mms4_mec_l_dipole</Description>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
             <AxisLabel>mms4_mec_l_dipole</AxisLabel>
@@ -204,7 +212,7 @@
          <Name>mms4_mec_quat_eci_to_bcs</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_bcs</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to BCS (ECI to BCS). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_bcs</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -245,7 +253,7 @@
          <Name>mms4_mec_quat_eci_to_dbcs</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_dbcs</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to DBCS (ECI to DBCS). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_dbcs</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -286,7 +294,7 @@
          <Name>mms4_mec_quat_eci_to_dmpa</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_dmpa</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to DMPA (ECI to DMPA). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_dmpa</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -327,7 +335,7 @@
          <Name>mms4_mec_quat_eci_to_smpa</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_smpa</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to SMPA (ECI to SMPA). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_smpa</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -368,7 +376,7 @@
          <Name>mms4_mec_quat_eci_to_dsl</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_dsl</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to DSL (ECI to DSL). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_dsl</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -409,7 +417,7 @@
          <Name>mms4_mec_quat_eci_to_ssl</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_ssl</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to SSL (ECI to SSL). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_ssl</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -450,7 +458,7 @@
          <Name>mms4_mec_L_vec</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_L_vec</ParameterKey>
-         <Description>Right ascension (deg) and declination (deg) of angular momentum (L)</Description>
+         <Description>mms4_mec_L_vec</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -486,7 +494,7 @@
          <Name>mms4_mec_Z_vec</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_Z_vec</ParameterKey>
-         <Description>Right ascension (deg) and declination (deg) of Body Z-axis</Description>
+         <Description>mms4_mec_Z_vec</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -522,7 +530,7 @@
          <Name>mms4_mec_P_vec</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_P_vec</ParameterKey>
-         <Description>Right ascension (deg) and declination (deg) of Major Principal Axis</Description>
+         <Description>mms4_mec_P_vec</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -558,7 +566,7 @@
          <Name>mms4_mec_L_phase</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_L_phase</ParameterKey>
-         <Description>L-phase (Sun-to-body-X dihedral angle about angular momentum vector L) (deg)</Description>
+         <Description>mms4_mec_L_phase</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -584,7 +592,7 @@
          <Name>mms4_mec_Z_phase</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_Z_phase</ParameterKey>
-         <Description>Z-phase (Sun-to-body-X dihedral angle about the body-Z vector) (deg)</Description>
+         <Description>mms4_mec_Z_phase</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -610,7 +618,7 @@
          <Name>mms4_mec_P_phase</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_P_phase</ParameterKey>
-         <Description>P-phase (Sun-to-body-X dihedral angle about the major principal axis, P) (deg)</Description>
+         <Description>mms4_mec_P_phase</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -636,7 +644,7 @@
          <Name>mms4_mec_kp</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_kp</ParameterKey>
-         <Description>Kp index from QinDenton files (used as input to magnetic field models)</Description>
+         <Description>mms4_mec_kp</Description>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
             <AxisLabel>Kp</AxisLabel>
@@ -654,7 +662,7 @@
          <Name>mms4_mec_dst</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_dst</ParameterKey>
-         <Description>Dst index from QinDenton files. Used as input to magnetic field models</Description>
+         <Description>mms4_mec_dst</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
@@ -674,7 +682,7 @@
          <Name>mms4_mec_earth_eclipse_flag</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_earth_eclipse_flag</ParameterKey>
-         <Description>Earth eclipse flag: 0 = no eclipse; 1 = penumbral eclipse; 2 = umbral eclipse.</Description>
+         <Description>mms4_mec_earth_eclipse_flag</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
@@ -693,7 +701,7 @@
          <Name>mms4_mec_moon_eclipse_flag</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_moon_eclipse_flag</ParameterKey>
-         <Description>Moon eclipse flag: 0 = no eclipse; 1 = penumbral eclipse; 2 = umbral eclipse.</Description>
+         <Description>mms4_mec_moon_eclipse_flag</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
@@ -712,7 +720,7 @@
          <Name>mms4_mec_r_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_eci</ParameterKey>
-         <Description>Geocentric Equatorial Inertial (GEI/J2000) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_eci</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -752,7 +760,7 @@
          <Name>mms4_mec_v_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_eci</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GEI/J2000.0 (i.e. ECI) coordinates (km/s)</Description>
+         <Description>mms4_mec_v_eci</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -792,7 +800,7 @@
          <Name>mms4_mec_r_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_gsm</ParameterKey>
-         <Description>Geocentric Solar Magnetospheric (GSM) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -832,7 +840,7 @@
          <Name>mms4_mec_v_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_gsm</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GSM coordinates (km/s)</Description>
+         <Description>mms4_mec_v_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -872,7 +880,7 @@
          <Name>mms4_mec_quat_eci_to_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gsm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to GSM (ECI to GSM). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -913,7 +921,7 @@
          <Name>mms4_mec_r_geo</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_geo</ParameterKey>
-         <Description>Geocentric Geographic (GEO) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_geo</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -953,7 +961,7 @@
          <Name>mms4_mec_v_geo</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_geo</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GEO coordinates (km/s)</Description>
+         <Description>mms4_mec_v_geo</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -993,7 +1001,7 @@
          <Name>mms4_mec_quat_eci_to_geo</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_geo</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to GEO (ECI to GEO). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_geo</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1034,7 +1042,7 @@
          <Name>mms4_mec_r_sm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_sm</ParameterKey>
-         <Description>Geocentric Solar Magnetic (SM) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_sm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1074,7 +1082,7 @@
          <Name>mms4_mec_v_sm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_sm</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in SM coordinates (km/s)</Description>
+         <Description>mms4_mec_v_sm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -1114,7 +1122,7 @@
          <Name>mms4_mec_quat_eci_to_sm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_sm</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to SM (ECI to SM). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_sm</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1155,7 +1163,7 @@
          <Name>mms4_mec_r_gse</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_gse</ParameterKey>
-         <Description>Geocentric Solar Ecliptic (GSE) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_gse</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1195,7 +1203,7 @@
          <Name>mms4_mec_v_gse</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_gse</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GSE coordinates (km/s)</Description>
+         <Description>mms4_mec_v_gse</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -1235,7 +1243,7 @@
          <Name>mms4_mec_quat_eci_to_gse</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gse</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to GSE (ECI to GSE). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_gse</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1276,7 +1284,7 @@
          <Name>mms4_mec_r_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_gse2000</ParameterKey>
-         <Description>Geocentric Solar Ecliptic (J2000.0 Pole, GSE2000) position vector of mms4 (km)</Description>
+         <Description>mms4_mec_r_gse2000</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1316,7 +1324,7 @@
          <Name>mms4_mec_v_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_v_gse2000</ParameterKey>
-         <Description>Velocity of mms4 spacecraft in GSE2000 coordinates (km/s)</Description>
+         <Description>mms4_mec_v_gse2000</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km/s</Units>
          <UnitsConversion>1.0e3&gt;m/s</UnitsConversion>
@@ -1356,7 +1364,7 @@
          <Name>mms4_mec_quat_eci_to_gse2000</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_quat_eci_to_gse2000</ParameterKey>
-         <Description>Quaternion rotation from GEI/J2000.0 to GSE2000 (ECI to GSE2000). ((qx,qy,qz), qw)</Description>
+         <Description>mms4_mec_quat_eci_to_gse2000</Description>
          <Cadence>PT0.030S</Cadence>
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
@@ -1397,7 +1405,7 @@
          <Name>mms4_mec_geod_lat</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_geod_lat</ParameterKey>
-         <Description>Geodetic latitude of mms4 spacecraft</Description>
+         <Description>mms4_mec_geod_lat</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1422,7 +1430,7 @@
          <Name>mms4_mec_geod_lon</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_geod_lon</ParameterKey>
-         <Description>Geodetic longitude of mms4 spacecraft</Description>
+         <Description>mms4_mec_geod_lon</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1447,7 +1455,7 @@
          <Name>mms4_mec_geod_height</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_geod_height</ParameterKey>
-         <Description>Geodetic height of mms4 spacecraft. (Height above WGS84 Spheroid.)</Description>
+         <Description>mms4_mec_geod_height</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1471,7 +1479,7 @@
          <Name>mms4_mec_r_sun_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_sun_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Sun in GEI/J2000.0 Coordinates.</Description>
+         <Description>mms4_mec_r_sun_de421_eci</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1511,7 +1519,7 @@
          <Name>mms4_mec_r_moon_de421_eci</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_r_moon_de421_eci</ParameterKey>
-         <Description>Geocentric position vector (in km) of the Moon in GEI/J2000.0 Coordinates.</Description>
+         <Description>mms4_mec_r_moon_de421_eci</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1550,7 +1558,7 @@
       <Parameter>
          <Name>mms4_mec_int_model</Name>
          <ParameterKey>mms4_mec_int_model</ParameterKey>
-         <Description>Internal Magnetic Field Model.</Description>
+         <Description>mms4_mec_int_model</Description>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
             <ValueFormat>a30</ValueFormat>
@@ -1562,7 +1570,7 @@
       <Parameter>
          <Name>mms4_mec_ext_model</Name>
          <ParameterKey>mms4_mec_ext_model</ParameterKey>
-         <Description>External Magnetic Field Model.</Description>
+         <Description>mms4_mec_ext_model</Description>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
             <ValueFormat>a30</ValueFormat>
@@ -1575,7 +1583,7 @@
          <Name>mms4_mec_fieldline_type</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_fieldline_type</ParameterKey>
-         <Description>Fieldline Type: 0 = IMF; 1 = Closed; 2 = Open Northern Lobe; 3 = Open Southern Lobe; -1 = Inside Earth; -2 = Target Height Unreachable; -3 = Bad Trace (error).</Description>
+         <Description>mms4_mec_fieldline_type</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT0.030S</Cadence>
          <RenderingHints>
@@ -1594,7 +1602,7 @@
          <Name>mms4_mec_bsc_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_bsc_gsm</ParameterKey>
-         <Description>Magnetic field (in GSM) at mms4 spacecraft</Description>
+         <Description>mms4_mec_bsc_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
@@ -1637,7 +1645,7 @@
          <Name>mms4_mec_loss_cone_angle_s</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_loss_cone_angle_s</ParameterKey>
-         <Description>Southern loss cone angle. Degrees.</Description>
+         <Description>mms4_mec_loss_cone_angle_s</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1658,7 +1666,7 @@
          <Name>mms4_mec_loss_cone_angle_n</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_loss_cone_angle_n</ParameterKey>
-         <Description>Northern loss cone angle. Degrees.</Description>
+         <Description>mms4_mec_loss_cone_angle_n</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1679,7 +1687,7 @@
          <Name>mms4_mec_pfs_geod_latlon</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_pfs_geod_latlon</ParameterKey>
-         <Description>Geodetic latitude and longitude of southern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_pfs_geod_latlon</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1715,7 +1723,7 @@
          <Name>mms4_mec_pfn_geod_latlon</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_pfn_geod_latlon</ParameterKey>
-         <Description>Geodetic latitude and longitude of northern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_pfn_geod_latlon</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1751,7 +1759,7 @@
          <Name>mms4_mec_pfs_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_pfs_gsm</ParameterKey>
-         <Description>GSM position southern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_pfs_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1791,7 +1799,7 @@
          <Name>mms4_mec_bfs_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_bfs_gsm</ParameterKey>
-         <Description>Magnetic field (in GSM) at southern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_bfs_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
@@ -1834,7 +1842,7 @@
          <Name>mms4_mec_pfn_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_pfn_gsm</ParameterKey>
-         <Description>GSM position northern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_pfn_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1874,7 +1882,7 @@
          <Name>mms4_mec_bfn_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_bfn_gsm</ParameterKey>
-         <Description>Magnetic field (in GSM) at northern footpoint (100km geodetic height) of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_bfn_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
@@ -1917,7 +1925,7 @@
          <Name>mms4_mec_pmin_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_pmin_gsm</ParameterKey>
-         <Description>GSM position of min-B point of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_pmin_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>km</Units>
          <UnitsConversion>1.0e3&gt;m</UnitsConversion>
@@ -1957,7 +1965,7 @@
          <Name>mms4_mec_bmin_gsm</Name>
          <Set>Time series defined by using:  EPOCH</Set>
          <ParameterKey>mms4_mec_bmin_gsm</ParameterKey>
-         <Description>Magnetic field (in GSM) at min-B point of field threading the mms4 spacecraft</Description>
+         <Description>mms4_mec_bmin_gsm</Description>
          <Cadence>PT0.030S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e9&gt;T</UnitsConversion>
