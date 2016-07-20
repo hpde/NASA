@@ -620,7 +620,7 @@
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Differential</Qualifier>
-            <ParticleQuantity>NumberFlux</ParticleQuantity>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
@@ -694,7 +694,7 @@
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
-            <ParticleQuantity>NumberFlux</ParticleQuantity>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
@@ -768,7 +768,7 @@
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Differential</Qualifier>
-            <ParticleQuantity>NumberFlux</ParticleQuantity>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
@@ -842,7 +842,7 @@
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
-            <ParticleQuantity>NumberFlux</ParticleQuantity>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
