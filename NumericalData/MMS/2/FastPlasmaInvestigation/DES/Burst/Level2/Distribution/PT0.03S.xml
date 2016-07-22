@@ -1,0 +1,1326 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/MMS/2/FastPlasmaInvestigation/DES/Burst/Level2/Distribution/PT0.03S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 2 Fast Plasma Investigation, Dual Electron Spectrometer (FPI, DES) Instrument Distributions, Burst Survey</ResourceName>
+         <ReleaseDate>2016-07-16T12:34:56.789</ReleaseDate>
+         <Description>FPI usually operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase.  Data are taken at burst (30/150 ms for DES/DIS) resolution in this mode. Data are also made available at survey (4.5 s, etc) resolution; these form a separate product from this. Per mission design, not all burst-resolution data are downlinked. This product contains phase-space distribution maps of those burst-resolution data selected for downlink. In particular, the (highest possible quality at the time of release) corrected/converted &quot;Burst SkyMap&quot; distributions are reported with time-stamps and other annotation characterizing the state of the instrument system at the indicated time.</Description>
+         <Acknowledgement>J. Burch, C. Pollock</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Craig.J.Pollock</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
+            <URL>http://mms.gsfc.nasa.gov/</URL>
+            <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)</Name>
+            <URL>http://mms.space.swri.edu/index.html</URL>
+            <Description>The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI).</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The MMS Mission home page at the Science Data Center (SDC) LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
+            <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTP access to files at SPDF</Name>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data//mms/mms2/fpi/brst/l2/des-dist/</URL>
+            <Description>In CDF via ftp from SPDF.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTP access to files at SPDF</Name>
+            <URL>http://spdf.gsfc.nasa.gov/pub/data//mms/mms2/fpi/brst/l2/des-dist/</URL>
+            <Description>In CDF via http from SPDF.</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+            <ProductKey>MMS2_FPI_BRST_L2_DES-DIST</ProductKey>
+            <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>J. Burch, C. Pollock. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/MMS/2/FastPlasmaInstrument/DES</InstrumentID>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2015-06-22T19:27:55</StartDate>
+            <RelativeStopDate>-P2M</RelativeStopDate>
+         </TimeSpan>
+         <Cadence>PT0.030S</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.EquatorialRegion</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+      <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+      <Parameter>
+         <Name>Epoch Time</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch Time Tags in Terrestrial Time 2000 (TT2000)</Description>
+         <Caveats>MMS2 FPI/DES burst data begin-time; derived from burst packet time. This parameter exhibits an increasing monotonic progression.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1.0e-9>s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Epoch</AxisLabel>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
+         <ValidMax>2100-01-01T00:00:01.000000000</ValidMax>
+         <FillValue>9999-12-31T23:59:59.999999999</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch Plus Var</Name>
+         <ParameterKey>Epoch_plus_var</ParameterKey>
+         <Description>Epoch Plus Var</Description>
+         <Caveats>MMS2 FPI/DES epoch plus var</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>ms</Units>
+         <UnitsConversion>1.0e-3>s</UnitsConversion>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch Minus Var</Name>
+         <ParameterKey>Epoch_minus_var</ParameterKey>
+         <Description>Epoch Minus Var</Description>
+         <Caveats>MMS2 FPI/DES epoch minus var</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>s</Units>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Data Quality Error Flags</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_errorflags_brst</ParameterKey>
+         <Description>Vector of Data Quality Indicators at Burst Start Time</Description>
+         <Caveats>Value of zero signifies no quality errors. For non-zero values: Bit-0 = manually flagged interval, Bit-1 = overcounting/saturation effects likely present in skymap</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>32-bit error flags</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES errFlags</AxisLabel>
+            <ValueFormat>i10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>4294967294</ValidMax>
+         <FillValue>4294967295</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Compression Flag</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_compressionloss_brst</ParameterKey>
+         <Description>Compression Lossless/lossy Indicator at Survey Start Time</Description>
+         <Caveats>FPI/DES compression loss indicator, 0=lossless, 1=lossy</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>0, 1</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES compressFlag</AxisLabel>
+            <ValueFormat>i1</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Step Table Parity</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_steptable_parity_brst</ParameterKey>
+         <Description>Step Table Parity, this Burst</Description>
+         <Caveats>FPI/DES alternates between two tables, designated even (0) and odd (1).</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>0, 1</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES stepTbl par</AxisLabel>
+            <ValueFormat>i1</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start Del-Phi Spin Phase Count</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_startdelphi_count_brst</ParameterKey>
+         <Description>Del-Phi (Observation Spin Phase) Count at Burst Start Time</Description>
+         <Caveats>Nominally, spin-phase counts range over [0000, 5759] cnts.  Each count represents 1/16 deg of observatory spin-phase.  Zero spin-phase count indicates obs +X-axis aligned with Sun.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>del-phi counts</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES DelPhi cnt</AxisLabel>
+            <ValueFormat>i4.4</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>5761</ValidMax>
+         <FillValue>65535</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Start Del-Phi Spin Phase Angle</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_startdelphi_angle_brst</ParameterKey>
+         <Description>Del-Phi (Observation Spin Phase) Angle at Burst Start Time</Description>
+         <Caveats>Nominally, spin-phase angles range over [0, 360) deg.  Each count represents 1/16 deg of observatory spin-phase.  Zero spin-phase angle indicates obs +X-axis aligned with Sun.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>degree</Units>
+         <UnitsConversion>0.0174532925>rad</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES DelPhi ang</AxisLabel>
+            <ValueFormat>e12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>360.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>PhaseAngle</Qualifier>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Sky Map Azimuth Angles</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_phi_brst</ParameterKey>
+         <Description>Burst Survey Sky Map Instrument Azimuth Angles</Description>
+         <Caveats>see FPI docs for details</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>degree</Units>
+         <UnitsConversion>0.0174532925>rad</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>sector00</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector01</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector02</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>2</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector03</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>3</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector04</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>4</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector05</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>5</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector06</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>6</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector07</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>7</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector08</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>8</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector09</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>9</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector10</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>10</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector11</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>11</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector12</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>12</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector13</Name>
+               <Index>14</Index>
+               <RenderingHints>
+                  <AxisLabel>13</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector14</Name>
+               <Index>15</Index>
+               <RenderingHints>
+                  <AxisLabel>14</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector15</Name>
+               <Index>16</Index>
+               <RenderingHints>
+                  <AxisLabel>15</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector16</Name>
+               <Index>17</Index>
+               <RenderingHints>
+                  <AxisLabel>16</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector17</Name>
+               <Index>18</Index>
+               <RenderingHints>
+                  <AxisLabel>17</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector18</Name>
+               <Index>19</Index>
+               <RenderingHints>
+                  <AxisLabel>18</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector19</Name>
+               <Index>20</Index>
+               <RenderingHints>
+                  <AxisLabel>19</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector20</Name>
+               <Index>21</Index>
+               <RenderingHints>
+                  <AxisLabel>20</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector21</Name>
+               <Index>22</Index>
+               <RenderingHints>
+                  <AxisLabel>21</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector22</Name>
+               <Index>23</Index>
+               <RenderingHints>
+                  <AxisLabel>22</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector23</Name>
+               <Index>24</Index>
+               <RenderingHints>
+                  <AxisLabel>23</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector24</Name>
+               <Index>25</Index>
+               <RenderingHints>
+                  <AxisLabel>24</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector25</Name>
+               <Index>26</Index>
+               <RenderingHints>
+                  <AxisLabel>25</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector26</Name>
+               <Index>27</Index>
+               <RenderingHints>
+                  <AxisLabel>26</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector27</Name>
+               <Index>28</Index>
+               <RenderingHints>
+                  <AxisLabel>27</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector28</Name>
+               <Index>29</Index>
+               <RenderingHints>
+                  <AxisLabel>28</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector29</Name>
+               <Index>30</Index>
+               <RenderingHints>
+                  <AxisLabel>29</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector30</Name>
+               <Index>31</Index>
+               <RenderingHints>
+                  <AxisLabel>30</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>sector31</Name>
+               <Index>32</Index>
+               <RenderingHints>
+                  <AxisLabel>31</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>360.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Sky Map Electron Phase Space Density Distribution</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_dist_brst</ParameterKey>
+         <Description>Burst Survey Sky Map Instrument Distribution
+                      Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+                      Column 2 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+                      Column 3 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]</Description>
+         <Caveats>Az bin: sector ind=00 looks after (spin-phase) Sun, ..., sector ind=31 looks before Sun dir.  Head field-of-view: pixel index=00 looks to zenith, ..., pixel index=15 looks to nadir.  FPI operations nominally bin data from 64 energy filters into 32 pairwise energy bins, indexed 0-31.  Nominally, bins are indexed in increasing energy order.  See FPI docs for details.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>phase-space density</Units>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>32 16 32</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Sky Map Electron Phase Space Density Distribution Error</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_disterr_brst</ParameterKey>
+         <Description>Burst Survey Sky Map Instrument Distribution 1-sigma Error
+                      Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+                      Column 2 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+                      Column 3 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]</Description>
+         <Caveats>Az bin: sector ind=00 looks after (spin-phase) Sun, ..., sector ind=31 looks before Sun dir.  Head field-of-view: pixel index=00 looks to zenith, ..., pixel index=15 looks to nadir.  FPI operations nominally bin data from 64 energy filters into 32 pairwise energy bins, indexed 0-31.  Nominally, bins are indexed in increasing energy order.  See FPI docs for details.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>phase-space density</Units>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>32 16 32</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>StandardDeviation</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Sector Despin P Value</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>mms2_des_sector_despinp_brst</ParameterKey>
+         <Description>Sector Despin P Value, this Burst</Description>
+         <Caveats>Records P-value used to de-spin this burst sky-map on board.  See FPI docs for details.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>00-32</Units>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>FPI2/DES deSpin P</AxisLabel>
+            <ValueFormat>i2.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>32</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Sector Index</Name>
+         <ParameterKey>mms2_des_sector_index_brst</ParameterKey>
+         <Description>Azimuth Sector Index used in some Types of Outputs</Description>
+         <Caveats>Azimuth bin: sector index=00 looks after (spin-phase) Sun, ..., sector index=31 looks before Sun dir.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>00-31</Units>
+         <RenderingHints>
+            <ValueFormat>i2.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>31</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Pixel Index</Name>
+         <ParameterKey>mms2_des_pixel_index_brst</ParameterKey>
+         <Description>Pixel Index used in some Types of Outputs</Description>
+         <Caveats>Head field-of-view: pixel index=00 looks to zenith, ..., pixel index=15 looks to nadir.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>00-15</Units>
+         <RenderingHints>
+            <ValueFormat>i2.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>16</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>15</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Energy Index</Name>
+         <ParameterKey>mms2_des_energy_index_brst</ParameterKey>
+         <Description>Energy Bin Index used in some Types of Outputs</Description>
+         <Caveats>FPI operations nominally bin data from 64 energy filters into 32 pairwise energy bins, indexed 0-31.  Nominally, bins are indexed in increasing energy order.  See FPI docs for details.</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>00-31</Units>
+         <RenderingHints>
+            <ValueFormat>i2.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>31</ValidMax>
+         <FillValue>255</FillValue>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Zenith Angles</Name>
+         <Set>Time series defined by using: MMS2_DES_PIXEL_INDEX_BRST</Set>
+         <ParameterKey>mms2_des_theta_brst</ParameterKey>
+         <Description>Burst Sky Map Zenith Angles</Description>
+         <Caveats>Pixel zenith angles</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>degree</Units>
+         <UnitsConversion>0.0174532925>rad</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>16</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>180.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>DirectionAngle.PolarAngle</Qualifier>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Sky Map Energies</Name>
+         <Set>Time series defined by using: MMS2_DES_ENERGY_INDEX_BRST</Set>
+         <ParameterKey>mms2_des_energy1_brst</ParameterKey>
+         <Description>Burst Sky Map Parity 1 Energies</Description>
+         <Caveats>Odd energies (parity 1) in the 64-step FPI energy table</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>eV</Units>
+         <UnitsConversion>1.602e-19&gt;J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>30000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Sky Map Energies</Name>
+         <Set>Time series defined by using: MMS2_DES_ENERGY_INDEX_BRST</Set>
+         <ParameterKey>mms2_des_energy0_brst</ParameterKey>
+         <Description>Burst Sky Map Parity 0 Energies</Description>
+         <Caveats>Even energies (parity 0) in the 64-step FPI energy table</Caveats>
+         <Cadence>PT0.030S</Cadence>
+         <Units>eV</Units>
+         <UnitsConversion>1.602e-19&gt;J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>e12.2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>30000.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+   </NumericalData>
+</Spase>
