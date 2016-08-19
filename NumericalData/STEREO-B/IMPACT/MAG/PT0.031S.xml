@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/MAG/PT0.031S</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B IMPACT/MAG 32-Hz Magnetic Field Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2016-08-19T00:00:00</ReleaseDate>
             <Description>This data product contains 0.03125-s (32 Hz) burst-mode values 
 of solar wind magnetic field data taken by the IMPACT/Magnetometer on STEREO-B.  
 The interface allows selection of STEREO A or STEREO B data and of vector quantities 
@@ -60,7 +60,7 @@ M. Acuna (GSFC).</Acknowledgement>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-                <ProductKey>STB_L1_MAGB_SC</ProductKey>
+                <ProductKey>STB_L1_MAGB_RTN</ProductKey>
                 <Description>STB_L1_MAGB_RTN</Description>
             </AccessURL>
             <Format>CDF</Format>
