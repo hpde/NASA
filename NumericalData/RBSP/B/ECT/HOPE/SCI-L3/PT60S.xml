@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/SCI_L3/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Van Allen Probe B ECT HOPE Pitch angle resolved Level 3 Science Data</ResourceName>
-            <ReleaseDate>2016-06-22T00:00:00</ReleaseDate>
+            <ReleaseDate>2016-09-20T00:00:00</ReleaseDate>
             <Description>This data set contains pitch angle resolved data from the Van Allen Probe A ECT HOPE plasma spectrometer. Electrons and ion species (H+, He+, and O+) are measured over 1 eV to 50 keV in 36 log-spaced steps in alternate spin cadence. Note that there are no correections performed on the data (e.g. background subtraction, velocity corrections, etc.) Please check the Data Quality and Caveats page on the ECT home page and contact the ECT team for known data issues.</Description>
             <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
             <Contact>
@@ -52,7 +52,7 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/</URL>
-                <ProductKey>RBSPB_REL02_ECT-HOPE-PA-L3</ProductKey>
+                <ProductKey>RBSPB_REL03_ECT-HOPE-PA-L3</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
