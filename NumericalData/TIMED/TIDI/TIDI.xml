@@ -1,10 +1,10 @@
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/TIMED/TIDI/TIDI</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED TIDI profiles of Mesosphere/Lower Thermosphere winds</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2016-12-16T11:44:00</ReleaseDate>
             <Description>This Level 3 data set of wind vectors from the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) Doppler Interferometer (TIDI) contains zonal and meridional components of the neutral wind measured at 60-180 km that are mapped onto fixed angle-along-the-track grids. Vertical resolution is ~2 km at the lower altitudes and 25 km at the thermosphere, with an accuracy that approaches ~3 m/sec.  Each profile is annotated with ancillary data including profile position and processing status.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Timothy.L.Killeen</PersonID>
@@ -13,7 +13,7 @@
             <PriorID>spase://VSPO/NumericalData/TIMED_WINDVECTORSNCAR_TIDI</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
@@ -26,11 +26,11 @@
             </AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/cdf/tidi/windvectors_ncar/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/tidi/windvectors_ncar/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/cdf/tidi/windvectors_ncar/</URL>
+                <URL>http://spdf.gsfc.nasa.gov/pub/data/timed/tidi/windvectors_ncar/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
