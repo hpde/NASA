@@ -4,8 +4,21 @@
         <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 2 MAG 1-hr ASCII data at nsdcftp</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-            <Description>Voyager 2 MAG 1-hr ASCII data</Description>
+            <ReleaseDate>2017-01-18T12:34:56</ReleaseDate>
+            <Description>
+			This data set contains hour averages of the interplanetary magnetic     
+			field (IMF) measurements obtained by the triaxial fluxgate magnetometer 
+			experiment on Voyager 2. Identical instruments on Voyager 1 and 2 were  
+			designed to measure the IMF between  Earth and Saturn (10 AU) during the
+			primary Voyager mission. The  design and performance yielded absolute   
+			accuracies to better than &lt; 0.1 nT. In general, each component of the   
+			hourly average has an uncertainty of up  to (+/- 0.05 nT) in the region 
+			beyond 10 AU. More accurate measurements can be  obtained by special    
+			processing of the data, but it was not feasible to do this for the      
+			entire data set included here. The magnetic field magnitude in nT is    
+			provided along with angles of the field vector in the spacecraft-       
+			centered Heliographic (HG) coordinate system, also known as RTN.        
+			</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -14,6 +27,10 @@
                 <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
                 <Role>CoInvestigator</Role>
             </Contact>
+			<Contact>
+				<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+				<Role>MetadataContact</Role>
+			</Contact>
             <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1HR_ASC</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -32,6 +49,20 @@
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
+		<AccessInformation>
+			<RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+			<Availability>Online</Availability>
+			<AccessRights>Open</AccessRights>
+			<AccessURL>
+				<Name>PDS/PPI</Name>
+				<URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</URL>
+				<ProductKey>VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</ProductKey>
+				<Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
+				<Language>En</Language>
+			</AccessURL>
+			<Format>Text.ASCII</Format>
+			<Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+		</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>

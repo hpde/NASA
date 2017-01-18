@@ -5,7 +5,21 @@
         <ResourceHeader>
             <ResourceName>Voyager 1 PWS hr-avgd and peak plasma wave data</ResourceName>
             <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
-            <Description>Hourly averages and peaks of calibrated electric field spectrum analyzer data from Voyager 1 PWS instrument</Description>
+            <Description>
+			Hourly averages and peaks of calibrated electric field spectrum analyzer data from Voyager 1 PWS instrument
+			  
+			The plasma parameters are obtained by finding the best fit of a convected    
+			isotropic Maxwellian distribution to the data. One sigma errors              
+			are typically less than 0.5% in the speed and VR, less than 5% for the       
+			density and thermal speed, and vary greatly for VT and VN.                   
+			Sampling times range from 12 to 192 sec., with sampling generally more       
+			frequent early in the mission.
+																						
+			The velocity components are given in the RTN coordinate system,              
+			where R is radially outward, T is in a plane parallel to the solar           
+			equatorial plane and positive in the direction of solar rotation,            
+			and N completes a right-handed system.                                       
+      </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -14,7 +28,6 @@
                 <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
                 <Role>DataProducer</Role>
             </Contact>
-            <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_PWS_HOURLY</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/PDS</RepositoryID>
