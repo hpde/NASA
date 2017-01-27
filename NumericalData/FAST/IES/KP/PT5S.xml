@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/FAST/IES/KP/PT5S</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST IES Key Parameters</ResourceName>
-            <ReleaseDate>2013-01-08T12:00:00.000Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00.000Z</ReleaseDate>
             <Description>This data set provides the ion part of the 5-second (spin-averaged) FAST survey data from the Electrostatic Analysers (ESA) instrument in CDF format. It includes: the ion energy fluxes for 47 energies (3 eV - 25 keV) in the pitch angle ranges 0-30, 40-140, and 150-180 degrees; the ion energy fluxes for 32 pitch angles (-90 to 270 deg) in the energy ranges 0.05-1.0 keV and 1.0-25.0 keV; the integrated ion energy (and number) fluxes mapped to the magnetic foot point; and orbit information.  More specifically, 
 
 Ion Sensor Parameters include:  
@@ -38,13 +38,13 @@ Ion Number Flux mapped along B to 100 km altitude </Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
                 <Description>In CDF via FTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/fast/ies/ies_k0/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/esa/k0/ies/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -55,7 +55,7 @@ Ion Number Flux mapped along B to 100 km altitude </Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>FA_K0_IES</ProductKey>
                 <Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_IES</Description>
             </AccessURL>
