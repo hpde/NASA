@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/Service/MSIS/Atmospheric.Models</ResourceID>
         <ResourceHeader>
             <ResourceName>MSIS atmospheric models</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>MSIS (Mass Spectrometer Incoherent Scatter) neutral atmosphere density, composition and temperature empirical models</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -12,7 +12,7 @@
             </Contact>
             <InformationURL>
                 <Name>About the MSIS model</Name>
-                <URL>http://modelweb.gsfc.nasa.gov/atmos/msis.html</URL>
+                <URL>https://ccmc.gsfc.nasa.gov/modelweb/atmos/msis.html</URL>
             </InformationURL>
             <InformationURL>
                 <Name>FTP access to files at SPDF</Name>
@@ -20,13 +20,13 @@
             </InformationURL>
             <InformationURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/models/old_models_from_nssdc/atmospheric/msis/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/models/old_models_from_nssdc/atmospheric/msis/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/Service/P_MSIS_HDR</PriorID>
         </ResourceHeader>
         <AccessURL>
             <Name>Execute MSISE-90 code at SPDF</Name>
-            <URL>http://omniweb.gsfc.nasa.gov/vitmo/msis_vitmo.html</URL>
+            <URL>https://omniweb.sci.gsfc.nasa.gov/vitmo/msis_vitmo.html</URL>
         </AccessURL>
     </Service>
 </Spase>
