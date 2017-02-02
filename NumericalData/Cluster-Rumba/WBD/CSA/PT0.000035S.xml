@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Rumba Wide Band Data (WBD) Plasma Waves at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Rumba Wide Band Data (WBD) Plasma Waves at the ESA Cluster Active Archive</AlternateName>
-            <ReleaseDate>2013-06-24T15:51:47Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description> The Cluster Wide Band Data (WBD) products at the Cluster Active Archive include full time resolution calibrated waveform data obtained in one of three frequency bandwidths: 9.5 kHz, 19 kHz, or 77 kHz in the range of 0-577 KHz along one axis using either an electric field
 antenna or a magnetic search coil sensor. The dataset also includes instrument mode, data quality and the angles required to orient the measurement with
 respect to the magnetic field and to the GSE coordinate system.  Calibrated electric field data are divided by 1000 to get V m^-1.  Because of the high sampling rate of the WBD data (27.4 to 219.5 kilosamples per second), the time resolution of the WBD data (~36 to 5 microseconds in the time domain) is very high. This results in a very large data volume. Because of this the WBD data are stored in CEF files (and in CDF files from which the CEF files were generated) with maximum length of 10 minutes and size of a few hundred Mbytes. The user of WBD data is thus cautioned to take this into consideration when requesting WBD data downloads from the CAA. The 10 minute CDF files can also be downloaded from NASA's CDAWeb. For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet.</Description>
@@ -25,7 +25,7 @@ respect to the magnetic field and to the GSE coordinate system.  Calibrated elec
             </InformationURL>
             <InformationURL>
                 <Name>Cluster Science Archive (CSA) Documentation</Name>
-                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <URL>https://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <InformationURL>
@@ -44,7 +44,7 @@ respect to the magnetic field and to the GSE coordinate system.  Calibrated elec
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
-                <URL>http://www.rssd.esa.int/csa</URL>
+                <URL>https://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Rumba Wide Band Data (WBD). It's open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

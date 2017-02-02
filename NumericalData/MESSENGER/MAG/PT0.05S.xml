@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
         <ResourceHeader>
             <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20Hz</ResourceName>
-            <ReleaseDate>2015-04-29T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This MESSENGER/MAG data set contains cruise-phase
 magnetic field vectors in RTN coordinates at time resolutions typically
 of 0.5s or 1.0s and sometimes as fine as 0.05s.</Description>
@@ -44,7 +44,7 @@ Anderson of JHU_APL, and the organization from which the data were
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>MESSENGER_MAG_RTN</ProductKey>
                 <Description>Access to MESSENGER interplanetary magnetic field data with subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>

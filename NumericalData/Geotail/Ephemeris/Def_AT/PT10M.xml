@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/Ephemeris/Def_AT/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail Definitive Attitude</ResourceName>
-            <ReleaseDate>2012-11-07T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Definitive Geotail spacecraft attitude in various coordinate systems.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Gerald.Blackwell</PersonID>
@@ -37,7 +37,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>GE_AT_DEF</ProductKey>
                 <Description>subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>

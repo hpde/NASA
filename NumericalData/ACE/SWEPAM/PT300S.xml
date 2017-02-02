@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/PT300S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWEPAM 5-min Key Parameter (recent) data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>ACE SWEPAM Solar Wind Plasma Experiment 5-Minute Key Parameters [PRELIM]</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>AC_K0_SWE</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

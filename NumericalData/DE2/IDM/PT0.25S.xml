@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/IDM/PT0.25S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 250ms IDM Ion Drift Velocities</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set contains cross-track ion drift
 velocities obtained at 250ms resolution from the DE 2 Ion Drift 
 Meter (IDM).  Data are available in ASCII from nssdcftp and in CDF 
@@ -54,7 +54,7 @@ Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>DE2_VION250MS_IDM</ProductKey>
                 <Description>For CDAWeb subset, plot and list capabilities</Description>
             </AccessURL>

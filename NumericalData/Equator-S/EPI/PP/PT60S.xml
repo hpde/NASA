@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Equator-S/EPI/PP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Equator-S Energetic Particle Instrument (EPI) 1-min Prime Parameters</ResourceName>
-            <ReleaseDate>2012-05-08T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set contains selected Key Parameters of the Energetic Particle Instrument (EPI).  The following one-minute summary parameters are given versus time: differential electron fluxes in three channels (20 - 48 keV, 43 - 138 keV, and 127 - 225 keV); differential proton fluxes in three channels (40 58 keV, 58 - 126 keV, and 115 - 400 keV); the half-interval between time tags, averaged over the file; and a status flag.  </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Trevor.R.Sanderson</PersonID>
@@ -33,7 +33,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>EQ_PP_EPI</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

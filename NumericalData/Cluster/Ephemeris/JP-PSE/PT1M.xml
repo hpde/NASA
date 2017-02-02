@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Cluster/Ephemeris/JP-PSE/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster centroid JSOC Predicted Scientific Events</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This dataset contains Cluster centroid JSOC predicted scientific events, orit number, and GSE positions.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>CT_JP_PSE</ProductKey>
                 <Description>CT_JP_PSE</Description>
             </AccessURL>

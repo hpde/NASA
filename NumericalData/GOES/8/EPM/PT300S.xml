@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GOES/8/EPM/PT300S</ResourceID>
         <ResourceHeader>
             <ResourceName>GOES 8 EPS, 5-min KP Electron, Proton Fluxes</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>GOES 8 Energetic Particle Sensor, Key Parameters, 5-min fluxes of electrons &gt;0.6, &gt;2, &gt;4 MeV and of 0.7-4 MeV protons</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>G8_K0_EP8</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

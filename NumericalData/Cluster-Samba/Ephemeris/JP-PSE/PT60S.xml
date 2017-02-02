@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Cluster-Samba/Ephemeris/JP-PSE/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster Samba JSOC Predicted Scientific Events</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This dataset contains Cluster Samba JSOC predicted scientific events, orit number, and GSE positions.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>C3_JP_PSE</ProductKey>
                 <Description>C3_JP_PSE</Description>
             </AccessURL>

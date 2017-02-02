@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MMS/4/HotPlasmaCompositionAnalyzer/Burst/Level2/Moments/PT10S</ResourceID>
         <ResourceHeader>
             <ResourceName>MMS 4 Hot Plasma Composition Analyzer (HPCA) Moments, Level 2, Burst Survey</ResourceName>
-            <ReleaseDate>2016-09-29T12:34:56.789</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Hot Plasma Composition Analyzer (HPCA) Moments, Level 2, Burst Survey, 10 s Data. The MMS HPCA instruments measure the energy and composition of magnetospheric plasmas in the energy range from 1 eV to 40 keV. An electrostatic energy analyzer (ESA) that is optically coupled to a carbon-foil based Time-of-Flight (TOF) section comprises each HPCA. The basic HPCA data product is an array of counts for 5 ion species, at 63 energies, for each of 16 elevation anodes. Sixteen basic products, also called azimuths, are acquired every 10 s; half a spacecraft spin period nominally has 16 azimuths. The five ion species are protons (H+), alpha particles (He++), helium ions (He+), singly charged Oxygen (O+), and background counts.</Description>
             <Acknowledgement>J. Burch, S. Fuselier, Confer with PI for rules of acknowledgement</Acknowledgement>
             <Contact>
@@ -60,7 +60,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>MMS4_HPCA_BRST_L2_MOMENTS</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
             </AccessURL>

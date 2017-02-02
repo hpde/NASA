@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CNOFS/CINDI/IVM/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>CNOFS CINDI IVM 500 ms Ion Drift Data</ResourceName>
-            <ReleaseDate>2013-03-15T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set contains plasma parameters of the equatorial F-region in the ionosphere measured by the Ion Velocity Meter (IVM) of the Coupled Ion-Neutral Dynamics Investigation (CINDI) payload on board the CNOFS spacecraft. Data are available in HDF format, with an IDL program to read and plot them.  Each file contains data from one day of spacecraft operation and the file contains eight primary geophysical parameters: the ion temperature (Ti) in degrees Kelvin, the ion flow in m/s in the ram (i.e.--spacecraft velocity) direction (+Vx in the direction of spacecraft velocity), the ion flows in m/s in the horizontal and vertical directions (Vy and Vz) at right angles to the ram direction (+Vz is downward, +Vy is roughly southward), the total ion density (Ni) (the sum of O+ and H+ and He+ concentrations) in ions/cc, and the individual H+, He+, and O+ concentrations in ions/cc. 
 In addition, ion velocities also are given in the coordinate system of the local magnetic field (parallel, perpendicular, and meridional) in the plots and as ASCII data on the UT Dallas website. Based on the IGRF model, the data are transformed into magnetic coordinates only if all three ion velocities in the spacecraft coordinates are available and good.</Description>
             <Acknowledgement>Please acknowledge NASA SPDF and the CINDI team at the University of Texas at Dallas that is supported by NASA grant NAS5-01068
@@ -20,7 +20,7 @@ In addition, ion velocities also are given in the coordinate system of the local
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
                 <ProductKey>CNOFS_CINDI_IVM_500MS</ProductKey>
                 <Description>Plots, lists and files from CDAWeb.</Description>
             </AccessURL>

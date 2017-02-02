@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CNOFS/PLP/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>CNOFS PLP 1-sec plasma preliminary data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Plasma structures at 400-850km altitudes in the equatorial ionosphere  
 have been measured by the C/NOFS Planar Langmuir Probe (PLP). This PLP data
 set contains 1-sec resolution ion number density and its standard deviation, electron  
@@ -16,7 +16,7 @@ position in geodetic coordinates. As of 5/13/2010, the data were preliminary.</D
             </Contact>
             <InformationURL>
                 <Name>C/NOFS PLP 1-s plasma parameter data</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <Description>1-sec PLP avg key parameters preliminary data from CDAWeb</Description>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/CNOFS_PLP_PLASMA_1SEC</PriorID>
@@ -27,7 +27,7 @@ position in geodetic coordinates. As of 5/13/2010, the data were preliminary.</D
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
                 <ProductKey>CNOFS_PLP_PLASMA_1SEC</ProductKey>
                 <Description>Plots, lists and files from CDAWeb.</Description>
             </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/Wind/MFI_SWE/GWS</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind daily Survey Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Daily gif_walk plots, selected mag field and plasma data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/L.Szabo</PersonID>
@@ -22,7 +22,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Daily plots of Wind field and plasma data</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=wind_daily_kp_plots</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=wind_daily_kp_plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>

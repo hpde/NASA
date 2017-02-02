@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GOES/11/SEM/PT300S</ResourceID>
         <ResourceHeader>
             <ResourceName>GOES 11 EPS, 5-min KP Electron, Proton Fluxes</ResourceName>
-            <ReleaseDate>2014-01-09T10:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set from GOES 11 Energetic Particle Sensor contains Key Parameters as 5-min fluxes of electrons &gt;0.6, &gt;2, &gt;4 MeV and of 0.7-4 MeV protons.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>GOES11_K0_EP8</ProductKey>
                 <Description>GOES11_K0_EP8</Description>
             </AccessURL>

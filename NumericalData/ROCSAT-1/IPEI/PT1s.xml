@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ROCSAT-1/IPEI/PT1s</ResourceID>
         <ResourceHeader>
             <ResourceName>ROCSAT-1 IPEI Key Parameters</ResourceName>
-            <ReleaseDate>2012-06-21T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set contains ion data from the ROCSAT-1 Ionospheric Plasma and Electrodynamics Instrument (IPEI).  They include: composition for H+, He+, NO+, O+ ions, total density, temperature, and velocities in two different coordinate systems, namely the non-rotating Earth-centered Inertia (ECI) Coordinate System and the rotating Earth-centered Fixed (ECF) Coordinate System.
 </Description>
             <Acknowledgement>Please acknowledge the data provider, Shin-Yi Su at the Institute of Space Science, National Central University of Taiwan and the NASA SPDF when using these data.</Acknowledgement>
@@ -35,7 +35,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>RS_K0_IPEI</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

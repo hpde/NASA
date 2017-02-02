@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/TIMED/TIDI/TIDI</ResourceID>
         <ResourceHeader>
             <ResourceName>TIMED TIDI profiles of Mesosphere/Lower Thermosphere winds</ResourceName>
-            <ReleaseDate>2016-12-16T11:44:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This Level 3 data set of wind vectors from the Thermosphere Ionosphere Mesosphere Energetics and Dynamics (TIMED) Doppler Interferometer (TIDI) contains zonal and meridional components of the neutral wind measured at 60-180 km that are mapped onto fixed angle-along-the-track grids. Vertical resolution is ~2 km at the lower altitudes and 25 km at the thermosphere, with an accuracy that approaches ~3 m/sec.  Each profile is annotated with ancillary data including profile position and processing status.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Timothy.L.Killeen</PersonID>
@@ -35,7 +35,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>TIMED_WINDVECTORSNCAR_TIDI</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

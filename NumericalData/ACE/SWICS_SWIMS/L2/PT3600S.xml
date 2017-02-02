@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT3600S</ResourceID>
  <ResourceHeader>
  <ResourceName>ACE SWICS 1.1 Solar Wind 1-Hour Data </ResourceName>
- <ReleaseDate>2015-08-19T00:00:00</ReleaseDate>
+ <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>ACE SWICS_SWIMS 1.1 L2 1-hr, 1-d, 27-d solar wind He, Mg, O, Fe TnV data, plus species ratios and charge states, at ASC.  This SWICS 1.1 dataset consists of a re-release of significantly improved time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. It is a major new version produced with completely redesigned analysis methods to account more rigorously for instrumental and statistical effects (Shearer et al. 2014). Rare elements are now identified more reliably and estimates of statistical error are provided. These release notes describe the data, the methods used to determine them, and issues of data quality and measurement uncertainty.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>AC_H2_SWI</ProductKey>
             </AccessURL>
             <AccessURL>

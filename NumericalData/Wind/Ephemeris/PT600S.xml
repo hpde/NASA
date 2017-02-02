@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/Ephemeris/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Orbit Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Wind orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>WI_OR_PRE</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

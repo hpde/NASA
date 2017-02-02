@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-hour Key Parameter data</ResourceName>
-            <ReleaseDate>2012-05-11T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This set of key parameters contain ACE EPAM 1-hour spin averaged proton (0.76-1.22 MeV), alpha particle (0.047-0.065 MeV, 0.112-0.187 MeV, 0.310-0.580 MeV, and 1.06-1.91 MeV), and electron (0.038-0.053 MeV and 0.175-0.315 MeV) fluxes.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>AC_K1_EPM</ProductKey>
                 <Description>AC_K1_EPM</Description>
             </AccessURL>

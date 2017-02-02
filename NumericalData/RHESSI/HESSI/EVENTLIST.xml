@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/RHESSI/HESSI/EVENTLIST</ResourceID>
         <ResourceHeader>
             <ResourceName>RHESSI Flare List</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>RHESSI X-ray-based flare list, current to ~2 days</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Gordon.D.Holman</PersonID>
@@ -18,7 +18,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>RHESSI site at GSFC/LASP</Name>
-                <URL>http://hesperia.gsfc.nasa.gov/hessidata/dbase/hessi_flare_list.txt</URL>
+                <URL>https://hesperia.gsfc.nasa.gov/hessidata/dbase/hessi_flare_list.txt</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/LANL/1994/SOPA/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>LANL1994 SPA 1-min Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>LANL1994 Synchronous Orbit Particle Analyzer 1-min key parameters - densities, temperatures, fluxes for 50-225 and 315-1500 keV electrons</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>L4_K0_SPA</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

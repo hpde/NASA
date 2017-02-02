@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/SIS/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SIS 1-Hr Key Parameter Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>ACE SIS (Solar Isotope Spectrometer) 1-Hr Key Parameter Data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
@@ -31,7 +31,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>AC_K0_SIS</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

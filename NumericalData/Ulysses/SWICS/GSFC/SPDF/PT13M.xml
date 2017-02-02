@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWICS full resolution (13-min) matrix data via CDAWeb</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This data set contains 13-min matrix rate ion data from the Ulysses Solar Wind Ion Composition Spectrometer (SWICS) instrument that measures energy per charge range from 0.16 to 59.6 keV/e.  Density, velocity, and temperature data are available for 10 speciess (H, He, C, N, O, Ne, Mg, Si, S, and Fe) and charge states. </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>UY_H0_GLG</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/WFEP/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses URAP WFA 10-min Electric Field Peak Data</ResourceName>
-            <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>This set of WFA (Waveform Analyzer) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak electric field intensities in 10-min intervals via CDAWeb. The frequency spectra are determined from measurements on the Y and Z antenna of the URAP instrument in units of microvolts/ Hz^0.5 for frequency channels from 0.22-448 Hz.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
@@ -35,7 +35,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>UY_M0_WFEP</ProductKey>
                 <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
             </AccessURL>

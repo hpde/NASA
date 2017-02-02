@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/Geotail/GWS</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail Daily Survey Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Daily gif_walk plots, selected data from many Geotail instruments</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Susumu.K.Kokubun</PersonID>
@@ -26,7 +26,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Polar-Wind-Geotail gif-walk site</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=geotail_kp_plots_daily</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=geotail_kp_plots_daily</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>

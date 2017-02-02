@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/RPA/PT16S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE-2 16-s Unified Abstract data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Dynamics Explorer (DE)-2 16-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -31,7 +31,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>DE2_UA16S_ALL</ProductKey>
                 <Description>Plots, lists, and files from CDAWeb.  Name of the data resource:DE2_UA16S_ALL</Description>
             </AccessURL>

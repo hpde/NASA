@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT-PLASTIC/COHOWEB/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B COHOWEB field data from IMPACT and plasma data from PLASTIC</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description> STEREO data in COHOWEB come from the magnetometer of
     the IMPACT package and from the PLASTIC plasma detector.  Principal
     Investigators for these packages are Janet Luhmann (UCB) and Antoinette Galvin
@@ -54,7 +54,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>STB_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
                 <Description>STB_COHO1HR_MERGED_MAG_PLASMA with subset, plot and list via CDAWeb</Description>
             </AccessURL>

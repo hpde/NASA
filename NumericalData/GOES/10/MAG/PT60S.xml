@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GOES/10/MAG/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>GOES 10 MAG 1-Min Key Parameters</ResourceName>
-            <ReleaseDate>2014-01-09T10:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>GOES 10 Magnetometer 1-Min Key Parameters, in GSE and GSM Coordinates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>G0_K0_MAG</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

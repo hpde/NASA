@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/POLAR/GWS</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Daily Survey Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Daily gif_walk plots, selected data from most Polar instruments</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
@@ -18,7 +18,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Polar-Wind-Geotail gif-walk site</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=polar_kp_plots</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/gif_walk?plot_type=polar_kp_plots</URL>
             </AccessURL>
             <Format>GIF</Format>
         </AccessInformation>
