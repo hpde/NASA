@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-       <ResourceID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/L3/TOFXPHHLEHT</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/L3/PAP_TOFXEION</ResourceID>
       <ResourceHeader>
-         <ResourceName>Van Allen Probe A RBSPICE TOF x PH Low Energy High Time Resolution Hydrogen Rates converted Level-3 data</ResourceName>
+         <ResourceName>Van Allen Probe A RBSPICE TOF x Energy Ion Rates converted Level-3 data</ResourceName>
          <ReleaseDate>2017-02-02T12:34:56.789</ReleaseDate>
-         <Description>RBSP-A Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Time of Flight &#215; Pulse Height, Low-Energy Resolution, High-Time Resolution Proton Intensities and Pressures sorted by Pitch Angles</Description>
+         <Description>RBSP-A Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Time of Flight &#215; Energy, High-Energy Resolution, Low-Time Resolution Proton Intensities and Pressures sorted by Pitch Angles (Species Mode Measurement)</Description>
          <Acknowledgement>L. Lanzerotti, The RBSPICE instrument was supported under a NASA Contract with the New Jersey Institute of Technology, with subcontracts to The Johns Hopkins University Applied Physics Laboratory and to Fundamental Technologies LLC.</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
@@ -20,40 +20,40 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-     <InformationURL>
-        <Name>Current QuickLook &amp; Summary Plots, Instrument Information and All Data</Name>
-        <URL>http://rbspice.ftecs.com/Data.html</URL>
-        <Description>at the RBSPICE Instrument Site</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Interactive Analysis for RBSPICE Data</Name>
-        <URL>http://sd-www.jhuapl.edu/rbspice/MIDL/</URL>
-        <Description>using RBSPICE MIDL</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>The Van Allen Probes Home Page</Name>
-        <URL>http://vanallenprobes.jhuapl.edu</URL>
-        <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
-      </InformationURL>  
-    </ResourceHeader>
+           <InformationURL>
+                <Name>Current QuickLook &#038; Summary Plots, Instrument Information and All Data</Name>
+                <URL>http://rbspice.ftecs.com/Data.html</URL>
+                <Description>at the RBSPICE Instrument Site</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Interactive Analysis for RBSPICE Data</Name>
+                <URL>http://sd-www.jhuapl.edu/rbspice/MIDL/</URL>
+                <Description>using RBSPICE MIDL</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>The Van Allen Probes Home Page</Name>
+                <URL>http://vanallenprobes.jhuapl.edu</URL>
+                <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
+            </InformationURL>
+      </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_tofxphhleht/</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_tofxeion/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_tofxphhleht/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_tofxeion/</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-            <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_TOFXPHHLEHT</ProductKey>
+            <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_TOFXEION</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -65,7 +65,7 @@
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2013-01-26T00:00:00.000</StartDate>
+            <StartDate>2012-10-29T00:00:00.000</StartDate>
             <RelativeStopDate>-P2M</RelativeStopDate>
          </TimeSpan>
          <Cadence>PT0.020S</Cadence>
