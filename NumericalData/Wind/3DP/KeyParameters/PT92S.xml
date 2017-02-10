@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/3DP/KeyParameters/PT92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind 3DP 92-s Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Wind 3DP (3-D Plasma Analyzer), 92-s key parameters, ion and electron fluxes (at 7 energy steps), flow velocities, densities and temperatures</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

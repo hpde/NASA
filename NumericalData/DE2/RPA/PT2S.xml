@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/RPA/PT2S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 2s RPA Ion Plasma Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains the following plasma 
 parameters at 16ms resolution from the DE 2 Retarding Potential 
 Analyzer: ion drift velocity, ion temperature, densities of all
@@ -25,7 +25,7 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/00readme.txt</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/00readme.txt</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/DE2/RPA/PT2S</PriorID>
         </ResourceHeader>
@@ -40,7 +40,7 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MMS/4/EnergeticParticleDetector/EIS/Burst/Level2/PulseHeightByTimeOfFlight/PT0.605S</ResourceID>
         <ResourceHeader>
             <ResourceName>MMS 4 Energetic Particle Detector, Energetic Ion Spectrometer (EPD-EIS) Pulse Height by Time of Flight, Level 2, Burst Survey</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Energetic Particle Detector (EPD), Energetic Ion Spectrometer (EIS) Pulse Height by Time of Flight, Level 2, Burst Survey, 0.605 s Data. The EIS provides ion composition measurements (protons versus oxygen ions) and angular distributions over the energy range from approximately 45 to 500 keV.</Description>
             <Acknowledgement>B. Mauk</Acknowledgement>
             <Contact>
@@ -46,7 +46,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms4/epd-eis/brst/l2/phxtof</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms4/epd-eis/brst/l2/phxtof</URL>
                 <Description>In CDF via http from SPDF.</Description>
             </AccessURL>
             <AccessURL>

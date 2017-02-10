@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2HR_QState</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWICS 1.1 Solar Wind 2-Hour Q-State Distribution Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This ACE SWICS 1.1 data set contains Solar Wind Ion Composition Spectrometer (SWICS) level-2 2-hr data of actual Q-state distributions of carbon, oxygen, neon, magnesium, silicon and iron, as opposed to the averaged Q-states that have been available on CDAWeb for some time.  This SWICS 1.1 dataset consists of a re-release of significantly improved time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. It is a major new version produced with completely redesigned analysis methods to account more rigorously for instrumental and statistical effects (Shearer et al. 2014). Rare elements are now identified more reliably and estimates of statistical error are provided. These release notes describe the data, the methods used to determine them, and issues of data quality and measurement uncertainty.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -39,7 +39,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h5/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h5/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

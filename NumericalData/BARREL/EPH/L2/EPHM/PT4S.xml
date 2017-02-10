@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/BARREL/EPH/L2/EPHM/PT4S</ResourceID>
         <ResourceHeader>
             <ResourceName>BARREL Level 2 Ephemeris 4-s Data from 2013 and 2014 Launches</ResourceName>
-             <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+             <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data group contains ephemeris data (Lat, Long, Alt, and Time) from multiple balloons of the BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) investigation in 2013 and 2014. Data include geographic and magnetic coordinates. Geographic coordinates are obtained from onboard GPS unit; magnegic coordinates are derived using the IRBEM FORTRAN library for Kp=2 and Kp=6. Data products are each returned from the payload once every 4s.
 </Description>
             <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
@@ -38,7 +38,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
                 <Description>In CDF via http from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

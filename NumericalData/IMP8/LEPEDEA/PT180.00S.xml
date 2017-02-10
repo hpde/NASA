@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP8/LEPEDEA/PT180.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 LEPEDEA Magnetotail Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>IMP 8 LEPEDEA Magnetotail Distribution Functions and Moments for Selected Intervals</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_lepedea/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_lepedea/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

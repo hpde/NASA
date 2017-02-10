@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/RPA/PT0.016S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 16ms RPA Ion Densities</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains total ion densities obtained
 at 16ms resolution from the DE 2 Retarding Potential Analyzer.
 Corrections for spacecraft potential were included in the density
@@ -39,7 +39,7 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

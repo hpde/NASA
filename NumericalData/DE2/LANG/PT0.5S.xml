@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 500ms LANG Te and Ni Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains electron temperatures and 
 ion densities obtained at 500ms resolution from the DE 2 Langmuir
 Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF 
@@ -36,7 +36,7 @@ Dr. Larry Brace</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

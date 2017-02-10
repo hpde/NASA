@@ -6,7 +6,7 @@
         <ResourceHeader>
             <ResourceName>Wind SWE Faraday Cup Ion Distribution and Charge Flux at 92 sec</ResourceName>
             <AlternateName>WI_SW-ION-DIST_SWE-FARADAY</AlternateName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains three-dimensional measurements of ions from two Faraday Cups onboard the WIND SWE (Solar Wind Experiment) in the energy range 150 eV to 8 keV.  Placed 15 degree above and below equatorial plane of the spacecraft, the Faraday Cups provide positive ion charge flux in picoAmperes as a function of epoch, cup number, orientation angle, and bias grid potential. For each time point, a full spectrum is comprised of charge flux measurements at the two Faraday Cup sensors at 20 azimuth angles for each of 31 energy-per-charge windows (1240 data points per spectrum). Spectra are built up over approximately 92-second intervals. The effective area of the Faraday Cup sensor as a function of incidence angle onto the cup is also provided.  See more in Ogilvie et al., "SWE, a comprehensive plasma instrument for the WIND spacecraft", Space Sci. Rev., 71, 55, 1995. </Description>
             <Acknowledgement>Please acknowledge the Wind/SWE team and NASA/GSFC.</Acknowledgement>
             <Contact>
@@ -30,7 +30,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/swe/swe_faraday/</URL>                    
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/swe/swe_faraday/</URL>                    
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>

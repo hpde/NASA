@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/Ephemeris/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail Predicted Orbit</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Geotail Predicted Orbit at 10-min Resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/pre_or/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/pre_or/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

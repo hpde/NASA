@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/AE-E/PT15S</ResourceID>
         <ResourceHeader>
             <ResourceName>AE-E 15-s Unified Abstract data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Atmospheric Explorer (AE)-E 15-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ae/ae_e/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ae/ae_e/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

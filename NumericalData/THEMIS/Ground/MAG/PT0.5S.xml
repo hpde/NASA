@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/MAG/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>THEMIS Ground-based Magnetic Field Data from Many Stations</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>These are magnetic field vectors, taken at 0.5s cadence for a majority of stations, but at cadences as low as 60s for several stations, from each of 94 ground observatories associated with NASA's 5-spacecraft THEMIS mission (Time History of Events and Macroscale Interactions During Substorms).   Most observatories are at high northern latitudes, while a few are at lower latitudes and two are in the Antarctic.  The Virtual Magnetospheric Observatory (VMO) has separate data descriptors for each of the 94 stations' data, showing the exact start times and other detail per station.  The typical coverage is from 2007 to near-current.  Data are accessible from all stations from CDAWeb and, for 26 stations, from the UCLA Ground Magnetometer Data Center.  Note that the VSPO interface has a pull down menu whereby data from any desired station(s) and time span may be pulled from CDAWeb.</Description>
             <Acknowledgement>We acknowledge V. Angelopoulos for use of data from the THEMIS Mission</Acknowledgement>
             <Contact>
@@ -31,7 +31,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

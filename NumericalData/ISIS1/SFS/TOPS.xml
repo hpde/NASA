@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISIS1/SFS/TOPS</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 1 CRC Electron Density Profiles</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set, provided by the Communications Research Centre (CRC) in Ottawa, Canada, consists of electron density profiles for the ionosphere above the F2 maximum (topside ionosphere). The data are computed from digital values of frequency and virtual height, scaled from ionograms that are measured by the ISIS 1 (International Satellites for Ionospheric Studies) Swept-Frequency Sounder. The data are ordered chronologically. Telemetry stations are not identified, but satellite location, Greenwich mean time of observation, solar zenith angle at the satellite, dip latitude at the satellite, total electron content down to the lowest height of topside signal reflection (normally near 300 km), and other relevant information is noted with each profile. The format gives sequences of numbers for each point scaled from the ionogram. These sequences include electron density at the successive points, and the coefficients a2, b3, b4, b5, etc. from which geometric heights can be calculated, using formulas 40 and 41 in J. E. Jackson, "The reduction of topside ionograms to electron-density profiles," Proceedings of the IEEE., p. 960, June 1969. These formulas can also be used to calculate interpolated density-height values. A CRC interpolation program (available at NSSDC) can be used with this data set.  (</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Elizabeth.D.Hewens</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

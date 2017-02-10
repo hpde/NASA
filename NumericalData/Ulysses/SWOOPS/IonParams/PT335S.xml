@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/IonParams/PT335S</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWOOPS Ion Parameters high resolution Data.</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains 4 to 8 minute averages of the ion density for protons and alpha particles, temperatures (min and max), and velocity data in RTN components from the Ulysses Solar Wind Observations Over the Poles of the Sun (SWOOPS) instrument.  Density units are /cm3, temperature 
 units are K, velocity units are km/s.</Description>
             <Contact>
@@ -34,7 +34,7 @@ units are K, velocity units are km/s.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/ion/hires/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/ion/hires/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
              <Format>Text</Format>

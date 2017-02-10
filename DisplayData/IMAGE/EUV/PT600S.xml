@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IMAGE/EUV/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE EUV Key Parameters: Ion Images</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>IMAGE EUV Key Parameters, Ion Images, 10-min resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bill.Roy.Sandel</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/euv/euv_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/euv/euv_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

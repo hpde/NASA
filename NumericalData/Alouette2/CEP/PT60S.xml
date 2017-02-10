@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Alouette2/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Alouette 2 electron density data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Alouette 2 ionospheric electron density data at 1-5 min resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/alouette/plasma_lp/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/alouette/plasma_lp/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

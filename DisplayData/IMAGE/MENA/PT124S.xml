@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IMAGE/MENA/PT124S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE MENA Images, Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of images and movies from IMAGE Medium-Energy Neutral Atom (MENA) contains key parameters for several energy channels from 1 to 70 keV.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Craig.J.Pollock</PersonID>
@@ -23,7 +23,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

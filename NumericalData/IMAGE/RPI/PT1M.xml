@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE RPI Monthly Electron Density Values</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>The electron density values listed in this file are derived from the IMAGE Radio
 Plasma Imager (B.W. Reinisch, PI) data using an automatic fitting program
 written by Phillip Webb with manual correction.
@@ -60,7 +60,7 @@ data points are right, but it does eliminate some human bias.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/rpi/rpi_electron_density/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/rpi/rpi_electron_density/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

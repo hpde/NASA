@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Interball-1/CORALL/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>Interball Tail CORALL Plasma 2-Min Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Interball Tail CORALL 2-Min Key Parameters, plasma ion density, speed, vector velocity</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Yury.I.Yermolaev</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/interball/tail/cor</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/cor</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

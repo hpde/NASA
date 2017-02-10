@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/BARREL/XRI/L2/MSPC/PT4S</ResourceID>
         <ResourceHeader>
             <ResourceName>BARREL Level 2 Medium Spectra 4-sec Data from 2013 and 2014 Launches</ResourceName>
-             <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+             <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data group contains Bremsstrahlung X-ray measurements from the NaI spectrometers that are onboard multiple balloons of the BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) investigation in 2013 and 2014. Level 2 medium spectra data are available from 48 channels at 100 keV- 4 MeV with a time resolution of 4 s.</Description>
             <Acknowledgement>We acknowledge R. M. Millan et al., for use of data from the BARREL investigation data.</Acknowledgement>
             <Contact>
@@ -37,7 +37,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
                 <Description>In CDF via http from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

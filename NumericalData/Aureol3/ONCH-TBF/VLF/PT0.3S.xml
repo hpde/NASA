@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Aureol3/ONCH-TBF/VLF/PT0.3S</ResourceID>
         <ResourceHeader>
             <ResourceName>Aureol 3 VLF Data</ResourceName>
-            <ReleaseDate>2012-03-19T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains power of electromagnetic wave components from 
 narrow band (10%) filters at 140, 450, 800, 4500, and 15000 Hz.  For 
 any given time segment the power for any one of five predefined pairs 
@@ -35,7 +35,7 @@ The data records are in ASCII.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/arcad/vlf/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/arcad/vlf/</URL>
                 <Description>Arcad_VLF</Description>
             </AccessURL>
             <Format>Text</Format>

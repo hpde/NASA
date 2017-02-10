@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Aureol3/TRAC/PT2.50S</ResourceID>
         <ResourceHeader>
             <ResourceName>ARCAD Magnetic Field Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ARCAD magnetic field data at 2.5-s resolution; altitude &lt; 2000 km, near polar</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/arcad/magnet/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/arcad/magnet/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

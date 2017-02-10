@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/1/FIELDS/EDP/Survey/Level2/HighFrequencyElectricFieldSpectra/PT16S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 1 Axial Double Probe, Spin Plane Double Probe (ADP-SDP) Electric Double Probe, High-Frequency Electric Field Spectra, Level 2, Survey</ResourceName>
-         <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+         <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
          <Description>Electric Double Probe, High-Frequency AC Electric Field Spectra, Level 2, Survey Data, Level 1B AC Electric Field Data</Description>
          <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
          <Contact>
@@ -45,7 +45,7 @@
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms1/edp/srvy/l2/hfesp</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms1/edp/srvy/l2/hfesp</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>

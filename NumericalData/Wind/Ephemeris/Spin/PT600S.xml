@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/Ephemeris/Spin/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Spin Phase Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains spin phase data for the Wind spacecraft that will be of interest to the infrequent users.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/orbit/spha_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/orbit/spha_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

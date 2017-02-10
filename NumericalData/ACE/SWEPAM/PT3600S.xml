@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWEPAM L2 hourly plasma parameter data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ACE SWEPAM L2 1-hr, 1-day and 27-day plasma parameter moments averages at ASC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -39,7 +39,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_h2</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_h2</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CNOFS/VEFI/EField/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>CNOFS VEFI 1-sec Electric Field preliminary data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This C/NOFS Vector Electric Field Instrument (VEFI) data set contains measurements of (magnetic) meridional and zonal components of electric 
 fields and ExB drift velocities.  Data are at 1-sec resolution. </Description>
             <Contact>
@@ -41,7 +41,7 @@ fields and ExB drift velocities.  Data are at 1-sec resolution. </Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/efield_1sec/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/efield_1sec/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

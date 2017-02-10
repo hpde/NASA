@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/CubeSat/CSSWE/REPTile/L1/Counts/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>CSSWE REPTile Level 1 6-s Counts and Position</ResourceName>
-      <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
       <Description>This data set contains Level 1 corrected count rates from the Relativistic Electron and Proton Telescope integrated little experiment (REPTile)on board the Colorado Student Space Weather Experiment (CSSWE) CubeSat. Electron counts are provided for 0.5-1.7 MeV, 1.7-3.3 MeV, and >3.3 MeV.  Proton counts are provided for 9-18 MeV, 19-30 MeV, and 30-40 MeV. All counts, in units of number per 6 seconds, have been corrected for transmission and temperature noise. L is calculated using the IGRF magnetic field model.  Geographic latitude, longitude and altitude (km) are provided.</Description>
       <Acknowledgement>Please acknowledge the PI and NASA SPDF for the CSSWE REPTile data.</Acknowledgement>
       <Contact>
@@ -45,7 +45,7 @@
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/csswe/l1/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/csswe/l1/</URL>
         <Description>In CDF via http from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>

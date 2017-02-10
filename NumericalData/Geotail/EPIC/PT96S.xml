@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/EPIC/PT96S</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail EPIC 96-sec Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Geotail EPIC (Energetic Particles &amp; Ion Composition) 96-sec Key Parameters</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/epic/epi_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/epi_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

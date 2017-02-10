@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Injun5/VLF/Field/PT0.001S</ResourceID>
         <ResourceHeader>
             <ResourceName>Injun 5 VLF Electric and Magnetic Field Data</ResourceName>
-            <ReleaseDate>2012-04-24T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of data came from the Injun 5 Very Low Frequency experiment that covered the frequency range from dc to 105 kHz for electric fields and from 30 Hz to 10 kHz for magnetic fields. Magnitudes of naturally occurring magnetospheric electric fields were measured to an accuracy of ± 30 mv/m.  Each record covers ten milliseconds of data. </Description>
             <Acknowledgement>Please acknowledge Dr. Donald A. Gurnett, the Principal Investigator, the Space Physics Data Faccility and
 NSSDC for usage of this data set in presentations and publications.</Acknowledgement>
@@ -27,7 +27,7 @@ NSSDC for usage of this data set in presentations and publications.</Acknowledge
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/injun/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/injun/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

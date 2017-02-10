@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Hinotori/PP/PT10.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Hinotori Electron Density and Temperature Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Hinotori electron density and temperature Data at 10-sec resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Koh-Ichiro.Oyama</PersonID>
@@ -30,7 +30,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/hinotori/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/hinotori/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

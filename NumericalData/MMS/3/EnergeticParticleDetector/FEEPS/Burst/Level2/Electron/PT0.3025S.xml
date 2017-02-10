@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MMS/3/EnergeticParticleDetector/FEEPS/Burst/Level2/Electron/PT0.3025S</ResourceID>
         <ResourceHeader>
             <ResourceName>MMS 3 Electric Particle Detector, Fly's Eye Energetic Particle Sensor (EPD, FEEPS) Electrons, Burst Survey</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Fly's Eye Electron Proton Spectrometer (FEEPS) Burst Data. The Energetic Particle Detector (EPD) investigation aboard the four MMS spacecraft consists of two instrument designs, the FEEPS and the EIS (Energetic Ion Spectrometer). A FEEPS consists of six Heads, each composed of two Eyes. Each eye is a particle telescope with a single silicon detector. There are nine electron eyes and three ion eyes per FEEPS. The energy coverage is from 25 keV to 650 keV for electrons and 45 keV to 650 keV for ions. Each eye has sixteen energy channels, the spacing of which can be modified by command. The fields of view and pointing of each eye are designed to provide a broad, instantaneous field of view for the twelve eyes per FEEPS.</Description>
             <Acknowledgement>Please acknowledge Daniel N. Baker, Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC), University of Colorado, Boulder.</Acknowledgement>
             <Contact>
@@ -46,7 +46,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms3/feeps/brst/l2/electron/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/feeps/brst/l2/electron/</URL>
                 <Description>In CDF via http from SPDF.</Description>
             </AccessURL>
             <AccessURL>

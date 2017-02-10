@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/Science/Release03/SpinAverage/Level2</ResourceID>
       <ResourceHeader>
          <ResourceName>Van Allen Probe B ECT HOPE Science Release #3 Spin Averaged Level 2 Data</ResourceName>
-         <ReleaseDate>2017-02-07T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
          <Description>RBSP-B Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Averaged Science Data. Electron ~15 to 50,000 eV, Ion ~1 to 50,000 eV Fluxes, Electrons and Ions measured in Alternate Spin Cadence</Description>
          <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel</Acknowledgement>
          <Contact>
@@ -55,12 +55,12 @@
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/hope/sci-l2sa/rel03/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/hope/sci-l2sa/rel03/</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>http://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>RBSPB_REL03_ECT-HOPE-SCI-L2SA</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

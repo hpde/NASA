@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/NACS/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 1s NACS Temperature and Composition</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set containss, at 1-sec resolution, 
 the neutral temperature and the densities (and % error) of O, N2, 
 He, N, and Ar from the Neutral Atmosphere Composition Spectrometer
@@ -39,7 +39,7 @@ Investigator, Dr. George Carignan</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

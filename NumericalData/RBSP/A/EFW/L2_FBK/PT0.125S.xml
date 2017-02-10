@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/RBSP/A/EFW/L2_FBK/PT0.125S</ResourceID>
         <ResourceHeader>
             <ResourceName>Van Allen Probe A EFW Filterbank Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains Level 2 filterbank data from the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  Average power and peak amplitudes from either 7 (default) or 13 logarithmically spaced band-pass ﬁlters are measured between 0.8 Hz and 6.5 kHz sampled at a cadence of 8 samples/s. Two sources may be input into the ﬁlter banks at any one time.  The possible sources include:.E12DC,E34DC,E56DC,.E12AC,E34AC,E56AC,.SCMU,SCMV,SCMW.(V1DC+V2DC+V3DC+V4DC)/4. In the default mode, V12ac, the AC coupled measurement of the electric ﬁeld from sensors 1 and 2 in the spin plane is input into the first ﬁlter bank and SCMw, the spin axis component of the search coil magnetic ﬁeld, serves as input into the second ﬁlter bank. The broadband ﬁlters provide a continuous stream of survey mode measurements over the entire orbit providing information on rapid time variations and bursty wave activity over a broad frequency spectrum. These measurements are also used as an input to burst trigger algorithms.
 
 All these quantities, the nature of the on board signal processing, their filtering, time resolution and their respective coordinate systems are described in the EFW instrument paper (Wygant et al. 2013). </Description>
@@ -40,7 +40,7 @@ All these quantities, the nature of the on board signal processing, their filter
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/efw/fbk/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/efw/fbk/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

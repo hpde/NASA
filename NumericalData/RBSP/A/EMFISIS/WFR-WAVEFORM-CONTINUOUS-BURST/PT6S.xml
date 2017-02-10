@@ -4,7 +4,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A WFR waveform continuous burst data</ResourceName>
-      <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
       <Description>WaveForm Receiver (WFR) Three Axis Electric Field (EU, EV, EW) and Three Axis Magnetic field (BU, BV, BW)  continuous burst waveforms @ 35 kS/sec - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-               <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/emfisis/wfr/waveform-continuous-burst/</URL>
+               <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/emfisis/wfr/waveform-continuous-burst/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

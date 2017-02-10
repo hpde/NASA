@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/SanMarco-DL/IVI/PT10S</ResourceID>
         <ResourceHeader>
             <ResourceName>San Marco-DL Ion Velocity Instrument (IVI) 10-s Data</ResourceName>
-            <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of plasma data came from the Retarding Potential Analyzer and 
 Ion Drift Meter instruments that constituted the San Marco Ion Velocitiy 
 Investigation (IVI). The data were submitted by the PI team in ASCII
@@ -40,7 +40,7 @@ Further details about the San Marco spacecraft, experiment, and data sets can be
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/san_marco/plasma_ivi</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/san_marco/plasma_ivi</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

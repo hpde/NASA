@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IGS/GPS_Receiver/TEC/PT15M</ResourceID>
         <ResourceHeader>
             <ResourceName>GPS Total Electron Content (TEC) 15-min data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This date set contains total electron content (TEC) and global ionospheric maps estimated every 15 minutes by the International GNSS Service (IGS) Analysis Centre. IGS uses the averages of 4 methods, including CODE (U Bern Switzerland), ESA (ESOC Darmstadt Germany), JPL (Jet Propulsion Lab. in Pasadena USA), and UPC (U Politec. Catalonia Barcelona Spain). The data set contains rapid TEC global maps and movies of TEC (10^16 m-2) in cylindrical projection; rapid RMS maps and errors of TEC in cylindrical projection; and rapid TEC maps and movies in polar projection. Continuous coverage is not guaranteed.  </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/gps/tec15min_igs/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/gps/tec15min_igs/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

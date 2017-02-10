@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/SWP/PT24S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 24-s ion plasma data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ISEE 3 24-s ion plasma data, L1 orbit phase 1978-1980</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Samuel.J.Bame</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_protons_24s_ascii/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_protons_24s_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/PT13.8S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar HYDRA 13.8 sec Ion and Electron Fluxes</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Polar HYDRA 13.8 sec ion and electron fluxes, 12.5 eV - 18.3 keV, 29 energy channels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

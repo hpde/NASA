@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Interball-1/VDP/PT2M</ResourceID>
         <ResourceHeader>
             <ResourceName>Interball Tail VDP ion flux 2-min Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Interball Tail VDP total antisunward ion flux, 2-min key parameters</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jana.Safrankova</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

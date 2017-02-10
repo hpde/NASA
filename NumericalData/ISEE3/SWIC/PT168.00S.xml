@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/SWIC/PT168.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 Electron Moments</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ISEE 3 solar wind electron moments - density, bulk flow speed, bulk flow azimuth, minimum total temperature (Tper), maximum total temperature (Tpar,) azimuth of the maximum temperature, heat flux, and the heat flux azimuth - at 168-sec resolution from geocentric and deep-space orbit phases</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_el_moments_168s_ascii/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_el_moments_168s_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

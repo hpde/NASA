@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Interball-1/AKR2/KP/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>Interball Tail Radio Emission 2-min Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of Interball Tail Probe radio emission flux was measured in 2-min intervals in the 100, 252, 500 kHz frequencies, with the width of each channel at about 10 kHz. Loop antenna with 1.5 m2 area was used.
 </Description>
             <Contact>
@@ -23,7 +23,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/interball/tail/akr/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/akr/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

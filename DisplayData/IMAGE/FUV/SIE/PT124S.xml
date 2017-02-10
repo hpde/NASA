@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IMAGE/FUV/SIE/PT124S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE FUV SIE Auroral Images, Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Electron Auroral Images at 1356A, Key Parameters, IMAGE Far UltraViolet (FUV) Spectrographic Imaging camera Electrons (SIE)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/fuv/sie_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/fuv/sie_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

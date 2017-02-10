@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/Ephemeris/Jupiter/P1D</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses Trajectory Data During Encounter with Jupiter 1992-1995</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Daily Ulysses position during encounter with Jupiter in 1992-1995 as daily and SPICE data.</Description>
             <Acknowledgement>Please acknowledge the National Space Science Data Center(NSSDC) and the Space Physics Data Facility(SPDF).</Acknowledgement>
             <Contact>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/traj/jupiter/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/traj/jupiter/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/Fe_charge_state/PT2H</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A PLASTIC 2-hour Iron Charge State Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data product contains 2-hour-integrated values of iron
 ion charge state.  Counts are given for iron in each of 21 charge states, plus
 an average charge state, plus a measure of counting statistics.</Description>
@@ -78,7 +78,7 @@ an average charge state, plus a measure of counting statistics.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l2/plastic/1ron/2hr/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l2/plastic/1ron/2hr/</URL>
                 <Description>In CDF via http from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IMAGE/HENA/124S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE HENA Images, Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>IMAGE High Energy Neutral Atom (HENA) images for several energy channels &lt;10 to 60 keV, key parameters,</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.G.Mitchell</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hena/hena_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hena/hena_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

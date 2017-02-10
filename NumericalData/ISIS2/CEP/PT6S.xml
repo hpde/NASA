@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISIS2/CEP/PT6S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 2 Electron N and T data</ResourceName>
-            <ReleaseDate>2016-08-19T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ISIS 2 ionospheric electron density and temperature data at 6 sec resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/cylindrical_electrostatic_probes_ascii/isis2/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/cylindrical_electrostatic_probes_ascii/isis2/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

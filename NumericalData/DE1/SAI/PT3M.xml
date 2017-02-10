@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE1/SAI/PT3M</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 1 Spin-Scan Auroral Imager UV Images</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains ultraviolet images in quasi-logarithmically compressed counts from the vacuum ultraviolet imaging photometer of the Spin-Scan Auroral Imager (SAI) flown on DE 1.  The time resolution was 3 to 12 minutes per image.  Also included are the GCI position vector, velocity vector and spin axis of the spacecraft.  Data are available in CDF format from CDAWeb.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de1/images_sai/uv_sai_cdaweb/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de1/images_sai/uv_sai_cdaweb/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 (ICE) 1-m deep space magnetic field data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ISEE 3 (ICE) 1-m magnetic field data, monthly ASCII files, deep space orbit phases 1984-1990</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

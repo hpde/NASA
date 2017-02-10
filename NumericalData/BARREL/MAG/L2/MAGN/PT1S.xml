@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/BARREL/MAG/L2/MAGN/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>BARREL Level 2 Magnetometer Data from 2013 and 2014 Launches</ResourceName>
-             <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+             <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data group contains uncalibrated readings, with nominal conversion, from the three axis magnetometers that are onboard multiple balloons of the BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) investigation in 2013 and 2014. Bx, By, Bz and scalar data sampled at 4 Hz are neither gain corrected nor despun.</Description>
             <Acknowledgement>We acknowledge R. M. Millan et al., for use of data from the BARREL investigation data.</Acknowledgement>
             <Contact>
@@ -37,7 +37,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
                 <Description>In CDF via http from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/SWE/KeyParameters/PT92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind SWE 92-s Proton Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Wind SWE 92-s proton density, thermal speed 
 and flow velocity vectors (key parameters), plus spacecraft position 
 vectors.  Various versions differ slightly from each other.  The 
@@ -58,7 +58,7 @@ and the site from which you pulled the data.</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to CDFs at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/swe/swe_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/swe/swe_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -80,7 +80,7 @@ and the site from which you pulled the data.</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to ASCII files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/swe/ascii/swe_kp_unspike/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/swe/ascii/swe_kp_unspike/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>FTPBrowser</Name>

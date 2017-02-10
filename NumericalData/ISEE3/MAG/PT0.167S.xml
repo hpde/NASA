@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/PT0.167S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 0.167-s magnetic field data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ISEE 3 0.167-s magnetic field data, g-zipped ASCII, 6-hr files, deep tail through comet GZ encounter orbit phases</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

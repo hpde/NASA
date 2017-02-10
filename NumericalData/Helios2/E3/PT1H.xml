@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios2/E3/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 2 E3 Hourly Magnetic Field Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains hour-averaged magnetic field vectors from the Ness/Mariani experiment on Helios 2. Each record contains time, magnetic field intensity and cartesian components in spacecraft-centered solar ecliptic coordinates, standard deviations, numbers of fine-scale points in the average, and an instrument mode indicator. It should be noted that the "average" mode, which was used a minority of the time and involved on-board averaging, may have incorrectly handled range changes caused by occasional significant changes in ambient field intensity. The data set had not been filtered for this effect upon delivery to NSSDC. </Description>
             <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani, and NSSDC.</Acknowledgement>
             <Contact>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/hour_ness/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/hour_ness/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

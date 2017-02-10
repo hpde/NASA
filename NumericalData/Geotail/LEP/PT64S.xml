@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/LEP/PT64S</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail LEP 64-sec Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Geotail LEP (Low-Energy Particles) 64-sec Solar Wind Key Parameters</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/lep/lep_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/lep/lep_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

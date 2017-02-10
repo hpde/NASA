@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/3/FIELDS/EDP/Slow/Level2/SpacecraftPotential/PT0.125S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 3 Electric Double Probe (EDP) Spacecraft Potential, Slow Survey</ResourceName>
-         <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+         <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
          <Description>Electric Double Probe, Dual Probe Spacecraft Potential, Level 2, Slow Survey Data. Spacecraft potential is etstimatrd by averaging measurements of the probe-to-spacecraft potential from several probes.</Description>
          <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
          <Contact>
@@ -50,7 +50,7 @@
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>http://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/slow/l2/scpot</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/slow/l2/scpot</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>

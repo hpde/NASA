@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/AveragedIonongrams</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 2 Swept-/Fixed-Averaged Ionograms</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set consists of ISIS 1 and 2 (International Satellites for Ionospheric Studies)ionograms that have been obtained through a data restoration project. The ISIS ionograms, consisting of a fixed-frequency and a swept-frequency part, were digitized from the original ISIS telemetry tapes. The digitized sounder data consisting of 8-bit receiver-amplitude values collected at a 40 kHz rate contain the time and the frequency associated with each sounder pulse. The frequency of each sounder pulse is determined from a 3rd degree interpolation between the times of the frequency markers as identified in the sounder video during the A/D operation. Included in this data set are the average-resolution ionograms (averages of each 4 successive 40 kHz 8-bit values) in CDF format. 
 
 Software to read and display the individual CDF files is available at
@@ -41,7 +41,7 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis_station_lar.GIF (</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

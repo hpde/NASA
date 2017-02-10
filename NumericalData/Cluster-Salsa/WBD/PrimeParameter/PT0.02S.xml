@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Salsa Wide Band Data (WBD) Prime Parameters</ResourceName>
             <AlternateName>Cluster Salsa WBD data</AlternateName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>The WBD (Wide Band Data) investigation is designed to provide high-resolution frequency/time spectra of plasma waves in the Earth's magnetosphere. These data files contain information on the band width, resolution, antenna angles, offsets, magnetic and electric field information.    For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``The Wideband Plasma Wave Investigation,'' by D. A. Gurnett et al., from which this information was obtained.</Description>
             <Acknowledgement>NASA; Prof. Donald A. Gurnett</Acknowledgement>
             <Contact>
@@ -102,7 +102,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/c2/wbd/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c2/wbd/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

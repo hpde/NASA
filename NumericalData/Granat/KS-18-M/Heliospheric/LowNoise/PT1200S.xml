@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Granat/KS-18-M/Heliospheric/LowNoise/PT1200S</ResourceID>
         <ResourceHeader>
             <ResourceName>Russian MSU Granat Heliopsheric Energetic Particles Low Noise</ResourceName>
-            <ReleaseDate>2012-08-03T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of heliospheric data in ASCII contains low noise measurements of energetic particles by the KS-18-M instrument onboard the high-altitude satellite GRANAT at large distances from the Earth. Besides the geographic coordinates of the spacecraft, the altitude is also plotted for 1989-95 as an illustration of evolution of the GRANAT's perigee. There are only several files in their extra-rectified variant.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/russian_msu/granat/heliospheric_data/lownoise/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/russian_msu/granat/heliospheric_data/lownoise/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

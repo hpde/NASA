@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/DUST/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses Dust Detection System Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains information collected by the Ulysses Cosmic Dust instrument on the dust environment in interplanetary space within the inner solar system, between Jupiter and the Sun, and at high polar latitudes of the Sun. Both interplanetary and interstellar dust particles have been detected. This information is collected with a dust impact experiment, from which may be inferred direction of motion, mass, velocity and charge (see ULYDINST.CAT). The data presented in this dataset include instrumental readouts, inferred metadata, calibration information and a calendar of events. </Description>
             <Acknowledgement>Please acknowledge the Ulysses team and the National Space Science Data Center.</Acknowledgement>
             <Contact>
@@ -17,7 +17,7 @@
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/dust/pds_sbn_dsn_1990_1995/ulyd.html</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/dust/pds_sbn_dsn_1990_1995/ulyd.html</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/Ulysses/DUST/PDS_SBN_DSN</PriorID>
         </ResourceHeader>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/dust/pds_sbn_dsn_1990_1995/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/dust/pds_sbn_dsn_1990_1995/</URL>
                 <Description>Via http in ASCII from SPFDF</Description>
             </AccessURL>
             <Format>Text</Format>

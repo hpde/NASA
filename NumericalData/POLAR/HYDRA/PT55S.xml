@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/PT55S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar HYDRA 55-s Key Parameters</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Polar HYDRA 55-s key parameters, electron densities and average energies</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hydra_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hydra_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>

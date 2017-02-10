@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind EPACT/LEMT 1-Hr He,C,O,Ne,Si,Fe Solar Energetic Particle Intensities Level 2 Data </ResourceName>
-      <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
       <Description>Hourly-averaged fluxes of He, C, O Ne,Si, Fe nuclei in the general range 2-11 MeV/n. Poisson uncertainties are given for each flux.</Description>
  <Acknowledgement>Dr. Tycho T. Von Rosenvinge</Acknowledgement>
             <Contact>
@@ -32,7 +32,7 @@
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/epact/epact_l2-1hour-sep</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/epact/epact_l2-1hour-sep</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

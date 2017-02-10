@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CRRES/Ephemeris/PT60M</ResourceID>
         <ResourceHeader>
             <ResourceName>CRRES Ephemeris data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains CRRES spacecraft ephemeris documentation, software, and a sample data file from the Aerospace Agency Tape data set. </Description>
             <Acknowledgement>Plesae acknowledge The Aerospace Corporation and the National Space Science Data Center.</Acknowledgement>
             <Contact>
@@ -13,7 +13,7 @@
             </Contact>
             <InformationURL>
                 <Name>CRRES Satellite Readme File</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/crres/aarreadme.txt</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/crres/aarreadme.txt</URL>
                 <Description>Readme file for the various CRRES data sets in nssdcftp</Description>
             </InformationURL>
             <Association>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/crres/ephemeris/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/crres/ephemeris/</URL>
             </AccessURL>
             <Format>Binary</Format>
             <Encoding>None</Encoding>

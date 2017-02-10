@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/SanMarco-DL/EFI/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>San Marco-DL Electric Field AC and DC Data</ResourceName>
-            <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This San Marco D/L Electric Field Experiment (EFI) data set was provided 
 by the PI team on 12 magnetic tapes in ASCII format and constitutes the 
 final EFI archiving product (filename: yymmddhhmm.dc). The data from the
@@ -41,7 +41,7 @@ can be found at the San Marco home page, http://crpsm.psm.uniroma1.it/
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/san_marco/electric_fields_efi/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/san_marco/electric_fields_efi/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

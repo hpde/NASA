@@ -4,7 +4,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/EFW/UVW</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B High Resolution DC Electric Field in UVW Coordinates</ResourceName>
-      <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
       <Description>This data set contains high-resolution DC Electric Field data in UVW coordinates as measured by the Electric Field and Waves Suite (EFW) onboard Van Allen Probe B. As a reference for spin axis vector in GSE, there was no spinning-frame offset removal.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -37,7 +37,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/efw/e-highres-uvw/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/efw/e-highres-uvw/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

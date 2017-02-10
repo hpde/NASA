@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/ElectronSpectra/PitchAnglesAndPressures/HighEnergyLowTime/Level3</ResourceID>
       <ResourceHeader>
          <ResourceName>Van Allen Probe A RBSPICE Electron Spectra Pitch Angles and Pressures High Energy, Low Time Resolution Level 3 Data</ResourceName>
-         <ReleaseDate>2017-02-07T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
          <Description>RBSP-A Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) High-Energy, Low-Time Resolution Electron Intensity and Pressure Data, sorted by Pitch Angle</Description>
          <Acknowledgement>L. Lanzerotti, The RBSPICE instrument was supported under a NASA Contract with the New Jersey Institute of Technology, with subcontracts to The Johns Hopkins University Applied Physics Laboratory and to Fundamental Technologies LLC.</Acknowledgement>
          <Contact>
@@ -46,12 +46,12 @@
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_esrhelt/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/rbspice/pap_esrhelt/</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>http://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_ESRHELT</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
