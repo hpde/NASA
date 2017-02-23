@@ -4,7 +4,7 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/Geotail/EPIC/STICS/PHA/PT0.0625S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Geotail EPIC STICS High-Resolution Phase Height Aanalysis (PHA) Science Records</ResourceName>
+         <ResourceName>Geotail EPIC STICS High-Resolution Pulse Height Analysis (PHA) Science Records</ResourceName>
          <ReleaseDate>2017-02-15T12:34:56.789</ReleaseDate>
          <Description>Geotail Energetic Particles and Ion Composition (EPIC) Data. EPIC is made up of five subassemblies: the Supra-Thermal Ion Composition Spectrometer (STICS) sensor, the STICS analog electronics, the Ion Composition System (ICS) sensor, the ICS analog electronics, and the Data Processing Unit (DPU).  The STICS sensor provides ~4&#960; angular coverage, composition and spectral observations, with charge state determination for all ions from 30 keV to 230 keV/e, and mass per charge measurements $gt;7.5 keV/e. The ICS sensor provides flux, composition, spectra, and angular distributions over two polar angles of the elemental species protons through iron from $gt;50 keV to 3 MeV along with angular distributions in one plane of electron fluxes &gt;32 keV and &gt;110 keV. The DPU provides the capability of numerous operating modes from which a small number will be selected to optimize data collection throughout the many phases of the Geotail mission.
                       (1) References and descriptions of technical documents, which are provided as part of the archive delivery:
@@ -42,56 +42,56 @@
             <PersonID>spase://SMWG/Person/Stuart.R.Nylund</PersonID>
             <Role>DataProducer</Role>
          </Contact>
-         <InformationURL>
-            <Name>Description of EPIC STICS PHA data product</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/EPIC_STICS_PHA_data_product_description.pdf</URL>
-            <Description>EPIC/STICS Pulse Height Analysis (PHA) Data Product Description</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>Description of EPIC instrument and PHA data</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/Geotail_EPIC_conversion_doc.pdf</URL>
-            <Description>Overview of the Geotail EPIC Instrument and of the Geotail Mission and a Description of the Ground-Based Data Conversions and Corrections for this Instrument</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>Geotail EPIC Instrument Description</Name>
-            <URL>https://www.jstage.jst.go.jp/article/jgg1949/46/1/46_1_39/_pdf</URL>
-            <Description>D. J. Williams, et al., GEOTAIL Energetic Particles and Ion Composition Instrument, J. Geomag. Geoelectr., 46, 39-57, 1994</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>JHU/APL Geotail/EPIC Science Data Center (SDC)</Name>
-            <URL>http://sd-www.jhuapl.edu/Geotail/</URL>
-            <Description>The SDC is the Central Processing and Analysis Facility for the Geotail EPIC Particle Instrument, One of Seven Instruments in the Geotail Mission</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>FTP access to STICS PHA files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
-            <Description>In ASCII Format via ftp from SPDF</Description>
-         </AccessURL>
-         <AccessURL>
-            <Name>HTTP access to STICS PHA files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
-            <Description>In ASCII Format via http from SPDF</Description>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Encoding>GZIP</Encoding>
-         <Acknowledgement>Please acknowledge Anthony T. Y. Lui and CDAWeb when using these Data</Acknowledgement>
-      </AccessInformation>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name> EPIC STICS PHA Survey Plots</Name>
-            <URL>http://sd-www.jhuapl.edu/Geotail/summary_images.html</URL>
-            <Description>Geotail EPIC Summary Images</Description>
-         </AccessURL>
-         <Format>GIF</Format>
-      </AccessInformation>
+            <InformationURL>
+                <Name>Description of EPIC STICS PHA data product</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/EPIC_STICS_PHA_data_product_description.pdf</URL>
+                <Description>EPIC/STICS Pulse Height Analysis (PHA) Data Product Description</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Description of EPIC instrument and PHA data</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/Geotail_EPIC_conversion_doc.pdf</URL>
+                <Description>Overview of the Geotail EPIC Instrument and of the Geotail Mission and a Description of the Ground-Based Data Conversions and Corrections for this Instrument</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Geotail EPIC Instrument Description</Name>
+                <URL>https://www.jstage.jst.go.jp/article/jgg1949/46/1/46_1_39/_pdf</URL>
+                <Description>D. J. Williams, et al., GEOTAIL Energetic Particles and Ion Composition Instrument, J. Geomag. Geoelectr., 46, 39-57, 1994</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>JHU/APL Geotail/EPIC Science Data Center (SDC)</Name>
+                <URL>http://sd-www.jhuapl.edu/Geotail/</URL>
+                <Description>The SDC is the Central Processing and Analysis Facility for the Geotail EPIC Particle Instrument, One of Seven Instruments in the Geotail Mission</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>FTP access to STICS PHA files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
+                <Description>In ASCII Format via ftp from SPDF</Description>
+            </AccessURL>
+            <AccessURL>
+                <Name>HTTP access to STICS PHA files at SPDF</Name>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
+                <Description>In ASCII Format via http from SPDF</Description>
+            </AccessURL>
+            <Format>Text.ASCII</Format>
+            <Encoding>GZIP</Encoding>
+            <Acknowledgement>Please acknowledge Anthony T. Y. Lui and CDAWeb when using these Data</Acknowledgement>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name> EPIC STICS PHA Survey Plots</Name>
+                <URL>http://sd-www.jhuapl.edu/Geotail/summary_images.html</URL>
+                <Description>Geotail EPIC Summary Images</Description>
+            </AccessURL>
+            <Format>GIF</Format>
+        </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Geotail/EPIC</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
@@ -112,7 +112,7 @@
       <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
       <Caveats>The Cadence of this Data Set has been set equal to 0.06125 s. While On-Board Sampling does happen every 3 s, the Results can vary over a Range from a Maximum of 48 events per 3 s to no events within 3 s.  The Resultant Ground-Processed PHA Data end up having an Irregular Cadence</Caveats>
       <Parameter>
-         <Name>Year</Name>
+         <Name>Year (YYYY)</Name>
          <ParameterKey>Column_1</ParameterKey>
          <Description>Year, YYYY = Gregorian Year AD</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -127,9 +127,9 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Day of Year (Day 1 = Jan 1)</Name>
+         <Name>Day of Year (DOY)</Name>
          <ParameterKey>Column_2</ParameterKey>
-         <Description>Day, DDD = Day of Year</Description>
+         <Description>Day of Year, DOY - Day 1 = Jan 1</Description>
          <Cadence>PT0.0625S</Cadence>
          <Units>d</Units>
          <UnitsConversion>86400&gt;s</UnitsConversion>
@@ -143,7 +143,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Hour</Name>
+         <Name>Hour (HH)</Name>
          <ParameterKey>Column_3</ParameterKey>
          <Description>Hour, HH = Hour of Day</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -159,7 +159,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Minute</Name>
+         <Name>Minute (MM)</Name>
          <ParameterKey>Column_4</ParameterKey>
          <Description>Minute, MM = Minute of Hour</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -175,7 +175,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Second</Name>
+         <Name>Second (SS.S)</Name>
          <ParameterKey>Column_5</ParameterKey>
          <Description>Second, SS.S = Second of Minute</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -190,9 +190,9 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Engineer Data Block (EDP) Number</Name>
+         <Name>Engineer Data Block (EDB) Number</Name>
          <ParameterKey>Column_6</ParameterKey>
-         <Description>Raw Engineering Data: Engineer Data Block (EDP) Number</Description>
+         <Description>Raw Engineering Data: Engineer Data Block (EDB) Number</Description>
          <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for completeness</Caveats>
          <Cadence>PT0.0625S</Cadence>
          <RenderingHints>
