@@ -2,9 +2,9 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Geotail/EPIC/STICS/PHA/PT0.0625S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/Geotail/EPIC/ICS/PHA/PT0.0625S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Geotail EPIC STICS High-Resolution Phase Height Aanalysis (PHA) Science Records</ResourceName>
+         <ResourceName>Geotail EPIC ICS High-Resolution Phase Height Aanalysis (PHA) Science Records</ResourceName>
          <ReleaseDate>2017-02-15T12:34:56.789</ReleaseDate>
          <Description>Geotail Energetic Particles and Ion Composition (EPIC) Data. EPIC is made up of five subassemblies: the Supra-Thermal Ion Composition Spectrometer (STICS) sensor, the STICS analog electronics, the Ion Composition System (ICS) sensor, the ICS analog electronics, and the Data Processing Unit (DPU).  The STICS sensor provides ~4&#960; angular coverage, composition and spectral observations, with charge state determination for all ions from 30 keV to 230 keV/e, and mass per charge measurements $gt;7.5 keV/e. The ICS sensor provides flux, composition, spectra, and angular distributions over two polar angles of the elemental species protons through iron from $gt;50 keV to 3 MeV along with angular distributions in one plane of electron fluxes &gt;32 keV and &gt;110 keV. The DPU provides the capability of numerous operating modes from which a small number will be selected to optimize data collection throughout the many phases of the Geotail mission.
                       (1) References and descriptions of technical documents, which are provided as part of the archive delivery:
@@ -28,7 +28,6 @@
          <Contact>
             <PersonID>spase://SMWG/Person/Stephen.P.Christon</PersonID>
             <Role>CoInvestigator</Role>
-            <Role>DataProducer</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
@@ -43,9 +42,9 @@
             <Role>DataProducer</Role>
          </Contact>
          <InformationURL>
-            <Name>Description of EPIC STICS PHA data product</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/EPIC_STICS_PHA_data_product_description.pdf</URL>
-            <Description>EPIC/STICS Pulse Height Analysis (PHA) Data Product Description</Description>
+            <Name>Description of EPIC ICS PHA data product</Name>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/documents/EPIC_ICS_PHA_data_product_description.pdf</URL>
+            <Description>EPIC/ICS Pulse Height Analysis (PHA) Data Product Description</Description>
          </InformationURL>
          <InformationURL>
             <Name>Description of EPIC instrument and PHA data</Name>
@@ -68,13 +67,13 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to STICS PHA files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
+            <Name>FTP access to ICS PHA files at SPDF</Name>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/geotail/epic/ics_pha_ascii_gzip/</URL>
             <Description>In ASCII Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to STICS PHA files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/stics_pha_ascii_gzip/</URL>
+            <Name>HTTP access to ICS PHA files at SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/epic/ics_pha_ascii_gzip/</URL>
             <Description>In ASCII Format via http from SPDF</Description>
          </AccessURL>
          <Format>Text.ASCII</Format>
@@ -86,7 +85,7 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name> EPIC STICS PHA Survey Plots</Name>
+            <Name>EPIC ICS PHA Survey Plots</Name>
             <URL>http://sd-www.jhuapl.edu/Geotail/summary_images.html</URL>
             <Description>Geotail EPIC Summary Images</Description>
          </AccessURL>
@@ -112,7 +111,7 @@
       <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
       <Caveats>The Cadence of this Data Set has been set equal to 0.06125 s. While On-Board Sampling does happen every 3 s, the Results can vary over a Range from a Maximum of 48 events per 3 s to no events within 3 s.  The Resultant Ground-Processed PHA Data end up having an Irregular Cadence</Caveats>
       <Parameter>
-         <Name>Year</Name>
+         <Name>Tear (YYYY)</Name>
          <ParameterKey>Column_1</ParameterKey>
          <Description>Year, YYYY = Gregorian Year AD</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -127,9 +126,9 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Day of Year (Day 1 = Jan 1)</Name>
+         <Name>Day of Year (DOY)</Name>
          <ParameterKey>Column_2</ParameterKey>
-         <Description>Day, DDD = Day of Year</Description>
+         <Description>Day of Year, DOY - Day 1 = Jan 1</Description>
          <Cadence>PT0.0625S</Cadence>
          <Units>d</Units>
          <UnitsConversion>86400&gt;s</UnitsConversion>
@@ -143,7 +142,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Hour</Name>
+         <Name>Hour (HH)</Name>
          <ParameterKey>Column_3</ParameterKey>
          <Description>Hour, HH = Hour of Day</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -159,7 +158,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Minute</Name>
+         <Name>Minute (MM)</Name>
          <ParameterKey>Column_4</ParameterKey>
          <Description>Minute, MM = Minute of Hour</Description>
          <Cadence>PT0.0625S</Cadence>
@@ -175,13 +174,13 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Second</Name>
+         <Name>Second (SS.SS)</Name>
          <ParameterKey>Column_5</ParameterKey>
-         <Description>Second, SS.S = Second of Minute</Description>
+         <Description>Second, SS.SS = Second of Minute</Description>
          <Cadence>PT0.0625S</Cadence>
          <Units>s</Units>
          <RenderingHints>
-            <ValueFormat>F4.1</ValueFormat>
+            <ValueFormat>F5.2</ValueFormat>
          </RenderingHints>
          <ValidMin>00.0</ValidMin>
          <ValidMax>59.9</ValidMax>
@@ -190,9 +189,9 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Engineer Data Block (EDP) Number</Name>
+         <Name>Engineer Data Block (EDB) Number</Name>
          <ParameterKey>Column_6</ParameterKey>
-         <Description>Raw Engineering Data: Engineer Data Block (EDP) Number</Description>
+         <Description>Raw Engineering Data: Engineer Data Block (EDB) Number</Description>
          <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for completeness</Caveats>
          <Cadence>PT0.0625S</Cadence>
          <RenderingHints>
@@ -205,25 +204,10 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Deflection Voltage (DV) Step Number</Name>
+         <Name>Sector (SEC) Number</Name>
          <ParameterKey>Column_7</ParameterKey>
-         <Description>STICS Deflection Voltage (DV) Step Number</Description>
-         <Caveats>For most of the Mission, STICS Cycles among the DV Steps in eight Decrements of four from Steps 30 to 2 (i.e., 30, 26, 22, 18, 14, 10, 6 and 2) in 24 s. The Exception is that from 2005-11-21 02:12:00 to 2007-02-26 17:13:18 STICS cycled in 32 Decrements of one from Steps 31 to 0 (i.e., all 32 Steps) in 96 s.</Caveats>
-         <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>31</ValidMax>
-         <Support>
-            <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>Sector (SE) Number</Name>
-         <ParameterKey>Column_8</ParameterKey>
-         <Description>This Parameter indicates the Sector (SE) Number of the Sensor$apos;s Equatorial Look-Direction</Description>
-         <Caveats>Each Sector is 22.5&#176; Wide. From Launch to 1993-01-29 10:04 UT, Sector 0 is Sunward-looking and 12 is Dawnward-looking. Thereafter, Sector 14 is Sunward-looking and 10 is Dawnward-looking. In either Case, the Center of the Sunward-looking Sector is rotated 9.5&#176; off Center towards Dawn for STICS (3.75&#176; for ICS).</Caveats>
+         <Description>This Parameter indicates the Sector (SEC) Number of the Sensor$apos;s Equatorial Look-Direction</Description>
+         <Caveats>Each Sector is 22.5&#176; Wide. From Launch to 1993-01-29 10:04 UT, Sector 0 is Sunward-looking and 12 is Dawnward-looking. Thereafter, Sector 14 is Sunward-looking and 10 is Dawnward-looking. In either Case, the Center of the Sunward-looking Sector is rotated 3.75&#176; off Center towards Dawn for ICS (9.5&#176; for STICS).</Caveats>
          <Cadence>PT0.0625S</Cadence>
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
@@ -235,142 +219,81 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Identification Parameter (ID) Number</Name>
+         <Name>Time-of-Flight (TCh) Number</Name>
+         <ParameterKey>Column_8</ParameterKey>
+         <Description>Raw Engineering Data: Time-of-Flight Channel (TCh) Number</Description>
+         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
+         <Cadence>PT0.0625S</Cadence>
+         <RenderingHints>
+            <ValueFormat>I3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0</ValidMin>
+         <ValidMax>1023</ValidMax>
+         <Support>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Energy Channel (ECh) Number</Name>
          <ParameterKey>Column_9</ParameterKey>
-         <Description>Raw Engineering Data: Identification Parameter (ID) Number</Description>
-         <Caveats>The Identification Parameter (ID) Number is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
+         <Description>Raw Engineering Data: Energy Channel (ECh) Number</Description>
+         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
          <Cadence>PT0.0625S</Cadence>
          <RenderingHints>
-            <ValueFormat>I2</ValueFormat>
+            <ValueFormat>I3</ValueFormat>
          </RenderingHints>
          <ValidMin>0</ValidMin>
-         <ValidMax>30</ValidMax>
+         <ValidMax>1023</ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Solid State Detector (SD) Number</Name>
+         <Name>Head (HD) Number</Name>
          <ParameterKey>Column_10</ParameterKey>
-         <Description>Raw Engineering Data: Solid State Detector (SD) Number indicating Sensor&apos;s Polar Look-Direction (where 1 is the South Detector Head, 2 is the Equatorial Detector Head, 3 is the North Detector Head, and 0 is Indeterminate)</Description>
-         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
+         <Description>Head (HD) Number indicating Sensor&apos;s Polar Head Look-Direction (where 1 is the South Detector Head, 1 is the South Detector Head)</Description>
+         <Caveats>Head Number 0 is the North Head and Head Number 1 is the South Head.  Due to a Sun Shade in each Aperture Opening nearest their Equatorial Base, the Polar Angle of the North Head is 23.8&#176; wide; and the South Head is 27.6&#176; wide.</Caveats>
          <Cadence>PT0.0625S</Cadence>
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
          </RenderingHints>
          <ValidMin>0</ValidMin>
-         <ValidMax>3</ValidMax>
+         <ValidMax>1</ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Energy Channel (ECH) Number</Name>
+         <Name>Time-of-Flight (TOF)</Name>
          <ParameterKey>Column_11</ParameterKey>
-         <Description>Raw Engineering Data: Energy Channel (ECH) Number</Description>
-         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
+         <Description>Particle Time-of-Flight (TOF) Duration within the Detector</Description>
          <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I4</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>1023</ValidMax>
-         <Support>
-            <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>Time-of-Flight Channel (TCH) Number</Name>
-         <ParameterKey>Column_12</ParameterKey>
-         <Description>Raw Engineering Data: Time-of-Flight Channel (TCH) Number</Description>
-         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
-         <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I4</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>1023</ValidMax>
-         <Support>
-            <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>Front or Start (ST) Micro Channel Plate ID Number</Name>
-         <ParameterKey>Column_13</ParameterKey>
-         <Description>Raw Engineering Data: The Front or Start (ST) Micro Channel Plate ID Number indicates the Sensor$apos;s Polar Look-Direction</Description>
-         <Caveats>Each Head is 26.6&#176; Wide. ST ID Number: 1 is the North Polar Head, 2 is the North Equator Head, and 7 is from the Double Coincidence of both North Heads; 3 is the Equator North Head, 4 is the Equator South Head, and 8 is from the Double Coincidence of both Equator Heads; 5 is the South Equator Head, 6 is the South Polar Head, and 9 is from the Double Coincidence of both South Heads; 0 and 10 are for Indeterminate Look-Directions.</Caveats>
-         <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>10</ValidMax>
-         <Support>
-            <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>Rear or Stop (SP) Micro Channel Plate ID Number</Name>
-         <ParameterKey>Column_14</ParameterKey>
-         <Description>Raw Engineering Data: The Rear or Stop (SP) Micro Channel Plate ID Number</Description>
-         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
-         <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>3</ValidMax>
-         <Support>
-            <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>PHA Range (R) ID Number</Name>
-         <ParameterKey>Column_15</ParameterKey>
-         <Description>Raw Engineering Data: The PHA Range (R) ID Number indicates the Basic Rate Sampling Range, where 0 is BR0, 1 is BR1, 2 is BR2, and 3 is Indeterminate</Description>
-         <Caveats>This Parameter is a Raw Engineering Measurement included in this Data Product for Completeness</Caveats>
-         <Cadence>PT0.0625S</Cadence>
-         <RenderingHints>
-            <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>3</ValidMax>
-         <Support>
-            <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-      <Parameter>
-         <Name>Mass Per Charge (MPQ) Ratio</Name>
-         <ParameterKey>Column_16</ParameterKey>
-         <Description>Atomic Mass per Charge (MPQ) Ratio of the Ion</Description>
-         <Cadence>PT0.0625S</Cadence>
-         <Units>u/e</Units>
+         <Units>ns</Units>
+         <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
             <ValueFormat>F6.3</ValueFormat>
          </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>98.99</ValidMax>
-         <Mixed>
-            <MixedQuantity>Other</MixedQuantity>
-            <ParticleType>Ion</ParticleType>
-            <Qualifier>Ratio</Qualifier>
-         </Mixed>
+         <ValidMin>2.0</ValidMin>
+         <ValidMax>99.999</ValidMax>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
       </Parameter>
       <Parameter>
-         <Name>Unified Atomic Mass Unit (MASS)</Name>
-         <ParameterKey>Column_17</ParameterKey>
-         <Description>The Unified Atomic Mass Unit of the Ion</Description>
-         <Caveats>For Ions without sufficient Energy Deposition, Em, measured above the STICS SSD$apos;s Electronic Threshold, an Energy Deposit Measurement is not recorded; and the EPIC Data Processing Unit (DPU) classifies this Event with a Zero Mass and a Non-Zero Mass Per Charge (MPQ) as a &quot;Double&quot; (i.e., $quot;Two Measurement&quot; or, synonymously termed, &quot;Zero Mass&quot; PHA Event</Caveats>
+         <Name>Particle Energy (Energy)</Name>
+         <ParameterKey>Column_12</ParameterKey>
+         <Description>Particle Energy (Energy) deposited in the Detector</Description>
          <Cadence>PT0.0625S</Cadence>
-         <Units>u</Units>
+         <Units>keV</Units>
+         <UnitsConversion>1.6018e-16&gt;J</UnitsConversion>
          <RenderingHints>
-            <ValueFormat>F5.2</ValueFormat>
+            <ValueFormat>F7.3</ValueFormat>
          </RenderingHints>
-         <ValidMin>0</ValidMin>
-         <ValidMax>98.99</ValidMax>
+         <ValidMin>20.0</ValidMin>
+         <ValidMax>2999.999</ValidMax>
          <Particle>
             <ParticleType>Ion</ParticleType>
-            <ParticleQuantity>Mass</ParticleQuantity>
+            <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
    </NumericalData>
