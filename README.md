@@ -9,7 +9,7 @@ SPASE resource descriptions with the VSPO naming authority.
 If you are a consumer of the metadata simple clone the repostory
 
 ````
-git clone -b master --single-branch https://github.com/hpde/spase-VSPO
+git clone -b master --single-branch --depth=1 https://github.com/hpde/spase-VSPO
 ````
 
 If you are a contributor, clone the repository and use the "draft" branch.
