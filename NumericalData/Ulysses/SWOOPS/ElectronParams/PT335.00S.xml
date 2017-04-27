@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/ElectronParams/PT335.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWOOPS Electron N and T Parameters Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Full resolution Ulysses/SWOOPS Total, Core and Halo Electron Densities and Temperatures</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -18,7 +18,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>UY_M0_BAE</ProductKey>
             </AccessURL>
             <AccessURL>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/electron/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/electron/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Equator-S/EDI/PP/PT60s</ResourceID>
         <ResourceHeader>
             <ResourceName>Equator-S Electron Drift Instrument (EDI) 1-min Prime Parameters</ResourceName>
-            <ReleaseDate>2012-06-11T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains Key Parameters of the Electron Drift Instrument (EDI).  The following one-minute summary parameters are given versus time: drift velocity and electric field in GSE coordinates.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/equator-s/pp/edi/1998/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/equator-s/pp/edi/1998/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -33,7 +33,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>EQ_PP_EDI</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

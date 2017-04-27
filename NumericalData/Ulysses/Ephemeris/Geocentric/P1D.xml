@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/Ephemeris/Geocentric/P1D</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses Trajectory Data in Geocentric Coordinates</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Daily Ulysses position data for cruise, prime and extenxed mission in geocentric coordinates.</Description>
             <Acknowledgement>Please acknowledge the National Space Science Data Center(NSSDC) and the Space Physics Data Facility(SPDF).</Acknowledgement>
             <Contact>
@@ -28,7 +28,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/traj/geocentric/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/traj/geocentric/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

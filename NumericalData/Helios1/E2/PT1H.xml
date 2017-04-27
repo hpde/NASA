@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios1/E2/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 1 E2 Hourly Magnetic Field Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains hour-averaged magnetic field vectors from the Neubauer/Maier experiment on Helios 1. It provides 1-hr average values of the solar ecliptic X, Y, Z components of the magnetic field, in units of centi-gamma. Also available are the number of samples of each component used in the averaging. The location of the spacecraft is specified in terms of ecliptic longitude, heliographic latitude, and radial distance from sun. Data quality flags are also included. </Description>
             <Acknowledgement>Please acknowledge F. M. Neubauer (P.I.) and A. Maier, and NSSDC.</Acknowledgement>
             <Contact>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/hour_neubauer/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/mag/hour_neubauer/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

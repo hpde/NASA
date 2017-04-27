@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Cluster-Salsa/Ephemeris/JP-PSE/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster Salsa JSOC Predicted Scientific Events</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This dataset contains Cluster Salsa JSOC predicted scientific events, orit number, and GSE positions.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/c2/jp/pse/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c2/jp/pse/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>C2_JP_PSE</ProductKey>
                 <Description>C2_JP_PSE</Description>
             </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Equator-S/PCD/PP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Equator-S Potential Control Device (PDC) 1-min Prime Parameters</ResourceName>
-            <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set from Equator-S Potential Control Device (PCD) contains one-minute summary parameters that are given versus time: the ion current; the half-interval between time tags, averaged over the file; and a status flag. </Description>
             <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
             <Contact>
@@ -23,7 +23,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/equator-s/pp/pcd/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/equator-s/pp/pcd/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -34,7 +34,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>EQ_PP_PCD</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

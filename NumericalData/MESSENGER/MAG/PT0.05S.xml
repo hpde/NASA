@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
         <ResourceHeader>
             <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20Hz</ResourceName>
-            <ReleaseDate>2015-04-29T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This MESSENGER/MAG data set contains cruise-phase
 magnetic field vectors in RTN coordinates at time resolutions typically
 of 0.5s or 1.0s and sometimes as fine as 0.05s.</Description>
@@ -32,7 +32,7 @@ Anderson of JHU_APL, and the organization from which the data were
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
                 <Description>In CDF via http from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -44,13 +44,13 @@ Anderson of JHU_APL, and the organization from which the data were
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>MESSENGER_MAG_RTN</ProductKey>
                 <Description>Access to MESSENGER interplanetary magnetic field data with subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>PDS_PPI</Name>
-                <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/MESS-E_V_H_SW-MAG-3-CDR-CALIBRATED-V1.0/</URL>
+                <URL>>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/MESS-E_V_H_SW-MAG-3-CDR-CALIBRATED-V1.0/DATA/RTN/</URL>
                 <Description>Access to data and documentation; note "amp;" needs to be deleted if
 you try to cut/paste/use this URL.</Description>
             </AccessURL>

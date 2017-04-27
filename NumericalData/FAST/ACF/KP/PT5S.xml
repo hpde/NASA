@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/FAST/ACF/KP/PT5S</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST ACF Key Parameters </ResourceName>
-            <ReleaseDate>2011-09-14T00:00:00.000Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00.000Z</ReleaseDate>
             <Description>This data set provides the 5-second (spin-averaged) FAST survey electric and magnetic field data within the low altitude auroral arc region. The three-axis searchcoil magnetometer (the AC magnetometer) provides measurement of structures and waves corresponding to ELF and VLF frequencies.  Magnetic field power spectral densities are obtained between 10 Hz and 4 kHz on two axes, and from the third one that is sampled up to 2 MHz, the magnetic component of auroral kilometric radiation (AKR).  Once the auroral electron precipitation is detected, survey data will shift from a slow to a fast survey mode at rates of 32 to 2048 samples per second.  Slow survey data has ~0.06 s resolution, and fast survey, typically has ~0.5 ms resolution. There is a frequency-dependent sensitivity between 10^-8 and 10^-10 nT^2/Hz. Electric field power spectral densities are also provided for the same frequency ranges. 
              </Description>
             <Contact>
@@ -21,13 +21,13 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/fast/acf/acf_k0/</URL>
+                <Name>FTP access to files at SPdf</Name>
+                <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/fast/acf/k0/</URL>
                 <Description>In CDF via FTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/fast/acf/acf_k0/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/acf/k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -38,7 +38,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>FA_K0_ACF</ProductKey>
                 <Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_ACF</Description>
             </AccessURL>

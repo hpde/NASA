@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/LANL/1989/MPA/PT86S</ResourceID>
         <ResourceHeader>
             <ResourceName>LANL1989 MPA 86-s Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>LANL1989 Magnetospheric Plasma Analyzer 86-s ion and electron key parameters</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/lanl/89_mpa</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/lanl/89_mpa</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>L9_K0_MPA</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

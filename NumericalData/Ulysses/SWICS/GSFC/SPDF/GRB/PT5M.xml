@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses GRB data via CDAWeb</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set from the Ulysses Gammay-Ray Bursts experiment contains 5-minute resolution filtered averages of cosmic gamma ray and solar X-Ray count rates. Count rate units are c/s. See Astron. Astrophys. Suppl. Ser., 92(2), 401-410, 1992 for more information.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
@@ -22,7 +22,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>UY_M0_GRB</ProductKey>
             </AccessURL>
             <AccessURL>
@@ -32,7 +32,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/gamma/grb_cdaweb/grb_m0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/gamma/grb_cdaweb/grb_m0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>

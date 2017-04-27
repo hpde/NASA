@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/S-Cubed_A/VLF/IOWAVLF/PT0.01S</ResourceID>
         <ResourceHeader>
             <ResourceName>S-Cubed_A Electric Field Iowa VLF Data</ResourceName>
-            <ReleaseDate>2012-08-28T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This dataset provided by the University of Iowa contains a few minutes of electric field data from a single channel.  Data are available for 1 kHz and 10 kHz bandwidth in 10 millisecond waveform series for selected times in January 1972 (Days 022, 023, and 025), June (Day 170), and August (Days 217 and 218). These events have appeared in journal publications. Also provided are the software to convert from binary to ASCII, and to plot the data.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/s_cubed_a/iowavlf/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/s_cubed_a/iowavlf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

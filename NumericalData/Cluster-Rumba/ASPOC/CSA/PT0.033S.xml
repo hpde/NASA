@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Rumba Active Spacecraft POtential Control (ASPOC) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Rumba Active Spacecraft POtential Control (ASPOC) Data at the ESA Cluster Active Archive</AlternateName>
-            <ReleaseDate>2013-07-16T15:51:47Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description> The primary objective of ASPOC (Active Spacecraft POtential Control) onboard Cluster is to insure the effective and complete measurement of the ambient plasma distribution functions down to low energy. Two main ASPOC data products are available from the Cluster Active Archive: ion bean current at 0.5 second resolution and ion current snapshot at 0.033 second resolution.  Ancillary data include command history, status of the instrument at 5.15 second resolution, preliminary emitted current parameters (at 4-second resolution and 1-minute aveerges) and caveats.  For more details, see "The Cluster Active Archive: Studying the Earth's Space Plasma Environment", edited by Dr. Harri Laakso, Matthew G. T. T. Taylor, C. Philippe Escoubet, from which this information was obtained. </Description>
             <Acknowledgement>Willi W. Riedler, the ASPOC team and the ESA Cluster Active Archive</Acknowledgement>
             <Contact>
@@ -23,7 +23,7 @@
             </InformationURL>
             <InformationURL>
                 <Name>Cluster Science Archive (CSA) Documentation</Name>
-                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <URL>https://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
@@ -37,7 +37,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
-                <URL>http://www.rssd.esa.int/csa</URL>
+                <URL>https://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Rumba Active Spacecraft POtential Control (ASPOC) data; open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

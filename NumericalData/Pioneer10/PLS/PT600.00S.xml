@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/PLS/PT600.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 full resolution plasma data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Pioneer 10 plasma ion density, temperature, flow speed and direction angles, full resolution (10 minutes or lower resolution)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Paul.R.Gazis</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/plasma/version31/v31_summary_ascii/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/plasma/version31/v31_summary_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

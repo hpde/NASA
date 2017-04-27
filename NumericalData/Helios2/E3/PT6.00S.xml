@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios2/E3/PT6.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 2 6-sec magnetic field data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Helios 2 6-sec magnetic field averages from Mariani/Ness experiment</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Franco.Mariani</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/6sec_ness/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/mag/6sec_ness/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>HEL2_6SEC_NESSMAG</ProductKey>
             </AccessURL>
             <Format>Text</Format>

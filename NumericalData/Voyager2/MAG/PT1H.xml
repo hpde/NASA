@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 2 MAG 1-hr ASCII data at nsdcftp</ResourceName>
-            <ReleaseDate>2017-01-18T12:34:56</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>
 			This data set contains hour averages of the interplanetary magnetic     
 			field (IMF) measurements obtained by the triaxial fluxgate magnetometer 
@@ -44,7 +44,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

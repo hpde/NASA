@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE RPI Plasmagram/Echogram Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description> This set of daily plasmagrams/echograms comes from the IMAGE Radio Plasma Imager that studies the Earth's magnetophere in the 3 kHz to 3 MHz frequency range.  RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the sounder pulses. Echoes that can be used to derive remote, long-range, magnetospheric electron-density profiles, appear as discrete traces on plasmagrams. These plasmagram traces are intermixed with vertical signatures with greater intensity at shorter ranges, corresponding to locally excited plasma resonances, and other vertical signatures that cover the entire listening period, i.e., the entire virtual-range scale, corresponding to various natural and/or man-made emissions propagating in space and/or local interference.</Description>
             <Acknowledgement>Please acknowledge the instrument PI and NASA's Space Physics Data Facility.</Acknowledgement>
             <Contact>
@@ -47,7 +47,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/rpi/rpi_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/rpi/rpi_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -58,7 +58,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_K0_RPI</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>

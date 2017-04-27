@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/Ephemeris/Spin_Phase_KP/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail Spin Phase Key Parameters</ResourceName>
-            <ReleaseDate>2012-11-07T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains selected Key Parameters of the spin phase angle information for the Geotail spacecraft: the spacecraft spin phase angle, spin rate, and a fault flag are given versus time.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Gerald.Blackwell</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/spha/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/spha/</URL>
                 <Description>HTTP access to the data from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -37,7 +37,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>GE_K0_SPHA</ProductKey>
                 <Description>subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>

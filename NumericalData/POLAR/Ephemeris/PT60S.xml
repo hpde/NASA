@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Orbit Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Polar orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_or</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_or</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>PO_OR_PRE</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

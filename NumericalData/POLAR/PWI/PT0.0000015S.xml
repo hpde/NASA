@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/PWI/PT0.0000015S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Plasma Wave Instrument HFWR Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of plasma waves in the Earth's polar regions comes from the high-frequency waveform receiver (HFWR) of the Polar Plasma Wave Instrument (PWI) in 6 channels from 20 Hz to 25 kHz in 1.5 microsecond resolution.  Data comes in snapshots of 31816 points per channel, every 9.2 seconds, where the duration of each snapshot is 0.045 seconds. Since Epoch time is in milliseconds, the times for the data points will not be unique unless the Delta_T in milliseconds is added to the Epoch time for the snapshot.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h7</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h7</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <Description>P0_H7_PWI</Description>
             </AccessURL>
             <Format>CDF</Format>

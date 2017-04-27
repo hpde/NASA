@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Zond-3/KS-18/Heliospheric/PT4H</ResourceID>
         <ResourceHeader>
             <ResourceName>Russian MSU Zond-3 Heliopsheric Data</ResourceName>
-            <ReleaseDate>2012-08-23T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of heliospheric data in ASCII contains measurements of energetic particles by the KS-18 instrument onboard the third Russian space probe of the Zond series at heliocentric distances larger than 1 AU.  It includes proton flux intensities at &gt;30 MeV energy from Sun (gas-discharge counter) and at 1-5 MeV energy arriving from the direction perpendicular to the Sun-spacecraft line (stand-alone SSD sensor of 35 micron Si). Subdirectory /lownoise contains the same measured data but in its extra-rectified variant.  Besides the trajectory data in two coordinate systesms, there are overview plots in GIF.</Description>
             <Acknowledgement> Use of these data in publications should be accompanied by
 acknowledgements of the National Space Science Data Center(NSSDC), Space Physics Data Facility (SPDF) and TASPD SINP (Moscow).</Acknowledgement>
@@ -24,7 +24,7 @@ acknowledgements of the National Space Science Data Center(NSSDC), Space Physics
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/russian_msu/zond-3/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/russian_msu/zond-3/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

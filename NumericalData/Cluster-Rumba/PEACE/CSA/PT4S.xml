@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Rumba Plasma Electrons and Currents Experiment (PEACE) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Rumba Plasma Electrons and Currents Experiment (PEACE) Data at the ESA Cluster Active Archive</AlternateName>
-            <ReleaseDate>2013-07-13T15:51:47Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>The Plasma Electrons and Currents Experiment (PEACE) data products consist of prime and summary parameters (moments). Collected from two instruments, a low-energy electron analyzer (LEEA) and a high-energy electron analyzer (HEEA), the 3-D and 2-D data products contain the measured quantity in a suitable array, i.e., count rate, particle flux, particle energy flux or phase space density.    
 
 The energy coverage is from 0.67 eV to 30 KeV in 92 levels.  Both sensors can use the full range, but the HEEA will normally operate over a higher energy range than the LEEA.  Each sensor covers the range 0--180 degrees with respect to the spin axis, and they are mounted opposite each other with a view perpendicular to the spin axis, thus covering the complete angular range in a half rotation of the spacecraft. The field of view perpendicular to the fan is 2 degrees for the LEEA and 5.6 degrees for the HEEA. Energy resolution (Delta-E)/E is 0.13 for LEEA and 0.16 for HEEA. There are four sweep modes, synchronized to the spin period (4 s), to vary the azimuthal angular resolution.
@@ -42,7 +42,7 @@ For more details, see Chapter 8 of "The Cluster Active Archive: Studying the Ear
             </InformationURL>
             <InformationURL>
                 <Name>Cluster Science Archive (CSA) Documentation</Name>
-                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <URL>https://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
@@ -56,7 +56,7 @@ For more details, see Chapter 8 of "The Cluster Active Archive: Studying the Ear
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
-                <URL>http://www.rssd.esa.int/csa</URL>
+                <URL>https://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Rumba Plasma Electrons and Currents Experiment (PEACE) data; open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/SST_Open/PD/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP SST Open Proton Energy-Angle Distributions</ResourceName>
-      <ReleaseDate>2015-02-25T17:29:20Z</ReleaseDate>
+      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
       <Description>Proton energy-angle distributions 70 keV - 6.8 MeV, often at 24 sec, SST Open, Wind 3DP - R. Lin (UC Berkeley)</Description>
       <Acknowledgement>Principle Investigators Robert Lin and Stuart Bale, the Wind 3DP team, and the Space Physics Data Facility (SPDF)/NASA GSFC</Acknowledgement>
       <Contact>
@@ -22,7 +22,7 @@
       </Contact>
       <InformationURL>
         <Name>Caveats to the use of Wind 3DP data</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/wind3dp_caveats.pdf</URL>
         <Description>Caveats for the correct use of Wind 3DP datasets</Description>
       </InformationURL>
       <InformationURL>
@@ -42,7 +42,7 @@
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_sopd/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_sopd/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -54,7 +54,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
         <ProductKey>WI_SOPD_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>

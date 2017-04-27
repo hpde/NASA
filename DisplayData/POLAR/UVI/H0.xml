@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H0</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -31,12 +31,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>

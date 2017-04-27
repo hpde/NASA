@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios1/E1/PT40.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data</ResourceName>
-            <ReleaseDate>2014-07-31T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Helios 1 40-second merged magnetic field and plasma data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -23,12 +23,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios1/merged/he1_40sec/</URL>
                 <Description>HTTP path at SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>HELIOS1_40SEC_MAG-PLASMA</ProductKey>
                 <Description>Helios 1 40.5-sec Combined Magnetic Field and Plasma Data in SPDF repository</Description>
             </AccessURL>

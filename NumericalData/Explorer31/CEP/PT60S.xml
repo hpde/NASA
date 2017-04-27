@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Explorer31/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Explorer 31 Electron Density and Temperature Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Explorer 31 (DME-A) electron density and temperature data at 1-5 minute resolution, non-continuous, from Langmuir probe - cylindrical electrostatic probe</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
@@ -30,7 +30,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/explorer/explorer31/plasma_cep/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/explorer/explorer31/plasma_cep/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

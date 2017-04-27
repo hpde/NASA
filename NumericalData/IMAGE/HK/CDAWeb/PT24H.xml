@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/HK/CDAWeb/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE Housekeeping Data via CDAWeb</ResourceName>
-            <ReleaseDate>2016-08-19T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of housekeeping data from the IMAGE mission comes from the Central Interface Data Processor (CIDP) and the interface with the Spacecraft/System Control Unit (SCU).   The CIDP provides the following major functions for the Observatory:
 (1) Instrument data acquisition, processing, and compression.
 (2) Stored command processing.
@@ -61,7 +61,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>ADS data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/ads_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/ads_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -72,7 +72,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_ADS</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>
@@ -89,7 +89,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>AST data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/ast_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/ast_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -100,7 +100,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_AST</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>
@@ -117,7 +117,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>COM data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/com_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/com_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -128,7 +128,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_COM</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>
@@ -145,7 +145,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>FSW data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/fsw_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/fsw_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -156,7 +156,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_FSW</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>
@@ -173,7 +173,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>PWR data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/pwr_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/pwr_k0/</URL>
                 <Description>FTP access to IM_HK_PWR</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -184,7 +184,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_PWR</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>
@@ -201,7 +201,7 @@ IM_HK_TML: Image Thermal Housekeeping
             </AccessURL>
             <AccessURL>
                 <Name>TML data from SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/image/hk/tml_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/image/hk/tml_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -212,7 +212,7 @@ IM_HK_TML: Image Thermal Housekeeping
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>IM_HK_TML</ProductKey>
                 <Description>Plots, lists and files from CDAWeb</Description>
             </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT1.92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Voyager 1 MAG 1.92-s, 9.6-s and 48-s binary data in VMS binary files</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Binary</Format>

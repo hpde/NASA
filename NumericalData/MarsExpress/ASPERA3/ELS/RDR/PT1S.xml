@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/MarsExpress/ASPERA3/ELS/RDR/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>Mars Express electron distribution functions</ResourceName>
-            <ReleaseDate>2012-06-13T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>The data consist of fluxes of electrons at several tens (time-
 variable number) of energy steps in the 0.01-20keV energy range, in 16 look directions.  
 The data are organized in csv ASCII format for spreadsheet usage.  Any given 
@@ -13,7 +13,7 @@ high energy range.  Deflection voltages used, between 1.31 and 21 V or between 2
 and 2800 V are given in the data arrays, with conversion factors to transform to
 particle energy being given in documentation files.  No spacecraft trajectory 
 data are included in these Level 2, reduced data records but see
-http://www.rssd.esa.int/index.php?project=PSA&amp;page=ancillary.  As of June 2012, these data were available for mid-2003 through Jun 2011, although for the 2003 cruise phase, a total of only several hours of data were generated and are available.</Description>
+https://www.rssd.esa.int/index.php?project=PSA&amp;page=ancillary.  As of June 2012, these data were available for mid-2003 through Jun 2011, although for the 2003 cruise phase, a total of only several hours of data were generated and are available.</Description>
             <Acknowledgement>The Mars Express ASPERA team, R. Lundin, Swedish
 Institute of Space Physics, PI, and the European Space Agency</Acknowledgement>
             <Contact>

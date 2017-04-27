@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Geotail/Ephemeris/Pre_AT/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Geotail Predicted Attitude</ResourceName>
-            <ReleaseDate>2012-11-07T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Predicted Geotail spacecraft attitude in various coordinate systems.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Gerald.Blackwell</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/pre_at/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/geotail/orbit/pre_at/</URL>
                 <Description>HTTP access to the data from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -37,7 +37,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>GE_AT_PRE</ProductKey>
                 <Description>subset, plot, list functionalities from CDAWeb</Description>
             </AccessURL>

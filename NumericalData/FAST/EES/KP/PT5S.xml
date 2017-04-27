@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/FAST/EES/KP/PT5S</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST EES Key Parameters</ResourceName>
-            <ReleaseDate>2013-01-08T12:00:00.000Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set provides the electron part of the 5-second (spin-averaged) FAST survey data from the Electrostatic Analysers (ESA) instrument in CDF format. It includes: the electron energy fluxes for 47 energies (4eV-30keV) in the pitch angle ranges 0-30, 60-120, and 150-180; the electron energy fluxes for 32 pitch angles (-90 to 270 deg) in the energy ranges 0.1-1keV and 1-30keV; the integrated electron energy (and number) fluxes mapped to the magnetic foot point; and orbit information.  
 
 Data are derived from a pair of hemisperical electrostatic analyzers with 180 degree radial FOVs that together form a single 360 deg x 4.5 deg planar FOV in the spin spacecraft plane.  Sensors can deflect their FOV by up to +/-10 deg to follow the magnetic field direction which is within +/-6 deg of the spin plane for most auroral crossings. Absolute geometric factors are the best estimate at the time of key parameter data production (20% uncertainty).  Key parameter data are averaged for 1 spin.  Any change in sensor configuration or onboard data storage during a spin result in a rejection of the
@@ -41,13 +41,13 @@ Electron Number Flux mapped along B to 100 km altitude. </Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/fast/ees/ees_k0/</URL>
+                <Name>FTP access to files at SPDF</Name>
+                <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/fast/esa/k0/ees/</URL>
                 <Description>In CDF via FTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/fast/ees/ees_k0/</URL>
+                <Name>HTTP access to files at SPDF</Name>
+                <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/esa/k0/ees/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -58,7 +58,7 @@ Electron Number Flux mapped along B to 100 km altitude. </Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>FA_K0_EES</ProductKey>
                 <Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_EES</Description>
             </AccessURL>

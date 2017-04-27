@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/WATS/PT2S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE 2 2s WATS Wind Velocity, Density and Temperature</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains, at 2-sec resolution, 
 the neutral wind horizontal velocity, temperature and density 
 from the Wind and Temperature Spectrometer (WATS) flown on DE 2.  
@@ -37,7 +37,7 @@ Investigator, the late Dr. Nelson Spencer</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -55,7 +55,7 @@ the late Dr. Nelson Spencer, and the Space Physics Data Facility at NASA/GSFC</A
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>DE2_WIND2S_WATS</ProductKey>
                 <Description>For CDAWeb subset, plot and list capabilities</Description>
             </AccessURL>

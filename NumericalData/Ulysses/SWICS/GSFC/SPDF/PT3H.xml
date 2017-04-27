@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWICS 3-hour averages data via CDAWeb</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains 3-hour averages of ion data from the Ulysses Solar Wind Ion Composition Spectrometer (SWICS) instrument. Density, velocity, and temperature data are available for 10 speciess (H, He, C, N, O, Ne, Mg, Si, S, and Fe) and charge states at 3-hr resolution.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -27,12 +27,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/swics_cdaweb/swi_m1/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/swics_cdaweb/swi_m1/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>UY_M1_SWI</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Cluster/Ephemeris/JP-PGP/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster Monthly JSOC Predicted Solar Cycle Trends</ResourceName>
-            <ReleaseDate>2012-05-14T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This dataset contains Cluster JSOC monthly predicted sunspot number, solar wind pressure and standard deviation in interplanetary field.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/jp/pcy/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/jp/pcy/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>CL_JP_PGP</ProductKey>
                 <Description>CL_JP_PCY</Description>
             </AccessURL>

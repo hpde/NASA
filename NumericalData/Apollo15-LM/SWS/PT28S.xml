@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Apollo15-LM/SWS/PT28S</ResourceID>
         <ResourceHeader>
             <ResourceName>Apollo 15 Solar Wind Measurements at the Lunar Surface 28-s Data</ResourceName>
-            <ReleaseDate>2012-05-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains the highest time resolution plasma data available (28 sec per spectrum) from the solar wind experiment onboard Apollo 15. Contained in each record are: time, proton density, alpha-to-proton ratio, bulk speed, angle of flow, most probable thermal speed, and various housekeeping and fit parameters relating to the reliability of the calculated plasma parameters. 
 
 During the local lunar night there is no solar wind signal so there are data gaps of about 15 days each lunation. </Description>
@@ -25,7 +25,7 @@ During the local lunar night there is no solar wind signal so there are data gap
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/apollo/apollo15_cdaweb/sws_28s/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/apollo/apollo15_cdaweb/sws_28s/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -37,7 +37,7 @@ During the local lunar night there is no solar wind signal so there are data gap
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>APOLLO15_SWS_28S</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

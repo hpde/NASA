@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Data at the ESA Cluster Active Archive</AlternateName>
-            <ReleaseDate>2013-07-25T15:51:47Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>Two main types of data resulted from WHISPER (Waves of HF and Sounder for Probing Electron Density by Relaxation) onboard Cluster: the total electron density at standard time resolutions of either 2.15 or 52 s, and electric field spectra in the frequency range 2–82 KHz with time resolutions of 1.7 or 3.4 seconds.  Data products available from the Cluster Active Archive include: electron number density, electric spectral power density (natural waves), electric spectral power density from active and passive emission during sounding, and electric waveform power density (energy) in 0.2 second resolution.  
 
 Ancillary data include density comparisons with PEACE and CIS measurements onboard Cluster; sounding times; housekeeping data; electron density in spin-resolution (4 seconds) and 1 minute averages; electron gyrofrequency in plasmasphere; instrument parameters during natural mode and active mode; active to passive spectral power density coded ratio; and caveats.  Please note that WHISPER densities are used for calibrations of CLUSTER instruments, in particular particle instruments, which have difficulties to measure the colder part of the population, and EFW instrument, because spacecraft potential variations, currently used as a proxy of density variations, depend not only on the density but also on the energy of electrons. 
@@ -27,7 +27,7 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
             </InformationURL>
             <InformationURL>
                 <Name>Cluster Science Archive (CSA) Documentation</Name>
-                <URL>http://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
+                <URL>https://www.rssd.esa.int/index.php?project=CLUSTER&amp;page=caa_documentation</URL>
                 <Description>CAA Instrument User Guides, Calibration Reports and ICDS.</Description>
             </InformationURL>
             <Association>
@@ -41,7 +41,7 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
-                <URL>http://www.rssd.esa.int/csa</URL>
+                <URL>https://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) data from active and passive electric wave field experiment. It's open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

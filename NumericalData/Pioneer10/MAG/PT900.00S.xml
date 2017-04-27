@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/MAG/PT900.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Magnetometer 15-min data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Pioneer 10 15-min averaged magnetic field vectors in RTN coordinates, with covariances, cruise phase, ASCII</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -22,7 +22,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_15min_ascii/data</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_15min_ascii/data</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

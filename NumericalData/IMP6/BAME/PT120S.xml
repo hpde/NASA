@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP6/BAME/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 6 LANL 2-m plasma data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>IMP 6 LANL 2-min solar wind plasma parameter data, including temperature anisotropy and alpha/proton ratio</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/imp/imp6/plasma_lanl/solarwind_2min/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp6/plasma_lanl/solarwind_2min/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>

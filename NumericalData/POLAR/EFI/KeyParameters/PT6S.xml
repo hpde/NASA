@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/EFI/KeyParameters/PT6S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar EFI 6-sec Key Parameters</ResourceName>
-            <ReleaseDate>2012-05-16T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Polar EFI (Electric Field Instrument) key parameters, 6-sec field components and spectral densities at 3 frequencies</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/efi/efi_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/efi/efi_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>PO_K0_EFI</ProductKey>
             </AccessURL>
             <Format>CDF</Format>

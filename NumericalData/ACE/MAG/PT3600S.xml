@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/MAG/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE MAG L2 1-hr magnetic field data</ResourceName>
-            <ReleaseDate>2012-05-11T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ACE MAG L2 1-hr, 1-day, 27-day magnetic field averages at ASC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
@@ -30,7 +30,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>AC_H2_MFI</ProductKey>
             </AccessURL>
             <AccessURL>
@@ -39,7 +39,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h2</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h2</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>

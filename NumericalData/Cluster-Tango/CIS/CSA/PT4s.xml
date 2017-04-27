@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Cluster Tango Ion Spectrometry (CIS) Data at the ESA Cluster Science Archive</ResourceName>
             <AlternateName>Cluster 2 Tango Ion Spectrometry (CIS) Data at the ESA Cluster Active Archive</AlternateName>
-            <ReleaseDate>2013-07-20T15:51:47Z</ReleaseDate>
+            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
             <Description>The Cluster Ion Spectrometry (CIS) data products include three-dimensional ion distributions (about 0-40 keV/e) in 4-s spacecraft spin resolution and mass-per-charge composition distribution that are measured by the Hot Ion Analyzer (HIA) and Composition Distribution Function (CODIF) analyzer on board the Cluster II Tango spacecraft. Data products consist of processed raw data (Level 1 data), moments of the distribution functions (Level 2 data), and calibrated high-resolution data in a variety of physical units (Level 3 data). Furthermore, the calibration files and high-level processing software are also available. 
 
 CIS Level 1 data are decommutated, decompressed and time-tagged telemetry data in raw instrument units. 
@@ -43,7 +43,7 @@ For more details, see "The Cluster Active Archive: Studying the Earth's Space Pl
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Access to files at the Cluster Science Archive (CSA)</Name>
-                <URL>http://www.rssd.esa.int/csa</URL>
+                <URL>https://www.rssd.esa.int/csa</URL>
                 <Description>Cluster II Tango Ion Spectrometry (CIS) data; open access but registration is required.</Description>
             </AccessURL>
             <Format>CEF</Format>

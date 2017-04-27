@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CRRES/MEA/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>CRRES MEA 1-min electron distribution functions</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set holds 1-min resolution electron distributions from the Medium Electron Sensor/Analyzer (MEA) on the CRRES spacecraft.  The data consists of counting rates from 17 energy channels in the range of 0.1-2 MeV and 19 pitch angle bins at 1 minute time intervals. The average flux, 90 degree flux and N value are included.  Also included are the spacecraft geographic coordinates and altitude, L shell, and the local and equatorial magnetic field magnitudes from the 1977 Olson-Pfitzer model of the earth's geomagnetic field. The raw high resolution (0.512 sec) data and documentation of raw data can be obtained via ftp from NSSDC.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Alfred.L.Vampola</PersonID>
@@ -27,7 +27,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/crres/particle_mea</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -40,7 +40,7 @@ Phyics Data Facility at NASA/Goddard.</Acknowledgement>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>CRRES_H0_MEA</ProductKey>
                 <Description>CRRES_H0_MEA</Description>
             </AccessURL>

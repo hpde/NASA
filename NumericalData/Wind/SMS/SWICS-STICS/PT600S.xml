@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/SMS/SWICS-STICS/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind SWICS and STICS KP Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains the investigator-selected key parameters from the Solar Wind and Suprathermal Ion Composition Instrument (SMS) on Wind.  The data as functions of time include: average alpha velocity (scalar); Average alpha velocity (scalar, with error bars); Carbon/Oxygen abundance ratio (scalar); Carbon/Oxygen abundance ratio (scalar, with error bars); Carbon ionization temperature from C+6 and C+5, (scalar, in million degs K); Carbon ionization temperature from C+6 and C+5, (scalar, with error bars); Oxygen ionization temperature from O+7 and O+6, (scalar); Oxygen ionization temperature from O+7 and O+6, (scalar, with error bars); Uncertainty (+/- 30%) in speed of solar wind (scalar); Uncertainty (+/- 30%) in C and O abundance ratio (scalar); Uncertainty (+/- 10%) in C ionization temp from C+6 and C+5; Uncertainty (+/- 10%) in O ionization temp O+7 and O+6.  The above averages are made over 4 hrs.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -30,12 +30,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/swics/sms_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/swics/sms_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>WI_K0_SMS</ProductKey>
                 <Description>WI_K0_SMS</Description>
             </AccessURL>

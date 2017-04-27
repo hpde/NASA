@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP8/PLS/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 MIT 1-hour plasma data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>IMP 8 MIT solar wind plasma parameters, hourly averages</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/solarwind_hr/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/solarwind_hr/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>

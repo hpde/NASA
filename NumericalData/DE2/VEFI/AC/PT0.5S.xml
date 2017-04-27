@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/VEFI/AC/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE-2 0.5-s AC Electric Field ASCII data</ResourceName>
-            <ReleaseDate>2015-12-15T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains the averaged AC electric field data (1 or 2 points per second) 
 and orbit information in ASCII format.</Description>
             <Contact>
@@ -28,7 +28,7 @@ and orbit information in ASCII format.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/ac_500ms_ascii/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/ac_500ms_ascii/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

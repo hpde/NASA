@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/KeyParameters/PT18S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind WAVES Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This set of Wind WAVES key parameters contains electric field average intensity in dB above background at 76 log-spaced frequencies (250-9.4e6 Hz) that is determined from neural network analysis of in situ Fpe line.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>WI_K0_WAV</ProductKey>
                 <Description>WI_K0_WAV</Description>
             </AccessURL>

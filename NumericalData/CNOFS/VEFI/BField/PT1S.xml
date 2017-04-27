@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CNOFS/VEFI/BField/PT1S</ResourceID>
         <ResourceHeader>
             <ResourceName>CNOFS VEFI 1-sec Magnetic Field preliminary data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains magnetic field data from the fluxgate
 magnetometer associated with the C/NOFS Vector  
 Electric Field Instrument (VEFI).  The data include 1-sec
@@ -16,7 +16,7 @@ spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
             </Contact>
             <InformationURL>
                 <Name>VEFI Data Products</Name>
-                <URL>http://vefi.gsfc.nasa.gov/vefi/dataproducts.html</URL>
+                <URL>https://vefi.gsfc.nasa.gov/vefi/dataproducts.html</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/CNOFS_VEFI_BFIELD_1SEC</PriorID>
         </ResourceHeader>
@@ -26,7 +26,7 @@ spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
                 <ProductKey>CNOFS_VEFI_BFIELD_1SEC</ProductKey>
                 <Description>Plots, lists and files from CDAWeb.</Description>
             </AccessURL>
@@ -44,7 +44,7 @@ spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/bfield_1sec/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cnofs/vefi/bfield_1sec/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>

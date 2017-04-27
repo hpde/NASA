@@ -5,7 +5,7 @@
         <ResourceHeader>
             <ResourceName>Hawkeye Magnetometer 1.9-s Data</ResourceName>
             <AlternateName>HK_H0_MAG</AlternateName>
-            <ReleaseDate>2012-04-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This level 0 data set contains investigator-provided magnetic field data at 1.9-second resolution from the Hawkeye magnetometer instrument.  The data set contains despun data including the following parameters: scalar magnetic field strength; vector magnetic field in Cartesian GSM and SM coordinates; spacecraft radial distance from the center of Earth; spacecraft position in Cartesian GSM and SM coordinates; despin method indicator (0: not despun; 1: optical aspect; 2: sun pulse; 3: array voltage; 4: mag field model; 4/5: solar array method); and an estimate of the angular uncertainty in magnetic field direction (set to zero for despin = 1 or 2).  For a reference paper on despinning technique, see Boardsen, S. and R.L. Kessel, Spin Index Determination of the Hawkeye Spacecraft, J. Spacecraft and Rockets, 39, 780-787, 2002. </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Scott.Boardsen 
@@ -24,7 +24,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/mag/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/mag/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -36,7 +36,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>HK_H0_MAG</ProductKey>
                 <Description>Repository of Hawkeye data at NASA CDAWeb, accessible via web interface. Name of the data resource: HK_H0_MAG
 </Description>

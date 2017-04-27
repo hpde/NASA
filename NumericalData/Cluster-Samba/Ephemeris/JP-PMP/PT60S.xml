@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Cluster-Samba/Ephemeris/JP-PMP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Cluster Samba JSOC Predicted Magnetic Positions</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This dataset contains Cluster Samba JSOC predicted magnetic positions and magnetic field magnitude.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Hapgood</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/c3/jp/pmp/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/c3/jp/pmp/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>C3_JP_PMP</ProductKey>
                 <Description>C3_JP_PMP</Description>
             </AccessURL>

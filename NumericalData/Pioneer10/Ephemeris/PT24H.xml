@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/Ephemeris/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Daily Spacecraft Trajectory Version 3.1 Data</ResourceName>
-            <ReleaseDate>2012-10-25T00:00:00</ReleaseDate> 
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate> 
 <Description>This data set consists of daily spacecraft position coordinates in ASCII format, as converted from the Version 3.1 final archive (NSSDC ID # 72-012A-13L) for Plasma Analyzer data originally submitted to NSSDC in VMS binary format.</Description>
             <Acknowledgement>Please acknowledge the Principal Investigator, Dr. Paul R. Gazis, and SPDF.</Acknowledgement>
             <Contact>
@@ -28,7 +28,7 @@
             </AccessURL>
          <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/plasma/version31/v31_traj_ascii/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/plasma/version31/v31_traj_ascii/</URL>
                 <Description>for hourly data via http</Description>
             </AccessURL>
             <Format>Text</Format>

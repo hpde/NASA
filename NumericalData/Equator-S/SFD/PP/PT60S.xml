@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Equator-S/SFD/PP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Equator-S Scintillating Fibre Detector (SFD) 1-min Prime Parameters</ResourceName>
-            <ReleaseDate>2012-05-08T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains selected Key Parameters of the Scintillating Fibre Detector (SFD) onboard the Equator-S mission.  
 The following one-minute summary parameters are given versus time: maximum energy flux of electrons in three bands (&gt;0.26 MeV, &gt;0.44MeV, &gt;1.9.MeV); maximum energy flux of protons in three bands (&gt;6.3MeV, &gt;9.5MeV, &gt;34.9MeV); the half-interval between time tags, averaged over the file; and a status flag.
  </Description>
@@ -24,7 +24,7 @@ The following one-minute summary parameters are given versus time: maximum energ
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/equator-s/sp/sfd/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/equator-s/sp/sfd/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -35,7 +35,7 @@ The following one-minute summary parameters are given versus time: maximum energ
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
                 <ProductKey>EQ_SP_SFD</ProductKey>
                 <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
             </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/MAG/PT240S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE MAG L2 4-min magnetic field data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>ACE MAG L2 4-min magnetic field data at ASC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
@@ -26,7 +26,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>AC_H1_MFI</ProductKey>
             </AccessURL>
             <AccessURL>
@@ -35,7 +35,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h1</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/mag/level_2_cdaweb/mfi_h1</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>

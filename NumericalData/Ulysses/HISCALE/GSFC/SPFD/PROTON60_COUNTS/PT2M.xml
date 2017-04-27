@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/GSFC/SPFD/PROTON60_COUNTS/PT2M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses HISCALE 1-hour proton counts</ResourceName>
-            <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>This data set contains 1-hour spin averaged count rates of proton data from the Ulysses Heliosphere Instrument for Spectra, Composition and Anisotropy at Low Energies (HI-SCALE) Composition Aperture Telescope at 60 degrees to the spacecraft spin axis. Count rate units are /s.  For references, see Astron. Astrophys. Suppl. Ser., 92(2), 349-363, 1992.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
@@ -21,7 +21,7 @@
             <Availability>Online</Availability>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>UY_M1_WART</ProductKey>
             </AccessURL>
             <AccessURL>
@@ -31,7 +31,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/wart_m1/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/wart_m1/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <Format>Text</Format>

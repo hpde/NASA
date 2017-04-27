@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Attitude Data</ResourceName>
-            <ReleaseDate>2012-05-16T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Polar Attitude data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -22,12 +22,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_at/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_at/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>PO_AT_PRE</ProductKey>
                 <Description>PO_AT_PRE</Description>
             </AccessURL>

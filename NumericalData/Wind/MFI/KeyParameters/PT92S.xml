@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Wind/MFI/KeyParameters/PT92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind MFI 92-s Key Parameters</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
             <Description>Wind MFI (Magnetic Fields Investigation), 92-s key parameters, magnetic field data in GSE and GSM coordinates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
@@ -22,17 +22,17 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_k0</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>WI_K0_MFI</ProductKey>
             </AccessURL>
             <AccessURL>
                 <Name>MFI Home Page</Name>
-                <URL>http://wind.nasa.gov/mfi//</URL>
+                <URL>https://wind.nasa.gov/mfi//</URL>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
