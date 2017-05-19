@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IMAGE/FUV/SIP/PT124S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE FUV SIP Auroral Images, Key Parameters</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-05-19T00:00:00</ReleaseDate>
             <Description>Proton Auroral Images at 1218A, Key Parameters, IMAGE Far UltraViolet (FUV) Spectrographic Imaging camera Protons (SIP)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
@@ -28,6 +28,7 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+                <ProductKey>IM_K0_SIP</ProductKey>  
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>

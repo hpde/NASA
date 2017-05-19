@@ -1,81 +1,42 @@
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT1.92S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT48S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Voyager 1 MAG 1.92-s  Averaged Interplanetary Magnetic Field Data</ResourceName>
-            <ReleaseDate>2017-05-12T00:00:00.000</ReleaseDate>
-            <Description>This data set includes the Voyager spacecraft number (1 or 2), the date-time in
-decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1
-computed from high-resolution magnitudes, the elevation and azimuth angles
-(degrees) in heliographic (RTN) coordinates, and the magnetic field strength F2
-computed from hour averages of the components. The vector components of B can be
-computed from F2 and the two angles. Elevation angle is the latitude angle above
-or below the solar equatorial plane, and azimuth angle is in the direction
-orbital motion around the Sun from the projection of the Sun-to-spacecraft axis
-into the solar equatorial plane. The Voyager MAG experiment and coordinates are
-further described in the following publication:  Behannon, K.W., M.H. Acuna,
-L.F. Burlaga, R.P. Lepping, N.F. Ness, and F.M. Neubauer, Magnetic-Field
-Experiment for Voyager-1 and Voyager-2, Space Science Reviews, 21 (3), 235-257,
-1977...At the time of experiment proposal, it was expected that the required
-accuracy of the measurements would be 0.1 nT, determined by the combined noise
-of the sensors and the spacecraft field. The spacecraft magnetic field at the
-outboard magnetic field sensor, referred to as the primary unit, was expected to
-be 0.2 nT and highly variable, consistent with current estimates. Hence, the
-dual magnetometer design (Ness et al., 1971, 1973; Behannon et al. 1977). ..At
-distances > 40 AU, the heliospheric magnetic fields are generally much weaker
-than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about
-0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting about 6
-hours permits determination of the effective zero levels for the two independent
-magnetic axes that are perpendicular to the roll axis (which is nearly parallel
-to the radius vector to the Sun) at intervals of about 3 months. There is no
-roll calibration for the third magnetic axis. Comparison of the two derived
-magnetic vectors from the two magnetometers permits validation of the primary
-magnetometer data with an accuracy of 0.02 to 0.05 nT. A discussion of the
-uncertainties that must be considered when using these data is given in the
-Appendix of Burlaga et al. [1994] and in Appendix A of Burlaga et al. [2002].
-..References: ..Behannon, K.W., M.H. Acuna, L.F. Burlaga, R.P. Lepping, N.F.
-Ness, and F.M. Neubauer, Magnetic-Field Experiment for Voyager-1 and Voyager-2,
-Space Science Reviews, 21 (3), 235-257, 1977. ..Burlaga, L.F., Merged
-interaction regions and large-scale magnetic field fluctuations during 1991 -
-Voyager-2 observations, J. Geophys. Res., 99 (A10), 19341-19350, 1994.
-..Burlaga, L.F., N.F. Ness, Y.-M. Wang, and N.R. Sheeley Jr., Heliospheric
-magnetic field strength and polarity from 1 to 81 AU during the ascending phase
-of solar cycle 23, J. Geophys. Res., 107 (A11), 1410, 2002. ..Ness, N., K.W.
-Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., 76, 3564, 1971.
-..Ness et al., 1973
-At distances > 40 AU, the heliospheric magnetic fields are generally much weaker
-than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about
-0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting  about 6
-hours permits determination of the effective zero levels for the two independent
-magnetic axes that are perpendicular to the roll axis (which is nearly parallel
-to the radius vector to the Sun) at intervals of about 3 months. There is no
-roll calibration for the third magnetic axis. Comparison of the two derived
-magnetic vectors from the two magnetometers permits validation of the primary
-magnetometer data with an accuracy of 0.02 to 0.05 nT. A discussion of the
-uncertainties that must be considered when using these data is given in the
-Appendix of Burlaga et al. [1994] and in Appendix A of Burlaga et al. [2002].
-COORDINATE SYSTEMS:  Interplanetary magnetic field studies make use of two
-important coordinate systems, the Inertial Heliographic (IHG) coordinate system
-and the Heliographic (HG) coordinate system.
-The IHG coordinate system is use to define the spacecraft's position.  The IHG
-system is defined with its origin at the Sun.  There are three orthogonal axes,
-X(IHG), Y(IHG), and Z(IHG).  The Z(IHG) axis points northward along the Sun's 
-spin axis.  The X(IHG) - Y(IHG) plane lays in the solar equatorial plane.  The
-intersection of the solar equatorial plane with the ecliptic plane defines a
-line, the longitude of the ascending node, which is taken to be the X(IHG) axis.
-The X(IHG) axis drifts slowly with time, approximately one degree per 72 years.
-Magnetic field orientation is defined in relation to the spacecraft.  Drawing a
-line from the Sun's center (IHG origin) to the spacecraft defines the X axis of
-the HG coordinate system.  The HG coordinate system is defined with its origin
-centered at the spacecraft.  Three orthogonal axes are defined, X(HG), Y(HG),
-and Z(HG).  The X(HG) axis points radially away from the Sun and the Y(HG) axis
-is parallel to the solar equatorial plane and therefore parallel to the
-X(IHG)-Y(IHG) plane too.  The Z(HG) axis is chosen to complete the orthonormal
-triad. 
-An excellent reference guide with diagrams explaining the IHG and HG systems may
-be found in Space and Science Reviews, Volume 39 (1984), pages 255-316, MHD
-Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
+            <ResourceName>Voyager 1 48-s Averaged Magnetic Field Data Near and Beyond Termination Shock</ResourceName>
+            <ReleaseDate>2017-05-10T00:00:00.000</ReleaseDate>
+            <Description>The average magnetic field strength produced by the spacecraft at the location of the 
+        outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
+        to the most probable magnetic field strength in the inner heliosheath and significantly larger 
+        than the most probable magnetic field strength in the distant supersonic solar wind. The spacecraft 
+        magnetic field is a complex, time-dependent signal that must be removed from the measured magnetic 
+        field signal in order to derive the ambient magnetic fields of the solar wind and heliosheath.  
+        Corrections must also be made for spurious magnetic signals and noise associated with the telemetry 
+        system, ground tracking systems, and other factors. Extracting the signal describing the solar wind 
+        and heliosheath from the many sources of uncertainty is a complex and partly subjective process that 
+        requires understanding of the instrument and judgment based on experience in dealing with the 
+        ever-changing extraneous signals. We estimate that the 1-sigma uncertainty in the 48 sec averages 
+        in the components of the magnetic field is typically +/- 0.02 nT. The uncertainties in F1, BR, BT, 
+        and BN can differ from one another and they may vary with time, but there is no practical way to 
+        determine these uncertainties more precisely at present.  This descriptor, and the data
+        access path identified below, are specific to 48s Voyager 1 MAG data taken when the spacecraft
+        was in the vicinity of, and beyond, the heliospheric termination shock.
+
+        References 
+        
+        Behannon, K.W., M.H. Acuna, L.F. Burlaga, R.P. Lepping, N.F. Ness, and F.M. Neubauer, 
+        Magnetic-Field Experiment for Voyager-1 and Voyager-2, Space Science Reviews, 21 (3), 235-257, 1977. 
+
+        Burlaga, L.F., Merged interaction regions and large-scale magnetic field fluctuations during 1991 - 
+        Voyager-2 observations, J. Geophys. Res., 99 (A10), 19341-19350, 1994. 
+
+        Burlaga, L.F., N.F. Ness, Y.-M. Wang, and N.R. Sheeley Jr., Heliospheric magnetic field strength and 
+        polarity from 1 to 81 AU during the ascending phase of solar cycle 23, J. Geophys. Res., 107 (A11), 1410, 2002. 
+
+        Ness, N., K.W. Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., , 76, 3564, 1971.
+        
+      </Description>
+            <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
                 <Role>PrincipalInvestigator</Role>
@@ -84,11 +45,19 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
                 <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
                 <Role>CoInvestigator</Role>
             </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
              <InformationURL>
                 <Name>Readme at Voyager MAG team web site</Name>
                 <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/readme.summary</URL>
             </InformationURL>
-            <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_MAG_1.92S_BIN</PriorID>
+             <PriorID>spase://VHO/NumericalData/Voyager1/MAG/PT48S</PriorID>
         </ResourceHeader>
        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</RepositoryID>
@@ -105,49 +74,63 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to binary files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
-                <Description>In binary via FTP from SPDF</Description>
-           </AccessURL>
+                <Name>FTP access to ASCII files at SPDF</Name>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_48s_ascii/data/</URL>
+            <Description>In ascii via ftp from SPDF</Description>
+             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to binary files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_sum_vmsbin/</URL>
-                <Description>In binary via HTTP from SPDF</Description>
+                <Name>HTTP access to ASCII files at SPDF</Name>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_48s_ascii/data/</URL>
+                <Description>In ascii via HTTP from SPDF</Description>
             </AccessURL>
-            <Format>Binary</Format>
+            <Format>Text.ASCII</Format>
         </AccessInformation>
-       <AccessInformation>
+        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to CDF files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_2s/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_48s/</URL>
                 <Description>In CDF via FTP from SPDF</Description>           
             </AccessURL>
             <AccessURL>
                <Name>HTTP access to CDF files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_2s/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_48s/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
        <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-                <ProductKey>VOYAGER1_2S_MAG</ProductKey>
+                <ProductKey>VOYAGER1_48S_MAG</ProductKey>
                 <Description>48 Second Averaged Interplanetary Magnetic Field data with subset, plot, list functionalities 
 from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
-        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PDS/PPI</Name>
+                <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-SW-MAG-4-SUMM-HGCOORDS-48SEC-V1.0</URL>
+                <ProductKey>VG1-SW-MAG-4-SUMM-HGCOORDS-48SEC-V1.0</ProductKey>
+                <Description>This collection is archived with NASA's Planetary Data System.</Description>
+                <Language>En</Language>
+            </AccessURL>
+            <Format>Text.ASCII</Format>
+            <Acknowledgement>NASA's Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+        </AccessInformation>
+           <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>1977-09-05T14:19:47</StartDate>
-                <StopDate>1991-12-27T00:00:42</StopDate>
+              <StartDate>1977-09-05T00:00:00</StartDate>
+                <StopDate>1990-12-31T00:00:00</StopDate>
             </TimeSpan>
-            <Cadence>PT1.92S</Cadence>
+            <Cadence>PT48S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
         <ObservedRegion>Heliosphere.Heliosheath</ObservedRegion>

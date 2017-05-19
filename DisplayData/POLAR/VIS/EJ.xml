@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/POLAR/VIS/EJ</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar VIS Images from CDAWeb</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-05-19T00:00:00</ReleaseDate>
             <Description>Polar VIS Images from CDAWeb</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
@@ -28,6 +28,7 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov</URL>
+                <ProductKey>PO_EJ_VIS</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
