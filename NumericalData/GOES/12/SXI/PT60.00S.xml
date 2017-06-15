@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/GOES/12/SXI/PT60.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>GOES SXI Solar X-Ray Images</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2017-05-10T00:00:00.000</ReleaseDate>
             <Description>GOES SXI Solar X-Ray Images in FITS format</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Daniel.C.Wilkinson</PersonID>
@@ -18,11 +18,11 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SXI site at NOAA/NGDC</Name>
-                <URL>http://sxi.ngdc.noaa.gov/</URL>
+                <URL>https://sxi.ngdc.noaa.gov/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>from NOAA/NGDC via Virtual Solar Observatory</Name>
-                <URL>http://www.virtualsolar.org/</URL>
+                <URL>https://www.virtualsolar.org/</URL>
             </AccessURL>
             <Format>FITS</Format>
         </AccessInformation>
