@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT1.92S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT9.6S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Voyager 1 MAG 1.92-s  Averaged Interplanetary Magnetic Field Data</ResourceName>
+            <ResourceName>Voyager 1 MAG 9.6-s Averaged Interplanetary Magnetic Field Data</ResourceName>
             <ReleaseDate>2017-05-12T00:00:00.000</ReleaseDate>
-            <Description>This data set includes the Voyager spacecraft number (1 or 2), the date-time in
+            <Description>This magnetic field data set contains 9.6 second averages that are created from 1.92 second averages. It includes the Voyager spacecraft number (1 or 2), the date-time in
 decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1
 computed from high-resolution magnitudes, the elevation and azimuth angles
 (degrees) in heliographic (RTN) coordinates, and the magnetic field strength F2
@@ -88,8 +88,7 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
                 <Name>Readme at Voyager MAG team web site</Name>
                 <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/readme.summary</URL>
             </InformationURL>
-            <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_MAG_1.92S_BIN</PriorID>
-        </ResourceHeader>
+            </ResourceHeader>
        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</RepositoryID>
             <Availability>Online</Availability>
@@ -122,19 +121,19 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to CDF files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_2s/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_10s/</URL>
                 <Description>In CDF via FTP from SPDF</Description>           
             </AccessURL>
             <AccessURL>
                <Name>HTTP access to CDF files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_2s/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_10s/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
        <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-                <ProductKey>VOYAGER1_2S_MAG</ProductKey>
-                <Description>48 Second Averaged Interplanetary Magnetic Field data with subset, plot, list functionalities 
+                <ProductKey>VOYAGER1_10S_MAG</ProductKey>
+                <Description>9.6 Second Averaged Interplanetary Magnetic Field data with subset, plot, list functionalities 
 from CDAWeb</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -147,7 +146,7 @@ from CDAWeb</Description>
                 <StartDate>1977-09-05T14:19:47</StartDate>
                 <StopDate>1991-12-27T00:00:42</StopDate>
             </TimeSpan>
-            <Cadence>PT1.92S</Cadence>
+            <Cadence>PT10S</Cadence>
         </TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
         <ObservedRegion>Heliosphere.Heliosheath</ObservedRegion>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/STEREO-A/PLASTIC/Fe_charge_state/P1M</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A PLASTIC Iron Charge State Data Plots</ResourceName>
-            <ReleaseDate>2012-10-31T00:00:00</ReleaseDate>
+           <ReleaseDate>2017-05-11T00:00:00.000</ReleaseDate>
             <Description>This data product contains monthly plots of iron ion charge state.  
 Different panels give (1) color-coded counts of iron vs. charge state
 and time, plus intensity-time profiles of (2) average charge state, 
@@ -21,30 +21,30 @@ and time, plus intensity-time profiles of (2) average charge state,
             </InformationURL>
             <InformationURL>
                 <Name>Readme at STEREO Science Center</Name>
-                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/READ_ME_PLASTIC_Iron_Charge.pdf</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/</URL>
             </InformationURL>
         </ResourceHeader>
-		<AccessInformation>
-			<RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
-			<Availability>Online</Availability>
-			<AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PLASTIC Iron Charge States Plots</Name>
-            <URL>http://fiji.sr.unh.edu/fe_charge_states_public.html</URL>
-         </AccessURL>
-			<AccessURL>
-				<Name>PLASTIC Data Plots at UNH</Name>
-				<URL>http://fiji.sr.unh.edu/</URL>
-			</AccessURL>
-			<Format>PNG</Format>
-		</AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PLASTIC Iron Charge States Plots</Name>
+                <URL>http://fiji.sr.unh.edu/fe_charge_states_public.html</URL>
+            </AccessURL>
+            <AccessURL>
+                <Name>PLASTIC Data Plots at UNH</Name>
+                <URL>http://fiji.sr.unh.edu/</URL>
+            </AccessURL>
+            <Format>PNG</Format>
+        </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>STEREO Science Center - Plots</Name>
-                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/plots/Fe_charge_states/</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/plots/Fe_charge_states_monthly/</URL>
             </AccessURL>
             <Format>PNG</Format>
             <DataExtent>

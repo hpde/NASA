@@ -1,16 +1,15 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/GOES/8/EPM/PT300S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/GOES/6/EPM/PT5M</ResourceID>
         <ResourceHeader>
-            <ResourceName>GOES 8 EPS, 5-min KP Electron, Proton Fluxes</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
-            <Description>GOES 8 Energetic Particle Sensor, Key Parameters, 5-min fluxes of electrons &gt;0.6, &gt;2, &gt;4 MeV and of 0.7-4 MeV protons</Description>
+            <ResourceName>GOES 6 EPS, 5-min KP Electron, Proton Fluxes</ResourceName>
+            <ReleaseDate>2017-06-07T00:00:00.000</ReleaseDate>
+            <Description>GOES 6 Energetic Particle Sensor, Key Parameters, 5-min fluxes of electrons &gt; 2 MeV and of 0.6-4.2 MeV protons</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
-            <PriorID>spase://VSPO/NumericalData/P_GOES8_HDR_EP8_300S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -18,29 +17,29 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes08/ep8_k0</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/goes/goes06/eps_k0/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes08/ep8_k0</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/goes/goes06/eps_k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-                <ProductKey>G8_K0_EP8</ProductKey>
+                <ProductKey>G6_K0_EPS</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/GOES/8/EPM</InstrumentID>
+        <InstrumentID>spase://SMWG/Instrument/GOES/6/EPM</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>1995-12-01T00:00:00</StartDate>
-                <StopDate>2003-04-08T00:00:00</StopDate>
+                <StartDate>1992-12-12T00:00:00</StartDate>
+                <StopDate>1994-11-25T00:00:00</StopDate>
             </TimeSpan>
-            <Cadence>PT300S</Cadence>
+            <Cadence>PT5M</Cadence>
         </TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     </NumericalData>

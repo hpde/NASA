@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H1</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar Ultraviolet Imager H1 High-Resolution Images</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-05-19T00:00:00</ReleaseDate>
             <Description>This dataset contains high resolution MPEG canned images of aurora and airglow from the Polar Ultraviolet Imager (UVI).</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
@@ -28,7 +28,7 @@
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-                <Description>PO_H1_UVI</Description>
+               <ProductKey>PO_H1_UVI</ProductKey>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
