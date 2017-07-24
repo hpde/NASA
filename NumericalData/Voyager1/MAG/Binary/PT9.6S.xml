@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/PT9.6S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Binary/PT9.6S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Voyager 1 MAG 9.6-s Averaged Interplanetary Magnetic Field Data</ResourceName>
-            <ReleaseDate>2017-05-12T00:00:00.000</ReleaseDate>
+            <ResourceName>Voyager 1 9.6-s Averaged Interplanetary Triaxial Fluxgate Magnetometer (MAG) Magnetic Field in Binary Format</ResourceName>
+              <ReleaseDate>2017-07-21T00:00:00.000</ReleaseDate>
             <Description>This magnetic field data set contains 9.6 second averages that are created from 1.92 second averages. It includes the Voyager spacecraft number (1 or 2), the date-time in
 decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1
 computed from high-resolution magnitudes, the elevation and azimuth angles
@@ -23,7 +23,7 @@ of the sensors and the spacecraft field. The spacecraft magnetic field at the
 outboard magnetic field sensor, referred to as the primary unit, was expected to
 be 0.2 nT and highly variable, consistent with current estimates. Hence, the
 dual magnetometer design (Ness et al., 1971, 1973; Behannon et al. 1977). ..At
-distances > 40 AU, the heliospheric magnetic fields are generally much weaker
+distances &gt; 40 AU, the heliospheric magnetic fields are generally much weaker
 than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about
 0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting about 6
 hours permits determination of the effective zero levels for the two independent
@@ -44,7 +44,7 @@ magnetic field strength and polarity from 1 to 81 AU during the ascending phase
 of solar cycle 23, J. Geophys. Res., 107 (A11), 1410, 2002. ..Ness, N., K.W.
 Behannon, R. Lepping, and K.H. Schatten, J. Geophys. Res., 76, 3564, 1971.
 ..Ness et al., 1973
-At distances > 40 AU, the heliospheric magnetic fields are generally much weaker
+At distances &gt; 40 AU, the heliospheric magnetic fields are generally much weaker
 than 0.4 nT; the average magnetic field strength near 40 AU and 85 AU is about
 0.15 nT and 0.05 nT, respectively. The use of roll calibrations lasting  about 6
 hours permits determination of the effective zero levels for the two independent
@@ -88,6 +88,7 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
                 <Name>Readme at Voyager MAG team web site</Name>
                 <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/summary/readme.summary</URL>
             </InformationURL>
+            <PriorID>sspase://VSPO/NumericalData/Voyager1/MAG/PT9.6S</PriorID>
             </ResourceHeader>
        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</RepositoryID>
@@ -114,29 +115,6 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
                 <Description>In binary via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Binary</Format>
-        </AccessInformation>
-       <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>FTP access to CDF files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_10s/</URL>
-                <Description>In CDF via FTP from SPDF</Description>           
-            </AccessURL>
-            <AccessURL>
-               <Name>HTTP access to CDF files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/mag_10s/</URL>
-                <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
-       <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-                <ProductKey>VOYAGER1_10S_MAG</ProductKey>
-                <Description>9.6 Second Averaged Interplanetary Magnetic Field data with subset, plot, list functionalities 
-from CDAWeb</Description>
-            </AccessURL>
-            <Format>CDF</Format>
         </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>

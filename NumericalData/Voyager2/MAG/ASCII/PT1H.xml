@@ -1,10 +1,10 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/ASCII/PT1H</ResourceID>
         <ResourceHeader>
-            <ResourceName>Voyager 2 MAG 1-hr ASCII data at nsdcftp</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ResourceName>Voyager 2 1-hr Averaged Interplanetary Triaxial Fluxgate Magnetometer (MAG) Magnetic Field in ASCII Format</ResourceName>
+           <ReleaseDate>2017-07-21T00:00:00.000</ReleaseDate>
             <Description>
 			This data set contains hour averages of the interplanetary magnetic     
 			field (IMF) measurements obtained by the triaxial fluxgate magnetometer 
@@ -27,42 +27,43 @@
                 <PersonID>spase://SMWG/Person/Leonard.F.Burlaga</PersonID>
                 <Role>CoInvestigator</Role>
             </Contact>
-			<Contact>
-				<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-				<Role>MetadataContact</Role>
-			</Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
             <PriorID>spase://VSPO/NumericalData/P_VOYAGER2_HDR_MAG_1HR_ASC</PriorID>
+             <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTP access to ASCII files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
                 <Description>one ASCII file spanning 1977-1989</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTP access to ASCII files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
-		<AccessInformation>
-			<RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-			<Availability>Online</Availability>
-			<AccessRights>Open</AccessRights>
-			<AccessURL>
-				<Name>PDS/PPI</Name>
-				<URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</URL>
-				<ProductKey>VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</ProductKey>
-				<Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
-				<Language>En</Language>
-			</AccessURL>
-			<Format>Text.ASCII</Format>
-			<Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
-		</AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>PDS/PPI</Name>
+                <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</URL>
+                <ProductKey>VG2-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</ProductKey>
+                <Description>This collection is archived with NASA's Planetary Data System.</Description>
+                <Language>En</Language>
+            </AccessURL>
+            <Format>Text.ASCII</Format>
+            <Acknowledgement>NASA's Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+        </AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Voyager2/MAG</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
