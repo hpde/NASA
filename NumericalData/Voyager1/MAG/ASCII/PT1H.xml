@@ -3,7 +3,7 @@
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/ASCII/PT1H</ResourceID>
         <ResourceHeader>
-            <ResourceName>Voyager 1 1-hr Averaged Interplanetary Triaxial Fluxgate Magnetometer (MAG) Magnetic Field in ASCII Format</ResourceName>
+            <ResourceName>Voyager 1 1-hr Averaged  Triaxial Fluxgate Magnetometer (MAG) Interplanetary Magnetic Field in ASCII Format</ResourceName>
            <ReleaseDate>2017-07-21T00:00:00.000</ReleaseDate>
             <Description>                                        
       This data set contains hour averages of the interplanetary magnetic     
@@ -71,12 +71,12 @@
             <AccessURL>
                 <Name>FTP access to ASCII files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/</URL>
-                <Description>one ASCII file spanning 1977-1989</Description>
+                <Description>The data set format and description are in vy1mag_1h_fmt.txt</Description>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to ASCII files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_1hour_ascii/</URL>
-                <Description>one ASCII file spanning 1977-1989</Description>
+                <Description>The data set format and description are in vy1mag_1h_fmt.txt</Description>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
