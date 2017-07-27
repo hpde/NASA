@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>VSPO/NumericalData/Cassini/MAG/CDF/PT1M</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/Cassini/MAG/CDF/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Cassini 1-min cruise phase magnetic field data in CDF Format</ResourceName>
          <ReleaseDate>2017-07-21T12:34:56.789</ReleaseDate>
