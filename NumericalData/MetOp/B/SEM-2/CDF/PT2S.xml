@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/MetOp/A/SEM/CDF/PT2S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/MetOp/B/SEM-2/CDF/PT2S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Meteorological Operational (METOP) A Space Environment Monitor (SEM) data in CDF Format at 2 s Resolution</ResourceName>
+         <ResourceName>Meteorological Operational B (MetOp B) Space Environment Monitor 2 (SEM-2) Data, CDF Format, 2 s Resolution</ResourceName>
          <ReleaseDate>2017-07-21T12:34:56.789</ReleaseDate>
-         <Description>POES-SEM2&gt;POES-Space Environment Monitor 2 POES N19 Data: POES/MetOp: Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
+         <Description>Polar Orbiting Environmental Satellites, POES, Meteorological Operational B, MetOp B, Particle Precipitation Data, these Data have known Contamination Problems, Please consult the Data Provider, Rob Redmon, at rob.redmon@noaa.gov, for Usage Recommendations</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Janet.C.Green</PersonID>
             <Role>ProjectScientist</Role>
@@ -31,7 +31,7 @@
          <InformationURL>
             <Name>MEPED Telescope Data Processing Algorithm Theoretical Basis Document, Section 2.2.1</Name>
             <URL>https://www.ngdc.noaa.gov/stp/satellite/poes/docs/NGDC/MEPED%20telescope%20processing%20ATBD_V1.pdf</URL>
-            <Description>For further Details on MEPED Contamination Issues, See the</Description>
+            <Description>Further Details on MEPED Contamination Issues</Description>
          </InformationURL>
       </ResourceHeader>
       <AccessInformation>
@@ -40,30 +40,30 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/noaa/metop2/sem2_fluxes-2sec/</URL>
-            <Description>In CDF via ftp from SPDF.</Description>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/noaa/metop1/sem2_fluxes-2sec/</URL>
+            <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/noaa/metop2/sem2_fluxes-2sec/</URL>
-            <Description>In CDF via http from SPDF.</Description>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/noaa/metop1/sem2_fluxes-2sec/</URL>
+            <Description>In CDF via http from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-            <ProductKey>METOP2_POES-SEM2_FLUXES-2SEC</ProductKey>
+            <ProductKey>METOP1_POES-SEM2_FLUXES-2SEC</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
-         <Acknowledgement>. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+         <Acknowledgement>Please acknowledge the data providers and CDAWeb when using these data</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/MetOp/A/SEM-2</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/MetOp/B/SEM-2</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2012-06-22T00:00:00.000</StartDate>
+            <StartDate>2012-10-03T00:00:00.000</StartDate>
             <RelativeStopDate>-P1D</RelativeStopDate>
          </TimeSpan>
          <Cadence>PT2S</Cadence>
@@ -79,7 +79,7 @@
          <Name>Epoch</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Default Time</Description>
-         <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
+         <Caveats>This parameter exhibits an increasing monotonic progression</Caveats>
          <Cadence>PT2S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1e-9&gt;s</UnitsConversion>
