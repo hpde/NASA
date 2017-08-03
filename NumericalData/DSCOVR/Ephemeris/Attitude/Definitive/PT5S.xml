@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/DSCOVR/Ephemeris/Attitude/PT10S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/DSCOVR/Ephemeris/Attitude/Definitive/PT5S</ResourceID>
       <ResourceHeader>
-         <ResourceName>DSCOVR 3-Axis Stabilized Attitude (Ephemeris) Preliminary Data</ResourceName>
-         <ReleaseDate>2017-07-21T12:34:56.789</ReleaseDate>
-         <Description>DSCOVR 3-Axis Stabilized Preliminary Attitude Data File. Convention: Intrinsic Rotations applied in Yaw, Pitch, Roll Order. Time Resolution Varies. 5-Point Median Filter Applied to the DCM Matrix.</Description>
+         <ResourceName>DSCOVR 3-Axis Stabilized Attitude (Ephemeris) Definitive Data</ResourceName>
+         <ReleaseDate>2017-08-03T12:34:56.789</ReleaseDate>
+         <Description>DSCOVR 3-Axis Stabilized Definitive Attitude Data File, 5 s Time Resolution. Convention: Intrinsic Rotations applied in Yaw, Pitch, Roll Order. Extended Kalman Filter applied to Ground-Based Solution during Normal Operations. Onboard Computer, OBC, Solution used during Calibration Maneuvers.</Description>
          <Acknowledgement>A. Szabo</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -32,18 +32,18 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/pre_at/</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/def_at/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/pre_at/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/dscovr/orbit/def_at/</URL>
             <Description>In CDF via http from SPDF.</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-            <ProductKey>DSCOVR_AT_PRE</ProductKey>
+            <ProductKey>DSCOVR_AT_DEF</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -56,9 +56,9 @@
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2015-02-11T00:00:00.000</StartDate>
-            <StopDate>2017-05-31T23:59:59.999</StopDate>
+            <StopDate>2017-07-08T23:59:59.999</StopDate>
          </TimeSpan>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Heliosphere</ObservedRegion>
       <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
@@ -68,7 +68,7 @@
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time, Milliseconds since 0 A.D.</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
@@ -87,7 +87,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>Time_PB5</ParameterKey>
          <Description>Time in PB5 Format: Year, Day, Milliseconds, Observation Time</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Structure>
             <Size>3</Size>
             <Element>
@@ -122,7 +122,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>J2000_Yaw</ParameterKey>
          <Description>Spacecraft Yaw Angle, J2000 Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -148,7 +148,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>J2000_Pitch</ParameterKey>
          <Description>Spacecraft Pitch Angle, J2000 Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -174,7 +174,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>J2000_Roll</ParameterKey>
          <Description>Spacecraft Roll Angle, J2000 Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -200,7 +200,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GCI_Yaw</ParameterKey>
          <Description>Spacecraft Yaw Angle, Geocentric Inertial, J2000 GEI Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -226,7 +226,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GCI_Pitch</ParameterKey>
          <Description>Spacecraft Pitch Angle, Geocentric Inertial, J2000 GEI Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -252,7 +252,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GCI_Roll</ParameterKey>
          <Description>Spacecraft Roll Angle, Geocentric Inertial, J2000 GEI Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -278,7 +278,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GSE_Yaw</ParameterKey>
          <Description>Spacecraft Yaw Angle, Geocentric Solar Ecliptic, GSE Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -304,7 +304,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GSE_Pitch</ParameterKey>
          <Description>Spacecraft Pitch Angle, Geocentric Solar Ecliptic, GSE Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -330,7 +330,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GSE_Roll</ParameterKey>
          <Description>Spacecraft Roll Angle, Geocentric Solar Ecliptic, GSE Coordinates</Description>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT5S</Cadence>
          <Units>rad</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>

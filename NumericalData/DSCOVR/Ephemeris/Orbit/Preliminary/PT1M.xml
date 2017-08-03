@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/DSCOVR/Ephemeris/Orbit/PT1M</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/DSCOVR/Ephemeris/Orbit/Preliminary/PT1M</ResourceID>
       <ResourceHeader>
-         <ResourceName>DSCOVR Orbital Ephemeris, Predicted Spacecraft Position and Velocity</ResourceName>
-         <ReleaseDate>2017-07-21T12:34:56.789</ReleaseDate>
+         <ResourceName>DSCOVR Orbital Ephemeris Predicted Spacecraft Position and Velocity</ResourceName>
+         <ReleaseDate>2017-08-03T12:34:56.789</ReleaseDate>
          <Description>DSCOVR Predicted Orbit Data File</Description>
          <Acknowledgement>A. Szabo</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>https://www.nesdis.noaa.gov/content/dscovr-deep-space-climate-observatory</URL>
             <Description>Deep Space Climate Observatory, DSCOVR, Web Page hosted by the National Environmental Satellite, Data, and Information Service, NESDIS, National Oceanic and Atmospheric Administration, NOAA</Description>
          </InformationURL>
+         <PriorID>spase://VSPO/NumericalData/DSCOVR/Ephemeris/Orbit/PT1M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
