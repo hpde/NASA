@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Alouette2/SFS/Winkfield/PT31S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Santiago/PT31S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Alouette-2 Topside Sounder Ionogram over Winkfield, United Kingdom (SFS) (Latitude 51, Longitude 359)</ResourceName>
-         <ReleaseDate>2017-08-04T12:34:56.789</ReleaseDate>
-         <Description>This Ionogram was digitized from the original Alouette 2 Analog Telemetry Data on 7-Track Tape using the Facilities of the Data Evaluation Laboratory at NASA GSFC, Code 500. This Data Restoration Project is headed by Dr. R.F. Benson, NASA GSFC, Code 692. Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 ms corresponding to an Apparent Range Interval of c*t/2, where c is the Speed of Light, or 3.747 km. Each Ionogram consists of a Fixed Frequency Portion and a Swept Frequency Portion. The Time Resolution is typically 31 s. More Information can be found at https://nssdc/space/isis/isis-status.html.</Description>
-         <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the Alouette-2 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Projecti Scientist for the Alouette/ISIS Data-Restoration</Acknowledgement>
+         <ResourceName>Alouette-2 Topside Sounder Average Ionogram over Santiago, Chile: SNT, Latitude -33, Longitude 298</ResourceName>
+         <ReleaseDate>2017-08-05T12:34:56.789</ReleaseDate>
+         <Description>This Ionogram was digitized from the original Alouette 2 Analog Telemetry Data on 7-Track Tape using the Facilities of the Data Evaluation Laboratory at NASA GSFC, Code 500. This Data Restoration Project is headed by Dr. R.F. Benson, NASA GSFC, Code 692. Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 ms corresponding to an Apparent Range Interval of c*t/2, where c is the Speed of Light, or 3.747 km. Each Ionogram consists of a Fixed Frequency Portion and a Swept Frequency Portion. The Time Resolution is typically 31 s.</Description>
+         <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the Alouette 2 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/James.H.Whitteker</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -39,7 +39,7 @@
          </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1965-098A-01</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1965-098A</URL>
             <Description>Information about the Swept Frequency Sounder, SFS, Experiment on Alouette 2</Description>
          </InformationURL>
       </ResourceHeader>
@@ -49,23 +49,23 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to CDF Files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/WNK_51N_359E/</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SNT_33S_298E/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTP access to CDF Files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/WNK_51N_359E/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/SNT_33S_298E/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-            <ProductKey>ALOUETTE2_AV_WNK</ProductKey>
+            <ProductKey>ALOUETTE2_AV_SNT</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
-         <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the Alouette-2 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Projecti Scientist for the Alouette/ISIS Data-Restoration. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+         <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the Alouette 2 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Alouette2/SFS</InstrumentID>
@@ -73,8 +73,8 @@
       <MeasurementType>Waves.Active</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>1966-03-30T05:48:19</StartDate>
-            <StopDate>1966-04-06T06:01:10</StopDate>
+            <StartDate>1965-11-29T13:42:37</StartDate>
+            <StopDate>1967-01-01T04:19:41</StopDate>
             <Note>The Cadence is 31 s between Ionograms. The Alouette 2 Ionograms have the slowest Sweep Rate of any of the Alouette/ISIS Topside Sounders sweeping from 0.12 to 14.5 MHz in about 28 s with a Frequency Sweep Rate of 0.13 MHz/s below 2.0 MHz, providing the highest Frequency Resolution of any of the ISIS Program Sounders. The Alouette 2 Frequency Sweep Rate above 2 MHz was 1 MHz/s. Alouette 2 did not have a Fixed Frequency Operation.</Note>
          </TimeSpan>
          <Cadence>PT31S</Cadence>
@@ -214,7 +214,7 @@
       <Parameter>
          <Name>GMODE Code</Name>
          <ParameterKey>GMODE</ParameterKey>
-         <Description>GMODE, Transmission of Alternate Frames of Fixed and Swept Frequency: 0=Off, 1=On</Description>
+         <Description>GMODE, Transmission of Alternate Frames of Fixed Frequency and Swept Frequency: 0=Off, 1=On</Description>
          <Cadence>PT31S</Cadence>
          <RenderingHints>
             <AxisLabel>GMODE</AxisLabel>
@@ -559,7 +559,7 @@
          <Name>Sounder Amplitude</Name>
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>ampl</ParameterKey>
-         <Description>Sounder Amplitude at 335 Virtual Heights for Fixed and Swept Frequency, Ionogram. The Sounder-Receiver Linear Video Amplitude, from 0 to 255 Telemetry Units, in each Apparent Range Bin of each Scan Line covering the Fixed Frequency and Swept Frequency Regions. This Range corresponds to a Linear Sounder-Receiver Video Amplitude Output Range from 0 V to 4.5 V. This Calibration is based on the Video Calibration Pulse, of 3.0 V or 170 Telemetry Units, at the End of the Line Scan following each Sounder Pulse. The Combined Calibration Pulses from all of the Line Scans produces a Colored Stripe at the Bottom of the Digital Ionograms. In order to derive an Input Power Level corresponding to the Receiver Video Output, it is necessary to know the Sounder-Receiver Automatic Gain Control, AGC, Voltage. This Voltage was obtained from the Pulse Code Modulation, PCM, Data and thus is only available if PCM Data were available. The AGC Voltage, which ranges from 0 V to 5.12 V, is obtained from a Linear Interpolation between the AGC Trace displayed between the 4005 km Apparent Range, at 26.7 ms Delay Time, as 5.12 V and the 4395 km, at 29.3 ms Delay Time, as 0 V. On the Full Ionograms these Numbers are 4001.250 km or 26.675 ms and 4398.750 km or 29.325 ms. On the Average Ionograms, which are available as either CDF or Binary Files from the SPDF or the NSSDC, the Range Resolution is 0.1 ms, corresponding to a Virtual Range Resolution of 15 km. There are 27 Rows an thus 26 Intervals covering the 0 V to 5.12 V Range; thus each Row in Virtual Range above, i.e. decreasing Delay Time, the Zero Level at 29.3 ms Delay Time corresponds to an Increase of 5.12/26 V of AGC with a Quantization Uncertainty of approximately Plus or Minus 0.1 V. Two Rows have Zero Video Output Amplitude Values on the Average Ionograms in order that a clear AGC Trace is visible on the Ionograms. The Row with the greatest Virtual Range corresponds to the actual AGC Value. On the Full Ionograms, which are only available as Binary Files from the NSSDC, the Range Resolution is 0.025 ms, corresponding to a Virtual Range Resolution of 3.75 km, and three Rows have Zero Video Output Amplitude Values; the middle Row corresponds to the actual AGC Value.</Description>
+         <Description>Sounder Amplitude at 335 Virtual Heights for Fixed Frequency and Swept Frequency, Ionogram. The Sounder-Receiver Linear Video Amplitude, from 0 to 255 Telemetry Units, in each Apparent Range Bin of each Scan Line covering the Fixed Frequency and Swept Frequency Regions. This Range corresponds to a Linear Sounder-Receiver Video Amplitude Output Range from 0 V to 4.5 V. This Calibration is based on the Video Calibration Pulse, of 3.0 V or 170 Telemetry Units, at the End of the Line Scan following each Sounder Pulse. The Combined Calibration Pulses from all of the Line Scans produces a Colored Stripe at the Bottom of the Digital Ionograms. In order to derive an Input Power Level corresponding to the Receiver Video Output, it is necessary to know the Sounder-Receiver Automatic Gain Control, AGC, Voltage. This Voltage was obtained from the Pulse Code Modulation, PCM, Data and thus is only available if PCM Data were available. The AGC Voltage, which ranges from 0 V to 5.12 V, is obtained from a Linear Interpolation between the AGC Trace displayed between the 4005 km Apparent Range, at 26.7 ms Delay Time, as 5.12 V and the 4395 km, at 29.3 ms Delay Time, as 0 V. On the Full Ionograms these Numbers are 4001.250 km or 26.675 ms and 4398.750 km or 29.325 ms. On the Average Ionograms, which are available as either CDF or Binary Files from the SPDF or the NSSDC, the Range Resolution is 0.1 ms, corresponding to a Virtual Range Resolution of 15 km. There are 27 Rows an thus 26 Intervals covering the 0 V to 5.12 V Range; thus each Row in Virtual Range above, i.e. decreasing Delay Time, the Zero Level at 29.3 ms Delay Time corresponds to an Increase of 5.12/26 V of AGC with a Quantization Uncertainty of approximately Plus or Minus 0.1 V. Two Rows have Zero Video Output Amplitude Values on the Average Ionograms in order that a clear AGC Trace is visible on the Ionograms. The Row with the greatest Virtual Range corresponds to the actual AGC Value. On the Full Ionograms, which are only available as Binary Files from the NSSDC, the Range Resolution is 0.025 ms, corresponding to a Virtual Range Resolution of 3.75 km, and three Rows have Zero Video Output Amplitude Values; the middle Row corresponds to the actual AGC Value.</Description>
          <Cadence>PT31S</Cadence>
          <RenderingHints>
             <ValueFormat>I3</ValueFormat>
@@ -584,7 +584,7 @@
          <Units>rad/s</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>gyrof</AxisLabel>
+            <AxisLabel>Electron Gyrofrequency</AxisLabel>
             <ValueFormat>F7.3</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>100.0</ScaleMax>
@@ -827,9 +827,9 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Start of Swept-Frequency Portion</Name>
+         <Name>Start of Swept Frequency Portion</Name>
          <ParameterKey>swept_start</ParameterKey>
-         <Description>Scan Line Number of the Start of Swept Portion of the Ionogram, this seperates the Fixed Frequency and Swept Frequency Portions of the Ionogram</Description>
+         <Description>Scan Line Number of the Start of Swept Frequency Portion of the Ionogram, this seperates the Fixed Frequency and Swept Frequency Portions of the Ionogram</Description>
          <Caveats>seperates the fixed and swept portions</Caveats>
          <Cadence>PT31S</Cadence>
          <RenderingHints>
@@ -846,7 +846,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Times of Ionogram frequency Markers</Name>
+         <Name>Times of Ionogram Frequency Markers</Name>
          <ParameterKey>Time_mark</ParameterKey>
          <Description>Times of Ionogram Frequency Markers, Milliseconds after Frame Sync</Description>
          <Caveats>time of frequency markers This parameter exhibits an increasing monotonic progression.</Caveats>
@@ -1142,7 +1142,7 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Time</Name>
+         <Name>Epoch Time</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time</Description>
          <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
@@ -1172,7 +1172,7 @@
          <UnitsConversion>1e6&gt;Hz</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>frequency</AxisLabel>
+            <AxisLabel>Frequency</AxisLabel>
             <ValueFormat>E11.2</ValueFormat>
             <ScaleMin>0.1</ScaleMin>
             <ScaleMax>25.0</ScaleMax>
