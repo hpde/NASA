@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/PT1H</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/ASCII/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 1 PWS hr-avgd and peak plasma wave data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2017-08-19T00:00:00</ReleaseDate>
             <Description>
 			Hourly averages and peaks of calibrated electric field spectrum analyzer data from Voyager 1 PWS instrument
 			  
@@ -28,6 +28,7 @@
                 <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
                 <Role>DataProducer</Role>
             </Contact>
+            <PriorID>spase://VSPO/NumericalData/Voyager1/PWS/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/PDS</RepositoryID>
