@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG_SWP/ISEE3/MAG/PT1M</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/ISEE3/Merged/MAG_SWP/ASCII/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 field and plasma data propagated to (17,0,0) Re</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
             <Description>This is a family of data sets containing 1-min
 resolution ISEE 3 magnetic field and plasma parameters, in GSE 
 and GSM coordinates, both at the location of the ISEE 3 spacecraft 
@@ -48,7 +48,7 @@ J.T. Gosling, ISEE3 Plasma PI, and J.M. Weygand.</Acknowledgement>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Weygand propagated data at UCLA</Name>
-                <URL>https://vmo.igpp.ucla.edu/data1/Weygand</URL>
+                <URL>http://vmo.igpp.ucla.edu/data1/Weygand</URL>
                 <Description>High level directory with many dataset-specific 
 subdirectories</Description>
             </AccessURL>
