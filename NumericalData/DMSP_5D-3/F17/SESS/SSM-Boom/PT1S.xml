@@ -51,7 +51,7 @@
          <Acknowledgement>R.J. Redmon, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSM.Boom</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSM-Boom</InstrumentID>
       <MeasurementType>MagneticField</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
@@ -371,7 +371,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>DELTA_B_GEO</ParameterKey>
          <Description>Baseline corrected Delta-B, Geographic, GEO, Spherical, East, North, Up, Coordinates</Description>
-         <Caveats>Finite Differences between adjacent Points on Spacecraft Track were used to determine along Track and across Track Unit Vectors in GEO. No Altitude Change between adjacent Points was assumed. Baseline Correction, F. Rich&amp;apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
+         <Caveats>Finite Differences between adjacent Points on Spacecraft Track were used to determine along Track and across Track Unit Vectors in GEO. No Altitude Change between adjacent Points was assumed. Baseline Correction, F. Rich&apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -412,7 +412,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>DELTA_B_APX</ParameterKey>
          <Description>Baseline corrected Delta-B, Modified Apex, APX, Coordinates, Reference Height 110 km</Description>
-         <Caveats>Coordinates transformed with APEX-PYTHON, NCAR HAO, with Reference Altitude equal to 110 km, See Richmond, J. Geomag. Geoelec., 1995. Baseline Correction, F. Rich&amp;apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
+         <Caveats>Coordinates transformed with APEX-PYTHON, NCAR HAO, with Reference Altitude equal to 110 km, See Richmond, J. Geomag. Geoelec., 1995. Baseline Correction, F. Rich&apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -453,7 +453,7 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>DELTA_B_SC</ParameterKey>
          <Description>Baseline corrected Delta-B, Spacecraft Frame</Description>
-         <Caveats>X is Geodedic Nadir, Down, Y is along Spacecraft Track, the Ram Direction, Z is Across-Track to the Right. Baseline Correction, F. Rich&amp;apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
+         <Caveats>X is Geodedic Nadir, Down, Y is along Spacecraft Track, the Ram Direction, Z is Across-Track to the Right. Baseline Correction, F. Rich&apos;s MFIT Procedure, is Polynomial Fit every Half-Pass to each Component of Delta-B in Spacecraft Coordinates by using only Data from Regions equatorward of the DMSP Auroral Boundary from the CEDAR Database.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>

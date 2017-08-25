@@ -238,15 +238,16 @@
          <Name>TEPC Location Code</Name>
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>LOCATION</ParameterKey>
-            <Cadence>PT10S</Cadence>
-            <RenderingHints>
-               <DisplayType>TimeSeries</DisplayType>
-               <AxisLabel>TEPC ISS Loctn</AxisLabel>
-               <ValueFormat>A50</ValueFormat>
-            </RenderingHints>
-            <Support>
-               <SupportQuantity>InstrumentMode</SupportQuantity>
-            </Support>
-         </Parameter>
-      </NumericalData>
+         <Description>TEPC Location Code: denotes the Physical Location of the Tissue Equivalent Proportional Counter, TEPC, inside the International Space Station, ISS</Description>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>TEPC ISS Loctn</AxisLabel>
+            <ValueFormat>A50</ValueFormat>
+         </RenderingHints>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+   </NumericalData>
 </Spase>
