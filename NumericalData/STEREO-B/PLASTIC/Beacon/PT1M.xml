@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.9</Version>
+  <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Beacon/PT1M</ResourceID>
     <ResourceHeader>
@@ -251,7 +251,7 @@
       <UnitsConversion>1e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HERTN</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -278,7 +278,7 @@
       <UnitsConversion>1e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HERTN</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -305,7 +305,7 @@
       <UnitsConversion>1e3&gt;m/s</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>HERTN</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -413,7 +413,7 @@
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-        <CoordinateSystemName>HERTN</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -467,7 +467,7 @@
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
-        <CoordinateSystemName>HERTN</CoordinateSystemName>
+        <CoordinateSystemName>RTN</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
