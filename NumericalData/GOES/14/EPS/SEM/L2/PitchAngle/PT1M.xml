@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/GOES/14/EPS/SEM/L2/PitchAngle/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>GOES 14 Energetic Particle Sensor (EPS), MagED and MagPD Telescope Magnetic Field Dependent Pitch Angle Directions, 1 min Data</ResourceName>
-         <ReleaseDate>2017-08-18T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2017-09-20T00:00:00</ReleaseDate>
          <Description>These Data has been recast from original NOAA netCDF Files by SPDF. Data Caveats and Warnings: The MagED Data may not be accurate at Times due to Instrument Limitations such as Dead Time and Proton Contamination. Every Effort is made to reduce these Effects but Uncertainties are inevitable. Additionally, the Detectors may suffer from intermittent Noise Problems. Please contact Juan V. Rodriguez, sem.goes@noaa.gov, with Questions or Concerns.</Description>
          <Acknowledgement>J.V. Rodriguez, NOAA NGDC and SWPC</Acknowledgement>
          <Contact>
@@ -22,7 +22,7 @@
          </Contact>
          <InformationURL>
             <Name>Primary GOES Archive and Instrument Documentation, NGDC</Name>
-            <URL>http://www.ngdc.noaa.gov/stp/satellite/goes/index.html</URL>
+            <URL>https://www.ngdc.noaa.gov/stp/satellite/goes/index.html</URL>
             <Description>Primary GOES Archive and Instrument Documentation, NOAA National Geophysical Data Center, NGDC</Description>
          </InformationURL>
       </ResourceHeader>
