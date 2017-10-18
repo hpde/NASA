@@ -1,0 +1,1749 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.9</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/Munin/MEDUSA/Electron/PT0.25S</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Munin Miniaturized Electrostatic DUal-tophat Spherical Analyser (MEDUSA) Electron Counts, Fluxes, and Particle Distributions</ResourceName>
+         <ReleaseDate>2017-10-17T12:34:56.789</ReleaseDate>
+         <Description>MUNIN Nanosatellite MEDUSA Electron Counts, Fluxes, and Particle Distributions, 6 eV to 20 keV</Description>
+         <Acknowledgement>J.D. Winningham</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/J.David.Winningham</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Munin MEDUSA and PIA Instrument Description, Annales Geophysicae Publication</Name>
+            <URL>https://www.ann-geophys.net/19/593/2001/angeo-19-593-2001.pdf</URL>
+            <Description>The MEDUSA Electron and Ion Spectrometer and the PIA Ultraviolet Photometers on Astrid-2, O. Norberg, J. D. Winningham, H. Lauche, W. Keith, W. Puccio, J. Olsen, K. Lundin, and J. Scherrer</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>eoPortal Munin Web Site Spacecraft, Instrument, and Downlink Information</Name>
+            <URL>https://directory.eoportal.org/web/eoportal/satellite-missions/m/munin</URL>
+            <Description>eoPortal Munin Satellite Web Page</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTP access to files at SPDF</Name>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/munin/cdfs/m1/mdse/</URL>
+            <Description>Access to Data in CDF Format via ftp from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTP access to files at SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/munin/cdfs/m1/mdse/</URL>
+            <Description>Access to Data in CDF Format via http from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <ProductKey>MUNIN_M1_MDSE</ProductKey>
+            <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>J.D. Winningham. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/Munin/MEDUSA</InstrumentID>
+      <MeasurementType>EnergeticParticles</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2000-12-09T11:46:12</StartDate>
+            <StopDate>2001-02-11T15:18:33</StopDate>
+         </TimeSpan>
+         <Cadence>PT0.25S</Cadence>
+      </TemporalDescription>
+      <Parameter>
+         <Name>Epoch, Time Line</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch, Start Time for the Record</Description>
+         <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1e-9&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Epoch</AxisLabel>
+            <ValueFormat>E14.8</ValueFormat>
+            <ScaleMin>6.2798349819904e+13</ScaleMin>
+            <ScaleMax>6.3745034620904e+13</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
+         <ValidMax>2020-01-01T00:00:01.000000000</ValidMax>
+         <FillValue>2100-01-01T00:00:01.000000000</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch, Start</Name>
+         <ParameterKey>Epoch_Start</ParameterKey>
+         <Description>Start time, Epoch minus Value</Description>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1e-9&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>dt</AxisLabel>
+            <ValueFormat>E14.8</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>3.16224e+16</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Epoch, End</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Epoch_End</ParameterKey>
+         <Description>End time, Epoch plus Value</Description>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ns</Units>
+         <UnitsConversion>1e-9&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>dt</AxisLabel>
+            <ValueFormat>E14.8</ValueFormat>
+         </RenderingHints>
+         <ValidMin>0.0</ValidMin>
+         <ValidMax>3.16224e+16</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Center Scan Values</Name>
+         <ParameterKey>Center_Scan</ParameterKey>
+         <Description>Center Scan Values for the Data returned</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>eV</Units>
+         <UnitsConversion>1.602176565e-19&gt;J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>6.0</ScaleMin>
+            <ScaleMax>100000.0</ScaleMax>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>6.0</ValidMin>
+         <ValidMax>100000.0</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Band Low Scan Values</Name>
+         <ParameterKey>Band_Low_Scan</ParameterKey>
+         <Description>Band Low Scan, Center Scan minus Value</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>eV</Units>
+         <UnitsConversion>1.602176565e-19&gt;J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>8.83176</ScaleMin>
+            <ScaleMax>229803.0</ScaleMax>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Band High Scan Values</Name>
+         <ParameterKey>Band_High_Scan</ParameterKey>
+         <Description>Band High Scan, Center Scan plus Value</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>eV</Units>
+         <UnitsConversion>1.602176565e-19&gt;J</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>4.0762</ScaleMin>
+            <ScaleMax>43515.5</ScaleMax>
+         </RenderingHints>
+         <Structure>
+            <Size>32</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+            <Element>
+               <Name>Element 17</Name>
+               <Index>17</Index>
+            </Element>
+            <Element>
+               <Name>Element 18</Name>
+               <Index>18</Index>
+            </Element>
+            <Element>
+               <Name>Element 19</Name>
+               <Index>19</Index>
+            </Element>
+            <Element>
+               <Name>Element 20</Name>
+               <Index>20</Index>
+            </Element>
+            <Element>
+               <Name>Element 21</Name>
+               <Index>21</Index>
+            </Element>
+            <Element>
+               <Name>Element 22</Name>
+               <Index>22</Index>
+            </Element>
+            <Element>
+               <Name>Element 23</Name>
+               <Index>23</Index>
+            </Element>
+            <Element>
+               <Name>Element 24</Name>
+               <Index>24</Index>
+            </Element>
+            <Element>
+               <Name>Element 25</Name>
+               <Index>25</Index>
+            </Element>
+            <Element>
+               <Name>Element 26</Name>
+               <Index>26</Index>
+            </Element>
+            <Element>
+               <Name>Element 27</Name>
+               <Index>27</Index>
+            </Element>
+            <Element>
+               <Name>Element 28</Name>
+               <Index>28</Index>
+            </Element>
+            <Element>
+               <Name>Element 29</Name>
+               <Index>29</Index>
+            </Element>
+            <Element>
+               <Name>Element 30</Name>
+               <Index>30</Index>
+            </Element>
+            <Element>
+               <Name>Element 31</Name>
+               <Index>31</Index>
+            </Element>
+            <Element>
+               <Name>Element 32</Name>
+               <Index>32</Index>
+            </Element>
+         </Structure>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Energy</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Sensor Index</Name>
+         <ParameterKey>Sensor_Index</ParameterKey>
+         <Description>Sensor Index into Multi-Dimensional CDF Variable</Description>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <ValueFormat>I2</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>16</Size>
+            <Element>
+               <Name>Element 1</Name>
+               <Index>1</Index>
+            </Element>
+            <Element>
+               <Name>Element 2</Name>
+               <Index>2</Index>
+            </Element>
+            <Element>
+               <Name>Element 3</Name>
+               <Index>3</Index>
+            </Element>
+            <Element>
+               <Name>Element 4</Name>
+               <Index>4</Index>
+            </Element>
+            <Element>
+               <Name>Element 5</Name>
+               <Index>5</Index>
+            </Element>
+            <Element>
+               <Name>Element 6</Name>
+               <Index>6</Index>
+            </Element>
+            <Element>
+               <Name>Element 7</Name>
+               <Index>7</Index>
+            </Element>
+            <Element>
+               <Name>Element 8</Name>
+               <Index>8</Index>
+            </Element>
+            <Element>
+               <Name>Element 9</Name>
+               <Index>9</Index>
+            </Element>
+            <Element>
+               <Name>Element 10</Name>
+               <Index>10</Index>
+            </Element>
+            <Element>
+               <Name>Element 11</Name>
+               <Index>11</Index>
+            </Element>
+            <Element>
+               <Name>Element 12</Name>
+               <Index>12</Index>
+            </Element>
+            <Element>
+               <Name>Element 13</Name>
+               <Index>13</Index>
+            </Element>
+            <Element>
+               <Name>Element 14</Name>
+               <Index>14</Index>
+            </Element>
+            <Element>
+               <Name>Element 15</Name>
+               <Index>15</Index>
+            </Element>
+            <Element>
+               <Name>Element 16</Name>
+               <Index>16</Index>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>18</ValidMax>
+         <Support>
+            <Qualifier>Array</Qualifier>
+            <SupportQuantity>Other</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Telemetry Data</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_1_Telemetry_Dimensionless</ParameterKey>
+         <Description>MEDUSA Electron Telemetry Data, Science Data in Telemetry Units, Dimensionless Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Telemetry Data by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_1_Telemetry_D_atScan</ParameterKey>
+         <Description>MEDUSA Electron Telemetry Data, Spectrograms by Scan at Sample Sensors, Science Data in Telemetry Units, Dimensionless Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_1_Telemetry_Dimensionless.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Telemetry Data by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_1_Telemetry_D_atSensor</ParameterKey>
+         <Description>MEDUSA Electron Telemetry Data, Spectrograms by Sensor at Sample Scans, Science Data in Telemetry Units, Dimensionless Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_1_Telemetry_Dimensionless.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron &gt;Counts per Accumulation Data</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_2_gt_c_acc_gt_c_per_acc</ParameterKey>
+         <Description>MEDUSA Electron &gt;Counts per Accumulation Data, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>>c/acc</Units>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron &gt;Counts per Accumulation Data by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_2_gt_c_acc_gt_c_per_acc-atScan</ParameterKey>
+         <Description>MEDUSA Electron &gt;Counts per Accumulation Data, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_2_gt_c_acc_gt_c_per_acc.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>>c/acc</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron &gt;Counts per Accumulation Data by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_2_gt_c_acc_gt_c_per_acc-atSensor</ParameterKey>
+         <Description>MEDUSA Electron &gt;Counts per Accumulation Data, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_2_gt_c_acc_gt_c_per_acc.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>>c/acc</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts per Accumulation Data</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_3_c_acc_c_per_acc</ParameterKey>
+         <Description>MEDUSA Electron Counts per Accumulation Data, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>c/acc</Units>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts per Accumulation Data by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_3_c_acc_c_per_acc-atScan</ParameterKey>
+         <Description>MEDUSA Electron Counts per Accumulation Data, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_3_c_acc_c_per_acc.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>c/acc</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts per Accumulation Data by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_3_c_acc_c_per_acc-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Counts per Accumulation Data, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_3_c_acc_c_per_acc.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>c/acc</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts Rate Data</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_4_num_sec_cnts_per_sec</ParameterKey>
+         <Description>MEDUSA Electron Counts Rate Data, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts Rate Data by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_4_num_sec_cnts_per_sec-atScan</ParameterKey>
+         <Description>MEDUSA Electron Counts Rate Data, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_4_num_sec_cnts_per_sec.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Counts Rate Data by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_4_num_sec_cnts_per_sec-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Counts Rate Data, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_4_num_sec_cnts_per_sec.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Corrected Counts Rate Data</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_5_num_sec_cor_cnts_per_sec</ParameterKey>
+         <Description>MEDUSA Electron Corrected Counts Rate Data, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Corrected Counts Rate Data by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_5_num_sec_cor_cnts_per_sec-atScan</ParameterKey>
+         <Description>MEDUSA Electron Corrected Counts Rate Data, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_5_num_sec_cor_cnts_per_sec.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Corrected Counts Rate Data by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_5_num_sec_cor_cnts_per_sec-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Corrected Counts Rate Data, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_5_num_sec_cor_cnts_per_sec.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Number Flux</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_6_NFLUX_cnts_per_cm_2_sr_s</ParameterKey>
+         <Description>MEDUSA Electron Number Flux, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr)^-1</Units>
+         <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Number Flux by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_6_NFLUX_cnts_per_cm_2_sr_s-atScan</ParameterKey>
+         <Description>MEDUSA Electron Number Flux, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_6_NFLUX_cnts_per_cm_2_sr_s.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr)^-1</Units>
+         <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Number Flux by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_6_NFLUX_cnts_per_cm_2_sr_s-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Number Flux, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_6_NFLUX_cnts_per_cm_2_sr_s.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr)^-1</Units>
+         <UnitsConversion>1e4&gt;(m^2 s sr)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Number Flux</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_7_dNFLUX_cnts_per_cm_2_sr_s_eV</ParameterKey>
+         <Description>MEDUSA Electron Differential Number Flux, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr eV)^-1</Units>
+         <UnitsConversion>6.24181e18&gt;(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Number Flux by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_7_dNFLUX_cnts_per_cm_2_sr_s_eV-atScan</ParameterKey>
+         <Description>MEDUSA Electron Differential Number Flux, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_7_dNFLUX_cnts_per_cm_2_sr_s_eV.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr eV)^-1</Units>
+         <UnitsConversion>6.24181e18&gt;(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Number Flux by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_7_dNFLUX_cnts_per_cm_2_sr_s_eV-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Differential Number Flux, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_7_dNFLUX_cnts_per_cm_2_sr_s_eV.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>(cm^2 s sr eV)^-1</Units>
+         <UnitsConversion>6.24181e18&gt;(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>NumberFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Energy Flux</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_8_dEFLUX_ergs_per_cm_2_str_s_eV</ParameterKey>
+         <Description>MEDUSA Electron Differential Energy Flux, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ergs/(cm^2 s sr eV)</Units>
+         <UnitsConversion>6.24181e11&gt;J/(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Energy Flux by Scan at Sample Sensors</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_8_dEFLUX_ergs_per_cm_2_str_s_eV-atScan</ParameterKey>
+         <Description>MEDUSA Electron Differential Energy Flux, Spectrograms by Scan at Sample Sensors, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_8_dEFLUX_ergs_per_cm_2_str_s_eV.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ergs/(cm^2 s sr eV)</Units>
+         <UnitsConversion>6.24181e11&gt;J/(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Differential Energy Flux by Sensor at Sample Scans</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_8_dEFLUX_ergs_per_cm_2_str_s_eV-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Differential Energy Flux, Spectrograms by Sensor at Sample Scans, Science Data Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_8_dEFLUX_ergs_per_cm_2_str_s_eV.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>ergs/(cm^2 s sr eV)</Units>
+         <UnitsConversion>6.24181e11&gt;J/(m^2 s sr J)^-1</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>EnergyFlux</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function, km Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_9_DF_sec_3_per_km_6</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Science Data, km Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/km^6</Units>
+         <UnitsConversion>1e-18&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Scan at Sample Sensors, km Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_9_DF_sec_3_per_km_6-atScan</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Scan at Sample Sensors, Science Data, km Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_9_DF_sec_3_per_km_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/km^6</Units>
+         <UnitsConversion>1e-18&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Sensor at Sample Scans, km Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_9_DF_sec_3_per_km_6-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Sensor at Sample Scans, Science Data, km Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_9_DF_sec_3_per_km_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/km^6</Units>
+         <UnitsConversion>1e-18&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function, m Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_10_DF_sec_3_per_m_6</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Science Data, m Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/m^6</Units>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Scan at Sample Sensors, m Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_10_DF_sec_3_per_m_6-atScan</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Scan at Sample Sensors, Science Data, m Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_10_DF_sec_3_per_m_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/m^6</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Sensor at Sample Scans, m Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_10_DF_sec_3_per_m_6-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Sensor at Sample Scans, Science Data, m Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_10_DF_sec_3_per_m_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/m^6</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function, cm Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_11_DF_sec_3_per_cm_6</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Science Data, cm Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/cm^6</Units>
+         <UnitsConversion>1e6&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Scan at Sample Sensors, cm Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_11_DF_sec_3_per_cm_6-atScan</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Scan at Sample Sensors, Science Data, cm Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_11_DF_sec_3_per_cm_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/cm^6</Units>
+         <UnitsConversion>1e6&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Distribution Function by Sensor at Sample Scans, cm Scale</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>MEDUSA_Electron_11_DF_sec_3_per_cm_6-atSensor</ParameterKey>
+         <Description>MEDUSA Electron Distribution Function, Spectrograms by Sensor at Sample Scans, Science Data, cm Scale Column 1 Labels: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] Column 2 Labels: [ 100000., 18936.0, 14796.0, 11574.0, 9054.00, 7098.00, 5568.00, 4374.00, 3444.00, 2718.00, 2154.00, 1710.00, 1368.00, 1098.00, 836.000, 658.000, 517.000, 407.000, 320.000, 252.000, 198.000, 156.000, 123.000, 96.0000, 76.0000, 60.0000, 47.0000, 37.0000, 28.0000, 20.0000, 13.0000, 6.00000]</Description>
+         <Caveats>Average Type: standard This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: MEDUSA_Electron_11_DF_sec_3_per_cm_6.</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <Units>sec^3/cm^6</Units>
+         <UnitsConversion>1e6&gt;s^3/m^6</UnitsConversion>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <ValueFormat>E13.6</ValueFormat>
+         </RenderingHints>
+         <Structure>
+            <Size>16 32</Size>
+         </Structure>
+         <FillValue>-3.4e+38</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <ParticleQuantity>PhaseSpaceDensity</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 4, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_4_11_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 4, 11.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 4 (11.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 6, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_6_33_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 6, 33.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 6 (33.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 8, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_8_56_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 8, 56.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 8 (56.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 10, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_10_78_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 10, 78.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 10 (78.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 12, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_12_101_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 12, 101.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 12 (101.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 14, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_14_123_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 14, 123.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 14 (123.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 15, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_15_146_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 15, 146.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 15 (146.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 13, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_13_168_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 13, 168.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 13 (168.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 2, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_2_Neg_11_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 2, -11.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 2 (-11.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 0, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_0_Neg_33_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 0, -33.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 0 (-33.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 1, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_1_Neg_56_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 1, -56.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 1 (-56.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 3, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_3_Neg_78_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 3, -78.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 3 (-78.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 5, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_5_Neg_101_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 5, -101.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 5 (-101.25 deg)2</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 7, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_7_Neg_123_75_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 7, -123.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 7 (-123.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 9, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_9_Neg_146_25_deg</ParameterKey>
+         <Description>Data Quality Electron Sensor 9, -146.25&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 9 (-146.25 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron Sensor 11, Data Quality</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Data_Quality_Munin_MEDUSA_Electron_11_Neg_168_75</ParameterKey>
+         <Description>Data Quality Electron Sensor 11, -168.75&#176;: 0-OK</Description>
+         <Caveats>Average Type: standard</Caveats>
+         <Cadence>PT0.25S</Cadence>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>DQ Elec Sens 11 (-168.75 deg)</AxisLabel>
+            <ValueFormat>E13.6</ValueFormat>
+            <ScaleMin>-1.0</ScaleMin>
+            <ScaleMax>4.0</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <ValidMin>-3.0e+38</ValidMin>
+         <ValidMax>3.0e+38</ValidMax>
+         <FillValue>-3.4e+38</FillValue>
+         <Support>
+            <SupportQuantity>InstrumentMode</SupportQuantity>
+         </Support>
+      </Parameter>
+   </NumericalData>
+</Spase>
