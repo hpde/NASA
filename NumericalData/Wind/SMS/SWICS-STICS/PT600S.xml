@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Wind/SMS/SWICS-STICS/PT600S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind SWICS and STICS KP Data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-11-01T00:00:00.000</ReleaseDate>
             <Description>This data set contains the investigator-selected key parameters from the Solar Wind and Suprathermal Ion Composition Instrument (SMS) on Wind.  The data as functions of time include: average alpha velocity (scalar); Average alpha velocity (scalar, with error bars); Carbon/Oxygen abundance ratio (scalar); Carbon/Oxygen abundance ratio (scalar, with error bars); Carbon ionization temperature from C+6 and C+5, (scalar, in million degs K); Carbon ionization temperature from C+6 and C+5, (scalar, with error bars); Oxygen ionization temperature from O+7 and O+6, (scalar); Oxygen ionization temperature from O+7 and O+6, (scalar, with error bars); Uncertainty (+/- 30%) in speed of solar wind (scalar); Uncertainty (+/- 30%) in C and O abundance ratio (scalar); Uncertainty (+/- 10%) in C ionization temp from C+6 and C+5; Uncertainty (+/- 10%) in O ionization temp O+7 and O+6.  The above averages are made over 4 hrs.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -26,11 +26,11 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/swics/sms_k0/</URL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/sms/k0/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/swics/sms_k0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/sms/k0/</URL>
                 <Description>In CDF via HTTP from CDAWeb</Description>
             </AccessURL>
             <AccessURL>
