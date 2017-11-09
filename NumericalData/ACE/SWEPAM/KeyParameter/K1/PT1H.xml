@@ -1,11 +1,10 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/KeyParameter/K1/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM), Key Parameter, K1, Preliminary Browse Data</ResourceName>
-         <ReleaseDate>2017-08-12T12:34:56.789</ReleaseDate>
+            <ReleaseDate>2017-11-09T00:00:00.000</ReleaseDate>
          <Description>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM), Key Parameter, K1, Browse Data is designed for monitoring large scale particle and field behavior and for selecting interesting time periods. The data is automatically generated from the spacecraft data stream using simple algorithms provided by the instrument teams. It is not routinely checked for accuracy and is subject to revision. Use this data at your own risk, and consult with the appropriate instrument teams about citing it. SWEPAM browse data is not validated by the experimenters and should not be used except for preliminary examination prior to detailed Studies. See: http://www.srl.caltech.edu/ACE/.</Description>
          <Acknowledgement>D.J. McComas</Acknowledgement>
          <Contact>
@@ -56,7 +55,7 @@
       <MeasurementType>ThermalPlasma</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2010-08-01T00:00:00</StartDate>
+            <StartDate>2017-01-01T00:00:00</StartDate>
             <RelativeStopDate>-P7D</RelativeStopDate>
             <Note>Data are current to within about 1 week</Note>
          </TimeSpan>
@@ -222,7 +221,7 @@
          <Description>SWEPAM, Radial Component of the Proton Temperature, Preliminary Values, Browse use only</Description>
          <Caveats>The Proton Temperature is the 1,1 Component of the Temperature Tensor, along the Radial Direction. It is obtained by Integration of the Ion, roughly the Proton, Distribution Function.</Caveats>
          <Cadence>PT1H</Cadence>
-         <Units>&#176;K</Units>
+         <Units>°K</Units>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>HG</CoordinateSystemName>

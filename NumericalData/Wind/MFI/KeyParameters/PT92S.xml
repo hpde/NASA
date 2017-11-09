@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Wind/MFI/KeyParameters/PT92S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind MFI 92-s Key Parameters</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-11-09T00:00:00.000</ReleaseDate>
             <Description>Wind MFI (Magnetic Fields Investigation), 92-s key parameters, magnetic field data in GSE and GSM coordinates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
@@ -41,8 +41,8 @@
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>1994-11-01T00:00:00</StartDate>
-                <StopDate>1994-11-01T00:00:00</StopDate>
+                <StartDate>2017-01-01T00:00:00</StartDate>
+                <RelativeStopDate>-P7D</RelativeStopDate>
                 <Note>Data are current to within days</Note>
             </TimeSpan>
             <Cadence>PT92S</Cadence>
