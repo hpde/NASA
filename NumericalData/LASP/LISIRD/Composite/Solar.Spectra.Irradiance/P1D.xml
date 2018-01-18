@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/LASP/LISIRD/Composite/Solar.Spectra.Irradiance/P1D</ResourceID>
         <ResourceHeader>
             <ResourceName>LISIRD supplied Composite Solar Spectral Irradiance</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-12-26T00:00:00</ReleaseDate>
             <Description>This data product contains daily-averaged solar 
 spectra over the UV range 120-400 nm in 1 nm bins from multiple 
 spacecraft, including SME, Nimbus 7 SBUV, NOAA 9 and 11 SBUV/2, UARS 
@@ -20,8 +20,8 @@ LASP, and the instrument teams whose data were used in the data set.</Acknowledg
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>JGR Paper</Name>
-                <URL>http://www.agu.org/pubs/crossref/2008/2008JA013401.shtml</URL>
+                <Name>Creation of a composite solar ultraviolet irradiance data set</Name>
+                <URL>http://onlinelibrary.wiley.com/doi/10.1029/2008JA013401/abstract</URL>
                 <Description>Year 2008 JGR paper by DeLand and Cebula</Description>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/CompositeSSI</PriorID>

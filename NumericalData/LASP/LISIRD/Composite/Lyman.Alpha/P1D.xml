@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/LASP/LISIRD/Composite/Lyman.Alpha/P1D</ResourceID>
         <ResourceHeader>
             <ResourceName>LISIRD supplied Composite Lyman Alpha</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-12-26T00:00:00</ReleaseDate>
             <Description>This data product contains daily irradiance levels 
 (photons/s/cm**2) of solar Lyman alpha (121.5 nm) radiation from multiple 
 spacecraft and modelling sources, including AE-E/ESUM, SME/SUVM, 
@@ -20,8 +20,8 @@ data were used in the data set.</Acknowledgement>
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <Name>JGR Paper</Name>
-                <URL>http://www.agu.org/journals/ja/v105/iA12/2000JA000051/</URL>
+                <Name>Improved solar Lyman α irradiance modeling from 1947 through 1999 based on UARS observations</Name>
+                <URL>http://onlinelibrary.wiley.com/doi/10.1029/2000JA000051/abstract</URL>
                 <Description>Year 2000 JGR paper by Woods, Tobiska, Rottman, and
 Worden</Description>
             </InformationURL>

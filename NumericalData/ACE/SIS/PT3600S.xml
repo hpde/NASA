@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ACE/SIS/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SIS 1-Hr Key Parameter Data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-11-09T00:00:00.000</ReleaseDate>
             <Description>ACE SIS (Solar Isotope Spectrometer) 1-Hr Key Parameter Data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
@@ -41,7 +41,7 @@
         <MeasurementType>EnergeticParticles</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>1997-08-28T00:00:00</StartDate>
+                <StartDate>2017-01-01T00:00:00</StartDate>
                 <RelativeStopDate>-P7D</RelativeStopDate>
                 <Note>Data are current to within about 1 week.</Note>
             </TimeSpan>

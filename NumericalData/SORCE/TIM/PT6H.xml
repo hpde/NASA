@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/SORCE/TIM/PT6H</ResourceID>
         <ResourceHeader>
             <ResourceName>SORCE TIM 6-hr and 1-day Total Solar Irradiance</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2017-09-20T00:00:00</ReleaseDate>
             <Description>SORCE TIM 6-hour and daily Total Solar Irradiance Data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Greg.Kopp</PersonID>
@@ -18,7 +18,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>U.Colorado LASP site</Name>
-                <URL>http://lasp.colorado.edu/sorce/tsi_data.html</URL>
+                <URL>http://lasp.colorado.edu/sorce/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

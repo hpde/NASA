@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.8</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/POLAR/EFI/Attitude/PT10M</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Polar Spacecraft Attitude in GSE Coordinates (EFI) Support, 10 min Data</ResourceName>
+         <ReleaseDate>2017-08-18T12:34:56.789</ReleaseDate>
+         <Description>Important Warning: The Data described below is meant for Archival Purposes. It should not be considered as highly accurate Data. For example, Accurate Data requires a Correction in the Form of an Offset to the Sunward Component of the Electric Field. A Constant Offset of 1.2 mV/m has been used for all the Data this being an approximate Average Value. In fact, however, the Offset varies with Time and must be determined by Analysis of the particular Time of Interest. Users of these Data desiring more Information should get in touch with Dr. F.S. Mozer, at the Space Sciences Laboratory, University of California, Berkeley. The Electric Field Data is at Spin Period Time Resolution. This means that there is one Data Point about every 6 s. However, it should be noted that there can be longer Intervals between Data Points due to Missing Data. Data Gaps are not filled in. The Components of the Electric Field are given in a Coordinate System designated as Despun Spacecraft Coordinates, DSC. This is a Coordinate System for a rotating Spacecraft that is in an Orbit near the Earth. DSC is defined by the Spacecraft&apos;s Spin Plane and Spin Axis. However, as the Despun Part of the Name suggests, the Coordinate Axes do not participate in the Spacecraft&apos;s Rotation. The X-Axis and Y-Axis are on the Spacecraft&apos;s Spin Plane; the Z-Axis is along the Spacecraft&apos;s Spin Axis. The positive X, Y, and Z-Axes form an Orthogonal, Right-Handed Coordinate System. The positive Z-Axis points in the same Direction as the Spacecraft&apos;s Angular Momentum, or Spin or Attitude, Vector. The positive X-Axis points in the Direction in the Spin Plane that is closest to the Direction towards the Sun. In other Words, the positive X-Axis points in the Direction of the Projection on the Spin Plane of the Vector from the Spacecraft to the Sun. The positive Y-Axis is determined by the Requirement that the DSC XYZ System form an Orthogonal Right-Handed System. It follows that the positive Y-Axis points in the Direction on the Spin Plane that is 90 degrees ahead of the positive X-Axis in the Sense of the Spacecraft&apos;s Rotation. The Electric Field Data included in these Files consists of the two Electric Field Components in the Spin Plane. The Original Data used is V34L, which typically has a Time Resolution of about 40 Data Points per Second. A Least-Squares Spin Fit of V34L is performed and the Spin Fit Coefficients provide the Spin Plane Components of the Spin Period Electric Field. Time is a Real Double Precision Quantity. The Units for the Time are Seconds. The Time is the Time elapsed since the Epoch starting on May 24, 1968 at 00:00:00 UT. Each Time Tag indicates the Mid-Point of the Time Interval for the corresponding Spin Period. Data Gaps are not filled and each Time Tag corresponds to an Actual Data Point. X, Y, and Z are the three Components of the Attitude Vector in the Geocentric Solar Ecliptic, GSE, Coordinate System.</Description>
+         <Acknowledgement>F.S. Mozer</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>FTP access to files at SPDF</Name>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/efi/efi_10minatt/</URL>
+            <Description>Access to Data in CDF Format via ftp from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTP access to files at SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/efi/efi_10minatt/</URL>
+            <Description>Access to Data in CDF Format via http from SPDF</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <ProductKey>PO_10MINATT_EFI</ProductKey>
+            <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+         </AccessURL>
+         <Format>CDF</Format>
+         <Encoding>None</Encoding>
+         <Acknowledgement>F.S. Mozer. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+      </AccessInformation>
+      <ProcessingLevel>Calibrated</ProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/POLAR/Ephemeris</InstrumentID>
+      <MeasurementType>Ephemeris</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>1996-03-16T00:00:00</StartDate>
+            <StopDate>2008-04-12T23:50:00</StopDate>
+         </TimeSpan>
+         <Cadence>PT10M</Cadence>
+      </TemporalDescription>
+      <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+      <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.EquatorialRegion</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
+      <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
+      <Parameter>
+         <Name>Epoch Time, since 0 A.D.</Name>
+         <ParameterKey>Epoch</ParameterKey>
+         <Description>Epoch Time, Milliseconds since 0 A.D.</Description>
+         <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
+         <Cadence>PT10M</Cadence>
+         <Units>ms</Units>
+         <UnitsConversion>1e-3&gt;s</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>Epoch</AxisLabel>
+            <ScaleMin>6.2861421819904e+13</ScaleMin>
+            <ScaleMax>6.3745034619904e+13</ScaleMax>
+         </RenderingHints>
+         <ValidMin>01-Jan-1992 00:00:00.000</ValidMin>
+         <ValidMax>01-Jan-2020 00:00:00.000</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Elapsed Time</Name>
+         <ParameterKey>time</ParameterKey>
+         <Description>Elapsed Time since the Epoch, 1968-05-24</Description>
+         <Caveats>This parameter exhibits an increasing monotonic progression.</Caveats>
+         <Cadence>PT10M</Cadence>
+         <Units>s</Units>
+         <RenderingHints>
+            <AxisLabel>Elapsed Time</AxisLabel>
+            <ValueFormat>F12.1</ValueFormat>
+         </RenderingHints>
+         <ValidMin>8.0e+08</ValidMin>
+         <ValidMax>8.0e+09</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <SupportQuantity>Temporal</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Attitude X, GSE</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>X</ParameterKey>
+         <Description>Spacecraft Attitude, Unit Vector X Component, Geocentric Solar Ecliptic, GSE, Coordinates</Description>
+         <Cadence>PT10M</Cadence>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>X comp, GSE</AxisLabel>
+            <ValueFormat>F7.3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>-10.0</ValidMin>
+         <ValidMax>10.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>Component.I</Qualifier>
+            <SupportQuantity>Positional</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Attitude Y, GSE</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Y</ParameterKey>
+         <Description>Spacecraft Attitude, Unit Vector Y Component, Geocentric Solar Ecliptic, GSE, Coordinates</Description>
+         <Cadence>PT10M</Cadence>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Y comp, GSE</AxisLabel>
+            <ValueFormat>F7.3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>-10.0</ValidMin>
+         <ValidMax>10.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>Component.J</Qualifier>
+            <SupportQuantity>Positional</SupportQuantity>
+         </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Spacecraft Attitude Z, GSE</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>Z</ParameterKey>
+         <Description>Spacecraft Attitude, Unit Vector Z Component, Geocentric Solar Ecliptic, GSE, Coordinates</Description>
+         <Cadence>PT10M</Cadence>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>GSE</CoordinateSystemName>
+         </CoordinateSystem>
+         <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>Z comp, GSE</AxisLabel>
+            <ValueFormat>F7.3</ValueFormat>
+         </RenderingHints>
+         <ValidMin>-10.0</ValidMin>
+         <ValidMax>10.0</ValidMax>
+         <FillValue>-1.0e+31</FillValue>
+         <Support>
+            <Qualifier>Component.K</Qualifier>
+            <SupportQuantity>Positional</SupportQuantity>
+         </Support>
+      </Parameter>
+   </NumericalData>
+</Spase>

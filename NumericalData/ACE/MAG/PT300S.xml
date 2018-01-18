@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ACE/MAG/PT300S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE MAG 5-min Key Parameter (recent) data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-11-09T00:00:00.000</ReleaseDate>
             <Description>ACE Magnetic Field 5-Minute Key Parameters</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
@@ -37,7 +37,7 @@
         <MeasurementType>MagneticField</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2002-07-01T00:00:00</StartDate>
+                <StartDate>2017-01-01T00:00:00</StartDate>
                 <RelativeStopDate>-P7D</RelativeStopDate>
                 <Note>Data are current to within about 1 week.</Note>
             </TimeSpan>

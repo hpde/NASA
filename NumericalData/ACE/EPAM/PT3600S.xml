@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-hour Key Parameter data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-11-09T00:00:00.000</ReleaseDate>
             <Description>This set of key parameters contain ACE EPAM 1-hour spin averaged proton (0.76-1.22 MeV), alpha particle (0.047-0.065 MeV, 0.112-0.187 MeV, 0.310-0.580 MeV, and 1.06-1.91 MeV), and electron (0.038-0.053 MeV and 0.175-0.315 MeV) fluxes.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
@@ -29,7 +29,6 @@
                 <Name>CDAWeb</Name>
                 <URL>https://cdaweb.gsfc.nasa.gov</URL>
                 <ProductKey>AC_K1_EPM</ProductKey>
-                <Description>AC_K1_EPM</Description>
             </AccessURL>
             <Format>CDF</Format>
         </AccessInformation>
@@ -39,8 +38,8 @@
         <MeasurementType>IonComposition</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
-                <StartDate>2010-03-01T00:00:00</StartDate>
-                <RelativeStopDate>-P14D</RelativeStopDate>
+                <StartDate>2017-01-01T00:00:00</StartDate>
+                <RelativeStopDate>-P7D</RelativeStopDate>
                 <Note>Data are presently current within few weeks</Note>
             </TimeSpan>
             <Cadence>PT3600S</Cadence>

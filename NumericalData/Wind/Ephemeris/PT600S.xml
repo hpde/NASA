@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/Wind/Ephemeris/PT600S</ResourceID>
         <ResourceHeader>
-            <ResourceName>Wind Orbit Data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
-            <Description>Wind orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
+            <ResourceName>Wind Predicted Orbit, 10 min Data</ResourceName>
+            <ReleaseDate>2017-08-10T00:00:00.000</ReleaseDate>
+            <Description>Wind orbit data, 10-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
                 <Role>GeneralContact</Role>
@@ -37,7 +37,7 @@
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1994-08-07T00:00:00</StartDate>
-                <StopDate>1994-08-07T00:00:00</StopDate>
+                <RelativeStopDate>P3M</RelativeStopDate>
                 <Note>Data are given to 1-2 months into the future</Note>
             </TimeSpan>
             <Cadence>PT600S</Cadence>

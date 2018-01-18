@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/SOHO/CELIAS/PT15.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO CELIAS EUV Data</ResourceName>
-            <ReleaseDate>2017-06-01T00:00:00.000</ReleaseDate>
+            <ReleaseDate>2017-09-22T00:00:00.000</ReleaseDate>
             <Description>SOHO/CELIAS/SEM 15-s, 5-m, 10-m and daily full-solar-disk EUV fluxes in ASCII files</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Don.McMullin</PersonID>
@@ -18,7 +18,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>USC site for file downloads</Name>
-                <URL>https://www.usc.edu/dept/space_science/semdatafolder/semdownload.htm</URL>
+                <URL>https://dornsifecms.usc.edu/space-sciences-center/download-sem-data/</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.2.8</Version>
     <Service>
         <ResourceID>spase://VSPO/Service/IRI/Model</ResourceID>
         <ResourceHeader>
             <ResourceName>International Reference Ionosphere Model</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2017-12-27T00:00:00.000</ReleaseDate>
             <Description>International Reference Ionosphere (IRI) empirical model</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -14,16 +14,12 @@
                 <Name>About the IRI</Name>
                 <URL>https://ccmc.gsfc.nasa.gov/modelweb/ionos/iri.html</URL>
             </InformationURL>
-            <InformationURL>
-                <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/models/iri/</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/models/iri/</URL>
-            </InformationURL>
             <PriorID>spase://VSPO/Service/P_IRI_HDR</PriorID>
         </ResourceHeader>
+        <AccessURL>
+            <Name>Access to files from the International Reference Ionosphere project website</Name>
+                <URL>http://irimodel.org/</URL>
+        </AccessURL>
         <AccessURL>
             <Name>Execute IRI code at SPDF</Name>
             <URL>https://omniweb.sci.gsfc.nasa.gov/vitmo/iri_vitmo.html</URL>
