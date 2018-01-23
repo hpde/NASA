@@ -24,24 +24,11 @@
          <AccessURL>
             <Name>SABER POC website</Name>
             <URL>http://saber.gats-inc.com/</URL>
-            <Description>This SABER home page provides access to download data files for this product. To request data: click &quot;Data Servides&quot;, click &quot;Browse Data&quot;, click &quot;Level 1B&quot;, click year, month and day of interest, then select the desired file.</Description>
+            <Description>This SABER home page provides access to download data files for this product. To request data: click "Data Servides", click "Browse Data", click "Level 1B", click year, month and day of interest, then select the desired file.</Description>
          </AccessURL>
          <Format>NetCDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
-      </AccessInformation>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-            <ProductKey>TIMED_L1BV20_SABER</ProductKey>
-            <Description>TIMED SABER L1B version 1.07 data with subset, plot, list from CDAWeb</Description>
-         </AccessURL>
-         <Format>Text</Format>
-         <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       </AccessInformation>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -59,6 +46,19 @@
          </AccessURL>
          <Format>CDF</Format>
          <Acknowledgement>Please acknowledge the support from CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+            <ProductKey>TIMED_L1BV20_SABER</ProductKey>
+            <Description>TIMED SABER L1B version 1.07 data with subset, plot, list from CDAWeb</Description>
+         </AccessURL>
+         <Format>Text</Format>
+         <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderResourceName>SABER Level1B</ProviderResourceName>

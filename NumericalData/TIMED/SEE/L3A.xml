@@ -37,19 +37,6 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-            <ProductKey>TIMED_L3A_SEE</ProductKey>
-            <Description> TIMED SEE L3A data with subset, plot, list from CDAWeb</Description>
-         </AccessURL>
-         <Format>Text</Format>
-         <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
-      </AccessInformation>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
             <Name>FTP access to files at SPDF</Name>
             <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/see/data/level3a_cdf/</URL>
             <Description>FTP repository of TIMED SEE Level 3A Solar Irradience data in CDF format at CDAWeb</Description>
@@ -61,6 +48,19 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
          </AccessURL>
          <Format>CDF</Format>
          <Acknowledgement>Please acknowledge the support from CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+            <ProductKey>TIMED_L3A_SEE</ProductKey>
+            <Description> TIMED SEE L3A data with subset, plot, list from CDAWeb</Description>
+         </AccessURL>
+         <Format>Text</Format>
+         <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderResourceName>SEE Level 3A Solar Irradiance data</ProviderResourceName>
