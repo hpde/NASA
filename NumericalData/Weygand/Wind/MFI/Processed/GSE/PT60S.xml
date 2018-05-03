@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -6,9 +5,9 @@
     <ResourceHeader>
       <ResourceName>Wind Linearly Interpolated 60 s Resolution Tri-axial Fluxgate Magnetometer in GSE Coordinates</ResourceName>
       <AlternateName>Wind MFI data</AlternateName>
-      <ReleaseDate>2018-05-01T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-03T21:36:58.839</ReleaseDate>
       <Description>Wind linearly interpolated to have the measurements on the minute at 60 s resolution tri-axial fluxgate magnetometer data in GSE coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.
-         	There are now two version of this data set. An off set has been found in the Wind MFI Bz component that is present after November 2004. Version 2 has this offset removed. Prof. R.L. McPherron determined the correction to be Bz = Bz - (-0.000000130406219.*odoy.*odoy + 0.000576303146.*odoy + 0.679940509 + 0.3215*cos(2*pi*(doy-171)/366)) where doy is the day of the year in units of days and odoy is the days sinces Jan 1, 1999 00:00:00 UT in units of days. </Description>
+         	There are now two version of this data set. An off set has been found in the Wind MFI Bz component that is present after November 2004. Version 2 has this offset removed. Prof. R.L. McPherron determined the correction to be Bz = Bz - (-0.000000130406219.*odoy.*odoy + 0.000576303146.*odoy + 0.679940509 + 0.3215*cos(2*pi*(doy-171)/366)) where doy is the day of the year in units of days and odoy is the days sinces Jan 1, 1999 00:00:00 UT in units of days.</Description>
       <Acknowledgement>NASA;Ronald.P.Lepping</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
@@ -20,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>Wind MFI Instrument</Name>
-        <URL>http://lepmfi.gsfc.nasa.gov/mfi/windmfi.html</URL>
+        <URL>https://wind.nasa.gov/mfi/</URL>
         <Description>Wind Magnetometer</Description>
       </InformationURL>
       <InformationURL>
