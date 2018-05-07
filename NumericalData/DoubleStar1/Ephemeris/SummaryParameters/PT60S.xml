@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/Ephemeris/SummaryParameters/60S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/Ephemeris/SummaryParameters/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Double Star 1 Spacecraft Auxiliary Summary Parameters Data</ResourceName>
       <AlternateName>TC 1 Auxiliary Summary Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
+      <ReleaseDate>2018-05-07T18:59:50.859</ReleaseDate>
       <Description>The Double Star 1 auxiliary summary parameter data set contains various parameters in GSE coordinates at 60 s resolution. These parameters include universal time, orbit number, GSE position, GSE spacecraft velocity vector, longitude, and dipole tilt. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>European Space Agency/International</Acknowledgement>
       <Contact>
@@ -23,6 +22,7 @@
         <AssociationType>PartOf</AssociationType>
       </Association>
       <PriorID>spase://VMO/NumericalData/DoubleStar1/Ephemeris/SummaryParameters/60S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DoubleStar1/Ephemeris/SummaryParameters/60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Double.Star.Data.Ring</RepositoryID>
@@ -106,7 +106,7 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -121,7 +121,7 @@
       <RenderingHints>
         <AxisLabel>Half sample time interval</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -145,12 +145,12 @@
       <Cadence>PT60S</Cadence>
       <RenderingHints>
         <AxisLabel>fract orbit</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>700.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>700</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>1500.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1500</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
@@ -168,8 +168,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-50000.0</ScaleMin>
-        <ScaleMax>50000.0</ScaleMax>
+        <ScaleMin>-50000</ScaleMin>
+        <ScaleMax>50000</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -189,9 +189,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-50000.0</ValidMin>
-      <ValidMax>50000.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-50000</ValidMin>
+      <ValidMax>50000</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
@@ -209,8 +209,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-10.0</ScaleMin>
-        <ScaleMax>10.0</ScaleMax>
+        <ScaleMin>-10</ScaleMin>
+        <ScaleMax>10</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -230,9 +230,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-10.0</ValidMin>
-      <ValidMax>10.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-10</ValidMin>
+      <ValidMax>10</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Velocity</SupportQuantity>
@@ -245,12 +245,12 @@
       <Cadence>PT60S</Cadence>
       <RenderingHints>
         <AxisLabel>degrees</AxisLabel>
-        <ScaleMin>-90.0</ScaleMin>
-        <ScaleMax>90.0</ScaleMax>
+        <ScaleMin>-90</ScaleMin>
+        <ScaleMax>90</ScaleMax>
       </RenderingHints>
-      <ValidMin>-90.0</ValidMin>
-      <ValidMax>90.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-90</ValidMin>
+      <ValidMax>90</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
@@ -263,12 +263,12 @@
       <Cadence>PT60S</Cadence>
       <RenderingHints>
         <AxisLabel>degrees</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>360.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>360</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>360.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>360</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
@@ -281,12 +281,12 @@
       <Cadence>PT60S</Cadence>
       <RenderingHints>
         <AxisLabel>degrees</AxisLabel>
-        <ScaleMin>-90.0</ScaleMin>
-        <ScaleMax>90.0</ScaleMax>
+        <ScaleMin>-90</ScaleMin>
+        <ScaleMax>90</ScaleMax>
       </RenderingHints>
-      <ValidMin>-90.0</ValidMin>
-      <ValidMax>90.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-90</ValidMin>
+      <ValidMax>90</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
@@ -299,12 +299,12 @@
       <Cadence>PT60S</Cadence>
       <RenderingHints>
         <AxisLabel>degrees</AxisLabel>
-        <ScaleMin>-90.0</ScaleMin>
-        <ScaleMax>90.0</ScaleMax>
+        <ScaleMin>-90</ScaleMin>
+        <ScaleMax>90</ScaleMax>
       </RenderingHints>
-      <ValidMin>-90.0</ValidMin>
-      <ValidMax>90.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-90</ValidMin>
+      <ValidMax>90</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>

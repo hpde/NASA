@@ -1,16 +1,16 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/HIA/PrimeParameters/4S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DoubleStar2/PEACE/PrimeParameters/PT4S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Double Star 1 Spacecraft Hot Ion Analyzer (HIA) Prime Parameters Data</ResourceName>
-      <AlternateName>TC 1 HIA Prime Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
-      <Description>The Double Star 1 Hot Ion Analyzer (HIA) prime parameter data set contains various parameters at spin resolution. These parameters include universal time, the instrument status, the ion density, ion bulk velocity, and ion temperature. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
-      <Acknowledgement>Prof. Henri Reme, European Space Agency/International</Acknowledgement>
+      <ResourceName>Double Star 2 Spacecraft Data Plasma Electron and Current Experiment (PEACE) Prime Parameters Data</ResourceName>
+      <AlternateName>TC 2 Spacecraft Data Plasma Electron and Current Experiment (PEACE) Prime Parameters Data</AlternateName>
+      <AlternateName>Double Star 2 PEACE Prime Parameters Data</AlternateName>
+      <ReleaseDate>2018-05-07T18:50:11.651</ReleaseDate>
+      <Description>The Double Star 2 Plasma Electron and Current Experiment (PEACE) prime parameter data set contains various parameters at spin resolution. These parameters include universal time, the instrument status, the electron density, electron bulk velocity, electron temperature, and electron heat flux. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
+      <Acknowledgement>Dr. Andrew N. Fazakerley, European Space Agency/International</Acknowledgement>
       <Contact>
-        <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
+        <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
@@ -18,15 +18,16 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>Double Star 1 Hot Ion Analyzer (HIA)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2003-061A-04</URL>
-        <Description>Introduction to the Double Star 1 HIA Instrument.</Description>
+        <Name>Double Star 2 Plasma Electron and Current Experiment (PEACE)</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-029A-03</URL>
+        <Description>Introduction to the Double Star 2 PEACE Instrument.</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/DoubleStar1</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/DoubleStar2</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
-      <PriorID>spase://VMO/NumericalData/DoubleStar1/HIA/PrimeParameters/4S</PriorID>
+      <PriorID>spase://VMO/NumericalData/DoubleStar2/PEACE/PrimeParameters/4S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DoubleStar2/PEACE/PrimeParameters/4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Double.Star.Data.Ring</RepositoryID>
@@ -39,7 +40,7 @@
         <Language>English</Language>
       </AccessURL>
       <Format>CDF</Format>
-      <Acknowledgement>Prof. Henri Reme, European Space Agency/International</Acknowledgement>
+      <Acknowledgement>Dr. Andrew N. Fazakerley, European Space Agency/International</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Austrian.DSP.Data.Center</RepositoryID>
@@ -55,68 +56,69 @@
       <Acknowledgement>ESA, Double Star, Center for Space Science and Applied Research, and the Chinese Academy of Sciences</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>Double Star 1 Hot Ion Analyzer (HIA) Prime Parameters Data</ProviderResourceName>
+    <ProviderResourceName>Double Star 2 Plasma Electron and Current Experiment (PEACE) Prime Parameters Data</ProviderResourceName>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
     <ProviderVersion>1</ProviderVersion>
-    <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HIA</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/DoubleStar2/PEACE</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2004-02-04T02:40:38</StartDate>
-        <StopDate>2007-09-29T06:38:33</StopDate>
+        <StartDate>2004-08-15T00:58:10</StartDate>
+        <StopDate>2008-05-30T23:56:46</StopDate>
         <Note>Time format in data files is: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'</Note>
       </TimeSpan>
       <Cadence>PT4S</Cadence>
     </TemporalDescription>
-    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.AuroralRegion</ObservedRegion>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
     <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
+    <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
     <Keyword>Double Star</Keyword>
-    <Keyword>Tan Ce 1</Keyword>
-    <Keyword>TC 1</Keyword>
-    <Keyword>HIA</Keyword>
+    <Keyword>Tan Ce 2</Keyword>
+    <Keyword>TC 2</Keyword>
+    <Keyword>PEACE</Keyword>
     <Keyword>4 second</Keyword>
+    <Keyword>auroral region</Keyword>
+    <Keyword>cusp</Keyword>
     <Keyword>lobe</Keyword>
     <Keyword>magnetosphere</Keyword>
     <Keyword>magnetotail</Keyword>
+    <Keyword>polar cap</Keyword>
     <Parameter>
-      <Name>Double Star 1 HIA Universal Time Prime Parameter</Name>
-      <ParameterKey>Epoch__T1_PP_HIA</ParameterKey>
-      <Description>Universal Time in data cell: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'. The time is an interval centered time tag rounded to nearest msecond.</Description>
+      <Name>Double Star 2 PEACE Universal Time Prime Parameter</Name>
+      <ParameterKey>Epoch__T2_PP_PEA</ParameterKey>
+      <Description>Interval centered time tag rounded to nearest msecond. Universal Time in data cell: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'.</Description>
       <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Half Interval Prime Parameter</Name>
-      <ParameterKey>Half_interval__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA half width of measurement interval in units of ms.</Description>
+      <Name>Double Star 2 PEACE Half Width of Measurement Interval Prime Parameter</Name>
+      <ParameterKey>Half_interval__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE half sample time interval.</Description>
       <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <RenderingHints>
-        <AxisLabel>Half sample time interval</AxisLabel>
-      </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Status Prime Parameter</Name>
-      <ParameterKey>Status__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA status at spin resolution.</Description>
+      <Name>Double Star 2 PEACE Status Prime Parameter</Name>
+      <ParameterKey>Status__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE status at spin resolution.</Description>
       <Cadence>PT4S</Cadence>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
@@ -126,30 +128,30 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Density Prime Parameter</Name>
-      <ParameterKey>N_ion__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion number density at spin resolution in units of #/cm^3.</Description>
+      <Name>Double Star 2 PEACE Electron Number Density Prime Parameter</Name>
+      <ParameterKey>N_e_den__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE electron number density at spin resolution in units of cm^-3.</Description>
       <Cadence>PT4S</Cadence>
       <Units>cm^-3</Units>
       <UnitsConversion>1.0e6&gt;m^-3</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>n (HIA)</AxisLabel>
-        <ScaleMin>0.0010</ScaleMin>
+        <AxisLabel>Ne</AxisLabel>
+        <ScaleMin>0.1</ScaleMin>
         <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0010</ValidMin>
-      <ValidMax>1000</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0.1</ValidMin>
+      <ValidMax>10000</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Particle>
-        <ParticleType>Ion</ParticleType>
+        <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Bulk Velocity Prime Parameter</Name>
-      <ParameterKey>V_ion_xyz_gse__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion bulk velocity at spin resolution in GSE Coordinates in units of km/s.</Description>
+      <Name>Double Star 2 PEACE Electron Velocity Prime Parameter</Name>
+      <ParameterKey>V_e_xyz_gse__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE electron velocity at spin resolution in GSE Coordinates in units of km/s.</Description>
       <Cadence>PT4S</Cadence>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3&gt;m s^-1</UnitsConversion>
@@ -158,8 +160,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-2000</ScaleMin>
-        <ScaleMax>2000</ScaleMax>
+        <ScaleMin>-1000</ScaleMin>
+        <ScaleMax>1000</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -179,76 +181,76 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-2000</ValidMin>
-      <ValidMax>2000</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-10000</ValidMin>
+      <ValidMax>10000</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Particle>
-        <ParticleType>Ion</ParticleType>
+        <ParticleType>Electron</ParticleType>
         <Qualifier>Vector</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Parallel Ion Temperature Prime Parameter</Name>
-      <ParameterKey>T_ion_par__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA parallel ion temperature at spin resolution in units of MK.</Description>
+      <Name>Double Star 2 PEACE Parallel Electron Temperature Prime Parameter</Name>
+      <ParameterKey>T_e_par__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE parallel electron temperature at spin resolution in units of MK.</Description>
       <Cadence>PT4S</Cadence>
       <Units>MK</Units>
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>T_par (HIA)</AxisLabel>
-        <ScaleMin>0</ScaleMin>
-        <ScaleMax>100</ScaleMax>
+        <AxisLabel>Te_par</AxisLabel>
+        <ScaleMin>0.01</ScaleMin>
+        <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0.01</ValidMin>
+      <ValidMax>350</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Particle>
-        <ParticleType>Ion</ParticleType>
+        <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Perpendicular Ion Temperature Prime Parameter</Name>
-      <ParameterKey>T_ion_perp__T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA perpendicular ion temperature at spin resolution in units of MK.</Description>
+      <Name>Double Star 2 PEACE Perpendicular Electron Temperature Prime Parameter</Name>
+      <ParameterKey>T_e_perp__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE perpendicular electron temperature at spin resolution in units of MK.</Description>
       <Cadence>PT4S</Cadence>
       <Units>MK</Units>
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>T_perp (HIA)</AxisLabel>
-        <ScaleMin>0</ScaleMin>
-        <ScaleMax>100</ScaleMax>
+        <AxisLabel>Te_perp</AxisLabel>
+        <ScaleMin>0.01</ScaleMin>
+        <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0.01</ValidMin>
+      <ValidMax>350</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Particle>
-        <ParticleType>Ion</ParticleType>
+        <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Temperature Prime Parameter</Name>
-      <ParameterKey>T_ion___T1_PP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion temperature at spin resolution in units of MK.</Description>
+      <Name>Double Star 2 PEACE Parallel Electron Heat Flux Prime Parameter</Name>
+      <ParameterKey>Q_e_par__T2_PP_PEA</ParameterKey>
+      <Description>Double Star 2 PEACE parallel electron heat flux at spin resolution in units of uJ m^-2 s^-1.</Description>
       <Cadence>PT4S</Cadence>
-      <Units>MK</Units>
-      <UnitsConversion>1.0e6&gt;K</UnitsConversion>
+      <Units>uJ m^-2 s^-1</Units>
+      <UnitsConversion>1.0e-6&gt;J m^-2 s^-1</UnitsConversion>
       <RenderingHints>
-        <AxisLabel>T (HIA)</AxisLabel>
-        <ScaleMin>0</ScaleMin>
-        <ScaleMax>100</ScaleMax>
+        <AxisLabel>Qe_para</AxisLabel>
+        <ScaleMin>0.01</ScaleMin>
+        <ScaleMax>100000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0.01</ValidMin>
+      <ValidMax>100000</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Particle>
-        <ParticleType>Ion</ParticleType>
+        <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
-        <ParticleQuantity>Temperature</ParticleQuantity>
+        <ParticleQuantity>HeatFlux</ParticleQuantity>
       </Particle>
     </Parameter>
   </NumericalData>

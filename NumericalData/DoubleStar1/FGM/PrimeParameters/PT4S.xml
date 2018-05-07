@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/FGM/PrimeParameters/4S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/FGM/PrimeParameters/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Double Star 1 Spacecraft Flux Gate Magnetometer (FGM) Prime Parameters Data</ResourceName>
       <AlternateName>TC 1 FGM Prime Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
+      <ReleaseDate>2018-05-07T18:59:50.875</ReleaseDate>
       <Description>The Double Star 1 Flux Gate Magnetometer (FGM) prime parameter data set contains various parameters in GSE coordinates at spin resolution. These parameters include universal time, the instrument status, the magnetic field vector in GSE coordinates, and the magnetic field variances. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Prof. C. Carr, European Space Agency/International</Acknowledgement>
       <Contact>
@@ -27,6 +26,7 @@
         <AssociationType>PartOf</AssociationType>
       </Association>
       <PriorID>spase://VMO/NumericalData/DoubleStar1/FGM/PrimeParameters/4S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DoubleStar1/FGM/PrimeParameters/4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Double.Star.Data.Ring</RepositoryID>
@@ -94,7 +94,7 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -109,7 +109,7 @@
       <RenderingHints>
         <AxisLabel>Half sample time interval</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -138,8 +138,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-32768.0</ScaleMin>
-        <ScaleMax>32768.0</ScaleMax>
+        <ScaleMin>-32768</ScaleMin>
+        <ScaleMax>32768</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -159,9 +159,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-32768.0</ValidMin>
-      <ValidMax>32768.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-32768</ValidMin>
+      <ValidMax>32768</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -174,12 +174,12 @@
       <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_t^2/B^2</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>1.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>1</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>1.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -192,12 +192,12 @@
       <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_b^2/B^2</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>1.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>1</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>1.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>

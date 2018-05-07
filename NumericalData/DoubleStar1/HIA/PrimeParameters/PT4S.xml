@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/HIA/SummaryParameters/60S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DoubleStar1/HIA/PrimeParameters/PT4S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Double Star 1 Spacecraft Hot Ion Analyzer (HIA) Summary Parameters Data</ResourceName>
-      <AlternateName>TC 1 HIA Summary Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
-      <Description>The Double Star 1 Hot Ion Analyzer (HIA) summary parameter data set contains various parameters at 60 s resolution. These parameters include universal time, the instrument status, the ion density, ion bulk velocity, and ion temperature. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
+      <ResourceName>Double Star 1 Spacecraft Hot Ion Analyzer (HIA) Prime Parameters Data</ResourceName>
+      <AlternateName>TC 1 HIA Prime Parameters Data</AlternateName>
+      <ReleaseDate>2018-05-07T18:59:50.859</ReleaseDate>
+      <Description>The Double Star 1 Hot Ion Analyzer (HIA) prime parameter data set contains various parameters at spin resolution. These parameters include universal time, the instrument status, the ion density, ion bulk velocity, and ion temperature. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Prof. Henri Reme, European Space Agency/International</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
@@ -26,7 +25,8 @@
         <AssociationID>spase://SMWG/Observatory/DoubleStar1</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
-      <PriorID>spase://VMO/NumericalData/DoubleStar1/HIA/SummaryParameters/60S</PriorID>
+      <PriorID>spase://VMO/NumericalData/DoubleStar1/HIA/PrimeParameters/4S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DoubleStar1/HIA/PrimeParameters/4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Double.Star.Data.Ring</RepositoryID>
@@ -55,18 +55,18 @@
       <Acknowledgement>ESA, Double Star, Center for Space Science and Applied Research, and the Chinese Academy of Sciences</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>Double Star 1 Hot Ion Analyzer (HIA) Summary Parameters Data</ProviderResourceName>
+    <ProviderResourceName>Double Star 1 Hot Ion Analyzer (HIA) Prime Parameters Data</ProviderResourceName>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
     <ProviderVersion>1</ProviderVersion>
     <InstrumentID>spase://SMWG/Instrument/DoubleStar1/HIA</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2004-02-04T02:40:30</StartDate>
+        <StartDate>2004-02-04T02:40:38</StartDate>
         <StopDate>2007-09-29T06:38:33</StopDate>
         <Note>Time format in data files is: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'</Note>
       </TimeSpan>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT4S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -79,45 +79,45 @@
     <Keyword>Tan Ce 1</Keyword>
     <Keyword>TC 1</Keyword>
     <Keyword>HIA</Keyword>
-    <Keyword>60 second</Keyword>
+    <Keyword>4 second</Keyword>
     <Keyword>lobe</Keyword>
     <Keyword>magnetosphere</Keyword>
     <Keyword>magnetotail</Keyword>
     <Parameter>
-      <Name>Double Star 1 HIA Universal Time Summary Parameter</Name>
-      <ParameterKey>Epoch__T1_SP_HIA</ParameterKey>
+      <Name>Double Star 1 HIA Universal Time Prime Parameter</Name>
+      <ParameterKey>Epoch__T1_PP_HIA</ParameterKey>
       <Description>Universal Time in data cell: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'. The time is an interval centered time tag rounded to nearest msecond.</Description>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Half Interval Summary Parameter</Name>
-      <ParameterKey>Half_interval__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA half width of measurement interval.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Half Interval Prime Parameter</Name>
+      <ParameterKey>Half_interval__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA half width of measurement interval in units of ms.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Half sample time interval</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Status Summary Parameter</Name>
-      <ParameterKey>Status__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA status at 60 s resolution.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Status Prime Parameter</Name>
+      <ParameterKey>Status__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA status at spin resolution.</Description>
+      <Cadence>PT4S</Cadence>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>255</FillValue>
@@ -126,20 +126,20 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Density Summary Parameter</Name>
-      <ParameterKey>N_ion__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion number density at 60 s resolution in units of #/cm^3.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Ion Density Prime Parameter</Name>
+      <ParameterKey>N_ion__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA ion number density at spin resolution in units of #/cm^3.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>cm^-3</Units>
       <UnitsConversion>1.0e6&gt;m^-3</UnitsConversion>
       <RenderingHints>
         <AxisLabel>n (HIA)</AxisLabel>
-        <ScaleMin>0.0010</ScaleMin>
+        <ScaleMin>0.001</ScaleMin>
         <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0010</ValidMin>
+      <ValidMin>0.001</ValidMin>
       <ValidMax>1000</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -147,10 +147,10 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Bulk Velocity Summary Parameter</Name>
-      <ParameterKey>V_ion_xyz_gse__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion bulk velocity at 60 s resolution in GSE Coordinates in units of km/s.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Ion Bulk Velocity Prime Parameter</Name>
+      <ParameterKey>V_ion_xyz_gse__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA ion bulk velocity at spin resolution in GSE Coordinates in units of km/s.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>km/s</Units>
       <UnitsConversion>1.0e3&gt;m s^-1</UnitsConversion>
       <CoordinateSystem>
@@ -181,7 +181,7 @@
       </Structure>
       <ValidMin>-2000</ValidMin>
       <ValidMax>2000</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Vector</Qualifier>
@@ -189,10 +189,10 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Parallel Ion Temperature Summary Parameter</Name>
-      <ParameterKey>T_ion_par__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA parallel ion temperature at 60 s resolution in units of MK.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Parallel Ion Temperature Prime Parameter</Name>
+      <ParameterKey>T_ion_par__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA parallel ion temperature at spin resolution in units of MK.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>MK</Units>
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
@@ -202,7 +202,7 @@
       </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -210,10 +210,10 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Perpendicular Ion Temperature Summary Parameter</Name>
-      <ParameterKey>T_ion_perp__T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA perpendicular ion temperature at 60 s resolution in units of MK.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Perpendicular Ion Temperature Prime Parameter</Name>
+      <ParameterKey>T_ion_perp__T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA perpendicular ion temperature at spin resolution in units of MK.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>MK</Units>
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
@@ -223,7 +223,7 @@
       </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -231,10 +231,10 @@
       </Particle>
     </Parameter>
     <Parameter>
-      <Name>Double Star 1 HIA Ion Temperature Summary Parameter</Name>
-      <ParameterKey>T_ion___T1_SP_HIA</ParameterKey>
-      <Description>Double Star 1 HIA ion temperature at 60 s resolution in units of MK.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 1 HIA Ion Temperature Prime Parameter</Name>
+      <ParameterKey>T_ion___T1_PP_HIA</ParameterKey>
+      <Description>Double Star 1 HIA ion temperature at spin resolution in units of MK.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>MK</Units>
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
@@ -244,7 +244,7 @@
       </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>200</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>

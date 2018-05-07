@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DoubleStar2/FGM/SummaryParameters/60S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DoubleStar2/FGM/PrimeParameters/PT4S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Double Star 2 Spacecraft Flux Gate Magnetometer (FGM) Summary Parameters Data</ResourceName>
-      <AlternateName>TC 2 FGM Summary Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
-      <Description>The Double Star 2 Flux Gate Magnetometer (FGM) summary parameter data set contains various parameters in GSE coordinates at 60 s resolution. These parameters include universal time, the instrument status, the magnetic field vector in GSE coordinates, and the magnetic field variances. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
+      <ResourceName>Double Star 2 Spacecraft Flux Gate Magnetometer (FGM) Prime Parameters Data</ResourceName>
+      <AlternateName>TC 2 FGM Prime Parameters Data</AlternateName>
+      <ReleaseDate>2018-05-07T18:50:11.651</ReleaseDate>
+      <Description>The Double Star 2 Flux Gate Magnetometer (FGM) prime parameter data set contains various parameters in GSE coordinates at spin resolution. These parameters include universal time, the instrument status, the magnetic field vector in GSE coordinates, and the magnetic field variances. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Dr. Tielong Zhang, European Space Agency/International</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Tielong.Zhang</PersonID>
@@ -26,7 +25,8 @@
         <AssociationID>spase://SMWG/Observatory/DoubleStar2</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
-      <PriorID>spase://VMO/NumericalData/DoubleStar2/FGM/SummaryParameters/60S</PriorID>
+      <PriorID>spase://VMO/NumericalData/DoubleStar2/FGM/PrimeParameters/4S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DoubleStar2/FGM/PrimeParameters/4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/Double.Star.Data.Ring</RepositoryID>
@@ -55,18 +55,18 @@
       <Acknowledgement>ESA, Double Star, Center for Space Science and Applied Research, and the Chinese Academy of Sciences</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>Double Star 2 Flux Gate Magnetometer (FGM) Summary Parameters Data</ProviderResourceName>
+    <ProviderResourceName>Double Star 2 Flux Gate Magnetometer (FGM) Prime Parameters Data</ProviderResourceName>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
     <ProviderVersion>1</ProviderVersion>
     <InstrumentID>spase://SMWG/Instrument/DoubleStar2/FGM</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2004-07-30T08:18:30</StartDate>
-        <StopDate>2008-05-31T18:59:30</StopDate>
+        <StartDate>2004-07-30T07:00:49</StartDate>
+        <StopDate>2008-05-31T18:59:05</StopDate>
         <Note>Time format in data files is: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'</Note>
       </TimeSpan>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT4S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
@@ -81,7 +81,7 @@
     <Keyword>TC 2</Keyword>
     <Keyword>FGM</Keyword>
     <Keyword>magnetic field</Keyword>
-    <Keyword>60 second</Keyword>
+    <Keyword>4 second</Keyword>
     <Keyword>auroral region</Keyword>
     <Keyword>cusp</Keyword>
     <Keyword>lobe</Keyword>
@@ -89,40 +89,40 @@
     <Keyword>magnetotail</Keyword>
     <Keyword>polar cap</Keyword>
     <Parameter>
-      <Name>Double Star 2 FGM Universal Time Summary Parameter</Name>
-      <ParameterKey>Epoch__T2_SP_FGM</ParameterKey>
+      <Name>Double Star 2 FGM Universal Time Prime Parameter</Name>
+      <ParameterKey>Epoch__T2_PP_FGM</ParameterKey>
       <Description>Universal Time in data cell: day, month, year hour, min, seconds. Ex: '01-Jan-1981 00:00:00.000'. The time is an interval centered time tag rounded to nearest msecond.</Description>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 2 FGM Half Interval Summary Parameter</Name>
-      <ParameterKey>Half_interval__T2_SP_FGM</ParameterKey>
+      <Name>Double Star 2 FGM Half Interval Prime Parameter</Name>
+      <ParameterKey>Half_interval__T2_PP_FGM</ParameterKey>
       <Description>Double Star 2 FGM half the mean separation between time tags, averaged over the file.</Description>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Half sample time interval</AxisLabel>
       </RenderingHints>
-      <FillValue>-1.0e31</FillValue>
+      <FillValue>-1e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 2 FGM Status Summary Parameter</Name>
-      <ParameterKey>Status__T2_SP_FGM</ParameterKey>
-      <Description>Double Star 2 FGM status at 60 s resolution.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 2 FGM Status Prime Parameter</Name>
+      <ParameterKey>Status__T2_PP_FGM</ParameterKey>
+      <Description>Double Star 2 FGM status at spin resolution.</Description>
+      <Cadence>PT4S</Cadence>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>255</FillValue>
@@ -131,10 +131,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Double Star 2 FGM DC Magnetic Field Vector Summary Parameter</Name>
-      <ParameterKey>B_xyz_gse__T2_SP_FGM</ParameterKey>
-      <Description>Double Star 2 FGM magnetic field vectors at 60 s resolution in GSE Coordinates in units of nT.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 2 FGM DC Magnetic Field Vector Prime Parameter</Name>
+      <ParameterKey>B_xyz_gse__T2_PP_FGM</ParameterKey>
+      <Description>Double Star 2 FGM magnetic field vectors at spin resolution in GSE Coordinates in units of nT.</Description>
+      <Cadence>PT4S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
       <CoordinateSystem>
@@ -142,8 +142,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-32768.0</ScaleMin>
-        <ScaleMax>32768.0</ScaleMax>
+        <ScaleMin>-32768</ScaleMin>
+        <ScaleMax>32768</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -163,45 +163,45 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-32768.0</ValidMin>
-      <ValidMax>32768.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>-32768</ValidMin>
+      <ValidMax>32768</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Double Star 2 FGM Magnetic Variance Summed Summary Parameter</Name>
-      <ParameterKey>B_nsigma_t__T2_SP_FGM</ParameterKey>
-      <Description>Double Star 2 FGM normalised magnetic variance including summed component variances at 60 s resolutionT.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 2 FGM Magnetic Variance Summed Prime Parameter</Name>
+      <ParameterKey>B_nsigma_t__T2_PP_FGM</ParameterKey>
+      <Description>Double Star 2 FGM normalised magnetic variance including summed component variances at spin resolution.</Description>
+      <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_t^2/B^2</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>1.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>1</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>1.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Double Star 2 FGM Magnetic Variance of the Magnitude Summary Parameter</Name>
-      <ParameterKey>B_nsigma_b__T2_SP_FGM</ParameterKey>
-      <Description>Double Star 2 FGM magnetic variance of the magnitude at 60 s resolution.</Description>
-      <Cadence>PT60S</Cadence>
+      <Name>Double Star 2 FGM Magnetic Variance of the Magnitude Prime Parameter</Name>
+      <ParameterKey>B_nsigma_b__T2_PP_FGM</ParameterKey>
+      <Description>Double Star 2 FGM magnetic variance of the magnitude at spin resolution.</Description>
+      <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_b^2/B^2</AxisLabel>
-        <ScaleMin>0.0</ScaleMin>
-        <ScaleMax>1.0</ScaleMax>
+        <ScaleMin>0</ScaleMin>
+        <ScaleMax>1</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.0</ValidMin>
-      <ValidMax>1.0</ValidMax>
-      <FillValue>-1.0e31</FillValue>
+      <ValidMin>0</ValidMin>
+      <ValidMax>1</ValidMax>
+      <FillValue>-1e+31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
