@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -5,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Double Star 1 Spacecraft Data Plasma Electron and Current Experiment (PEACE) Prime Parameters Data</ResourceName>
       <AlternateName>TC 1 PEACE Prime Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-07T18:59:50.875</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>The Double Star 1 Plasma Electron and Current Experiment (PEACE) prime parameter data set contains various parameters at spin resolution. These parameters include universal time, the instrument status, the electron density, electron bulk velocity, electron temperature, and electron heat flux. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Dr. Andrew N. Fazakerley, European Space Agency/International</Acknowledgement>
       <Contact>
@@ -18,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>Double Star 1 Plasma Electron and Current Experiment (PEACE)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2003-061A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2003-061A-02</URL>
         <Description>Introduction to the Double Star 1 PEACE Instrument.</Description>
       </InformationURL>
       <Association>
@@ -34,7 +35,7 @@
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>Double Star Science Data Centre, The Data Ring</Name>
-        <URL>http://www.rssd.esa.int/index.php?project=DOUBLESTAR&amp;page=data_ring</URL>
+        <URL>https://www.cosmos.esa.int/web/double-star/dsds-data-ring</URL>
         <Description>Double Star Data Center Hub web page. This page provides access to other sites with the prime parameter and summary parameter data from the Double Star mission.</Description>
         <Language>English</Language>
       </AccessURL>
@@ -93,7 +94,7 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -105,7 +106,7 @@
       <Cadence>PT4S</Cadence>
       <Units>ms</Units>
       <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -131,12 +132,12 @@
       <UnitsConversion>1.0e6&gt;m^-3</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Ne</AxisLabel>
-        <ScaleMin>0.1</ScaleMin>
+        <ScaleMin>0.1000</ScaleMin>
         <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.1</ValidMin>
+      <ValidMin>0.1000</ValidMin>
       <ValidMax>10000</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -178,7 +179,7 @@
       </Structure>
       <ValidMin>-10000</ValidMin>
       <ValidMax>10000</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Vector</Qualifier>
@@ -194,12 +195,12 @@
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Te_par</AxisLabel>
-        <ScaleMin>0.01</ScaleMin>
+        <ScaleMin>0.0100</ScaleMin>
         <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.01</ValidMin>
+      <ValidMin>0.0100</ValidMin>
       <ValidMax>350</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -215,12 +216,12 @@
       <UnitsConversion>1.0e6&gt;K</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Te_perp</AxisLabel>
-        <ScaleMin>0.01</ScaleMin>
+        <ScaleMin>0.0100</ScaleMin>
         <ScaleMax>1000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.01</ValidMin>
+      <ValidMin>0.0100</ValidMin>
       <ValidMax>350</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
@@ -236,12 +237,12 @@
       <UnitsConversion>1.0e-6&gt;J m^-2 s^-1</UnitsConversion>
       <RenderingHints>
         <AxisLabel>Qe_para</AxisLabel>
-        <ScaleMin>0.01</ScaleMin>
+        <ScaleMin>0.0100</ScaleMin>
         <ScaleMax>100000</ScaleMax>
       </RenderingHints>
-      <ValidMin>0.01</ValidMin>
+      <ValidMin>0.0100</ValidMin>
       <ValidMax>100000</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>

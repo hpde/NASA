@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Cluster/DWP/SummaryParameter/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster Digital Wave Processor (DWP) summary parameter data at about 60 sec resolution (spin averaged) in GSE Coordinates</ResourceName>
       <AlternateName>Cluster Summary Parameter DWP data</AlternateName>
-      <ReleaseDate>2018-04-20T14:52:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>Cluster Digital Wave Processor (DWP) data set contains various instrument status and data status flags as well as particle correlator information. </Description>
       <Acknowledgement>NASA; ESA; Dr. Hugo Alleyne</Acknowledgement>
       <Contact>
@@ -75,23 +75,23 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-07</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-07</URL>
         <Description>Information about the Digital Wave Processor (DWP) experiment on the Cluster 2/FM5 Rumba mission. The DWP experiment is the same on all four spacecraft.</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Cluster/DWP/SummaryParameter/PT60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/dwp</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/dwp/</URL>
         <Description>Cluster Digital Wave Processor (DWP) summary parameter data at CDAWeb.</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/dwp</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/dwp/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

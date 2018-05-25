@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -5,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Double Star 1 Spacecraft Spatio-Temporal Analyzer of Field Fluctuations and Digital Wave Processor (STAFF-DWP) Summary Parameters Data</ResourceName>
       <AlternateName>TC 1 STAFF-DWP Summary Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-07T18:59:50.859</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>The Double Star 1 Spatio-Temporal Analyzer of Field Fluctuations and Digital Wave Processor summary parameter data set contains various parameters at 60 s. These parameters include universal time, the instrument status, and magnetic field spectral power from FGM data for various frequency ranges. Frequency ranges not clear. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Prof. C. Carr, Dr. Tielong Zhang, European Space Agency/International</Acknowledgement>
       <Contact>
@@ -22,7 +23,7 @@
       </Contact>
       <InformationURL>
         <Name>Double Star 1 Spacecraft Spatio-Temporal Analyzer of Field Fluctuations and Digital Wave Processor (STAFF-DWP)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2003-061A-05</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2003-061A-05</URL>
         <Description>Introduction to the Double Star 1 Spatio-temporal Analyzer of Field Fluctuations and Digital Wave Processor.</Description>
       </InformationURL>
       <Association>
@@ -38,7 +39,7 @@
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>Double Star Science Data Centre The Data Ring</Name>
-        <URL>http://www.rssd.esa.int/index.php?project=DOUBLESTAR&amp;page=data_ring</URL>
+        <URL>https://www.cosmos.esa.int/web/double-star/dsds-data-ring</URL>
         <Description>Double Star Data Center Hub</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -77,7 +78,7 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -92,7 +93,7 @@
       </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -104,12 +105,12 @@
       <Cadence>PT60S</Cadence>
       <Units>nT^2 Hz^-1</Units>
       <RenderingHints>
-        <ScaleMin>0.000001</ScaleMin>
+        <ScaleMin>1.0000e-006</ScaleMin>
         <ScaleMax>0.1</ScaleMax>
       </RenderingHints>
-      <ValidMin>1e-7</ValidMin>
+      <ValidMin>1.0000e-007</ValidMin>
       <ValidMax>100</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0000e+031</FillValue>
       <Field>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -122,12 +123,12 @@
       <Cadence>PT60S</Cadence>
       <Units>nT^2 Hz^-1</Units>
       <RenderingHints>
-        <ScaleMin>1e-7</ScaleMin>
+        <ScaleMin>1.0000e-007</ScaleMin>
         <ScaleMax>0.01</ScaleMax>
       </RenderingHints>
-      <ValidMin>1e-9</ValidMin>
+      <ValidMin>1.0000e-009</ValidMin>
       <ValidMax>1</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0000e+031</FillValue>
       <Field>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -140,12 +141,12 @@
       <Cadence>PT60S</Cadence>
       <Units>nT^2 Hz^-1</Units>
       <RenderingHints>
-        <ScaleMin>1e-10</ScaleMin>
-        <ScaleMax>0.00001</ScaleMax>
+        <ScaleMin>1.0000e-010</ScaleMin>
+        <ScaleMax>1.0000e-005</ScaleMax>
       </RenderingHints>
-      <ValidMin>1e-11</ValidMin>
-      <ValidMax>0.001</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <ValidMin>1.0000e-011</ValidMin>
+      <ValidMax>0.0010</ValidMax>
+      <FillValue>-1.0000e+031</FillValue>
       <Field>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>

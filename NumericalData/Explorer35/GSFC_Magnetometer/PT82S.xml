@@ -8,7 +8,7 @@
       <AlternateName>IMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>IMP-E Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>AIMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>This data set, from the GSFC magnetometer on the lunar- orbiting Explorer 35 spacecraft, contains 81.92s averages, taken over 5.12s values, of the magnetic field magnitude and Cartesian components in GSE and GSM coordinates, plus the standard deviations for field magnitude and GSE component averages. The spacecraft position vector is given in GSE, GSM and SSE (Selenocentric Solar Ecliptic) coordinates. Additional parameters in the data records relate to field data in payload coordinates, spacecraft spin rate and spin axis direction, relative variability of the field vector and its magnitude, and various quality flags. The data are available in annual ASCII files.</Description>
       <Acknowledgement>To the instrument PI, Norman F. Ness, and to the Space Physics Data Facility at Goddard</Acknowledgement>
       <Contact>
@@ -48,7 +48,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Virtual Magnetospheric Observatory</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/Explorer35</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/Explorer/35</URL>
         <Description>Explorer 35 GSFC magnetometer data.</Description>
       </AccessURL>
       <Format>Text</Format>

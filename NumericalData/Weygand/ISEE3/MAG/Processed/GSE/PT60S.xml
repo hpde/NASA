@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>ISEE-3 Linearly Interpolated 60 s Resolution Tri-axial Fluxgate Magnetometer in GSE Coordinates</ResourceName>
       <AlternateName>ISEE-3 MAG data</AlternateName>
-      <ReleaseDate>2018-05-01T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>ISEE-3 linearly interpolated to have the measurements on the minute at 60 s resolution tri-axial fluxgate magnetometer data in GSE coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
       <Acknowledgement>NASA;Chris.T.Russell</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>ISEE-3 Magnetometer</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-02</URL>
         <Description>IGPP UCLA ISEE 3 magnetometer information</Description>
       </InformationURL>
       <InformationURL>

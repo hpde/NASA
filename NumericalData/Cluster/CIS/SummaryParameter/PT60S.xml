@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_292.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Cluster/CIS/SummaryParameter/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster Summary Parameter Cluster Ion Spectrometry (CIS) Data</ResourceName>
       <AlternateName>Cluster Summary Parameter CIS data</AlternateName>
-      <ReleaseDate>2018-04-20T14:52:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>This instrument (CIS: Cluster Ion Spectrometry) is capable of obtaining full 3D ion distributions with high time resolution (in one spacecraft spin) and mass-per-charge resolution. The experiment consists of two different instruments, a Hot Ion Analyzer (HIA) and a time-of-flight Ion Composition and Distribution Function analyzer (CODIF). Extensive on-board processing is done, within its dual-processor Data Processing System (DPS). CODIF determines the distributions of the major ion species with energies from spacecraft potential to 40 KeV/charge with an angular resolution of 22.5 x 10.25 degrees and with two different sensitivities. The CODIF instrument uses electrostatic deflection to select by energy per charge, with subsequent time-of-flight analysis. The sensor primarily covers the energy range 0.02-40 KeV/charge, but with additional pre-acceleration for energies below 25 eV/charge, the range is extended to energies as low as the spacecraft potential. The HIA does not measure mass, but extends the dynamic range to the highest ion fluxes, and has angular resolution capability of 5.6 x 5.6 degrees for ion-beam and solar-wind measurements. The HIA is a symmetric quadrispherical analyzer of top-hat geometry, and uses microchannel-plate electron multipliers and position encoding by discrete anodes. A 2D distribution is obtained once per 62.5 ms, and a full 3D distribution of ions in the energy range ~5 eV/charge to 32 KeV/charge is obtained every 4 s. For more details of the Cluster mission, the spacecraft, and its instruments, see the report Cluster: mission, payload and supporting activities, March 1993, ESA SP-1159, and the included article The Cluster Ion Spectrometry Experiment, by H. Reme et al., from which this information was obtained.</Description>
       <Acknowledgement>NASA, Prof. Henri Reme, European Space Agency</Acknowledgement>
       <Contact>
@@ -119,22 +119,22 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Rumba Cluster Ion Spectrometry (CIS)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-02</URL>
         <Description>This site provides information concerning the Cluster II Rumba Cluster Ion Spectrometry Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Salsa Cluster Ion Spectrometry (CIS)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-02</URL>
         <Description>This site provides information concerning the Cluster II Salsa Cluster Ion Spectrometry Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Samba Cluster Ion Spectrometry (CIS)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-02</URL>
         <Description>This site provides information concerning the Cluster II Samba Cluster Ion Spectrometry Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Tango Cluster Ion Spectrometry (CIS)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-02</URL>
         <Description>This site provides information concerning the Cluster II Tango Cluster Ion Spectrometry Instrument.</Description>
       </InformationURL>
       <Association>
@@ -157,7 +157,7 @@
       <PriorID>spase://VMO/NumericalData/Cluster/CIS/SummaryParameter/60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -167,7 +167,7 @@
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/cis</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/cis/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

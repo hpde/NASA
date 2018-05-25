@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A 12-min Position Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>RBSP A satellite position and magnetic field model information.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>SSCWeb</Name>
-        <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
+        <URL>https://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
         <ProductKey>rbspa</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

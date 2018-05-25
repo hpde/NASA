@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cluster Summary Parameter Electron Drift Instrument (EDI) Data</ResourceName>
       <AlternateName>Cluster Summary Parameter EDI data</AlternateName>
-      <ReleaseDate>2018-04-20T14:52:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>This instrument (EDI: Electron Drift Instrument) measures the drift of a weak beam of test electrons that, when emitted in certain directions, return to the spacecraft after one gyration. This drift is related to the electric field and the gradient in the magnetic field, and these quantities can, by the use of different electron energies, be determined separately. The fundamental time step to determine the new parameters and direct the beams and the detectors is 2 ms. Inter-experiment links include: magnetic field information from FGM and STAFF, a blanking pulse received from WHISPER to warn of possible interference from that active experiment, and a similar blanking pulse sent to PEACE when the EDI electron beam could interfere with the PEACE electron measurement. For more details of the Cluster mission, the spacecraft, and its instruments, see the report Cluster: mission, payload and supporting activities, March 1993, ESA SP-1159, and the included article The Electron Drift Instrument for Cluster, by G. Paschmann et al., from which this information was obtained.</Description>
       <Acknowledgement>NASA, Dr. Goetz Paschmann, European Space Agency</Acknowledgement>
       <Contact>
@@ -79,22 +79,22 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for the Cluster II Rumba Electron Drift Instrument (EDI)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-03</URL>
+        <URL>https://http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-03</URL>
         <Description>This site provides information concerning the Cluster II Rumba Electron Drift Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for the Cluster II Salsa Electron Drift Instrument (EDI)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-03</URL>
+        <URL>nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-03</URL>
         <Description>This site provides information concerning the Cluster II Salsa Electron Drift Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for the Cluster II Samba Electron Drift Instrument (EDI)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-03</URL>
         <Description>This site provides information concerning the Cluster II Samba Electron Drift Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for the Cluster II Tango Electron Drift Instrument (EDI)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-03</URL>
         <Description>This site provides information concerning the Cluster II Tango Electron Drift Instrument.</Description>
       </InformationURL>
       <Association>
@@ -117,17 +117,17 @@
       <PriorID>spase://VMO/NumericalData/Cluster/EDI/SummaryParameter/60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/edi</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/edi/</URL>
         <Description>Cluster II Summary Parameter Electron Drift Instrument (EDI) data</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/edi</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/edi/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

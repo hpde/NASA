@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cluster Summary Parameter Fluxgate Magnetometer (FGM) Data</ResourceName>
       <AlternateName>Cluster Summary Parameter FGM Data</AlternateName>
-      <ReleaseDate>2018-04-20T14:52:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>This dataset contains 1 minute resolution validated summary prime parameter measurements of the magnetic field vector from the fluxgate magnetometer (FGM) instrument on the Cluster 2 spacecraft. The summary prime parameter data set does not contain the spacecraft position data or additional range and telemetry mode information that the CAA parameter data set does contain.         </Description>
       <Acknowledgement>NASA, Andre Balogh, Elizabeth E. Lucek</Acknowledgement>
       <Contact>
@@ -23,22 +23,22 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Rumba Fluxgate Magnetometer (FGM)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-04</URL>
         <Description>This site provides information concerning the Cluster II Rumba Fluxgate Magnetometer Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Salsa Fluxgate Magnetometer (FGM)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-04</URL>
         <Description>This site provides information concerning the Cluster II Salsa Fluxgate Magnetometer Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Samba Fluxgate Magnetometer (FGM)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-04</URL>
         <Description>This site provides information concerning the Cluster II Samba Fluxgate Magnetometer Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Tango Fluxgate Magnetometer (FGM)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-04</URL>
         <Description>This site provides information concerning the Cluster II Tango Fluxgate Magnetometer Instrument.</Description>
       </InformationURL>
       <Association>
@@ -61,17 +61,17 @@
       <PriorID>spase://VMO/NumericalData/Cluster/FGM/SummaryParameter/60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/fgm</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/fgm/</URL>
         <Description>Cluster II Summary Parameter Fluxgate Magnetometer (FGM) data</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/fgm</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/fgm/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

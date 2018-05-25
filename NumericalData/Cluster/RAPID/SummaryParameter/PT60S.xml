@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cluster Summary Parameter Research with Adaptive Particle Imaging Detectors (RAPID) Data</ResourceName>
       <AlternateName>Cluster Summary Parameter RAPID Data</AlternateName>
-      <ReleaseDate>2018-04-20T14:52:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>The dual-sensor spectrometer RAPID (Research with Adaptive Particle Imaging Detectors) analyzes suprathermal plasma distributions in the energy range from 20-400 KeV for electrons and from 2 KeV/nucleon to 1.50 MeV/nucleon for ions. For more details of the Cluster mission, the spacecraft, and its instruments, see the report Cluster: mission, payload and supporting activities, March 1993, ESA SP-1159, and the included article RAPID: The Imaging Energetic Particle Spectrometer on Cluster, by B. Wilken et al., from which this information was obtained.</Description>
       <Acknowledgement>NASA, Dr. Berend Wilken, European Space Agency</Acknowledgement>
       <Contact>
@@ -95,22 +95,22 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Rumba Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-06</URL>
         <Description>This site provides information concerning the Cluster II Rumba Research with Adaptive Particle Imaging Detectors Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Salsa Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041B-06</URL>
         <Description>This site provides information concerning the Cluster II Salsa Research with Adaptive Particle Imaging Detectors Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Samba Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-041A-06</URL>
         <Description>This site provides information concerning the Cluster II Samba Research with Adaptive Particle Imaging Detectors Instrument.</Description>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog listing for Cluster II Tango Research with Adaptive Particle Imaging Detectors (RAPID)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045B-06</URL>
         <Description>This site provides information concerning the Cluster II Tango Research with Adaptive Particle Imaging Detectors Instrument.</Description>
       </InformationURL>
       <Association>
@@ -133,17 +133,17 @@
       <PriorID>spase://VMO/NumericalData/Cluster/RAPID/SummaryParameter/60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/rap</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/rap/</URL>
         <Description>Cluster II Summary Parameter Research with Adaptive Particle Imaging Detectors (RAPID) data</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/rap</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/cluster/cl/sp/rap/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>

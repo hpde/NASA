@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -5,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Double Star 2 Spacecraft Flux Gate Magnetometer (FGM) Prime Parameters Data</ResourceName>
       <AlternateName>TC 2 FGM Prime Parameters Data</AlternateName>
-      <ReleaseDate>2018-05-07T18:50:11.651</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>The Double Star 2 Flux Gate Magnetometer (FGM) prime parameter data set contains various parameters in GSE coordinates at spin resolution. These parameters include universal time, the instrument status, the magnetic field vector in GSE coordinates, and the magnetic field variances. These parameters are available through Double Star Science Data Centre The Data Ring with restricted access.</Description>
       <Acknowledgement>Dr. Tielong Zhang, European Space Agency/International</Acknowledgement>
       <Contact>
@@ -18,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>Double Star 2 Flux Gate Magnetometer (FGM)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-029A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-029A-02</URL>
         <Description>Introduction to the Double Star 2 FGM Instrument.</Description>
       </InformationURL>
       <Association>
@@ -34,7 +35,7 @@
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>Double Star Science Data Centre, The Data Ring</Name>
-        <URL>http://www.rssd.esa.int/index.php?project=DOUBLESTAR&amp;page=data_ring</URL>
+        <URL>https://www.cosmos.esa.int/web/double-star/dsds-data-ring</URL>
         <Description>Double Star Data Center Hub web page. This page provides access to other sites with the prime parameter and summary parameter data from the Double Star mission.</Description>
         <Language>English</Language>
       </AccessURL>
@@ -98,7 +99,7 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
       </RenderingHints>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
       </Support>
@@ -113,7 +114,7 @@
       <RenderingHints>
         <AxisLabel>Half sample time interval</AxisLabel>
       </RenderingHints>
-      <FillValue>-1e+31</FillValue>
+      <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -142,8 +143,8 @@
         <CoordinateSystemName>GSE</CoordinateSystemName>
       </CoordinateSystem>
       <RenderingHints>
-        <ScaleMin>-32768</ScaleMin>
-        <ScaleMax>32768</ScaleMax>
+        <ScaleMin>-32768.0</ScaleMin>
+        <ScaleMax>32768.0</ScaleMax>
       </RenderingHints>
       <Structure>
         <Size>3</Size>
@@ -163,9 +164,9 @@
           <Index>3</Index>
         </Element>
       </Structure>
-      <ValidMin>-32768</ValidMin>
-      <ValidMax>32768</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <ValidMin>-32768.0</ValidMin>
+      <ValidMax>32768.0</ValidMax>
+      <FillValue>-1.0e31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -178,12 +179,12 @@
       <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_t^2/B^2</AxisLabel>
-        <ScaleMin>0</ScaleMin>
-        <ScaleMax>1</ScaleMax>
+        <ScaleMin>0.0</ScaleMin>
+        <ScaleMax>1.0</ScaleMax>
       </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>1</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0</ValidMax>
+      <FillValue>-1.0e31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
@@ -196,12 +197,12 @@
       <Cadence>PT4S</Cadence>
       <RenderingHints>
         <AxisLabel>dB_b^2/B^2</AxisLabel>
-        <ScaleMin>0</ScaleMin>
-        <ScaleMax>1</ScaleMax>
+        <ScaleMin>0.0</ScaleMin>
+        <ScaleMax>1.0</ScaleMax>
       </RenderingHints>
-      <ValidMin>0</ValidMin>
-      <ValidMax>1</ValidMax>
-      <FillValue>-1e+31</FillValue>
+      <ValidMin>0.0</ValidMin>
+      <ValidMax>1.0</ValidMax>
+      <FillValue>-1.0e31</FillValue>
       <Field>
         <Qualifier>Variance</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>

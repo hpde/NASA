@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>ISEE-3 Linearly Interpolated 60 s Resolution Solar Wind Plasma data in GSM Coordinates</ResourceName>
       <AlternateName>ISEE-3 FPE data</AlternateName>
-      <ReleaseDate>2018-05-01T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
       <Description>ISEE-3 linearly interpolated to have the measurements on the minute at 60 s resolution solar wind plasma data in GSM coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
       <Acknowledgement>NASA;J.T.Gosling</Acknowledgement>
       <Contact>
@@ -19,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>ISEE-3 Solar Wind Plasma</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-01</URL>
         <Description>Solar wind plasma, 2D and 3D Proton and Electron Distribution Functions 2D and 3D Distribution Functions p: 150eV - 7keV; e: 10eV-1keV</Description>
       </InformationURL>
       <InformationURL>
