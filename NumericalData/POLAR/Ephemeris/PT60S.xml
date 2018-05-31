@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Predicted Orbit, 1 min Data</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2018-05-31T19:38:18Z</ReleaseDate>
       <Description>Polar orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
@@ -383,7 +383,7 @@
       <UnitsConversion>1e3&gt;m</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
-        <CoordinateSystemName>GSM</CoordinateSystemName>
+        <CoordinateSystemName>HAE</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
         <Size>3</Size>
