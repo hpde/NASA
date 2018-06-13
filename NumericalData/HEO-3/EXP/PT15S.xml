@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/HEO-3/EXP/PT15S</ResourceID>
     <ResourceHeader>
-      <ResourceName>HEO-3 Data from the EXP instrument</ResourceName>
-      <ReleaseDate>2018-03-29T21:06:59Z</ReleaseDate>
+      <ResourceName>HEO-3 Data from the EXP instrument in 15-second averages</ResourceName>
+      <ReleaseDate>2018-06-11T20:02:43Z</ReleaseDate>
       <Description>These data consist of energetic particle measurements, given as proton counts, electron counts, and dose/dose rate. The spacecraft are equipped with a combination of dome and telescope dosimeters. Data from these instruments is available in 15-second averages and binned by magnetic L-shell in IGRF and Olson-Pfitzer (Quiet) field models. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
