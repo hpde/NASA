@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>GOES 9 Space Environment Monitor (SEM) Triaxial Fluxgate Magnetometer (FGM), Magnetic Field from the NGDC, Spacecraft Coordinates, 1.0 min Data</ResourceName>
          <AlternateName>GOES 9 MFS data</AlternateName>
-         <ReleaseDate>2018-06-07T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-06-18T17:44:11Z</ReleaseDate>
          <Description>The magnetic field sensor, located at a few meters away from the spacecraft was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly parallel to the rotation axis of the Earth, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of &#177;1000 nT (without saturation) and a resolution of 0.1 nT. Data files contain long descriptive header.</Description>
          <Acknowledgement>NASA Office of Space Science Applications (United States), NOAA National Environmental Satellite Service (United States), Howard J. Singer</Acknowledgement>
          <Contact>
@@ -22,7 +22,7 @@
             <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1995-025A-03</URL>
             <Description>Introduction to the GOES 9 Magnetometer.</Description>
          </InformationURL>
-         <PriorID>spase://VMO/NumericalData/GOES/9/MAG/NGDC/PT1M</PriorID>
+         <PriorID>spase://VMO/NumericalData/GOES/8/MAG/PT60S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NOAA/SEC</RepositoryID>

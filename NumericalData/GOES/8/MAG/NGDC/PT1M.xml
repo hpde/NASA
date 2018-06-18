@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>GOES 8 Triaxial Fluxgate Magnetometer (FGM), Magnetic Field from the NGDC, Spacecraft Coordinates, 1.0 min Data</ResourceName>
          <AlternateName>GOES 8 Magnetic Field data</AlternateName>
-         <ReleaseDate>2018-06-07T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-06-18T17:44:11Z</ReleaseDate>
          <Description>The Schonstedt triaxial magnetometer, located at a few meters away from the spacecraft was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly parallel to the rotation axis of the Earth, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of &#177;1000 nT (without saturation) and a resolution of 0.1 nT. After temperature correction, and before (undescribed) stray field correction, the accuracy is at about 1 nT level. Data files contain long descriptive header.</Description>
          <Acknowledgement>NASA, NOAA, Howard J. Singer</Acknowledgement>
          <Contact>
@@ -27,7 +27,7 @@
             <URL>https://www.ngdc.noaa.gov/stp/satellite/goes/</URL>
             <Description>Additional GOES Magnetic Field Monitor information.</Description>
          </InformationURL>
-         <PriorID>spase://VMO/NumericalData/GOES/8/MAG/NGDC/PT1M</PriorID>
+         <PriorID>spase://VMO/NumericalData/GOES/8/MAG/PT60S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NOAA/SEC</RepositoryID>
