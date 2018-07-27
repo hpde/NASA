@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Wind/Attitude/Definitive/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Definitive Attitude, 10 min Data, Spin Axis Orientation Angles in GCI, GSE and GSM Coordinates</ResourceName>
-         <ReleaseDate>2017-08-08T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-27T14:01:22Z</ReleaseDate>
          <Description>Wind Definitive Attitude Body Spin Rate and Spin Axis Orientation Right Ascension and Declination Angles in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, and Geocentric Solar Magnetospheric, GSE, Coordinates</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -24,9 +24,9 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Wind Attitude and Orbit Data, Archived Website</Name>
-            <URL>https://pwg.gsfc.nasa.gov/menu_orbits.html</URL>
-            <Description>Wind Satellite Attitude and Orbit Information, Archived Website. Disclaimer: The following material is being kept online for archival purposes. Although accurate at the Time Of publication, it is no longer being updated. The Page may contain Broken Links or outdated Information, and parts may not function in Current Web Browsers.</Description>
+           <Name>Wind Spacecraft homepage</Name>
+           <URL>https://wind.nasa.gov</URL>
+           <Description>Homepage for the Wind mission. Contains links to data and instrument descriptions.</Description>
          </InformationURL>
          <InformationURL>
             <Name>Satellite Situation Center, SSCWeb, System and Services</Name>
