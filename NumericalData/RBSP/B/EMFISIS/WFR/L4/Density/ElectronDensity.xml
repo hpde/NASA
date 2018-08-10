@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/Density/ElectronDensity</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B EMFISIS Waveform Receiver Electron Density Level 4 Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>RBSP-B Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Density and other Parameters inferred by digitizing the Trace on the Spectrograms</Description>
       <Acknowledgement>C. Kletzing</Acknowledgement>
       <Contact>
@@ -53,7 +53,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSP-B_DENSITY_EMFISIS-L4&amp;index=sp_phys</URL>
         <ProductKey>RBSP-B_DENSITY_EMFISIS-L4</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

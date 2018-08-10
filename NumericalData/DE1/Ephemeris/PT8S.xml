@@ -7,7 +7,7 @@
       <ResourceName>DE 1 8-sec Position Data</ResourceName>
       <AlternateName>Dynamics Explorer 1 8 Second Orbit and Attitude Data</AlternateName>
       <AlternateName>DE-A 8 Second Orbit and Attitude Data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Two Dynamics Explorer (DE) spacecraft were launched August 3, 1981, and placed into coplanar polar orbits with DE-1 in a highly elliptical orbit and DE-2 in a lower more circular orbit. The primary objective of the DE program was to investigate magnetosphere-ionosphere-atmosphere coupling processes. The DE mission provided a wealth of new information on a wide variety of magnetospheric plasma wave phenomena including auroral kilometric radiation, auroral hiss, Z mode radiation, narrow-band electromagnetic emissions associated with equatorial upper hybrid waves, whistler mode emissions, wave-particle interactions stimulated by ground VLF transmitters, equatorial ion cyclotron emissions, ion Bernstein mode emissions, and electric field turbulence along the auroral field lines. These files contain 8 second resolution emphemeris and spacecraft attitude parameters that coincide with DE-1 telemetry frames containing PWI lowrate data. These parameters are not to be taken as an authoritative set, but are convenient when working with PWI science data products. Most of these data are provided in the Geocentric Equatorial Inertial (GEI) TOD reference frame. The Z axis of the GEI frame is parallel to Earth's spin axis; the X axis points towards the First Point of Aries with the Y axis aligned so as to generate a right-handed coordinate system.</Description>
       <Acknowledgement>Users of the DE-1 PWI data are encouraged to acknowledge NASA CDAWeb and The University of Iowa as the source of the data in any publication.</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DE1_PWI_OR-AT&amp;index=sp_phys</URL>
         <ProductKey>DE1_PWI_OR-AT</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb.</Description>
       </AccessURL>

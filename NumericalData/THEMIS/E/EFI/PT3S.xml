@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/THEMIS/E/EFI/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-E (P4), Electric Field Instrument (EFI) Spacecraft measured Electric Field</ResourceName>
-      <ReleaseDate>2018-04-23T14:07:09Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>THEMIS-E: Electric Field Instrument, EFI, Electric Field Measurements. The L2 Product is a 3D Estimate of the perpnedicular Electric Field, Eperp, derived from the Spin Plane E-Field Measurements assuming E &#x22C5; B = 0, using relevant Flux-Gate Magnetometer, FGM, Data. This Data Product includes Spin-Averaged, and Fast Survey Field Data. The Spin-Averaged Data, EFS_DOT0, has approximately 3 s Time Resolution. Fast Survey, EFF_DOT0, Data has 0.125 s Time Resolution.</Description>
       <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
@@ -66,7 +66,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THE_L2_EFI&amp;index=sp_phys</URL>
         <ProductKey>THE_L2_EFI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

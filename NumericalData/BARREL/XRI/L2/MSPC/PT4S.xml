@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/BARREL/XRI/L2/MSPC/PT4S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BARREL Level 2 Medium Spectra 4-sec Data from 2013 and 2014 Launches</ResourceName>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <Description>This data group contains Bremsstrahlung X-ray measurements from the NaI spectrometers that are onboard multiple balloons of the BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) investigation in 2013 and 2014. Level 2 medium spectra data are available from 48 channels at 100 keV- 4 MeV with a time resolution of 4 s.</Description>
+      <Acknowledgement>We acknowledge R. M. Millan et al., for use of data from the BARREL investigation data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robyn.M.Millan</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Access to all releases of BARREL data and links to the Science Operation Center tools.</Name>
+        <URL>http://barreldata.ucsc.edu/data_products/</URL>
+        <Description>BARREL Data Repository and Tools</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Fact Sheet at PI site</Name>
+        <URL>http://www.dartmouth.edu/~barrel/documents/BARREL_fact_sheet.pdf</URL>
+        <Description>BARREL Data Repository and Tools</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/barrel/l2</URL>
+        <Description>In CDF via ftp from CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/</URL>
+        <Description>In CDF via http from CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the CDAWeb team at NASA/GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Subset, plot, list from CDAWeb</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1A</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1A/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1A_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1B</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1B/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1B_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1C</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1C/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1C_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1D</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1D/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1D_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1G</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1G/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1G_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1H</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1H/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1H_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1I</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1I/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1I_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1J</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1J/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1J_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1K</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1K/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1K_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1L</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1L/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1L_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1M</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1M/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1M_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1O</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1O/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1O_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1Q</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1Q/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1Q_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1R</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1R/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1R_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1S</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1S/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1S_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1T</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1T/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1T_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1U</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1U/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1U_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 1V</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/1V/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_1V_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2A</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2A/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2A_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2B</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2B/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2B_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2C</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2C/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2C_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2D</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2D/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2D_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2E</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2E/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2E_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2F</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2F/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2F_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2I</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2I/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2I_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2K</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2K/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2K_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2L</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2L/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2L_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2M</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2M/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2M_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2N</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2N/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2N_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2O</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2O/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2O_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2P</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2P/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2P_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2Q</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2Q/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2Q_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2T</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2T/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2T_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2W</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2W/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2W_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2X</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2X/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2X_L2_MSPC</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>Balloon 2Y</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/BARREL/2Y/MediumSpectra/L2/PT4S</URL>
+        <ProductKey>BAR_2Y_L2_MSPC</ProductKey>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/BARREL/XRI</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>2013-01-28T12:38:10.000Z</StartDate>
+        <StopDate>2014-02-11T17:11:51.000Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT4S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Earth.NearSurface.Stratosphere</ObservedRegion>
+    <Caveats>Known hardware and calibration issues are:
+Payload 1L - Lost contact on ascent, returned no science data; 
+Payload 1N - GPS failure early in flight =&gt; location and timing errors exist; 
+Paylaod 1W - balloon failed on launch, returned no science data. </Caveats>
+  </NumericalData>
+</Spase>

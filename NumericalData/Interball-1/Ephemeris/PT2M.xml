@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-1/Ephemeris/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail definitive orbital data</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Definitive Interball Tail satellite and subsatellite (Interball-1 and Magion-4) orbital data: Spacecraft position, velocity, and status flags.</Description>
       <Acknowledgement>The Interball project, Russian Space Research Institute (IKI) and Dr. Prokhorenko</Acknowledgement>
       <Contact>
@@ -50,7 +50,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_OR_DEF&amp;index=sp_phys</URL>
         <ProductKey>IT_OR_DEF</ProductKey>
         <Description>Interball Tail definitive orbital data with subset, plot, and list functionalities from CDAWeb.</Description>
       </AccessURL>

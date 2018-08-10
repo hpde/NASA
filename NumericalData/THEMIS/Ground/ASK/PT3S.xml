@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS Ground-based All Sky Imager Keogram, Level-1</ResourceName>
       <AlternateName>THEMIS-Ground ASK</AlternateName>
-      <ReleaseDate>2018-04-23T15:37:39Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>THEMIS Ground All Sky Imager Keograms for all observatories.  Keograms are composed of thin images slices taken down the middle of all-sky images and graphed against time.  Keograms allow for substorm analysis without the need for full sized raw images.   The ASI stations each monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours a sun shades deploy to protect the CCD.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.</Acknowledgement>
       <!--Vassilis Angelopoulos -->
@@ -42,7 +42,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THG_L1_ASK&amp;index=sp_phys</URL>
         <ProductKey>THG_L1_ASK</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
@@ -58,6 +58,226 @@
         <Name>Plots, CDF files, and listings from UCB</Name>
         <URL>http://themis.ssl.berkeley.edu/data/themis/thg/l1/asi/ask/</URL>
         <Description>CDF data files for download, organized by date.</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Athabasca, AB, Canada (ATHA), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Athabasca/ASI/full_PT3S</URL>
+        <Description>Univ. of Athabasca site, Lat 54.7, Long 246.7</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Athabasca, AB, Canada (ATHA), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Athabasca/ASI/thumb_PT3S</URL>
+        <Description>Univ. of Athabasca site, Lat 54.7, Long 246.7</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Chibougamau, QC, Canada (CHBG), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Chibougamau/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 49.8, Long 285.6</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Chibougamau, QC, Canada (CHBG), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Chibougamau/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 49.8, Long 285.6</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Ekati, Canada (EKAT), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Ekati/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site,Lat 64.8, Long 218.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Ekati, Canada (EKAT), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Ekati/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site,Lat 64.8, Long 218.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Flin Flon/The Pas, MB, Canada (TPAS), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/The.Pas/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 64.7, Long 249.3</Description>
+      </AccessURL>
+      <AccessURL>
+	     <Name>Flin Flon/The Pas, MB, Canada (TPAS), ASI Thumbnails Data</Name>
+		 <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/The.Pas/ASI/thumb_PT3S</URL>
+		 <Description>THEMIS-GBOs/UCLA site, Lat 64.7, Long 249.3</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Fort Simpson, NT, Canada (FSIM), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Fort.Simpson/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 54.0, Long 259.1</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Fort Simpson, NT, Canada (FSIM), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Fort.Simpson/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 54.0, Long 259.1</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Fort Smith, NT, Canada (FSMI), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Fort.Smith/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 61.8, Long 238.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Fort Smith, NT, Canada (FSMI), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Fort.Smith/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 61.8, Long 238.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Gillam, MB, Canada (GILL), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Gillam/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 56.4, Long 265.3</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Gillam, MB, Canada (GILL), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Gillam/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 56.4, Long 265.3</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Goose Bay, NL, Canada (GBAY), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Goose.Bay/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 53.3, Long 299.5</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Goose Bay, NL, Canada (GBAY), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Goose.Bay/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 53.3, Long 299.5</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Inuvik, NT, Canada (INUV), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Inuvik/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 68.4, Long 226.2</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Inuvik, NT, Canada (INUV), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Inuvik/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 68.4, Long 226.2</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kapuskasing, ON, Canada (KAPU), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kapuskasing/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, lat 49.4, long 277.7</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kapuskasing, ON, Canada (KAPU), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kapuskasing/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, lat 49.4, long 277.7</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kiana, AK (KIAN), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kiana/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 67.0, Long 199.6</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kiana, AK (KIAN), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kiana/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 67.0, Long 199.6</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kuujjuaq, QC, Canada (KUUJ), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kuujjuaq/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 58.3, Long 291.8 </Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Kuujjuaq, QC, Canada (KUUJ), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Kuujjuaq/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 58.3, Long 291.8 </Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>McGrath, AK (MCGR), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/McGrath/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 63.0, Long 204.4</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>McGrath, AK (MCGR), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/McGrath/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 63.0, Long 204.4</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Narsarsuaq, Greenland (NRSQ), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Narsarsuaq/ASI/full_PT3S</URL>
+        <Description>DTU Greenland/Denmark station, Lat 61.16  , Long 314.56</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Narsarsuaq, Greenland (NRSQ), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Narsarsuaq/ASI/thumb_PT3S</URL>
+        <Description>DTU Greenland/Denmark station, Lat 61.16  , Long 314.56</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Pinawa, MB, Canada (PINA), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Pinawa/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 50.2, Long 263.9</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Pinawa, MB, Canada (PINA), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Pinawa/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 50.2, Long 263.9</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Prince George (PGEO), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Prince.George/ASI/full_PT3S</URL>
+        <Description>Prince George, BC, Lat 53.8, Long 237.2</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Prince George (PGEO), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Prince.George/ASI/thumb_PT3S</URL>
+        <Description>Prince George, BC, Lat 53.8, Long 237.2</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Rankin Inlet, NU, Canada (RANK), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Rankin.Inlet/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 62.8, Long 267.9</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Rankin Inlet, NU, Canada (RANK), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Rankin.Inlet/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 62.8, Long 267.9</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Sanikiluaq, NU, Canada (SNKQ), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Sanikiluaq/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 56.5, Long 280.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Sanikiluaq, NU, Canada (SNKQ), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Sanikiluaq/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 56.5, Long 280.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Snap Lake, NT, Canada (SNAP), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Snap.Lake/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 63.6, Long 249.1</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Snap Lake, NT, Canada (SNAP), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Snap.Lake/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 63.6, Long 249.1</Description>
+      </AccessURL>
+      <AccessURL>
+	     <Name>Taloyoak, NT, Canada (TALO), Full Resolution Images</Name>
+	     <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Taloyoak/ASI/full_PT3S</URL>
+		 <Description>THEMIS-GBO/Carisma site, Lat 69.5, Long 266.4</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Taloyoak, NT, Canada (TALO), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Taloyoak/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 69.5, Long 266.4</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>White Horse, YT, Canada (WHIT), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Whitehorse/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 61.0, Long 224.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>White Horse, YT, Canada (WHIT), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Whitehorse/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 61.0, Long 224.8</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Yellowknife, NT, Canada (YKC), Full Resolution Images</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Yellowknife/ASI/full_PT3S</URL>
+        <Description>Geological Survey of Canada station, Lat 62.5, Long 245.7</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>Yellowknife, NT, Canada (YKC), ASI Thumbnails Data</Name>
+        <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/THEMIS/Ground/Yellowknife/ASI/thumb_PT3S</URL>
+        <Description>Geological Survey of Canada station, Lat 62.5, Long 245.7</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>

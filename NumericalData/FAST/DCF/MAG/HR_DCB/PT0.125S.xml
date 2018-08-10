@@ -1,59 +1,60 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
-    <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/FAST/DCF/MAG/HR_DCB/PT0.125S</ResourceID>
-        <ResourceHeader>
-            <ResourceName>FAST DCF High Resolution Magnetic Field Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
-            <Description>This data set provides 1-hour high-resolution fluxgate magnetometer data from the Fast Auroral SnapshoT Small Explorer (FAST) mission.   Data are available in different time resolutions from 8 to 516 samples per second, depending on the specific mode. They are in about 2 nT resolution and are provided in several coordinate systems: despun spacecraft, geocentric equatorial inertial, solar magnetic, field-aligned, field-aligned spacecraft, field-aligned spin plane, spinning spacecraft and spin-tone harmonic in despun spacecraft coordinates.  Data have been calibrated, despun, and detrended against the International Geomagnetic Reference Field (IGRF), using IGRF coefficients for the date of acquisition.  Non detrended data in spacecraft and Geocentric Equatorial Inertial coordinates are also provided. Ephemeris data are included. </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-                <Name>FAST Documentation</Name>
-                <URL>http://sprg.ssl.berkeley.edu/fast/scienceops/fastdocs.html</URL>
-            </InformationURL>
-        </ResourceHeader>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
-                <Description>In CDF via FTP from CDAWeb</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
-                <Description>In CDF via HTTP from CDAWeb</Description>
-            </AccessURL>
-            <Format>CDF</Format>
-        </AccessInformation>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
-                <ProductKey>FAST_HR_DCB</ProductKey>
-                <Description>Plots, lists, and data from CDAWeb.  The resource name is: FAST_HR_DCB</Description>
-            </AccessURL>
-            <Format>CDF</Format>
-        </AccessInformation>
-        <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/FAST/MAG</InstrumentID>
-        <MeasurementType>MagneticField</MeasurementType>
-        <TemporalDescription>
-            <TimeSpan>
-                <StartDate>1996-09-28T00:45:21.000Z</StartDate>
-                <StopDate>1998-10-09T06:21:19.000Z</StopDate>
-            </TimeSpan>
-            <Cadence>PT0.125S</Cadence>
-        </TemporalDescription>
-        <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-        <Caveats>Continuous coverage not guaranteed; check the inventory graph for coverage</Caveats>
-    </NumericalData>
+  <Version>2.2.2</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/FAST/DCF/MAG/HR_DCB/PT0.125S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FAST DCF High Resolution Magnetic Field Data</ResourceName>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <Description>This data set provides 1-hour high-resolution fluxgate magnetometer data from the Fast Auroral SnapshoT Small Explorer (FAST) mission.   Data are available in different time resolutions from 8 to 516 samples per second, depending on the specific mode. They are in about 2 nT resolution and are provided in several coordinate systems: despun spacecraft, geocentric equatorial inertial, solar magnetic, field-aligned, field-aligned spacecraft, field-aligned spin plane, spinning spacecraft and spin-tone harmonic in despun spacecraft coordinates.  Data have been calibrated, despun, and detrended against the International Geomagnetic Reference Field (IGRF), using IGRF coefficients for the date of acquisition.  Non detrended data in spacecraft and Geocentric Equatorial Inertial coordinates are also provided. Ephemeris data are included. </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>FAST Documentation</Name>
+        <URL>http://sprg.ssl.berkeley.edu/fast/scienceops/fastdocs.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
+        <Description>In CDF via FTP from CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
+        <Description>In CDF via HTTP from CDAWeb</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=FAST_HR_DCB&amp;index=sp_phys</URL>
+        <ProductKey>FAST_HR_DCB</ProductKey>
+        <Description>Plots, lists, and data from CDAWeb.  The resource name is: FAST_HR_DCB</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/FAST/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1996-09-28T00:45:21.000Z</StartDate>
+        <StopDate>1998-10-09T06:21:19.000Z</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.125S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <Caveats>Continuous coverage not guaranteed; check the inventory graph for coverage</Caveats>
+  </NumericalData>
 </Spase>

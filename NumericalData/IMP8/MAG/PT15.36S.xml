@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/IMP8/MAG/PT15.36S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 MAG 15.36s Magnetic Field Measurements</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>IMP 8 magnetic field measurements from tri-axis magnetometer. 
 Time resolution is 15.36 second.  Data are based on a 2010 data reprocessing
 by the PI team.  Parameter details below are based on the version of the data 
@@ -47,7 +47,7 @@ access to the data</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I8_15SEC_MAG&amp;index=sp_phys</URL>
         <ProductKey>I8_15SEC_MAG</ProductKey>
         <Description>Subset, plot and list data via CDAWeb</Description>
       </AccessURL>

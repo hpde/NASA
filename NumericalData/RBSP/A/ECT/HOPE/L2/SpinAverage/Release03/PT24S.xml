@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release03/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A ECT HOPE Science Release #3 Spin Averaged Level 2 Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>RBSP-A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Averaged Science Data. Electron ~15 to 50,000 eV, Ion ~1 to 50,000 eV Fluxes, Electrons and Ions measured in Alternate Spin Cadence</Description>
       <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel</Acknowledgement>
       <Contact>
@@ -62,7 +62,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/index.html/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL03_ECT-HOPE-SCI-L2SA&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_REL03_ECT-HOPE-SCI-L2SA</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
@@ -75,7 +75,7 @@
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2012-10-25T00:00:00.000</StartDate>
+        <StartDate>2012-10-25T00:00:00Z</StartDate>
         <RelativeStopDate>-P1M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT24S</Cadence>

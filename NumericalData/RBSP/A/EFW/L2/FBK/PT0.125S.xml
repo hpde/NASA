@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/EFW/L2/FBK/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A EFW Filterbank Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
-      <Description>This data set contains Level 2 filterbank data from the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  Average power and peak amplitudes from either 7 (default) or 13 logarithmically spaced band-pass ﬁlters are measured between 0.8 Hz and 6.5 kHz sampled at a cadence of 8 samples/s. Two sources may be input into the ﬁlter banks at any one time.  The possible sources include:.E12DC,E34DC,E56DC,.E12AC,E34AC,E56AC,.SCMU,SCMV,SCMW.(V1DC+V2DC+V3DC+V4DC)/4. In the default mode, V12ac, the AC coupled measurement of the electric ﬁeld from sensors 1 and 2 in the spin plane is input into the first ﬁlter bank and SCMw, the spin axis component of the search coil magnetic ﬁeld, serves as input into the second ﬁlter bank. The broadband ﬁlters provide a continuous stream of survey mode measurements over the entire orbit providing information on rapid time variations and bursty wave activity over a broad frequency spectrum. These measurements are also used as an input to burst trigger algorithms.
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <Description>This data set contains Level 2 filterbank data from the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  Average power and peak amplitudes from either 7 (default) or 13 logarithmically spaced band-pass &#xEF;&#xAC;&#x81;lters are measured between 0.8 Hz and 6.5 kHz sampled at a cadence of 8 samples/s. Two sources may be input into the &#xEF;&#xAC;&#x81;lter banks at any one time.  The possible sources include:.E12DC,E34DC,E56DC,.E12AC,E34AC,E56AC,.SCMU,SCMV,SCMW.(V1DC+V2DC+V3DC+V4DC)/4. In the default mode, V12ac, the AC coupled measurement of the electric &#xEF;&#xAC;&#x81;eld from sensors 1 and 2 in the spin plane is input into the first &#xEF;&#xAC;&#x81;lter bank and SCMw, the spin axis component of the search coil magnetic &#xEF;&#xAC;&#x81;eld, serves as input into the second &#xEF;&#xAC;&#x81;lter bank. The broadband &#xEF;&#xAC;&#x81;lters provide a continuous stream of survey mode measurements over the entire orbit providing information on rapid time variations and bursty wave activity over a broad frequency spectrum. These measurements are also used as an input to burst trigger algorithms.
 
 All these quantities, the nature of the on board signal processing, their filtering, time resolution and their respective coordinate systems are described in the EFW instrument paper (Wygant et al. 2013). </Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
@@ -54,7 +54,7 @@ All these quantities, the nature of the on board signal processing, their filter
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_EFW-L2_FBK&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_EFW-L2_FBK</ProductKey>
       </AccessURL>
       <Format>Text</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/BAI/M1/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses Solar Wind Plasma (SWOOPS) Ion Average Density, Temperature and Velocity</ResourceName>
-      <ReleaseDate>2018-05-25T15:20:27Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>This Data Set contains 1 hr Averages of the Ion Density, Temperature and Velocity Data from the Ulysses Solar Wind Observations Over the Poles of the Sun, SWOOPS, Instrument. Density Units are cm^-3, Temperature Units are &#xB0;K, Velocity Units are km/s. Data Set Contact: B.E. Goldstein, NASA Ames Research Center, USA. Principal Investigator: D.J. McComas, Southwest Research Institute, USA. Reference: Astron. Astrophys. Suppl. Ser., 92(2), 237-265, 1992. Relevant Web Sites: http://swoops.lanl.gov/</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute, USA, and M. Lancaster and C. Tranquille of the Ulysses Data System, ESA/ESTEC, NL See the UDS User's Guide, UDS_UG-02, available for Download from http://sci.esa.int/ulysses/.</Acknowledgement>
       <Contact>
@@ -42,7 +42,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=UY_M1_BAI&amp;index=sp_phys</URL>
         <ProductKey>UY_M1_BAI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

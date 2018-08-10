@@ -1,54 +1,55 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.3</Version>
-    <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2HR</ResourceID>
-        <ResourceHeader>
-            <ResourceName>ACE SWICS 1.1 Solar Wind 2-Hour Data </ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
-            <Description>This ACE SWICS 1.1 data set contains Solar Wind Ion Composition Spectrometer (SWICS) level-2 2-hr averaged solar wind parameters, including density (He+2), bulk and thermal ion speeds (He+2, C+5, O+6, Fe+10), composition (He/O, C/O, Ne/O, Mg/O, Si/O, Fe/O), and charge states (C+6/C+5, O+7/O+6 Carbon, Oxygen, Fe, Ne, Mg, Si) and solar wind type indicators at all solar wind speeds above 300 km/s (protons) and 170 km/s (Fe+16). Distribution functions of H and He isotopes are measured of both solar and interstellar sources up to energies of 100 keV/e.  This SWICS 1.1 dataset consists of a re-release of significantly improved time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. It is a major new version produced with completely redesigned analysis methods to account more rigorously for instrumental and statistical effects (Shearer et al. 2014). Rare elements are now identified more reliably and estimates of statistical error are provided. These release notes describe the data, the methods used to determine them, and issues of data quality and measurement uncertainty.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-        </ResourceHeader>
-        <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
-            <Availability>Online</Availability>
-            <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>ACE Science Center (ASC)</Name>
-                <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SWICS_SWIMS.html</URL>
-            </AccessURL>
-            <AccessURL>
-                <Name>CDAWeb</Name>
-                <URL>https://cdaweb.gsfc.nasa.gov</URL>
-                <ProductKey>AC_H3_SWI</ProductKey>
-            </AccessURL>
-            <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
-                <Description>AC_H3_SWI</Description>
-            </AccessURL>
-            <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
-                <Description>In CDF via HTTP from CDAWeb</Description>
-            </AccessURL>
-            <Format>Text</Format>
-        </AccessInformation>
-        <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-        <InstrumentID>spase://SMWG/Instrument/ACE/SWIMS</InstrumentID>
-        <InstrumentID>spase://SMWG/Instrument/ACE/SWICS</InstrumentID>
-        <MeasurementType>ThermalPlasma</MeasurementType>
-        <MeasurementType>IonComposition</MeasurementType>
-        <TemporalDescription>
-            <TimeSpan>
-                <StartDate>1998-01-01T00:00:00</StartDate>
-                <StopDate>2011-08-23T00:00:00</StopDate>
-                <Note> The ACE SWICS 1.1 data set covers launch up to August 23, 2011, when a radiation and age-induced hardware anomaly altered the instrument's operational state. </Note>           
-</TimeSpan>
-            <Cadence>PT2H</Cadence>
-        </TemporalDescription>
-        <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    </NumericalData>
+  <Version>2.2.3</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2HR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE SWICS 1.1 Solar Wind 2-Hour Data </ResourceName>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <Description>This ACE SWICS 1.1 data set contains Solar Wind Ion Composition Spectrometer (SWICS) level-2 2-hr averaged solar wind parameters, including density (He+2), bulk and thermal ion speeds (He+2, C+5, O+6, Fe+10), composition (He/O, C/O, Ne/O, Mg/O, Si/O, Fe/O), and charge states (C+6/C+5, O+7/O+6 Carbon, Oxygen, Fe, Ne, Mg, Si) and solar wind type indicators at all solar wind speeds above 300 km/s (protons) and 170 km/s (Fe+16). Distribution functions of H and He isotopes are measured of both solar and interstellar sources up to energies of 100 keV/e.  This SWICS 1.1 dataset consists of a re-release of significantly improved time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. It is a major new version produced with completely redesigned analysis methods to account more rigorously for instrumental and statistical effects (Shearer et al. 2014). Rare elements are now identified more reliably and estimates of statistical error are provided. These release notes describe the data, the methods used to determine them, and issues of data quality and measurement uncertainty.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>ACE Science Center (ASC)</Name>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SWICS_SWIMS.html</URL>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H3_SWI&amp;index=sp_phys</URL>
+        <ProductKey>AC_H3_SWI</ProductKey>
+      </AccessURL>
+      <AccessURL>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
+        <Description>AC_H3_SWI</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h3/</URL>
+        <Description>In CDF via HTTP from CDAWeb</Description>
+      </AccessURL>
+      <Format>Text</Format>
+    </AccessInformation>
+    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SWIMS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ACE/SWICS</InstrumentID>
+    <MeasurementType>ThermalPlasma</MeasurementType>
+    <MeasurementType>IonComposition</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1998-01-01T00:00:00</StartDate>
+        <StopDate>2011-08-23T00:00:00</StopDate>
+        <Note> The ACE SWICS 1.1 data set covers launch up to August 23, 2011, when a radiation and age-induced hardware anomaly altered the instrument's operational state. </Note>
+      </TimeSpan>
+      <Cadence>PT2H</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+  </NumericalData>
 </Spase>

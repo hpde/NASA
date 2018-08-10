@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L2/TOFXPHHLEHT</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B RBSPICE TOF x PH Low Energy High Time Resolution Hydrogen Rates converted Level-2 data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description> This data set contains Van Allen Probe B RBSPICE (Radiation Belt Storm Probes Ion Composition Experiment) TOF x (Time of Flight) pulse height hydrogen and oxygen fluxes that are measured at low-energy and high-time resolution by 6 telescopes in 28 channels from ~0.01-2.0 MeV.  Data are available in physical units (counts/(s*sr*cm^2*MeV)) by telescope in sector order, with spin accumulations plotted at the end of accumulation.  Also available are percentage error of measurement, quality flag, current sector number where each spin is dividied into 36 sectors, duration of the accumulation, current spin number of the spacecraft, orbit number, dipole L value using the SM reference frame, and position of the spacecraft in SM coordinates.</Description>
       <Acknowledgement>Please acknowledge data provider, Lou Lanzerotti at New Jersey Institute of Technology, and NASA Space Physics Data Facility (SPDF) CDAWeb when using these data.</Acknowledgement>
       <Contact>
@@ -56,7 +56,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT&amp;index=sp_phys</URL>
         <ProductKey>RBSP-B-RBSPICE_LEV-2_TOFXPHHLEHT</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/THEMIS/E/Fits/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-E:  On Board spin fits (FIT) of Electric (EFI) and Magnetic (FGM) field. On-Board Spin-fit electric and magnetic field data</ResourceName>
-      <ReleaseDate>2018-04-23T15:37:39Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>THEMIS-E:  On Board spin fits of Electric (EFI) and Magnetic (FGM) fields. This file contains data EFI and FGM that has been despun on-board to 3 second resolution. It stores meta information like the number of points that contributed to each spin and the standard deviation of those points. For the EFI data it also stores variables with the Z component of the EFI data zeroed and the Z component of the EFI estimated using the E.B=0 equality. The need to use an estimated Z axis for the EFI is due to error in measurements from the EFI axial booms. These data are provided in DSL (despun spacecraft L-Z vector), GSM, and GSE coordinates.</Description>
       <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: J. W. Bonnell and F. S. Mozer for use of EFI data.</Acknowledgement>
       <Contact>
@@ -46,7 +46,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THE_L2_FIT&amp;index=sp_phys</URL>
         <ProductKey>THE_L2_FIT</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb.</Description>
       </AccessURL>

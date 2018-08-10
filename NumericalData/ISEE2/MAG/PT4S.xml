@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 4-sec data</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2 
 satellite, in spacecraft coordinates (close to GSE), available from UCLA and CDAWeb 
 value-added interfaces and, via ftp, in binary from UCLA and in CDF from 
@@ -49,7 +49,7 @@ used for accessing data (see below).</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/sp_phys</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISEE2_4SEC_MFI&amp;index=sp_phys</URL>
         <ProductKey>ISEE2_4SEC_MFI</ProductKey>
         <Description>Plots, lists and files from CDAWeb</Description>
       </AccessURL>

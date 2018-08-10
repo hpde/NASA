@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>LANL1997 Magnetospheric Plasma Analyzer (MPA) at 87 sec Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>LANL 97A MPA data</AlternateName>
-      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>The LANL 1997-97A MPA data set contains various parameters in a variety of coordinates systems including GEI, spacecraft, polar geographic, and polar magnetic coordinates at about 87 s resolution. These parameters include universal time, denisty, velocity, and temperature for both low and high energy ions and electrons as well as position information and instrument status flags. </Description>
       <Acknowledgement>Los Alamos National Laboratory; Dr. Michelle Thomsen; Dr. Michael G. Henderson</Acknowledgement>
       <Contact>
@@ -45,7 +45,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=L7_K0_MPA&amp;index=sp_phys</URL>
         <ProductKey>L7_K0_MPA</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/TWINS1/Ephemeris/PT1M45S</ResourceID>
     <ResourceHeader>
       <ResourceName>TWINS 1 - Spacecraft Ephemeris</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>Definitive orbit data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -45,7 +45,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TWINS1_OR_DEF&amp;index=sp_phys</URL>
         <ProductKey>TWINS1_OR_DEF</ProductKey>
         <Description>TWINS 1 spacecraft ephemeris data with subset, plot, list functionalities 
 from CDAWeb</Description>

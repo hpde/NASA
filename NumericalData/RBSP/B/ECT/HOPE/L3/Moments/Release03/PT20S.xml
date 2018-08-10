@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L3/Moments/Release03/PT20S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B ECT HOPE Spin resolved Level 3 Science Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>This data set contains spin resolved data from the Van Allen Probe B ECT HOPE plasma spectrometer.  Plasma moments from electrons &gt;200 eV and ions &gt;30 eV are measured at apogee in alternate spin cadence. Please check the Data Quality and Caveats page on the ECT home page and contact the ECT team for known data issues</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -53,7 +53,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPB_REL03_ECT-HOPE-MOM-L3&amp;index=sp_phys</URL>
         <ProductKey>RBSPB_REL03_ECT-HOPE-MOM-L3</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

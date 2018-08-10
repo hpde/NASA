@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/L3/PAP/TOFXEH</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A RBSPICE TOF x Energy Hydrogen Pitch Angle Distribution Data</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>This data set contains Van Allen Probe A RBSPICE (Radiation Belt Storm Probes Ion Composition Experiment) Level 3 data of  
 TOF x (Time of Flight) pulse height proton intensities and pressures that are sorted by pitch angles.  Unidirectional differential proton fluxes are measured at high-energy and low-time resolution by 6 telescopes in 28 channels from 50 KeV-660 KeV and are binned by pitch angles in 17 bins.  Data are available in physical units (counts/(s*cm^2*MeV)). Also available are percentage error of measurement, quality flag for the measurement for each pitch angle bin/timestep, calculated proton perpendicular and parallel partial pressure,number density calculated by integrating the distribution function and pictch angle for protons, pitch angle and energy integrated total intensity of protons observed during the spin, and omni directional total proton flux per spin. In addition, the data set contains orbit number, positions of the spacecraft in GEO, SM, and GSM coordinates, and dipole L values in different reference frames.   
 
@@ -50,7 +50,7 @@ Level 3 data include all level 2 data plus spacecraft positions, pitch angles of
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH&amp;index=sp_phys</URL>
         <ProductKey>RBSP-A-RBSPICE_LEV-3-PAP_TOFXEH</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

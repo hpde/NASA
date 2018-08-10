@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS-A:  Solid State Telescope (SST): Energy flux spectrogram, electron/ion ground-calculated fluxes (30 keV - 300 keV).</ResourceName>
       <AlternateName>THEMIS-A SST</AlternateName>
-      <ReleaseDate>2018-04-23T15:37:39Z</ReleaseDate>
+      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>THEMIS-A: The Solid State Telescope (SST) measures the incoming intensity (flux per solid angle) of superthermal electrons and ions.  The spacecraft is fitted with two units (heads), each SST unit has two pairs of opposing ion and electron sensors.  Each single sensor covers an angle of 36 degrees.  The units are oriented such that one pair is always centered in the rotation plane, the other oriented at a maximum angle of 54 degrees off the plane.  Each pair of units are oriented opposite each other allowing both ion and electron sensors to sweep out a maximum of 92% of the sky (45x45 degree required Elevation by Azimuth FOV, 108x22 raw) .  The ion and electron sensors primarily measure particles between 30-300 keV and 30-100 keV respectively with a maximum capability of 20-6000 keV and 25-1000 keV.  Full distribution data is measured over 128 angles and 16 energy bins, reduced distribution uses 6 angles and 16 energy bins, and burst mode data has 64 angles in 16 energy bins.  Matched and paired electron broom magnets produce quadrapole fields reducing magnetic contamination.  A mechanical attenuator is used to increase the instruments dynamical range avoiding oversaturation near the plasma sheet edge.</Description>
       <Acknowledgement>NASA Contract NAS5-02099</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L2_SST&amp;index=sp_phys</URL>
         <ProductKey>THA_L2_SST</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb.</Description>
       </AccessURL>
