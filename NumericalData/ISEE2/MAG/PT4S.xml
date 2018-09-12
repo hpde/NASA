@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 4-sec data</ResourceName>
+	  <DOI>10.21978/P8PG8V</DOI>
       <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2 
 satellite, in spacecraft coordinates (close to GSE), available from UCLA and CDAWeb 
@@ -13,6 +14,15 @@ CDAWeb. (This descriptor updated, 6/20110, by J.King, to reflect CDAWeb accessib
 and to insert CDAWeb parameter keys.)</Description>
       <Acknowledgement>UCLA-IGPP ISEE Magnetometer Team, and the source
 used for accessing data (see below).</Acknowledgement>
+	  <PublicationInfo>
+		<Authors>Russell, Christopher T.</Authors>
+		<PublicationDate>1987-01-01T00:00:00</PublicationDate>
+		<PublishedBy>UCLA and SPDF</PublishedBy>
+	  </PublicationInfo>
+	  <Contact>
+		<PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+		<Role>PrincipalInvestigator</Role>
+	  </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>DataProducer</Role>

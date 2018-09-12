@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 1-min data at CDAWeb</ResourceName>
+	  <DOI>10.21978/P8T923</DOI>
       <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
       <Description>This data set contains magnetic field component
 and magnitude averages every minute, with components given in spacecraft, 
@@ -18,6 +19,15 @@ also given.  Data are accessible as plots, lists and files from
 CDAWeb, and as CDF files from CDAWeb's ftp area.</Description>
       <Acknowledgement>ISEE Magnetometer Team at UCLA/IGPP and the 
 CDAWeb team at NASA/GSFC</Acknowledgement>
+	  <PublicationInfo>
+		<Authors>Russell, Christopher T.</Authors>
+		<PublicationDate>1987-01-01T00:00:00</PublicationDate>
+		<PublishedBy>UCLA and SPDF</PublishedBy>
+	  </PublicationInfo>
+	  <Contact>
+		<PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+		<Role>PrincipalInvestigator</Role>
+	  </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>DataProducer</Role>
