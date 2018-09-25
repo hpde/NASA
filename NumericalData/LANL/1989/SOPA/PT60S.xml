@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>LANL 1989 Synchronous Orbit Particle Analyzer (SOPA) at 60 sec Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>LANL 046 SOPA data</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2018-09-20T14:26:54Z</ReleaseDate>
       <Description>The LANL 1989-046 SOPA data set contains various parameters in a variety of coordinates systems including GEI, spacecraft, polar geographic, and polar magnetic coordinates at about 60 s resolution. These parameters include universal time, spacecraft location, electron and on density, electron and on temperature, electron and ion particle flux, electron and ion energies, electron and ion rangies, and data quality flags. </Description>
       <Acknowledgement>Los Alamos National Laboratory;  Dr. Reiner Friedel</Acknowledgement>
       <Contact>
@@ -25,11 +25,6 @@
         <Name>Los Alamos Nation Laboratory spacecraft Synchronous Orbit Particle Analyzer (SOPA)</Name>
         <URL>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/92JA01139</URL>
         <Description>Journal of Geophysical Research Article containing information on the LANL SOPA instrument.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Los Alamos Nation Laboratory spacecraft Synchronous Orbit Particle Analyzer (SOPA)</Name>
-        <URL>http://leadbelly.lanl.gov/lanl_ep_data/</URL>
-        <Description>LANL website containing information on the LANL SOPA instrument.</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_LANL1989_HDR_SPA_60S</PriorID>
       <PriorID>spase://VMO/NumericalData/LANL/LANL1989/SOPA/PT60S</PriorID>
