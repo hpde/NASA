@@ -1,14 +1,15 @@
+<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema file:/C:/Projects/Voyager/spase-2_2_2.xsd">
-   <Version>2.3.0</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Heliosphere/PT1H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 1 Heliosphere Magnetic Field in Heliographic and Inertial Heliographic Coordinates, Hourly Data</ResourceName>
-         <ReleaseDate>2018-07-27T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Heliosphere/PT1H</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 Heliosphere Magnetic Field in Heliographic and Inertial Heliographic Coordinates, Hourly Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
-This Data Set contains hourly Averages of the Interplanetary Magnetic Field (IMF) Measurements obtained by the Triaxial Fluxgate Magnetometer Experiment on Voyager 1. Identical Instruments on Voyager 1 and 2 were designed to measure the IMF between Earth and Saturn (10 AU) during the primary Voyager Mission. The Design and Performance yielded Absolute Accuracies to better than &lt;0.1 nT. In general, each Component of the hourly Average has an Uncertainty of up to (&#177;0.05 nT) in the Region beyond 10 AU. More accurate Measurements can be obtained by Special Processing of the Data, but it was not feasible to do this for the entire Data Set included here. The Magnetic Field Magnitude in nT is provided along with Angles of the Field Vector in the Spacecraft-centered Heliographic (HG) Coordinate System, also known as RTN.
+This Data Set contains hourly Averages of the Interplanetary Magnetic Field (IMF) Measurements obtained by the Triaxial Fluxgate Magnetometer Experiment on Voyager 1. Identical Instruments on Voyager 1 and 2 were designed to measure the IMF between Earth and Saturn (10 AU) during the primary Voyager Mission. The Design and Performance yielded Absolute Accuracies to better than &lt;0.1 nT. In general, each Component of the hourly Average has an Uncertainty of up to (&#xB1;0.05 nT) in the Region beyond 10 AU. More accurate Measurements can be obtained by Special Processing of the Data, but it was not feasible to do this for the entire Data Set included here. The Magnetic Field Magnitude in nT is provided along with Angles of the Field Vector in the Spacecraft-centered Heliographic (HG) Coordinate System, also known as RTN.
 
 * Coordinate System
 * =================
@@ -81,45 +82,45 @@ The Magnetic Field Components may be recovered by using F2, delta, and lambda. N
 | Tel.: 301-286-5956               |
 | Fax: 301-286-1433                |
 +----------------------------------+</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Heliosphere.Outer/PT1H</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</URL>
-            <ProductKey>VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</ProductKey>
-            <Description>This Collection is archived with the NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1977-09-05T00:00:00.00</StartDate>
-            <StopDate>2004-12-31T01:00:00.000</StopDate>
-         </TimeSpan>
-         <Cadence>PT1H</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Heliosphere.Outer/PT1H</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</URL>
+        <ProductKey>VG1-SW-MAG-4-SUMM-HGCOORDS-1HR-V1.0</ProductKey>
+        <Description>This Collection is archived with the NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-05T00:00:00.00</StartDate>
+        <StopDate>2004-12-31T01:00:00.000</StopDate>
+      </TimeSpan>
+      <Cadence>PT1H</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.Outer</ObservedRegion>
+  </NumericalData>
 </Spase>

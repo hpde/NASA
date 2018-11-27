@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/Saturn/PT6M24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Saturn Low Energy Charged Particle (LECP) Far Encounter, Step Period, 6.4 min Data</ResourceName>
-      <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
       <Description>Data Set Overview
 
 * Data Set Description
@@ -114,7 +114,7 @@ To determine the Energy Bandpass, one must judge the Mass Species of the detecte
       </Contact>
       <InformationURL>
         <Name>VG1-S-LECP-3-RDR-STEP-6MIN-V1.0</Name>
-        <URL>http://pds-ppi.igpp.ucla.edu/data/VG1-S-LECP-3-RDR-STEP-6MIN-V1.0/AAREADME.TXT</URL>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-S-LECP-3-RDR-STEP-6MIN-V1.0/AAREADME.TXT</URL>
         <Description>The Document describing the Contents of the Collection.</Description>
         <Language>En</Language>
       </InformationURL>
@@ -126,7 +126,7 @@ To determine the Energy Bandpass, one must judge the Mass Species of the detecte
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>PDS/PPI</Name>
-        <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-S-LECP-3-RDR-STEP-6MIN-V1.0</URL>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-S-LECP-3-RDR-STEP-6MIN-V1.0</URL>
         <ProductKey>VG1-S-LECP-3-RDR-STEP-6MIN-V1.0</ProductKey>
         <Description>This Collection is archived with NASA Planetary Data System.</Description>
         <Language>En</Language>

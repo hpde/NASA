@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/LANL/Avg/SOPA/PT1D</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL Daily-averaged electron fluxes from the Synchronous Orbit Particle Spectrometer (SOPA)</ResourceName>
-      <ReleaseDate>2018-09-25T16:00:23Z</ReleaseDate>
-      <ReleaseDate>2018-09-25T16:00:23Z</ReleaseDate>
+      <ReleaseDate>2018-04-04T18:19:57Z</ReleaseDate>
       <Description>Daily-averaged electron fluxes from the Los Alamos
 				National Laboratory (LANL) Synchronous Orbit Particle Spectrometer
 				(SOPA) Daily averages from each geosynchronous satellite available

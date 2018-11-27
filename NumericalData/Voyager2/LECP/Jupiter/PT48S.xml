@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/LECP/Jupiter/PT48S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 Jupiter Low Energy Charged Particle (LECP) Far Encounter, Step Period, 48 s Data</ResourceName>
-         <ReleaseDate>2018-07-17T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/LECP/Jupiter/PT48S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 2 Jupiter Low Energy Charged Particle (LECP) Far Encounter, Step Period, 48 s Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 * Data Set Description
@@ -22,14 +22,14 @@ The LECP Instrument has a rotating Head for obtaining angular Anisotropy Measure
 
 The Cycle Time for the Rotation is 25.6 min or 48 min during Cruise Mode, and 48 s or 192 s during the Planetary Encounter.
 
-The Data were originally collected in the Form of &quot;Rate&quot; Data which were not always converted to the usual Physical Units. The Reason is that such a Conversion would depend on uncertain Determinations such as the Mass Species of the Particles and the Level of the Background. Both the Mass Species and the Background are generally determined from context during the Study of particular Regions. To convert &quot;Rate&quot; to &quot;Intensity&quot; for a particular Channel, one performs the following Tasks:
+The Data were originally collected in the Form of "Rate" Data which were not always converted to the usual Physical Units. The Reason is that such a Conversion would depend on uncertain Determinations such as the Mass Species of the Particles and the Level of the Background. Both the Mass Species and the Background are generally determined from context during the Study of particular Regions. To convert "Rate" to "Intensity" for a particular Channel, one performs the following Tasks:
 
 * 1) Decide on the Level of Background Contamination and subtract that off the given Rate Level. The Background is to be determined from context and from making use of Sector 8 Rates (Sector 8 is covered by a 2 mm Aluminium Sunshield and is used for Data Calibration).
 * 2) Divide the Background-corrected Rate by the Geometric Factor of the Channel and by the Energy Bandpass of the Channel.
 
 The Geometric Factor is found in the Entry for CHANNEL_GEOMETRIC_FACTOR as associated with the CHANNEL_ID of each Channel.
 
-To determine the Energy Bandpass, one must judge the Mass Species of the detected Particles (for Ions but not for Electrons). The Energy Bandpasses are given in the Entries MINIMUM_INSTRUMENT_PARAMETER and MAXIMUM_INSTRUMENT_PARAMETER in Table FPLECPENERGY, and are given in the Form of &quot;Energy per Nucleon&quot;. For Channels that begin their Names with the Designations &quot;CH&quot;, these Bandpasses can be used on Mass Species that are accepted into that Channel. See the Entries for MINIMUM_INSTRUMENT_PARAMETER and MAXIMUM_INSTRUMENT_PARAMETER in Table FPLECPCHANZ, which give the Minimum and Maximum &quot;Z&quot; Value accepted. Note that these Entries are Blank for Electron Channels. For other Channels the given Bandpass refers only to the lowest Z Value accepted. The Bandpasses for other Z Values are not all known, but some are given in the Literature (e.g., Krimigis et al., (1979a)). The final Product of these Instructions will be the Particle Intensity in Units of counts/(cm^2 s sr keV). LECP Data can also be expressed in the Form of Flux, whose Units are (cm^2 s sr)^-1.
+To determine the Energy Bandpass, one must judge the Mass Species of the detected Particles (for Ions but not for Electrons). The Energy Bandpasses are given in the Entries MINIMUM_INSTRUMENT_PARAMETER and MAXIMUM_INSTRUMENT_PARAMETER in Table FPLECPENERGY, and are given in the Form of "Energy per Nucleon". For Channels that begin their Names with the Designations "CH", these Bandpasses can be used on Mass Species that are accepted into that Channel. See the Entries for MINIMUM_INSTRUMENT_PARAMETER and MAXIMUM_INSTRUMENT_PARAMETER in Table FPLECPCHANZ, which give the Minimum and Maximum "Z" Value accepted. Note that these Entries are Blank for Electron Channels. For other Channels the given Bandpass refers only to the lowest Z Value accepted. The Bandpasses for other Z Values are not all known, but some are given in the Literature (e.g., Krimigis et al., (1979a)). The final Product of these Instructions will be the Particle Intensity in Units of counts/(cm^2 s sr keV). LECP Data can also be expressed in the Form of Flux, whose Units are (cm^2 s sr)^-1.
 
 * Far Encounter Channel Definitions for Voyager 2 LECP
 * ====================================================
@@ -72,7 +72,7 @@ To determine the Energy Bandpass, one must judge the Mass Species of the detecte
 | 33     | P31     | 213.000     | 1000.000     | 250.000      | 1.31000                    | E4E3                |
 | 34     | A39     | 0.091       | 0.233        | 0.100        | 0.09750                    | E0(E2)              |
 | 35     | A33     | 0.230       | 0.480        | 0.350        | 0.09750                    | E0E2(E3)            |
-| 36     | A46     | 0.147       | 2.000        | 0.600        | 0.44100                    | &apos;D1F1,CA&apos; |
+| 36     | A46     | 0.147       | 2.000        | 0.600        | 0.44100                    | 'D1F1,CA' |
 | 37     | A3      | 0.420       | 1.700        | 0.600        | 0.44100                    | E1E2(E3)            |
 | 38     | A4      | 1.800       | 4.000        | 2.500        | 0.44100                    | E1E2(E3L12)         |
 | 39     | A12     | 4.200       | 7.800        | 5.000        | 0.53900                    | E2E3(E4L23)         |
@@ -108,45 +108,45 @@ To determine the Energy Bandpass, one must judge the Mass Species of the detecte
 | 69     | E0      |             |              |              |                            | Singles             |
 | 70     | E1      |             |              |              |                            | Singles             |
 +-----------------------------------------------------------------------------------------------------------------+</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG2-J-LECP-3-RDR-STEP-48SEC-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager2/LECP/Jupiter/PT48S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</URL>
-            <ProductKey>VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</ProductKey>
-            <Description>This Collection is archived with NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/LECP</InstrumentID>
-      <MeasurementType>EnergeticParticles</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1979-06-30T23:59:59.50</StartDate>
-            <StopDate>1979-07-22T00:00:04.54</StopDate>
-         </TimeSpan>
-         <Cadence>PT48S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Jupiter</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG2-J-LECP-3-RDR-STEP-48SEC-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager2/LECP/Jupiter/PT48S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</URL>
+        <ProductKey>VG2-J-LECP-3-RDR-STEP-48SEC-V1.0</ProductKey>
+        <Description>This Collection is archived with NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/LECP</InstrumentID>
+    <MeasurementType>EnergeticParticles</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1979-06-30T23:59:59.50</StartDate>
+        <StopDate>1979-07-22T00:00:04.54</StopDate>
+      </TimeSpan>
+      <Cadence>PT48S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Jupiter</ObservedRegion>
+  </NumericalData>
 </Spase>

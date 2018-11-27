@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT0.0172S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 1 Jupiter Plasma Wave Spectrometer (PWS) Edited Spectrum Analyzer, Version 1.0, 0.0172 s Full Resolution Data</ResourceName>
-         <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT0.0172S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 Jupiter Plasma Wave Spectrometer (PWS) Edited Spectrum Analyzer, Version 1.0, 0.0172 s Full Resolution Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 This Data Set consists of Electric Field Spectrum Analyzer Data from the Voyager 1 Plasma Wave Subsystem obtained during the entire Mission. Data after 2013-12-31 will be added to the Archive on subsequent Volumes. The Data Set encompasses all Spectrum Analyzer Observations obtained in the Cruise Mission Phases before, between, and after the Jupiter and Saturn Encounter Phases as well as those obtained during the two Encounter Phases.
@@ -67,52 +67,52 @@ In the following Table, we present the Hexadecimal ID for the various Telemetry 
 | 0E         | GS-6    | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as GS-3    |
 | 16         | OC-2    | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as GS-3    |
 | 17         | OC-1    | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as GS-3    |
-| 18         | &#8224;CR-5A  | 0.5                | 4.0         | 0.425                 | 0.4325               |                 |
+| 18         | &#x2020;CR-5A  | 0.5                | 4.0         | 0.425                 | 0.4325               |                 |
 | 19         | GS-10   | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as GS-3    |
 | 1A         | GS-8    | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as GS-3    |
-| 1D         | &#8224;UV-5A  | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as CR-5A   |
+| 1D         | &#x2020;UV-5A  | 0.5                | 4.0         | 0.425                 | 0.4325               | Same as CR-5A   |
 +--------------------------------------------------------------------------------------------------------------------------+
 
-&#8224;In CR-5A and UV-5A, the PWS is cycled at its 0.5 s per Frequency Step or 4 s per Spectrum Rate, but four Measurements are summed onboard in 10-bit Accumulators and these 10-bit Sums are downlinked. On the Ground, the Sums are divided by 4, hence providing, in a sense, 16 s is dropped onboard in order to avoid LECP Stepper Motor Interference.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG1-J/S/SS-PWS-2-RDR-SAFULL-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG1-J-S-SS-PWS-2-RDR-SAFULL-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager1/PWS/Jupiter/PT0.0172S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG1-J_S_SS-PWS-2-RDR-SAFULL-V1.0</URL>
-            <ProductKey>VG1-J/S/SS-PWS-2-RDR-SAFULL-V1.0</ProductKey>
-            <Description>This Collection is archived with NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
-      <MeasurementType>Waves.Passive</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1977-09-05T14:19:47.60</StartDate>
-            <StopDate>2014-01-01T00:00:00.00</StopDate>
-         </TimeSpan>
-         <Cadence>PT0.0172S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Jupiter</ObservedRegion>
-   </NumericalData>
+&#x2020;In CR-5A and UV-5A, the PWS is cycled at its 0.5 s per Frequency Step or 4 s per Spectrum Rate, but four Measurements are summed onboard in 10-bit Accumulators and these 10-bit Sums are downlinked. On the Ground, the Sums are divided by 4, hence providing, in a sense, 16 s is dropped onboard in order to avoid LECP Stepper Motor Interference.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG1-J/S/SS-PWS-2-RDR-SAFULL-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-J-S-SS-PWS-2-RDR-SAFULL-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager1/PWS/Jupiter/PT0.0172S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG1-J_S_SS-PWS-2-RDR-SAFULL-V1.0</URL>
+        <ProductKey>VG1-J/S/SS-PWS-2-RDR-SAFULL-V1.0</ProductKey>
+        <Description>This Collection is archived with NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-05T14:19:47.60</StartDate>
+        <StopDate>2014-01-01T00:00:00.00</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.0172S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Jupiter</ObservedRegion>
+  </NumericalData>
 </Spase>

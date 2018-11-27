@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT1H</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 1 Jupiter Plasma Wave Spectrometer (PWS) Resampled Spectrum Analyzer, Version 1.0, 1 h Average Data</ResourceName>
-         <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT1H</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 Jupiter Plasma Wave Spectrometer (PWS) Resampled Spectrum Analyzer, Version 1.0, 1 h Average Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 This Data Set consists of Electric Field Spectrum Analyzer Data from the Voyager 1 Plasma Wave Subsystem obtained during the entire Mission. Data after 2013-12-31 will be added to the Archive on subsequent Volumes. The Data Set encompasses all Spectrum Analyzer Observations obtained in the Cruise Mission Phases before, between, and after the Jupiter and Saturn Encounter Phases as well as those obtained during the two Encounter Phases.
@@ -59,45 +59,45 @@ Spectral Density Units may be obtained by dividing the Square of the Electric Fi
 * specdens=(efield(ichan))^2/bandwidth(ichan)
 
 Finally, Power Flux may be obtained by dividing the Spectral Density by the Impedance of Free Space in Ohms:</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG1-J/S/SS-PWS-4-SUMM-SA1HOUR-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG1-J-S-SS-PWS-4-SUMM-SA1HOUR-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager1/PWS/Jupiter/PT1H</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG1-J_S_SS-PWS-4-SUMM-SA1HOUR-V1.0</URL>
-            <ProductKey>VG1-J/S/SS-PWS-4-SUMM-SA1HOUR-V1.0</ProductKey>
-            <Description>This Collection is archived with NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
-      <MeasurementType>Waves.Passive</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1977-09-05T14:00:00.00</StartDate>
-            <StopDate>2014-01-01T00:00:00.00</StopDate>
-         </TimeSpan>
-         <Cadence>PT1H</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Jupiter</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG1-J/S/SS-PWS-4-SUMM-SA1HOUR-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-J-S-SS-PWS-4-SUMM-SA1HOUR-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager1/PWS/Jupiter/PT1H</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG1-J_S_SS-PWS-4-SUMM-SA1HOUR-V1.0</URL>
+        <ProductKey>VG1-J/S/SS-PWS-4-SUMM-SA1HOUR-V1.0</ProductKey>
+        <Description>This Collection is archived with NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1977-09-05T14:00:00.00</StartDate>
+        <StopDate>2014-01-01T00:00:00.00</StopDate>
+      </TimeSpan>
+      <Cadence>PT1H</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Jupiter</ObservedRegion>
+  </NumericalData>
 </Spase>

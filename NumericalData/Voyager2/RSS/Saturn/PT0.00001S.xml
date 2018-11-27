@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/RSS/Saturn/PT0.00001S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 Radio Science Subsystem (RSS) Saturn Radio Occultation, Version 1.0, 0.00001 s Raw Data</ResourceName>
-         <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/RSS/Saturn/PT0.00001S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 2 Radio Science Subsystem (RSS) Saturn Radio Occultation, Version 1.0, 0.00001 s Raw Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * ================
 
 This Data Set consists of Raw Data collected during the Saturn Radio Occultation of Voyager 2 on 26 August 1981, Ring Scattering Data collected during the same Time Period, Test and Calibration Data collected about 8 h earlier, and Ancillary Files that might be useful in Analysis of those Data. The Raw Data are sampled Voltage Outputs from Receivers tuned to the Voyager Carrier Frequencies at both S-band and X-band during the Occultation. The Data have been reduced to give Profiles of Temperature and Pressure as a Function of Height in the Atmosphere (Lindal et al., 1985) and to infer Magnetic Field Orientations in the upper Ionosphere (Hinson, 1984).
@@ -21,16 +21,16 @@ Related Data Sets of possible interest include:
 | DATA_SET_ID             | Description                                                            |
 ----------------------------------------------------------------------------------------------------
 | VG1-SSA-RSS-1-ROCC-V1.0 | Titan Radio Occultation Raw Data                                       |
-| VG1-S-RSS-1-REDR-V1.0&#8224;  | Saturn Voyager 1 Ingress Radio Occultation Raw Data                    |
+| VG1-S-RSS-1-REDR-V1.0&#x2020;  | Saturn Voyager 1 Ingress Radio Occultation Raw Data                    |
 | VG1-S-RSS-1-ROCC-V1.0   | Saturn Voyager 1 Egress Radio Occultation and Ring Scattering Raw Data |
 +--------------------------------------------------------------------------------------------------+
 
-&#8224;Tentative DATA_SET_ID Assignment
+&#x2020;Tentative DATA_SET_ID Assignment
 
 * Parameters
 * ==========
 
-The Output of each S-band Receiver was a Sinusoidal Carrier Signal embedded in Noise with a Bandwidth approximately 50 kHz and sampled at 300000 samples per second. The X-band Receiver Output was similar; but, because of greater potential for Doppler Drift and Prediction Uncertainty, its Bandwidth was 150 kHz and Sampling Rate was 300000 samples per second. Voltages typically were in the Range of &#177;10 V, but the absolute Levels were not calibrated. In fact, they are generally not needed since it is the Frequency (or Phase) of the Signal (rather than Amplitude) that is most useful in inferring Properties of a Neutral Atmosphere or Ionosphere, and Amplitude Calibration for Ring Observations can be obtained by referencing Signals to the Background Radiothermal Noise in the Data Stream.
+The Output of each S-band Receiver was a Sinusoidal Carrier Signal embedded in Noise with a Bandwidth approximately 50 kHz and sampled at 300000 samples per second. The X-band Receiver Output was similar; but, because of greater potential for Doppler Drift and Prediction Uncertainty, its Bandwidth was 150 kHz and Sampling Rate was 300000 samples per second. Voltages typically were in the Range of &#xB1;10 V, but the absolute Levels were not calibrated. In fact, they are generally not needed since it is the Frequency (or Phase) of the Signal (rather than Amplitude) that is most useful in inferring Properties of a Neutral Atmosphere or Ionosphere, and Amplitude Calibration for Ring Observations can be obtained by referencing Signals to the Background Radiothermal Noise in the Data Stream.
 
 The Frequency of the USO was known from monitoring during the Jupiter-Saturn Cruise (and from post-Saturn Observations). Doppler Contributions from Motions of the Spacecraft, Earth, Saturn, and other Bodies of the Solar System were determined jointly with the Voyager Navigation Team. Relativistic Doppler Contributions could be estimated from proximity to large Masses. Receiver tuning was recorded in POCA (Programmable Oscillator Control Assembly) Files, which are included with this Archive.
 
@@ -47,45 +47,45 @@ Two Analog Recorders (A and B) were available at each DSN Complex. Because a sin
 * ====
 
 Primary Data were delivered to Voyager Radio Science Team Members in the Form of 30 megabyte (MB) CCTs covering 300 s (S-band) or 100 s (X-band). Each Tape had 6000 Records of 5056 bytes (56 bytes of Header Information and 5000 8-bit Samples of Receiver Output Voltage). Tapes were numbered s</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG2-S-RSS-1-ROCC-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG2-S-RSS-1-ROCC-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager2/RSS/Saturn/PT0.00001S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-S-RSS-1-ROCC-V1.0</URL>
-            <ProductKey>VG2-S-RSS-1-ROCC-V1.0</ProductKey>
-            <Description>This Collection is archived with the NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/RSS</InstrumentID>
-      <MeasurementType>Waves.Active</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1981-08-25T20:11:00.00</StartDate>
-            <StopDate>1981-08-26T08:00:00.00</StopDate>
-         </TimeSpan>
-         <Cadence>PT0.00001S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Saturn</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG2-S-RSS-1-ROCC-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG2-S-RSS-1-ROCC-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager2/RSS/Saturn/PT0.00001S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-S-RSS-1-ROCC-V1.0</URL>
+        <ProductKey>VG2-S-RSS-1-ROCC-V1.0</ProductKey>
+        <Description>This Collection is archived with the NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/RSS</InstrumentID>
+    <MeasurementType>Waves.Active</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1981-08-25T20:11:00.00</StartDate>
+        <StopDate>1981-08-26T08:00:00.00</StopDate>
+      </TimeSpan>
+      <Cadence>PT0.00001S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Saturn</ObservedRegion>
+  </NumericalData>
 </Spase>

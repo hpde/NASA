@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/Ephemeris/Neptune/PT48S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 Neptune Ephemeris in Heliographic RTN Coordinates, Version 1.0, 48 s Summary Data</ResourceName>
-         <ReleaseDate>2018-07-17T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/Ephemeris/Neptune/PT48S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 2 Neptune Ephemeris in Heliographic RTN Coordinates, Version 1.0, 48 s Summary Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 This Data Set consists of Voyager 2 Neptune Encounter Ephemeris Data relative to the Sun in both Cartesian and Spherical Heliographic Coordinates for the Time Period when Voyager was near Neptune but not within its Magnetosphere.
@@ -21,7 +21,7 @@ The Heliographic Coordinate System is a Heliocentric System defined in the Refer
 * ==================================
 
 - X points away from the Sun toward the Ascending Node, in the Solar Equatorial Plane
-- Y completes the right-handed Set, Y = X &#10799; Z
+- Y completes the right-handed Set, Y = X &#x2A2F; Z
 - Z points along the Spin Axis of the Sun, positive above the Equatorial Plane
 
 +------------------------------------------+
@@ -78,45 +78,45 @@ N/A
 | Software                  | UNK                                  |
 | Product Data Set ID       | VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0 |
 +------------------------------------------------------------------+</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager2/Ephemeris/Neptune/PT48S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</URL>
-            <ProductKey>VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</ProductKey>
-            <Description>This Collection is archived with the NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>Please acknowledge the NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/Ephemeris</InstrumentID>
-      <MeasurementType>Ephemeris</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1989-08-22T00:00:47.00</StartDate>
-            <StopDate>1989-08-29T23:59:58.00</StopDate>
-         </TimeSpan>
-         <Cadence>PT48S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Neptune</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager2/Ephemeris/Neptune/PT48S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</URL>
+        <ProductKey>VG2-N-POS-5-SUMM-HGCOORDS-48SEC-V1.0</ProductKey>
+        <Description>This Collection is archived with the NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>Please acknowledge the NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/Ephemeris</InstrumentID>
+    <MeasurementType>Ephemeris</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1989-08-22T00:00:47.00</StartDate>
+        <StopDate>1989-08-29T23:59:58.00</StopDate>
+      </TimeSpan>
+      <Cadence>PT48S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Neptune</ObservedRegion>
+  </NumericalData>
 </Spase>

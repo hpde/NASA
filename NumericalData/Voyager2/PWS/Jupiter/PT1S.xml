@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Jupiter/PT1S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 2 Jupiter Plasma Wave Spectrometer (PWS) Densities, Version 1.0, 1 s Data</ResourceName>
-         <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Jupiter/PT1S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 2 Jupiter Plasma Wave Spectrometer (PWS) Densities, Version 1.0, 1 s Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 This Data Set consists of ASCII formatted Plasma Wave Frequency and Electron Plasma Density Measurements as measured by the Plasma Waves Science Instrument and calculated from the Equations of Cold Plasma Theory. These Frequency Measurements were taken from Voyager 2 Electric Field Waveform Samples from the Voyager 2 Plasma Wave Science (PWS) Waveform Receiver obtained during its Jupiter Flyby. The Data Set includes select Measurements from Spacecraft Event Time (SCET) 1979-07-04T23:44:47.500Z to 1979-07-11T23:58:22.500Z. The Data are separated into Day Files and the individual Data Points are taken every second. As will be explained in more detail below, the Frequency Measurements and therefore the Density Measurements in this Data Set are measured from high-resolution Wideband Plasma Wave Spectra. To learn more about these Spectra and their specific submitted Volumes, see the Related PDS Products Section in the AAREADME Files found in the root Directory of this Volume.
@@ -32,46 +32,46 @@ While the Operator utilizes a Color Spectrogram to guide the Cutoff and Peak Det
 * Data Coverage
 * =============
 
-This Data Set does not provide complete Coverage of the Time Intervals when Voyager 2 was within the Magnetosphere of Jupiter. Two Criteria were necessary in order for Density Measurements to be obtained. First, Wideband Waveform Data must exist. These Data are Waveforms sampled at 4-bit resolution and have a Frequency Range from 40 Hz to 12 kHz. 1600 Samples are collected for 55.56 ms at a Rate of 28,800 samples per second, and are then followed by a 4.44 ms Gap. These 60 ms Intervals make up one Line of Waveform Samples. The Spectrograms then consist of 48 s &apos;frames&apos; consisting of up to 800 Lines or 48 s each. Because these Data compete with Voyager Imaging Data for the Downlink Resource, Data is available only a Fraction of the Time. Plasma Wave Spectra Data can be either continuous, periodic (such as one 48 s Frame out of every four such Frames), or simply present sporadically. Second, spectral Features which exhibit a c</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager2/PWS/Jupiter/PT1S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</URL>
-            <ProductKey>VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</ProductKey>
-            <Description>This Collection is archived with NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager2/PWS</InstrumentID>
-      <MeasurementType>Waves.Passive</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1979-07-04T23:44:47.50</StartDate>
-            <StopDate>1979-07-11T23:58:22.50</StopDate>
-         </TimeSpan>
-         <Cadence>PT1S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Jupiter</ObservedRegion>
-   </NumericalData>
+This Data Set does not provide complete Coverage of the Time Intervals when Voyager 2 was within the Magnetosphere of Jupiter. Two Criteria were necessary in order for Density Measurements to be obtained. First, Wideband Waveform Data must exist. These Data are Waveforms sampled at 4-bit resolution and have a Frequency Range from 40 Hz to 12 kHz. 1600 Samples are collected for 55.56 ms at a Rate of 28,800 samples per second, and are then followed by a 4.44 ms Gap. These 60 ms Intervals make up one Line of Waveform Samples. The Spectrograms then consist of 48 s 'frames' consisting of up to 800 Lines or 48 s each. Because these Data compete with Voyager Imaging Data for the Downlink Resource, Data is available only a Fraction of the Time. Plasma Wave Spectra Data can be either continuous, periodic (such as one 48 s Frame out of every four such Frames), or simply present sporadically. Second, spectral Features which exhibit a c</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager2/PWS/Jupiter/PT1S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</URL>
+        <ProductKey>VG2-J-PWS-5-DDR-PLASMA-DENSITY-1S-V1.0</ProductKey>
+        <Description>This Collection is archived with NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/PWS</InstrumentID>
+    <MeasurementType>Waves.Passive</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1979-07-04T23:44:47.50</StartDate>
+        <StopDate>1979-07-11T23:58:22.50</StopDate>
+      </TimeSpan>
+      <Cadence>PT1S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Jupiter</ObservedRegion>
+  </NumericalData>
 </Spase>

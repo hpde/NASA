@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
-   <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Jupiter/PT48S</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Voyager 1 Jupiter Magnetic Field in System III (1965) Coordinates, Resampled, Version 1.1, 48 s Data</ResourceName>
-         <ReleaseDate>2018-07-04T12:34:56.789</ReleaseDate>
-         <Description>* Data Set Overview
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.3.0</Version>
+  <NumericalData>
+    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Jupiter/PT48S</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager 1 Jupiter Magnetic Field in System III (1965) Coordinates, Resampled, Version 1.1, 48 s Data</ResourceName>
+      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <Description>* Data Set Overview
 * =================
 
 * Version 1.1
@@ -24,7 +24,7 @@ Ephemeris Data, provided in 96 s sampled System III (1965) Coordinates, have bee
 * Parameters
 * ==========
 
-The full LFM Instrument Sample Rate is one Sample per 0.06 s. Full Telemetry Resolution &quot;Detail&quot; Data must be obtained from the Instrument Team. For this Data Set, the Data have been resampled to 48 s from 9.6 s Averages. The 9.6 s Data were resampled from 1.92 s Averages which were in turn resampled from the Detail Data.
+The full LFM Instrument Sample Rate is one Sample per 0.06 s. Full Telemetry Resolution "Detail" Data must be obtained from the Instrument Team. For this Data Set, the Data have been resampled to 48 s from 9.6 s Averages. The 9.6 s Data were resampled from 1.92 s Averages which were in turn resampled from the Detail Data.
 
 The LFM has eight Dynamic Ranges. The Instrument is designed to switch between Dynamic Ranges automatically depending on the observed Magnetic Field Magnitude and Fluctuations. Instrument Digitization Uncertainty depends on the Dynamic Range as indicated in the following Table from (Behannon et al., 1977).
 
@@ -34,14 +34,14 @@ The LFM has eight Dynamic Ranges. The Instrument is designed to switch between D
 +----------------------------------------------+
 | Range Num | Range (nT)   | Quantization (nT) |
 ------------------------------------------------
-| 1         | &#177;8.8         | &#177;0.0022           |
-| 2         | &#177;26          | &#177;0.0063           |
-| 3         | &#177;79          | &#177;0.019            |
-| 4         | &#177;240         | &#177;0.059            |
-| 5         | &#177;710         | &#177;0.173            |
-| 6         | &#177;2,100       | &#177;0.513            |
-| 7         | &#177;6,400       | &#177;1.56             |
-| 8         | &#177;50,000      | &#177;12.2             |
+| 1         | &#xB1;8.8         | &#xB1;0.0022           |
+| 2         | &#xB1;26          | &#xB1;0.0063           |
+| 3         | &#xB1;79          | &#xB1;0.019            |
+| 4         | &#xB1;240         | &#xB1;0.059            |
+| 5         | &#xB1;710         | &#xB1;0.173            |
+| 6         | &#xB1;2,100       | &#xB1;0.513            |
+| 7         | &#xB1;6,400       | &#xB1;1.56             |
+| 8         | &#xB1;50,000      | &#xB1;12.2             |
 +----------------------------------------------+
 
 * Processing
@@ -81,45 +81,45 @@ The Data Files are given in ASCII, Fixed Field Width, Comma-delimited Tables. Th
 | Bphi     | f9.3 | Average of Detail Magnetic Field Phi Component in nT                                     |
 | Bmag     | f    |                                                                                          |
 +------------------------------------------------------------------------------------------------------------+</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/data/VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1/AAREADME.TXT</URL>
-            <Description>The Document describing the Contents of the Collection.</Description>
-            <Language>En</Language>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Jupiter/PT48.0S</PriorID>
-      </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>PDS/PPI</Name>
-            <URL>http://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</URL>
-            <ProductKey>VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</ProductKey>
-            <Description>This Collection is archived with NASA Planetary Data System.</Description>
-            <Language>En</Language>
-         </AccessURL>
-         <Format>Text.ASCII</Format>
-         <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
-      </AccessInformation>
-      <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
-      <MeasurementType>MagneticField</MeasurementType>
-      <TemporalDescription>
-         <TimeSpan>
-            <StartDate>1979-03-03T00:00:35.97</StartDate>
-            <StopDate>1979-03-16T23:59:56.18</StopDate>
-         </TimeSpan>
-         <Cadence>PT48S</Cadence>
-      </TemporalDescription>
-      <ObservedRegion>Jupiter</ObservedRegion>
-   </NumericalData>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1/AAREADME.TXT</URL>
+        <Description>The Document describing the Contents of the Collection.</Description>
+        <Language>En</Language>
+      </InformationURL>
+      <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Jupiter/PT48.0S</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>PDS/PPI</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</URL>
+        <ProductKey>VG1-J-MAG-4-SUMM-S3COORDS-48.0SEC-V1.1</ProductKey>
+        <Description>This Collection is archived with NASA Planetary Data System.</Description>
+        <Language>En</Language>
+      </AccessURL>
+      <Format>Text.ASCII</Format>
+      <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
+    </AccessInformation>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/MAG</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1979-03-03T00:00:35.97</StartDate>
+        <StopDate>1979-03-16T23:59:56.18</StopDate>
+      </TimeSpan>
+      <Cadence>PT48S</Cadence>
+    </TemporalDescription>
+    <ObservedRegion>Jupiter</ObservedRegion>
+  </NumericalData>
 </Spase>

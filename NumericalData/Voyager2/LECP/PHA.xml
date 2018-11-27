@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/PHA/PT3M12S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/LECP/PHA</ResourceID>
     <ResourceHeader>
-      <ResourceName>Voyager 1 Low-Energy Charged Particle (LECP) PHA Events in ASCII</ResourceName>
-      <AlternateName>V1-LECP-PHA</AlternateName>
+      <ResourceName>Voyager 2 Low-Energy Charged Particle (LECP) PHA Events in ASCII</ResourceName>
+      <AlternateName>V2-LECP-PHA</AlternateName>
       <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
       <ExpirationDate>2100-12-01T00:00:00.000</ExpirationDate>
-      <Description>PHA Events, Voyager1, LECP, Uncalibrated</Description>
+      <Description>PHA Events, Voyager2, LECP, Uncalibrated</Description>
       <Acknowledgement>Please acknowledge the LECP PI (S.M. Krimigis) and the lead LECP CoI (R.B. Decker)</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Stamatios.M.Krimigis</PersonID>
@@ -24,26 +24,26 @@
       </Contact>
       <InformationURL>
         <Name>Informational Website for Voyager 1 and 2 LECP Instrument</Name>
-        <URL>http://sd-www.jhuapl.edu/VOYAGER/v1_data/v1_pha/Read_Me.txt</URL>
+        <URL>http://sd-www.jhuapl.edu/VOYAGER/v2_data/v2_pha/Read_Me.txt</URL>
         <Description>The webpage provides a detailed description of PHA Event files.</Description>
       </InformationURL>
-      <PriorID>spase://VEPO/NumericalData/Voyager1/LECP/PHA</PriorID>
+      <PriorID>spase://VEPO/NumericalData/Voyager2/LECP/PHA/PT3M12S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Voyager1 PHA Event Data in ASCII Format</Name>
-        <URL>http://sd-www.jhuapl.edu/VOYAGER/v1_data/v1_pha/</URL>
-        <Description>PHA Event Data, Voyager1, LECP, Comma Separated Text Files, File Name Template: 
-                    http://sd-www.jhuapl.edu/VOYAGER/v1_data/v1_pha/V1_PHAEvents_%Y.csv.gz</Description>
+        <Name>Voyager2 PHA Event Data in ASCII Format</Name>
+        <URL>http://sd-www.jhuapl.edu/VOYAGER/v2_data/v2_pha/</URL>
+        <Description>PHA Event Data, Voyager2, LECP, Comma Separated Text Files, File Name Template: 
+                    http://sd-www.jhuapl.edu/VOYAGER/v2_data/v2_pha/V2_PHAEvents_%Y.csv.gz</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>GZIP</Encoding>
       <Acknowledgement>S.M. Krimigis, JHU/APL</Acknowledgement>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager1/LECP</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Voyager2/LECP</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
