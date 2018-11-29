@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Explorer43/MMF/PT2S</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>IMP 6 MMF data</AlternateName>
       <AlternateName>IMP I MMF data</AlternateName>
       <AlternateName>IMP EYE MMF data</AlternateName>
-      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2018-11-29T15:24:14Z</ReleaseDate>
       <Description>The Explorer 43 Measurement of Magnetic Fields (MMF) data at 15.36 s resolution in various coordinate systems.  These data consists of magnetic field vectors, variances, and spacecraft position measurements in several coordinate systems.</Description>
       <Acknowledgement>NASA-Office of Space Science Applications (United States); Dr. Norman F. Ness</Acknowledgement>
       <Contact>
@@ -21,7 +21,7 @@
       </Contact>
       <InformationURL>
         <Name>IMP I/Explorer 43 Spacecraft Information</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentSearch.do?spacecraft=IMP-I</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-019A</URL>
         <Description>Information about the magnetometer and other instruments onboard Explorer 43.</Description>
         <Language>en</Language>
       </InformationURL>
