@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/1/FastPlasmaInvestigation/DIS/Burst/Level2/Moments/PT0.15S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Fast Plasma Investigation, Dual Ion Spectrometer (FPI, DIS) Distribution Moments, Burst Survey, Level 2 (L2), 150 ms Data</ResourceName>
-      <ReleaseDate>2018-12-03T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-03-04T20:01:29Z</ReleaseDate>
       <Description>The Fast Plasma Instrument (FPI) usually Operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution in this Mode. Data are also made available at Survey (4.5 s, etc.) Resolution. Per Mission Design, not all Burst Resolution Data are downlinked, but all Survey Data are downlinked. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually Operates in Slow Survey (SS) Mode outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Results from integrating the standard Moments of Phase Space Distributions formed from the indicated Data Type (DES/DIS Burst, FS or SS). For Convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
       <Acknowledgement>J. Burch, B.L. Giles</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
       </Contact>
       <InformationURL>
         <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
-        <URL>http://mms.gsfc.nasa.gov</URL>
+        <URL>https://mms.gsfc.nasa.gov</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted at the Goddard Space Flight Center (GSFC)</Description>
       </InformationURL>
       <InformationURL>
