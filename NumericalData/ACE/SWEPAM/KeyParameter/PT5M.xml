@@ -240,7 +240,7 @@
       <Description>Solar Wind Proton Temperature, Radial</Description>
       <Caveats>The Radial Component of the Proton Temperature is the (1,1) Component of the Temperature Tensor, along the Radial Direction. It is obtained by Integration of the Ion (Proton) Distribution Function. These Data are Preliminary Values and are for Browse use only.</Caveats>
       <Cadence>PT5M</Cadence>
-      <Units>°K</Units>
+      <Units>K</Units>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>H Temp (radical)</AxisLabel>
