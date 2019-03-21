@@ -1,10 +1,10 @@
 ﻿<Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <NumericalData>
+    <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/KSO/KANZ/Whitelight</ResourceID>
         <ResourceHeader>
             <ResourceName>KSO Whitelight Solar Images</ResourceName>
-            <ReleaseDate>2013-04-05T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-03-21T10:23:00</ReleaseDate>
             <Description>Whitelight solar imagery from Kanzelhoehe Solar Observatory (KSO), Austria</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dietmar.Baumgartner</PersonID>
@@ -38,5 +38,5 @@
         </TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
-    </NumericalData>
+    </DisplayData>
 </Spase>

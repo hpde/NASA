@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <NumericalData>
+    <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/AIM/SOFIE/PT90M</ResourceID>
         <ResourceHeader>
             <ResourceName>AIM/SOFIE daily plots, parameters vs.alt. &amp; long., etc. (L3 Summary data)</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2019-03-21T10:23:00</ReleaseDate>
             <Description>This SOFIE (Solar Occultation for Ice Experiment) data set contains color-coded pairs of
 daily plots of several physical parameters vs altitude and longitude.  
 Parameters include temperature, mixing ratios for H2O, O3 and CH4, and 
@@ -41,5 +41,5 @@ data.</Description>
             <Cadence>PT90M</Cadence>
         </TemporalDescription>
         <ObservedRegion>Earth.NearSurface</ObservedRegion>
-    </NumericalData>
+    </DisplayData>
 </Spase>
