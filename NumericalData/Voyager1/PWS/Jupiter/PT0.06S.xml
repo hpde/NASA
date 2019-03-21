@@ -2,42 +2,42 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Jupiter/PT0.6S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT0.06S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Voyager 2 Jupiter Plasma Wave Spectrometer (PWS) Raw Experiment Waveforms, Version 1.0, 60 ms Data</ResourceName>
-      <ReleaseDate>2019-03-21T15:31:00Z</ReleaseDate>
+      <ResourceName>Voyager 1 Jupiter Plasma Wave Spectrometer (PWS) Raw Experiment Waveforms, Version 1.0, 60 ms Data</ResourceName>
+      <ReleaseDate>2019-03-21T17:11:28Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
-This Data Set consists of Electric Field Waveform Samples from the Voyager 2 Plasma Wave Subsystem Waveform Receiver obtained during the entire Mission. Data after 2006-03-07 will be added to the Archive on subsequent Volumes. The Data Set encompasses all Waveform Observations obtained in the Cruise Mission Phases before, between, and after the Jupiter, Saturn, Uranus, and Neptune Encounter Phases as well as those obtained during the four Encounter Phases.
+This Data Set consists of Electric Field Waveform Samples from the Voyager 1 Plasma Wave Subsystem Waveform Receiver obtained during the entire Mission. Data after 2013-11-02 will be added to the Archive on subsequent Volumes. The Data Set encompasses all Waveform Observations obtained in the Cruise Mission Phases before, between, and after the Jupiter and Saturn Encounter Phases as well as those obtained during the two Encounter Phases.
 
-The Voyager 2 Spacecraft travels from Earth to beyond 100 AU over the Course of this Data Set. To provide some Guidance on when some Key Events occurred during the Mission, the following Table is provided.
+The Voyager 1 Spacecraft travels from Earth to beyond 100 AU over the Course of this Data Set. To provide some Guidance on when some Key Events occurred during the Mission, the following Table is provided.
 
 +----------------------------------------------------------------+
 | Date       | Event                                             |
 ------------------------------------------------------------------
-| 1977-08-20 | Launch                                            |
-| 1979-07-02 | First inbound Bow Shock Crossing at Jupiter       |
-| 1979-08-03 | Last outbound Bow Shock Crossing at Jupiter       |
-| 1981-08-24 | First inbound Bow Shock Crossing at Saturn        |
-| 1981-08-31 | Last outbound Bow Shock Crossing at Saturn        |
-| 1982-04-26 | 10 AU                                             |
+| 1977-09-05 | Launch                                            |
+| 1979-02-28 | First inbound Bow Shock Crossing at Jupiter       |
+| 1979-03-22 | Last outbound Bow Shock Crossing at Jupiter       |
+| 1980-11-11 | First inbound Bow Shock Crossing at Saturn        |
+| 1980-11-16 | Last outbound Bow Shock Crossing at Saturn        |
+| 1981-02-20 | 10 AU                                             |
 | 1983-08-30 | Onset of first major LF Heliospheric Radio Event  |
-| 1986-01-24 | First inbound Bow Shock Crossing at Uranus        |
-| 1986-01-29 | Last outbound Bow Shock Crossing at Uranus        |
-| 1986-05-26 | 20 AU                                             |
-| 1989-08-07 | 30 AU                                             |
-| 1989-08-24 | First inbound Bow Shock Crossing at Neptune       |
-| 1989-08-28 | Last outbound Bow Shock Crossing at Neptune       |
+| 1984-06-19 | 20 AU                                             |
+| 1987-04-08 | 30 AU                                             |
+| 1990-01-09 | 40 AU                                             |
 | 1992-07-06 | Onset of second major LF Heliospheric Radio Event |
-| 1993-05-08 | 40 AU                                             |
-| 1996-10-10 | 50 AU                                             |
-| 2000-01-27 | 60 AU                                             |
+| 1992-10-10 | 50 AU                                             |
+| 1995-07-14 | 60 AU                                             |
+| 1998-04-18 | 70 AU                                             |
+| 2001-01-25 | 80 AU                                             |
 | 2002-11-01 | Onset of third major LF Heliospheric Radio Event  |
-| 2003-04-21 | 70 AU                                             |
-| 2006-07-01 | 80 AU                                             |
-| 2009-09-03 | 90 AU                                             |
-| 2012-11-04 | 100 AU                                            |
+| 2003-11-05 | 90 AU                                             |
+| 2004-12-16 | Termination Shock Crossing                        |
+| 2006-08-16 | 100 AU                                            |
+| 2009-05-31 | 110 AU                                            |
+| 2012-03-16 | 120 AU                                            |
+| 2015-01-01 | 130 AU                                            |
 +----------------------------------------------------------------+
 
 * Data Sampling
@@ -54,6 +54,7 @@ Because there is no direct Method for calibrating these Data and because the Raw
 * ====
 
 The Waveforms are Collections of Samples of the Electric Field measured by the Dipole Electric Antenna at a Rate of 28,800 samples per second. The 4-bit Samples provide sixteen digital Values of the Electric Field with a linear Amplitude Scale, but the Amplitude Scale is arbitrary because of the Automatic Gain Control used in the Waveform Receiver. The instantaneous Dynamic Range afforded by the 4-bit Samples is about 23 dB, but the Automatic Gain Control allows the dominant Signal in the Passband to be set at the optimum Level to fit within the instantaneous Dynamic Range. With the Gain Control, the overall Dynamic Range of the Waveform Receiver is about 100 dB. The Automatic Gain Control Gain Setting is not returned to the Ground, hence, there is no absolute Calibration for the Data. However, by comparing the Waveform Spectrum derived by Fourier transforming the Waveform to the Spectrum provided by the Spectrum Analyzer Data, an absolute Calibration may be obtained in most Cases.
+
 
 * Ancillary Data
 * ==============
@@ -73,12 +74,13 @@ The Electric Dipole Antenna detects Electric Fields in a Dipole Pattern with pea
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>VG2-J/S/U/N/SS-PWS-1-EDR-WFRM-60MS-V1.0</Name>
-        <URL>https://pds-ppi.igpp.ucla.edu/data/VG2-J_S_U_N_SS-PWS-1-EDR-WFRM-60MS-V1.0/AAREADME.TXT</URL>
+        <Name>VG1-J/S/SS-PWS-1-EDR-WFRM-60MS-V1.0</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/data/VG1-J-S-SS-PWS-1-EDR-WFRM-60MS-V1.0/AAREADME.TXT</URL>
         <Description>The Document describing the Contents of the Collection.</Description>
         <Language>En</Language>
       </InformationURL>
-      <PriorID>spase://VMO/NumericalData/Voyager2/PWS/Jupiter/PT0.60S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Voyager1/PWS/Jupiter/PT0.6S</PriorID>
+      <PriorID>spase://VMO/NumericalData/Voyager1/PWS/Jupiter/PT0.60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
@@ -86,22 +88,22 @@ The Electric Dipole Antenna detects Electric Fields in a Dipole Pattern with pea
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>PDS/PPI</Name>
-        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG2-J_S_U_N_SS-PWS-1-EDR-WFRM-60MS-V1.0</URL>
-        <ProductKey>VG2-J/S/U/N/SS-PWS-1-EDR-WFRM-60MS-V1.0</ProductKey>
+        <URL>https://pds-ppi.igpp.ucla.edu/search/view/?id=pds://PPI/VG1-J_S_SS-PWS-1-EDR-WFRM-60MS-V1.0</URL>
+        <ProductKey>VG1-J/S/SS-PWS-1-EDR-WFRM-60MS-V1.0</ProductKey>
         <Description>This Collection is archived with NASA Planetary Data System.</Description>
         <Language>En</Language>
       </AccessURL>
       <Format>Text.ASCII</Format>
       <Acknowledgement>NASA Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the Principal Investigator for the Data.</Acknowledgement>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/Voyager2/PWS</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/Voyager1/PWS</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1979-04-28T07:59:16.71</StartDate>
-        <StopDate>2006-03-07T08:48:51.579</StopDate>
+        <StartDate>1978-08-21T05:41:36.30</StartDate>
+        <StopDate>2013-12-31T05:30:00.64</StopDate>
       </TimeSpan>
-      <Cadence>PT0.6S</Cadence>
+      <Cadence>PT0.06S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Jupiter</ObservedRegion>
   </NumericalData>

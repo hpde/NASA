@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Neptune/PT0.6S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Neptune/PT0.06S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Neptune Plasma Wave Spectrometer (PWS) Raw Experiment Waveforms, Version 1.0, 60 ms Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2019-03-21T17:11:28Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -62,6 +62,7 @@ The Data Files in this Data Set were created using the CDREF</Description>
         <Description>The Document describing the Contents of the Collection.</Description>
         <Language>En</Language>
       </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/Voyager2/PWS/Neptune/PT0.6S</PriorID>
       <PriorID>spase://VMO/NumericalData/Voyager2/PWS/Neptune/PT0.60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
@@ -85,7 +86,7 @@ The Data Files in this Data Set were created using the CDREF</Description>
         <StartDate>1989-06-06T14:16:56.00</StartDate>
         <StopDate>1989-09-27T17:52:43.00</StopDate>
       </TimeSpan>
-      <Cadence>PT0.6S</Cadence>
+      <Cadence>PT0.06S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Neptune</ObservedRegion>
   </NumericalData>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Uranus/PT0.6S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/PWS/Uranus/PT0.06S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Uranus Plasma Wave Spectrometer (PWS) Raw Experiment Waveforms, Version 1.0, 60 ms Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2019-03-21T17:11:28Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -38,6 +38,7 @@ This Data Set consists of Electric Field Waveform Samples from the Voyager 2 Pla
         <Description>The Document describing the Contents of the Collection.</Description>
         <Language>En</Language>
       </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/Voyager2/PWS/Uranus/PT0.6S</PriorID>
       <PriorID>spase://VMO/NumericalData/Voyager2/PWS/Uranus/PT0.60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
@@ -61,7 +62,7 @@ This Data Set consists of Electric Field Waveform Samples from the Voyager 2 Pla
         <StartDate>1985-11-08T07:04:08.64</StartDate>
         <StopDate>1986-02-22T20:41:34.18</StopDate>
       </TimeSpan>
-      <Cadence>PT0.6S</Cadence>
+      <Cadence>PT0.06S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Uranus</ObservedRegion>
   </NumericalData>
