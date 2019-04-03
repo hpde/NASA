@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis 3D Ion Moments</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-03-25T14:26:54Z</ReleaseDate>
       <Description>Genesis level 2 3-dimensional ion moments and a bidirectional electron streaming flag</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -18,13 +18,13 @@
       <PriorID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>Genesis Moment Data FTP Site at LANL</Name>
-        <URL>ftp://nis-ftp.lanl.gov/pub/projects/genesis/3dmom/</URL>
-        <Description>Genesis Moment Data FTP Site at LANL</Description>
+        <Name>Genesis LANL Moment Data</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/genesis/gim/</URL>
+        <Description>Genesis Moment Data determined by LANL</Description>
       </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>

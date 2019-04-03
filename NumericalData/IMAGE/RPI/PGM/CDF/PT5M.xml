@@ -4,7 +4,7 @@
       <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CDF/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram data in CDF at NASA CDAWeb</ResourceName>
-         <ReleaseDate>2018-03-09T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2019-03-28T15:35:11Z</ReleaseDate>
          <Description>Software suggested by the science team for CDF file visualization: (1) Plotting tool at the CDAWeb portal, (2) For analysis beyond static image inspection, including color scale optimization, zooming, text export, alternative data representations in physical units, detailed frequency and time information, overlaid model fpe and fce graphs, and EPS quality figures, use BinBrowser software at UML, http://ulcar.uml.edu/rpi.html</Description>
          <Acknowledgement>Users please acknowledge Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center and RPI Principal Investigator Prof. B. W. Reinisch of the University of Massachusetts Lowell for making these CDF files available.</Acknowledgement>
          <Contact>
@@ -28,14 +28,8 @@
             <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
             <Language>en</Language>
          </InformationURL>
-         <InformationURL>
-            <Name>IMAGE RPIAnywhere Download Page</Name>
-            <URL>http://car.uml.edu/Installation/install_all.htm</URL>
-            <Description>RPIAnywhere software download page, including BinBrowser (RPI data analysis tool) and EdRPI (RPI mission planning tool)</Description>
-            <Language>en</Language>
-         </InformationURL>
          <Association>
-            <AssociationID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</AssociationID>
+            <AssociationID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
       <PriorID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CDF.PT5M</PriorID>
@@ -101,7 +95,7 @@
       <Keyword>VLF Station</Keyword>
       <Keyword>VLF Transmitter</Keyword>
       <Keyword>Whistler</Keyword>
-      <InputResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</InputResourceID>
+      <InputResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</InputResourceID>
       <Parameter>
          <Name>Echo Amplitude</Name>
          <ParameterKey>Amplitude</ParameterKey>

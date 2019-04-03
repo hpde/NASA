@@ -4,16 +4,12 @@
       <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram Full Resolution Binary Data</ResourceName>
-         <ReleaseDate>2018-03-09T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2019-03-28T15:35:11Z</ReleaseDate>
          <Description>RPI plasmagram full resolution data (received signal strength in the frequency-range frame), uncalibrated. Presented as instrument packets wrapped in the standard CCSDS headers. Description of the RPI instrument-level data model can be found at http://ulcar.uml.edu/RPI/RPITelemetryDataFormat_V2.8.pdf. Data are viewed/calibrated/edited by BinBrowser software, see http://ulcar.uml.edu/rpi.html for download and users' guide. RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses. Echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
-         <InformationURL>
-            <Name>IMAGE RPIAnywhere Download Page</Name>
-            <URL>http://ulcar.uml.edu/Installation/install_all.htm</URL>
-         </InformationURL>
          <InformationURL>
             <Name>IMAGE RPI Instrument Page</Name>
             <URL>https://image.gsfc.nasa.gov/rpi/</URL>

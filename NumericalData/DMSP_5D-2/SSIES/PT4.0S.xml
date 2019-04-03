@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/DMSP_5D-2/SSIES/PT4.0S</ResourceID>
         <ResourceHeader>
             <ResourceName>DMSP SSIES Thermal Plasma ASCII Files and Browse Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-03-25T10:42:30</ReleaseDate>
             <Description>DMSP SSIES thermal plasma plots and ASCII files.  Based on drift meter (IDM), retarding potential analyzer (RPA) and Langmuir probe instruments.  4-s resolution.  Vx, Vy, Vz, Ti, Te and fractions of H, He, O.  Numerous DMSP spacecraft</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Marc.R.Hairston</PersonID>
@@ -13,12 +13,14 @@
             <PriorID>spase://VSPO/NumericalData/P_DMSP_HDR_SSIES_UTD</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UTD</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/Madrigal</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>DMSP site at U. Texas, Dallas</Name>
-                <URL>http://cindispace.utdallas.edu/DMSP/dmsp_data_at_utdallas.html</URL>
+                <Name>Madrigal CEDAR Database</Name>
+				<URL>http://cedar.openmadrigal.org/index.html/</URL>
+				<Description>Madrigal is an upper atmospheric science database used by groups throughout the world.</Description>
+				<Language>EN</Language>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>
