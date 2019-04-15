@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release03/PT11.35S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release04/PT11.35S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Van Allen Probe A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Pitch Angle resolved Science Data. Electron Fluxes, 15 eV to 50 keV, and Ion Fluxes, 1 eV to 50 keV, as measured in alternate Spin Cadence, Level 3, Release #3 (L3), 11.35 s Data</ResourceName>
-      <ReleaseDate>2019-02-13T12:34:56.789</ReleaseDate>
+      <ResourceName>Van Allen Probe A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Pitch Angle resolved Science Data. Electron Fluxes, 15 eV to 50 keV, and Ion Fluxes, 1 eV to 50 keV, as measured in alternate Spin Cadence, Level 3, Release #4 (L3), 11.35 s Data</ResourceName>
+      <ReleaseDate>2019-04-11T20:23:02Z</ReleaseDate>
       <Description>Van Allen Probe A, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Pitch Angle resolved Science Data. Electron Fluxes from about 15 eV to 50 keV and Ion Fluxes from about 1 eV to 50 keV as measured in alternate Spin Cadence.</Description>
       <Acknowledgement>H.O. Funsten, R. Skoug, R. Friedel. Distribute freely, please acknowledge the original Principal Investigator. Please contact the Principal Investigator before any publication or Presentation of Data.</Acknowledgement>
       <Contact>
@@ -50,6 +50,7 @@
         <URL>https://www.rbsp-ect.lanl.gov/science/DataDirectories.php</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, Data Access Links to Pitch Angle resolved Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Particle Web Site for access to Magnetic Field Data the Los Alamos National Laboratory</Description>
       </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release03/PT11.35S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release03/PT60S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/SCI-L3/PT60S</PriorID>
     </ResourceHeader>
@@ -59,18 +60,18 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel03/</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel04/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel03/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel04/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL03_ECT-HOPE-PA-L3&amp;index=sp_phys</URL>
-        <ProductKey>RBSPA_REL03_ECT-HOPE-PA-L3</ProductKey>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL04_ECT-HOPE-PA-L3&amp;index=sp_phys</URL>
+        <ProductKey>RBSPA_REL04_ECT-HOPE-PA-L3</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>

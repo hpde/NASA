@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release03/PT24S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L2/SpinAverage/Release04/PT24S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Van Allen Probe A ECT HOPE Science Release #3 Spin Averaged Level 2 Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
-      <Description>RBSP-A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Averaged Science Data. Electron ~15 to 50,000 eV, Ion ~1 to 50,000 eV Fluxes, Electrons and Ions measured in Alternate Spin Cadence</Description>
+      <ResourceName>Van Allen Probe B ECT HOPE Science Release #4 Spin Averaged Level 2 Data</ResourceName>
+      <ReleaseDate>2019-04-11T20:23:02Z</ReleaseDate>
+      <Description>RBSP-B Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Averaged Science Data. Electron ~15 to 50,000 eV, Ion ~1 to 50,000 eV Fluxes, Electrons and Ions measured in Alternate Spin Cadence</Description>
       <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.O.Funsten</PersonID>
@@ -43,8 +43,9 @@
         <URL>http://rbsp-ect.sr.unh.edu/instrument_hope.shtml</URL>
         <Description>Van Allen Probes</Description>
       </InformationURL>
-      <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/Science/Release03/SpinAverage/Level2</PriorID>
-      <PriorID>spase://ViRBO/NumericalData/RBSP/A/ECT/HOPE-SCI-L2SA/PT24S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L2/SpinAverage/Release03/PT24S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/Science/Release03/SpinAverage/Level2</PriorID>
+      <PriorID>spase://ViRBO/NumericalData/RBSP/B/ECT/HOPE-SCI-L2SA/PT24S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,18 +53,18 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/hope/spinaverage/rel03/</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/hope/spinaverage/rel04/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/hope/spinaverage/rel03/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/hope/spinaverage/rel04/</URL>
         <Description>In CDF via http from SPDF.</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL03_ECT-HOPE-SCI-L2SA&amp;index=sp_phys</URL>
-        <ProductKey>RBSPA_REL03_ECT-HOPE-SCI-L2SA</ProductKey>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPB_REL04_ECT-HOPE-SCI-L2SA&amp;index=sp_phys</URL>
+        <ProductKey>RBSPB_REL04_ECT-HOPE-SCI-L2SA</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -71,11 +72,11 @@
       <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/RBSP/A/ECT</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/RBSP/B/ECT</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2012-10-25T00:00:00Z</StartDate>
+        <StartDate>2012-10-25T00:00:00.000</StartDate>
         <RelativeStopDate>-P1M</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT24S</Cadence>
@@ -112,7 +113,7 @@
     <Parameter>
       <Name>Satellite position (GEO) </Name>
       <ParameterKey>Position_Ele</ParameterKey>
-      <Description> Position of the satellite in geographic coordinates (electron timebase) </Description>
+      <Description>Position of the satellite in geographic coordinates (electron timebase) </Description>
       <Caveats>Origin = Earths center of mass. X = Intersection of Greenwich meridian and geographic equator. Z = Geographic North Pole. Y = completes a right-handed Cartesian triad. Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. </Caveats>
       <Units>km </Units>
       <UnitsConversion>1.0e3&gt;m </UnitsConversion>
@@ -137,7 +138,7 @@
     <Parameter>
       <Name>Magnetic field strength </Name>
       <ParameterKey>B_Calc_Ele</ParameterKey>
-      <Description> Model magnetic field strength (electron timebase) </Description>
+      <Description>Model magnetic field strength (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units>nT </Units>
       <UnitsConversion>1.0e-9&gt;T </UnitsConversion>
@@ -159,7 +160,7 @@
     <Parameter>
       <Name>Equatorial magnetic field strength </Name>
       <ParameterKey>B_Eq_Ele</ParameterKey>
-      <Description> Model magnetic field strength at magnetic equator (electron timebase) </Description>
+      <Description>Model magnetic field strength at magnetic equator (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units>nT </Units>
       <UnitsConversion>1.0e-9&gt;T </UnitsConversion>
@@ -180,7 +181,7 @@
     <Parameter>
       <Name>McIlwains L parameter </Name>
       <ParameterKey>L_Ele</ParameterKey>
-      <Description> Calculated McIlwains L parameter (electron timebase) </Description>
+      <Description>Calculated McIlwains L parameter (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units> </Units>
       <Mixed>
@@ -200,7 +201,7 @@
     <Parameter>
       <Name>Roederers L* parameter </Name>
       <ParameterKey>L_star_Ele</ParameterKey>
-      <Description> Calculated Roederers L* parameter (electron timebase) </Description>
+      <Description>Calculated Roederers L* parameter (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units> </Units>
       <Mixed>
@@ -221,7 +222,7 @@
     <Parameter>
       <Name>Adiabatic invariant (bounce) </Name>
       <ParameterKey>I_Ele</ParameterKey>
-      <Description> Adiabatic invariant (bounce) (electron timebase) </Description>
+      <Description>Adiabatic invariant (bounce) (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units>none </Units>
       <UnitsConversion>none </UnitsConversion>
@@ -243,7 +244,7 @@
     <Parameter>
       <Name>Magnetic Local Time </Name>
       <ParameterKey>MLT_Ele</ParameterKey>
-      <Description> Calculated Magnetic Local Time (electron timebase) </Description>
+      <Description>Calculated Magnetic Local Time (electron timebase) </Description>
       <Caveats>Interpolated to electron measurement timebase from 1 min. resolution MagEphem file. Calculated with LANLGeomag library. Internal field: IGRF. External field: OP77Q. </Caveats>
       <Units>h </Units>
       <UnitsConversion>0.2618&gt;rad </UnitsConversion>
@@ -268,7 +269,7 @@
     <Parameter>
       <Name>Magnetic field strength </Name>
       <ParameterKey>B_Calc_Ion_TT</ParameterKey>
-      <Description> Calculated magnetic field strength (ion) </Description>
+      <Description>Calculated magnetic field strength (ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>nT </Units>
       <UnitsConversion>1.0e9&gt;T </UnitsConversion>
@@ -279,7 +280,7 @@
     <Parameter>
       <Name>Equatorial magnetic field strength </Name>
       <ParameterKey>B_Eq_Ion_TT</ParameterKey>
-      <Description> Calculated magnetic field strength at magnetic equator(ion) </Description>
+      <Description>Calculated magnetic field strength at magnetic equator(ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>nT </Units>
       <UnitsConversion>1.0e9&gt;T </UnitsConversion>
@@ -290,7 +291,7 @@
     <Parameter>
       <Name>McIlwains L parameter </Name>
       <ParameterKey>L_Ion_TT</ParameterKey>
-      <Description> Calculated McIlwains L parameter (Earths radii, ion) </Description>
+      <Description>Calculated McIlwains L parameter (Earths radii, ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>R_E </Units>
       <UnitsConversion>1.5696e-7&gt;m </UnitsConversion>
@@ -301,7 +302,7 @@
     <Parameter>
       <Name>Roederers L* parameter </Name>
       <ParameterKey>L_star_Ion_TT</ParameterKey>
-      <Description> Calculated Roederers L* parameter (Earths radii, ion) </Description>
+      <Description>Calculated Roederers L* parameter (Earths radii, ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>R_E </Units>
       <UnitsConversion>1.5696e-7&gt;m </UnitsConversion>
@@ -312,7 +313,7 @@
     <Parameter>
       <Name>Adiabatic invariant (bounce) </Name>
       <ParameterKey>I_Ion_TT</ParameterKey>
-      <Description> Adiabatic invariant (bounce, ion) </Description>
+      <Description>Adiabatic invariant (bounce, ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>none </Units>
       <UnitsConversion>none </UnitsConversion>
@@ -323,7 +324,7 @@
     <Parameter>
       <Name>Magnetic Local Time </Name>
       <ParameterKey>MLT_Ion_TT</ParameterKey>
-      <Description> Calculated Magnetic Local Time (hours, ion) </Description>
+      <Description>Calculated Magnetic Local Time (hours, ion) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>h </Units>
       <UnitsConversion>2.778e-4&gt;s </UnitsConversion>
@@ -347,7 +348,7 @@
     <Parameter>
       <Name>Magnetic field strength </Name>
       <ParameterKey>B_Calc_Ele_TT</ParameterKey>
-      <Description> Calculated magnetic field strength (ele) </Description>
+      <Description>Calculated magnetic field strength (ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>nT </Units>
       <Mixed>
@@ -357,7 +358,7 @@
     <Parameter>
       <Name>Equatorial magnetic field strength </Name>
       <ParameterKey>B_Eq_Ele_TT</ParameterKey>
-      <Description> Calculated magnetic field strength at magnetic equator(ele) </Description>
+      <Description>Calculated magnetic field strength at magnetic equator(ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>nT </Units>
       <Mixed>
@@ -367,7 +368,7 @@
     <Parameter>
       <Name>McIlwains L parameter </Name>
       <ParameterKey>L_Ele_TT</ParameterKey>
-      <Description> Calculated McIlwains L parameter (Earths radii, ele) </Description>
+      <Description>Calculated McIlwains L parameter (Earths radii, ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>R_E </Units>
       <Mixed>
@@ -377,7 +378,7 @@
     <Parameter>
       <Name>Roederers L* parameter </Name>
       <ParameterKey>L_star_Ele_TT</ParameterKey>
-      <Description> Calculated Roederers L* parameter (Earths radii, ele) </Description>
+      <Description>Calculated Roederers L* parameter (Earths radii, ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>R_E </Units>
       <Mixed>
@@ -387,7 +388,7 @@
     <Parameter>
       <Name>Adiabatic invariant (bounce) </Name>
       <ParameterKey>I_Ele_TT</ParameterKey>
-      <Description> Adiabatic invariant (bounce, ele) </Description>
+      <Description>Adiabatic invariant (bounce, ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>none </Units>
       <Mixed>
@@ -397,7 +398,7 @@
     <Parameter>
       <Name>Magnetic Local Time </Name>
       <ParameterKey>MLT_Ele_TT</ParameterKey>
-      <Description> Calculated Magnetic Local Time (hours, ele) </Description>
+      <Description>Calculated Magnetic Local Time (hours, ele) </Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet </Caveats>
       <Units>h </Units>
       <Mixed>
@@ -637,7 +638,7 @@
     <Parameter>
       <Name>FOSA </Name>
       <ParameterKey>FOSA_ts</ParameterKey>
-      <Description> as stacked time-series </Description>
+      <Description>as stacked time-series </Description>
       <Caveats>HOPE flux as a function of energy (72), averaged across spin and all detectors. Flux from each detector is weighted by the fraction of the unit sphere it samples in one spin (9.5% 25% 31% 25% 9.5%). Note that a HOPE spin oversamples the spacecraft spin so expect a slight bias depending on the flux in the oversampled spin phase for each spin </Caveats>
       <Units>s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N </Units>
       <Structure>
@@ -663,7 +664,7 @@
     <Parameter>
       <Name>FPSA </Name>
       <ParameterKey>FPSA_ts</ParameterKey>
-      <Description> as stacked time-series </Description>
+      <Description>as stacked time-series </Description>
       <Caveats>HOPE flux as a function of energy (72), averaged across spin and all detectors. Flux from each detector is weighted by the fraction of the unit sphere it samples in one spin (9.5% 25% 31% 25% 9.5%). Note that a HOPE spin oversamples the spacecraft spin so expect a slight bias depending on the flux in the oversampled spin phase for each spin </Caveats>
       <Units>s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N </Units>
       <Structure>
@@ -689,7 +690,7 @@
     <Parameter>
       <Name>FHESA </Name>
       <ParameterKey>FHESA_ts</ParameterKey>
-      <Description> as stacked time-series </Description>
+      <Description>as stacked time-series </Description>
       <Caveats>HOPE flux as a function of energy (72), averaged across spin and all detectors. Flux from each detector is weighted by the fraction of the unit sphere it samples in one spin (9.5% 25% 31% 25% 9.5%). Note that a HOPE spin oversamples the spacecraft spin so expect a slight bias depending on the flux in the oversampled spin phase for each spin </Caveats>
       <Units>s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N </Units>
       <Structure>
@@ -715,7 +716,7 @@
     <Parameter>
       <Name>FESA </Name>
       <ParameterKey>FESA_ts</ParameterKey>
-      <Description> as stacked time_series </Description>
+      <Description>as stacked time_series </Description>
       <Caveats>HOPE flux as a function of energy (72), averaged across spin and all detectors. Flux from each detector is weighted by the fraction of the unit sphere it samples in one spin (9.5% 25% 31% 25% 9.5%). Note that a HOPE spin oversamples the spacecraft spin so expect a slight bias depending on the flux in the oversampled spin phase for each spin </Caveats>
       <Units>s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N </Units>
       <Structure>
