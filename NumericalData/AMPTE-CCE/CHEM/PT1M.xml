@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/AMPTE-CCE/CHEM/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE-CCE CHEM Data at JHU/APL</ResourceName>
-      <ReleaseDate>2018-04-18T16:35:54Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>AMPTE-CCE CHEM data consist of rates and fluxes of ions H through Fe with energies between 3 and 300 keV/q, as functions of mass, mass/charge, energy, and
 arrival direction.  Time resolution in the Earth's magnetosphere and magntosheath is less than 1 minute.  Data were originally in VMS binary.  Data are now in daily gzipped FITS files as translated from the original VMS binaries.</Description>
       <Acknowledgement>User will acknowledge the AMPTE/CCE CHEM team in any publication resulting from the use of these data.</Acknowledgement>
@@ -25,7 +25,7 @@ arrival direction.  Time resolution in the Earth's magnetosphere and magntosheat
       <PriorID>spase://VSPO/NumericalData/AMPTE_CCE/CHEM/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/JHU_APL/AMPTE_CCE</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/JHU_APL/AMPTE-CCE</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>

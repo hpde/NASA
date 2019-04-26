@@ -5,7 +5,7 @@
       <ResourceHeader>
          <ResourceName>ISEE 1 Plasma Wave Instrument Spectrum Analyzer Spectrogram Plots</ResourceName>
          <AlternateName>ISEE-1 PWI SA Spectrogram Plots.</AlternateName>
-         <ReleaseDate>2019-04-23T16:21:22Z</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>This dataset contains dynamic spectrogram PNG plots of the ISEE-1/PWI Spectrum Analyzer data. Each plot spans 12 hours. The dataset consists of files from 0-12UT and 12-24UT. These data were obtained from the Ev long wire antenna in the spin plane and the Bz search coil along the spin axis. Each image consists of two panels. The title above the upper panel is "ISEE-1 PWI Spectrum Analyzer Ev Antenna and Bz Search Coil" Each panel is a plot of the power spectral density of received signal (color scale) as a function of operating frequency (in a logarithmic scale on the vertical axis) and time (horizontal axis). The upper panel is a plot of Electric Spectral Density (SD) the lower plot is Magnetic SD. Beneath the time labels on the horizontal axis of the spectrograms are ephemeris data: position of the spacecraft in radial distance (Earth radii), geomagnetic latitude, magnetic local time, and McIlwain L-shell. Overlaid on the upper plot are traces of the electron cyclotron frequencies. At the bottom of the image is the date, day number and time range. Located in the same directory are the daily ISEE-1 PWI Sweep Frequency Receiver (SFR) spectrograms.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>

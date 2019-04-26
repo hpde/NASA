@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Ion and Electron Eight-Sectored Coincidence Counting Rates in ASCII Format, 10 min Data</ResourceName>
          <AlternateName>COSPIN-HET-SECTORED-RATES-PT10M</AlternateName>
-         <ReleaseDate>2018-02-20T19:10:29Z</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>This Data Set contains 10 min Average Ion and Electron Eight-Sectored Coincidence Counting Rates from the COSPIN High Energy Telescope (HET). These Data provide a Measure of the Anisotropy of Particle Arrival Directions in the Spacecraft Spin Plane</Description>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
          <Contact>
@@ -37,7 +37,7 @@
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, 10 min Average Ion and Electron Eight-Sectored Counting Rates</Description>
          </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/PT10M</AssociationID>
+            <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/SpinAveraged/PT10M</AssociationID>
             <AssociationType>PartOf</AssociationType>
          </Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HET/Sectored-Rates/PT10M</PriorID>

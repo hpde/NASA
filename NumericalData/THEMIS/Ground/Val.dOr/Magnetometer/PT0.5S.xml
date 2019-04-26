@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Val.dOr/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Val-d&apos;Or (VLDR) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>Val-d&apos;Or, QC, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (VLDR), Station Location: (GEO Latitude 48.2, Longitude 282.2), Athabasca University Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell and M. Connors, (University of California, Berkeley, University of California, Los Angeles and Athabasca University, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -64,7 +64,7 @@
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell and M. Connors, (University of California, Berkeley, University of California, Los Angeles and Athabasca University, respectively, NASA NAS5-02099). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/Ground/Val.dOr/Magnetometer</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/Ground/Val.d.Or/Magnetometer</InstrumentID>
       <MeasurementType>MagneticField</MeasurementType>
       <TemporalDescription>
          <TimeSpan>

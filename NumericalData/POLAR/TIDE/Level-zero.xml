@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/TIDE/Level-zero</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIDE Level-zero telemetry files</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>TIDE level-zero processing software provides several analysis and display options with an extensive list of processing options. The TIDE team has provided websites that allow users to process data from the web and then download the processed datafiles and plots, see the Custom Plot and Data Dump links on one of the TIDE Home Pages. The software (C and IDL) can be downloaded and installed locally. There is a data download page that can be used to get the level-zero data and the required ancillary data (Polar orbit and attitude, extracted EFI spacecraft potential, and ion masks). NOTE: The only way to read a TIDE level-zero file is with the processing software. See the TIDE Documentation link on one of the two TIDE Home Pages for documentation of the processing software and the input file data formats. See the parameters below for more information about key elements in the level-zero processing.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
@@ -31,7 +31,7 @@
       <PriorID>spase://VMO/NumericalData/POLAR/TIDE/Level-zero</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/NSSTC/POLAR.TIDE</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/NSSTC</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
