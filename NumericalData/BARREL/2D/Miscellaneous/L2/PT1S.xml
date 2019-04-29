@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.8</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/BARREL/2D/Miscellaneous/L2/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2D Data Processing Unit (MISC) GPS Pulse Lag Relative to Start of Data Frame in Milliseconds</ResourceName>
-         <ReleaseDate>2017-02-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
          <Description>Number of Milliseconds into the Frame when the GPS Pulse per second arrived</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -45,7 +45,7 @@
          <Acknowledgement>Please acknowledge R. Millan and the data providers and CDAWeb when using these data</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/BARREL/2D/Miscellaneous</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/BARREL/2D/DataProcessingUnit</InstrumentID>
       <MeasurementType>InstrumentStatus</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
