@@ -1,15 +1,15 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.8</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Tartu/Magnetometer/PT10S</ResourceID>
       <ResourceHeader>
          <ResourceName>Tartu (TAR) Ground-based Vector Magnetic Field (L2) 10.0 s Data</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-04-27T12:34:56.789Z</ReleaseDate>
          <Description>Tartu, Estonia, Ground-based Vector Magnetic Field Level 2 Data, 10.0 s Time Resolution, Station Code: (TAR), Station Location: (GEO Latitude 58.3, Longitude 26.5), IMAGE Network</Description>
          <Acknowledgement>Please acknowledge L. Juusola, (Finnish Meteorological Institute)</Acknowledgement>
          <Contact>
-            <PersonID>spase://</PersonID>
+            <PersonID>spase://SMWG/Person/Liisa.Juusola</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
