@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/LANL/2001/SOPA+ESP/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL 2001 H2 Data Set</ResourceName>
-      <ReleaseDate>2018-04-04T18:19:57Z</ReleaseDate>
+      <ReleaseDate>2019-04-30T16:10:33Z</ReleaseDate>
       <Description>LANL 2001 H2 Data Set</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
@@ -35,7 +35,6 @@
       <Encoding>None</Encoding>
       <Acknowledgement>Please contact Reiner Friedel for Acknowledgement information</Acknowledgement>
     </AccessInformation>
-    <ProviderResourceName/>
     <InstrumentID>spase://SMWG/Instrument/LANL/01A/ESP</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -47,8 +46,6 @@
       <Cadence>PT1H</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-    <Keyword/>
-    <InputResourceID/>
     <Parameter>
       <Name>Epoch</Name>
       <ParameterKey>Epoch</ParameterKey>
