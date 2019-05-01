@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/BARREL/2A/RateCounter/L2/PT4S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2A Rate Counter (RCNT) NaI Scintillator Diagnostics</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-01T12:58:53.000</ReleaseDate>
          <Description>Rate Counters for Record Interrupt, Low Level, Peak Detect, and High Level Data, each Value is a 4 s Accumulation</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -42,7 +42,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_2A_L2_RCNT&index=sp_phys</URL>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_2A_L2_RCNT&amp;index=sp_phys</URL>
             <ProductKey>BAR_2A_L2_RCNT</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

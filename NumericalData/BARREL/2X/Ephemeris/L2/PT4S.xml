@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/BARREL/2X/Ephemeris/L2/PT4S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2X Ephemeris (EPHM) Geographic and Magnetic Coordinates</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-01T12:58:53.000</ReleaseDate>
          <Description>Geographic and Magnetic Coordinates - Geographic Coordinates are obtained from an Onboard GPS Unit, Magnetic Coordinates are derived by using the IRBEM FORTRAN Library, Ephemeris Data Products (Latitude, Longitude, Altitude, and Time) are each returned from the Payload once every 4 s</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -42,7 +42,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_2X_L2_EPHM&index=sp_phys</URL>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_2X_L2_EPHM&amp;index=sp_phys</URL>
             <ProductKey>BAR_2X_L2_EPHM</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
