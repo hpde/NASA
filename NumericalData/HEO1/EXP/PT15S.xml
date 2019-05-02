@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/HEO1/EXP/PT15S</ResourceID>
     <ResourceHeader>
       <ResourceName>HEO-1 Data from the EXP instrument in 15-second averages</ResourceName>
-      <ReleaseDate>2019-04-22T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-05-02T16:56:17Z</ReleaseDate>
       <Description>These data consist of energetic particle measurements, given as proton counts, electron counts, and dose/dose rate. The spacecraft are equipped with a combination of dome and telescope dosimeters. Data from these instruments is available in 15-second averages and binned by magnetic L-shell in IGRF and Olson-Pfitzer (Quiet) field models. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
@@ -29,6 +29,7 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
+        <Name>export Level 2 text files for Flight 1</Name>
         <URL>http://mag.gmu.edu/ftp/users/obrien/heo/ascii/f1/exp/</URL>
       </AccessURL>
       <Format>Text.ASCII</Format>
