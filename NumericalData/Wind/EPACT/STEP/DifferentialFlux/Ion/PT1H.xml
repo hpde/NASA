@@ -5,27 +5,27 @@
       <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/STEP/DifferentialFlux/Ion/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Energetic Particle Acceleration Composition Transport (EPACT) SupraThermal Energetic Particle Telescope (STEP) Differential Ion Fluxes, 1 h Data</ResourceName>
-         <ReleaseDate>2018-11-01T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The EPACT Instrument on Wind STEP - SupraThermal Energetic Particle Telescope measures Ion Fluxes of Protons (H) in 0.12.5 MeV Energy Range and He-Fe Nuclei in the &#8764;0.032 MeV/nucleon Energy Ranges in two identical Telescopes, each with a Geometrical Factor of 0.4 cm^2 sr and a Rectangular Field</Description>
          <Acknowledgement>Mihir Desai</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Mihir.Desai</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Wind Project Web Site - Comprehensive Solar Wind Laboratory for Long-Term Solar Wind Observations</Name>
             <URL>https://wind.nasa.gov/</URL>
             <Description>Wind Project Web Site</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
@@ -34,22 +34,22 @@
             <Name>FTP access to files at SPDF</Name>
             <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/epact/step/differential-ion-flux-1hr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/epact/step/differential-ion-flux-1hr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>WI_EPACT_STEP-DIFFERENTIAL-ION-FLUX-1HR</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>Mihir Desai. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Wind/EPACT</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
@@ -60,9 +60,9 @@
          <TimeSpan>
             <StartDate>1994-11-21T00:00:00.000</StartDate>
             <StopDate>2017-01-01T23:59:59.999</StopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT1H</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <ObservedRegion>Heliosphere</ObservedRegion>
       <ObservedRegion>Heliosphere.Inner</ObservedRegion>
       <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
@@ -80,14 +80,14 @@
             <ScaleMin>6.2951018619904e+13</ScaleMin>
             <ScaleMax>6.3745034619904e+13</ScaleMax>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>03-Nov-1994 00:00:00.000</ValidMin>
          <ValidMax>01-Jan-2020 00:00:00.000</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>H Energy, Minimum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -99,18 +99,18 @@
          <RenderingHints>
             <AxisLabel>H_energy_min</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy, Center</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -123,17 +123,17 @@
             <AxisLabel>H_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy, Maximum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -145,18 +145,18 @@
          <RenderingHints>
             <AxisLabel>H_energy_max</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy Efficiency, Low</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -168,18 +168,18 @@
          <RenderingHints>
             <AxisLabel>H_energy_efficiency_low</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy Efficiency, High</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -191,18 +191,18 @@
          <RenderingHints>
             <AxisLabel>H_energy_efficiency_high</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy Efficiency, Average</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -214,18 +214,18 @@
          <RenderingHints>
             <AxisLabel>H_energy_efficiency_avg</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy, Center, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -239,7 +239,7 @@
             <AxisLabel>H_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10</Size>
             <Element>
@@ -247,72 +247,72 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 8</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>8</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 9</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>9</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 10</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>10</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -320,8 +320,8 @@
             <ParticleType>Proton</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Energy, Center, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -335,7 +335,7 @@
             <AxisLabel>H_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10</Size>
             <Element>
@@ -343,72 +343,72 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 8</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>8</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 9</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>9</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 10</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>10</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -416,8 +416,8 @@
             <ParticleType>Proton</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Flux</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -429,18 +429,18 @@
          <RenderingHints>
             <AxisLabel>H_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Flux Uncertainty, Sigma</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -452,10 +452,10 @@
          <RenderingHints>
             <AxisLabel>H_flux_sigma</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Proton</ParticleType>
@@ -463,8 +463,8 @@
             <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Flux, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -479,10 +479,10 @@
             <AxisLabel>H_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -491,8 +491,8 @@
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Flux, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -507,10 +507,10 @@
             <AxisLabel>H_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -519,8 +519,8 @@
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>H Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -530,17 +530,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>10</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>10</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>He Energy, Minimum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -552,18 +552,18 @@
          <RenderingHints>
             <AxisLabel>He_energy_min</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy, Center</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -576,17 +576,17 @@
             <AxisLabel>He_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy, Maximum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -598,18 +598,18 @@
          <RenderingHints>
             <AxisLabel>He_energy_max</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy Efficiency, Low</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -621,18 +621,18 @@
          <RenderingHints>
             <AxisLabel>He_energy_efficiency_low</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy Efficiency, High</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -644,18 +644,18 @@
          <RenderingHints>
             <AxisLabel>He_energy_efficiency_high</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy Efficiency, Average</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -667,18 +667,18 @@
          <RenderingHints>
             <AxisLabel>He_energy_efficiency_avg</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy, Center, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -692,7 +692,7 @@
             <AxisLabel>He_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -700,51 +700,51 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -752,8 +752,8 @@
             <ParticleType>AlphaParticle</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Energy, Center, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -767,7 +767,7 @@
             <AxisLabel>He_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -775,51 +775,51 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -827,8 +827,8 @@
             <ParticleType>AlphaParticle</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Flux</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -840,18 +840,18 @@
          <RenderingHints>
             <AxisLabel>He_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Flux Uncertainty, Sigma</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -863,10 +863,10 @@
          <RenderingHints>
             <AxisLabel>He_flux_sigma</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>AlphaParticle</ParticleType>
@@ -874,8 +874,8 @@
             <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Flux, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -889,10 +889,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -901,8 +901,8 @@
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Flux, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -916,10 +916,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -928,8 +928,8 @@
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>He Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -939,17 +939,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>7</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>CNO Energy, Minimum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -961,17 +961,17 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_min</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy, Center</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -983,16 +983,16 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy, Maximum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1004,17 +1004,17 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_max</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy Efficiency, Low</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1026,17 +1026,17 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_efficiency_low</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy Efficiency, High</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1048,17 +1048,17 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_efficiency_high</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy Efficiency, Average</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1070,17 +1070,17 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_efficiency_avg</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy, Center, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1093,7 +1093,7 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -1101,59 +1101,59 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Energy, Center, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1166,7 +1166,7 @@
          <RenderingHints>
             <AxisLabel>CNO_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -1174,59 +1174,59 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Flux</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1238,17 +1238,17 @@
          <RenderingHints>
             <AxisLabel>CNO_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Flux Uncertainty, Sigma</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1260,18 +1260,18 @@
          <RenderingHints>
             <AxisLabel>CNO_flux_sigma</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Flux, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1285,10 +1285,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>CNO_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -1296,8 +1296,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Flux, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1311,10 +1311,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>CNO_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -1322,8 +1322,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>CNO Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1333,17 +1333,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>7</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>NeS Energy, Minimum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1355,17 +1355,17 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_min</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy, Center</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1377,16 +1377,16 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy, Maximum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1398,17 +1398,17 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_max</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy Efficiency, Low</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1420,17 +1420,17 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_efficiency_low</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy Efficiency, High</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1442,17 +1442,17 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_efficiency_high</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy Efficiency, Average</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1464,17 +1464,17 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_efficiency_avg</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy, Center, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1487,7 +1487,7 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -1495,59 +1495,59 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Energy, Center, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1560,7 +1560,7 @@
          <RenderingHints>
             <AxisLabel>NeS_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
             <Element>
@@ -1568,59 +1568,59 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>7</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Flux</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1632,17 +1632,17 @@
          <RenderingHints>
             <AxisLabel>NeS_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Flux Uncertainty, Sigma</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1654,18 +1654,18 @@
          <RenderingHints>
             <AxisLabel>NeS_flux_sigma</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Flux, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1679,10 +1679,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>NeS_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -1690,8 +1690,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Flux, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1705,10 +1705,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>NeS_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -1716,8 +1716,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>NeS Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1727,17 +1727,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>7</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>7</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Fe Energy, Minimum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1749,17 +1749,17 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_min</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy, Center</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1771,16 +1771,16 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy, Maximum</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1792,17 +1792,17 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_max</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy Efficiency, Low</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1814,17 +1814,17 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_efficiency_low</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy Efficiency, High</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1836,17 +1836,17 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_efficiency_high</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy Efficiency, Average</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1858,17 +1858,17 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_efficiency_avg</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Average</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy, Center, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1881,7 +1881,7 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6</Size>
             <Element>
@@ -1889,52 +1889,52 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Energy, Center, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1947,7 +1947,7 @@
          <RenderingHints>
             <AxisLabel>Fe_energy_center</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6</Size>
             <Element>
@@ -1955,52 +1955,52 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>4</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>5</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>6</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Flux</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2012,17 +2012,17 @@
          <RenderingHints>
             <AxisLabel>Fe_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Flux Uncertainty, Sigma</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2034,18 +2034,18 @@
          <RenderingHints>
             <AxisLabel>Fe_flux_sigma</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Flux, Telescope 1</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2059,10 +2059,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Fe_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -2070,8 +2070,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Flux, Telescope 2</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2085,10 +2085,10 @@
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Fe_flux</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -2096,8 +2096,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fe Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2107,17 +2107,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>6</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>6</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Telescope Index</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2127,17 +2127,17 @@
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
-         </Structure>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>2</ValidMax>
          <FillValue>-9</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Magnetic Field, Magnitude</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2149,7 +2149,7 @@
          <RenderingHints>
             <AxisLabel>B</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2157,24 +2157,24 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-1000.0</ValidMin>
          <ValidMax>1000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Field>
             <Qualifier>Magnitude</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Magnetic Field, Theta Angle</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2186,7 +2186,7 @@
          <RenderingHints>
             <AxisLabel>Btheta</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2194,24 +2194,24 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-90.0</ValidMin>
          <ValidMax>90.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Field>
             <Qualifier>DirectionAngle.PolarAngle</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Magnetic Field, Phi Angle</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2223,7 +2223,7 @@
          <RenderingHints>
             <AxisLabel>Bphi</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2231,24 +2231,24 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>360.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Field>
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Magnetic Field, RMS</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2260,7 +2260,7 @@
          <RenderingHints>
             <AxisLabel>Brms</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2268,24 +2268,24 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>1000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Field>
             <Qualifier>Variance</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Spacecraft Radial Distance</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2297,7 +2297,7 @@
          <RenderingHints>
             <AxisLabel>R</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2305,24 +2305,24 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>300.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Support>
             <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Spacecraft Position, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2334,20 +2334,20 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GSE</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>xyz gse</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Support>
             <Qualifier>Vector</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Solar Wind Velocity</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2359,7 +2359,7 @@
          <RenderingHints>
             <AxisLabel>Vsw</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2367,16 +2367,16 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-3000.0</ValidMin>
          <ValidMax>3000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -2384,8 +2384,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Magnitude</Qualifier>
             <ParticleQuantity>Velocity</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Spacecraft Velocity, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2397,20 +2397,20 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GSE</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>velocity</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3 2</Size>
-         </Structure>
+</Structure>
          <FillValue>-9.99e+32</FillValue>
          <Support>
             <Qualifier>Vector</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Proton Number Density</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2422,7 +2422,7 @@
          <RenderingHints>
             <AxisLabel>Np</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2430,16 +2430,16 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>10000.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -2448,8 +2448,8 @@
             <Qualifier>Scalar</Qualifier>
             <ParticleQuantity>NumberDensity</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Solar Wind Thermal Velocity</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2461,7 +2461,7 @@
          <RenderingHints>
             <AxisLabel>Vth</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2469,16 +2469,16 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>500.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
@@ -2486,8 +2486,8 @@
             <ParticleType>Ion</ParticleType>
             <Qualifier>Magnitude</Qualifier>
             <ParticleQuantity>ThermalSpeed</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Spin Rate</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -2499,7 +2499,7 @@
          <RenderingHints>
             <AxisLabel>spin_rate</AxisLabel>
             <ValueFormat>E12.5</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -2507,22 +2507,22 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>360.0</ValidMax>
          <FillValue>-9.99e+32</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

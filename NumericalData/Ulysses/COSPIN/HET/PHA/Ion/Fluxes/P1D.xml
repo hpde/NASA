@@ -6,38 +6,38 @@
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Proton and Helium PHA based Fluxes in ASCII Format, Daily Average Data</ResourceName>
          <AlternateName>COSPIN-HET-FLUXES-P1D</AlternateName>
-         <ReleaseDate>2018-02-20T19:10:29Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>This Data Set contains Daily Average Proton and Helium PHA based Fluxes and Errors from the COSPIN High Energy Telescope (HET) in the approximate Energy Ranges 39-70 MeV/n and 71-94 MeV/n from Day 296, 1990 through Day 181, 2009</Description>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
             <Role>PrincipalInvestigator</Role>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/James.Connell</PersonID>
             <Role>CoInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Ming.Zhang</PersonID>
             <Role>CoInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Cecil.Tranquille</PersonID>
             <Role>ArchiveSpecialist</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>The Ulysses Cosmic Ray and Solar Particle Investigation, COSPIN</Name>
             <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
             <Description>Published Description of the COSPIN Instrumentation, J.A. Simpson et al., Astron. Astrophys. Suppl. Ser. 92, 365-399, 1992. See especially Section 4.3 for a detailed Description of the High Energy Telescopes, HET. An electronic Copy of this Paper is available at http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?1992A%26AS...92..365S&amp;defaultprint=YES&amp;filetype=.pdf.</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>User Notes for the COSPIN/HET Data Files</Name>
             <URL>http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&amp;PRODUCT_TYPE=ALL&amp;FILE_NAME=het_usernotes.pdf&amp;FILE_PATH=/ufa/HiRes/doc/cospin</URL>
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, Daily Average PHA based Protons and Helium in two Energy Intervals covering the approximate Energy Ranges 39-70 and 71-94 MeV/n</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HET/PH_Fluxes/P1D</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
          <Availability>Online</Availability>
@@ -45,22 +45,22 @@
          <AccessURL>
             <Name>Ulysses Final Archive Access to COSPIN/HET Daily Average Proton and Helium PHA based Fluxes</Name>
             <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-            <Description>ASCII Data File containing all Ulysses COSPIN/HET Daily Average PHA based Flux Data. Each Day is represented by one Line containing, in eleven Columns: 
+            <Description>ASCII Data File containing all Ulysses COSPIN/HET Daily Average PHA based Flux Data. Each Day is represented by one Line containing, in eleven Columns:
 Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), Fractional Day of Year of Midpoint of Average (January 1 = 1, so Day 170 = 170.5), Flux of 39-70 MeV Protons, Statistical Error on Flux of 39-70 MeV Protons, Flux of 71-94 MeV Protons, Statistical Error on Flux of 71-94 MeV Protons, Flux of 39-71 MeV/n Helium, Statistical Error on Flux of 39-71 MeV/n, Helium Flux of 71-94 MeV/n Helium, Statistical Error on Flux of 72-95 MeV/n Helium, and Seconds of Data Coverage during the Day, Invalid or Missing Data are represented by -1.000E+00</Description>
-         </AccessURL>
+</AccessURL>
          <Format>Text</Format>
          <Encoding>ASCII</Encoding>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN/HET</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
             <StartDate>1990-10-23T00:00:00.000</StartDate>
             <StopDate>2009-06-30T23:59:59.999</StopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>P1D</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <ObservedRegion>Heliosphere.Outer</ObservedRegion>
       <Parameter>
          <Name>Time for the record</Name>
@@ -75,19 +75,19 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <ValidMin>90.80959</ValidMin>
                <ValidMax>110.49589</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Fractional Day of Year</Name>
                <Index>2</Index>
                <ValidMin>1.5</ValidMin>
                <ValidMax>366.5</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 39-70 MeV (H4) Proton Flux</Name>
          <ParameterKey>Column_3</ParameterKey>
@@ -106,9 +106,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>39</Low>
                <High>70</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 39-70 MeV (H4) Proton Flux Statistical Error</Name>
          <ParameterKey>Column_4</ParameterKey>
@@ -127,9 +127,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>39</Low>
                <High>70</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 71-94 MeV (H5) Proton Flux</Name>
          <ParameterKey>Column_5</ParameterKey>
@@ -148,9 +148,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>71</Low>
                <High>94</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 71-94 MeV (H5) Proton Flux Statistical Error</Name>
          <ParameterKey>Column_6</ParameterKey>
@@ -169,9 +169,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>71</Low>
                <High>94</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 39-71 (H4) MeV/nucleon Helium Flux</Name>
          <ParameterKey>Column_7</ParameterKey>
@@ -190,9 +190,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>39</Low>
                <High>71</High>
                <Units>MeV/n</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 39-71 MeV/nucleon (H4) Helium Flux Statistical Error</Name>
          <ParameterKey>Column_8</ParameterKey>
@@ -211,9 +211,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>39</Low>
                <High>71</High>
                <Units>MeV/n</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 72-95 (H5) MeV/nucleon Helium Flux</Name>
          <ParameterKey>Column_9</ParameterKey>
@@ -232,9 +232,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>72</Low>
                <High>95</High>
                <Units>MeV/n</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 72-95 MeV/nucleon (H5) Helium Flux Statistical Error</Name>
          <ParameterKey>Column_10</ParameterKey>
@@ -253,9 +253,9 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
                <Low>72</Low>
                <High>95</High>
                <Units>MeV/n</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Seconds of Data Included</Name>
          <ParameterKey>Column_11</ParameterKey>
@@ -263,7 +263,7 @@ Fractional Year since 1900 of Midpoint of Average (Day 170, 2007 = 107.46438), F
          <Cadence>P1D</Cadence>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

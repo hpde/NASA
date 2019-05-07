@@ -4,24 +4,24 @@
         <ResourceID>spase://VSPO/DisplayData/POLAR/PIXIE/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar PIXIE Auroral X-ray Plots and Movies</ResourceName>
-            <ReleaseDate>2014-05-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Polar PIXIE Auroral X-Ray Plots and Movies</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.Schultz</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_PIXIE_PLOTS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/LMMSC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>PIXIE site at Lockheed</Name>
-                <URL>http://sdowww.lmsal.com/pixie</URL>
-            </AccessURL>
+                <URL>http://sdowww.lmsal.com/pixie/</URL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/POLAR/PIXIE</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -30,11 +30,11 @@
                 <StartDate>1996-03-19T00:00:00</StartDate>
                 <StopDate>2002-11-09T00:00:00</StopDate>
                 <Note>Data may be brought to a more current state.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT10M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <SpectralRange>XRays</SpectralRange>
         <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

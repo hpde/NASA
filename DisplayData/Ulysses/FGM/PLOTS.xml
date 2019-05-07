@@ -4,18 +4,18 @@
         <ResourceID>spase://VSPO/DisplayData/Ulysses/FGM/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses magnetic field data plots at ESA</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>1-min and 1-hour Ulysses magnetic field data at ESA, also 1-sec data for 1990-3</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Joyce.E.Wolf</PersonID>
                 <Role>DataProducer</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_MAG_PLOTS_UDS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -23,9 +23,9 @@
             <AccessURL>
                 <Name>VHM_FGM plots from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
-            </AccessURL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/FGM</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
@@ -33,8 +33,8 @@
             <TimeSpan>
                 <StartDate>1990-10-25T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

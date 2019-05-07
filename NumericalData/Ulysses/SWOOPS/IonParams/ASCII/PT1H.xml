@@ -5,19 +5,19 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/IonParams/ASCII/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWOOPS Ion Parameters Hourly Data</ResourceName>
-            <ReleaseDate>2018-09-12T00:00:00</ReleaseDate>
-            <Description>This data set contains hourly averages of the ion density for protons and alpha particles, temperatures (min and max), and velocity data in RTN components from the Ulysses Solar Wind Observations Over the Poles of the Sun (SWOOPS) instrument.  Density units are /cm3, temperature 
-units are K, velocity units are km/s. </Description>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>This data set contains hourly averages of the ion density for protons and alpha particles, temperatures (min and max), and velocity data in RTN components from the Ulysses Solar Wind Observations Over the Poles of the Sun (SWOOPS) instrument.  Density units are /cm3, temperature
+units are K, velocity units are km/s.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bruce.E.Goldstein</PersonID>
                 <Role>DataProducer</Role>
-            </Contact>
+</Contact>
         <PriorID>spase://VSPO/NumericalData/Ulysses/SWOOPS/IonParams/PT1H</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
@@ -26,14 +26,14 @@ units are K, velocity units are km/s. </Description>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/ion/hour/</URL>
                 <Description>In CDF via FTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops/ion/hour/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -41,9 +41,9 @@ units are K, velocity units are km/s. </Description>
             <AccessURL>
                 <Name>annual gzipped-ASCII files from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/SWOOPS</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -51,11 +51,11 @@ units are K, velocity units are km/s. </Description>
             <TimeSpan>
                 <StartDate>1990-11-18T00:00:00</StartDate>
                 <StopDate>2009-06-30T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT1H</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>
 
 

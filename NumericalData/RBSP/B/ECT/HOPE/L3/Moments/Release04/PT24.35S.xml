@@ -5,67 +5,67 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L3/Moments/Release04/PT24.35S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Resolved Science Data. Electron &gt;200 eV and Ion &gt;30 eV Plasma Moments measured at Apogee in Alternate Spin Cadence, Level 3, Release #4 (L3), 24.35 s Data</ResourceName>
-      <ReleaseDate>2019-04-11T20:23:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Van Allen Probe B, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Spin Resolution Science Data. Plasma Moments from Electrons &gt;200 eV and Ions &gt;30 eV measured at Apogee in alternate Spin Cadence.</Description>
       <Acknowledgement>H.O. Funsten, R. Skoug, B.A. Larsen, R. Friedel. Distribute freely, please acknowledge the original Principal Investigator. Please contact the Principal Investigator before any publication or Presentation of Data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.O.Funsten</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ruth.Skoug</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Brian.A.Larsen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Reiner.Friedel</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
         <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/</URL>
         <Description>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/data_policy</URL>
         <Description>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT Home Page, UNH</Name>
         <URL>http://rbsp-ect.sr.unh.edu</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, and Data Services Web Page, LANL</Name>
-        <URL>http://www.rbsp-ect.lanl.gov/</URL>
+        <URL>https://www.rbsp-ect.lanl.gov/</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, and Data Services Web Page at the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, Data Access Links to HOPE Particle Data, LANL</Name>
         <URL>https://www.rbsp-ect.lanl.gov/science/DataDirectories.php</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, Data Access Links to Pitch Angle resolved Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Particle Web Site for access to Magnetic Field Data the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L3/Moments/Release03/PT24.35S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/L3/Moments/Release03/PT20S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/HOPE/SCI-L3/PT20S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -74,22 +74,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l3/ect/hope/moments/rel04/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l3/ect/hope/moments/rel04/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPB_REL04_ECT-HOPE-MOM-L3&amp;index=sp_phys</URL>
         <ProductKey>RBSPB_REL04_ECT-HOPE-MOM-L3</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>H.O. Funsten, R. Skoug, B.A. Larsen, R. Friedel. Distribute freely, please acknowledge the original Principal Investigator. Please contact the Principal Investigator before any publication or Presentation of Data. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/RBSP/B/ECT</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/RBSP/B/Ephemeris</InstrumentID>
@@ -99,9 +99,9 @@
       <TimeSpan>
         <StartDate>2012-10-26T00:00:20.000</StartDate>
         <RelativeStopDate>-P7M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT24.35S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
@@ -117,8 +117,8 @@
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Time, Electrons</Name>
       <ParameterKey>Epoch_Ele</ParameterKey>
@@ -130,8 +130,8 @@
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton Temperature, Parallel</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -145,7 +145,7 @@
         <AxisLabel>proton Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -155,8 +155,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Temperature, Parallel</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -170,7 +170,7 @@
         <AxisLabel>He+ Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -180,8 +180,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Temperature, Parallel</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -195,7 +195,7 @@
         <AxisLabel>O!u+!n Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -205,8 +205,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature, Parallel</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -220,7 +220,7 @@
         <AxisLabel>electron Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -229,8 +229,8 @@
         <Qualifier>Parallel</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Temperature, Perpendicular</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -244,7 +244,7 @@
         <AxisLabel>proton Tperp</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -254,8 +254,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Temperature, Perpendicular</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -269,7 +269,7 @@
         <AxisLabel>He+ Tperp</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -279,8 +279,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Temperature, Perpendicular</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -294,7 +294,7 @@
         <AxisLabel>O+ Tperp</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -304,8 +304,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature, Perpendicular</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -319,7 +319,7 @@
         <AxisLabel>electron Tperp</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -328,8 +328,8 @@
         <Qualifier>Perpendicular</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Temperature Ratio</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -341,7 +341,7 @@
         <AxisLabel>proton Tperp/Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -350,8 +350,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Temperature Ratio</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -363,7 +363,7 @@
         <AxisLabel>He Tperp/Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -372,8 +372,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Temperature Ratio</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -385,7 +385,7 @@
         <AxisLabel>Oxygen Tperp/Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -394,8 +394,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature Ratio</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -407,7 +407,7 @@
         <AxisLabel>electron Tperp/Tpar</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -415,8 +415,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Ion Density, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -430,7 +430,7 @@
         <AxisLabel>Ion density</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -438,8 +438,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Density, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -453,7 +453,7 @@
         <AxisLabel>proton density</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -462,8 +462,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Density, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -477,7 +477,7 @@
         <AxisLabel>He+ density</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -486,8 +486,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Density, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -501,7 +501,7 @@
         <AxisLabel>O+ density</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -510,8 +510,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Density, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -525,7 +525,7 @@
         <AxisLabel>electron density</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -533,8 +533,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium to Proton Density Ratio, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -546,7 +546,7 @@
         <AxisLabel>He/p density ratio</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -558,8 +558,8 @@
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium to Oxygen Density Ratio, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -571,7 +571,7 @@
         <AxisLabel>He/O density ratio</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -582,8 +582,8 @@
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen to Proton Density Ratio, Partial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -595,7 +595,7 @@
         <AxisLabel>O/p density ratio</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -607,8 +607,8 @@
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Bin Number</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -620,15 +620,15 @@
         <AxisLabel>Samples p</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>127</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Helium Bin Number</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -640,15 +640,15 @@
         <AxisLabel>Samples he</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>127</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Oxygen Bin Number</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -660,15 +660,15 @@
         <AxisLabel>Samples o</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>127</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Bin Number</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -680,15 +680,15 @@
         <AxisLabel>Samples e</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>127</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Proton Temperature</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -701,15 +701,15 @@
         <AxisLabel>Temp flag p</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Helium Temperature</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -722,15 +722,15 @@
         <AxisLabel>Temp flag he</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Oxygen Temperature</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -743,15 +743,15 @@
         <AxisLabel>Temp flag o</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Electron Temperature</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -764,15 +764,15 @@
         <AxisLabel>Temp flag e</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Proton Tperp Consistency</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -785,15 +785,15 @@
         <AxisLabel>Tperp flag p</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Helium Tperp Consistency</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -806,15 +806,15 @@
         <AxisLabel>Tperp flag he</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Oxygen Tperp Consistency</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -827,15 +827,15 @@
         <AxisLabel>Tperp flag o</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Electron Tperp Consistency</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -848,15 +848,15 @@
         <AxisLabel>Tperp flag e</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Proton Density</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -869,15 +869,15 @@
         <AxisLabel>Dens flag p</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Helium Density</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -890,15 +890,15 @@
         <AxisLabel>Dens flag he</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Oxygen Density</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -911,15 +911,15 @@
         <AxisLabel>Dens flag o</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag, Electron Density</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -932,15 +932,15 @@
         <AxisLabel>Dens flag e</AxisLabel>
         <ValueFormat>I2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector, Geographic Cartesian Coordinates</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -953,27 +953,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Xgeo</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ygeo</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Zgeo</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -981,8 +981,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Roederer L&#42; generalized L Shell Parameter</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -997,15 +997,15 @@
         <AxisLabel>L&#42;</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+31</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>McIlwain L Shell Parameter</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1020,15 +1020,15 @@
         <AxisLabel>L</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+31</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Model Magnetic Field Magnitude, Equatorial</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1043,7 +1043,7 @@
         <AxisLabel>B_Eq</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+31</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1051,8 +1051,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Second Adiabatic Invariant, Bounce</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1066,15 +1066,15 @@
         <AxisLabel>I</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+31</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position, Magnetic Local Time</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1087,13 +1087,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MLT</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1101,7 +1101,7 @@
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

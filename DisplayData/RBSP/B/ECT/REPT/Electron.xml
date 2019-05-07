@@ -5,28 +5,28 @@
     <ResourceID>spase://VSPO/DisplayData/RBSP/B/ECT/REPT/Electron</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Relativistic Electron Proton Telescope (REPT,)Electron Fluxes Summary Plots</ResourceName>
-      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Van Allen Probe B, Summary Plots of Electron fluxes measured by the Relativistic Electron Proton Telescope (REPT), which is one of three instruments on the Energetic Particle, Composition and Thermal Plasma Suite (ECT)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harlan.E.Spence</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ECT Science and Data Portal</Name>
-        <URL>https://rbsp-ect.newmexicoconsortium.org/rbsp_ect.php/</URL>
+        <URL>https://www.rbsp-ect.lanl.gov/rbsp_ect.php</URL>
         <Description>the RBSP-ECT data processing has been migrated from LANL to the New Mexico Consortium (NMC) which is a university-owned research institute affiliated with LANL</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The Van Allen Probes Home Page</Name>
         <URL>http://rbspgway.jhuapl.edu/</URL>
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://VSPO/NumericalData/RBSP/B/ECT/REPT/L3/Sectors/Release03/PT4.2S</AssociationID>
         <AssociationType>DerivedFrom</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://ViRBO/DisplayData/RBSP/B/ECT/REPT/Electron</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>
       <Availability>Online</Availability>
@@ -35,16 +35,16 @@
         <Name>The Van Allen Probes Science Gateway</Name>
         <URL>http://rbspgway.jhuapl.edu/rPlotTime?smr/</URL>
         <Description>summary plots at the APL Science Gateway where one can browse standard plots or create their own custom plots</Description>
-      </AccessURL>
+</AccessURL>
       <Format>PNG</Format>
-    </AccessInformation>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/RBSP/B/ECT</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-09-01T11:38:18.000Z</StartDate>
         <RelativeStopDate>-P2D</RelativeStopDate>
-      </TimeSpan>
-    </TemporalDescription>
-  </DisplayData>
+</TimeSpan>
+</TemporalDescription>
+</DisplayData>
 </Spase>

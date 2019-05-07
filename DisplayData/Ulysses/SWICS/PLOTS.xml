@@ -4,18 +4,18 @@
         <ResourceID>spase://VSPO/DisplayData/Ulysses/SWICS/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWICS plots via ESA</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>26 day plots of Ulysses/SWICS N,V,T for He++, C6+, O6+ and Ne8+, Fe charge state, Fe to O ratio and C and O charge state ratios</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Johannes.Geiss</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_SWICS_UDS_PLOTS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -23,9 +23,9 @@
             <AccessURL>
                 <Name>SWICS plots from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
-            </AccessURL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/SWICS</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -34,8 +34,8 @@
             <TimeSpan>
                 <StartDate>1990-12-07T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

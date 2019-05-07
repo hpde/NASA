@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/DE2/MAGB-VEFI/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE-2 0.5-s magnetic and electric field data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>DE-2 0.5-s magnetic and electric field data at low altitude</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.A.Slavin</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_DE2_HDR_MAG_VEFI_0.5S</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/de2_mag.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/de2_mag.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/dc_500ms_ascii/</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/dc_500ms_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/MAGB</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/VEFI</InstrumentID>
@@ -40,9 +40,9 @@
             <TimeSpan>
                 <StartDate>1981-08-15T00:00:00</StartDate>
                 <StopDate>1983-02-16T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT0.5S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

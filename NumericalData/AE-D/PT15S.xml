@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/AE-D/PT15S</ResourceID>
         <ResourceHeader>
             <ResourceName>AE-D 15-s Unified Abstract data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Atmospheric Explorer (AE)-D 15-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_AED_HDR_UA</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/ae_d.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ae_d.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ae/ae_d/</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ae/ae_d/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/AE-D/RPA</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/AE-D/CEP</InstrumentID>
@@ -48,10 +48,10 @@
             <TimeSpan>
                 <StartDate>1975-10-06T00:00:00</StartDate>
                 <StopDate>1976-01-29T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT15S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
         <ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

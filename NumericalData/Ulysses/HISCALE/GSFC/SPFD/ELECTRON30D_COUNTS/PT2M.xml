@@ -5,18 +5,18 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/GSFC/SPFD/ELECTRON30D_COUNTS/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses HISCALE LEMSDE deflected electron counts</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This data set contains 1-hour spin averaged count rates of the deflected electron from the Ulysses Heliosphere Instrument for Spectra, Composition and Anisotropy at Low Energies (HI-SCALE) Low Energy Foil Spectrometer at 30 degrees to the spacecraft spin axis. Count rate units are /s.  For references, see Astron. Astrophys. Suppl. Ser., 92(2), 349-363, 1992.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_ELECTRON30D_COUNTS_DIGITAL</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
@@ -25,19 +25,19 @@
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=UY_M1_LMDE&amp;index=sp_phys</URL>
         <ProductKey>UY_M1_LMDE</ProductKey>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/lmde_m1</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/lmde_m1/</URL>
         <Description>UY_M1_LMDE</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/lmde_m1</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/hiscale_cdaweb/lmde_m1/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/HISCALE</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -46,9 +46,9 @@
       <TimeSpan>
         <StartDate>1990-11-14T00:00:00</StartDate>
         <StopDate>2008-12-31T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT2M</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

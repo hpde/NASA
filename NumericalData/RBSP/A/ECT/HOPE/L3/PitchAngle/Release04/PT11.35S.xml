@@ -5,55 +5,55 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release04/PT11.35S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Pitch Angle resolved Science Data. Electron Fluxes, 15 eV to 50 keV, and Ion Fluxes, 1 eV to 50 keV, as measured in alternate Spin Cadence, Level 3, Release #4 (L3), 11.35 s Data</ResourceName>
-      <ReleaseDate>2019-04-11T20:23:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Van Allen Probe A, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Pitch Angle resolved Science Data. Electron Fluxes from about 15 eV to 50 keV and Ion Fluxes from about 1 eV to 50 keV as measured in alternate Spin Cadence.</Description>
       <Acknowledgement>H.O. Funsten, R. Skoug, R. Friedel. Distribute freely, please acknowledge the original Principal Investigator. Please contact the Principal Investigator before any publication or Presentation of Data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.O.Funsten</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
         <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/</URL>
         <Description>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/data_policy</URL>
         <Description>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT Home Page, UNH</Name>
         <URL>http://rbsp-ect.sr.unh.edu</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, and Data Services Web Page, LANL</Name>
-        <URL>http://www.rbsp-ect.lanl.gov/</URL>
+        <URL>https://www.rbsp-ect.lanl.gov/</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, and Data Services Web Page at the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, Data Access Links to HOPE Particle Data, LANL</Name>
         <URL>https://www.rbsp-ect.lanl.gov/science/DataDirectories.php</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, Data Access Links to Pitch Angle resolved Helium Oxygen Proton Electron, HOPE, Mass Spectrometer Particle Web Site for access to Magnetic Field Data the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release03/PT11.35S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L3/PitchAngle/Release03/PT60S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/SCI-L3/PT60S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -62,22 +62,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel04/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/hope/pitchangle/rel04/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL04_ECT-HOPE-PA-L3&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_REL04_ECT-HOPE-PA-L3</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>H.O. Funsten, R. Skoug, R. Friedel. Distribute freely, please acknowledge the original Principal Investigator. Please contact the Principal Investigator before any publication or Presentation of Data. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/ECT</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/Ephemeris</InstrumentID>
@@ -88,9 +88,9 @@
       <TimeSpan>
         <StartDate>2012-10-25T00:00:23.000</StartDate>
         <RelativeStopDate>-P7M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT11.35S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
@@ -107,370 +107,370 @@
         <AxisLabel>Electron Energy Range</AxisLabel>
         <ValueFormat>E8.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 10</Name>
           <Index>10</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 11</Name>
           <Index>11</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 12</Name>
           <Index>12</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 13</Name>
           <Index>13</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 14</Name>
           <Index>14</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 15</Name>
           <Index>15</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 16</Name>
           <Index>16</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 17</Name>
           <Index>17</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 18</Name>
           <Index>18</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 19</Name>
           <Index>19</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 20</Name>
           <Index>20</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 21</Name>
           <Index>21</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 22</Name>
           <Index>22</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 23</Name>
           <Index>23</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 24</Name>
           <Index>24</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 25</Name>
           <Index>25</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 26</Name>
           <Index>26</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 27</Name>
           <Index>27</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 28</Name>
           <Index>28</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 29</Name>
           <Index>29</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 30</Name>
           <Index>30</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 31</Name>
           <Index>31</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 32</Name>
           <Index>32</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 33</Name>
           <Index>33</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 34</Name>
           <Index>34</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 35</Name>
           <Index>35</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 36</Name>
           <Index>36</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 37</Name>
           <Index>37</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 38</Name>
           <Index>38</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 39</Name>
           <Index>39</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 40</Name>
           <Index>40</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 41</Name>
           <Index>41</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 42</Name>
           <Index>42</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 43</Name>
           <Index>43</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 44</Name>
           <Index>44</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 45</Name>
           <Index>45</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 46</Name>
           <Index>46</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 47</Name>
           <Index>47</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 48</Name>
           <Index>48</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 49</Name>
           <Index>49</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 50</Name>
           <Index>50</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 51</Name>
           <Index>51</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 52</Name>
           <Index>52</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 53</Name>
           <Index>53</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 54</Name>
           <Index>54</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 55</Name>
           <Index>55</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 56</Name>
           <Index>56</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 57</Name>
           <Index>57</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 58</Name>
           <Index>58</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 59</Name>
           <Index>59</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 60</Name>
           <Index>60</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 61</Name>
           <Index>61</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 62</Name>
           <Index>62</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 63</Name>
           <Index>63</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 64</Name>
           <Index>64</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 65</Name>
           <Index>65</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 66</Name>
           <Index>66</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 67</Name>
           <Index>67</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 68</Name>
           <Index>68</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 69</Name>
           <Index>69</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 70</Name>
           <Index>70</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 71</Name>
           <Index>71</Index>
           <Units>eV</Units>
-        </Element>
+</Element>
         <Element>
           <Name>Element 72</Name>
           <Index>72</Index>
           <Units>eV</Units>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>60000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -478,8 +478,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Ion Energy Range, Delta</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -492,10 +492,10 @@
         <AxisLabel>Ion Energy Range</AxisLabel>
         <ValueFormat>E8.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>60000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -503,8 +503,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Epoch Time, Electrons</Name>
       <ParameterKey>Epoch_Ele</ParameterKey>
@@ -516,8 +516,8 @@
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Time Delta, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -531,15 +531,15 @@
         <AxisLabel>Electron time uncert.</AxisLabel>
         <ValueFormat>F6.0</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Time, Ions</Name>
       <ParameterKey>Epoch_Ion</ParameterKey>
@@ -551,8 +551,8 @@
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Time Delta, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -566,15 +566,15 @@
         <AxisLabel>Ion time uncert.</AxisLabel>
         <ValueFormat>F6.0</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle</Name>
       <ParameterKey>PITCH_ANGLE</ParameterKey>
@@ -589,18 +589,18 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle</Name>
       <ParameterKey>PITCH_ANGLE_EXT</ParameterKey>
@@ -615,18 +615,18 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>HOPE Electron Energy</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -643,298 +643,298 @@
         <ScaleMin>10.0</ScaleMin>
         <ScaleMax>100000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>Ele_E1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E4</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E5</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E6</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E7</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E8</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E9</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E10</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E11</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E12</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E13</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E14</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E15</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E16</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E17</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E18</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E19</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E20</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E21</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E22</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E23</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E24</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E25</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E26</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E27</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E28</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E29</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E30</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E31</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E32</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E33</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E34</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E35</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E36</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E37</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E38</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E39</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E40</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E41</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E42</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E43</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E44</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E45</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E46</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E47</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E48</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E49</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E50</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E51</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E52</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E53</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E54</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E55</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E56</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E57</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E58</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E59</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E60</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E61</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E62</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E63</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E64</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E65</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E66</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E67</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E68</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E69</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E70</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E71</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ele_E72</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>1.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -942,8 +942,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Ion Energy</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -960,298 +960,298 @@
         <ScaleMin>0.1</ScaleMin>
         <ScaleMax>100000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>Ion_E1</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E2</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E3</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E4</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E5</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E6</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E7</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E8</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E9</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E10</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E11</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E12</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E13</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E14</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E15</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E16</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E17</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E18</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E19</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E20</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E21</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E22</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E23</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E24</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E25</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E26</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E27</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E28</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E29</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E30</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E31</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E32</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E33</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E34</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E35</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E36</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E37</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E38</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E39</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E40</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E41</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E42</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E43</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E44</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E45</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E46</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E47</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E48</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E49</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E50</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E51</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E52</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E53</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E54</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E55</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E56</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E57</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E58</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E59</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E60</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E61</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E62</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E63</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E64</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E65</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E66</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E67</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E68</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E69</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E70</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E71</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion_E72</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.1</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1259,8 +1259,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -1277,10 +1277,10 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1288,8 +1288,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Omnidirectional, Time Series Stack Plots</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -1305,298 +1305,298 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>FEDO_Flux_E01/&#126;15eV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E02/&#126;17eV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E03/&#126;19eV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E04/&#126;21eV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E05/&#126;24eV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E06/&#126;27eV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E07/&#126;30eV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E08/&#126;33eV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E09/&#126;37eV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E10/&#126;42eV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E11/&#126;47eV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E12/&#126;53eV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E13/&#126;59eV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E14/&#126;67eV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E15/&#126;75eV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E16/&#126;84eV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E17/&#126;94eV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E18/&#126;106eV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E19/&#126;118eV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E20/&#126;133eV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E21/&#126;149eV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E22/&#126;167eV</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E23/&#126;187eV</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E24/&#126;210eV</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E25/&#126;236eV</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E26/&#126;260eV</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E27/&#126;300eV</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E28/&#126;330eV</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E29/&#126;370eV</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E30/&#126;420eV</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E31/&#126;470eV</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E32/&#126;530eV</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E33/&#126;590eV</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E34/&#126;660eV</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E35/&#126;740eV</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E36/&#126;830eV</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E37/&#126;930eV</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E38/&#126;1050eV</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E39/&#126;1170eV</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E40/&#126;1320eV</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E41/&#126;1480eV</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E42/&#126;1660eV</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E43/&#126;1860eV</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E44/&#126;2080eV</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E45/&#126;2340eV</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E46/&#126;2600eV</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E47/&#126;3000eV</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E48/&#126;3300eV</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E49/&#126;3700eV</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E50/&#126;4100eV</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E51/&#126;4700eV</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E52/&#126;5200eV</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E53/&#126;5900eV</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E54/&#126;6600eV</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E55/&#126;7400eV</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E56/&#126;8300eV</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E57/&#126;9300eV</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E58/&#126;10400eV</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E59/&#126;11700eV</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E60/&#126;13100eV</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E61/&#126;14700eV</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E62/&#126;16400eV</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E63/&#126;18400eV</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E64/&#126;20700eV</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E65/&#126;23200eV</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E66/&#126;26000eV</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E67/&#126;30000eV</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E68/&#126;33000eV</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E69/&#126;37000eV</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E70/&#126;41000eV</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E71/&#126;46000eV</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDO_Flux_E72/&#126;52000eV</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1604,8 +1604,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -1620,17 +1620,17 @@
         <AxisLabel>FEDU:Electron Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -1647,17 +1647,17 @@
         <AxisLabel>FEDU: Electron Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -1674,17 +1674,17 @@
         <AxisLabel>FEDU: Electron Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Omnidirectional, Spectrograms</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1701,10 +1701,10 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1713,8 +1713,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Omnidirectional, Time Series Stack Plots</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -1730,298 +1730,298 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>FPDO_Flux_E01/&#126;1.00eV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E02/&#126;1.20eV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E03/&#126;1.34eV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E04/&#126;1.55eV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E05/&#126;1.83eV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E06/&#126;2.18eV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E07/&#126;2.5eV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E08/&#126;3.0eV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E09/&#126;3.4eV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E10/&#126;3.9eV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E11/&#126;4.6eV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E12/&#126;5.3eV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E13/&#126;6.3eV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E14/&#126;7.3eV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E15/&#126;8.5eV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E16/&#126;9.9eV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E17/&#126;11.5eV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E18/&#126;13.4eV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E19/&#126;15.7eV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E20/&#126;18.3eV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E21/&#126;21.2eV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E22/&#126;24.8eV</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E23/&#126;29eV</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E24/&#126;34eV</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E25/&#126;39eV</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E26/&#126;46eV</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E27/&#126;53eV</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E28/&#126;62eV</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E29/&#126;72eV</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E30/&#126;84eV</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E31/&#126;98eV</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E32/&#126;114eV</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E33/&#126;133eV</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E34/&#126;155eV</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E35/&#126;181eV</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E36/&#126;211eV</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E37/&#126;246eV</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E38/&#126;286eV</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E39/&#126;330eV</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E40/&#126;390eV</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E41/&#126;450eV</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E42/&#126;530eV</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E43/&#126;610eV</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E44/&#126;720eV</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E45/&#126;830eV</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E46/&#126;970eV</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E47/&#126;1130eV</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E48/&#126;1320eV</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E49/&#126;1540eV</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E50/&#126;1790eV</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E51/&#126;2090eV</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E52/&#126;2400eV</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E53/&#126;2800eV</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E54/&#126;3300eV</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E55/&#126;3800eV</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E56/&#126;4500eV</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E57/&#126;5200eV</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E58/&#126;6100eV</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E59/&#126;7100eV</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E60/&#126;8300eV</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E61/&#126;9600eV</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E62/&#126;11200eV</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E63/&#126;13100eV</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E64/&#126;15200eV</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E65/&#126;17800eV</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E66/&#126;20700eV</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E67/&#126;24000eV</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E68/&#126;28000eV</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E69/&#126;33000eV</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E70/&#126;38000eV</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E71/&#126;44000eV</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDO_Flux_E72/&#126;52000eV</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2030,8 +2030,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2046,18 +2046,18 @@
         <AxisLabel>FPDU: Proton Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2074,18 +2074,18 @@
         <AxisLabel>FPDU: Proton Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2102,18 +2102,18 @@
         <AxisLabel>FPDU: Proton Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Differential Flux Intensity, Omnidirectional, Spectrograms</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2130,10 +2130,10 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2142,8 +2142,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Differential Flux Intensity, Omnidirectional, Time Series Stack Plots</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2159,298 +2159,298 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>FODO_Flux_E01/&#126;1.00eV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E02/&#126;1.20eV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E03/&#126;1.34eV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E04/&#126;1.55eV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E05/&#126;1.83eV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E06/&#126;2.18eV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E07/&#126;2.5eV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E08/&#126;3.0eV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E09/&#126;3.4eV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E10/&#126;3.9eV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E11/&#126;4.6eV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E12/&#126;5.3eV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E13/&#126;6.3eV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E14/&#126;7.3eV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E15/&#126;8.5eV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E16/&#126;9.9eV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E17/&#126;11.5eV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E18/&#126;13.4eV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E19/&#126;15.7eV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E20/&#126;18.3eV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E21/&#126;21.2eV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E22/&#126;24.8eV</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E23/&#126;29eV</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E24/&#126;34eV</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E25/&#126;39eV</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E26/&#126;46eV</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E27/&#126;53eV</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E28/&#126;62eV</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E29/&#126;72eV</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E30/&#126;84eV</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E31/&#126;98eV</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E32/&#126;114eV</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E33/&#126;133eV</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E34/&#126;155eV</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E35/&#126;181eV</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E36/&#126;211eV</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E37/&#126;246eV</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E38/&#126;286eV</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E39/&#126;330eV</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E40/&#126;390eV</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E41/&#126;450eV</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E42/&#126;530eV</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E43/&#126;610eV</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E44/&#126;720eV</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E45/&#126;830eV</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E46/&#126;970eV</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E47/&#126;1130eV</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E48/&#126;1320eV</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E49/&#126;1540eV</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E50/&#126;1790eV</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E51/&#126;2090eV</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E52/&#126;2400eV</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E53/&#126;2800eV</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E54/&#126;3300eV</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E55/&#126;3800eV</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E56/&#126;4500eV</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E57/&#126;5200eV</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E58/&#126;6100eV</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E59/&#126;7100eV</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E60/&#126;8300eV</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E61/&#126;9600eV</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E62/&#126;11200eV</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E63/&#126;13100eV</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E64/&#126;15200eV</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E65/&#126;17800eV</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E66/&#126;20700eV</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E67/&#126;24000eV</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E68/&#126;28000eV</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E69/&#126;33000eV</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E70/&#126;38000eV</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E71/&#126;44000eV</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FODO_Flux_E72/&#126;52000eV</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2459,8 +2459,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2475,18 +2475,18 @@
         <AxisLabel>FODU: Oxygen Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2503,18 +2503,18 @@
         <AxisLabel>FODU: Oxygen Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Oxygen Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2531,18 +2531,18 @@
         <AxisLabel>FODU: Oxygen Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Differential Flux Intensity, Omnidirectional, Spectrograms</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2559,10 +2559,10 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2571,8 +2571,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Differential Flux Intensity, Omnidirectional, Time Series Stack Plots</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2588,298 +2588,298 @@
         <ScaleMin>1000.0</ScaleMin>
         <ScaleMax>1.0e+13</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
         <Element>
           <Name>FHEDO_Flux_E01/&#126;1.00eV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E02/&#126;1.20eV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E03/&#126;1.34eV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E04/&#126;1.55eV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E05/&#126;1.83eV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E06/&#126;2.18eV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E07/&#126;2.5eV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E08/&#126;3.0eV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E09/&#126;3.4eV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E10/&#126;3.9eV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E11/&#126;4.6eV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E12/&#126;5.3eV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E13/&#126;6.3eV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E14/&#126;7.3eV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E15/&#126;8.5eV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E16/&#126;9.9eV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E17/&#126;11.5eV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E18/&#126;13.4eV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E19/&#126;15.7eV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E20/&#126;18.3eV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E21/&#126;21.2eV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E22/&#126;24.8eV</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E23/&#126;29eV</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E24/&#126;34eV</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E25/&#126;39eV</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E26/&#126;46eV</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E27/&#126;53eV</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E28/&#126;62eV</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E29/&#126;72eV</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E30/&#126;84eV</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E31/&#126;98eV</Name>
           <Index>31</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E32/&#126;114eV</Name>
           <Index>32</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E33/&#126;133eV</Name>
           <Index>33</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E34/&#126;155eV</Name>
           <Index>34</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E35/&#126;181eV</Name>
           <Index>35</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E36/&#126;211eV</Name>
           <Index>36</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E37/&#126;246eV</Name>
           <Index>37</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E38/&#126;286eV</Name>
           <Index>38</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E39/&#126;330eV</Name>
           <Index>39</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E40/&#126;390eV</Name>
           <Index>40</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E41/&#126;450eV</Name>
           <Index>41</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E42/&#126;530eV</Name>
           <Index>42</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E43/&#126;610eV</Name>
           <Index>43</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E44/&#126;720eV</Name>
           <Index>44</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E45/&#126;830eV</Name>
           <Index>45</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E46/&#126;970eV</Name>
           <Index>46</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E47/&#126;1130eV</Name>
           <Index>47</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E48/&#126;1320eV</Name>
           <Index>48</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E49/&#126;1540eV</Name>
           <Index>49</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E50/&#126;1790eV</Name>
           <Index>50</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E51/&#126;2090eV</Name>
           <Index>51</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E52/&#126;2400eV</Name>
           <Index>52</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E53/&#126;2800eV</Name>
           <Index>53</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E54/&#126;3300eV</Name>
           <Index>54</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E55/&#126;3800eV</Name>
           <Index>55</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E56/&#126;4500eV</Name>
           <Index>56</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E57/&#126;5200eV</Name>
           <Index>57</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E58/&#126;6100eV</Name>
           <Index>58</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E59/&#126;7100eV</Name>
           <Index>59</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E60/&#126;8300eV</Name>
           <Index>60</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E61/&#126;9600eV</Name>
           <Index>61</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E62/&#126;11200eV</Name>
           <Index>62</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E63/&#126;13100eV</Name>
           <Index>63</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E64/&#126;15200eV</Name>
           <Index>64</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E65/&#126;17800eV</Name>
           <Index>65</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E66/&#126;20700eV</Name>
           <Index>66</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E67/&#126;24000eV</Name>
           <Index>67</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E68/&#126;28000eV</Name>
           <Index>68</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E69/&#126;33000eV</Name>
           <Index>69</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E70/&#126;38000eV</Name>
           <Index>70</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E71/&#126;44000eV</Name>
           <Index>71</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FHEDO_Flux_E72/&#126;52000eV</Name>
           <Index>72</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2888,8 +2888,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2904,18 +2904,18 @@
         <AxisLabel>FHEDU: Helium Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2932,18 +2932,18 @@
         <AxisLabel>FHEDU: Helium Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Helium Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -2960,18 +2960,18 @@
         <AxisLabel>FHEDU: Helium Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag Type Descriptions, Electron Data</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -2984,50 +2984,50 @@
         <AxisLabel>Electron flags</AxisLabel>
         <ValueFormat>I3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>8</Size>
         <Element>
           <Name>Elec Ct Rate</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Elec Eclipse</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>8</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0</ValidMin>
       <ValidMax>254</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag Type Descriptions, Ion Data</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3040,50 +3040,50 @@
         <AxisLabel>Ion flags</AxisLabel>
         <ValueFormat>I3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>8</Size>
         <Element>
           <Name>Ion Ct Rate</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ion Eclipse</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Reserved</Name>
           <Index>8</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0</ValidMin>
       <ValidMax>254</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Instrument Data Mode, Electron</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3096,15 +3096,15 @@
         <AxisLabel>Electron mode</AxisLabel>
         <ValueFormat>I3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Instrument Data Mode, Ion</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3117,15 +3117,15 @@
         <AxisLabel>Ion mode</AxisLabel>
         <ValueFormat>I3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>HOPE Electron Differential Counts, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3140,10 +3140,10 @@
         <ScaleMin>0.1</ScaleMin>
         <ScaleMax>10000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3151,8 +3151,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Electron Differential Counts, Directional</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3166,17 +3166,17 @@
         <AxisLabel>e- counts</AxisLabel>
         <ValueFormat>E14.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Proton Differential Counts, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3191,10 +3191,10 @@
         <ScaleMin>0.1</ScaleMin>
         <ScaleMax>10000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3203,8 +3203,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Proton Differential Counts, Directional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3218,18 +3218,18 @@
         <AxisLabel>p+ counts</AxisLabel>
         <ValueFormat>E14.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Helium Differential Counts, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3244,10 +3244,10 @@
         <ScaleMin>0.1</ScaleMin>
         <ScaleMax>3000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3256,8 +3256,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Helium Differential Counts, Directional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3271,18 +3271,18 @@
         <AxisLabel>He+ counts</AxisLabel>
         <ValueFormat>E14.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>2</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Oxygen Differential Counts, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3297,10 +3297,10 @@
         <ScaleMin>0.1</ScaleMin>
         <ScaleMax>10000.0</ScaleMax>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+16</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3309,8 +3309,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>HOPE Oxygen Differential Counts, Directional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3324,18 +3324,18 @@
         <AxisLabel>O+ counts</AxisLabel>
         <ValueFormat>E14.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
         <AtomicNumber>8</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Number of Samples in the Summation, Electron Differential Flux Intensity, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3349,18 +3349,18 @@
         <ScaleMin>0</ScaleMin>
         <ScaleMax>30</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0</ValidMin>
       <ValidMax>253</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Number of Samples in the Summation, Electron Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3373,16 +3373,16 @@
         <AxisLabel>Electron samples</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Number of Samples in the Summation, Ion Differential Flux Intensity, Omnidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3396,18 +3396,18 @@
         <ScaleMin>0</ScaleMin>
         <ScaleMax>30</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>72</Size>
-      </Structure>
+</Structure>
       <ValidMin>0</ValidMin>
       <ValidMax>253</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Number of Samples in the Summation, Ion Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3420,16 +3420,16 @@
         <AxisLabel>Ion samples</AxisLabel>
         <ValueFormat>I4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 72</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Model Spacecraft Magnetic Field Magnitude, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3446,7 +3446,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2000.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>99999.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3454,8 +3454,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Model Spacecraft Magnetic Field Magnitude, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3472,7 +3472,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2000.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>99999.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3480,8 +3480,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Model Magnetic Field Magnitude, Magnetic Equator, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3498,7 +3498,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2000.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>99999.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3506,8 +3506,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Model Magnetic Field Magnitude, Magnetic Equator, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3524,7 +3524,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2000.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>99999.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3532,8 +3532,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Electron Second Adiabatic Invariant, Bounce, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3548,15 +3548,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>20.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Ion Second Adiabatic Invariant, Bounce, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3571,15 +3571,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>20.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>McIlwain L Shell Parameter, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3594,15 +3594,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>8.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>McIlwain L Shell Parameter, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3617,15 +3617,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>8.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Roederer L&#42; generalized L Shell Parameter, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3640,15 +3640,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>8.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Roederer L&#42; generalized L Shell Parameter, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3663,15 +3663,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>8.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position, Magnetic Local Time, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3684,7 +3684,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MLT</AxisLabel>
@@ -3692,7 +3692,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>24.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3700,8 +3700,8 @@
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position, Magnetic Local Time, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3714,7 +3714,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MLT</AxisLabel>
@@ -3722,7 +3722,7 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>24.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3730,8 +3730,8 @@
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector, Geographic Cartesian Coordinates, Electrons</Name>
       <Set>Time Series defined by using: EPOCH_ELE</Set>
@@ -3744,28 +3744,28 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>position</AxisLabel>
         <ValueFormat>F7.0</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Xgeo</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ygeo</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Zgeo</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-63700.0</ValidMin>
       <ValidMax>63700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3773,8 +3773,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector, Geographic Cartesian Coordinates, Ions</Name>
       <Set>Time Series defined by using: EPOCH_ION</Set>
@@ -3787,28 +3787,28 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>position</AxisLabel>
         <ValueFormat>F7.0</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Xgeo</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ygeo</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Zgeo</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-63700.0</ValidMin>
       <ValidMax>63700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3816,7 +3816,7 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

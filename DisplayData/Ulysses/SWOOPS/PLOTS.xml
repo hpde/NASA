@@ -4,18 +4,18 @@
         <ResourceID>spase://VSPO/DisplayData/Ulysses/SWOOPS/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWOOPS Electron and Ion Parameters Plots via ESA</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Plots of Ulysses/SWOOPS Electron, Proton and Alpha Particle Data via Ulysses Data System</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bruce.E.Goldstein</PersonID>
                 <Role>DataProducer</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_SWOOPS_UDS_PLOTS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UDS</RepositoryID>
             <Availability>Online</Availability>
@@ -23,9 +23,9 @@
             <AccessURL>
                 <Name>SWOOPS ion plots from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
-            </AccessURL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/SWOOPS</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -33,9 +33,9 @@
             <TimeSpan>
                 <StartDate>1990-11-18T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
         <Caveats>Spectra are accumulated in 2-mins</Caveats>
-    </DisplayData>
+</DisplayData>
 </Spase>

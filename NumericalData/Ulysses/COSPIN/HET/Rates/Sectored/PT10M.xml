@@ -6,42 +6,42 @@
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Ion and Electron Eight-Sectored Coincidence Counting Rates in ASCII Format, 10 min Data</ResourceName>
          <AlternateName>COSPIN-HET-SECTORED-RATES-PT10M</AlternateName>
-         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>This Data Set contains 10 min Average Ion and Electron Eight-Sectored Coincidence Counting Rates from the COSPIN High Energy Telescope (HET). These Data provide a Measure of the Anisotropy of Particle Arrival Directions in the Spacecraft Spin Plane</Description>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
             <Role>PrincipalInvestigator</Role>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/James.Connell</PersonID>
             <Role>CoInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Ming.Zhang</PersonID>
             <Role>CoInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Cecil.Tranquille</PersonID>
             <Role>ArchiveSpecialist</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>The Ulysses Cosmic Ray and Solar Particle Investigation, COSPIN</Name>
             <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
             <Description>Published Description of the COSPIN Instrumentation, J.A. Simpson et al., Astron. Astrophys. Suppl. Ser. 92, 365-399, 1992. See especially Section 4.3 for a detailed Description of the High Energy Telescopes, HET. An electronic Copy of this Paper is available at http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?1992A%26AS...92..365S&amp;defaultprint=YES&amp;filetype=.pdf.</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>User Notes for the COSPIN/HET Data Files</Name>
             <URL>http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&amp;PRODUCT_TYPE=ALL&amp;FILE_NAME=het_usernotes.pdf&amp;FILE_PATH=/ufa/HiRes/doc/cospin</URL>
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, 10 min Average Ion and Electron Eight-Sectored Counting Rates</Description>
-         </InformationURL>
+</InformationURL>
          <Association>
             <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/SpinAveraged/PT10M</AssociationID>
             <AssociationType>PartOf</AssociationType>
-         </Association>
+</Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HET/Sectored-Rates/PT10M</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
          <Availability>Online</Availability>
@@ -50,20 +50,20 @@
             <Name>Ulysses Final Archive Access to COSPIN/HET 10 min Average Ion and Electron Eight-Sectored Coincidence Counting Rates</Name>
             <URL>http://ufa.esac.esa.int/ufa/#data</URL>
             <Description>Parent Directory containing compressed Archives with Naming Convention coshetaYY.zip, where YY indicates the two digit Year corresponding to the Data in the File. Each Archive contains Daily ASCII Files with Naming Convention ucoshetrYYDDD.uly where YY and DOY are the two digit Year and the three digit Day of Year (January 1 = 1) containing COSPIN/HET nominally 10 min Averages of the Eight-Sectored Counting Rates H45S and H7S, which, as described in individual Description Fields, respond primarily to Protons (H45S) in the Energy Range 34-92 MeV and to Electrons (H7S) in the approximate Energy Range 5-10 MeV. The actual Accumulation Intervals contributing to an Average consist of an Integral Number of Telemetry Subcomm Sequences, and correspond to all Subcomm Sequences which start in the nominal 10 min reporting Interval. The minimum Time corresponding to one Subcomm Sequence is 256 s at 1024 bps, the most Common Science Telemetry Rate. Thus the actual Start Time of the Accumulation may be up to 256 s later than the Start Time of the Nominal Interval. Similarly, the End Time of the Accumulation may extend up to 256 s beyond the End of the Nominal Interval. These Data are therefore not useful for highly accurate Timing Studies.</Description>
-         </AccessURL>
+</AccessURL>
          <Format>Text</Format>
          <Encoding>ZIP</Encoding>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN/HET</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
             <StartDate>1990-10-22T00:00:00.000</StartDate>
             <StopDate>2009-06-10T23:59:59.999</StopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT10M</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <ObservedRegion>Heliosphere.Outer</ObservedRegion>
       <Parameter>
          <Name>Time for the record</Name>
@@ -78,40 +78,40 @@
                <ValidMin>1990</ValidMin>
                <ValidMax>2008</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Day of Year</Name>
                <Index>2</Index>
                <ValidMin>1</ValidMin>
                <ValidMax>366</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Hour of Day</Name>
                <Index>3</Index>
                <ValidMin>0</ValidMin>
                <ValidMax>23</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Minute of Hour</Name>
                <Index>4</Index>
                <ValidMin>0</ValidMin>
                <ValidMax>59</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Seconds of Minute</Name>
                <Index>5</Index>
                <ValidMin>0</ValidMin>
                <ValidMax>59</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 10-Minute Average Proton Counting Rate H45S</Name>
          <ParameterKey>H45S</ParameterKey>
@@ -127,7 +127,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S2</Name>
                <Index>2</Index>
@@ -135,7 +135,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S3</Name>
                <Index>3</Index>
@@ -143,7 +143,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S4</Name>
                <Index>4</Index>
@@ -151,7 +151,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S5</Name>
                <Index>5</Index>
@@ -159,7 +159,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S6</Name>
                <Index>6</Index>
@@ -167,7 +167,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S7</Name>
                <Index>7</Index>
@@ -175,7 +175,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H45S8</Name>
                <Index>8</Index>
@@ -183,8 +183,8 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Particle>
             <ParticleType>Proton</ParticleType>
             <Qualifier>Average</Qualifier>
@@ -193,9 +193,9 @@
                <Low>34</Low>
                <High>92</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>COSPIN/HET 10-Minute Average Proton Counting Rate H7S</Name>
          <ParameterKey>H7S</ParameterKey>
@@ -211,7 +211,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S2</Name>
                <Index>2</Index>
@@ -219,7 +219,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S3</Name>
                <Index>3</Index>
@@ -227,7 +227,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S4</Name>
                <Index>4</Index>
@@ -235,7 +235,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S5</Name>
                <Index>5</Index>
@@ -243,7 +243,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S6</Name>
                <Index>6</Index>
@@ -251,7 +251,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S7</Name>
                <Index>7</Index>
@@ -259,7 +259,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>H7S8</Name>
                <Index>8</Index>
@@ -267,8 +267,8 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>1000000</ValidMax>
                <FillValue>-1.000E+00</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Average</Qualifier>
@@ -277,9 +277,9 @@
                <Low>5</Low>
                <High>10</High>
                <Units>MeV</Units>
-            </EnergyRange>
-         </Particle>
-      </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Floating Point Time for the record</Name>
          <ParameterKey>FP_Time</ParameterKey>
@@ -293,18 +293,18 @@
                <ValidMin>90.800</ValidMin>
                <ValidMax>108.99999</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>FP Day of Year</Name>
                <Index>2</Index>
                <ValidMin>1</ValidMin>
                <ValidMax>366.999</ValidMax>
                <FillValue>Null</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/ISIS1/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 1 Electron N and T data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>ISIS 1 ionospheric electron density and temperature data at 1-5 min resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_ISIS1_HDR_NETE</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.sci.gsfc.nasa.gov/ftpbrowser/isis_a.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/isis_a.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/cylindrical_electrostatic_probes_ascii/isis1/</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/cylindrical_electrostatic_probes_ascii/isis1/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/ISIS1/CEP</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -38,9 +38,9 @@
             <TimeSpan>
                 <StartDate>1969-01-30T00:00:00</StartDate>
                 <StopDate>1971-06-01T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT60S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

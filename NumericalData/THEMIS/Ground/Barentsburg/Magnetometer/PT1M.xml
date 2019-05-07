@@ -5,51 +5,51 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Barentsburg/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Barentsburg (BBG) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Barentsburg, Russia, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (BBG), Station Location: (GEO Latitude 67.9, Longitude 306.4), AARI Network</Description>
          <Acknowledgement>Please acknowledge O. Troshichev, (Arctic and Antarctic Research Institute)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Department of Geophysics</Name>
             <URL>http://geophys.aari.ru/</URL>
             <Description>AARI</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bbg</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bbg/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bbg</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bbg/</URL>
             <Description>In CDF via http from SPDF.</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>THG_L2_MAG_BBG</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>Please acknowledge O. Troshichev, (Arctic and Antarctic Research Institute). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Ground/Barentsburg/Magnetometer</InstrumentID>
       <MeasurementType>MagneticField</MeasurementType>
@@ -57,9 +57,9 @@
          <TimeSpan>
             <StartDate>2017-02-10T00:00:00.000</StartDate>
             <RelativeStopDate>-P2M</RelativeStopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT1M</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <Parameter>
          <Name>B in HDZ Components</Name>
          <Set>Time series defined by using: thg_mag_bbg_epoch</Set>
@@ -72,13 +72,13 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>B in HDZ Components</AxisLabel>
             <ValueFormat>f9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
@@ -87,33 +87,33 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Magnetic East, local</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Vertical Down</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Vector</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>HDZ Component Number</Name>
          <ParameterKey>thg_mag_bbg_compno</ParameterKey>
@@ -122,37 +122,37 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>HDZ Component Number</AxisLabel>
             <ValueFormat>i2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
                <Name>Element 1</Name>
                <Qualifier>Component.I</Qualifier>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>3</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_bbg_time</Name>
          <Set>Time series defined by using: thg_mag_bbg_epoch</Set>
@@ -164,14 +164,14 @@
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
             <ValueFormat>e13.6</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>5.0e+09</ValidMax>
          <FillValue>NaN</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_bbg_epoch</Name>
          <ParameterKey>thg_mag_bbg_epoch</ParameterKey>
@@ -180,14 +180,14 @@
          <Cadence>PT1M</Cadence>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-2001 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2100 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_bbg_epoch0</Name>
          <ParameterKey>thg_mag_bbg_epoch0</ParameterKey>
@@ -198,14 +198,14 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>timebase</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-1900 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2029 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>range_epoch</Name>
          <ParameterKey>range_epoch</ParameterKey>
@@ -215,13 +215,13 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-2001 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2100 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

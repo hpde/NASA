@@ -4,24 +4,24 @@
         <ResourceID>spase://VSPO/NumericalData/SORCE/TIM/PT6H</ResourceID>
         <ResourceHeader>
             <ResourceName>SORCE TIM 6-hr and 1-day Total Solar Irradiance</ResourceName>
-            <ReleaseDate>2017-09-20T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>SORCE TIM 6-hour and daily Total Solar Irradiance Data</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Greg.Kopp</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_SORCE_HDR_TIM</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SORCE</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>U.Colorado LASP site</Name>
-                <URL>http://lasp.colorado.edu/sorce/</URL>
-            </AccessURL>
+                <URL>http://lasp.colorado.edu/home/sorce/</URL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/SORCE/TIM</InstrumentID>
         <MeasurementType>Irradiance</MeasurementType>
@@ -30,9 +30,9 @@
                 <StartDate>2003-03-02T00:00:00</StartDate>
                 <RelativeStopDate>-P21D</RelativeStopDate>
                 <Note>Data are current to within several weeks.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT6H</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

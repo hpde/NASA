@@ -6,39 +6,39 @@
     <ResourceHeader>
       <ResourceName>Geotail Linearly Interpolated 60 s Resolution Low Energy Particle (LEP) experiment data in GSM Coordinates</ResourceName>
       <AlternateName>Geotail LEP data</AlternateName>
-      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Geotail linearly interpolated to have the measurements on the minute at 60 s resolution LEP data in GSM coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
       <Acknowledgement>Toshifumi Mukai;The Institute of Space and Astronautical Science</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>LEP experiment</Name>
         <URL>https://www-spof.gsfc.nasa.gov/istp/geotail/geotail_inst.html</URL>
         <Description>LEP information</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>LEP experiment</Name>
         <URL>http://www.stp.isas.jaxa.jp/geotail/QL/index.html</URL>
         <Description>LEP quicklook</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>LEP experiment</Name>
         <URL>http://www.darts.isas.ac.jp/stp/geotail/caveats.html#lep</URL>
         <Description>LEP information</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Solar Wind Propagation Information</Name>
         <URL>http://www.igpp.ucla.edu/jweygand/htmls/Propagated_SW.html</URL>
         <Description>Solar wind archive at UCLA. This archive provides a list of available data resources and available time ranges.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/Weygand/Geotail/LEP/Processed/GSM/PT60S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>
       <Availability>Online</Availability>
@@ -46,10 +46,10 @@
       <AccessURL>
         <Name>IGPP UCLA Geotail LEP Data JMW Processed Archive</Name>
         <URL>http://vmo.igpp.ucla.edu/data1/Weygand/ProcessedSolarWindGSM/Geotail/plasma/</URL>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Uncalibrated</ProcessingLevel>
     <ProviderResourceName>Geotail Low Energy Particle experiment</ProviderResourceName>
     <ProviderProcessingLevel>Level-0</ProviderProcessingLevel>
@@ -60,8 +60,8 @@
         <StartDate>1993-10-01T00:00:00.000</StartDate>
         <RelativeStopDate>-P1Y</RelativeStopDate>
         <Note>Time format in data files is: Day Month Year Hour Minute Second (DD MM YYYY HH MM SS.SSS)</Note>
-      </TimeSpan>
-    </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
     <Keyword>1 min</Keyword>
     <Keyword>solar wind</Keyword>
     <Keyword>magnetotail</Keyword>
@@ -82,37 +82,37 @@
           <Name>Day</Name>
           <Index>1</Index>
           <ParameterKey>Day</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Month</Name>
           <Index>2</Index>
           <ParameterKey>Month</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Year</Name>
           <Index>3</Index>
           <ParameterKey>Year</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Hour</Name>
           <Index>4</Index>
           <ParameterKey>Hour</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Minute</Name>
           <Index>5</Index>
           <ParameterKey>Minute</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Second</Name>
           <Index>6</Index>
           <ParameterKey>Second</ParameterKey>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geotail LEP Thermal Speed Interpolated to 1 min Resolution in GSM Coordinates</Name>
       <ParameterKey>Thermal Speed</ParameterKey>
@@ -123,8 +123,8 @@
       <Particle>
         <ParticleType>Ion</ParticleType>
         <ParticleQuantity>ThermalSpeed</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Geotail LEP Density Interpolated to 1 min Resolution in GSM Coordinates</Name>
       <ParameterKey>Density</ParameterKey>
@@ -134,8 +134,8 @@
       <Particle>
         <ParticleType>Ion</ParticleType>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Geotail LEP Velocity Vector Interpolated to 1 min Resolution in GSM Coordinates</Name>
       <ParameterKey>Velocity Vectors</ParameterKey>
@@ -146,7 +146,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -154,25 +154,25 @@
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ParameterKey>nvxgsm</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>VY-GSM</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>nvygsm</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>VZ-GSM</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ParameterKey>nvzgsm</ParameterKey>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <ParticleQuantity>Velocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Geotail Spacecraft Position Vector Interpolated to 1 min Resolution in GSM Coordinates</Name>
       <ParameterKey>Position Vectors</ParameterKey>
@@ -182,7 +182,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -190,23 +190,23 @@
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
           <ParameterKey>nxgsm</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Y-GSM</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
           <ParameterKey>nygsm</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Z-GSM</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
           <ParameterKey>nzgsm</ParameterKey>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

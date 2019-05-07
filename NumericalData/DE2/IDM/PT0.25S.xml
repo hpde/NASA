@@ -7,59 +7,59 @@
       <ResourceName>DE 2 250ms IDM Ion Drift Velocities</ResourceName>
       <AlternateName>Dynamics Explorer 2 IDM Ion Drift Velocities</AlternateName>
       <AlternateName>DE-B IDM Ion Drift Velocities</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This data set contains cross-track ion drift
-velocities obtained at 250ms resolution from the DE 2 Ion Drift 
-Meter (IDM).  Data are available in ASCII from nssdcftp and in CDF 
+velocities obtained at 250ms resolution from the DE 2 Ion Drift
+Meter (IDM).  Data are available in ASCII from nssdcftp and in CDF
 format from CDAWeb (as well as CDAWeb plots and lists).</Description>
       <Acknowledgement>Please acknowledge the IDM Principal Investigator,
 Dr. R.A. Heelis</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm/00readme.txt</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog on the Ion Drift Meter</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-070B-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B-06</URL>
         <Description>Introduction to the Ion Drift Meter Observations on DE 2</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/IDM/PT0.25S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_idm/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <DataExtent>
         <Quantity>700</Quantity>
         <Units>KB</Units>
         <Per>P1D</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge the IDM Principal Investigator,
 Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -69,29 +69,29 @@ Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DE2_VION250MS_IDM&amp;index=sp_phys</URL>
         <ProductKey>DE2_VION250MS_IDM</ProductKey>
         <Description>For CDAWeb subset, plot and list capabilities</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <DataExtent>
         <Quantity>100</Quantity>
         <Units>KB</Units>
         <Per>PT1H</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge the IDM Principal Investigator,
 Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE2</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>VMO UCLA</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/DE2/IDM/vi_250ms_ascii</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/DE2/IDM/vi_250ms_ascii/</URL>
         <Description>Dynamics Explorer 2 Ion Drift Meter 250 ms data</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
       <Acknowledgement>NASA; Roderick A. Heelis; VMO</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>Dynamics Explorer 2 Ion Drift Meter</ProviderResourceName>
     <ProviderProcessingLevel>Level-2</ProviderProcessingLevel>
@@ -101,9 +101,9 @@ Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
       <TimeSpan>
         <StartDate>1981-08-15T00:00:00</StartDate>
         <StopDate>1983-02-16T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0.25S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
     <Caveats>The time format is variable</Caveats>
     <Keyword>250 ms</Keyword>
@@ -115,5 +115,5 @@ Dr. R.A. Heelis, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
     <Keyword>Dynamics Explorer 2</Keyword>
     <Keyword>Dynamics Explorer</Keyword>
     <Keyword>ion drift speed</Keyword>
-  </NumericalData>
+</NumericalData>
 </Spase>

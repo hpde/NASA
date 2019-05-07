@@ -6,30 +6,30 @@
     <ResourceHeader>
       <ResourceName>Hawkeye Multi-Instrument Summary Plots</ResourceName>
       <AlternateName>Two-day Summary Plots</AlternateName>
-      <ReleaseDate>2018-03-28T16:08:31Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>To help the user in searching through the Hawkeye data set, summary plots of the entire Hawkeye archive have been generated. Each summary plot consists of an entire orbit's worth of data from all of the instruments, along with the spacecraft position. Solar wind plasma pressure and IMF data have been added to the plots to help the user in data selection. HAWKEYE SUMMARY PLOT LAYOUT Title The orbit number is the orbit number at start of the plot time interval. Day 1 = January 1. First (top) panel Solar Wind pressure (red curve and red dots). Solar Wind IMF Bz component (in GSM) (blue dots). IMP-8 spacecraft Bz (in GSM) component (black curve). Second Panel The two numbers above the second panel are the positions of IMP-8 in degrees ( sign(y_gsm) * atan(sqrt(y_gsm^2+z_gsm^2)/x_gsm) ), at the start of and at the end of the plot time interval. Usually, if IMP-8 lies between -110 and +110 degrees it is in the solar wind. Solar Wind IMF magnetic field magnitude B (blue dots). IMP-8 magnetic Field magnitude B (black curve). Hawkeye magnetic Field magnitude B (red curve). Third Panel The two numbers above the third panel are: (left corner) The angle between the sun vector and spacecraft spin plane. Because the Hawkeye particle instrument's (LEPEDEA) field view is +/- 15 degrees out the the spin plane, this angle has to be less than 15 degrees in order to detect the solar wind when the spacecraft is located in the solar wind. (right corner)The spin period of the spacecraft in seconds. The electron energy-time spectrogram averaged over the solid angle sampled by LEPEDEA is plotted. Fourth Panel The ion energy-time spectrogram averaged over the solid angle sampled by LEPEDEA Fifth Panel The frequency-time spectrogram of the magnetic field as measured by the loop antenna The electron cyclotron frequency (white curve) as determined by the on-board magnetometer Sixth (bottom) Panel The electric field frequency-time spectrogram as measured by the dipole antenna The electron cyclotron frequency (white curve) as determined by the on-board magnetometer Time Axis Labels The universal time (hr:mm). The spacecraft position in Earth radii (RE) in units of RE. The spacecraft position in magnetic latitude (MLAT) in units of degrees. The spacecraft position in magnetic local time (MLT) in units of degrees. The spacecraft position in X-GSM in units of RE.</Description>
       <Acknowledgement>
-         </Acknowledgement>
+</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1974-040A-03</URL>
         <Description>Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Hawkeye Spacecraft page at NSSDC</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/hawkeye/documents/archived_website/hawkeye.html</URL>
         <Description>Brief description of mission objectives, access to Summary (one per orbit) and Survey (4 hour) Plots, list of publications</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VWO/DisplayData/Hawkeye/VLF/Multi.Instrument.PT51H</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/NSSDC</RepositoryID>
       <Availability>Online</Availability>
@@ -39,12 +39,12 @@
         <URL>https://spdf.gsfc.nasa.gov/pub/data/hawkeye/documents/archived_website/hawkeye_summary.html</URL>
         <Description>Access via web form and directory lists to GIF format plots for Hawkeye multi-instrument Summary Plots</Description>
         <Language>en</Language>
-      </AccessURL>
+</AccessURL>
       <Format>GIF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>
-         </Acknowledgement>
-    </AccessInformation>
+</Acknowledgement>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Hawkeye/VLF</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Hawkeye/LEPEDEA</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Hawkeye/MAG</InstrumentID>
@@ -54,8 +54,8 @@
       <TimeSpan>
         <StartDate>1974-06-06T03:00:00Z</StartDate>
         <StopDate>1978-04-28T17:00:00Z</StopDate>
-      </TimeSpan>
-    </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
     <SpectralRange>RadioFrequency</SpectralRange>
     <DisplayCadence>PT51H</DisplayCadence>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -101,9 +101,9 @@
           <Low>1.78</Low>
           <High>178000</High>
           <Units>Hz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
+</FrequencyRange>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Magnetic Power Spectral Density</Name>
       <Units>nT**2/Hz</Units>
@@ -117,8 +117,8 @@
           <Low>1.78</Low>
           <High>5620</High>
           <Units>Hz</Units>
-        </FrequencyRange>
-      </Wave>
-    </Parameter>
-  </DisplayData>
+</FrequencyRange>
+</Wave>
+</Parameter>
+</DisplayData>
 </Spase>

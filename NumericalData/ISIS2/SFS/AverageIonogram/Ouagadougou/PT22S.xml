@@ -5,68 +5,68 @@
       <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/AverageIonogram/Ouagadougou/PT22S</ResourceID>
       <ResourceHeader>
          <ResourceName>ISIS-2 Topside Sounder Average Ionogram over Ouagadougou, Burkina Faso: ODG, Latitude 14, Longitude 359</ResourceName>
-         <ReleaseDate>2017-08-05T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>These Ionograms were digitized from the original ISIS-2 7-Track Analog Telemetry Tapes using the Facilities of the former Data Evaluation Laboratory at the NASA/GSFC. This Data Restoration Project is headed by Dr. R.F. Benson (NASA/GSFC). Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 &amp;#181;s corresponding to an Apparent Range Interval equal to 3.75 km from c*t/2, where c is the Speed of Light. Ionograms with this Sample Rate are designated as &amp;apos;Full&amp;apos; Ionograms because they have the full 3.75 km Apparent-Range Resolution. The Ionograms used for most Analyses, and those available from CDAWeb, were produced by averaging every four Samples of the Sounder-Receiver Video Amplitude Output to yield an average Value every 100 &amp;#181;s corresponding to an Apparent-Range Resolution of 15 km. These Ionogram Files are referred to as &amp;apos;Average&amp;apos; Files with Standard Resolution. Each Ionogram consists of a Fixed-Frequency Portion and a Swept-Frequency Portion. The Time Resolution between Ionograms is typically 14 or 22 s depending on the Frequency Sweep Range.</Description>
          <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/James.H.Whitteker</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.F.Benson</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>ISIS/Alouette Topside Sounder Data Restoration Project Site</Name>
             <URL>https://spdf.gsfc.nasa.gov/isis/isis-status.html</URL>
             <Description>ISIS/Alouette Page maintained by NASA GSFC with Science and Instrument Descriptions, Data Access, Software, and Publication Lists</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1969-009A</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-009A</URL>
             <Description>Information about the Swept Frequency Sounder, SFS, Experiment on Alouette 2</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to CDF Files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/ODG_14N_359E</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/ODG_14N_359E/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to CDF Files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/ODG_14N_359E</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/ODG_14N_359E/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>I2_AV_ODG</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/ISIS2/SFS</InstrumentID>
       <MeasurementType>Spectrum</MeasurementType>
@@ -76,9 +76,9 @@
             <StartDate>1972-08-06T05:36:37</StartDate>
             <StopDate>1979-11-22T15:25:12</StopDate>
             <Note>The Cadence is 31 s between Ionograms. The Alouette 2 Ionograms have the slowest Sweep Rate of any of the Alouette/ISIS Topside Sounders sweeping from 0.12 to 14.5 MHz in about 28 s with a Frequency Sweep Rate of 0.13 MHz/s below 2.0 MHz, providing the highest Frequency Resolution of any of the ISIS Program Sounders. The Alouette 2 Frequency Sweep Rate above 2 MHz was 1 MHz/s. Alouette 2 did not have a Fixed Frequency Operation.</Note>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT22S</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <SpectralRange>RadioFrequency</SpectralRange>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
@@ -113,14 +113,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>4</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1</ValidMin>
          <ValidMax>4</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Telemetry Station Code</Name>
          <ParameterKey>station_id</ParameterKey>
@@ -131,14 +131,14 @@
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>99</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1</ValidMin>
          <ValidMax>99</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Transmitter Power Code</Name>
          <ParameterKey>power_code</ParameterKey>
@@ -149,14 +149,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>2</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1</ValidMin>
          <ValidMax>2</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Sounder-Receiver Code</Name>
          <ParameterKey>s/r_code</ParameterKey>
@@ -167,14 +167,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Swept Frequency Range Code</Name>
          <ParameterKey>f_range_code</ParameterKey>
@@ -185,14 +185,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>DMODE Code</Name>
          <ParameterKey>DMODE</ParameterKey>
@@ -203,14 +203,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>GMODE Code</Name>
          <ParameterKey>GMODE</ParameterKey>
@@ -221,14 +221,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Sounder Mixed Mode</Name>
          <ParameterKey>mixed_mode</ParameterKey>
@@ -239,14 +239,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>AIT Mode</Name>
          <ParameterKey>AIT_mode</ParameterKey>
@@ -257,14 +257,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Fixed Frequency Code</Name>
          <ParameterKey>fix_freq</ParameterKey>
@@ -275,14 +275,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>6</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>6</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Year</Name>
          <ParameterKey>year</ParameterKey>
@@ -293,14 +293,14 @@
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>62</ScaleMin>
             <ScaleMax>83</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>62</ValidMin>
          <ValidMax>84</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Day of Year</Name>
          <ParameterKey>doy</ParameterKey>
@@ -311,14 +311,14 @@
             <ValueFormat>I3</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>366</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1</ValidMin>
          <ValidMax>366</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Hour of Day</Name>
          <ParameterKey>hr</ParameterKey>
@@ -329,14 +329,14 @@
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>24</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>24</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Minute of Hour</Name>
          <ParameterKey>min</ParameterKey>
@@ -347,14 +347,14 @@
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>60</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>60</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Second of Minute</Name>
          <ParameterKey>sec</ParameterKey>
@@ -365,14 +365,14 @@
             <ValueFormat>F7.4</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>60.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>60.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Local Mean Time</Name>
          <ParameterKey>LMT</ParameterKey>
@@ -380,7 +380,7 @@
          <Cadence>PT22S</Cadence>
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -394,8 +394,8 @@
                   <AxisLabel>LMT(hh)</AxisLabel>
                   <ScaleMin>0</ScaleMin>
                   <ScaleMax>24</ScaleMax>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
@@ -407,15 +407,15 @@
                   <AxisLabel>LMT(mm)</AxisLabel>
                   <ScaleMin>0</ScaleMin>
                   <ScaleMax>60</ScaleMax>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <FillValue>-2147483648</FillValue>
          <Support>
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Geographic Coordinates</Name>
          <ParameterKey>geo_coord</ParameterKey>
@@ -424,10 +424,10 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>GEO</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <ValueFormat>F7.2</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
@@ -441,8 +441,8 @@
                   <AxisLabel>latitude</AxisLabel>
                   <ScaleMin>-90.0</ScaleMin>
                   <ScaleMax>90.0</ScaleMax>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
@@ -454,8 +454,8 @@
                   <AxisLabel>longitude</AxisLabel>
                   <ScaleMin>0.0</ScaleMin>
                   <ScaleMax>360.0</ScaleMax>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
@@ -467,15 +467,15 @@
                   <AxisLabel>height</AxisLabel>
                   <ScaleMin>0.0</ScaleMin>
                   <ScaleMax>10000.0</ScaleMax>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Vector</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Geomagnetic Local Time</Name>
          <ParameterKey>GMLMT</ParameterKey>
@@ -484,10 +484,10 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <ValueFormat>I2</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
@@ -501,8 +501,8 @@
                   <AxisLabel>GMLMT(hh)</AxisLabel>
                   <ScaleMin>0</ScaleMin>
                   <ScaleMax>24</ScaleMax>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
@@ -514,15 +514,15 @@
                   <AxisLabel>GMLMT(mm)</AxisLabel>
                   <ScaleMin>0</ScaleMin>
                   <ScaleMax>60</ScaleMax>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <FillValue>-2147483648</FillValue>
          <Support>
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Geomagnetic Latitude</Name>
          <ParameterKey>GMLAT</ParameterKey>
@@ -533,21 +533,21 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>MAG</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>geom_lat</AxisLabel>
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-90.0</ScaleMin>
             <ScaleMax>90.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-90.0</ValidMin>
          <ValidMax>90.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Geomagnetic Longitude</Name>
          <ParameterKey>GMLONG</ParameterKey>
@@ -558,21 +558,21 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>MAG</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>geom_long</AxisLabel>
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-180.0</ValidMin>
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Invariant Latitude</Name>
          <ParameterKey>INV_LAT</ParameterKey>
@@ -585,15 +585,15 @@
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-90.0</ScaleMin>
             <ScaleMax>90.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-90.0</ValidMin>
          <ValidMax>90.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Magnetic Inclination</Name>
          <ParameterKey>DIP</ParameterKey>
@@ -604,21 +604,21 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>DIP</AxisLabel>
             <ValueFormat>I3</ValueFormat>
             <ScaleMin>-90</ScaleMin>
             <ScaleMax>90</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-90</ValidMin>
          <ValidMax>90</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Field>
             <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Solar Zenith Angle</Name>
          <ParameterKey>CHI</ParameterKey>
@@ -631,15 +631,15 @@
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>180</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>180</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <Qualifier>DirectionAngle.PolarAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>L Shell</Name>
          <ParameterKey>L</ParameterKey>
@@ -650,14 +650,14 @@
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Spacecraft Sunlight</Name>
          <ParameterKey>sun</ParameterKey>
@@ -668,14 +668,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>2</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1</ValidMin>
          <ValidMax>2</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>CEP, Instrument Status</Name>
          <ParameterKey>CEP</ParameterKey>
@@ -686,14 +686,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>VLF, Instrument Status</Name>
          <ParameterKey>VLF</ParameterKey>
@@ -704,14 +704,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>RPA, Instrument Status</Name>
          <ParameterKey>RPA</ParameterKey>
@@ -722,14 +722,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>IMS, Instrument Status</Name>
          <ParameterKey>IMS</ParameterKey>
@@ -740,14 +740,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>SPS, Instrument Status</Name>
          <ParameterKey>SPS</ParameterKey>
@@ -758,14 +758,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>EPD, Instrument Status</Name>
          <ParameterKey>EPD</ParameterKey>
@@ -776,14 +776,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>RLP, Instrument Status</Name>
          <ParameterKey>RLP</ParameterKey>
@@ -794,14 +794,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>ASP, Instrument Status</Name>
          <ParameterKey>ASP</ParameterKey>
@@ -812,14 +812,14 @@
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>1</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Start of Swept Frequency Portion</Name>
          <ParameterKey>swept_start</ParameterKey>
@@ -831,14 +831,14 @@
             <ValueFormat>I5</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>10000</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>10000</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Times of Ionogram Frequency Markers</Name>
          <ParameterKey>Time_mark</ParameterKey>
@@ -851,105 +851,105 @@
             <ValueFormat>F10.3</ValueFormat>
             <ScaleMin>3000.0</ScaleMin>
             <ScaleMax>30000.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>22</Size>
             <Element>
                <Name>Element 1</Name>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 8</Name>
                <Index>8</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 9</Name>
                <Index>9</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 10</Name>
                <Index>10</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 11</Name>
                <Index>11</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 12</Name>
                <Index>12</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 13</Name>
                <Index>13</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 14</Name>
                <Index>14</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 15</Name>
                <Index>15</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 16</Name>
                <Index>16</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 17</Name>
                <Index>17</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 18</Name>
                <Index>18</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 19</Name>
                <Index>19</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 20</Name>
                <Index>20</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 21</Name>
                <Index>21</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 22</Name>
                <Index>22</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>3000.0</ValidMin>
          <ValidMax>30000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Values of Ionogram Frequency Markers</Name>
          <ParameterKey>freq_mark</ParameterKey>
@@ -961,105 +961,105 @@
             <ValueFormat>E11.2</ValueFormat>
             <ScaleMin>0.1</ScaleMin>
             <ScaleMax>20.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>22</Size>
             <Element>
                <Name>Element 1</Name>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Index>3</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 4</Name>
                <Index>4</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 5</Name>
                <Index>5</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 6</Name>
                <Index>6</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 7</Name>
                <Index>7</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 8</Name>
                <Index>8</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 9</Name>
                <Index>9</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 10</Name>
                <Index>10</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 11</Name>
                <Index>11</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 12</Name>
                <Index>12</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 13</Name>
                <Index>13</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 14</Name>
                <Index>14</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 15</Name>
                <Index>15</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 16</Name>
                <Index>16</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 17</Name>
                <Index>17</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 18</Name>
                <Index>18</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 19</Name>
                <Index>19</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 20</Name>
                <Index>20</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 21</Name>
                <Index>21</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 22</Name>
                <Index>22</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>25.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Number of Delay Times per Ionogram Scan Line</Name>
          <ParameterKey>vh_num</ParameterKey>
@@ -1070,14 +1070,14 @@
             <ValueFormat>I3</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>223</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>230</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Number of Ionogram Scan Line Frequencies</Name>
          <ParameterKey>f_num</ParameterKey>
@@ -1088,14 +1088,14 @@
             <ValueFormat>I6</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>4000</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>4000</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Delay Time Values</Name>
          <ParameterKey>delay_time</ParameterKey>
@@ -1106,15 +1106,15 @@
          <RenderingHints>
             <ValueFormat>F9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>223</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Apparent Range Values</Name>
          <ParameterKey>v_height</ParameterKey>
@@ -1125,16 +1125,16 @@
          <RenderingHints>
             <ValueFormat>F9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>223</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Epoch Time</Name>
          <ParameterKey>Epoch</ParameterKey>
@@ -1147,14 +1147,14 @@
             <AxisLabel>Epoch</AxisLabel>
             <ScaleMin>6.2135661819904e+13</ScaleMin>
             <ScaleMax>6.3113882619904e+13</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-1969 00:00:00.000</ValidMin>
          <ValidMax>01-Jan-2000 00:00:00.000</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Sounder Amplitude</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1163,18 +1163,18 @@
          <Cadence>PT22S</Cadence>
          <RenderingHints>
             <ValueFormat>I3</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>223</Size>
-         </Structure>
+</Structure>
          <FillValue>-128</FillValue>
          <Wave>
             <WaveType>PlasmaWaves</WaveType>
             <Qualifier>Magnitude</Qualifier>
             <Qualifier>Pseudo</Qualifier>
             <WaveQuantity>Intensity</WaveQuantity>
-         </Wave>
-      </Parameter>
+</Wave>
+</Parameter>
       <Parameter>
          <Name>Interpolated Frequencies</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1190,7 +1190,7 @@
             <ValueFormat>E11.2</ValueFormat>
             <ScaleMin>0.1</ScaleMin>
             <ScaleMax>25.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.1</ValidMin>
          <ValidMax>25.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -1198,8 +1198,8 @@
             <WaveType>PlasmaWaves</WaveType>
             <Qualifier>Scalar</Qualifier>
             <WaveQuantity>Frequency</WaveQuantity>
-         </Wave>
-      </Parameter>
+</Wave>
+</Parameter>
       <Parameter>
          <Name>Height</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1215,15 +1215,15 @@
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>4000.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>4000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Electron Local Gyrofrequency</Name>
          <Set>Time series defined by using: EPOCH</Set>
@@ -1238,14 +1238,14 @@
             <ValueFormat>F7.3</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>100.0</ScaleMax>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <ParticleQuantity>Gyrofrequency</ParticleQuantity>
-         </Particle>
-      </Parameter>
-   </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

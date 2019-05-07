@@ -5,24 +5,24 @@
         <ResourceID>spase://VSPO/NumericalData/SOHO/MDI/VSO</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO MDI Images via VSO</ResourceName>
-            <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Multiple general and specialized products at multiple processing levels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Rick.Bogart</PersonID>
                 <Role>Scientist</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_SOHO_HDR_MDI_VSO</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SHA</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Virtual Solar Observatory - VSO</Name>
-                <URL>http://www.virtualsolar.org</URL>
-            </AccessURL>
+                <URL>https://www.virtualsolar.org/</URL>
+</AccessURL>
             <Format>FITS</Format>
-        </AccessInformation>
+</AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
             <Availability>Online</Availability>
@@ -30,9 +30,9 @@
             <AccessURL>
                 <Name>MEDOC site</Name>
                 <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
-            </AccessURL>
+</AccessURL>
             <Format>FITS</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/SOHO/MDI</InstrumentID>
         <MeasurementType>Magnetogram</MeasurementType>
@@ -43,11 +43,11 @@
                 <StartDate>1996-01-30T00:00:00</StartDate>
                 <RelativeStopDate>-P7D</RelativeStopDate>
                 <Note>Data are current to within about a week.</Note>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>
 
 

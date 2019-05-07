@@ -4,45 +4,45 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/MAG_SWEPAM/PT240S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE MAG SWEPAM 4-min merged IMF+plasma data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>ACE MAG and SWEPAM 4-min merged magnetic field and plasma parameter moments data at NSSDC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Smith</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Ruth.Skoug</PersonID>
                 <Role>DataProducer</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_MAG_SWEPAM_4M_MGD</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/ace_merge.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ace_merge.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/merged/4_min_merged_mag_plasma/</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/merged/4_min_merged_mag_plasma/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/ACE/SWEPAM</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -52,9 +52,9 @@
                 <StartDate>1998-02-05T00:00:00</StartDate>
                 <RelativeStopDate>-P5M</RelativeStopDate>
                 <Note>Data are presently ~5 months delayed</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT240S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

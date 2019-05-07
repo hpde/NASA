@@ -4,19 +4,19 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/UFA/PT2M</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses HISCALE ion and electron fluxes at UDS</ResourceName>
-            <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>High-resolution and hourly ion and electron fluxes</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
                 <Role>DataProducer</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_HISCALE_UDS_DIGITAL</PriorID>
             <PriorID>spase://VSPO/NumericalData/Ulysses/HISCALE/UDS/PT2M</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -24,9 +24,9 @@
             <AccessURL>
                 <Name>annual gzipped-ASCII files from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/HISCALE</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
@@ -35,9 +35,9 @@
             <TimeSpan>
                 <StartDate>1990-11-14T00:00:00</StartDate>
                 <StopDate>2008-08-31T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT2M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

@@ -5,34 +5,34 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-1/VDP/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail VDP ion flux 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Interball Tail VDP total antisunward ion flux, 2-min key parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jana.Safrankova</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_INTERBALLTAIL_HDR_VDP_KP</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp</URL>
-      </AccessURL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp/</URL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/vdp/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_K0_VDP&amp;index=sp_phys</URL>
         <ProductKey>IT_K0_VDP</ProductKey>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Interball-1/VDP</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -40,9 +40,9 @@
       <TimeSpan>
         <StartDate>1995-08-14T00:00:00</StartDate>
         <StopDate>2000-10-16T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT2M</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

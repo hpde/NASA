@@ -5,42 +5,42 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/VIS/VisibleImagerCalibrated/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Visible Imaging System (VIS) Low Resolution Camera Images, Calibrated, Level 0 (L0), 12 s Data</ResourceName>
-      <ReleaseDate>2018-11-02T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Instrument Functional Description: The VIS Instrument is a Set of three Low Light Level Cameras. Two of these Cameras share primary and some secondary Optics and are designed to provide Images of the Nighttime Auroral Oval at Visible Wavelengths. A Third Camera is used to monitor the Directions of the Fields-of-View of the Auroral Cameras with respect to the sunlit Earth and return Global Images of the Auroral Oval at Ultraviolet Wavelengths. The VIS Instrumentation produces an Auroral Image of 256 × 256 Pixels approximately every 24 s dependent on the Integration Time and Filter selected. The Fields-of-View of the two Nighttime Auroral Cameras are 5.6 × 6.3° and 2.8 × 3.3° for the Low and Medium Resolution Cameras, respectively. The Medium Resolution Camera was never activated. One or more Earth Camera Images of 256 × 256 Pixels are produced every 5 min, depending on the commanded Mode. The Field-of-View of the Earth Camera is approximately 20 × 20°. See: http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx Reference: Frank, L.A., J.B. Sigwarth, J.D. Craven, J.P. Cravens, J.S. Dolan, M.R. Dvorsky, J.D. Harvey, P.K. Hardebeck, and D. Muller, The Visible Imaging System (VIS) for the Polar Spacecraft, Space Science Review, Vol. 71, pp. 297-328, 1995. Data Set Description: The VIS Earth Camera Data Set comprises all Earth Camera Images for the selected Time Period. Full Coordinate Information is included for Viewer Orientation. In addition, a Rotation Matrix and a Table of Distortion-correcting Look Direction Unit Vectors are provided for the Purpose of calculating Coordinates for every Pixel. To facilitate viewing of the Images, a Mapping of Pixel Value to a recommended Color Table based on the Characteristics of the selected Filter will be included with each Image. A Relative Intensity Scale is provided through an Uncompressed Count Table. Approximate Intensity Levels in kiloRayleighs are given in an Intensity Table. For detailed Information on Intensities, see Sensitivities_and_Intensities.txt at https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/SENSITIVITIES_AND_INTENSITIES.TXT. Supporting Software is available at: http://vis.physics.uiowa.edu/vis/software/ Included is an IDL Program that displays the Images with the recommended Color Bar, provides approximate Intensities, Coordinate Data for each Pixel, and includes multiple Options for Image Manipulation.</Description>
       <Acknowledgement>L.A. Frank</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Scientific Description of the VIS Instrument</Name>
         <URL>http://vis.physics.uiowa.edu/vis/vis_description/vis_description.htmlx</URL>
         <Description>Scientific Description of the VIS Instrument</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Instrument Sensitivity and Method of Calculating Intensities</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/SENSITIVITIES_AND_INTENSITIES.TXT</URL>
         <Description>Sensitivity and Intensity Calculation</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Method used by Polar VIS to calculate Coordinates</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/Polar_VIS_docs/Coordinate_Calculation.txt</URL>
         <Description>Polar VIS Coordinate Calculation</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Link to Scientific Analysis Software</Name>
         <URL>http://vis.physics.uiowa.edu/vis/software/</URL>
         <Description>Scientific Analysis Software</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -49,22 +49,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/vis/vis_visible-imager-calibrated/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/vis/vis_visible-imager-calibrated/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
         <ProductKey>PO_VIS_VISIBLE-IMAGER-CALIBRATED</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>L.A. Frank. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/POLAR/VIS</InstrumentID>
     <MeasurementType>ImageIntensity</MeasurementType>
@@ -72,9 +72,9 @@
       <TimeSpan>
         <StartDate>1996-11-12T00:00:00.000</StartDate>
         <StopDate>2008-04-16T23:59:59.999</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT24S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
     <ObservedRegion>Earth.NearSurface</ObservedRegion>
@@ -94,14 +94,14 @@
         <AxisLabel>Epoch</AxisLabel>
         <ScaleMin>6.2861421819904e+13</ScaleMin>
         <ScaleMax>6.3776657019903e+13</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>01-Jan-1992 00:00:00.000</ValidMin>
       <ValidMax>31-Dec-2020 23:59:59.999</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Image Center Time</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -120,8 +120,8 @@
             <AxisLabel>year</AxisLabel>
             <ScaleMin>1992</ScaleMin>
             <ScaleMax>2020</ScaleMax>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Day of Year</Name>
           <Index>2</Index>
@@ -132,8 +132,8 @@
             <AxisLabel>day</AxisLabel>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>366</ScaleMax>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Msec of Day</Name>
           <Index>3</Index>
@@ -144,14 +144,14 @@
             <AxisLabel>msec</AxisLabel>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>86399999</ScaleMax>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Raw Ultraviolet Images in QLC Counts, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -162,17 +162,17 @@
       <RenderingHints>
         <AxisLabel>Pixel Counts</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Cleaned Ultraviolet Images in QLC Counts, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -183,17 +183,17 @@
       <RenderingHints>
         <AxisLabel>Pixel Counts</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Grid Overlay in QLC Counts, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -204,17 +204,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Polar Projection in QLC Counts, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -225,17 +225,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Magnetic Local Time (MLT) Invariant Latitude Projection in QLC Counts, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -246,17 +246,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Cleaned Ultraviolet Intensity in QLC Counts, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -267,17 +267,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Grid Overlay in QLC Counts, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -288,17 +288,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Polar Projection in QLC Counts, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -309,17 +309,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Magnetic Local Time (MLT) Invariant Latitude Projection in QLC Counts, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -330,17 +330,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Cleaned, Filtered Ultraviolet Intensity, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -353,17 +353,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Grid Overlay, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -376,17 +376,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Polar Projection, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -399,17 +399,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Magnetic Local Time (MLT) Invariant Latitude Projection, Image</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -422,17 +422,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Cleaned Ultraviolet Intensity, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -445,17 +445,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Grid Overlay, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -468,17 +468,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Geographic Polar Projection, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -491,17 +491,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Magnetic Local Time (MLT) Invariant Latitude Projection, Movie</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -514,17 +514,17 @@
       <RenderingHints>
         <AxisLabel>Cleaned UV Intensity</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>Electromagnetic</WaveType>
         <Qualifier>Array</Qualifier>
         <WaveQuantity>Intensity</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>Sensor Number</Name>
       <ParameterKey>Sensor</ParameterKey>
@@ -535,14 +535,14 @@
         <ValueFormat>I1</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>2</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Integration Time (Half)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -556,14 +556,14 @@
         <ValueFormat>F7.0</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>300000.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>300000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Filter Number and Peak Wavelength (Å)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -573,7 +573,7 @@
       <Cadence>PT24S</Cadence>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>2</Size>
         <Element>
@@ -585,8 +585,8 @@
             <AxisLabel>number</AxisLabel>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>12</ScaleMax>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Wavelength</Name>
           <Index>2</Index>
@@ -597,14 +597,14 @@
             <AxisLabel>Angstroms</AxisLabel>
             <ScaleMin>1360</ScaleMin>
             <ScaleMax>7320</ScaleMax>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <FillValue>-2147483648</FillValue>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
-      </Mixed>
-    </Parameter>
+</Mixed>
+</Parameter>
     <Parameter>
       <Name>Presumed Altitude of Emissions</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -618,14 +618,14 @@
         <ValueFormat>F6.2</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>300.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>300.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Field-Stop Wheel Position</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -638,14 +638,14 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>239</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>239</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Platform Pitch Angle</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -660,14 +660,14 @@
         <ValueFormat>I5</ValueFormat>
         <ScaleMin>-1800</ScaleMin>
         <ScaleMax>1800</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-1800</ValidMin>
       <ValidMax>1800</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Mirror Elevation Angle</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -680,14 +680,14 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>255</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Mirror Azimuth Angle</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -700,14 +700,14 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>255</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geographic Latitude Grid</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -720,20 +720,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>N Lat</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Geographic Longitude Grid</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -746,20 +746,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>N Lat</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Right Ascension, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -772,20 +772,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Right Ascension</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Declination Angle, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -798,20 +798,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <AxisLabel>Declination</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Altitude at Line-of-Sight</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -824,19 +824,19 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cylindrical</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F8.1</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Component.K</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Earth Pointing Flag</Name>
       <ParameterKey>On_Earth</ParameterKey>
@@ -846,15 +846,15 @@
       <RenderingHints>
         <AxisLabel>On Earth</AxisLabel>
         <ValueFormat>I1</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -866,12 +866,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F8.1</ValueFormat>
         <ScaleMin>-75000.0</ScaleMin>
         <ScaleMax>75000.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -879,31 +879,31 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>X_position</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Y_position</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>Y_position</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Z_position</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>Z_position</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-75000.0</ValidMin>
       <ValidMax>75000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Velocity Vector, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -915,12 +915,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F8.4</ValueFormat>
         <ScaleMin>-12.0</ScaleMin>
         <ScaleMax>12.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -928,31 +928,31 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>X_velocity</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Y_velocity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>Y_velocity</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Z_velocity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>Z_velocity</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Spin Axis Unit Vector, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -962,12 +962,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.4</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -975,31 +975,31 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>X(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Spin Y</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>Y(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Spin Z</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>Z(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Rotation Matrix, Image Coordinates to GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1010,19 +1010,19 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Tensor</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Look Directions</Name>
       <ParameterKey>Look_Dir_Vctr</ParameterKey>
@@ -1031,15 +1031,15 @@
       <RenderingHints>
         <AxisLabel>Look Vectors</AxisLabel>
         <ValueFormat>F7.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 256 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Zenith Angle of Center Line</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1053,14 +1053,14 @@
         <ValueFormat>F6.2</ValueFormat>
         <ScaleMin>-90.0</ScaleMin>
         <ScaleMax>90.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Sun Direction Unit Vector, GCI Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1070,12 +1070,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.4</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -1083,31 +1083,31 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>X(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Sun Y</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>Y(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Sun Z</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>Z(norm)</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Solar Zenith Angle at Center Line/Earth Intersection</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1121,14 +1121,14 @@
         <ValueFormat>F7.2</ValueFormat>
         <ScaleMin>-180.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-180.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>RGB Color Lookup Table</Name>
       <ParameterKey>RGBColorTable</ParameterKey>
@@ -1138,15 +1138,15 @@
       <RenderingHints>
         <AxisLabel>Color Level</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 256</Size>
-      </Structure>
+</Structure>
       <FillValue>-32768</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Color Limit, Lower</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1158,14 +1158,14 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>255</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>-32768</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Color Limit, Upper</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1177,14 +1177,14 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>255</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>-32768</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1197,14 +1197,14 @@
         <ValueFormat>Z8</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>2147483647</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2147483647</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Post Gap Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1216,14 +1216,14 @@
         <ValueFormat>Z8</ValueFormat>
         <ScaleMin>0</ScaleMin>
         <ScaleMax>2147483647</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2147483647</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Expanded Count Table</Name>
       <ParameterKey>ExpandedCount</ParameterKey>
@@ -1233,14 +1233,14 @@
       <RenderingHints>
         <AxisLabel>Exp_Counts</AxisLabel>
         <ValueFormat>F6.1</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Intensity Tables</Name>
       <ParameterKey>Intens_Tables</ParameterKey>
@@ -1252,14 +1252,14 @@
       <RenderingHints>
         <AxisLabel>Intensities</AxisLabel>
         <ValueFormat>1PE11.5</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256 12</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Image Header Bytes</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1269,15 +1269,15 @@
       <RenderingHints>
         <AxisLabel>Image Headers</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>64 16</Size>
-      </Structure>
+</Structure>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Image Row Number of Coordinates</Name>
       <ParameterKey>image_row_crd</ParameterKey>
@@ -1288,16 +1288,16 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>1</ScaleMin>
         <ScaleMax>256</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>18</Size>
-      </Structure>
+</Structure>
       <ValidMin>1</ValidMin>
       <ValidMax>256</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Image Column Number of Coordinates</Name>
       <ParameterKey>image_col_crd</ParameterKey>
@@ -1308,16 +1308,16 @@
         <ValueFormat>I3</ValueFormat>
         <ScaleMin>1</ScaleMin>
         <ScaleMax>256</ScaleMax>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>18</Size>
-      </Structure>
+</Structure>
       <ValidMin>1</ValidMin>
       <ValidMax>256</ValidMax>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Row Index of Image Array</Name>
       <ParameterKey>image_row</ParameterKey>
@@ -1326,14 +1326,14 @@
       <RenderingHints>
         <AxisLabel>Image Row</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Column Index of Image Array</Name>
       <ParameterKey>image_column</ParameterKey>
@@ -1342,14 +1342,14 @@
       <RenderingHints>
         <AxisLabel>Image Column</AxisLabel>
         <ValueFormat>I3</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>256</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Header Block Number</Name>
       <ParameterKey>header_block</ParameterKey>
@@ -1357,11 +1357,11 @@
       <Cadence>PT24S</Cadence>
       <Structure>
         <Size>16</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Header Field Names</Name>
       <ParameterKey>hdr_fieldname</ParameterKey>
@@ -1369,10 +1369,10 @@
       <Cadence>PT24S</Cadence>
       <Structure>
         <Size>64</Size>
-      </Structure>
+</Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

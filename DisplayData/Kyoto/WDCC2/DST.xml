@@ -4,28 +4,28 @@
         <ResourceID>spase://VSPO/DisplayData/Kyoto/WDCC2/DST</ResourceID>
         <ResourceHeader>
             <ResourceName>Hourly Dst Indices to Today</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Quicklook hourly Dst indices through today from WDC-C2 at Kyoto-U, also prior provisional and definitive hourly Dst</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Toyo.Kamei</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_KYOTO_HDR_DST_WDCC2</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/YNAO</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Site of WDC-C2, Kyoto U - Real-time (quicklook) Dst Index in this month</Name>
-                <URL>http://swdcwww.kugi.kyoto-u.ac.jp/dst_realtime/presentmonth/index.html</URL>
-            </AccessURL>
+                <URL>http://wdc.kugi.kyoto-u.ac.jp/dst_realtime/presentmonth/index.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>Site of WDC-C2, Kyoto U - Geomagnetic Data Service</Name>
-                <URL>http://swdcwww.kugi.kyoto-u.ac.jp/wdc/Sec3.html</URL>
-            </AccessURL>
+                <URL>http://wdc.kugi.kyoto-u.ac.jp/wdc/Sec3.html</URL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <MeasurementType>MagneticField</MeasurementType>
         <MeasurementType>ActivityIndex</MeasurementType>
@@ -34,8 +34,8 @@
                 <StartDate>1957-01-01T00:00:00</StartDate>
                 <RelativeStopDate>-P1D</RelativeStopDate>
                 <Note>Data are current to within hours.</Note>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <DisplayCadence>PT3600S</DisplayCadence>
-    </DisplayData>
+</DisplayData>
 </Spase>

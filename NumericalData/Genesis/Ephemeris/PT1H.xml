@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Genesis/Ephemeris/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Genesis Spacecraft Positions</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Genesis spacecraft trajectory data</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -13,18 +13,6 @@
          </Contact>
          <PriorID>spase://VHO/NumericalData/Genesis/Ephemeris/PT1H</PriorID>
       </ResourceHeader>
-      <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>
-         <Availability>Online</Availability>
-         <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>Genesis Data Web Site</Name>
-            <URL>http://genesis.lanl.gov/plots/gns_traj_data/</URL>
-            <Description>Genesis Data Repository</Description>
-         </AccessURL>
-         <Format>Text</Format>
-         <Encoding>ASCII</Encoding>
-      </AccessInformation>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
@@ -35,7 +23,7 @@
             <ProductKey>genesis</ProductKey>
          </AccessURL>
          <Format>Text</Format>
-      </AccessInformation>
+         </AccessInformation>
       <InstrumentID>spase://SMWG/Instrument/Genesis/Ephemeris</InstrumentID>
       <MeasurementType>Ephemeris</MeasurementType>
       <TemporalDescription>

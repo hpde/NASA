@@ -5,55 +5,55 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/FIELDS/FGM/Burst/Level2/PT0.0078125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Flux Gate Magnetometer (FGM) DC Magnetic Field, Level 2, Burst Survey</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Fluxgate Magnetometers (FGM) on Magnetospheric Multiscale consist of a traditional Analog Fluxgate Magnetometer (AFG) and a Digital Fluxgate magnetometer (DFG). The dual magnetometers are operated as a single instrument providing a single intercalibrated data product. Range changes occur at different times on the two instruments so the gains checked each periapsis can be carried out unambiguously to apoapsis. Cross correlation of calibration parameters can separate causes of the any apparent calibration changes. Use of Electron Drift Instrument (EDI) to determine the field along the rotation axis allows accurate monitoring of the zero levels along the rotation axis. Prior to launch the magnetometers were calibrated at the Technical University, Braunschweig, except for the AFG magnetometers on MMS3 and MMS4, which were calibrated at UCLA. Both sets of sensors are operated for the entire MMS orbit, with slow survey (8 samples per second) outside of the Region of Interest (ROI), and fast survey (16 samples per second) inside the ROI. Within the ROI, burst mode data (128 samples per second) are also acquired. A detailed description of the MMS fluxgate magnetometers, including science objectives, instrument description, calibration, magnetic cleanliness program, and data flow can be found at http://link.springer.com/article/10.1007%2Fs11214-014-0057-3 (DOI 10.1007/s11214-014-0057-3). Additional information can also be found at http://www-spc.igpp.ucla.edu/ssc/mms (UCLA), and http://www.iwf.oeaw.ac.at/de/forschung/erdnaher-weltraum/mms/dfg (IWF, Graz). For the purpose of creating a unified FGM Level 2 data product, burst mode data is taken from DFG and survey mode data is taken from AFG. Because AFG and DFG are cross-calibrated on an orbit-averaged basis, small differences in offset may be observed between Level 2 burst and survey mode data. Consequently, any differences are within the error of the measurement. Based on preliminary analysis of the data, the absolute error within the Region of Interest (ROI) is estimated to be no more than 0.1 nT in the spin-plane, 0.15 nT along the spin-axis and 0.2 nT in total magnitude.</Description>
       <Acknowledgement>J. L. Burch, C. T. Russell, W. Magnus</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Werner.Magnes</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
         <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI).</Name>
         <URL>http://mms.space.swri.edu/index.html</URL>
         <Description>The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Data Caveats and Current Release Notes at LASP MMS SDC</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/fields/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The MMS UCLA FGM Team home page at SSC, UCLA</Name>
         <URL>http://www-spc.igpp.ucla.edu/ssc/mms/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Flux Gate Magnetometer (FGM) home page hosted by the Space Science Center (SSC), University of California, at Los Angeles (UCLA).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The MMS Graz FGM Team home page at IWF, OAW</Name>
-        <URL>http://www.iwf.oeaw.ac.at/de/forschung/erdnaher-weltraum/mms/dfg/</URL>
+        <URL>https://www.iwf.oeaw.ac.at/missionen/laufende-missionen/mms/dfg/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Flux Gate Magnetometer (FGM) home page hosted by the Institut fur Weltraumforschung (IWF), Osterreichische Akademie der Wissenschaften (OAW).</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -62,22 +62,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms3/fgm/brst/l2/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/fgm/brst/l2/</URL>
         <Description>In CDF via http from SPDF.</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS3_FGM_BRST_L2&amp;index=sp_phys</URL>
         <ProductKey>MMS3_FGM_BRST_L2</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. L. Burch, C. T. Russell, W. Magnus. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MMS/3/FIELDS/FGM</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -85,9 +85,9 @@
       <TimeSpan>
         <StartDate>2015-09-01T12:11:14</StartDate>
         <RelativeStopDate>-P2M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0.0078125S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -107,14 +107,14 @@
       <RenderingHints>
         <AxisLabel>mms3_fgm_brst_Epoch</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>2010-01-01T00:00:00.000000000</ValidMin>
       <ValidMax>2030-01-01T00:00:00.999000000</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_b_gse_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -126,42 +126,42 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Bx GSE</Name>
           <Index>1</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>By GSE</Name>
           <Index>2</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bz GSE</Name>
           <Index>3</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bt</Name>
           <Index>4</Index>
           <ValidMin>0.0</ValidMin>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_b_gsm_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -173,42 +173,42 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Bx GSM</Name>
           <Index>1</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>By GSM</Name>
           <Index>2</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bz GSM</Name>
           <Index>3</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bt</Name>
           <Index>4</Index>
           <ValidMin>0.0</ValidMin>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_b_dmpa_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -221,42 +221,42 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Bx DMPA</Name>
           <Index>1</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>By DMPA</Name>
           <Index>2</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bz DMPA</Name>
           <Index>3</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bt</Name>
           <Index>4</Index>
           <ValidMin>0.0</ValidMin>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_b_bcs_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -268,42 +268,42 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Bx BCS</Name>
           <Index>1</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>By BCS</Name>
           <Index>2</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bz BCS</Name>
           <Index>3</Index>
           <ValidMin>-20000.0</ValidMin>
-        </Element>
+</Element>
         <Element>
           <Name>Bt</Name>
           <Index>4</Index>
           <ValidMin>0.0</ValidMin>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMax>20000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_flag_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -315,14 +315,14 @@
         <AxisLabel>mms3_fgm_flag_brst_l2</AxisLabel>
         <ValueFormat>z10.8</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967281</ValidMax>
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch_state</Name>
       <ParameterKey>Epoch_state</ParameterKey>
@@ -334,14 +334,14 @@
       <RenderingHints>
         <AxisLabel>Epoch_state</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
       <ValidMax>2030-01-01T00:00:00.999000000</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_r_gse_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH_STATE</Set>
@@ -353,39 +353,39 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>X GSE</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Y GSE</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Z GSE</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>R</Name>
           <Index>4</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-1.0e+06</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_r_gsm_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH_STATE</Set>
@@ -397,39 +397,39 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>X GSM</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Y GSM</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Z GSM</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>R</Name>
           <Index>4</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-1.0e+06</ValidMin>
       <ValidMax>1.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_hirange_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -440,15 +440,15 @@
         <AxisLabel>mms3_fgm_hirange_brst_l2</AxisLabel>
         <ValueFormat>i5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <Qualifier>Median</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_bdeltahalf_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -460,15 +460,15 @@
       <RenderingHints>
         <AxisLabel>mms3_fgm_bdeltahalf_brst_l2</AxisLabel>
         <ValueFormat>e13.5</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.001</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Median</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_stemp_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -482,15 +482,15 @@
         <AxisLabel>mms3_fgm_stemp_brst_l2</AxisLabel>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_etemp_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -503,15 +503,15 @@
         <AxisLabel>mms3_fgm_etemp_brst_l2</AxisLabel>
         <ValueFormat>e13.5</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_mode_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH</Set>
@@ -523,14 +523,14 @@
       <RenderingHints>
         <AxisLabel>mms3_fgm_mode_brst_l2</AxisLabel>
         <ValueFormat>e13.5</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>2.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>mms3_fgm_rdeltahalf_brst_l2</Name>
       <Set>Time series defined by using:  EPOCH_STATE</Set>
@@ -542,14 +542,14 @@
       <RenderingHints>
         <AxisLabel>mms3_fgm_rdeltahalf_brst_l2</AxisLabel>
         <ValueFormat>e13.5</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1.0</ValidMin>
       <ValidMax>100.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Median</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

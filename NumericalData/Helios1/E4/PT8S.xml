@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/Helios1/E4/PT8S</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 1 Magnetic Field Spectral Density, offline at NSSDC</ResourceName>
-            <ReleaseDate>2015-12-15T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>This data set contains 8-sec averaged and peak spectral densities of magnetic field component variations in 8 spectral bands with center frequencies logarithmically equispaced between 6.8 Hz and 1470 Hz.  Data records also contain time, spacecraft position, spacecraft-sun-Earth angle, spin vector direction, data quality flags, etc.</Description>
             <Acknowledgement>Please acknowledge the PI, Dr. Fritz Neubauer, and NSSDC.</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>NSSDC Data Set Catalog 506</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0506.pdf</URL>
-            </InformationURL>
+</InformationURL>
             <PriorID>spase://VSPO/NumericalData/SPHE_00177</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Offline</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>NSSDC</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
-            </AccessURL>
+                <URL>https://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
+</AccessURL>
             <Format>Binary</Format>
             <DataExtent>
                 <Quantity>600</Quantity>
                 <Units>MB</Units>
-            </DataExtent>
-        </AccessInformation>
+</DataExtent>
+</AccessInformation>
         <ProcessingLevel>Uncalibrated</ProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Helios1/E4</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
@@ -39,9 +39,9 @@
             <TimeSpan>
                 <StartDate>1974-12-10T00:00:00</StartDate>
                 <StopDate>1975-09-20T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT8S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Inner</ObservedRegion>
         <Parameter>
             <Name>Magnetic field spectral density</Name>
@@ -52,14 +52,14 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>2 8</Size>
                 <Description>spectral densities for 8 frequency channels, for 2 magnetic field components</Description>
-            </Structure>
+</Structure>
             <Field>
                 <FieldQuantity>Magnetic</FieldQuantity>
-            </Field>
-        </Parameter>
-    </NumericalData>
+</Field>
+</Parameter>
+</NumericalData>
 </Spase>

@@ -4,14 +4,14 @@
         <ResourceID>spase://VSPO/DisplayData/Ulysses/EPAC/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses EPAC flux plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>27-day and annual plots of selected proton and electron fluxes, plus some count rates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_ULYSSES_HDR_EPAC_UDS_RATES_PLOT</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -19,9 +19,9 @@
             <AccessURL>
                 <Name>EPAC rates plots from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#plots</URL>
-            </AccessURL>
+</AccessURL>
             <Format>GIF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/EPAC</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
@@ -30,8 +30,8 @@
             <TimeSpan>
                 <StartDate>1990-10-19T00:00:00</StartDate>
                 <StopDate>1998-12-31T00:00:00</StopDate>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

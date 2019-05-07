@@ -4,8 +4,8 @@
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/ACE/SWICS/L2/PT12M</ResourceID>
     <ResourceHeader>
-      <ResourceName>ACE SWICS 2.0 Solar Wind Protons 12-min Data </ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ResourceName>ACE SWICS 2.0 Solar Wind Protons 12-min Data</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SWICS 12-minute proton data contains densities, speeds, and thermal speeds
 from the beginning of the mission up to the present day. The densities have
 been cross-calibrated to the proton monitors ACE/SWEPAM and WIND/SWE, and
@@ -16,17 +16,17 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Release notes for SWICS 2.0 level 2 data</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_notes.txt</URL>
         <Description>Additional details provided by the instrument team. All users of SWICS data should read these notes.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>
       <Availability>Online</Availability>
@@ -34,9 +34,9 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
       <AccessURL>
         <Name>ACE Science Center (ASC)</Name>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SWICS_PROTONS.html</URL>
-      </AccessURL>
+</AccessURL>
       <Format>HDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -45,19 +45,19 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H6_SWI&amp;index=sp_phys</URL>
         <ProductKey>AC_H6_SWI</ProductKey>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h6</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h6/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/swi_h6/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/ACE/SWICS</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -65,9 +65,9 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
       <TimeSpan>
         <StartDate>1998-01-29T00:07:03</StartDate>
         <RelativeStopDate>-P4M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT12M</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Parameter>
       <Name>Epoch Time</Name>
@@ -81,8 +81,8 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Proton density</Name>
       <ParameterKey>nH</ParameterKey>
@@ -96,8 +96,8 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
         <ParticleType>Proton</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton density error</Name>
       <ParameterKey>nH_err</ParameterKey>
@@ -111,8 +111,8 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
         <ParticleType>Proton</ParticleType>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Solar Wind Proton speed</Name>
       <ParameterKey>vH</ParameterKey>
@@ -126,8 +126,8 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
         <ParticleType>Proton</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>FlowSpeed</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Solar Wind Proton Thermal speed</Name>
       <ParameterKey>vthH</ParameterKey>
@@ -141,7 +141,7 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
         <ParticleType>Proton</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>ThermalSpeed</ParticleQuantity>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

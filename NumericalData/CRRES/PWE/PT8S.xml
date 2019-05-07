@@ -6,44 +6,44 @@
     <ResourceHeader>
       <ResourceName>CRRES plasma wave data</ResourceName>
       <AlternateName>CRRES Plasma Wave Experiment data</AlternateName>
-      <ReleaseDate>2018-05-03T17:49:47Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This data set contains electron cyclotron frequency, plasma frequency, upper hybrid frequency, and electron density data from the Plasma Wave Experiment on board CREES at about 8 s resolution.</Description>
       <Acknowledgement>NASA; Department of Defense-Department of the Air Force (United States); AFRL; Dr. Roger R. Anderson; Dr. E. Gary Mullen</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Roger.R.Anderson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>CRRES Plasma Wave Experiment</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1990-065A-19</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-065A-19</URL>
         <Description>NASA NSSDC CRRES plasma wave experiment details</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/CRRES</AssociationID>
         <AssociationType>ObservedBy</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VMO/NumericalData/CRRES/PWE/PT8S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Virtual Magnetospheric Observatory</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/CRRES/PWE/PT8S</URL>
-      </AccessURL>
+        <URL>http://vmo.igpp.ucla.edu/data1/CRRES/PWE/PT8S/</URL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
       <Acknowledgement>NASA; Department of Defense-Department of the Air Force (United States); AFRL; Dr. Roger R. Anderson; Dr. E. Gary Mullen</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>CRRES Plasma Wave Experiment (PWE)</ProviderResourceName>
     <ProviderProcessingLevel>Level-2</ProviderProcessingLevel>
@@ -54,9 +54,9 @@
         <StartDate>1990-08-19T00:00:00.000</StartDate>
         <StopDate>1991-09-12T00:00:00.000</StopDate>
         <Note>Time format in data files is: Year-Month-Day Hour Minute Second (YYYY-MM-DDTHH:MM:SS.SSS)</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT8S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Keyword>8 s</Keyword>
     <Keyword>Radiation Belt</Keyword>
     <Keyword>Inner Magnetosphere</Keyword>
@@ -74,8 +74,8 @@
       <Cadence>PT8S</Cadence>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Year and Day of Year at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment year and DOY</ParameterKey>
@@ -84,8 +84,8 @@
       <Cadence>PT8S</Cadence>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Universal Time</Name>
       <ParameterKey>Time</ParameterKey>
@@ -99,22 +99,22 @@
           <Name>Hour</Name>
           <Index>1</Index>
           <ParameterKey>Hour</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Minute</Name>
           <Index>2</Index>
           <ParameterKey>Minute</ParameterKey>
-        </Element>
+</Element>
         <Element>
           <Name>Second</Name>
           <Index>3</Index>
           <ParameterKey>Second</ParameterKey>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Electron Cyclotron Frequency at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment electron cyclotron frequency</ParameterKey>
@@ -125,8 +125,8 @@
       <Field>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>PlasmaFrequency</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Upper Hybrid Resonance Frequency at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment upper hybrid resonance frequency</ParameterKey>
@@ -137,8 +137,8 @@
       <Field>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>PlasmaFrequency</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Plasma Frequency at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment plasma frequency</ParameterKey>
@@ -149,8 +149,8 @@
       <Field>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>PlasmaFrequency</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Electron Density at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment electron density</ParameterKey>
@@ -162,8 +162,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Internal Code at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment internal code</ParameterKey>
@@ -172,8 +172,8 @@
       <Cadence>PT8S</Cadence>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>CRRES Plasma Wave Experiment Instrument Mode at 8 s resolution</Name>
       <ParameterKey>Plasma Wave Experiment instrument mode</ParameterKey>
@@ -182,7 +182,7 @@
       <Cadence>PT8S</Cadence>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

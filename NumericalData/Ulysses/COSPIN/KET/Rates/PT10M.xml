@@ -6,33 +6,33 @@
     <ResourceHeader>
       <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) Kiel Electron Telescope (KET) Proton, Helium, and Electron Spin-Integrated Counting Rates Data, 10 min Average Data</ResourceName>
       <AlternateName>COSPIN-KET-RAT-10M</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This Data Set contains 10 min Averages of: (a) Spin-Integrated Count Rates of Protons (2.7-5.4, 5.4-23.1, 34.1-125.0, 125.0-320.0, 320.0-2100 and &gt;2100.0 MeV), Alpha Particles (6.0-20.4, 34.2-125.0, 125.0-320.0, 320.0-2100.0 and &gt;2100.0 MeV/n), and Electrons (2.5-7.0, 7.0-170.0 and &gt;170.0 MeV). (b) Eight-Sectored Count Rates of Protons (5.4-23.1 MeV) and Electrons (2.5-7.0 MeV). (c) Count Rates of D10, D20, C10, C20 and A01 single Detector Sensors. The Parameter Keys in the Parameter Level Segments below are specifically relevant to the UFA accessible Versions of the Data.</Description>
       <Acknowledgement>Please acknowledge the COSPIN PI, R. Bruce McKibben, the KET Co-PI, Bernd Heber, and the UDS and/or NSSDC</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Bernd.Heber</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Cecil.Tranquille</PersonID>
         <Role>ArchiveSpecialist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Ulysses Cosmic Ray and Solar Particle Investigation, COSPIN</Name>
         <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
         <Description>Published Description of the COSPIN Instrumentation, J.A. Simpson et al., Astron. Astrophys. Suppl. Ser. 92, 365-399, 1992. See especially Section 4.5 for a detailed Description of the High Energy Telescopes, HET. An electronic Copy of this Paper is available at http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?1992A%26AS...92..365S&amp;defaultprint=YES&amp;filetype=.pdf.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>User Notes for the COSPIN/KET Data Files</Name>
         <URL>http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&amp;PRODUCT_TYPE=ALL&amp;FILE_NAME=cospin_ket_un.html&amp;FILE_PATH=/ufa/HiRes/doc/cospin</URL>
         <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN Kiel Electron Telescope Telescope, KET, 10 min Average Proton, Helium and Electron Count Rates and detector Count Rates</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/KET/RATES/PT10M</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
       <Availability>Online</Availability>
@@ -41,11 +41,11 @@
         <Name>Ulysses Final Archive Access to COSPIN/KET 10 min Average Proton, Helium, and Electron Spin-Integrated Counting Rates Data</Name>
         <URL>http://ufa.esac.esa.int/ufa/#data</URL>
         <Description>Parent Directory containing compressed Ulysses COSPIN/KET 10 min Average Rates Data organized in Daily ASCII Files ucosketaYYDOY.dat (YY and DOY are the two digit Year and the Day of Year, respectively) grouped together into Yearly Files (cosketYY.zip, where YY is the two digit Year)</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ZIP</Encoding>
       <Acknowledgement>Please acknowledge the COSPIN KET Co-PI, Bernd Heber, CAU Kiel</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -54,15 +54,15 @@
         <Name>FTP Access to CDF Files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/ket/</URL>
         <Description>KET Data Access via FTP in CDF Format from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP Access to CDF Files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/ket/</URL>
         <Description>KET Data Access via HTTP in CDF Format from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -72,29 +72,29 @@
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=UY_M0_KET&amp;index=sp_phys</URL>
         <ProductKey>UY_M0_KET</ProductKey>
         <Description>Subset, Plot, List via CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>FTP Access to ASCII Files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/ket/10_min/</URL>
         <Description>KET Data Access via FTP in ASCII Format from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP Access to ASCII Files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/ket/10_min/</URL>
         <Description>KET Data Access via HTTP in ASCII Format from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Acknowledgement>Please acknowledge the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN/KET</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1990-10-23T00:00:00.000</StartDate>
         <StopDate>2008-12-31T23:59:59.999</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT10M</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     <Parameter>
       <Name>Time for the record</Name>
@@ -108,42 +108,42 @@
           <Index>1</Index>
           <ValidMin>1990</ValidMin>
           <ValidMax>2008</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Day of Year</Name>
           <Index>2</Index>
           <ValidMin>1</ValidMin>
           <ValidMax>366</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Hour of Day</Name>
           <Index>3</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>23</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Minute of Hour</Name>
           <Index>4</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>59</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Seconds of Minute</Name>
           <Index>5</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>59</ValidMax>
-        </Element>
+</Element>
         <Element>
           <Name>Coverage</Name>
           <Index>6</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>100</ValidMax>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.7-5.4 MeV Proton Spin-Averaged Count Rates (K1)</Name>
       <ParameterKey>K1</ParameterKey>
@@ -162,9 +162,9 @@
           <Low>2.7</Low>
           <High>5.4</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 1 (K21)</Name>
       <ParameterKey>K21</ParameterKey>
@@ -183,9 +183,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 2 (K22)</Name>
       <ParameterKey>K22</ParameterKey>
@@ -204,9 +204,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 3 (K23)</Name>
       <ParameterKey>K23</ParameterKey>
@@ -225,9 +225,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 4 (K24)</Name>
       <ParameterKey>K24</ParameterKey>
@@ -246,9 +246,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 5 (K25)</Name>
       <ParameterKey>K25</ParameterKey>
@@ -267,9 +267,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 6 (K26)</Name>
       <ParameterKey>K26</ParameterKey>
@@ -288,9 +288,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 7 (K27)</Name>
       <ParameterKey>K27</ParameterKey>
@@ -309,9 +309,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Count Rates in Spin Sector 8 (K28)</Name>
       <ParameterKey>K28</ParameterKey>
@@ -330,9 +330,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 5.4-23.1 MeV Proton Spin-Averaged Count Rates (P4)</Name>
       <ParameterKey>P4</ParameterKey>
@@ -351,9 +351,9 @@
           <Low>5.4</Low>
           <High>23.1</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 34.1-125.0 MeV Proton Spin-Averaged Count Rates (K3)</Name>
       <ParameterKey>K3</ParameterKey>
@@ -372,9 +372,9 @@
           <Low>34.1</Low>
           <High>125.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 125.0-320.0 MeV Proton Spin-Averaged Count Rates (K34)</Name>
       <ParameterKey>K34</ParameterKey>
@@ -393,9 +393,9 @@
           <Low>125.0</Low>
           <High>320.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 320.0-2100.0 MeV Proton Spin-Averaged Count Rates (K12)</Name>
       <ParameterKey>K12</ParameterKey>
@@ -414,9 +414,9 @@
           <Low>320.0</Low>
           <High>2100.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average &gt;2100.0 MeV Proton Spin-Averaged Count Rates (K10)</Name>
       <ParameterKey>K0</ParameterKey>
@@ -435,9 +435,9 @@
           <Low>2100.0</Low>
           <High>INF</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 6.0-20.4 MeV/n Helium Spin-Averaged Count Rates (K2)</Name>
       <ParameterKey>K2</ParameterKey>
@@ -456,9 +456,9 @@
           <Low>6.0</Low>
           <High>20.4</High>
           <Units>MeV/n</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 34.2-125.0 MeV/n Helium Spin-Averaged Count Rates (K33)</Name>
       <ParameterKey>K33</ParameterKey>
@@ -477,9 +477,9 @@
           <Low>34.2</Low>
           <High>125.0</High>
           <Units>MeV/n</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 125.0-320.0 MeV/n Helium Spin-Averaged Count Rates (K29)</Name>
       <ParameterKey>K29</ParameterKey>
@@ -498,9 +498,9 @@
           <Low>125.0</Low>
           <High>320.0</High>
           <Units>MeV/n</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 320.0-2100.0 MeV/n Helium Spin-Averaged Count Rates (K31)</Name>
       <ParameterKey>K31</ParameterKey>
@@ -519,9 +519,9 @@
           <Low>320.0</Low>
           <High>2100.0</High>
           <Units>MeV/n</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average &gt;2100.0 MeV/n Helium Spin-Averaged Count Rates (K30)</Name>
       <ParameterKey>K30</ParameterKey>
@@ -540,9 +540,9 @@
           <Low>2100.0</Low>
           <High>INF</High>
           <Units>MeV/n</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 1 (K13)</Name>
       <ParameterKey>K13</ParameterKey>
@@ -561,9 +561,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 2 (K14)</Name>
       <ParameterKey>K14</ParameterKey>
@@ -582,9 +582,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 3 (K15)</Name>
       <ParameterKey>K15</ParameterKey>
@@ -603,9 +603,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 4 (K16)</Name>
       <ParameterKey>K16</ParameterKey>
@@ -624,9 +624,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 5 (K17)</Name>
       <ParameterKey>K17</ParameterKey>
@@ -645,9 +645,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 6 (K18)</Name>
       <ParameterKey>K18</ParameterKey>
@@ -666,9 +666,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 7 (K19)</Name>
       <ParameterKey>K19</ParameterKey>
@@ -687,9 +687,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Count Rates in Spin Sector 8 (K20)</Name>
       <ParameterKey>K20</ParameterKey>
@@ -708,9 +708,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 2.5-7.0 MeV Electron Spin-Averaged Count Rates (E4)</Name>
       <ParameterKey>E4</ParameterKey>
@@ -729,9 +729,9 @@
           <Low>2.5</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average 7.0-170.0 MeV Electron Spin-Averaged Count Rates (K11)</Name>
       <ParameterKey>K11</ParameterKey>
@@ -750,9 +750,9 @@
           <Low>7.0</Low>
           <High>170.0</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average &gt;170.0 MeV Electron Spin-Averaged Count Rates (K32)</Name>
       <ParameterKey>K32</ParameterKey>
@@ -771,9 +771,9 @@
           <Low>170.0</Low>
           <High>INF</High>
           <Units>MeV</Units>
-        </EnergyRange>
-      </Particle>
-    </Parameter>
+</EnergyRange>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average D10 Detector Counting Rate (D10)</Name>
       <ParameterKey>D10</ParameterKey>
@@ -791,8 +791,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average D20 Detector Counting Rate (D20)</Name>
       <ParameterKey>D20</ParameterKey>
@@ -810,8 +810,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average C10 Detector Counting Rate (D10)</Name>
       <ParameterKey>C10</ParameterKey>
@@ -829,8 +829,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average C20 Detector Counting Rate (D10)</Name>
       <ParameterKey>C20</ParameterKey>
@@ -848,8 +848,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>COSPIN/KET 10-Minute Average A01 Detector Counting Rate (A01)</Name>
       <ParameterKey>A01</ParameterKey>
@@ -867,7 +867,7 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

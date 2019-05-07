@@ -4,30 +4,30 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/MAG/ASCII/PT60.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Magnetometer 1-min data</ResourceName>
-            <ReleaseDate>2017-08-19T00:00:00.000</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Pioneer 10 1-min averaged magnetic field vectors in RTN coordinates, cruise phase, ASCII</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_PION10_HDR_MAG_1MIN</PriorID>
             <PriorID>spase://VSPO/NumericalData/Pioneer10/MAG/PT60.00S</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/data</URL>
-            </AccessURL>
+                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/data/</URL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/data</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/mag/ip_1min_ascii/data/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Pioneer10/MAG</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
@@ -35,9 +35,9 @@
             <TimeSpan>
                 <StartDate>1972-03-03T00:00:00</StartDate>
                 <StopDate>1975-11-17T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT60.00S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

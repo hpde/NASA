@@ -5,70 +5,70 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/4/FastPlasmaInvestigation/DES/Fast/Level2/PartialMoments/PT4.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 4 Fast Plasma Investigation, Dual Electron Spectrometer (FPI, DES) Partial Distribution Moments, Fast Survey, Level 2 (L2), 4.5 s Data</ResourceName>
-         <ReleaseDate>2019-05-01T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>FPI usually operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution in this Mode. Data are also made available at Survey (4.5 s, etc.) Resolution. Per Mission Design, not all Burst Resolution Data are downlinked, but all Survey Data are downlinked. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually operates in Slow Survey (SS) Mode (60 s Resolution) outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Partial Moments that come from performing the Standard Moment Integrals over a limited Portion of Velocity Space. The resulting Quantities are named similarly to their corresponding Standard Moments, but are decorated with &apos;part&apos; to differentiate. For example, density_part is the Density Moment integrated from a particular Energy Step to Infinity. These Partial Moments are formed from the indicated Data Type (DES/DIS Burst, FS or SS). For convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
          <Acknowledgement>J.L. Burch, B.L. Giles</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Barbara.L.Giles</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>MMS Home Page, GSFC</Name>
             <URL>https://mms.gsfc.nasa.gov/</URL>
             <Description>Magnetospheric Multiscale Home Page, at Goddard Space Flight Center, GSFC</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>SMART Package Home Page, SwRI</Name>
             <URL>http://mms.space.swri.edu/</URL>
             <Description>Solving Magnetospheric Acceleration, Reconnection, and Turbulence, SMART, Package Home Page, at Southwest Research Institute, SwRI</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>MMS Science Data Center, LASP, UC Boulder</Name>
             <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
             <Description>Magnetospheric Multiscale Science Data Center, at Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>FPI Overview Web Page, NASA</Name>
             <URL>https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html#fpi</URL>
             <Description>Overview Web Page for the Fast Plasma Investigation, FPI, at NASA</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms4/fpi/fast/l2/des-partmoms</URL>
+            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms4/fpi/fast/l2/des-partmoms/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms4/fpi/fast/l2/des-partmoms</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms4/fpi/fast/l2/des-partmoms/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
             <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS4_FPI_FAST_L2_DES-PARTMOMS&amp;index=sp_phys</URL>
             <ProductKey>MMS4_FPI_FAST_L2_DES-PARTMOMS</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>J.L. Burch, B.L. Giles. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/MMS_SDC</RepositoryID>
          <Availability>Online</Availability>
@@ -77,11 +77,11 @@
             <Name>HTTP access to files at the MMS Science Data Center, SDC, at the Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Name>
             <URL>https://lasp.colorado.edu/mms/sdc/public/data/</URL>
             <Description>Access to MMS Data in CDF Format via http from the MMS SDC</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>J.L. Burch, B.L. Giles. Please acknowledge the Data Providers and the MMS SDC when using these Data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/MMS/4/FIELDS/FGM</InstrumentID>
       <InstrumentID>spase://SMWG/Instrument/MMS/4/FastPlasmaInstrument/DES</InstrumentID>
@@ -93,9 +93,9 @@
          <TimeSpan>
             <StartDate>2015-10-15T04:00:00.000</StartDate>
             <RelativeStopDate>-P1M</RelativeStopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT4.5S</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -115,14 +115,14 @@
          <RenderingHints>
             <AxisLabel>Epoch</AxisLabel>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
          <ValidMax>2100-01-01T00:00:01.000000000</ValidMax>
          <FillValue>9999-12-31T23:59:59.999999999</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Epoch plus Var</Name>
          <ParameterKey>Epoch_plus_var</ParameterKey>
@@ -132,13 +132,13 @@
          <UnitsConversion>1.0&gt;s</UnitsConversion>
          <RenderingHints>
             <ValueFormat>F4.2</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>4.5</ValidMax>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Epoch minus Var</Name>
          <ParameterKey>Epoch_minus_var</ParameterKey>
@@ -147,13 +147,13 @@
          <Units>s</Units>
          <RenderingHints>
             <ValueFormat>F4.2</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>4.5</ValidMax>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Data Quality Error Flags</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -166,15 +166,15 @@
             <AxisLabel>errFlags</AxisLabel>
             <ValueFormat>I10</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>4294967294</ValidMax>
          <FillValue>4294967295</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Number Density</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -188,10 +188,10 @@
             <AxisLabel>N</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>100000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -199,8 +199,8 @@
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>NumberDensity</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>DBCS Partial Electron Bulk Velocity, Despun Body Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -213,23 +213,23 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>SR2</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Array</Qualifier>
             <ParticleQuantity>Velocity</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Bulk Velocity, Geocentric Solar Ecliptic Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -242,23 +242,23 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GSE</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Array</Qualifier>
             <ParticleQuantity>Velocity</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Pressure Tensor, Despun Body Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -273,24 +273,24 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>SR2</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>P_DBCS</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Tensor</Qualifier>
             <ParticleQuantity>Pressure</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Pressure Tensor, Geocentric Solar Ecliptic Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -305,24 +305,24 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GSE</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>P_GSE</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Tensor</Qualifier>
             <ParticleQuantity>Pressure</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Temperature Tensor, Despun Body Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -337,24 +337,24 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>SR2</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T_DBCS</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Tensor</Qualifier>
             <ParticleQuantity>Temperature</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Temperature Tensor, Geocentric Solar Ecliptic Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -369,24 +369,24 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>GSE</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T_GSE</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32 3 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Tensor</Qualifier>
             <ParticleQuantity>Temperature</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Parallel Temperature</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -400,10 +400,10 @@
             <AxisLabel>eT_para</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>1.0e+30</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -413,8 +413,8 @@
             <Qualifier>Parallel</Qualifier>
             <Qualifier>FieldAligned</Qualifier>
             <ParticleQuantity>Temperature</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Partial Electron Perpendicular Temperature</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -428,10 +428,10 @@
             <AxisLabel>eT_perp</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>1.0e+30</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -440,8 +440,8 @@
             <Qualifier>Differential</Qualifier>
             <Qualifier>Perpendicular</Qualifier>
             <ParticleQuantity>Temperature</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Recommended Energy Index</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -453,15 +453,15 @@
             <AxisLabel>part_index</AxisLabel>
             <ValueFormat>I4.4</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0</ValidMin>
          <ValidMax>31</ValidMax>
          <FillValue>65535</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
             <SupportQuantity>InstrumentMode</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Fast Sky Map Energies</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -475,10 +475,10 @@
             <AxisLabel>lowest included energy</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>30000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -486,8 +486,8 @@
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Fast Sky Map Delta Energies</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -501,10 +501,10 @@
             <AxisLabel>delta energy</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>32</Size>
-         </Structure>
+</Structure>
          <ValidMin>0.0</ValidMin>
          <ValidMax>5000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -512,8 +512,8 @@
             <ParticleType>Electron</ParticleType>
             <Qualifier>Differential</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-         </Particle>
-      </Parameter>
+</Particle>
+</Parameter>
       <Parameter>
          <Name>Mean Spacecraft Potential</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -526,7 +526,7 @@
             <AxisLabel>SCP</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>5000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
@@ -534,8 +534,8 @@
             <Qualifier>Magnitude</Qualifier>
             <Qualifier>Scalar</Qualifier>
             <FieldQuantity>Electric</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Magnetic Field Direction Unit Vector, Bhat, Despun Body Coordinates</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -546,35 +546,35 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>SR2</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
                <Name>x</Name>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>y</Name>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>z</Name>
                <Index>3</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>-110000.0</ValidMin>
          <ValidMax>110000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Field>
             <Qualifier>Vector</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Despun Body Coordinate System to Geocentric Solar Ecliptic Transformation Matrix</Name>
          <Set>Time Series defined by using: EPOCH</Set>
@@ -585,20 +585,20 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>SR2</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3 3</Size>
-         </Structure>
+</Structure>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Tensor</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

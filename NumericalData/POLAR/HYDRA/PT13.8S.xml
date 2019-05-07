@@ -5,34 +5,34 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/PT13.8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar HYDRA 13.8 sec Ion and Electron Fluxes</ResourceName>
-      <ReleaseDate>2019-03-28T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Polar HYDRA 13.8 sec ion and electron fluxes, 12.5 eV - 18.3 keV, 29 energy channels</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_HYDRA_138S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0</URL>
-      </AccessURL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0/</URL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/hydra/hyd_h0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_HYD&amp;index=sp_phys</URL>
         <ProductKey>PO_H0_HYD</ProductKey>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/POLAR/HYDRA</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -40,9 +40,9 @@
       <TimeSpan>
         <StartDate>1996-04-01T00:00:00</StartDate>
         <StopDate>2008-04-16T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT13.8S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

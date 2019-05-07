@@ -4,34 +4,34 @@
       <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram Full Resolution Binary Data</ResourceName>
-         <ReleaseDate>2019-03-28T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>RPI plasmagram full resolution data (received signal strength in the frequency-range frame), uncalibrated. Presented as instrument packets wrapped in the standard CCSDS headers. Description of the RPI instrument-level data model can be found at http://ulcar.uml.edu/RPI/RPITelemetryDataFormat_V2.8.pdf. Data are viewed/calibrated/edited by BinBrowser software, see http://ulcar.uml.edu/rpi.html for download and users' guide. RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses. Echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>IMAGE RPI Instrument Page</Name>
             <URL>https://image.gsfc.nasa.gov/rpi/</URL>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>IMAGE RPI Instrument Page at UML</Name>
-            <URL>http://ulcar.uml.edu/rpi.html</URL>
-         </InformationURL>
+            <URL>https://ulcar.uml.edu/rpi.html</URL>
+</InformationURL>
          <PriorID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>IMAGE RPI Software Download Page at UML</Name>
-            <URL>http://ulcar.uml.edu/Installation/install_all.htm</URL>
+            <URL>https://ulcar.uml.edu/Installation/install_all.htm</URL>
             <Description>Access to raw RPI telemetry data is arranged via the software tool BinBrowser that connects to the RPI Resident Archive at UMass Lowell for downloading of selected measurement records and subsequent export of selected subsets of measurement fields in plain text form.</Description>
-         </AccessURL>
+</AccessURL>
          <Format>Binary</Format>
          <Encoding>None</Encoding>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Uncalibrated</ProcessingLevel>
       <ProviderProcessingLevel>Only conversion of MET to UT is done using history of IMAGE observatory clock drift. All signal strengths are given in receiver digitizer units, not calibrated, not converted to physical units. Use RPI BinBrowser software for data calibration and presentations in various units and scales.</ProviderProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
@@ -41,9 +41,9 @@
             <StartDate>2000-04-21T20:24:42Z</StartDate>
             <StopDate>2005-12-11T02:43:10Z</StopDate>
             <Note>Cadence of plasmagram measurements is variable depending on the science objective and RPI operating schedule design</Note>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT5M</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <SpectralRange>RadioFrequency</SpectralRange>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
@@ -57,8 +57,8 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>AC Electric Field</Name>
          <Set>PlasmagramStructure</Set>
@@ -73,7 +73,7 @@
             <ScaleMin>3</ScaleMin>
             <ScaleMax>3000</ScaleMax>
             <ScaleType>LogScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <RenderingHints>
             <DisplayType>Plasmagram</DisplayType>
             <AxisLabel>Virtual Range, Re</AxisLabel>
@@ -83,7 +83,7 @@
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>15.0</ScaleMax>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <RenderingHints>
             <DisplayType>Plasmagram</DisplayType>
             <AxisLabel>X Amplitude, dB(V/root-Hz)</AxisLabel>
@@ -93,7 +93,7 @@
             <ScaleMin>-144</ScaleMin>
             <ScaleMax>-96</ScaleMax>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <RenderingHints>
             <DisplayType>Plasmagram</DisplayType>
             <AxisLabel>Y Amplitude, dB(V/root-Hz)</AxisLabel>
@@ -103,7 +103,7 @@
             <ScaleMin>-144</ScaleMin>
             <ScaleMax>-96</ScaleMax>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Z Amplitude, dB(V/root-Hz)</AxisLabel>
@@ -113,18 +113,18 @@
             <ScaleMin>-144</ScaleMin>
             <ScaleMax>-96</ScaleMax>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>512 512 3</Size>
             <Description>Plasmagram measurement is AC electric field measured by RPI antennas as function of operating frequency (horizontal axis) and time delay from the transmission start (vertical axis), frequently presented as virtual range to the target (i.e., to the remote reflecting area). Each element (pixel) of this 2D array with independent variables of frequency and range has AC Electric Field values from 3 RPI antennas X, Y, and Z. Size of the overall 3D array is variable depending on the instrument parameters. Stepping from starting value to ending value for operating frequencies and time delays are variablefrom measurement to measurement as well. The particular selected operating frequencies and sampled ranges are described in separate Parameter elements.</Description>
             <Element>
                <Name>Frequency Dimension</Name>
                <Index>-1 0 0</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Antenna Dimension</Name>
                <Index>0 0 -1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Voltage Spectral Density in antenna X</Name>
                <Index>0 0 1</Index>
@@ -132,7 +132,7 @@
                <ValidMin>-190</ValidMin>
                <ValidMax>-70</ValidMax>
                <FillValue>-1.0e+031</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Voltage Spectral Density in antenna Y</Name>
                <Index>0 0 2</Index>
@@ -140,7 +140,7 @@
                <ValidMin>-190</ValidMin>
                <ValidMax>-70</ValidMax>
                <FillValue>-1.0e+031</FillValue>
-            </Element>
+</Element>
             <Element>
                <Name>Voltage Spectral Density in antenna Z</Name>
                <Index>0 0 3</Index>
@@ -148,8 +148,8 @@
                <ValidMin>-190</ValidMin>
                <ValidMax>-70</ValidMax>
                <FillValue>-1.0e+031</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Wave>
             <WaveType>PlasmaWaves</WaveType>
             <Qualifier>Magnitude</Qualifier>
@@ -160,9 +160,9 @@
                <Low>3</Low>
                <High>3000</High>
                <Units>kHz</Units>
-            </FrequencyRange>
-         </Wave>
-      </Parameter>
+</FrequencyRange>
+</Wave>
+</Parameter>
       <Parameter>
          <Name>Frequency Axis</Name>
          <Set>PlasmagramStructure</Set>
@@ -170,11 +170,11 @@
          <Units>Hz</Units>
          <Structure>
             <Size>512</Size>
-         </Structure>
+</Structure>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Virtual Range Axis</Name>
          <Set>PlasmagramStructure</Set>
@@ -182,11 +182,11 @@
          <Units>Re</Units>
          <Structure>
             <Size>512</Size>
-         </Structure>
+</Structure>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Start Time</Name>
          <Description>Epoch timestamp of the beginning of the plasmagram measurement.</Description>
@@ -195,15 +195,15 @@
          <Units>ms</Units>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Instrument mode configuration</Name>
          <Description>
-         </Description>
+</Description>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

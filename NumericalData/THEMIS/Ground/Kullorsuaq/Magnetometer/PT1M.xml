@@ -5,32 +5,32 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Kullorsuaq/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Kullorsuaq (KUV) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Kullorsuaq, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (KUV), Station Location: (GEO Latitude 74.6, Longitude 302.8), DTU Network</Description>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Technical University of Denmark Web Site</Name>
-            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+            <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
             <Description>Main menu for access to magnetic field data</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Kullorsuaq/Magnetometer/PT1M</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
@@ -39,22 +39,22 @@
             <Name>FTP access to files at SPDF</Name>
             <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/kuv/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/kuv/</URL>
             <Description>In CDF via http from SPDF.</Description>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>THG_L2_MAG_KUV</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Ground/Kullorsuaq/Magnetometer</InstrumentID>
       <MeasurementType>MagneticField</MeasurementType>
@@ -62,9 +62,9 @@
          <TimeSpan>
             <StartDate>2007-01-01T00:00:00.000</StartDate>
             <RelativeStopDate>-P2M</RelativeStopDate>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT1M</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <Parameter>
          <Name>B in HEZ Components</Name>
          <Set>Time series defined by using: thg_mag_kuv_epoch</Set>
@@ -76,13 +76,13 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>B in HEZ Components</AxisLabel>
             <ValueFormat>f9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
@@ -91,33 +91,33 @@
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Magnetic East - E</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
                <Name>Vertical Down - Z</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Vector</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>H component of B</Name>
          <Set>Time series defined by using: thg_mag_kuv_epoch</Set>
@@ -132,15 +132,15 @@
             <AxisLabel>Magnetic North - H</AxisLabel>
             <ValueFormat>f9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.I</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>E component of B</Name>
          <Set>Time series defined by using: thg_mag_kuv_epoch</Set>
@@ -155,15 +155,15 @@
             <AxisLabel>Magnetic East - E</AxisLabel>
             <ValueFormat>f9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.J</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Z component of B</Name>
          <Set>Time series defined by using: thg_mag_kuv_epoch</Set>
@@ -178,15 +178,15 @@
             <AxisLabel>Vertical Down - Z</AxisLabel>
             <ValueFormat>f9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.K</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>HEZ Component Number</Name>
          <ParameterKey>thg_mag_kuv_compno</ParameterKey>
@@ -195,37 +195,37 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>HEZ Component Number</AxisLabel>
             <ValueFormat>i2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
                <Name>Element 1</Name>
                <Qualifier>Component.I</Qualifier>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>3</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kuv_time</Name>
          <ParameterKey>thg_mag_kuv_time</ParameterKey>
@@ -236,14 +236,14 @@
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
             <ValueFormat>e13.6</ValueFormat>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>5.0e+09</ValidMax>
          <FillValue>NaN</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kuv_epoch</Name>
          <ParameterKey>thg_mag_kuv_epoch</ParameterKey>
@@ -252,14 +252,14 @@
          <Cadence>PT1M</Cadence>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>6.31455e+13</ValidMin>
          <ValidMax>6.63012e+13</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kuv_epoch0</Name>
          <ParameterKey>thg_mag_kuv_epoch0</ParameterKey>
@@ -270,14 +270,14 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>timebase</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>5.99582e+13</ValidMin>
          <ValidMax>6.40607e+13</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>range_epoch</Name>
          <ParameterKey>range_epoch</ParameterKey>
@@ -287,13 +287,13 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>6.31455e+13</ValidMin>
          <ValidMax>6.63012e+13</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

@@ -5,24 +5,24 @@
         <ResourceID>spase://VSPO/NumericalData/SOHO/UVCS/PT9M</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO UVCS Data</ResourceName>
-             <ReleaseDate>2015-11-16T00:00:00</ReleaseDate>
+             <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>SOHO/UVCS (Ultraviolet Coronagraph Spectrometer) Spectral Data Files from SDAC via VSO</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.L.Kohl</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_SOHO_HDR_UVCS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SDAC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>VSO page with full search capability</Name>
-                <URL>http://www.virtualsolar.org</URL>
-            </AccessURL>
+                <URL>https://www.virtualsolar.org/</URL>
+</AccessURL>
             <Format>FITS</Format>
-        </AccessInformation>
+</AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
             <Availability>Online</Availability>
@@ -30,9 +30,9 @@
             <AccessURL>
                 <Name>MEDOC site</Name>
                 <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
-            </AccessURL>
+</AccessURL>
             <Format>FITS</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/SOHO/UVCS</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -41,12 +41,12 @@
                 <StartDate>1996-01-02T00:00:00</StartDate>
                 <RelativeStopDate>-P3M</RelativeStopDate>
                 <Note>Data are current to within about a few months.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT9M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Corona</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>
 
 

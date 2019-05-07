@@ -7,59 +7,59 @@
       <ResourceName>DE 2 500ms Langmuir Probe (LANG)  Te and Ni data</ResourceName>
       <AlternateName>Dynamics Explorer 2 LANG data</AlternateName>
       <AlternateName>DE-B LANG data</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
-      <Description>This data set contains electron temperatures and 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This data set contains electron temperatures and
 ion densities obtained at 500ms resolution from the DE 2 Langmuir
-Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF 
+Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF
 format from CDAWeb (as well as CDAWeb plots and lists).</Description>
       <Acknowledgement>Please acknowledge the IDM Principal Investigator,
 Dr. Larry Brace</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog on the Langmuir Probe (LANG)</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-070B-09</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B-09</URL>
         <Description>Introduction to the Langmuir Probe (LANG) Observations on DE 2</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/LANG/PT0.5S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <DataExtent>
         <Quantity>1</Quantity>
         <Units>MB</Units>
         <Per>P1D</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge the LANG Principal Investigator,
 Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -69,29 +69,29 @@ Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DE2_PLASMA500MS_LANG&amp;index=sp_phys</URL>
         <ProductKey>DE2_PLASMA500MS_LANG</ProductKey>
         <Description>For CDAWeb subset, plot and list capabilities</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <DataExtent>
         <Quantity>2</Quantity>
         <Units>MB</Units>
         <Per>P1D</Per>
-      </DataExtent>
+</DataExtent>
       <Acknowledgement>Please acknowledge the LANG Principal Investigator,
 Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE2</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>VMO UCLA</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1/DE2/LANG/Ne_Te_500ms_ascii</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/DE2/LANG/Ne_Te_500ms_ascii/</URL>
         <Description>Dynamics Explorer 2 Langmuir Probe 500 ms data</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
       <Acknowledgement>NASA; Larry H. Barce; VMO</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/DynamicsExplorer2/LANG</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -99,9 +99,9 @@ Dr. Larry Brace, and the Space Physics Data Facility at NASA/GSFC</Acknowledgeme
       <TimeSpan>
         <StartDate>1981-08-05T00:00:00</StartDate>
         <StopDate>1983-02-16T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0.5S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

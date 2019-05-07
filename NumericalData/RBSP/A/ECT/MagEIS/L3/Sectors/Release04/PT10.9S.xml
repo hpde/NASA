@@ -5,55 +5,55 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/MagEIS/L3/Sectors/Release04/PT10.9S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Magnetic Electron Ion Spectrometer (MagEIS), Electron Fluxes, 20 to 4000 keV, Proton Fluxes, 60 to 1500 keV, Level 3, Release #4 (L3), 10.9 s Data</ResourceName>
-      <ReleaseDate>2019-04-09T13:58:32Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Van Allen Probe A, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Medium Energy 75&#176; Energy Sensor, M75, Pitch Angle sorted Electron Fluxes from 20 keV to 4000 keV and Proton Fluxes from 60 keV to 1500 keV.</Description>
       <Acknowledgement>J.B. Blake, H.E. Spence, G.D. Reeves</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
         <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/</URL>
         <Description>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, JHU/APL</Name>
         <URL>http://rbspgway.jhuapl.edu/data_policy</URL>
         <Description>Van Allen Probes Science Gateway, Mission Rules of the Road for Data Usage, Applied Physics Laboratory at the Applied Physics Laboratory, Johns Hopkins University</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT Home Page, UNH</Name>
         <URL>http://rbsp-ect.sr.unh.edu</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Home Page at the University of New Hampshire</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, and Data Services Web Page, LANL</Name>
-        <URL>http://www.rbsp-ect.lanl.gov/</URL>
+        <URL>https://www.rbsp-ect.lanl.gov/</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, and Data Services Web Page at the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Van Allen Probes ECT SOC, Data Access Links to MagEIS Particle Data, LANL</Name>
         <URL>https://www.rbsp-ect.lanl.gov/science/DataDirectories.php</URL>
         <Description>Van Allen Probes Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Science Operations Center, SOC, Data Access Links to Pitch Angle resolved Magnetic Electron Ion Spectrometer, MagEIS, Particle Web Site for access to Magnetic Field Data the Los Alamos National Laboratory</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/MagEIS/L3/Sectors/Release03/PT10.9S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/MagEIS/L3/Sectors/Release03/PT0.020S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/MagEIS/Release03/Level3</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -62,22 +62,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/mageis/sectors/rel04/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/ect/mageis/sectors/rel04/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_REL04_ECT-MAGEIS-L3&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_REL04_ECT-MAGEIS-L3</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J.B. Blake, H.E. Spence, G.D. Reeves. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/ECT</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/Ephemeris</InstrumentID>
@@ -87,9 +87,9 @@
       <TimeSpan>
         <StartDate>2012-09-07T02:29:48.000</StartDate>
         <RelativeStopDate>-P10M</RelativeStopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT10.9S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.RadiationBelt</ObservedRegion>
@@ -102,15 +102,15 @@
       <Cadence>PT10.9S</Cadence>
       <RenderingHints>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>01-Jan-1990 00:00:00.000</ValidMin>
       <ValidMax>31-Dec-2059 23:59:59.999</ValidMax>
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Energy Delta Minus, Electron Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -124,10 +124,10 @@
         <AxisLabel>FEDU_Energy_DELTA_minus</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>25</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -135,8 +135,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Energy Delta Plus, Electron Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -150,10 +150,10 @@
         <AxisLabel>FEDU_Energy_DELTA_plus</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>25</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -161,8 +161,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -177,17 +177,17 @@
         <AxisLabel>FEDU_Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -202,17 +202,17 @@
         <AxisLabel>FEDU_Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -228,17 +228,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -254,17 +254,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -280,17 +280,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -306,17 +306,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Percentage Error, Electron Differential Flux Intensity, UniDirectional, Energy-Angle Plasmagrams, Pitch Angle binned</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -329,17 +329,17 @@
       <RenderingHints>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Energy Channel Centroids, Electron Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -354,110 +354,110 @@
         <AxisLabel>Energy</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>25</Size>
         <Element>
           <Name>FEDU_Energy_20.4keV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_31.5keV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_53.8keV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_79.8keV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_108.3keV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_140.5keV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_143.5keV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_183.4keV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_226.1keV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_231.8keV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_342.1keV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_464.4keV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_593.0keV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_741.6keV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_841.0keV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_901.8keV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_1078.keV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_1235.keV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_1565.keV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_1982.keV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_2579.keV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_3442.keV</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_4123.keV</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_chan24</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FEDU_Energy_chan25</Name>
           <Index>25</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -465,8 +465,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -481,17 +481,17 @@
         <AxisLabel>FEDU_CORR</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -506,17 +506,17 @@
         <AxisLabel>FEDU_CORR</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -532,17 +532,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -558,17 +558,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Original</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -584,17 +584,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Electron Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Clamp Threshold</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -610,17 +610,17 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Percentage Error, Background-Corrected Electron Differential Flux Intensity, UniDirectional, Energy-Angle Plasmagrams, Pitch Angle binned</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -633,17 +633,17 @@
         <AxisLabel>FEDU_CORR_ERROR</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11 25</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Spin-Averaged Electron Differential Flux Intensity Delta, Omnidirectional, Spectrograms, Perturbations from Background</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -658,10 +658,10 @@
         <AxisLabel>FESA_(CORR)_DELTA</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>25</Size>
-      </Structure>
+</Structure>
       <ValidMin>1.0e-06</ValidMin>
       <ValidMax>1.0e+15</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -669,8 +669,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Background-Corrected Spin-Averaged Electron Differential Flux Intensity Delta, Omnidirectional, Spectrograms, Perturbations from Background</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -685,10 +685,10 @@
         <AxisLabel>FESA_CORR_DELTA</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>25</Size>
-      </Structure>
+</Structure>
       <ValidMin>1.0e-06</ValidMin>
       <ValidMax>1.0e+15</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -696,8 +696,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Alpha, Electron Differential Flux Intensity, Unidirectional</Name>
       <ParameterKey>FEDU_Alpha</ParameterKey>
@@ -710,10 +710,10 @@
         <AxisLabel>Pitch Angle</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>11</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>220.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -721,8 +721,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Epoch Time, UTC, Proton Sample Time, Midpoint</Name>
       <ParameterKey>FPDU_Epoch</ParameterKey>
@@ -731,15 +731,15 @@
       <Cadence>PT10.9S</Cadence>
       <RenderingHints>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>01-Jan-1990 00:00:00.000</ValidMin>
       <ValidMax>31-Dec-2059 23:59:59.999</ValidMax>
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Energy Delta Minus, Proton Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -753,10 +753,10 @@
         <AxisLabel>FPDU_Energy_DELTA_minus</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -765,8 +765,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Energy Delta Plus, Proton Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -780,10 +780,10 @@
         <AxisLabel>FPDU_Energy_DELTA_plus</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -792,8 +792,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Original</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -808,18 +808,18 @@
         <AxisLabel>FPDU_Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Energy-Angle Plasmagrams, Clamp Threshold</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -834,18 +834,18 @@
         <AxisLabel>FPDU_Flux</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Original</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -861,18 +861,18 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Energy at Sample Pitch Angles, Clamp Threshold</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -888,18 +888,18 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Original</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -915,18 +915,18 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Proton Differential Flux Intensity, Unidirectional, Spectrograms by Pitch Angle at Sample Energies, Clamp Threshold</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -942,18 +942,18 @@
         <DisplayType>Spectrogram</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32 31</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Energy Channel Centroids, Proton Differential Flux Intensity, Unidirectional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -968,134 +968,134 @@
         <AxisLabel>Energy</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
         <Element>
           <Name>FPDU_Energy_58.44keV</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_69.29keV</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_82.85keV</Name>
           <Index>3</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_99.12keV</Name>
           <Index>4</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_118.1keV</Name>
           <Index>5</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_139.8keV</Name>
           <Index>6</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_164.2keV</Name>
           <Index>7</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_194.1keV</Name>
           <Index>8</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_229.3keV</Name>
           <Index>9</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_267.3keV</Name>
           <Index>10</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_308.0keV</Name>
           <Index>11</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_356.8keV</Name>
           <Index>12</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_413.8keV</Name>
           <Index>13</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_478.9keV</Name>
           <Index>14</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_554.8keV</Name>
           <Index>15</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_636.2keV</Name>
           <Index>16</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_728.4keV</Name>
           <Index>17</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_839.6keV</Name>
           <Index>18</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_967.1keV</Name>
           <Index>19</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_1111.keV</Name>
           <Index>20</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_1271.keV</Name>
           <Index>21</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan22</Name>
           <Index>22</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan23</Name>
           <Index>23</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan24</Name>
           <Index>24</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan25</Name>
           <Index>25</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan26</Name>
           <Index>26</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan27</Name>
           <Index>27</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan28</Name>
           <Index>28</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan29</Name>
           <Index>29</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan30</Name>
           <Index>30</Index>
-        </Element>
+</Element>
         <Element>
           <Name>FPDU_Energy_chan31</Name>
           <Index>31</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.01</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1104,8 +1104,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Spin-Averaged Proton Differential Flux Intensity, Omnidirectional, Spectrograms, Original</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -1120,10 +1120,10 @@
         <AxisLabel>FPSA</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
-      </Structure>
+</Structure>
       <ValidMin>1.0e-06</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1132,8 +1132,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Spin-Averaged Proton Differential Flux Intensity, Omnidirectional, Spectrograms, Clamp Threshold</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -1148,10 +1148,10 @@
         <AxisLabel>FPSA</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+10</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1160,8 +1160,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Spin-Averaged Proton Differential Flux Intensity Delta, Omnidirectional, Spectrograms, Perturbations from Background</Name>
       <Set>Time Series defined by using: FPDU_EPOCH</Set>
@@ -1176,10 +1176,10 @@
         <AxisLabel>FPSA_DELTA</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>31</Size>
-      </Structure>
+</Structure>
       <ValidMin>1.0e-06</ValidMin>
       <ValidMax>1.0e+15</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1188,8 +1188,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Alpha, Proton Differential Flux Intensity, Unidirectional</Name>
       <ParameterKey>FPDU_Alpha</ParameterKey>
@@ -1202,10 +1202,10 @@
         <AxisLabel>Pitch Angle</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1214,8 +1214,8 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Roederer L&#42; generalized L Shell Parameter, 90&#176; Particle</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1228,15 +1228,15 @@
         <AxisLabel>L!u&#42;!n</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>McIlwain L Shell Parameter</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1249,15 +1249,15 @@
         <AxisLabel>L</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Second Adiabatic Invariant, Bounce</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1272,15 +1272,15 @@
         <AxisLabel>I</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Model Spacecraft Magnetic Field Magnitude, Geographic Cartesian Coordinates</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1295,7 +1295,7 @@
         <AxisLabel>B_Calc</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1303,8 +1303,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Model Magnetic Field Magnitude, Field Line Local Minimum</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1319,7 +1319,7 @@
         <AxisLabel>B_Eq</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1327,8 +1327,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position, Magnetic Local Time</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1341,13 +1341,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MLT</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1355,8 +1355,8 @@
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position, Magnetic Latitude</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1371,15 +1371,15 @@
         <AxisLabel>MLAT</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Scalar</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector, Geographic Cartesian Coordinates</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1392,27 +1392,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEO</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Xgeo</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Ygeo</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Zgeo</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-10.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1420,8 +1420,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Roederer L&#42; generalized L Shell Parameter, Pitch Angle dependent, OP77Q Magnetic Field Model</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1434,18 +1434,18 @@
         <AxisLabel>L!u&#42;!n</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>18</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Array</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Pitch Angle, Alpha, Values for LstarVsAlpha</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1458,10 +1458,10 @@
         <AxisLabel>Alpha</AxisLabel>
         <ValueFormat>E10.3</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>18</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1470,7 +1470,7 @@
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>ArrivalDirection</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

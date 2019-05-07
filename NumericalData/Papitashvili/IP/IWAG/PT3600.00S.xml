@@ -4,37 +4,37 @@
         <ResourceID>spase://VSPO/NumericalData/Papitashvili/IP/IWAG/PT3600.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE Wind Genesis IMP 8 Impact Parameters</ResourceName>
-            <ReleaseDate>2017-05-04T00:00:00.000</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>ACE Wind Genesis IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMPPARAMS_HDR_IWAG</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.sci.gsfc.nasa.gov/ftpbrowser/impact_iwag.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/impact_iwag.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>hourly and daily values via ftp from NSSDC</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/aaa_special-purpose-datasets/aaa_impact_parameters/imp_wind_ace_genesis/</URL>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <MeasurementType>Ephemeris</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1994-11-16T00:00:00</StartDate>
                 <RelativeStopDate>-P1M</RelativeStopDate>
                 <Note>Data are periodically updated.  As of mid-January, 2006, data ran to the end of 2005.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT3600.00S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

@@ -5,18 +5,18 @@
         <ResourceID>spase://VSPO/DisplayData/SOHO/MV</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO Solar Coronal and UV Movies</ResourceName>
-             <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+             <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Movies from the SOHO LASCO and EIT dectors of the Sun's atmosphere</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_SOHO_HDR_C_EIT_MV</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NRL</RepositoryID>
             <Availability>Online</Availability>
@@ -24,19 +24,19 @@
             <AccessURL>
                 <Name>LASCO daily movies from NRL</Name>
                 <URL>https://lasco-www.nrl.navy.mil/daily_mpg/</URL>
-            </AccessURL>
+</AccessURL>
             <Format>MPEG</Format>
-        </AccessInformation>
+</AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>Near Real Time Movies</Name>
-                <URL>http://sohodata.nascom.nasa.gov/cgi-bin/soho_movie_theater</URL>
-            </AccessURL>
+                <URL>https://sohowww.nascom.nasa.gov/data/data.html</URL>
+</AccessURL>
             <Format>MPEG</Format>
-        </AccessInformation>
+</AccessInformation>
        <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>
             <Availability>Online</Availability>
@@ -45,9 +45,9 @@
                 <Name>Movies Archive at IAS MEDOC</Name>
                 <URL>http://www.ias.u-psud.fr/festival_movies/</URL>
                 <Description>Movies</Description>
-            </AccessURL>
+</AccessURL>
             <Format>MPEG</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/SOHO/EIT</InstrumentID>
@@ -57,13 +57,13 @@
                 <StartDate>1996-01-01T00:00:00</StartDate>
                 <RelativeStopDate>-P1D</RelativeStopDate>
                 <Note>Data are current to within a day.</Note>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <SpectralRange>Optical</SpectralRange>
         <SpectralRange>Ultraviolet</SpectralRange>
         <ObservedRegion>Sun.Corona</ObservedRegion>
         <ObservedRegion>Sun</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>
 
 

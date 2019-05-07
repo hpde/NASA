@@ -5,29 +5,29 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/PWI/LHFWR/16kHz/Interferometry/PT0.000028S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Plasma Wave Instrument (PWI), High Frequency Waveform Receiver, 16 kHz, Time Domain Fields.</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The unattenuated frequency range for this file type is 20Hz to 16000Hz. The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz). For a description of the PWI receivers and the different operational modes see: http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html</Description>
       <Acknowledgement>U. Iowa, Donald. A. Gurnett</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Douglas.Menietti</PersonID>
         <Role>Scientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jeremy.Faden</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Polar Plasma Wave Investigation (PWI) Data and User's Guides</Name>
         <URL>http://www-pw.physics.uiowa.edu/polar/data.html</URL>
         <Description>A Polar PWI page is maintained at the University of Iowa with descriptions of receivers, interpretation issues, user's guides, data availability tables, a form for creating summary plots and access to pregenerated dynamic spectrograms.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VWO/NumericalData/POLAR/PWI/LHFWR.16kHz.Interferometry.PT0.000028S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -37,16 +37,16 @@
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H5_PWI</ProductKey>
         <Description>In CDF via FTP from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h5</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h5/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>U. Iowa, Donald. A. Gurnett and the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -56,9 +56,9 @@
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H5_PWI</ProductKey>
         <Description>Plots, lists and files from CDAWeb of the data resource:PO_H5_PWI</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
-    </AccessInformation>
+</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/POLAR/PWI</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <TemporalDescription>
@@ -66,9 +66,9 @@
         <StartDate>1996-03-25T00:00:00.000</StartDate>
         <StopDate>1997-09-15T00:00:00.000</StopDate>
         <Note>The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz).</Note>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT0.000028S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <Keyword>CDF Global Attribute TITLE: POLAR PWI HFWR</Keyword>
     <Keyword>CDF Global Attribute MISSION_GROUP: Polar CDF Global Attribute MISSION_GROUP: Magnetospheric Data</Keyword>
     <Keyword>CDF Global Attribute PROJECT: ISTP&gt;International Solar-Terrestrial Physics</Keyword>
@@ -97,14 +97,14 @@
       <Units>ms</Units>
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>27-Feb-1996 00:00:00.000</ValidMin>
       <ValidMax>31-Dec-2020 00:00:00.000</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gain for HFWR Channel 1 (Eu)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
@@ -114,14 +114,14 @@
       <RenderingHints>
         <AxisLabel>Gain1</AxisLabel>
         <ValueFormat>I2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>30</ValidMax>
       <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gain for HFWR Channel 2 (Ev)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
@@ -131,14 +131,14 @@
       <RenderingHints>
         <AxisLabel>Gain2</AxisLabel>
         <ValueFormat>I2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>30</ValidMax>
       <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gain for HFWR Channel 3 (Ez)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
@@ -148,14 +148,14 @@
       <RenderingHints>
         <AxisLabel>Gain3</AxisLabel>
         <ValueFormat>I2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>30</ValidMax>
       <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Gain for HFWR 16 kHz M-Field (Bu, Bv, Bz)</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation.</Set>
@@ -166,14 +166,14 @@
       <RenderingHints>
         <AxisLabel>MGain</AxisLabel>
         <ValueFormat>I2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>30</ValidMax>
       <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Elec Field Antenna Eu</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ex (perp and outward in Local-Field Aligned/LFA coords).</Set>
@@ -183,15 +183,15 @@
       <RenderingHints>
         <AxisLabel>HFWR_Eu16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-30.0</ValidMin>
       <ValidMax>30.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACElectricField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Elec Field Antenna Ev+</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ey (perp and eastward in Local-Field Aligned/LFA coords).</Set>
@@ -201,15 +201,15 @@
       <RenderingHints>
         <AxisLabel>HFWR_Evp16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-30.0</ValidMin>
       <ValidMax>30.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACElectricField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Elec Field Antenna Ev-</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Elec Field Antenna Ez (parallel in Local-Field Aligned/LFA coords).</Set>
@@ -219,15 +219,15 @@
       <RenderingHints>
         <AxisLabel>HFWR_Evm16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-30.0</ValidMin>
       <ValidMax>30.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACElectricField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Mag Field Antenna Bu</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna Bx (perp and outward in Local-Field Aligned/LFA coords).</Set>
@@ -237,7 +237,7 @@
       <RenderingHints>
         <AxisLabel>HFWR_Bu16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <!-- CDF file contains strange "-176.9" values -->
       <ValidMax>200.0</ValidMax>
@@ -245,8 +245,8 @@
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACMagneticField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Mag Field Antenna Bv</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna By (perp and eastward in Local-Field Aligned/LFA coords).</Set>
@@ -256,15 +256,15 @@
       <RenderingHints>
         <AxisLabel>HFWR_Bv16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACMagneticField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>HFWR 16 kHz Mag Field Antenna Bz</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): HFWR Mag Field Antenna Bz (parallel in Local-Field Aligned/LFA coords).</Set>
@@ -275,15 +275,15 @@
       <RenderingHints>
         <AxisLabel>HFWR_Bz16K</AxisLabel>
         <ValueFormat>E12.4</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>-200.0</ValidMin>
       <ValidMax>200.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACMagneticField</WaveQuantity>
-      </Wave>
-    </Parameter>
+</Wave>
+</Parameter>
     <Parameter>
       <Name>DATA_QUALITY</Name>
       <Set>This parameter is in the set of parameters that depends on the CDF column with the Parameter Key, EPOCH, to specify the Time of Observation. EPOCH Catalog Description (CATDESC): Data Quality for Ex components (0 = OK, 1 = clipped or questionable).</Set>
@@ -293,13 +293,13 @@
       <RenderingHints>
         <AxisLabel>DATA_QUALITY</AxisLabel>
         <ValueFormat>I1</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-1</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
-  </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

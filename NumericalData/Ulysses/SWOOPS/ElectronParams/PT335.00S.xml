@@ -5,14 +5,14 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/ElectronParams/PT335.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses SWOOPS Electron N and T Parameters Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Full resolution Ulysses/SWOOPS Total, Core and Halo Electron Densities and Temperatures</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWOOPS_CDAWEB_ELECTRONS_ELS</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -21,18 +21,18 @@
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=UY_M0_BAE&amp;index=sp_phys</URL>
         <ProductKey>UY_M0_BAE</ProductKey>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops_cdaweb/bae_m0/</URL>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops_cdaweb/bae_m0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
       <Availability>Online</Availability>
@@ -40,9 +40,9 @@
       <AccessURL>
         <Name>annual gzipped-ASCII files from ESA</Name>
         <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/SWOOPS</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -50,9 +50,9 @@
       <TimeSpan>
         <StartDate>1990-11-18T00:00:00</StartDate>
         <StopDate>2008-08-31T00:00:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT335.00S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-  </NumericalData>
+</NumericalData>
 </Spase>

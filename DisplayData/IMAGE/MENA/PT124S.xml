@@ -5,30 +5,30 @@
     <ResourceID>spase://VSPO/DisplayData/IMAGE/MENA/PT124S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE MENA Images, Key Parameters</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This set of images and movies from IMAGE Medium-Energy Neutral Atom (MENA) contains key parameters for several energy channels from 1 to 70 keV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Craig.J.Pollock</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://VSPO/DisplayData/P_IMAGE_HDR_MENA_124S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0</URL>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0/</URL>
         <Description>ftp access to CDF files</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/image/mena/mena_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
@@ -37,9 +37,9 @@
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IM_K0_MENA&amp;index=sp_phys</URL>
         <ProductKey>IM_K0_MENA</ProductKey>
         <Description>Plots, lists and files from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
-    </AccessInformation>
+</AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/IMAGE/MENA</InstrumentID>
     <MeasurementType>ImageIntensity</MeasurementType>
@@ -48,9 +48,9 @@
       <TimeSpan>
         <StartDate>2000-04-04T00:00:00</StartDate>
         <StopDate>2005-12-18T23:59:59</StopDate>
-      </TimeSpan>
-    </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
     <DisplayCadence>PT124S</DisplayCadence>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-  </DisplayData>
+</DisplayData>
 </Spase>

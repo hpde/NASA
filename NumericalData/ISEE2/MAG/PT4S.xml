@@ -5,36 +5,36 @@
     <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 4-sec data</ResourceName>
-	  <DOI>10.21978/P8PG8V</DOI>
-      <ReleaseDate>2019-02-22T00:00:00Z</ReleaseDate>
-      <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2 
+   <DOI>10.21978/P8PG8V</DOI>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2
 satellite, in spacecraft coordinates (close to GSE).</Description>
       <Acknowledgement>UCLA-IGPP ISEE Magnetometer Team, and the source
 used for accessing data (see below).</Acknowledgement>
-	  <PublicationInfo>
-		<Authors>Russell, Christopher T.</Authors>
-		<PublicationDate>1987-01-01T00:00:00</PublicationDate>
-		<PublishedBy>University of California, Los Angeles and NASA’s Space Physics Data Facility</PublishedBy>
-	  </PublicationInfo>
-	  <Contact>
-		<PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-		<Role>PrincipalInvestigator</Role>
-	  </Contact>
+   <PublicationInfo>
+  <Authors>Russell, Christopher T.</Authors>
+  <PublicationDate>1987-01-01T00:00:00</PublicationDate>
+  <PublishedBy>University of California, Los Angeles and NASA’s Space Physics Data Facility</PublishedBy>
+</PublicationInfo>
+   <Contact>
+  <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+  <Role>PrincipalInvestigator</Role>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UCLA-IGPP ISEE Magnetometer Interactive Data Server</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/forms/isee</URL>
+        <URL>http://www-ssc.igpp.ucla.edu/forms/isee/</URL>
         <Description>Data at 60-s and 4-s resolution are available for the entire ISEE mission (October 22, 1977 through  September 25, 1987) and can be displayed either as a plot or an ASCII listing. The ISEE-1 and -2 magnetometer data server is provided by the Institute of Geophysics and Planetary Physics (IGPP) at UCLA, through a grant to Robert J. Strangeway from the NASA Space Physics Data System (SPDS).</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Instrument/ISEE2/MAG</AssociationID>
         <AssociationType>ObservedBy</AssociationType>
-      </Association>
+</Association>
       <PriorID>spase://VMO/NumericalData/ISEE2/MAG/PT4S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
@@ -42,15 +42,15 @@ used for accessing data (see below).</Acknowledgement>
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/4sec_mfi/</URL>
         <Description>ftp access to CDF files</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/4sec_mfi/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>UCLA ISEE Magnetometer and GSFC CDAWeb teams</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
@@ -59,10 +59,10 @@ used for accessing data (see below).</Acknowledgement>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISEE2_4SEC_MFI&amp;index=sp_phys</URL>
         <ProductKey>ISEE2_4SEC_MFI</ProductKey>
         <Description>Plots, lists and files from CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Acknowledgement>UCLA ISEE Magnetometer and GSFC CDAWeb teams</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/IGPP.ISEE.Magnetometer.Interactive.Data.Server</RepositoryID>
       <AccessRights>Open</AccessRights>
@@ -70,10 +70,10 @@ used for accessing data (see below).</Acknowledgement>
         <Name>UCLA interactive interface</Name>
         <URL>http://www-ssc.igpp.ucla.edu/forms/isee/#inputs</URL>
         <Description>Interactive interface at UCLA providing plots and lists of data</Description>
-      </AccessURL>
+</AccessURL>
       <Format>Text</Format>
       <Acknowledgement>UCLA-IGPP ISEE Magnetometer Interactive Data Server</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/ISEE2/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
@@ -81,9 +81,9 @@ used for accessing data (see below).</Acknowledgement>
       <TimeSpan>
         <StartDate>1977-10-22T14:49:19</StartDate>
         <StopDate>1987-09-26T05:59:00</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT4S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
@@ -93,8 +93,8 @@ used for accessing data (see below).</Acknowledgement>
       <Description>DD-MON-YY HH:MM:SS.SSS</Description>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Magnetic Field Components</Name>
       <ParameterKey>BX, BY, BZ</ParameterKey>
@@ -105,16 +105,16 @@ used for accessing data (see below).</Acknowledgement>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Description>The three elements are BX, BY, and BZ.</Description>
-      </Structure>
+</Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
+</Field>
+</Parameter>
     <Parameter>
       <Name>Total magnetic field</Name>
       <ParameterKey>BT</ParameterKey>
@@ -125,7 +125,7 @@ used for accessing data (see below).</Acknowledgement>
       <Field>
         <Qualifier>Magnitude</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-      </Field>
-    </Parameter>
-  </NumericalData>
+</Field>
+</Parameter>
+</NumericalData>
 </Spase>

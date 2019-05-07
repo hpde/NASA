@@ -5,47 +5,47 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/FastPlasmaInvestigation/DES/Fast/Level2/Moments/PT4.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Fast Plasma Investigation, Dual Electron Spectrometer (FPI, DES) Distribution Moments, Fast Survey, Level 2 (L2), 4.5 s Data</ResourceName>
-      <ReleaseDate>2019-05-03T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Fast Plasma Instrument (FPI) usually Operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution are aggregated onboard and made available at Survey (4.5 s) Resolution in this Mode. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually Operates in Slow Survey (SS) Mode outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Results from integrating the standard Moments of Phase Space Distributions formed from the indicated Data Type (DES/DIS Burst, FS or SS). For Convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
       <Acknowledgement>J. Burch, B.L. Giles</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Barbara.L.Giles</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
         <URL>https://mms.gsfc.nasa.gov</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted at the Goddard Space Flight Center (GSFC)</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)</Name>
         <URL>http://mms.space.swri.edu</URL>
         <Description>The SMART Home Page hosted by the Southwest Research Institute (SwRI). SMART is the Acronym for the Magnetospheric Multiscale (MMS) Scientific Investigation. The Acronym stands for Solving Magnetospheric Acceleration, Reconnection, and Turbulence.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The MMS Mission home page at the Science Data Center (SDC) LASP, UC Boulder</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NASA Web Page providing Inforamtion for the Magnetospheric Multiscale (MMS) Fast Plasma Investigation (FPI) Instrument</Name>
         <URL>https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html#fpi</URL>
         <Description>NASA Web Page providing an Overview of the Magnetospheric Multiscale (MMS) Fast Plasma Investigation (FPI) Instrument</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://VSPO/NumericalData/MMS/3/FastPlasmaInvestigation/DES/Burst/Level2/Moments/PT4.5S</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -54,22 +54,22 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms3/fpi/fast/l2/des-moms/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/fpi/fast/l2/des-moms/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-      </AccessURL>
+</AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
         <ProductKey>MMS3_FPI_FAST_L2_DES-MOMS</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. Burch, B.L. Giles. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/MMS_SDC</RepositoryID>
       <Availability>Online</Availability>
@@ -78,11 +78,11 @@
         <Name>HTTP access to files at the MMS Science Data Center, SDC, at the Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/data/</URL>
         <Description>Access to MMS Data in CDF Format via http from the MMS SDC</Description>
-      </AccessURL>
+</AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. Burch, B.L. Giles. Please acknowledge the Data Providers and the MMS SDC when using these Data.</Acknowledgement>
-    </AccessInformation>
+</AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DES</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -92,9 +92,9 @@
       <TimeSpan>
         <StartDate>2015-05-06T00:00:00.000</StartDate>
         <StopDate>2018-09-16T23:59:59.999</StopDate>
-      </TimeSpan>
+</TimeSpan>
       <Cadence>PT4.5S</Cadence>
-    </TemporalDescription>
+</TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -115,14 +115,14 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
       <ValidMax>2100-01-01T00:00:01.000000000</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Plus Var</Name>
       <ParameterKey>Epoch_plus_var</ParameterKey>
@@ -132,13 +132,13 @@
       <UnitsConversion>1.0&gt;s</UnitsConversion>
       <RenderingHints>
         <ValueFormat>F4.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.5</ValidMax>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Epoch Minus Var</Name>
       <ParameterKey>Epoch_minus_var</ParameterKey>
@@ -148,13 +148,13 @@
       <UnitsConversion>1.0&gt;s</UnitsConversion>
       <RenderingHints>
         <ValueFormat>F4.2</ValueFormat>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.5</ValidMax>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Data Quality Error Flags</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -167,14 +167,14 @@
         <AxisLabel>Error_Flags</AxisLabel>
         <ValueFormat>I10</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967294</ValidMax>
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Compression Flag</Name>
       <ParameterKey>mms3_des_compressionloss_fast</ParameterKey>
@@ -186,14 +186,14 @@
         <AxisLabel>Compress_Flag</AxisLabel>
         <ValueFormat>I1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Start Del-Phi Count</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -206,14 +206,14 @@
         <AxisLabel>DelPhi_Count</AxisLabel>
         <ValueFormat>I4.4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>5761</ValidMax>
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Start Del-Phi Angle</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -228,7 +228,7 @@
         <AxisLabel>DelPhi_Angle</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -236,8 +236,8 @@
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <Qualifier>PhaseAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Pitch Angle Distribution, Low Energies</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -252,7 +252,7 @@
         <AxisLabel>PAD_Low</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>30</Size>
         <Element>
@@ -260,212 +260,212 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>3.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>9.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>15.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>21.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>27.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
           <RenderingHints>
             <AxisLabel>33.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
           <RenderingHints>
             <AxisLabel>39.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
           <RenderingHints>
             <AxisLabel>45.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
           <RenderingHints>
             <AxisLabel>51.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 10</Name>
           <Index>10</Index>
           <RenderingHints>
             <AxisLabel>57.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 11</Name>
           <Index>11</Index>
           <RenderingHints>
             <AxisLabel>63.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 12</Name>
           <Index>12</Index>
           <RenderingHints>
             <AxisLabel>69.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 13</Name>
           <Index>13</Index>
           <RenderingHints>
             <AxisLabel>75.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 14</Name>
           <Index>14</Index>
           <RenderingHints>
             <AxisLabel>81.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 15</Name>
           <Index>15</Index>
           <RenderingHints>
             <AxisLabel>87.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 16</Name>
           <Index>16</Index>
           <RenderingHints>
             <AxisLabel>93.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 17</Name>
           <Index>17</Index>
           <RenderingHints>
             <AxisLabel>99.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 18</Name>
           <Index>18</Index>
           <RenderingHints>
             <AxisLabel>105.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 19</Name>
           <Index>19</Index>
           <RenderingHints>
             <AxisLabel>111.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 20</Name>
           <Index>20</Index>
           <RenderingHints>
             <AxisLabel>117.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 21</Name>
           <Index>21</Index>
           <RenderingHints>
             <AxisLabel>123.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 22</Name>
           <Index>22</Index>
           <RenderingHints>
             <AxisLabel>129.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 23</Name>
           <Index>23</Index>
           <RenderingHints>
             <AxisLabel>135.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 24</Name>
           <Index>24</Index>
           <RenderingHints>
             <AxisLabel>141.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 25</Name>
           <Index>25</Index>
           <RenderingHints>
             <AxisLabel>147.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 26</Name>
           <Index>26</Index>
           <RenderingHints>
             <AxisLabel>153.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 27</Name>
           <Index>27</Index>
           <RenderingHints>
             <AxisLabel>159.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 28</Name>
           <Index>28</Index>
           <RenderingHints>
             <AxisLabel>165.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 29</Name>
           <Index>29</Index>
           <RenderingHints>
             <AxisLabel>171.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 30</Name>
           <Index>30</Index>
           <RenderingHints>
             <AxisLabel>177.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -473,8 +473,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Pitch Angle Distribution, Mid Energies</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -489,7 +489,7 @@
         <AxisLabel>PAD_Mid</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>30</Size>
         <Element>
@@ -497,212 +497,212 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>3.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>9.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>15.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>21.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>27.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
           <RenderingHints>
             <AxisLabel>33.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
           <RenderingHints>
             <AxisLabel>39.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
           <RenderingHints>
             <AxisLabel>45.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
           <RenderingHints>
             <AxisLabel>51.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 10</Name>
           <Index>10</Index>
           <RenderingHints>
             <AxisLabel>57.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 11</Name>
           <Index>11</Index>
           <RenderingHints>
             <AxisLabel>63.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 12</Name>
           <Index>12</Index>
           <RenderingHints>
             <AxisLabel>69.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 13</Name>
           <Index>13</Index>
           <RenderingHints>
             <AxisLabel>75.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 14</Name>
           <Index>14</Index>
           <RenderingHints>
             <AxisLabel>81.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 15</Name>
           <Index>15</Index>
           <RenderingHints>
             <AxisLabel>87.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 16</Name>
           <Index>16</Index>
           <RenderingHints>
             <AxisLabel>93.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 17</Name>
           <Index>17</Index>
           <RenderingHints>
             <AxisLabel>99.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 18</Name>
           <Index>18</Index>
           <RenderingHints>
             <AxisLabel>105.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 19</Name>
           <Index>19</Index>
           <RenderingHints>
             <AxisLabel>111.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 20</Name>
           <Index>20</Index>
           <RenderingHints>
             <AxisLabel>117.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 21</Name>
           <Index>21</Index>
           <RenderingHints>
             <AxisLabel>123.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 22</Name>
           <Index>22</Index>
           <RenderingHints>
             <AxisLabel>129.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 23</Name>
           <Index>23</Index>
           <RenderingHints>
             <AxisLabel>135.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 24</Name>
           <Index>24</Index>
           <RenderingHints>
             <AxisLabel>141.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 25</Name>
           <Index>25</Index>
           <RenderingHints>
             <AxisLabel>147.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 26</Name>
           <Index>26</Index>
           <RenderingHints>
             <AxisLabel>153.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 27</Name>
           <Index>27</Index>
           <RenderingHints>
             <AxisLabel>159.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 28</Name>
           <Index>28</Index>
           <RenderingHints>
             <AxisLabel>165.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 29</Name>
           <Index>29</Index>
           <RenderingHints>
             <AxisLabel>171.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 30</Name>
           <Index>30</Index>
           <RenderingHints>
             <AxisLabel>177.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -710,8 +710,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Pitch Angle Distribution, High Energies</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -726,7 +726,7 @@
         <AxisLabel>PAD_High</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>30</Size>
         <Element>
@@ -734,212 +734,212 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>3.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>9.00000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>15.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>21.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>27.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
           <RenderingHints>
             <AxisLabel>33.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
           <RenderingHints>
             <AxisLabel>39.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
           <RenderingHints>
             <AxisLabel>45.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
           <RenderingHints>
             <AxisLabel>51.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 10</Name>
           <Index>10</Index>
           <RenderingHints>
             <AxisLabel>57.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 11</Name>
           <Index>11</Index>
           <RenderingHints>
             <AxisLabel>63.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 12</Name>
           <Index>12</Index>
           <RenderingHints>
             <AxisLabel>69.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 13</Name>
           <Index>13</Index>
           <RenderingHints>
             <AxisLabel>75.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 14</Name>
           <Index>14</Index>
           <RenderingHints>
             <AxisLabel>81.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 15</Name>
           <Index>15</Index>
           <RenderingHints>
             <AxisLabel>87.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 16</Name>
           <Index>16</Index>
           <RenderingHints>
             <AxisLabel>93.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 17</Name>
           <Index>17</Index>
           <RenderingHints>
             <AxisLabel>99.0000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 18</Name>
           <Index>18</Index>
           <RenderingHints>
             <AxisLabel>105.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 19</Name>
           <Index>19</Index>
           <RenderingHints>
             <AxisLabel>111.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 20</Name>
           <Index>20</Index>
           <RenderingHints>
             <AxisLabel>117.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 21</Name>
           <Index>21</Index>
           <RenderingHints>
             <AxisLabel>123.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 22</Name>
           <Index>22</Index>
           <RenderingHints>
             <AxisLabel>129.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 23</Name>
           <Index>23</Index>
           <RenderingHints>
             <AxisLabel>135.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 24</Name>
           <Index>24</Index>
           <RenderingHints>
             <AxisLabel>141.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 25</Name>
           <Index>25</Index>
           <RenderingHints>
             <AxisLabel>147.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 26</Name>
           <Index>26</Index>
           <RenderingHints>
             <AxisLabel>153.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 27</Name>
           <Index>27</Index>
           <RenderingHints>
             <AxisLabel>159.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 28</Name>
           <Index>28</Index>
           <RenderingHints>
             <AxisLabel>165.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 29</Name>
           <Index>29</Index>
           <RenderingHints>
             <AxisLabel>171.000</AxisLabel>
-          </RenderingHints>
-        </Element>
+</RenderingHints>
+</Element>
         <Element>
           <Name>Element 30</Name>
           <Index>30</Index>
           <RenderingHints>
             <AxisLabel>177.000</AxisLabel>
-          </RenderingHints>
-        </Element>
-      </Structure>
+</RenderingHints>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -947,8 +947,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS +X Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -961,16 +961,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_px</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -979,8 +979,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS -X Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -993,16 +993,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_mx</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1011,8 +1011,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS +Y Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1025,16 +1025,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_py</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1043,8 +1043,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS -Y Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1057,16 +1057,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_my</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1075,8 +1075,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS +Z Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1089,16 +1089,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_pz</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1107,8 +1107,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, DBCS -Z Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1121,16 +1121,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_mz</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1139,8 +1139,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, B Parallel Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1155,10 +1155,10 @@
         <AxisLabel>DEF_Para</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1167,8 +1167,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Parallel</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, B Anti-Parallel Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1183,10 +1183,10 @@
         <AxisLabel>DEF_Anti-Para</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1194,8 +1194,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, B Perpendicular Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1210,10 +1210,10 @@
         <AxisLabel>DEF_Perp</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1221,8 +1221,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Energy Spectrum, Omni-Directional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1237,10 +1237,10 @@
         <AxisLabel>DEF_Omni</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1248,8 +1248,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1263,7 +1263,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1272,8 +1272,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Number Density, Error</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1287,7 +1287,7 @@
         <AxisLabel>N_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1296,8 +1296,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Number Density, Extrapolation, Low</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1311,7 +1311,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1320,8 +1320,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Number Density, Extrapolation, High</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1335,7 +1335,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1344,8 +1344,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Bulk Velocity Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1357,27 +1357,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_DBCS</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vy_DBCS</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vz_DBCS</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-110000.0</ValidMin>
       <ValidMax>110000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1386,8 +1386,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Bulk Velocity Spintone Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1400,27 +1400,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_spintone_DBCS</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vy_spintone_DBCS</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vz_spintone_DBCS</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-110000.0</ValidMin>
       <ValidMax>110000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1429,8 +1429,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Bulk Velocity Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1442,27 +1442,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_GSE</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vy_GSE</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vz_GSE</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-110000.0</ValidMin>
       <ValidMax>110000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1471,8 +1471,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Bulk Velocity Spintone Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1485,27 +1485,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_spintone_GSE</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vy_spintone_GSE</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vz_spintone_GSE</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-110000.0</ValidMin>
       <ValidMax>110000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1514,8 +1514,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Bulk Velocity Error Vector</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1528,27 +1528,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_err</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vy_err</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Vz_err</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>220000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1558,8 +1558,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Pressure Tensor, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1572,24 +1572,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_DBCS</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Pressure Tensor, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1602,24 +1602,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_GSE</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Pressure Tensor, Error</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1632,16 +1632,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -1649,8 +1649,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature Tensor, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1663,24 +1663,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_DBCS</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature Tensor, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1693,24 +1693,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_GSE</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Temperature Tensor, Error, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1723,16 +1723,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3 3</Size>
-      </Structure>
+</Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
@@ -1740,8 +1740,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Heat Flux Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1753,27 +1753,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_DBCS</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qy_DBCS</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qz_DBCS</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-1.0e+08</ValidMin>
       <ValidMax>1.0e+08</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1782,8 +1782,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Heat Flux Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1795,27 +1795,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_GSE</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qy_GSE</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qz_GSE</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>-1.0e+08</ValidMin>
       <ValidMax>1.0e+08</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1824,8 +1824,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Heat Flux Error Vector</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1838,27 +1838,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-      </CoordinateSystem>
+</CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_err</Name>
           <Index>1</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qy_err</Name>
           <Index>2</Index>
-        </Element>
+</Element>
         <Element>
           <Name>Qz_err</Name>
           <Index>3</Index>
-        </Element>
-      </Structure>
+</Element>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>2.0e+08</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1868,8 +1868,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Sky Map Pitch Angle, Alpha</Name>
       <ParameterKey>mms3_des_alpha_fast</ParameterKey>
@@ -1882,18 +1882,18 @@
         <AxisLabel>Pitch_Angle</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>30</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Sky Map Pitch Angle, Alpha, Delta Value</Name>
       <ParameterKey>mms3_des_alpha_delta_fast</ParameterKey>
@@ -1906,18 +1906,18 @@
         <AxisLabel>Delta_Pitch_Angle</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>30</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-      </Support>
-    </Parameter>
+</Support>
+</Parameter>
     <Parameter>
       <Name>Electron Sky Map Energy</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1931,10 +1931,10 @@
         <AxisLabel>Energy</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>32000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1942,8 +1942,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Sky Map Energy, Delta Value</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1957,10 +1957,10 @@
         <AxisLabel>Delta_Energy</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <Structure>
         <Size>32</Size>
-      </Structure>
+</Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>5000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1968,8 +1968,8 @@
         <ParticleType>Electron</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Parallel Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1983,7 +1983,7 @@
         <AxisLabel>eT_Para</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1993,8 +1993,8 @@
         <Qualifier>FieldAligned</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
+</Particle>
+</Parameter>
     <Parameter>
       <Name>Electron Perpendicular Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -2008,7 +2008,7 @@
         <AxisLabel>eT_Perp</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-      </RenderingHints>
+</RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2017,7 +2017,7 @@
         <Qualifier>Parallel</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-      </Particle>
-    </Parameter>
-  </NumericalData>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

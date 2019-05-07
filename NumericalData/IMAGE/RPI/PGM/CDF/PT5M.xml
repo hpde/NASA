@@ -4,36 +4,36 @@
       <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CDF/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram data in CDF at NASA CDAWeb</ResourceName>
-         <ReleaseDate>2019-03-28T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Software suggested by the science team for CDF file visualization: (1) Plotting tool at the CDAWeb portal, (2) For analysis beyond static image inspection, including color scale optimization, zooming, text export, alternative data representations in physical units, detailed frequency and time information, overlaid model fpe and fce graphs, and EPS quality figures, use BinBrowser software at UML, http://ulcar.uml.edu/rpi.html</Description>
          <Acknowledgement>Users please acknowledge Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center and RPI Principal Investigator Prof. B. W. Reinisch of the University of Massachusetts Lowell for making these CDF files available.</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
             <Role>DataProducer</Role>
             <Role>TechnicalContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>IMAGE RPI Instrument Page</Name>
             <URL>https://image.gsfc.nasa.gov/rpi/</URL>
             <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
             <Language>en</Language>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>IMAGE RPI Instrument Page at UML</Name>
-            <URL>http://ulcar.uml.edu/rpi.html</URL>
+            <URL>https://ulcar.uml.edu/rpi.html</URL>
             <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
             <Language>en</Language>
-         </InformationURL>
+</InformationURL>
          <Association>
             <AssociationID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</AssociationID>
             <AssociationType>Other</AssociationType>
-         </Association>
+</Association>
       <PriorID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CDF.PT5M</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
@@ -43,17 +43,17 @@
             <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/image/rpi/</URL>
             <Description>FTP access to repository of IMAGE RPI Plasmagrams in CDF format at NASA CDAWeb.</Description>
             <Language>en</Language>
-         </AccessURL>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb access portal to IMAGE RPI Plasmagrams</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
             <Description>Repository of IMAGE RPI Plasmagrams in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: IM_K0_RPI.</Description>
             <Language>en</Language>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
          <Acknowledgement>Users please acknowledge Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center and RPI Principal Investigator Prof. B. W. Reinisch of the University of Massachusetts Lowell for making these CDF files available.</Acknowledgement>
-      </AccessInformation>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderProcessingLevel>Calibrated data in physical units. Spacecraft MET to UT is converted using history of IMAGE observatory clock drift.</ProviderProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/IMAGE/RPI</InstrumentID>
@@ -64,10 +64,10 @@
             <StartDate>2000-03-26T07:51:50Z</StartDate>
             <StopDate>2005-12-18T07:40:47Z</StopDate>
             <Note>In Cadence below, the 5 minutes refers to the nominal interval between measurements. Actual cadence of passive measurement varied between 3 to 6 minutes depending on the RPI science plan and design of measurement schedules.</Note>
-         </TimeSpan>
+</TimeSpan>
          <Cadence>PT5M</Cadence>
          <Exposure>PT72S</Exposure>
-      </TemporalDescription>
+</TemporalDescription>
       <SpectralRange>RadioFrequency</SpectralRange>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.NearSurface.Plasmasphere</ObservedRegion>
@@ -75,7 +75,7 @@
       <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
       <ObservedRegion>Heliosphere.Inner</ObservedRegion>
       <Caveats>
-      </Caveats>
+</Caveats>
       <Keyword>Dynamic Spectrogram</Keyword>
       <Keyword>Spectrogram</Keyword>
       <Keyword>AKR</Keyword>
@@ -113,9 +113,9 @@
                <Low>3</Low>
                <High>1009</High>
                <Units>kHz</Units>
-            </FrequencyRange>
-         </Wave>
-      </Parameter>
+</FrequencyRange>
+</Wave>
+</Parameter>
       <Parameter>
          <Name>Most Probable Amplitude</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -127,14 +127,14 @@
          <FillValue>-32768</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Frequency</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
          <ParameterKey>Frequency</ParameterKey>
          <Description>
-         </Description>
+</Description>
          <Cadence>PT5M</Cadence>
          <Units>kHz</Units>
          <Structure>
@@ -146,12 +146,12 @@
                <ValidMin>3</ValidMin>
                <ValidMax>3000</ValidMax>
                <FillValue>-1.0e+031</FillValue>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Actual Number of Frequencies</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -162,8 +162,8 @@
          <FillValue>-32768</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Time Line</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -174,8 +174,8 @@
          <Units>ms</Units>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Measurement Duration</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -184,8 +184,8 @@
          <Units>ms</Units>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Base Gain</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -196,8 +196,8 @@
          <FillValue>255</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Program Specifications</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -210,12 +210,12 @@
             <Element>
                <Name>RPI Parameter</Name>
                <Index>-1</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Nadir crossing MET</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -225,8 +225,8 @@
          <Units>0.1 s</Units>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Start MET</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -236,8 +236,8 @@
          <Units>0.1s</Units>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Operating Mode</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -246,8 +246,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Number of Dopplers</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -255,8 +255,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Pulse Repetition Rate</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -266,8 +266,8 @@
          <Units>Hz</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Xmtr Antenna Setting</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -276,8 +276,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Coupler Mode</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -286,8 +286,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Operating Mode</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -296,8 +296,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Gain Control</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -306,8 +306,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Frequency Search Enabled</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -316,8 +316,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Peak Power Constraint</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -327,8 +327,8 @@
          <Units>Watts</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Actual Number of Ranges</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -337,8 +337,8 @@
          <Cadence>PT5M</Cadence>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Range</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -348,8 +348,8 @@
          <Units>Re</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Echo Azimuth angle</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -359,8 +359,8 @@
          <Units>360/254 deg</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Echo Zenith angle</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -370,8 +370,8 @@
          <Units>deg</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Echo Doppler Number</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -381,8 +381,8 @@
          <Units>steps</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>Doppler Translation</Name>
          <!-- Parameter Key points to the CDF Variable in the file -->
@@ -392,7 +392,7 @@
          <Units>Hz</Units>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>
