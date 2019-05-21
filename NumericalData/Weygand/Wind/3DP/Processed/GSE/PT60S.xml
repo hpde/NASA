@@ -1,14 +1,20 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Weygand/Wind/3DP/Processed/GSE/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP Linearly Interpolated 60 s Resolution data in GSE Coordinates</ResourceName>
       <AlternateName>Wind 3DP data</AlternateName>
-      <ReleaseDate>2018-05-01T14:34:45Z</ReleaseDate>
+	  <DOI>10.21978/P8791F</DOI>
+      <ReleaseDate>2019-05-15T13:13:10.000Z</ReleaseDate>
       <Description>Wind linearly interpolated to have the measurements on the minute at 60 s resolution 3DP data in GSE coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
       <Acknowledgement>NASA;Robert.P.Lin</Acknowledgement>
+	  <PublicationInfo>
+		<Authors>Weygand, James, M; McPherron, Robert, L</Authors>
+		<PublicationDate>2006-01-01T00:00:00</PublicationDate>
+		<PublishedBy>UCLA</PublishedBy>
+	  </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
         <Role>PrincipalInvestigator</Role>
