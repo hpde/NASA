@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L1B</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L1B/V20/PT42S</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED SABER Level 1B</ResourceName>
-      <ReleaseDate>2019-06-10T19:39:23Z</ReleaseDate>
+      <ReleaseDate>2019-06-17T12:34:56.789Z</ReleaseDate>
       <Description>Contains the SABER Level 1B calibrated radiance profiles converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing.</Description>
       <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
       <Contact>
@@ -17,6 +17,7 @@
         <URL>http://saber.gats-inc.com/saber_doc/SABER_level1B_NCDUMP.pdf</URL>
       </InformationURL>
       <PriorID>spase://VITMO/NumericalData/TIMED/SABER/L1B</PriorID>
+      <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L1B</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
@@ -73,6 +74,7 @@
         <StartDate>2002-01-25T00:00:00.000</StartDate>
         <RelativeStopDate>P30D</RelativeStopDate>
       </TimeSpan>
+      <Cadence>PT42S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.NearSurface.Mesosphere</ObservedRegion>
     <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>

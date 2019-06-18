@@ -1,10 +1,11 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-<Version>2.2.1</Version>
-<NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2B</ResourceID>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
+<Version>2.3.0</Version>
+   <NumericalData>
+      <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2B/V20/PT42S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED SABER Level 2B</ResourceName>
-         <ReleaseDate>2018-01-18T21:30:00.104</ReleaseDate>
+         <ReleaseDate>2019-06-17T12:34:56.789Z</ReleaseDate>
          <Description>Contains SABER Level 2a data that have been further processed to produce higher level products. Includes mixing ratio - CO2, O, H; Cooling rate (kelvin/day) - CO2, NO, O3, H2O; Heating rate (kelvin/day) - O3, O2, CO2; Reaction rates (/sec); Airglow (watts/m^2/sr); Geostrophic winds (m/s). </Description>
          <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
          <Contact>
@@ -16,6 +17,7 @@
             <URL>http://saber.gats-inc.com/saber_doc/SABER_level2B_NCDUMP_v2.pdf</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/SABER/L2B</PriorID>
+         <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L2B</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
@@ -41,6 +43,7 @@
             <StartDate>2002-01-25T00:00:00.000</StartDate>
             <RelativeStopDate>P30D</RelativeStopDate>
          </TimeSpan>
+      <Cadence>PT42S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Earth.NearSurface.Mesosphere</ObservedRegion>
       <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>

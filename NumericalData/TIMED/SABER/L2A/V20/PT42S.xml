@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2A</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2A/V20/PT42S</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED SABER Level 2A</ResourceName>
-      <ReleaseDate>2019-06-17T14:05:38Z</ReleaseDate>
+      <ReleaseDate>2019-06-17T12:34:56.789Z</ReleaseDate>
       <Description>Contains SABER Level 1 spectra that have been processed into vertical profiles of geophysical quantities on a uniform altitude grid. These vertical profiles are at the highest available horizontal and temporal resolution. Routine products include profiles of temperature (kelvin), pressure (milibars), CO2, O3, H2O, and the volume emission rates (ergs/cm^3/sec).</Description>
       <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
       <Contact>
@@ -17,6 +17,7 @@
         <URL>http://saber.gats-inc.com/saber_doc/SABER_level2A_NCDUMP_v2.pdf</URL>
       </InformationURL>
       <PriorID>spase://VITMO/NumericalData/TIMED/SABER/L2A</PriorID>
+      <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L2A</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
@@ -37,12 +38,12 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/saber//level2a_v2_00_cdf/</URL>
-        <Description>FTP repository of TIMED SABER Level 2A version 2.0 data in CDF format at CDAWeb</Description>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/timed/saber/level2a_v2_00_cdf/</URL>
+        <Description>FTP repository of TIMED SABER Level 2A version 2.00 data in CDF format at CDAWeb</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/saber//level2a_v2_00_cdf/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/saber/level2a_v2_00_cdf/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -56,7 +57,7 @@
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L2AV20_SABER&amp;index=sp_phys</URL>
         <ProductKey>TIMED_L2AV20_SABER</ProductKey>
-        <Description>TIMED SABER L2A version 2.0 data with subset, plot, list from CDAWeb</Description>
+        <Description>TIMED SABER L2A version 2.00 data with subset, plot, list from CDAWeb</Description>
       </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
@@ -72,6 +73,7 @@
         <StartDate>2002-01-25T00:00:00.000</StartDate>
         <RelativeStopDate>P30D</RelativeStopDate>
       </TimeSpan>
+      <Cadence>PT42S</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.NearSurface.Mesosphere</ObservedRegion>
     <ObservedRegion>Earth.NearSurface.Thermosphere</ObservedRegion>
