@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2A/V20/PT42S</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) O&#8323;, CO&#8322;, and H&#8322;O Mixing Ratios, O, O&#8322;, OH, and NO Volume Emission Rates, and also National Meteorological Center, NMC, Neutral Temperature Density, and Pressure, Version 2.0, Level 2A (L2A), 42 s Data</ResourceName>
-      <ReleaseDate>2019-06-17T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2019-06-19T13:42:27Z</ReleaseDate>
       <Description>Contains SABER Level 1 spectra that have been processed into vertical profiles of geophysical quantities on a uniform altitude grid. These vertical profiles are at the highest available horizontal and temporal resolution. Routine products include profiles of temperature (kelvin), pressure (milibars), CO2, O3, H2O, and the volume emission rates (ergs/cm^3/sec).</Description>
       <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
       <Contact>
@@ -48,19 +48,6 @@
       </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the support from CDAWeb team at GSFC/SPDF.</Acknowledgement>
-    </AccessInformation>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L2AV20_SABER&amp;index=sp_phys</URL>
-        <ProductKey>TIMED_L2AV20_SABER</ProductKey>
-        <Description>TIMED SABER L2A version 2.00 data with subset, plot, list from CDAWeb</Description>
-      </AccessURL>
-      <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>SABER Level2A</ProviderResourceName>
