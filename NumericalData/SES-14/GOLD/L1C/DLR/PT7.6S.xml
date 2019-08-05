@@ -6,7 +6,7 @@
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L1C/DLR/PT7.6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level 1C German Space Agency Disk data</ResourceName>
-      <ReleaseDate>2019-06-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The Level 1C German Space Agency Disk data is sampled on a uniform angular grid of 0.2° in both Longitude and Latitude. The data is resampled as follows:
 		* About 4 scan mirror positions to fill the 0.2° L1C bin.
 		* Image displacement per scan mirror step: 0.0494°
@@ -43,7 +43,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>CDAWeb Data Repository FTP Interface</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/gold/level1c</URL>
+            <URL>ftps://cdaweb.gsfc.nasa.gov/pub/data/gold/level1c</URL>
             <Description>FTP access to Gold Level 1C data</Description>
          </AccessURL>
          <Format>Text</Format>

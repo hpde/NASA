@@ -4,7 +4,7 @@
       <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CDF/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram data in CDF at NASA CDAWeb</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Software suggested by the science team for CDF file visualization: (1) Plotting tool at the CDAWeb portal, (2) For analysis beyond static image inspection, including color scale optimization, zooming, text export, alternative data representations in physical units, detailed frequency and time information, overlaid model fpe and fce graphs, and EPS quality figures, use BinBrowser software at UML, http://ulcar.uml.edu/rpi.html</Description>
          <Acknowledgement>Users please acknowledge Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center and RPI Principal Investigator Prof. B. W. Reinisch of the University of Massachusetts Lowell for making these CDF files available.</Acknowledgement>
          <Contact>
@@ -40,7 +40,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>CDAWeb FTP access to IMAGE RPI wave measurements (plasmagrams)</Name>
-            <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/image/rpi/</URL>
+            <URL>ftps://cdaweb.gsfc.nasa.gov/pub/data/image/rpi/</URL>
             <Description>FTP access to repository of IMAGE RPI Plasmagrams in CDF format at NASA CDAWeb.</Description>
             <Language>en</Language>
 </AccessURL>
