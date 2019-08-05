@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Wind/SWE/Strahl/PT12S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Solar Wind Experiment (SWE) Strahl Detector Two Dimensional Electron Angular Distributions, (H4), 12 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Explanatory Notes: The 2D Electron Angular Distributions included in this Data Set were measured by the Wind/SWE Strahl Detector (see Ogilvie et al., "SWE, a Comprehensive Plasma Instrument for the Wind Spacecraft", Space Sci. Rev., 71, 55, 1995). Each Angular Distribution was measured at a single Electron Energy. The Energy was selected by applying a Voltage between the Electrostatic Analyzer Plates. The Detector sampled 32 Energies between 19 eV and 1238 eV, and during normal Operation would Sweep through these Energies one at a Time with approximately 12 s Cadence. The 12 Anodes of the Instrument are set in a vertical Pattern in a Plane that contains the Spacecraft Spin Axis, spanning a Field of View +/-28&#176; centered around the Ecliptic (with uneven Angular spacing between Anodes). The Wind Spacecraft Spin Axis is set at a Right Angle with the Ecliptic Plane, allowing different Azimuthal Angles to be sampled as the Spacecraft Spins (3 s Spin Period). These Azimuthal Bins have a Fixed Separation of 3.53&#176;. Each Strahl (and Antistrahl) Distribution measured by the Spacecraft consists of a 14 &#215; 12 Angular Grid of Electron Counts, that was measured at a Fixed Energy during a single Spacecraft Spin. Counts are converted into Physical Units of f(v) (e.g., cm^-6s^3) in the standard Fashion by accounting for the Detector Efficiency and Geometric Factor. The Data Set reported here contains: f_strahl, f_antistrahl, f_strahl_counts, f_antistrahl_counts, phi_strahl, phi_antistrahl, theta, energy.</Description>
          <Acknowledgement>K. Ogilvie</Acknowledgement>
          <Contact>
@@ -37,7 +37,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/swe/strahl0/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/swe/strahl0/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>

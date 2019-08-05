@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Baker.Lake/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Baker Lake (BLC) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Baker Lake, NT, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (BLC), Station Location: (GEO Latitude 64.3, Longitude 264.0), NRCan Network</Description>
          <Acknowledgement>Please acknowledge D. Calp, (Geological Survey of Canada)</Acknowledgement>
          <Contact>
@@ -37,7 +37,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/blc/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/blc/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

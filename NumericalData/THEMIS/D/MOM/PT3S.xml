@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS-D:  On Board moments:  ESA and SST Electron/Ion moments, density, flux, velocity, pressure and temperature.</ResourceName>
       <AlternateName>THEMIS-D MOM</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>THEMIS-D On Board moments.  On board data outputs include number density, particle flux, energy flux, and a six component symetric momentum flux tensor.  Other moments are calculated from these partial moments on the ground adding total pressure, velocity, plasma temperature (measured as a three dimensional energy vector), and a six component symetric pressure tensor to the list of data products.  Number density and total pressure are scalar outputs.  Velocity is calculated in DSL, GSE, GSM, and MFA coordinates (coordinate descriptions are listed below in Table 1).  Magnetic Field Aligned pressure tensor and temperature are calculated as well.  All quantities are calculated for both ions and electrons from a combination of ESA and SST data.  Moments data are taken at spin resolution in all ESA survey modes except burst.  The spacecraft potential, as measure by the EFI, is used to correct for spacecraft charging by shifting the particle energies for calculation; this eliminates contamination from photo-electrons.  Also, weighting factors are used to account for instrument specific energy and angle efficiency variations.
 
             Table 1: Coordinate Descriptions.
@@ -39,12 +39,12 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL> ftp://spdf.gsfc.nasa.gov/pub/data/themis/thd/l2/mom/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thd/l2/mom/</URL>
         <Description> NASA/GSFC CDAWeb ftp access to the data.</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL> https://spdf.gsfc.nasa.gov/pub/data/themis/thd/l2/mom/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thd/l2/mom/</URL>
         <Description> NASA/GSFC CDAWeb http access to the data.</Description>
       </AccessURL>
       <Format>CDF</Format>

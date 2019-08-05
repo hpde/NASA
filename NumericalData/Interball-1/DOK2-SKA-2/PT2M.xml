@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-1/DOK2-SKA-2/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail energetic particle 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Interball Tail energetic proton (22-28 keV, 1-3 MeV) and electron (21-26, 76-95, 150-500 keV) fluxes from DOK-2 and SKA-2 sensors, 2-min key parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/E.I.Morozova</PersonID>
@@ -23,7 +23,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/interball/tail/epi/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/tail/epi/</URL>
 </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

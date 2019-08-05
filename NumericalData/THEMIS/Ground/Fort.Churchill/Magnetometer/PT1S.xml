@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Fort.Churchill/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Fort Churchill (FCC) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Fort Churchill, MN, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (FCC), Station Location: (GEO Latitude 58.8, Longitude 265.9), GSCan Network</Description>
          <Acknowledgement>Please acknowledge D. Calp, (Geological Survey of Canada)</Acknowledgement>
          <Contact>
@@ -38,7 +38,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/fcc/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/fcc/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

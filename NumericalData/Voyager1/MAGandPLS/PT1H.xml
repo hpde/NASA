@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager1/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb. Magnetic field vectors and plasma flow direction angles are given in RTN coordinates. Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and L. Burlaga for magnetic field data and J. Richardson (P.I.) for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
       </Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/vy1mgd.txt</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/vy1mgd.txt</URL>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/Voyager1/MAGandPLS/PT1H</PriorID>
     </ResourceHeader>
@@ -36,7 +36,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/merged/</URL>
         <Description>for annual files via ftp</Description>
       </AccessURL>
       <AccessURL>

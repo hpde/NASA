@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/IMAGE/HK/CDAWeb/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE Housekeeping Data via CDAWeb</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This set of housekeeping data from the IMAGE mission comes from the Central Interface Data Processor (CIDP) and the interface with the Spacecraft/System Control Unit (SCU).   The CIDP provides the following major functions for the Observatory:
 (1) Instrument data acquisition, processing, and compression.
 (2) Stored command processing.
@@ -57,7 +57,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ADS data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/ads_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/ads_k0/</URL>
         <Description>FTP access to IM_HK_ADS</Description>
       </AccessURL>
       <AccessURL>
@@ -85,7 +85,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>AST data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/ast_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/ast_k0/</URL>
         <Description>FTP access to IM_HK_AST</Description>
       </AccessURL>
       <AccessURL>
@@ -113,7 +113,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>COM data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/com_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/com_k0/</URL>
         <Description>FTP access to IM_HK_COM</Description>
       </AccessURL>
       <AccessURL>
@@ -141,7 +141,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FSW data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/fsw_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/fsw_k0/</URL>
         <Description>FTP access to IM_HK_FSW</Description>
       </AccessURL>
       <AccessURL>
@@ -169,7 +169,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>PWR data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/pwr_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/pwr_k0/</URL>
         <Description>FTP access to IM_HK_PWR</Description>
       </AccessURL>
       <AccessURL>
@@ -197,7 +197,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>TML data from SPDF FTP area</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hk/tml_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hk/tml_k0/</URL>
         <Description>FTP access to IM_HK_TML</Description>
       </AccessURL>
       <AccessURL>

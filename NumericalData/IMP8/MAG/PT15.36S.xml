@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/IMP8/MAG/PT15.36S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 MAG 15.36s Magnetic Field Measurements</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>IMP 8 magnetic field measurements from tri-axis magnetometer. 
 Time resolution is 15.36 second.  Data are based on a 2010 data reprocessing
 by the PI team.  Parameter details below are based on the version of the data 
@@ -31,7 +31,7 @@ access to the data</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/mag/</URL>
         <Description>An ftp repository hosting 15s magnetic field data from IMP-8.</Description>
       </AccessURL>
       <AccessURL>

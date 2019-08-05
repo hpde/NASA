@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer11/CPC/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 11 Charged Particle Composition (CPC) 1-Hour Count Rates</ResourceName>
-            <ReleaseDate>2018-02-22T15:50:20Z</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>Hourly count rates from U. Chicago Charged Particle Composition
 Investigation (CPC) carried on Pioneer 11.  There are four rates each, for protons 
 and alpha particles, at 11-20, 20-24, 24-29, 29-67 MeV/n.  There are four additional 
@@ -25,11 +25,11 @@ and the GSFC Space Physics Data Facility.</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_15min_ascii/cpi_p11_15min.sfdu</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_15min_ascii/cpi_p11_15min.sfdu</URL>
             </InformationURL>
             <InformationURL>
                 <Name>Readme at SPDF for this data set</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_1hour_ascii/p11cpihr_fmt.txt</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_1hour_ascii/p11cpihr_fmt.txt</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Pioneer11/CPC/PT1H</PriorID>
         </ResourceHeader>
@@ -43,7 +43,7 @@ and the GSFC Space Physics Data Facility.</Acknowledgement>
             </AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_1hour_ascii/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_1hour_ascii/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>

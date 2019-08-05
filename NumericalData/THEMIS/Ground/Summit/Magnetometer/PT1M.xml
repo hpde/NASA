@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Summit/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Summit (SUM) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Summit, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (SUM), Station Location: (GEO Latitude 72.3, Longitude 321.7), Norwegian Mag. Network</Description>
          <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
@@ -32,7 +32,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/sum/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/sum/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

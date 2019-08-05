@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/Sectors/Release04/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A ECT HOPE Spin Resolved Level 2 Science Data</ResourceName>
-      <ReleaseDate>2019-04-11T20:23:02Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This data set contains electron fluxes and proton fluxes measured by the Helium Oxygen Proton Electron (HOPE), which is one of three instruments on the Energetic Particle, Composition and Thermal Plasma Suite (ECT). As a mass spectrometer instrument, HOPE uses an electrostatic top-hat analyzer and time-gated coincidence detectors to measure electrons, protons, and helium and oxygen ions with energies from less than or equal to 20 eV or spacecraft potential (whichever is greater) to greater than or equal to 45 keV while rejecting penetrating backgrounds.  Spectral measurements for both ions and electrons are acquired over 1 eV to 50 keV in  36 log-spaced steps at an energy resolution &#x394;EFWHM/E ~15%. The dominant ion species (H+,  He+, and O+) of the magnetosphere are identified using foil-based time-of-flight mass (TOF)  spectrometry with channel electron multiplier (CEM) detectors. Angular measurements are derived using five polar pixels in a plane perpendicular to the spacecraft spin axis, and up to 16  azimuthal bins are acquired for each polar pixel over time as the spacecraft spins.  Electrons and protons are measured in alternate spin cadence of 5 per minute. </Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -42,7 +42,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/hope/sectors/rel04/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/hope/sectors/rel04/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>

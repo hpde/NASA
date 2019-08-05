@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L3/TOFXENONH</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B RBSPICE TOF x Energy non Hydrogen (Helium and Oxygen) Rates converted Level-3 data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description> This Level-3 data set contains Van Allen Probe B RBSPICE (Radiation Belt Storm Probes Ion Composition Experiment) TOF x (Time of Flight) energy of heavy ions (i.e., helium and oxygen) that are measured at high-energy and low-time resolution by 6 telescopes in 28 channels from ~0.02-1.0 MeV and are available in physical units (counts/(s*sr*cm^2*MeV) by telescope in sector order.  Also available are percentage error of measurement, quality flag, current sector number where each spin is dividied into 36 sectors, duration of the accumulation, current spin number of the spacecraft, orbit number, dipole L value using the SM reference frame, and position of the spacecraft in SM coordinates. Level 3 data include the pitch angles of the six telescopes, based upon the measured magnetic field received from the EMFISIS (Electric and Magnetic Field Instrument Suite and Integrated Science) instrument.  This processing is done in a series of algorithmic steps in which the EMFISIS magnetic field data is loaded, the ECT Magnetic Ephemeris data is loaded, the Level 2 intensity data file is copied, and the pitch angles are calculated and placed into the copied Level 2 file, creating a Level 3 file.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -39,7 +39,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l3/rbspice/tofxenonh/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l3/rbspice/tofxenonh/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>

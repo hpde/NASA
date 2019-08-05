@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/PT18S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind WAVES Electron Density</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Wind WAVES electron density at 18-s resolution determined from neural network analysis of in situ Fpe line, via CDAWeb</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h0/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

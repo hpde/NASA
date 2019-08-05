@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/4/FIELDS/EDP/Burst/Level2/DCElectricField/PT0.0001220703125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 4 Electric Double Probe (EDP) Three-Dimensional Electric Field, Quick-Look, Burst Survey</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Electric Double Probe, Quick-Look Three-Dimensional Electric Field, Level 2, Burst Survey Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -40,7 +40,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms4/edp/brst/l2/dce/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms4/edp/brst/l2/dce/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>

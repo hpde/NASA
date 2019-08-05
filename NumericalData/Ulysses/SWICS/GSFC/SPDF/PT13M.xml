@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses olar Wind Ion Composition Spectrometer (SWICS) Full Resolution Matrix Rate Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The Ulysses/SWICS instrument is a mass spectrometer combining an electrostatic analyzer with post acceleration, followed by a time-of-flight and energy measurement. The instrument covers an energy per charge range from 0.16 to 59.6 keV/e with a time resolution of about 13 minutes. SWICS is designed to determine uniquely the elemental and ionic-charge composition, the temperatures and mean speeds of all major solar wind ions, from H through Fe. For more information see G. Gloeckler, J. Geiss et al., Astron. Astrophys. Suppl. Ser. 92, 267-289, 1992. These data consist of all 18 Matrix Rates (MR) as a function of energy per charge (E/q) and of time. Each MR represents a specific element in one or several ionization states, but it may also contain significant contributions from neighbouring elements due to spillover. The MRs are given in units of count rates only. SAPRO (SWICS Archive Processor) software can be used both to convert the MR count rates to physical units (differential flux, phase space density), to correct for spillover between different MRs, and to obtain kinetic parameters (density, speed, thermal speed) of selected ions (to be used with caution).</Description>
       <Acknowledgement>Please acknowledge G. Gloeckler (P.I.)</Acknowledgement>
       <Contact>
@@ -40,7 +40,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics_cdaweb/glg_h0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics_cdaweb/glg_h0/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

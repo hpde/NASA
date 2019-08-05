@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/TIMAS/H0/PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIMAS H0 High-resolution Level 1 Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Mass resolved ion energy angle spectra covering nearly the full 4pi solid angle and the energy range 15 eV/q to 33 eV/q.
             H+, O+, He+ and He++ number fluxes and statistical uncertainties processed by the TIMAS science team. Data acquired with various angular and energy resolutions are combined here. Data Quality and other indicators are provided to allow selection of high resolution data (PA_status(ion)=0 and Energy_status(ion)=0 ) and High Quality data (Quality=0). See caveats for the following variables for more detailed information: Quality, PA_status, Energy_status Bcr, Fec, Even_odd,  Energy_Range_ID and Spins.
             Reference:E.G. Shelley et al., The Toroidal Imaging Mass-Angle Spectrograph (TIMAS) for the Polar Mission, Sp. Sci. Rev, Vol 71, pp 497-530, 1995.
@@ -50,7 +50,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/timas/timas_h0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/timas/timas_h0/</URL>
         <Description>FTP repository of high-resolution Polar TIMAS data in CDF format at CDAWeb</Description>
       </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/TWINS2/ENA/L1/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>TWINS 2 Neutral-atom L1 Images and Movies</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>TWINS 1 neutral-atom spectrometer level-1 magnetospheric images and image movies at full (9 energy steps and 15 minute) resolution. Images have been smoothed using a technique that provides approximately uniform statistics across the image. Each image has 4x4 degree angular resolution and includes 15 minutes of data.
       
       These images are derived on the ground from direct events measurements of the time of flight and detection location on the anode for individual ENAs.  Each image has 4x4 degree angular resolution and includes 15 minutes of data. The first dimension of the image represents the scan angle in instrument coordinates.  In this system the azimuthal attitude vector points to +90 degree scan angle.  The second is the imaged angle, where 90 degrees is the central viewing angle of the instrument and the direction of the polar attitude vector. </Description>
@@ -31,7 +31,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/twins/twins2/imager/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/twins/twins2/imager/</URL>
         <Description>NASA/GSFC CDAWeb ftp access to the data.</Description>
       </AccessURL>
       <AccessURL>

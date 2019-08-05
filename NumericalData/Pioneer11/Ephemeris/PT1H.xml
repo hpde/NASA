@@ -4,7 +4,7 @@
       <ResourceID>spase://VSPO/NumericalData/Pioneer11/Ephemeris/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer 11 Spacecraft Ephemeris, Cartesian Position and Velocity Vectors, Daily Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>This Data Collection consists of Daily Cartesian Position and Velocity Vectors derived from SEDR predict Data provided by the Pioneer Project to the Plasma Science Experiment Team. The Trajectory Data were derived from actual SEDR Files prior to mid-1988 which were extrapolated to the End of 1998. Position Resolution is approximately 100,000 km, more than adequate for Studies of the Heliosphere.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, Dr. Paul R. Gazis, and SPDF.</Acknowledgement>
          <Contact>
@@ -23,7 +23,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP Access to Files at SPDF</Name>
-            <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/pioneer/pioneer11/plasma/hour/</URL>
+            <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/pioneer/pioneer11/plasma/hour/</URL>
             <Description>for Hourly Data via FTP</Description>
 </AccessURL>
          <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/DisplayData/POLAR/VIS/PT300S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Visible Imaging System Earth Camera Key Parameters</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This dataset contains the investigator-selected Earth Camera Key Parameters from the Polar Visible Imaging System (VIS). It contains
 global images of the auroral oval at ultraviolet wavelengths. One or more Earth camera images of 256 x 256 pixels are produced every five minutes, depending on the commanded mode.  Some coordinate information is included for viewer orientation. Coordinates are calculated for a grid of 18 x 18 points corresponding to one pixel out of every 15 x 15 pixel block. In addition, a rotation matrix and a table of distortion-correcting look direction unit vectors are provided for the purpose of calculating coordinates for every pixel.
 
@@ -26,7 +26,7 @@ The data set also contains various imager-related parameters, plus spacecraft po
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/vis/vis_k0/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/vis/vis_k0/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

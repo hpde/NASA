@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/OV1-19/MES/PT0.1S</ResourceID>
     <ResourceHeader>
       <ResourceName>OV1-19 Magnetic Electron Spectrometers (MES) Data Set</ResourceName>
-      <ReleaseDate>2018-03-29T21:06:59Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The OV19 MES.nnn files contain data from the OV1-19
 Magnetic Electron Spectrometers (53 to 444 kev in 8 channels and 537 keV to
 5.1 MeV in 16 channels). </Description>
@@ -43,7 +43,7 @@ Magnetic Electron Spectrometers (53 to 444 kev in 8 channels and 537 keV to
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ov/ov1-19/directional_proton_spectrometer/proton_alpha_electron_plasma/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ov/ov1-19/directional_proton_spectrometer/proton_alpha_electron_plasma/</URL>
         <Description>In Binary via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>

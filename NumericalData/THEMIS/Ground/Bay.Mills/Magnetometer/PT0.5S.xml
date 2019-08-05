@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Bay.Mills/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Bay Mills (BMLS) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Bay Mills, MI, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (BMLS), Station Location: (GEO Latitude 46.2, Longitude 275.7), THEMIS EPO/UCLA Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell, (University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -52,7 +52,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bmls/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bmls/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

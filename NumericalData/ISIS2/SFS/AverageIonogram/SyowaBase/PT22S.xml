@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/AverageIonogram/SyowaBase/PT22S</ResourceID>
       <ResourceHeader>
          <ResourceName>ISIS-2 Topside Sounder Average Ionogram over Syowa Base, Antartica: SYO, Latitude -69, Longitude 40</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>These Ionograms were digitized from the original ISIS-2 7-Track Analog Telemetry Tapes using the Facilities of the former Data Evaluation Laboratory at the NASA/GSFC. This Data Restoration Project is headed by Dr. R.F. Benson (NASA/GSFC). Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 &amp;#181;s corresponding to an Apparent Range Interval equal to 3.75 km from c*t/2, where c is the Speed of Light. Ionograms with this Sample Rate are designated as &amp;apos;Full&amp;apos; Ionograms because they have the full 3.75 km Apparent-Range Resolution. The Ionograms used for most Analyses, and those available from CDAWeb, were produced by averaging every four Samples of the Sounder-Receiver Video Amplitude Output to yield an average Value every 100 &amp;#181;s corresponding to an Apparent-Range Resolution of 15 km. These Ionogram Files are referred to as &amp;apos;Average&amp;apos; Files with Standard Resolution. Each Ionogram consists of a Fixed-Frequency Portion and a Swept-Frequency Portion. The Time Resolution between Ionograms is typically 14 or 22 s depending on the Frequency Sweep Range.</Description>
          <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration</Acknowledgement>
          <Contact>
@@ -49,7 +49,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to CDF Files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/SYO_69S_040E/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis2/SYO_69S_040E/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>

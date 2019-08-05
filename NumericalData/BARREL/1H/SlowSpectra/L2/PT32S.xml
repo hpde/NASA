@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/BARREL/1H/SlowSpectra/L2/PT32S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1H X-Ray Spectrometer (SSPC) Bremsstrahlung X-Ray Spectrum Slow Time Resolution</ResourceName>
-         <ReleaseDate>2019-05-01T12:58:53.000</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Bremsstrahlung X-ray Spectra, 256 Energy bIns transmitted over 32 Frames</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -32,7 +32,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/barrel/l2/1h/sspc/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/barrel/l2/1h/sspc/</URL>
             <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>

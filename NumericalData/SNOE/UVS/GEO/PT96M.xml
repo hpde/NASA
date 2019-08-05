@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/SNOE/UVS/GEO/PT96M</ResourceID>
         <ResourceHeader>
             <ResourceName>SNOE Orbital Averages of Nitric Oxide (NO) Density in Geographic Bins</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate> 
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate> 
 <Description>This level 3 data set from the Student Nitric Oxide Explorer (SNOE) ultraviolet spectrometer (UVS) contains orbital averages of nitric oxide (NO) density for the altitudes range 96.6 to 150 km as deduced from the UVS count rates ([0, 1] gamma band; 237 nm). Averaging was done in geographic coordinates in a 38x20 array, using bins of 5 degree geographic latitude, 3.3 km altitude, and 24 degrees in geographic longitude. </Description>
             <Acknowledgement>Please acknowledge the Principal Investigator, Dr. Charles A. Barth, and SPDF.</Acknowledgement>
             <Contact>
@@ -18,7 +18,7 @@
             </Contact>
           <InformationURL>
                 <Name>Readme file from SPDF FTP</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/00readme.txt</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/00readme.txt</URL>
             </InformationURL>
         </ResourceHeader>
      <AccessInformation>
@@ -27,7 +27,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/NO_orb_avg_geo_ascii/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/NO_orb_avg_geo_ascii/</URL>
                 <Description>for daily geographic averages via ftp</Description>
             </AccessURL>
             <AccessURL>

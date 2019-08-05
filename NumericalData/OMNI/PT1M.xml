@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/OMNI/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI 1-min Data Set</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>High resolution (1-min), multi-source, near-Earth solar wind magnetic field and plasma data as shifted to Earth's bow shock nose, plus several 1-min geomagnetic activity indices.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC for creating the OMNI data set.</Acknowledgement>
       <Contact>
@@ -61,7 +61,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to CDFs at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hro_1min/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hro_1min/</URL>
         <Description>ftp access to monthly ASCII files of 1-min (10 MB/file) data and to annual ASCII files of 1-min (126 MB/file) and 5-min (25 MB/file) data.</Description>
       </AccessURL>
       <AccessURL>
@@ -82,7 +82,7 @@
       </AccessURL>
       <AccessURL>
         <Name>FTP access to ASCII files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/monthly_1min/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/monthly_1min/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to ASCII files at SPDF</Name>

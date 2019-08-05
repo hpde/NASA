@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>OMNI 5-min Data Set</ResourceName>
       <AlternateName>HRO-5</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Solar wind magnetic field and plasma data at 5-min resolution created from HRO-1 which was in turn created from ACE, Wind and IMP 8 data shifted to the Earth's bow shock nose.</Description>
       <Acknowledgement>We acknowledgement J.H. King and N.E. Papitashvili of NASA/SPDF and QSS and the original providers of the input ACE, Wind and IMP 8 data</Acknowledgement>
       <Contact>
@@ -62,7 +62,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to CDFs at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hro_5min/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hro_5min/</URL>
         <Description>FTP path at SPDF/NSSDC</Description>
       </AccessURL>
       <AccessURL>
@@ -83,7 +83,7 @@
       </AccessURL>
       <AccessURL>
         <Name>FTP access to ASCII files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/1/FastPlasmaInvestigation/DIS/Burst/Level2/Distribution/PT0.15S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Fast Plasma Investigation, Dual Ion Spectrometer (FPI, DIS) Instrument Distributions, Burst Survey, Level 2 (L2), 150 ms Data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The Fast Plasma Instrument (FPI) usually Operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution in this Mode. Data are also made available at Survey (4.5 s, etc.) Resolution. Per Mission Design, not all Burst Resolution Data are downlinked, but all Survey Data are downlinked. This Product contains Phase Space Distribution Maps of those Burst Resolution Data selected for downlink. In particular, the (highest possible Quality at the Time of Release) corrected/converted "Burst Sky Map" Distributions are reported with Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
       <Acknowledgement>J. Burch, B.L. Giles</Acknowledgement>
       <Contact>
@@ -51,7 +51,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/brst/l2/dis-dist/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/brst/l2/dis-dist/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>

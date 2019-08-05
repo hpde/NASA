@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SNOE/UVS/MAG/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>SNOE UVS (Ultraviolet Spectrometer) geomagnetic coordinates</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This set of SNOE UVS (Ultraviolet Spectrometer) data contains nitric oxide volume density translated from the spacecraft look angle through the atmosphere at the limb of Earth.  Density data are provided from 100 to 150 km altitudes in 10 km intervals at the recorded geomagnetic latitude and longitude (5-degree bins). Any data outages of size one (i.e. all adjacent neighbors contain valid data) in the dataset are filled in using linear interpolation in the altitude direction. 
              </Description>
       <Contact>
@@ -25,7 +25,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/1min_cdaweb/l3_mag/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/1min_cdaweb/l3_mag/</URL>
         <Description>ftp access to CDF files</Description>
       </AccessURL>
       <AccessURL>

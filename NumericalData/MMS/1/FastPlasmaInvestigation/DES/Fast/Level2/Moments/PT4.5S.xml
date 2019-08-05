@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/1/FastPlasmaInvestigation/DES/Fast/Level2/Moments/PT4.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Fast Plasma Investigation, Dual Electron Spectrometer (FPI, DES) Distribution Moments, Fast Survey, Level 2 (L2), 4.5 s Data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The Fast Plasma Instrument (FPI) usually Operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution are aggregated onboard and made available at Survey (4.5 s) Resolution in this Mode. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually Operates in Slow Survey (SS) Mode outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Results from integrating the standard Moments of Phase Space Distributions formed from the indicated Data Type (DES/DIS Burst, FS or SS). For Convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
       <Acknowledgement>J. Burch, B.L. Giles</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/fast/l2/des-moms/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/fast/l2/des-moms/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>

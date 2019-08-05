@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer Venus Orbiter(PVO) Daily Trajectory Data</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>This data set contains trajectory data from the Pioneer Venus Orbiter. It includes the radial distance of Venus from the sun, and solar ecliptic coordinates of Venus with respect to true equinox and ecliptic of date.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator and SPDF.</Acknowledgement>
          <Contact>
@@ -22,7 +22,7 @@
          </Contact>
          <InformationURL>
             <Name>Readme file from SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/traj/pvotrjdy_fmt.txt</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/traj/pvotrjdy_fmt.txt</URL>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/Pioneer_Venus/Ephemeris/P1D</PriorID>
          <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Ephemeris/PT24H</PriorID>
@@ -45,7 +45,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/traj/pvotrja.asc</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/traj/pvotrja.asc</URL>
             <Description>for daily data via ftp</Description>
          </AccessURL>
          <AccessURL>

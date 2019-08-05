@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Savissivik/Magnetometer/PT20S</ResourceID>
       <ResourceHeader>
          <ResourceName>Savissivik (SVS) Ground-based Vector Magnetic Field (L2) 20.0 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Savissivik, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 20.0 s Time Resolution, Station Code: (SVS), Station Location: (GEO Latitude 76.0, Longitude 294.9), DTU Network</Description>
          <Acknowledgement>Please acknowledge H. Gleisner, (Danish Meteorological Institute, Denmark)</Acknowledgement>
          <Contact>
@@ -33,7 +33,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/svs/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/svs/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager2/PLS/HIRES/CDF/PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Plasma Spectrometer (PLS) High Resolution Plasma Density, Thermal Speed, and Velocity (RTN) Data in CDF Format</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Voyager 2 High-Resolution Plasma Data.
                       The files in this directory contain the Voyager fine resolution plasma data. The plasma parameters are obtained by finding the best fit of a convected isotropic Maxwellian distribution to the data. One sigma errors are typically less than 0.5% in the speed and VR, less than 5% for the density and thermal speed, and vary greatly for VT and VN. Sampling times range from 12 to 192 sec., with sampling generally more frequent early in the mission.
                       The velocity components are given in the RTN coordinate system, where R is radially outward, T is in a plane parallel to the solar equatorial plane and positive in the direction of solar rotation, and N completes a right-handed system.
@@ -35,7 +35,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma_cdaweb/hires_plasma/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/plasma_cdaweb/hires_plasma/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
       </AccessURL>
       <AccessURL>

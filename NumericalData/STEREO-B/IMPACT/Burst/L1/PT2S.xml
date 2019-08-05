@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/Burst/L1/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients (IMPACT) Burst Criteria</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>STEREO Behind In-situ Measurements of Particles and CME Transients, IMPACT, Burst Criteria, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -32,7 +32,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/burst/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/burst/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

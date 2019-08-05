@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>LANL1990 Magnetospheric Plasma Analyzer (MPA) at 87 sec Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>LANL 095 MPA data</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The LANL 1990-095 MPA data set contains various parameters in a variety of coordinates systems including GEI, spacecraft, polar geographic, and polar magnetic coordinates at about 87 s resolution. These parameters include universal time, denisty, velocity, and temperature for both low and high energy ions and electrons as well as position information and instrument status flags. </Description>
       <Acknowledgement>Los Alamos National Laboratory; Dr. Michelle Thomsen; Dr. Michael G. Henderson</Acknowledgement>
       <Contact>
@@ -36,7 +36,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/lanl/90_mpa/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/lanl/90_mpa/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

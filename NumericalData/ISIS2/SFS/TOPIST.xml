@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ISIS2/SFS/TOPIST</ResourceID>
     <ResourceHeader>
       <ResourceName>ISIS 2 TOPIST Produced Electron Density Profiles</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This data set from the ISIS 2 (International Satellites for Ionospheric Studies) Swept-Frequency Sounder consists of electron density profiles for the ionosphere above the F2 maximum (topside ionosphere). The data set was generated from the averaged ionogram binary data (SPIO-00318) recorded by the Topside Sounder. The data are obtained with the TOPIST program, which analyzes the data, automatically scales the ionogram traces and resonances, and inverts the traces into an electron density profile. The same program is available for use to hand-scale the data if desired. Output data items include spacecraft position, electron density profile, assessment of quality, resonance and cut-off frequencies, and both the O-trace and X-trace.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/</URL>
 </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

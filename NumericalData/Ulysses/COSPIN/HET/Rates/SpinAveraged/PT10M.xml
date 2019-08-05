@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Ion and Electron Spin-Averaged Coincidence Counting Rates, 10 min Data</ResourceName>
       <AlternateName>COSPIN-HET-RATES-PT10M</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This Data Set contains 10 min Average Ion and Electron Spin-Averaged Coincidence Counting Rates from the COSPIN High Energy Telescope (HET). The Parameter Keys in the Parameter Level Segments below are specifically relevant to the UFA accessible Versions of the Data.</Description>
       <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
       <Contact>
@@ -61,7 +61,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP Access to CDF Files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/het/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/het/</URL>
         <Description>HET Data Access via FTP in CDF Format from SPDF</Description>
 </AccessURL>
       <AccessURL>
@@ -84,7 +84,7 @@
 </AccessURL>
       <AccessURL>
         <Name>FTP Access to ASCII Files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/het/10min_spinavg/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/het/10min_spinavg/</URL>
         <Description>HET Data Access via FTP in ASCII Format from SPDF</Description>
 </AccessURL>
       <AccessURL>

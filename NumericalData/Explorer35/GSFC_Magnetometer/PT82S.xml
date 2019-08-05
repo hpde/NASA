@@ -8,7 +8,7 @@
       <AlternateName>IMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>IMP-E Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>AIMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This data set, from the GSFC magnetometer on the lunar- orbiting Explorer 35 spacecraft, contains 81.92s averages, taken over 5.12s values, of the magnetic field magnitude and Cartesian components in GSE and GSM coordinates, plus the standard deviations for field magnitude and GSE component averages. The spacecraft position vector is given in GSE, GSM and SSE (Selenocentric Solar Ecliptic) coordinates. Additional parameters in the data records relate to field data in payload coordinates, spacecraft spin rate and spin axis direction, relative variability of the field vector and its magnitude, and various quality flags. The data are available in annual ASCII files.</Description>
       <Acknowledgement>To the instrument PI, Norman F. Ness, and to the Space Physics Data Facility at Goddard</Acknowledgement>
       <Contact>
@@ -17,7 +17,7 @@
 </Contact>
       <InformationURL>
         <Name>Readme file from SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/gsfc_magnetometer/82s_mag_data_ascii/aareadme.txt</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/gsfc_magnetometer/82s_mag_data_ascii/aareadme.txt</URL>
 </InformationURL>
       <PriorID>spase://VHO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</PriorID>
       <PriorID>spase://VMO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</PriorID>
@@ -28,7 +28,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/gsfc_magnetometer/82s_mag_data_ascii/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/gsfc_magnetometer/82s_mag_data_ascii/</URL>
 </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

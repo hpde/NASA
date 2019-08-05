@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/EESA_HIGH/PD/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP EESA-HIGH Electron Pitch-Angle Distributions</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Wind 3DP electron pitch angle product providing electron 
         fluxes in 8 directional bins relative to the local magnetic field 
         direction at 15 different energy levels.</Description>
@@ -39,7 +39,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_ehpd/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_ehpd/</URL>
         <Description>In CDF via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

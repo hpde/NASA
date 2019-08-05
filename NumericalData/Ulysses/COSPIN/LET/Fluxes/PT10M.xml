@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) Low Energy Telescope (LET) Spin-Integrated Ion Fluxes and Electron Counting Rates, 10 min Average Data</ResourceName>
       <AlternateName>COSPIN-LET-RAT-10M</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This Data Set contains 10 min Averages of: (a) Spin-Integrated Fluxes of Protons (0.9-1.2, 1.2-3.0, 1.8-3.8, 3.8-8.0 and 8.0-19.0 MeV), Alpha Particles (1.0-5.0, 1.9-3.7, 3.7-8.4 and 8.4-19.0 MeV/n), Lithium, Beryllium, and Boron Nuclei (1.9-4.9 and 4.9-26 MeV/n), Carbon, Nitrogen, and Oxygen Nuclei (2.6-7.1 and 7.1-39 MeV/n), Z&#x2265;10 Nuclei (3.0-9.0 MeV/n), 10&#x2264;Z&#x2264;20 Nuclei (9.0-50 MeV/n) and Z&#x2265;20 Nuclei (12-75 MeV/n). (b) Eight-Sectored Proton Fluxes (1.8-3.8 and 3.8-8.0 MeV). (c) Count Rates of Electrons (0.3-1.0 MeV) and D1, D2, D3, D4 and D5 single Detector Sensors. The Parameter Keys in the Parameter Level Segments below are specifically relevant to the UFA accessible Versions of the Data.</Description>
       <Acknowledgement>Please acknowledge the COSPIN PI, R. Bruce McKibben, the lead LET Co-PI, Richard G. Marsden, and the UDS and/or NSSDC</Acknowledgement>
       <Contact>
@@ -57,7 +57,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP Access to CDF Files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/let/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/let/</URL>
         <Description>LET Data Access via FTP in CDF Format from SPDF</Description>
 </AccessURL>
       <AccessURL>
@@ -80,7 +80,7 @@
 </AccessURL>
       <AccessURL>
         <Name>FTP Access to ASCII Files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/let/10_min/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/let/10_min/</URL>
         <Description>LET Data Access via FTP in ASCII Format from SPDF</Description>
 </AccessURL>
       <AccessURL>

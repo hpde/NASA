@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SOHO/Ephemeris/Definitive/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Definitive Orbit, 10 min Data, Spacecraft Position and Velocity in GCI, GSE, GSE, HEC, and HG Coordinates</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>SOHO Definitive Orbit, Spacecraft Position and Velocity in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, Geocentric Solar Magnetospheric, GSM, Heliospheric Ecliptic, HEC, and Heliographic, HG, Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
@@ -36,7 +36,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/soho/orbit/def_or/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/soho/orbit/def_or/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

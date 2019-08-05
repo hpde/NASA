@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/THEMIS/C/Ephemeris/SSCWeb/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C (P2/ARTEMIS-P2) Orbit (Ephemeris)</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>THEMIS-C Orbital Information provided via the Satellite Situation Center, SSCWeb, System and Services, Space Physics Data Facility, SPDF, GSFC, NASA</Description>
       <Acknowledgement>V. Angelopoulos</Acknowledgement>
       <Contact>
@@ -32,7 +32,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thc/ssc/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thc/ssc/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 4-sec data</ResourceName>
    <DOI>10.21978/P8PG8V</DOI>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2
 satellite, in spacecraft coordinates (close to GSE).</Description>
       <Acknowledgement>UCLA-IGPP ISEE Magnetometer Team, and the source
@@ -40,7 +40,7 @@ used for accessing data (see below).</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/4sec_mfi/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/4sec_mfi/</URL>
         <Description>ftp access to CDF files</Description>
 </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager1/PLS/Jupiter/Composition/VIPER/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Plasma Spectrometer (PLS) VIPER-Fit Plasma Ion Composition near Jupiter, 96 s Data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>These Data are from a Re-Analysis of the Voyager Plasma Spectrometer, PLS, Data at Jupiter by the PLS Group at the Laboratory for Atmospheric and Space Physics, LASP, at the University of Colorado. Density, Temperature, and Flow Velocity Fits for total and individual Ions were done using the Voyager Ion PLS Experiment Response, VIPER, Code and Error Analysis as described at http://lasp.colorado.edu/home.mop/missions/voyager/viper/. Fits are determined from processing of the Ion Currents from the A, B, C, and D Cups of the Instrument. As per the Fit Case Variable, one of five different Constraints were used in the VIPER Fits for each 96 s Time Interval: (1) Free Variation of all Parameters (mainly for the cold Ion Torus), (2) Constraint of the Ion Abundances for the five major Species (O+, O++, S+, S++, S+++) to standard Composition as determined from Delamere et al., (2005), (3) fixed Ion Composition and Flow Speed, (4) Cold Blobs in the Plasmasheet where resolved Peaks can be Fit with allowance for some Variance in Composition, (5) Interpolation between Composition of Cold Torus and standard Abundances at 6 RJ from Delamere et al., (2005). Reference: Delamere, P.A., Bagenal, F., and Steffl, A. (2005), Radial Variations in the Io Plasma Torus During the Cassini Era, J. of Geophys. Res., Space Phys., 110(A12), A12223, doi:10.1029/2005JA011251.</Description>
       <Acknowledgement>J.D. Richardson, F. Bagenal, Please acknowledge the Voyager 1 and Voyager 2 PLS PI, J.D. Richardson, MIT, and the Data Set Producer, F. Bagenal of the University of Colorado. For Public Distribution but Users are advised to contact F. Bagenal on Questions about how the Data were produced.</Acknowledgement>
       <Contact>
@@ -51,7 +51,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/plasma_cdaweb/composition/1979/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/plasma_cdaweb/composition/1979/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>

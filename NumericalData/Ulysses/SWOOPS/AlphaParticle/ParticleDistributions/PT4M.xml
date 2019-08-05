@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/AlphaParticle/ParticleDistributions/PT4M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses Solar Wind Observations Over the Poles of the Sun (SWOOPS) Alpha Particle Distribution Function Fitting Parameters, Key Parameter (K0), 4 min Data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This File contains the Parameters obtained by fitting Data to a Bi-Maxwellian Core-Beam Distribution. Under normal Circumstances, the first (slow) Population is the Core and the second (fast) Population is the Beam. When the Interplanetary Magnetic Field is folded back on itself due to Turbulence or other Processes the relation of the first and second Populations to the Core and Beam, respectively, is reversed (see, e.g., M.M. Neugebauer and B.E. Goldstein, AIP Conf. Proc. 1539, 46, 2013). The Vector Magnetic Field is given in RTN Coordinates and it was obtained for the Time at which the Peak of the Alpha Particle Distribution Function was measured. Only good Fits are retained.</Description>
       <Acknowledgement>D.J. McComas, B.E. Goldstein, M.M. Neugebauer, A. Tenerani</Acknowledgement>
       <Contact>
@@ -44,7 +44,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops_cdaweb/alpha-fit-parameters_swoops/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swoops_cdaweb/alpha-fit-parameters_swoops/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>

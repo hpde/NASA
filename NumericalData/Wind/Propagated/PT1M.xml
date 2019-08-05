@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Wind Magnetic Field Investigation (MFI) Solar Wind Experiment (SWE) 1-min field and plasma data at bow shock nose</ResourceName>
          <AlternateName>Wind at BSN</AlternateName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Solar wind magnetic field and plasma data at 1-min resolution created from Wind data shifted to the Earth&apos;s bow shock nose (BSN).</Description>
          <Acknowledgement>We acknowledge A. Szabo and R. Lepping of the MAG team, A. Lazarus and J. Kasper of the SWE team and J. King and N. Papitashvili of NASA/SPDF and ADNET who created this product.</Acknowledgement>
          <Contact>
@@ -19,7 +19,7 @@
          </Contact>
          <InformationURL>
             <Name>Readme file at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/00readme.txt</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/00readme.txt</URL>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/Wind/Propagated/PT1M</PriorID>
       </ResourceHeader>
@@ -41,7 +41,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/</URL>
             <Description>FTP path at SPDF/NSSDC</Description>
          </AccessURL>
          <AccessURL>

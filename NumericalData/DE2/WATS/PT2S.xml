@@ -7,7 +7,7 @@
       <ResourceName>DE 2 2s WATS Wind Velocity, Density and Temperature data</ResourceName>
       <AlternateName>Dynamics Explorer 2 WATS data</AlternateName>
       <AlternateName>DE-B WATS data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This data set contains, at 2-sec resolution,
 the neutral wind horizontal velocity, temperature and density
 from the Wind and Temperature Spectrometer (WATS) flown on DE 2. 
@@ -25,7 +25,7 @@ Investigator, the late Dr. Nelson Spencer</Acknowledgement>
 </Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt</URL>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/DE2/WATS/PT2S</PriorID>
 </ResourceHeader>
@@ -35,7 +35,7 @@ Investigator, the late Dr. Nelson Spencer</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
 </AccessURL>
       <AccessURL>

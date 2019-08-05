@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball/PC_Index/KeyParameter/K0/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Cap (PC), Northern and Southern Hemisphere Activity Indices, 5 min Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The PC Index is an Empirical Magnetic Activity Index based on Data from Single Near-Pole Station, Thule for the Northern Hemisphere and Vostok for the Southern Hemisphere, respectively). Its Derivation Procedure is optimized to achieve the Best Correlation of PC Index with the Solar Wind Electric Field, SWEF, Magnitude quantified by v*B*sin((theta/2)^2). The Average Horizontal Magnetic Disturbance Vector, Quiet Value subtracted, is projected onto the Optimal Direction, which is defined empirically for each UT Hour and each Season based on the Best COrrelation with the SWEF. After Normalization to the Equivalent Value of the SWEF, the PC Index is expressed in Units of mV/m. Although the PC Index is formally expressed in mV/m, it actually represents the Measure of Magnetic Activity, the Normalization Procedure to SWEF helps to reduce Seasonal and Diurnal Effects to facilitate the Intercomparison. The Time Resolution of the Northern Cap PC Index is 5 min while it is 15 min form the Southern PC Index. However, one Time SCale with a 5 min Step is used for both Indices and each 15 min averaged Value of southern index is, hence, repeated three Times. References: 1. Troshichev, O.A., et al., Planet. Space Sci., 36, 1095, 1988, 2. Vennerstrom, S., et al., Report UAG-103, World Data Center A for STP, Boulder, April 1994.</Description>
       <Acknowledgement>O.A. Troshichev</Acknowledgement>
       <Contact>
@@ -27,7 +27,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/interball/ground/geo_index/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/ground/geo_index/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

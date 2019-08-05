@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/UVI/L1_CDF</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar UVI Imagery from CDAWeb</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
 Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view. Images are generated once 
 every 37 seconds with a nominal pixel angular resolution of 0.036 degrees.</Description>
@@ -32,7 +32,7 @@ to the UVI data archive, to lists of UVI publications and presentations, and sev
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_level1/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_level1/</URL>
         <Description>FTP repository of Polar Level 1 UVI image data in CDF format at CDAWeb. This repository mirrors data from NSSTC.</Description>
       </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Explorer35/FaradayCup/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>Explorer 35 3-min solar wind plasma data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>This data set has 3-min resolution solar wind plasma parameters (flow speed and direction angles, ion thermal speed and density) from the MIT Faraday Cup on selenocentric Explorer 35 (AIMP 2, IMP E) spacecraft. There are geocentric and selenocentric spacecraft position data in the data records. The data are in annual ASCII files.</Description>
          <Acknowledgement>To the MIT plasma team and to the Space Physics Data Facility at Goddard</Acknowledgement>
          <Contact>
@@ -19,7 +19,7 @@
 </InformationURL>
          <InformationURL>
             <Name>NSSDC Data Set Catalog</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0168.pdf</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0168.pdf</URL>
 </InformationURL>
          <PriorID>spase://VHO/NumericalData/Explorer35/FaradayCup/PT3M</PriorID>
 </ResourceHeader>
@@ -29,7 +29,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/plasma_probe/3-min_interplanetary_plasma_param/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/explorer/explorer35/plasma_probe/3-min_interplanetary_plasma_param/</URL>
 </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>

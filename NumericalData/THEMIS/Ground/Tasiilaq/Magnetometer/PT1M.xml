@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Tasiilaq/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Tasiilaq (AMK) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Tasiilaq, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (AMK), Station Location: (GEO Latitude 65.6, Longitude 322.4), DTU Network</Description>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
@@ -37,7 +37,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/amk/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/amk/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

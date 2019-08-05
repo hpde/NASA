@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Vega1/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Vega 1 Trajectory Data</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Daily Vega 1 position data in Solar Ecliptic and HGI coordinates.</Description>
          <Acknowledgement>National Space Science Data Center(NSSDC), Space Physics Data Facility(SPDF).</Acknowledgement>
          <Contact>
@@ -28,7 +28,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/zzz_old/vega_data_from_nssdc/mag/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/zzz_old/vega_data_from_nssdc/mag/</URL>
             <Description>FTP access to Vega mission data at NSSDC.</Description>
          </AccessURL>
          <AccessURL>

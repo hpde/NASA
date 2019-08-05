@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Lethbridge/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Lethbridge (LETH) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Lethbridge, AB, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (LETH), Station Location: (GEO Latitude 49.6, Longitude 247.1), Athabasca University Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell and M. Connors, (University of California, Berkeley, University of California, Los Angeles and Athabasca University, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -46,7 +46,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/leth/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/leth/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

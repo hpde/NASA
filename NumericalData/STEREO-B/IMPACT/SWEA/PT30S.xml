@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/SWEA/PT30S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT/SWEA 30-sec 3D Distributions</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This set of data comes from the IMPACT/SWEA instrument on the STEREO Behind spacecraft. It contains 3D counts of low energy electrons distribution over a wide range of energies, angles and fluxes.</Description>
       <Acknowledgement>The STEREO IMPACT/SWEA Team</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/swea_dist/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/swea_dist/</URL>
         <Description>NASA/GSFC CDAWeb ftp access to the data.</Description>
 </AccessURL>
       <AccessURL>

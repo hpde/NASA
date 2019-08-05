@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMAGE/HK/UDF/Data</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE housekeeping data in UDF, all instruments</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>This is a set of data at multiple processing levels from all IMAGE instruments.   Built by a UNIX-afficionado requiring editing .cshrc's, etc., the data are in Universal Data Format (UDF), and at the moment, has no PC install documentation. UDF software is available to read the IMAGE UDF files.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
@@ -26,7 +26,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>CIPD data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/cipd/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/cipd/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>CIPD data from SPDF HTTP area</Name>
@@ -34,7 +34,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>EUV data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/euv/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/euv/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>EUV data from SPDF HTTP area</Name>
@@ -42,7 +42,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>FUV data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/fuv/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/fuv/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>FUV data from SPDF HTTP area</Name>
@@ -50,7 +50,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>HENA data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/hena/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/hena/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>HENA data from SPDF HTTP area</Name>
@@ -58,7 +58,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>LENA data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/lena/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/lena/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>LENA data from SPDF HTTP area</Name>
@@ -66,7 +66,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>MENA data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/mena/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/mena/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>MENA data from SPDF HTTP area</Name>
@@ -74,7 +74,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>ORBIT data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/orbit/ORBIT/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/orbit/ORBIT/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>ORBIT data from SPDF HTTP area</Name>
@@ -82,7 +82,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>RPI data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/rpi/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/rpi/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>RPI data from SPDF HTTP area</Name>
@@ -90,7 +90,7 @@
 </AccessURL>
             <AccessURL>
                 <Name>SC data from SPDF FTP area</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/image/sc/UDF/2000/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/image/sc/UDF/2000/</URL>
 </AccessURL>
             <AccessURL>
                 <Name>SC data from SPDF HTTP area</Name>

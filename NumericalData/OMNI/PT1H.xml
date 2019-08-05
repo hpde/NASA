@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/OMNI/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI Hourly Data Set</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Hourly averaged, multi-source, near-Earth solar wind magnetic 
 field, plasma and energetic proton flux data, plus AE, AU, AL, Kp, ap, and Dst 
 geomagnetic indices, Polar Cap (Thule) index, F10.7 index, and Rz (sunspot number).  
@@ -74,7 +74,7 @@ for creating the OMNI data set.</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to CDFs at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hourly/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/omni_cdaweb/hourly/</URL>
         <Description>ftp access to annual ASCII files of 1-hour OMNI data 
 and to one full-time-span file for each 1-day and 27-day averages.</Description>
       </AccessURL>
@@ -96,7 +96,7 @@ and to one full-time-span file for each 1-day and 27-day averages.</Description>
       </AccessURL>
       <AccessURL>
         <Name>FTP access to ASCII files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/low_res_omni/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <AccessURL>

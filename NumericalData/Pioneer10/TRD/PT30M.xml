@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/TRD/PT30M</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Trapped Radiation Detector (TRD) 30-m Count Rate Summary Data</ResourceName>
-            <ReleaseDate>2018-02-22T15:50:20Z</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>This ASCII data set contains 30-min count rates for 
 21 "pulse-counting" channels from a Cerenkov counter (which measures,
 via 3 discrimination levels, electrons &gt;6 MeV plus nuclei &gt;480 MeV/n,
@@ -25,7 +25,7 @@ and the GSFC Space Physics Data Facility.</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>Readme at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/trd/ip_30min_ascii/p10trd_voldesc.sfdu</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/trd/ip_30min_ascii/p10trd_voldesc.sfdu</URL>
                 <Description>Voldesc.sfdu file gerenated by PI team</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Pioneer10/TRD/PT30M</PriorID>
@@ -36,7 +36,7 @@ and the GSFC Space Physics Data Facility.</Acknowledgement>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/trd/ip_30min_ascii/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/trd/ip_30min_ascii/</URL>
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>

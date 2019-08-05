@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP8/EECA/PT11M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 UMD EECA 10.92m Rates, PHA</ResourceName>
-            <ReleaseDate>2018-02-23T16:11:25Z</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>This data set, from the Electrostatic Energy-Charge
 Analyzer (EECA) part of the U. Maryland experiment on IMP 8, contains 
 count rate and pulse height data enabling the computation of 10.92-min 
@@ -35,7 +35,7 @@ and Fred Ipavich.</Acknowledgement>
             </Contact>
             <InformationURL>
                 <Name>NSSDC Data Set Catalog</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0476.pdf</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0476.pdf</URL>
                 <Description>See especially the instrument-team-generated
 descriptive material on the experiment and data inside the Data Set 
 Catalog</Description>
@@ -48,7 +48,7 @@ Catalog</Description>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_umd/11min_ascii/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_umd/11min_ascii/</URL>
                 <Description>monthly ASCII files via ftp</Description>
             </AccessURL>
             <AccessURL>

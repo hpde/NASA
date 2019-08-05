@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/Ephemeris/Burst/Level2/Tsyganenko_89_Quiet/PT0.030S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Magnetic Ephemeris and Coordinates (MEC) Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Burst Survey</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Magnetospheric Multiscale 3 (MMS 3) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
       <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
       <Contact>
@@ -41,7 +41,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/mms/mms3/mec/brst/l2/epht89q/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms3/mec/brst/l2/epht89q/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
       </AccessURL>
       <AccessURL>

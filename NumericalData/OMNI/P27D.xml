@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/OMNI/P27D</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI 27-Day Data Set</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>27-day averaged, multi-source, near-Earth solar wind magnetic field, plasma and energetic proton flux data, plus AE, AU, AL, Kp, ap, and Dst geomagnetic indices, Polar Cap (Thule) index, F10.7 index, and Rz (sunspot number). Also available at 1-hour and 1-day resolution.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC for creating the OMNI data set.</Acknowledgement>
       <Contact>
@@ -74,7 +74,7 @@
       </AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/omni/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/</URL>
         <Description>ftp access to file of 27-day OMNI data</Description>
       </AccessURL>
       <AccessURL>

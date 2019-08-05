@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Voyager 2 LECP Key Channel Intensities in ASCII Format daily</ResourceName>
       <AlternateName>V2-LECP-KEYFLUX-PT1H</AlternateName>
-      <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Count Rates, Averaged Over All Sectors, Voyager2, LECP, Filtered, Channel, Calibrated, CadencePT24H
             
             Each file in this directory contains one year's worth of data from the
@@ -57,7 +57,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_ion_flux_1day/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_ion_flux_1day/</URL>
         <Description>http access to annual ASCII files</Description>
       </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/EESA_LOW/SP/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP 24-sec ESSA-LOW Electron Omnidirectional Fluxes</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This set of plasma data in the interplanetary medium was derived from the Wind 3-D Plasma and Energetic Particle Experiment, specifically from the electron electrostatic analyzers LOW (EESA LOW) measurements of electron fluxes in omnidirections from 3 eV to 30 keV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
@@ -19,7 +19,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_elsp/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_elsp/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

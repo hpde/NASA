@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/DustImpact/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Plasma and Radio Waves (WAVES) Time Domain Sampler (TDS) Dust Impact, Level 3, 1 s Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Wind WAVES Time Domain Sampler, TDS, Dust Data File References: 1) Bougeret, J.-L., et al., WAVES: The Radio and Plasma Wave Investigation on the Wind Spacecraft, Space Sci. Rev., 71, 231-263, 1995, doi:10.1007/BF00751331. 2) Malaspina, D.M., M. Horanyi, A. Zaslavsky, K. Goetz, L.B. Wilson III, and K. Kersten, Interplanetary and Interstellar Dust observed by the Wind/WAVES Electric Field Instrument, Geophys. Res. Lett., 41, 266-272, 2014, doi:10.1002/2013GL058786. 3) Malaspina, D.M., and L.B. Wilson III, A Database of Interplanetary and Interstellar Dust Detected by the Wind Spacecraft, J. Geophys. Res., 121, 9369&#x2013;9377, 2016, doi:10.1002/2016JA023209.</Description>
       <Acknowledgement>D.M. Malaspina, L.B. Wilson III, R.J. MacDowall, We would like to thank the Wind/WAVES team, especially Keith Goetz, Paul J. Kellogg, Kris Kersten, and Josh Lynch for their Support with Data Retrieval and Calibration. Please Cite or Reference the Wind WAVES Paper by J.-L. Bougeret et al., 1995 in Space Sci. Rev. and Work by D.M. Malaspina et al., 2014 in Geophys. Res. Lett., doi:10.1002/2013GL058786. We would also appreciate a Reference to the Wind Dust Impact Database Paper: D.M. Malaspina et al., 2016, in J. Geophys. Res., doi:10.1002/2016JA023209.</Acknowledgement>
       <Contact>
@@ -40,7 +40,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/waves/dust_impact_l3/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/waves/dust_impact_l3/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>

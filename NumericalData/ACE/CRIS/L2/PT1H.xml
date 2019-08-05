@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/CRIS/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, to Z=28, nickel) at 1-hour time resolution. Overall energy ranges covered go from 49-172 MeV/n for boron to 130-496 MeV/n for nickel. Calibrated science quality data. Parameter segments below address intensities but not also the count rates included in the data set. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. Daily averaged L2 fluxes and rates are also available from these access paths. The "parameter keys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/cris/level_2_cdaweb/cris_h2/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/cris/level_2_cdaweb/cris_h2/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>

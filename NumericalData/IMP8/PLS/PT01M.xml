@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>IMP 8 MIT Full Resolution Definitive Interplanetary Plasma Data</ResourceName>
       <AlternateName>IMP 8 Solar Wind Plasma Faraday Cup Data</AlternateName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The MIT Faraday cup experiment on IMP 8 measures 
 currents from solar wind ions, and from these measurements we calculate 
 the velocity, density, and temperature of the solar wind. The IMP 8 data 
@@ -58,7 +58,7 @@ which you accessed the data.</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/sw_msheath_min/00readme.txt</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/sw_msheath_min/00readme.txt</URL>
         <Description>Text created by MIT IMP8 plasma team</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/IMP8/PLS/PT01M</PriorID>
@@ -69,7 +69,7 @@ which you accessed the data.</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/plasma_mit/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>

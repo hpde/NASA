@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Sand.Point/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Shumagin (SHU) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Shumagin (Sand Point), AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (SHU), Station Location: (GEO Latitude 55.4, Longitude 199.5), USGS Network</Description>
          <Acknowledgement>Please acknowledge C.A. Finn, (United States Geological Survey, Golden)</Acknowledgement>
          <Contact>
@@ -32,7 +32,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/shu/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/shu/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>

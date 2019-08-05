@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ST5-224/Ephemeris/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-224 satellite position and magnetic field data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>ST5-C satellite position and magnetic field model information.</Description>
       <!-- Automatically generated for SSC on 2013-05-22T13:55:29Z -->
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
@@ -26,7 +26,7 @@
       </AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL> ftp://spdf.gsfc.nasa.gov/pub/data/st5/224/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/st5/224/</URL>
         <Description> NASA/GSFC CDAWeb ftp access to the data.</Description>
       </AccessURL>
       <AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>ACE Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 1-hour time resolution. Calibrated science quality data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The "parameter keys" given below are as used by CDAWeb. Daily and 27-day averages are also available via the ASC paths given below.</Description>
       <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -34,7 +34,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h2/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h2/</URL>
         <Description>FTP repository of 1-hour ACE/EPAM L2 data in CDF format at CDAWeb</Description>
       </AccessURL>
       <AccessURL>

@@ -7,7 +7,7 @@
       <ResourceName>DE 2 500ms Langmuir Probe (LANG)  Te and Ni data</ResourceName>
       <AlternateName>Dynamics Explorer 2 LANG data</AlternateName>
       <AlternateName>DE-B LANG data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>This data set contains electron temperatures and
 ion densities obtained at 500ms resolution from the DE 2 Langmuir
 Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF
@@ -28,7 +28,7 @@ Dr. Larry Brace</Acknowledgement>
 </Contact>
       <InformationURL>
         <Name>Readme file at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/00readme.txt</URL>
 </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog on the Langmuir Probe (LANG)</Name>
@@ -43,7 +43,7 @@ Dr. Larry Brace</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_lang/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
 </AccessURL>
       <AccessURL>

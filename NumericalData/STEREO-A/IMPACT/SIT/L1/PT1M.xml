@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/SIT/L1/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A IMPACT (In-Situ Measurements of Particles and CME Transients) Suprathermal Ion Telescope (SIT) 1-min Level 1 Multi-Z Ion Spectra</ResourceName>
-      <ReleaseDate>2018-08-07T14:26:54Z</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>The IMPACT Suprathermal Ion Telescope (SIT) data 
 consist of 1-min resolution ion fluxes of the following species (and
 numbers of energy bands, typically spanning ~0.04-9 MeV/n): H(12), 
@@ -40,7 +40,7 @@ of UCB</Acknowledgement>
       </AccessURL>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/sit/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/sit/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
