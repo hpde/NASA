@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/ASCII/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data in ASCII Format</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the 
         outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
         to the most probable magnetic field strength in the inner heliosheath and significantly larger 
@@ -56,7 +56,7 @@
       </Contact>
       <InformationURL>
         <Name>Readme at Voyager MAG team web site</Name>
-        <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
+        <URL>https://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/Voyager1/MAG/PT48S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/PT48S</PriorID>
@@ -67,7 +67,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Voyager/MAG team site</Name>
-        <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/v1/</URL>
+        <URL>https://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/v1/</URL>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>

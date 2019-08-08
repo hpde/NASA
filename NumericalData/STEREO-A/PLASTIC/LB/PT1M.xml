@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/LB/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A PLasma and Supra-Thermal Ion Composition (PLASTIC) Beacon Data</ResourceName>
-         <ReleaseDate>2017-10-13T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
          <Description>PLASTIC - PLasma And SupraThermal Ion and Composition. The PLASTIC Experiment provides Plasma Characteristics of Protons, Alpha Particles and Heavy Ions. PLASTIC provides Key Diagnostic Measurements of Mass and Charge State Composition of Heavy Ions and distinguishes Coronal Mass Ejection, CME, Plasma from Ambient Coronal Plasma. STEREO Beacon Data are Real-Time Estimated Data processed for Operational Use only. PLASTIC Beacon Data have not been validated and should not be used for Publication Purposes. Do not cite. References: http://stereo.sr.unh.edu/stereo.html.</Description>
          <Acknowledgement>A.B. Galvin, Please acknowledge the Principal Investigator, Antoinette Galvin of the University of New Hampshire, and NASA Contract NAS5-00132. See the Rules of Use available at http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm. Data Usage Policy: Data provided are Public Domain. These Data are made available in a timely Manner for the Purpose of identifying interesting Event Periods and these Data undergo Revisions. Please consult the README File concerning Data Quality. PLASTIC Beacon Data have not been validated and should not be used for publication Purposes. Do not cite. STEREO PLASTIC Investigation, A.B. Galvin, PI, NASA Grant NNX13AP52G.</Acknowledgement>
          <Contact>
@@ -44,11 +44,6 @@
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
-         <AccessURL>
-            <Name>FTP access to files at the SSC</Name>
-            <URL>ftp://stereo-ssc.nascom.nasa.gov/pub/beacon/ahead/plastic/</URL>
-            <Description>Access to Data in CDF Format via ftp from the STEREO Science Center</Description>
-         </AccessURL>
          <AccessURL>
             <Name>HTTP access to files at the SSC</Name>
             <URL>https://stereo-ssc.nascom.nasa.gov/data/beacon/ahead/plastic/</URL>

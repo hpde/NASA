@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/Binary/PT1.92S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 1.92-s Averaged Triaxial Fluxgate Magnetometer (MAG) Interplanetary Magnetic Field in Binary Format</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
       <Description>This data set includes the Voyager spacecraft number (1 or 2), the date-time in
 decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1
 computed from high-resolution magnitudes, the elevation and azimuth angles
@@ -87,7 +87,7 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
       </Contact>
       <InformationURL>
         <Name>Readme at Voyager MAG team web site</Name>
-        <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
+        <URL>https://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
       </InformationURL>
       <InformationURL>
         <Name>as defined for the original VMS binary format</Name>
@@ -103,7 +103,7 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Voyager/MAG team site</Name>
-        <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/v2/</URL>
+        <URL>https://vgrmag-data.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/v2/</URL>
       </AccessURL>
       <Format>Text</Format>
     </AccessInformation>
