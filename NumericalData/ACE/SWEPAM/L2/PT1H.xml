@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Plasma Moments, Level 2 (H2), 1 h Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-23T19:31:33Z</ReleaseDate>
       <Description>This Data Product contains Measurements from the ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) Instrument. The Quality of the ACE Level 2 Data are such that it is suitable for serious Scientific Study. However, to avoid Confusion and Misunderstanding, it is recommended that Users consult with the appropriate ACE Team Members before publishing Work derived from the Data. The ACE Team has worked hard to ensure that the Level 2 Data are free from Errors, but the Team cannot accept Responsibility for erroneous Data, or for Misunderstandings about how the Data may be used. This is especially true if the appropriate ACE Team Members are not consulted before Publication. At the very least, Preprints should be forwarded to the ACE Team before Publication. SWEPAM References: http://www.srl.caltech.edu/ACE/</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. See the Rules Of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html.</Acknowledgement>
       <Contact>
@@ -36,7 +35,7 @@
       </InformationURL>
       <InformationURL>
         <Name>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Instrument Home Page at the Los Alamos National Laboratory</Name>
-        <URL>https://swepam.lanl.gov</URL>
+        <URL>https://www.swepam.lanl.gov</URL>
         <Description>ACE SWEPAM Instrument Home Page at LANL</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT3600S</PriorID>

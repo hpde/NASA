@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
 	<Version>2.3.0</Version>
 	<NumericalData>
@@ -7,7 +6,7 @@
 			<ResourceName>ACE Linearly Interpolated 60 s Resolution SWEPAM data in GSM Coordinates</ResourceName>
 			<AlternateName>ACE SWEPAM data</AlternateName>
 			<DOI>10.21978/P81K9C</DOI>
-			<ReleaseDate>2018-05-01T14:34:45Z</ReleaseDate>
+			<ReleaseDate>2019-10-23T19:31:33Z</ReleaseDate>
 			<Description>ACE linearly interpolated to have the measurements on the minute at 60 s resolution SWEPAM data in GSM coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
 			<Acknowledgement>NASA, David.J.McComas, James M. Weygand</Acknowledgement>
 			<PublicationInfo>
@@ -30,7 +29,7 @@
 			</InformationURL>
 			<InformationURL>
 				<Name>ACE SWEPAM Instrument</Name>
-				<URL>https://swepam.lanl.gov/text.html</URL>
+				<URL>https://www.swepam.lanl.gov/text.html</URL>
 				<Description>ACE SWEPAM Data Server</Description>
 			</InformationURL>
 			<PriorID>spase://VMO/NumericalData/Weygand/ACE/SWEPAM/Processed/GSM/PT60S</PriorID>
