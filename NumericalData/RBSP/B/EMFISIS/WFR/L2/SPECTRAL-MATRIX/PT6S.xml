@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L2/SPECTRAL-MATRIX/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Waveform Receiver (WFR) Cross Spectral Matrix, Level 2 (L2), 6 s Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
       <Description>Van Allen Probe B Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Waveform Receiver (WFR) Three-Axis Electric Field (EU, EV, EW) and Magnetic Field (BU, BV, BW) Cross Spectral Matrix, Six Diagonal and 15 Off-Diagonal Components, 10 kHz to 487 kHz, 82 Frequency Bins</Description>
       <Acknowledgement>C. Kletzing</Acknowledgement>
       <Contact>
@@ -83,7 +83,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-09-01T00:00:00.000</StartDate>
-        <RelativeStopDate>-P7D</RelativeStopDate>
+        <StopDate>2019-10-18T16:30:00Z</StopDate>
 </TimeSpan>
       <Cadence>PT6S</Cadence>
 </TemporalDescription>

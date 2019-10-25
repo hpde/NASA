@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/WaveformContinuousBurst/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) WaveForm Receiver (WFR) Three Axis Electric Field and Magnetic Field Continuous Burst Waveforms as 16384 Samples at 35 kS/sec, Level 2 (L2), 6 s Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
       <Description>Van Allen Probe A, Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, WaveForm Receiver, WFR, Level 2 Data. Three Axis Electric Field (Eu, Ev, Ew) and three Axis Magnetic Field (Bu, Bv, Bw) Continuous Burst Waveforms at 35 kS/s.
                       
                       The Continuous Waveform Burst Mode is very similar to the Waveform Burst with Spectral Matrices Mode in that it produces a standard Survey Set of Spectral Matrices based on a 0.5 s Waveform Capture every 6 s. In addition, this Mode captures Continuous Waveforms for 5.968 s between each 6 s Survey Data Set, leaving a 0.032 s Gap between successive Captures. This Mode can be operated continuously for fixed Durations up to several Minutes. Alternatively, it can be used in conjunction with Burst Quality Flags that retain the best N 5.968 s Captures (N &#8804; 20) in a preset Time Interval.
@@ -95,7 +95,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-09-01T22:14:55.000</StartDate>
-        <RelativeStopDate>-P15D</RelativeStopDate>
+        <StopDate>2019-10-18T16:30:00Z</StopDate>
       </TimeSpan>
       <Cadence>PT6S</Cadence>
     </TemporalDescription>

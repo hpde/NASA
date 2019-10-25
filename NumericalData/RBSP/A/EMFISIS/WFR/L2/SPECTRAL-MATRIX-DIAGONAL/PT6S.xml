@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/SPECTRAL-MATRIX-DIAGONAL/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A WFR Spectral Matrix data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
       <Description>WaveForm Receiver (WFR) Spectral Matrix ~5-10000 Hz (Diagonal Elements Only) - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -73,7 +73,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-08-30T22:55:42.000Z</StartDate>
-        <RelativeStopDate>-P30D</RelativeStopDate>
+        <StopDate>2019-10-18T16:30:00Z</StopDate>
       </TimeSpan>
       <Cadence>PT6S</Cadence>
     </TemporalDescription>

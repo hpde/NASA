@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER/L3/GEI/PT0.015625S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Fluxgate Magnetometer high resolution data in GEI coordinates</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
       <Description>Fluxgate magnetometer data - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -68,7 +68,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-10-07T23:59:59.000Z</StartDate>
-        <RelativeStopDate>-P30D</RelativeStopDate>
+        <StopDate>2019-10-18T16:30:00Z</StopDate>
       </TimeSpan>
       <Cadence>PT0.015625S</Cadence>
     </TemporalDescription>

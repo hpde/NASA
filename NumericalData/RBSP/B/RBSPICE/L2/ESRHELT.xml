@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L2/ESRHELT</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B RBSPICE High Energy Resolution Electron Rates converted Level-2 data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
       <Description>This data set contains Van Allen Probe B RBSPICE (Radiation Belt Storm Probes Ion Composition Experiment) high-energy resolution electron rates that are measured at low-time resolution.  Unidirectional Differential Electron Flux (FEDU) measured by 6 telescopes in 64 channels from ~0.02-1.0 MeV are available in physical units (counts/(s*sr*cm^2*MeV) by telescope in sector order (T0= ~110 PA, T3= ~all PAs, T5= FEDU background).  Also available are percentage error of measurement, quality flag, current sector number where each spin is dividied into 36 sectors, duration of the accumulation, current spin number of the spacecraft, orbit number, dipole L using the SM reference frame, and position of the spacecraft in SM coordinates.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -66,7 +66,7 @@
     <TemporalDescription>
       <TimeSpan>
         <StartDate>2012-12-02T00:11:43.000Z</StartDate>
-        <RelativeStopDate>-P30D</RelativeStopDate>
+        <StopDate>2019-10-18T16:30:00Z</StopDate>
       </TimeSpan>
     </TemporalDescription>
     <Parameter>
