@@ -4,30 +4,30 @@
         <ResourceID>spase://VSPO/Catalog/SOHO/LASCO/Halo.EVENTLIST</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO LASCO Halo CME Event List</ResourceName>
-            <ReleaseDate>2012-05-08T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>SOHO LASCO Halo CME (Coronal Mass Ejection) Event List</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Nat.Gopalswamy</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/Catalog/P_SOHO_HDR_LASCO_Halo_CME_EVENTLIST</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAW Halo CME listing at GSFC</Name>
-                <URL>http://cdaw.gsfc.nasa.gov/CME_list/halo/halo.html</URL>
-            </AccessURL>
+                <URL>https://cdaw.gsfc.nasa.gov/CME_list/halo/halo.html</URL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/SOHO/LASCO</InstrumentID>
         <PhenomenonType>CoronalMassEjection</PhenomenonType>
         <TimeSpan>
             <StartDate>1996-01-11T00:00:00</StartDate>
             <RelativeStopDate>-P6M</RelativeStopDate>
             <Note>Data are current to within about 6 months.</Note>
-        </TimeSpan>
-    </Catalog>
+</TimeSpan>
+</Catalog>
 </Spase>

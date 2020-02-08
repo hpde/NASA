@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios2/Ephemeris/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 2 Daily Trajectory Data </ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>This data set contains orbital parameters for Helios 2: Helios-Sun distance, heliographic longitude from the ascending node, heliographic latitude, ecliptical longitude from the mean equinox, ecliptical longitude from the Earth-Sun line, ecliptical latitude, Helios - Earth distance, 
 and number of rotations of the Sun referred to Helios since launch.</Description>
             <Acknowledgement>Please acknowledge the National Space Science Data Center(NSSDC).</Acknowledgement>
@@ -14,7 +14,7 @@ and number of rotations of the Sun referred to Helios since launch.</Description
             </Contact>
             <InformationURL>
                 <Name>Readme file at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/traj/day/helorb.txt</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/traj/day/helorb.txt</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/P_HELIOS2_HDR_EPHEMERIS_24H</PriorID>
         </ResourceHeader>
@@ -24,7 +24,7 @@ and number of rotations of the Sun referred to Helios since launch.</Description
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/helios/helios2/traj/day/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/traj/day/</URL>
                 <Description>Via ftp in ASCII from SPDF</Description>
             </AccessURL>
             <AccessURL>

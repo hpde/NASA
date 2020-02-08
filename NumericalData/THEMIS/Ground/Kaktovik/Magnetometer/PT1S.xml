@@ -4,63 +4,71 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Kaktovik/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
-         <ResourceName>Kaktovik (KAKO) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
-         <Description>Kaktovik, AK, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (KAKO), Station Location: (GEO Latitude 70.1, Longitude 217.4), University of Alaska Network</Description>
-         <Acknowledgement>Please acknowledge D. Hampton, (University of Alaska)</Acknowledgement>
+         <ResourceName>Kaktovik (KAKO) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <Description>Kaktovik, AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (KAKO), Station Location: (GEO Latitude 70.1, Longitude 216.4), University of Alaska Network</Description>
+         <Acknowledgement>Please acknowledge D. Hampton, V. Angelopoulos, C.T. Russell, (University of Alaska, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Ground-based Observatory (GBO) Network Information Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
             <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
-         </InformationURL>
-         <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Kaktovik/Magnetometer/PT1S</PriorID>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/kako/</URL>
-            <Description>In CDF via ftp from SPDF.</Description>
-         </AccessURL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/kako/</URL>
+            <Description>Access to Data in CDF Format via ftp from SPDF</Description>
+</AccessURL>
          <AccessURL>
             <Name>HTTP access to files at SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/kako/</URL>
-            <Description>In CDF via http from SPDF.</Description>
-         </AccessURL>
+            <Description>Access to Data in CDF Format via http from SPDF</Description>
+</AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
             <ProductKey>THG_L2_MAG_KAKO</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-         </AccessURL>
+</AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
-         <Acknowledgement>Please acknowledge D. Hampton, (University of Alaska). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-      </AccessInformation>
+         <Acknowledgement>Please acknowledge D. Hampton, V. Angelopoulos, C.T. Russell, (University of Alaska, University of California, Los Angeles, respectively, NASA NAS5-02099). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+</AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
+      <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Ground/Kaktovik/Magnetometer</InstrumentID>
       <MeasurementType>MagneticField</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2007-01-01T01:00:00</StartDate>
-            <RelativeStopDate>-P2M</RelativeStopDate>
-         </TimeSpan>
+            <RelativeStopDate>-P3D</RelativeStopDate>
+</TimeSpan>
          <Cadence>PT1S</Cadence>
-      </TemporalDescription>
+</TemporalDescription>
       <Parameter>
          <Name>B in HEZ Components</Name>
          <Set>Time series defined by using: thg_mag_kako_epoch</Set>
@@ -72,117 +80,117 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>B in HEZ Components</AxisLabel>
-            <ValueFormat>f7.1</ValueFormat>
+            <ValueFormat>F7.1</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>Magnetic North - H</Name>
+               <Name>Magnetic North, H</Name>
                <Qualifier>Component.I</Qualifier>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
-               <Name>Magnetic East - E</Name>
+               <Name>Magnetic East, E</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>2</AxisLabel>
-               </RenderingHints>
-            </Element>
+</RenderingHints>
+</Element>
             <Element>
-               <Name>Vertical Down - Z</Name>
+               <Name>Vertical Down, Z</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>3</AxisLabel>
-               </RenderingHints>
-            </Element>
-         </Structure>
+</RenderingHints>
+</Element>
+</Structure>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Vector</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>H component of B</Name>
          <Set>Time series defined by using: thg_mag_kako_epoch</Set>
          <ParameterKey>thg_magh_kako</ParameterKey>
-         <Description>---&gt; H - Local magnetic North component of B</Description>
-         <Caveats>This parameter is virtual.  It is calculated by calling the function ALTERNATE_VIEW with the following input parameters:  thg_mag_kako.</Caveats>
+         <Description>---&gt; H, Local magnetic North component of B</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: thg_mag_kako.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>Magnetic North - H</AxisLabel>
-            <ValueFormat>f7.1</ValueFormat>
+            <AxisLabel>Magnetic North, H</AxisLabel>
+            <ValueFormat>F7.1</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.I</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>E component of B</Name>
          <Set>Time series defined by using: thg_mag_kako_epoch</Set>
          <ParameterKey>thg_magd_kako</ParameterKey>
-         <Description>---&gt; E - Local magnetic East component of B</Description>
-         <Caveats>This parameter is virtual.  It is calculated by calling the function ALTERNATE_VIEW with the following input parameters:  thg_mag_kako.</Caveats>
+         <Description>---&gt; E, Local magnetic East component of B</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: thg_mag_kako.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>Magnetic East - E</AxisLabel>
-            <ValueFormat>f7.1</ValueFormat>
+            <AxisLabel>Magnetic East, E</AxisLabel>
+            <ValueFormat>F7.1</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.J</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>Z component of B</Name>
          <Set>Time series defined by using: thg_mag_kako_epoch</Set>
          <ParameterKey>thg_magz_kako</ParameterKey>
-         <Description>---&gt; Z - Local vertical down component of B</Description>
-         <Caveats>This parameter is virtual.  It is calculated by calling the function ALTERNATE_VIEW with the following input parameters:  thg_mag_kako.</Caveats>
+         <Description>---&gt; Z, Local vertical down component of B</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: thg_mag_kako.</Caveats>
          <Cadence>PT1S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1e-9&gt;T</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>Vertical Down - Z</AxisLabel>
-            <ValueFormat>f7.1</ValueFormat>
+            <AxisLabel>Vertical Down, Z</AxisLabel>
+            <ValueFormat>F7.1</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>-60000.0</ValidMin>
          <ValidMax>60000.0</ValidMax>
          <FillValue>NaN</FillValue>
          <Field>
             <Qualifier>Component.K</Qualifier>
             <FieldQuantity>Magnetic</FieldQuantity>
-         </Field>
-      </Parameter>
+</Field>
+</Parameter>
       <Parameter>
          <Name>HEZ Component Number</Name>
          <ParameterKey>thg_mag_kako_compno</ParameterKey>
@@ -191,37 +199,37 @@
          <CoordinateSystem>
             <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
             <CoordinateSystemName>LGM</CoordinateSystemName>
-         </CoordinateSystem>
+</CoordinateSystem>
          <RenderingHints>
             <AxisLabel>HEZ Component Number</AxisLabel>
-            <ValueFormat>i2</ValueFormat>
+            <ValueFormat>I2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
-         </RenderingHints>
+</RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
                <Name>Element 1</Name>
                <Qualifier>Component.I</Qualifier>
                <Index>1</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 2</Name>
                <Qualifier>Component.J</Qualifier>
                <Index>2</Index>
-            </Element>
+</Element>
             <Element>
                <Name>Element 3</Name>
                <Qualifier>Component.K</Qualifier>
                <Index>3</Index>
-            </Element>
-         </Structure>
+</Element>
+</Structure>
          <ValidMin>1</ValidMin>
          <ValidMax>3</ValidMax>
          <FillValue>-2147483648</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kako_time</Name>
          <ParameterKey>thg_mag_kako_time</ParameterKey>
@@ -231,31 +239,31 @@
          <Units>s</Units>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-            <ValueFormat>e12.2</ValueFormat>
-         </RenderingHints>
+            <ValueFormat>E12.2</ValueFormat>
+</RenderingHints>
          <ValidMin>0.0</ValidMin>
          <ValidMax>5.0e+09</ValidMax>
          <FillValue>NaN</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kako_epoch</Name>
          <ParameterKey>thg_mag_kako_epoch</ParameterKey>
          <Description>thg_mag_kako_epoch</Description>
-         <Caveats>This parameter is virtual.  It is calculated by calling the function COMP_THEMIS_EPOCH with the following input parameters:  thg_mag_kako_epoch0, thg_mag_kako_time.</Caveats>
+         <Caveats>This parameter is virtual. It is calculated by calling the function COMP_THEMIS_EPOCH with the following input parameters: thg_mag_kako_epoch0, thg_mag_kako_time.</Caveats>
          <Cadence>PT1S</Cadence>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-2001 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2100 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>thg_mag_kako_epoch0</Name>
          <ParameterKey>thg_mag_kako_epoch0</ParameterKey>
@@ -266,14 +274,14 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>timebase</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-1900 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2029 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
-         </Support>
-      </Parameter>
+</Support>
+</Parameter>
       <Parameter>
          <Name>range_epoch</Name>
          <ParameterKey>range_epoch</ParameterKey>
@@ -283,13 +291,13 @@
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
             <AxisLabel>UT</AxisLabel>
-         </RenderingHints>
+</RenderingHints>
          <ValidMin>01-Jan-2001 00:00:00.000</ValidMin>
          <ValidMax>31-Dec-2100 23:59:59.999</ValidMax>
          <FillValue>31-Dec-9999 23:59:59.999</FillValue>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
-         </Support>
-      </Parameter>
-   </NumericalData>
+</Support>
+</Parameter>
+</NumericalData>
 </Spase>

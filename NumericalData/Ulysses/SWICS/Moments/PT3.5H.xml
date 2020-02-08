@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/Moments/PT3.5H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses SWICS Solar Wind Moments of Main Heavy Ions 3.5 Hour Data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>This ASCII data set consists of a table of 3.5-hour averages of velocities (km/s), temperatures (deg.-K), and density ratios (relative to oxygen 6+) of solar wind ion composition measurements by the Ulysses SWICS experiment for alphas, carbon 6+, oxygen 6+ (density ratio = unity), neon 8+, magnesium 10+, silicon 9+, sulfur 10+, and iron 11+. Data accumulation times for the averages ensure that percentage errors are less than twenty percent for the density ratios. Each ASCII data file contains one month of data. The experiment and data processing are further described in G. Gloeckler, et al., The Solar Wind Ion Composition Spectrometer, Astron. Astrophys., 92(2), 267-289, 1992. </Description>
             <Acknowledgement> 
 Use of these data in publications should be accompanied by acknowledgements of the NASA Space Physics Data Facility, the National Space Science Data Center and the responsible Principal Investigator defined in the experiment documentation provided here. </Acknowledgement>
@@ -23,7 +23,7 @@ Use of these data in publications should be accompanied by acknowledgements of t
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics/3p5h_moments/</URL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics/3p5h_moments/</URL>
                 <Description>In ASCII via nssdcftp</Description>
             </AccessURL>
             <AccessURL>

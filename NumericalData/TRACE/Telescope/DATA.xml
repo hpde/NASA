@@ -4,24 +4,24 @@
         <ResourceID>spase://VSPO/NumericalData/TRACE/Telescope/DATA</ResourceID>
         <ResourceHeader>
             <ResourceName>TRACE Digital Data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>TRACE low level data and accompanying software</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Neal.Hurlburt</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_TRACE_HDR_DIGITAL_DATA</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/LMSAL</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>TRACE at Lockheed</Name>
-                <URL>http://trace.lmsal.com/trace_cat.html</URL>
-            </AccessURL>
+                <URL>http://www.lmsal.com/TRACE/trace_cat.html</URL>
+</AccessURL>
             <Format>FITS</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>UNCALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/TRACE/Telescope</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -31,8 +31,8 @@
                 <StartDate>1998-11-22T00:00:00</StartDate>
                 <RelativeStopDate>-P3D</RelativeStopDate>
                 <Note>Data are current to within days of present day.</Note>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

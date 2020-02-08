@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.8</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/BARREL/2M/Ephemeris/L2/PT4S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2M Ephemeris (EPHM) Geographic and Magnetic Coordinates</ResourceName>
-         <ReleaseDate>2017-02-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Geographic and Magnetic Coordinates - Geographic Coordinates are obtained from an Onboard GPS Unit, Magnetic Coordinates are derived by using the IRBEM FORTRAN Library, Ephemeris Data Products (Latitude, Longitude, Altitude, and Time) are each returned from the Payload once every 4 s</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -32,7 +32,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2m/ephem/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2m/ephem/</URL>
             <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
@@ -42,7 +42,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_2M_L2_EPHM&amp;index=sp_phys</URL>
             <ProductKey>BAR_2M_L2_EPHM</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
@@ -124,9 +124,9 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GPS_Lat</ParameterKey>
          <Description>Global Positioning System, Latitude, degrees North</Description>
-         <Caveats>Converted from raw integer values by multiplying by a scaling factor equal to 8.38190317154&#215;10^-8</Caveats>
+         <Caveats>Converted from raw integer values by multiplying by a scaling factor equal to 8.38190317154&#xD7;10^-8</Caveats>
          <Cadence>PT4S</Cadence>
-         <Units>&#176;</Units>
+         <Units>&#xB0;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -150,9 +150,9 @@
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GPS_Lon</ParameterKey>
          <Description>Global Positioning System, Longitude, degrees East</Description>
-         <Caveats>Converted from raw integer values by multiplying by a scaling factor equal to 8.38190317154&#215;10^-8</Caveats>
+         <Caveats>Converted from raw integer values by multiplying by a scaling factor equal to 8.38190317154&#xD7;10^-8</Caveats>
          <Cadence>PT4S</Cadence>
-         <Units>&#176;</Units>
+         <Units>&#xB0;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <CoordinateSystem>
             <CoordinateRepresentation>Spherical</CoordinateRepresentation>

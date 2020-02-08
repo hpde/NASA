@@ -5,35 +5,35 @@
         <ResourceID>spase://VSPO/NumericalData/DMSP_5D-2/F10/Ephemeris/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>DMSP F10 1-min Position Data</ResourceName>
-            <ReleaseDate>2013-05-22T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>DMSP-10 satellite position and magnetic field model information.</Description>
             <!-- Automatically generated for SSC on 2013-05-22T13:55:29Z -->
             <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
-        </ResourceHeader>
+</Contact>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SSCWeb</Name>
-                <URL>http://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
+                <URL>https://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
                 <ProductKey>dmspf10</ProductKey>
-            </AccessURL>
+</AccessURL>
             <Format>CDF</Format>
-        </AccessInformation>
+</AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/DMSP_5D-2/F10/Ephemeris</InstrumentID>
         <MeasurementType>Ephemeris</MeasurementType>
         <TemporalDescription>
             <TimeSpan>
                 <StartDate>1990-12-02T00:00:00.000Z</StartDate>
                 <StopDate>1999-09-12T00:00:00.000Z</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT1M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <Parameter>
             <Name>Epoch Time</Name>
             <ParameterKey>Epoch</ParameterKey>
@@ -45,8 +45,8 @@
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <SupportQuantity>Temporal</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- begin GEI parameters -->
         <Parameter>
             <Name>GEI position</Name>
@@ -57,7 +57,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GEI</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -65,24 +65,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GEI latitude</Name>
             <ParameterKey>GEI_LAT</ParameterKey>
@@ -91,15 +91,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEI</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GEI longitude</Name>
             <ParameterKey>GEI_LON</ParameterKey>
@@ -108,15 +108,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEI</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GEI parameters -->
 <!-- begin J2000 parameters -->
         <Parameter>
@@ -128,7 +128,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>J2000</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -136,24 +136,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>J2000 latitude</Name>
             <ParameterKey>J2000_LAT</ParameterKey>
@@ -162,15 +162,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>J2000</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>J2000 longitude</Name>
             <ParameterKey>J2000_LON</ParameterKey>
@@ -179,15 +179,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>J2000</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end J2000 parameters -->
 <!-- begin GEO parameters -->
         <Parameter>
@@ -199,7 +199,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -207,24 +207,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GEO latitude</Name>
             <ParameterKey>GEO_LAT</ParameterKey>
@@ -233,15 +233,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GEO longitude</Name>
             <ParameterKey>GEO_LON</ParameterKey>
@@ -250,15 +250,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GEO local time</Name>
             <ParameterKey>GEO_LCT_T</ParameterKey>
@@ -270,8 +270,8 @@
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GEO parameters -->
 <!-- begin GM parameters -->
         <Parameter>
@@ -283,7 +283,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -291,24 +291,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GM latitude</Name>
             <ParameterKey>GM_LAT</ParameterKey>
@@ -317,15 +317,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GM longitude</Name>
             <ParameterKey>GM_LON</ParameterKey>
@@ -334,15 +334,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GM local time</Name>
             <ParameterKey>GM_LCT_T</ParameterKey>
@@ -354,8 +354,8 @@
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GM parameters -->
 <!-- begin GSE parameters -->
         <Parameter>
@@ -367,7 +367,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -375,24 +375,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GSE latitude</Name>
             <ParameterKey>GSE_LAT</ParameterKey>
@@ -401,15 +401,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GSE longitude</Name>
             <ParameterKey>GSE_LON</ParameterKey>
@@ -418,15 +418,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GSE</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GSE local time</Name>
             <ParameterKey>GSE_LCT_T</ParameterKey>
@@ -438,8 +438,8 @@
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GSE parameters -->
 <!-- begin GSM parameters -->
         <Parameter>
@@ -451,7 +451,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>GSM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -459,24 +459,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GSM latitude</Name>
             <ParameterKey>GSM_LAT</ParameterKey>
@@ -485,15 +485,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GSM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>GSM longitude</Name>
             <ParameterKey>GSM_LON</ParameterKey>
@@ -502,15 +502,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GSM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GSM parameters -->
 <!-- begin SM parameters -->
         <Parameter>
@@ -522,7 +522,7 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
                 <CoordinateSystemName>SM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <Structure>
                 <Size>3</Size>
                 <Element>
@@ -530,24 +530,24 @@
                     <Qualifier>Component.I</Qualifier>
                     <Index>1</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>y</Name>
                     <Qualifier>Component.J</Qualifier>
                     <Index>2</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
+</Element>
                 <Element>
                     <Name>z</Name>
                     <Qualifier>Component.K</Qualifier>
                     <Index>3</Index>
                     <FillValue>-1.0E31</FillValue>
-                </Element>
-            </Structure>
+</Element>
+</Structure>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>SM latitude</Name>
             <ParameterKey>SM_LAT</ParameterKey>
@@ -556,15 +556,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>SM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>SM longitude</Name>
             <ParameterKey>SM_LON</ParameterKey>
@@ -573,15 +573,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>SM</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>SM local time</Name>
             <ParameterKey>SM_LCT_T</ParameterKey>
@@ -593,8 +593,8 @@
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end SM parameters -->
 <!-- begin Additional Options -->
 <!-- begin Regions -->
@@ -608,8 +608,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Radial Traced Footpoint Region</Name>
             <ParameterKey>RADIAL_TRACED_REGIONS</ParameterKey>
@@ -620,8 +620,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>North B Traced Footpoint Region</Name>
             <ParameterKey>NORTH_BTRACED_REGIONS</ParameterKey>
@@ -632,8 +632,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South B Traced Region</Name>
             <ParameterKey>SOUTH_BTRACED_REGIONS</ParameterKey>
@@ -644,8 +644,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end Regions -->
 <!-- begin Values -->
         <Parameter>
@@ -657,14 +657,14 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>0.0</ValidMin>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>Magnitude</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Magnetic Field Strength</Name>
             <ParameterKey>MAG_STRTH</ParameterKey>
@@ -674,8 +674,8 @@
             <FillValue>-1.0E31</FillValue>
             <Field>
                 <FieldQuantity>Magnetic</FieldQuantity>
-            </Field>
-        </Parameter>
+</Field>
+</Parameter>
         <Parameter>
             <Name>Dipole L Value</Name>
             <ParameterKey>L_VALUE</ParameterKey>
@@ -685,8 +685,8 @@
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Dipole Invariant Lattitude</Name>
             <ParameterKey>INVAR_LAT</ParameterKey>
@@ -698,8 +698,8 @@
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end Values -->
 <!-- begin Distance From -->
         <Parameter>
@@ -712,8 +712,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Distance to bow shock</Name>
             <ParameterKey>BOW_SHOCK</ParameterKey>
@@ -724,8 +724,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Distance to magnetopause</Name>
             <ParameterKey>MAG_PAUSE</ParameterKey>
@@ -736,8 +736,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>Magnetic Field Strength along the GSE X axis</Name>
             <ParameterKey>MAG_X</ParameterKey>
@@ -748,8 +748,8 @@
             <Field>
                 <Qualifier>Component.I</Qualifier>
                 <FieldQuantity>Magnetic</FieldQuantity>
-            </Field>
-        </Parameter>
+</Field>
+</Parameter>
         <Parameter>
             <Name>Magnetic Field Strength along the GSE Y axis</Name>
             <ParameterKey>MAG_Y</ParameterKey>
@@ -760,8 +760,8 @@
             <Field>
                 <Qualifier>Component.J</Qualifier>
                 <FieldQuantity>Magnetic</FieldQuantity>
-            </Field>
-        </Parameter>
+</Field>
+</Parameter>
         <Parameter>
             <Name>Magnetic Field Strength along the GSE Z axis</Name>
             <ParameterKey>MAG_Z</ParameterKey>
@@ -772,8 +772,8 @@
             <Field>
                 <Qualifier>Component.K</Qualifier>
                 <FieldQuantity>Magnetic</FieldQuantity>
-            </Field>
-        </Parameter>
+</Field>
+</Parameter>
 <!-- end Distance From -->
 <!-- end Additional Options -->
 <!-- begin B Field Trace Output Options -->
@@ -786,15 +786,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>0.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>North Hemisphere B Trace GEO longitude</Name>
             <ParameterKey>NorthBtrace_GEO_LON</ParameterKey>
@@ -803,15 +803,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>North Hemisphere B Trace GEO arc length</Name>
             <ParameterKey>NorthBtrace_GEO_ARCLEN</ParameterKey>
@@ -822,8 +822,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GEO latitude</Name>
             <ParameterKey>SouthBtrace_GEO_LAT</ParameterKey>
@@ -832,15 +832,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>0.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GEO longitude</Name>
             <ParameterKey>SouthBtrace_GEO_LON</ParameterKey>
@@ -849,15 +849,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>GEO</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GEO arc length</Name>
             <ParameterKey>SouthBtrace_GEO_ARCLEN</ParameterKey>
@@ -868,8 +868,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GEO B Field trace footpoint parameters -->
 <!-- begin GM B Field trace footpoint parameters -->
         <Parameter>
@@ -880,15 +880,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>0.0</ValidMin>
             <ValidMax>90.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>North Hemisphere B Trace GM longitude</Name>
             <ParameterKey>NorthBtrace_GM_LON</ParameterKey>
@@ -897,15 +897,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>North Hemisphere B Trace GM arc length</Name>
             <ParameterKey>NorthBtrace_GM_ARCLEN</ParameterKey>
@@ -916,8 +916,8 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GM latitude</Name>
             <ParameterKey>SouthBtrace_GM_LAT</ParameterKey>
@@ -926,15 +926,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-90.0</ValidMin>
             <ValidMax>0.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GM longitude</Name>
             <ParameterKey>SouthBtrace_GM_LON</ParameterKey>
@@ -943,15 +943,15 @@
             <CoordinateSystem>
                 <CoordinateRepresentation>Spherical</CoordinateRepresentation>
                 <CoordinateSystemName>MAG</CoordinateSystemName>
-            </CoordinateSystem>
+</CoordinateSystem>
             <ValidMin>-180.0</ValidMin>
             <ValidMax>360.0</ValidMax>
             <FillValue>-1.0E31</FillValue>
             <Support>
                 <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
                 <SupportQuantity>Positional</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
         <Parameter>
             <Name>South Hemisphere B Trace GM arc length</Name>
             <ParameterKey>SouthBtrace_GM_ARCLEN</ParameterKey>
@@ -962,9 +962,9 @@
             <Support>
                 <Qualifier>Scalar</Qualifier>
                 <SupportQuantity>Other</SupportQuantity>
-            </Support>
-        </Parameter>
+</Support>
+</Parameter>
 <!-- end GM B Field trace footpoint parameters -->
 <!-- end B Field Trace Output Options -->
-    </NumericalData>
+</NumericalData>
 </Spase>

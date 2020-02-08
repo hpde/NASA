@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/OGO6/BIMS/PT40S</ResourceID>
         <ResourceHeader>
             <ResourceName>OGO 6 BIMS ion mass spectrometer data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>OGO 6 Bennett Ion Mass Spectrometer (BIMS), densities of H+, He+, N+, O+ N2+, O2+, NO+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_OGO6_HDR_BIMS</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/ogo6.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ogo6.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ogo/ogo6/plasma_bims/ni_40s_ascii/</URL>
-            </AccessURL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ogo/ogo6/plasma_bims/ni_40s_ascii/</URL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ogo/ogo6/plasma_bims/ni_40s_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/OGO6/BIMS</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -39,9 +39,9 @@
             <TimeSpan>
                 <StartDate>1969-06-12T00:00:00</StartDate>
                 <StopDate>1970-12-31T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT40S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

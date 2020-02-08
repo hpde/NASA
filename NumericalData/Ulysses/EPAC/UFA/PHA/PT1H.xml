@@ -4,15 +4,15 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/UFA/PHA/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses EPAC daily pulse height data</ResourceName>
-            <ReleaseDate>2012-05-17T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Daily accumulations of pulse height analysis data in annual files</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_EPAC_UDS_PHA_DIGITAL</PriorID>
             <PriorID>spase://VSPO/NumericalData/Ulysses/EPAC/UDS/PHA/PT1H</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
             <Availability>Online</Availability>
@@ -20,9 +20,9 @@
             <AccessURL>
                 <Name>annual gzipped-ASCII PHA files from ESA</Name>
                 <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Ulysses/EPAC</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
@@ -31,9 +31,9 @@
             <TimeSpan>
                 <StartDate>1990-10-19T00:00:00</StartDate>
                 <StopDate>1998-12-31T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT1H</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

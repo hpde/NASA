@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/Aureol3/TRAC/PT2.50S</ResourceID>
         <ResourceHeader>
             <ResourceName>ARCAD Magnetic Field Data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>ARCAD magnetic field data at 2.5-s resolution; altitude &lt; 2000 km, near polar</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_ARCAD_HDR_MAG</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/arcad_mag.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/arcad_mag.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/arcad/magnet/</URL>
-            </AccessURL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/arcad/magnet/</URL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/arcad/magnet/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Aureol3/TRAC</InstrumentID>
         <MeasurementType>MagneticField</MeasurementType>
@@ -38,9 +38,9 @@
             <TimeSpan>
                 <StartDate>1981-10-01T00:00:00</StartDate>
                 <StopDate>1982-03-01T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT2.50S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

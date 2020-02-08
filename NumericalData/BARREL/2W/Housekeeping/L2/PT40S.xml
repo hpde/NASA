@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.8</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/BARREL/2W/Housekeeping/L2/PT40S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2W Data Processing Unit (HKPG) Analog Housekeeping Voltage, Temperature, Current and Payload Status</ResourceName>
-         <ReleaseDate>2017-02-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
          <Description>Voltage, Temperature, Current, and Payload Status Values returned every 40 s</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -32,7 +32,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTP access to files at SPDF</Name>
-            <URL>ftp://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2w/hkpg/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2w/hkpg/</URL>
             <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
@@ -45,7 +45,7 @@
          <Acknowledgement>Please acknowledge R. Millan and the data providers and CDAWeb when using these data</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/BARREL/2W/DataProcessingUnit</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/BARREL/2W/EngineeringDataInterface</InstrumentID>
       <MeasurementType>InstrumentStatus</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
@@ -527,7 +527,7 @@
          <ParameterKey>T0_Scint</ParameterKey>
          <Description>Scintillator Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T0_Scint</AxisLabel>
@@ -547,7 +547,7 @@
          <ParameterKey>T1_Mag</ParameterKey>
          <Description>Magnetometer Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T1_Mag</AxisLabel>
@@ -567,7 +567,7 @@
          <ParameterKey>T2_ChargeCont</ParameterKey>
          <Description>Charge Controller Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T2_ChargeCont</AxisLabel>
@@ -587,7 +587,7 @@
          <ParameterKey>T3_Battery</ParameterKey>
          <Description>Battery Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T3_Battery</AxisLabel>
@@ -607,7 +607,7 @@
          <ParameterKey>T4_PowerConv</ParameterKey>
          <Description>Power Converter Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T4_PowerConv</AxisLabel>
@@ -627,7 +627,7 @@
          <ParameterKey>T5_DPU</ParameterKey>
          <Description>Data Processing Unit Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T5_DPU</AxisLabel>
@@ -647,7 +647,7 @@
          <ParameterKey>T6_Modem</ParameterKey>
          <Description>Modem Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T6_Modem</AxisLabel>
@@ -667,7 +667,7 @@
          <ParameterKey>T7_Structure</ParameterKey>
          <Description>Structure Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T7_Structure</AxisLabel>
@@ -687,7 +687,7 @@
          <ParameterKey>T8_Solar1</ParameterKey>
          <Description>Solar Panel 1 Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T8_Solar1</AxisLabel>
@@ -707,7 +707,7 @@
          <ParameterKey>T9_Solar2</ParameterKey>
          <Description>Solar Panel 2 Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T9_Solar2</AxisLabel>
@@ -727,7 +727,7 @@
          <ParameterKey>T10_Solar3</ParameterKey>
          <Description>Solar Panel 3 Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T10_Solar3</AxisLabel>
@@ -747,7 +747,7 @@
          <ParameterKey>T11_Solar4</ParameterKey>
          <Description>Solar Panel 4 Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T11_Solar4</AxisLabel>
@@ -767,7 +767,7 @@
          <ParameterKey>T12_TermTemp</ParameterKey>
          <Description>Terminate Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T12_TermTemp</AxisLabel>
@@ -787,7 +787,7 @@
          <ParameterKey>T13_TermBatt</ParameterKey>
          <Description>Terminate Battery Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T13_TermBatt</AxisLabel>
@@ -807,7 +807,7 @@
          <ParameterKey>T14_TermCap</ParameterKey>
          <Description>Terminate Capacitor Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T14_TermCap</AxisLabel>
@@ -827,7 +827,7 @@
          <ParameterKey>T15_CCStat</ParameterKey>
          <Description>Charge Controller Status Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>T15_CCStat</AxisLabel>
@@ -1002,7 +1002,7 @@
          <ParameterKey>Mag_ADC_Temp</ParameterKey>
          <Description>Magnetometer A-D Board Temperature</Description>
          <Cadence>PT40S</Cadence>
-         <Units>&#176;C</Units>
+         <Units>&#xB0;C</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Mag_ADC_Temp</AxisLabel>

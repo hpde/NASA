@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
-    <NumericalData>
+    <DisplayData>
         <ResourceID>spase://VSPO/DisplayData/SDO/PT13M</ResourceID>
         <ResourceHeader>
             <ResourceName>SDO Browse Images and Movies</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>Solar movies and imagery from each of the 10 AIA
 (Atmospheric Imaging Assembly) wavelengths, plus HMI (Helioseismic
 and Magnetic Imager) magnetograms, intensitygrams and dopplergrams,
@@ -15,30 +15,30 @@ specified, subject to a 400 images per query limit.
             <Contact>
                 <PersonID>spase://SMWG/Person/W.Dean.Pesnell</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Kevin.M.Addison</PersonID>
                 <Role>TechnicalContact</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>SDO Project page at GSFC</Name>
-                <URL>http://sdo.gsfc.nasa.gov</URL>
-            </InformationURL>
+                <URL>https://sdo.gsfc.nasa.gov/</URL>
+</InformationURL>
             <PriorID>spase://VSPO/DisplayData/SDO/GSFC</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SDO Project browse page</Name>
-                <URL>http://sdo.gsfc.nasa.gov/data/aiahmi/</URL>
+                <URL>https://sdo.gsfc.nasa.gov/data/aiahmi/</URL>
                 <Description>Specify date range, images vs. movie, AIA
 wavelength or HMI data type or composite, pixel resolution, time
 resolution.</Description>
-            </AccessURL>
+</AccessURL>
             <Format>JPEG</Format>
-        </AccessInformation>
+</AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/SDO/AIA</InstrumentID>
         <InstrumentID>spase://SMWG/Instrument/SDO/HMI</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -49,9 +49,9 @@ resolution.</Description>
                 <StartDate>2010-05-20T00:00:00</StartDate>
                 <RelativeStopDate>P1D</RelativeStopDate>
                 <Note>Older data may be dropped from this interface in time.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT13M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Sun</ObservedRegion>
-    </NumericalData>
+</DisplayData>
 </Spase>

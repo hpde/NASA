@@ -4,36 +4,36 @@
         <ResourceID>spase://VSPO/NumericalData/Apollo14-LM/CPLEE/PT19S</ResourceID>
         <ResourceHeader>
             <ResourceName>Apollo 14 ALSEP Electron and Proton Spectra, offline at NSSDC</ResourceName>
-            <ReleaseDate>2015-12-15T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>The data are 19.2-s count rates of electrons and protons at several energy steps between 40 eV and 20 keV.  Two electrostatic analyzers, each feeding 6 detectors, are oriented vertical from the lunar surface and 60 degrees from vertical, towards lunar west.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.L.Reasoner</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>NSSDC Data Set Catalog 226</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0226.pdf</URL>
-            </InformationURL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/documents/old/documentation_from_nssdc/dataset_catalogs/DSC_0226.pdf</URL>
+</InformationURL>
             <PriorID>spase://VSPO/NumericalData/SPHE_00885</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Offline</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>NSSDC</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
-            </AccessURL>
+                <URL>https://nssdc.gsfc.nasa.gov/nssdc/obtaining_data.html</URL>
+</AccessURL>
             <Format>CDF</Format>
             <DataExtent>
                 <Quantity>500</Quantity>
                 <Units>MB</Units>
-            </DataExtent>
-        </AccessInformation>
+</DataExtent>
+</AccessInformation>
         <ProcessingLevel>Uncalibrated</ProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Apollo14-LM/CPLEE</InstrumentID>
         <MeasurementType>EnergeticParticles</MeasurementType>
@@ -41,9 +41,9 @@
             <TimeSpan>
                 <StartDate>1971-02-05T00:00:00</StartDate>
                 <StopDate>1973-03-02T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT19S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
         <Parameter>
@@ -55,7 +55,7 @@
             <Structure>
                 <Size>2 6 8</Size>
                 <Description>2 for electrostatic analyzers A and B, 6 for the 6 detector per electrostatic analyzer, 8 for the voltage steps per cycle.</Description>
-            </Structure>
+</Structure>
             <Particle>
                 <ParticleType>Electron</ParticleType>
                 <ParticleType>Proton</ParticleType>
@@ -64,8 +64,8 @@
                     <Low>40</Low>
                     <High>20000</High>
                     <Units>eV</Units>
-                </EnergyRange>
-            </Particle>
-        </Parameter>
-    </NumericalData>
+</EnergyRange>
+</Particle>
+</Parameter>
+</NumericalData>
 </Spase>

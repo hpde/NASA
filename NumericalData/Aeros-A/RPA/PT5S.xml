@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/Aeros-A/RPA/PT5S</ResourceID>
         <ResourceHeader>
             <ResourceName>AEROS-A RPA ion and electron data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>AEROS-A RPA ionospheric ion composition and temperature and electron density and temperature data; variable resolution as fine as 5-s</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_AEROSA_HDR_FTPBROWSER</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.sci.gsfc.nasa.gov/ftpbrowser/aeros.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/aeros.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa_ascii/</URL>
-            </AccessURL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa_ascii/</URL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/aeros/aeros-a/plasma_rpa_ascii/</URL>
                 <Description>In ascii via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/Aeros-A/RPA</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -38,9 +38,9 @@
             <TimeSpan>
                 <StartDate>1973-01-03T00:00:00Z</StartDate>
                 <StopDate>1973-08-03T00:00:00Z</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT5S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>

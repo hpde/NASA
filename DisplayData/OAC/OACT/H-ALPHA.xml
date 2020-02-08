@@ -4,14 +4,14 @@
         <ResourceID>spase://VSPO/DisplayData/OAC/OACT/H-ALPHA</ResourceID>
         <ResourceHeader>
             <ResourceName>OAC H-alpha Solar Images</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>H-alpha solar imagery from Osservatorio Astrofisica di Catania (OAC), Sicily, Italy</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Daniele.Spadaro</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_OAC_HDR_HALPHA</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/OAC</RepositoryID>
             <Availability>Online</Availability>
@@ -19,13 +19,13 @@
             <AccessURL>
                 <Name>OAC site</Name>
                 <URL>http://woac.ct.astro.it/</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>Virtual Solar Observatory</Name>
-                <URL>http://www.virtualsolar.org/</URL>
-            </AccessURL>
+                <URL>https://www.virtualsolar.org/</URL>
+</AccessURL>
             <Format>TIFF</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/OAC/OACT</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -34,10 +34,10 @@
                 <StartDate>2002-02-26T00:00:00</StartDate>
                 <RelativeStopDate>-P3D</RelativeStopDate>
                 <Note>Data are current to within days.</Note>
-            </TimeSpan>
-        </TemporalDescription>
+</TimeSpan>
+</TemporalDescription>
         <SpectralRange>Optical</SpectralRange>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

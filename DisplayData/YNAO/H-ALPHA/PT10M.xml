@@ -4,14 +4,14 @@
         <ResourceID>spase://VSPO/DisplayData/YNAO/H-ALPHA/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>YNAO H-alpha Solar Images</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>H-alpha solar imagery from Yunnan Astronomical Observatory (YNAO) of Chinese Academy of Sciences</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jun.Lin</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/DisplayData/P_YNAO_HDR_HALPHA</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/YNAO</RepositoryID>
             <Availability>Online</Availability>
@@ -19,14 +19,14 @@
             <AccessURL>
                 <Name>YNAO site</Name>
                 <URL>http://www1.ynao.ac.cn/en/index.html</URL>
-            </AccessURL>
+</AccessURL>
             <AccessURL>
                 <Name>Virtual Solar Observatory</Name>
-                <URL>http://www.virtualsolar.org/</URL>
-            </AccessURL>
+                <URL>https://www.virtualsolar.org/</URL>
+</AccessURL>
             <Format>FITS</Format>
             <Encoding>GZIP</Encoding>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/YNAO/YNAO</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
@@ -35,11 +35,11 @@
                 <StartDate>2000-11-27T00:00:00</StartDate>
                 <RelativeStopDate>-P3D</RelativeStopDate>
                 <Note>Data are current to within days.</Note>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT10M</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <SpectralRange>Optical</SpectralRange>
         <ObservedRegion>Sun</ObservedRegion>
         <ObservedRegion>Sun.Photosphere</ObservedRegion>
-    </DisplayData>
+</DisplayData>
 </Spase>

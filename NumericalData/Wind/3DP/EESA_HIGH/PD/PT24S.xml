@@ -4,8 +4,8 @@
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/EESA_HIGH/PD/PT24S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Wind 3DP EESA-HIGH Electron Pitch Angle Distributions</ResourceName>
-      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+      <ResourceName>Wind 3DP EESA-HIGH Electron Pitch-Angle Distributions</ResourceName>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Wind 3DP electron pitch angle product providing electron 
         fluxes in 8 directional bins relative to the local magnetic field 
         direction at 15 different energy levels.</Description>
@@ -39,7 +39,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_ehpd/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_ehpd/</URL>
         <Description>In CDF via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
@@ -56,7 +56,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_EHPD_3DP&amp;index=sp_phys</URL>
         <ProductKey>WI_EHPD_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>
@@ -99,7 +99,7 @@
     <Parameter>
       <Name>Electron Flux</Name>
       <ParameterKey>FLUX</ParameterKey>
-      <Description>Electron number flux 100eV-30keV in 15 energy and 8 angle bins.  The first dimension corresponds to 15 time dependent energy bands (parameter ENERGY,centered from ~100 eV to ~30keV).  The 2nd dimension corresponds to 8 time dependent pitch angles (parameter PANGLE, ranging from ~15 deg to ~165 deg)relative to the magnetic field direction</Description>
+      <Description>Electron number flux 100eV-30keV in 15 energy and 8 angle bins. The first dimension corresponds to 15 time dependent energy bands (parameter ENERGY,centered from ~100 eV to ~30keV).  The 2nd dimension corresponds to 8 time dependent pitch angles (parameter PANGLE, ranging from ~15 deg to ~165 deg)relative to the magnetic field direction</Description>
       <Units>#/(cm^2*ster*eV*s)</Units>
       <Structure>
         <Size>15 8</Size>

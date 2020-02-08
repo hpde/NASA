@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/SST_Open/SP/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP SST Open Proton Omniderectional Fluxes</ResourceName>
-      <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
       <Description>Proton omnidirectional fluxes 70 keV - 6.8 MeV, often at 24 sec, SST Open, Wind 3DP - R. Lin (UC Berkeley)</Description>
       <Acknowledgement>Principle Investigators Robert Lin and Stuart Bale, the Wind 3DP team, and the Space Physics Data Facility (SPDF)/NASA GSFC</Acknowledgement>
       <Contact>
@@ -37,7 +37,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_sosp/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_sosp/</URL>
         <Description>In CDF via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
@@ -54,7 +54,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_SOSP_3DP&amp;index=sp_phys</URL>
         <ProductKey>WI_SOSP_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>

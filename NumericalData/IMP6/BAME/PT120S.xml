@@ -4,33 +4,33 @@
         <ResourceID>spase://VSPO/NumericalData/IMP6/BAME/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 6 LANL 2-m plasma data</ResourceName>
-            <ReleaseDate>2017-02-10T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
             <Description>IMP 6 LANL 2-min solar wind plasma parameter data, including temperature anisotropy and alpha/proton ratio</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP6_HDR_LANL_2MIN</PriorID>
-        </ResourceHeader>
+</ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>FTPBrowser</Name>
-                <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/imp6_lanl_2m.html</URL>
-            </AccessURL>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/imp6_lanl_2m.html</URL>
+</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
-                <URL>ftp://spdf.gsfc.nasa.gov/pub/data/imp/imp6/plasma_lanl/solarwind_2min/</URL>
-            </AccessURL>
+                <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp6/plasma_lanl/solarwind_2min/</URL>
+</AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp6/plasma_lanl/solarwind_2min/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
-            </AccessURL>
+</AccessURL>
             <Format>Text</Format>
-        </AccessInformation>
+</AccessInformation>
         <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
         <InstrumentID>spase://SMWG/Instrument/IMP6/BAME</InstrumentID>
         <MeasurementType>ThermalPlasma</MeasurementType>
@@ -38,9 +38,9 @@
             <TimeSpan>
                 <StartDate>1971-03-18T00:00:00</StartDate>
                 <StopDate>1974-08-03T00:00:00</StopDate>
-            </TimeSpan>
+</TimeSpan>
             <Cadence>PT120S</Cadence>
-        </TemporalDescription>
+</TemporalDescription>
         <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
-    </NumericalData>
+</NumericalData>
 </Spase>
