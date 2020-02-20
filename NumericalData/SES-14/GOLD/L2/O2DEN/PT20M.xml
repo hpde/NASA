@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.9</Version>
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L2/O2DEN/PT20M</ResourceID>
     <ResourceHeader>
-      <ResourceName>Gold Level L2 Molecular Oxygen Density Profile</ResourceName>
-      <ReleaseDate>2019-09-12T00:00:00Z</ReleaseDate>
+      <ResourceName>GOLD Level L2 Molecular Oxygen Density Profile</ResourceName>
+      <ReleaseDate>2020-02-19T15:03:39Z</ReleaseDate>
       <Description>O2 is derived from measurements of stellar occultation in the Shumann Runge continuum. 
 	  As the star rises or sets relative to the satellite position the stellar spectrum is measured across 
 	  the GOLD spectral bandpass, from 132 to 162 nm. Geolocation of the OCC L1B data provides the 
@@ -55,20 +55,23 @@
         <Description>Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383.</Description>
       </InformationURL>
     </ResourceHeader>   
-	
     <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>CDAWeb Data Repository HTTPS Interface</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/pub/data/gold/level2/o2den</URL>
-            <Description>HTTPS access to GOLD o2den Level L2 data</Description>
+            <Name>FTP access to files at SPDF</Name>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gold/level2/o2den</URL>
+            <Description>FTP access to GOLD o2den Level L2 data</Description>
+         </AccessURL>
+         <AccessURL>
+            <Name>HTTP access to files at SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/gold/level2/o2den</URL>
+            <Description>HTTP access to GOLD o2den Level L2 data</Description>
          </AccessURL>
          <Format>NetCDF</Format>
          <Acknowledgement>Space Physics Data Facility of the NASA Goddard Space Flight Center; Robert E McGuire</Acknowledgement>
     </AccessInformation>  
-	  
     <ProcessingLevel>Calibrated</ProcessingLevel>
 	<ProviderName>GOLD</ProviderName>
 	<ProviderResourceName>Gold Level L2 Molecular Oxygen Density Profile</ProviderResourceName>
