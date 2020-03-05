@@ -1,20 +1,20 @@
-# spase-VSPO
+# NASA
 
-Virtual Space Physics Observatory (VSPO).
+National Aeronatics and Space Administration (NASA).
 
-SPASE resource descriptions with the VSPO naming authority.
+SPASE resource descriptions with the NASA naming authority.
 
 # How to Use This Repository
 
 If you are a consumer of the metadata simple clone the repostory
 
 ````
-git clone -b master --single-branch --depth=1 https://github.com/hpde/spase-VSPO
+git clone -b master --single-branch --depth=1 https://github.com/hpde/NASA
 ````
 
 If you are a contributor, clone the repository and use the "draft" branch.
 ````
-git clone git@github.com:hpde/spase-VSPO.git
+git clone git@github.com:hpde/NASA.git
 git checkout draft
 ````
 
