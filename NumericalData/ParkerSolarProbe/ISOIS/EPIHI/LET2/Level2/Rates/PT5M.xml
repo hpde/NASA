@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPIHI/LET2/Level2/Rates/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) Low Energy Telescope 2 (LET2) Rates, Level 2 (L2), 5 min Data</ResourceName>
-         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, Low Energy Telescope 2, LET2, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -75,7 +75,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Acknowledgement>Please acknowledge D.J. McComas. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI/HI/LET2</InstrumentID>
+      <InstrumentID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <MeasurementType>Ephemeris</MeasurementType>
       <TemporalDescription>
