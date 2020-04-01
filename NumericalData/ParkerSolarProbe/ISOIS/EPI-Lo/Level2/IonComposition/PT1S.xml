@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPILO/Level2/IonComposition/PT1S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Lo (ISOIS EPI-Lo) Ion Composition, Level 2 (L2), 10 s Data</ResourceName>
-         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Lo, Ion Composition data: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -99,9 +99,9 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Channel C, Flow Direction for each Direction Bin, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HCI_ChanC</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* Channel C, Ion Mode 1, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HCI_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -128,7 +128,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Epoch Time, Midpoint of Integration, Channel C Parameters</Name>
          <ParameterKey>Epoch_ChanC</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel C, Ion Mode 1 data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanC  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanC. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -221,9 +221,9 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Channel D, Flow Direction for each Direction Bin, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HCI_ChanD</ParameterKey>
-         <Description>Channel D, Ion Mode 2, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* Channel D, Ion Mode 2, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HCI_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -250,7 +250,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Epoch Time, Midpoint of Integration, Channel D Parameters</Name>
          <ParameterKey>Epoch_ChanD</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel D, Ion Mode 2 data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanD  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanD. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -295,110 +295,12 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>H, Differential Flux, Channel R</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>H_Flux_ChanR</ParameterKey>
-         <Description>Proton, H, Differential Flux, Channel R, High Time Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Ion Composition Mode
-Mnenomic Pattern: Flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Proton, H, Differential Flux, Channel R, High Time Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Ion Composition Mode
+* Mnenomic Pattern: Flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -424,10 +326,10 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux Uncertainty, Channel R</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>H_Flux_ChanR_DELTA</ParameterKey>
-         <Description>Proton, H, Differential Flux Uncertainty, Channel R, High Time Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Based on a combination of rate scaler compression and Poisson statistics, one sigma.
-Mnenomic Pattern: Flux_DELTA</Caveats>
+         <Description>* Proton, H, Differential Flux Uncertainty, Channel R, High Time Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Based on a combination of rate scaler compression and Poisson statistics, one sigma.
+* Mnenomic Pattern: Flux_DELTA</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -455,7 +357,7 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Epoch Time, Midpoint of Integration, Channel R Parameters</Name>
          <ParameterKey>Epoch_ChanR</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel R, High Time Resolution Mode data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanR  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanR. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -476,8 +378,8 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Channel R, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>H_ChanR_Energy</ParameterKey>
-         <Description>Channel R, High Time Resolution Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel R, High Time Resolution Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -581,110 +483,12 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>H, Differential Flux, Channel P</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>H_Flux_ChanP</ParameterKey>
-         <Description>Proton, H, Differential Flux, Channel P, High Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Ion Composition Mode
-Mnenomic Pattern: Flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Proton, H, Differential Flux, Channel P, High Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Ion Composition Mode
+* Mnenomic Pattern: Flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -710,10 +514,10 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux Uncertainty, Channel P</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>H_Flux_ChanP_DELTA</ParameterKey>
-         <Description>Proton, H, Differential Flux Uncertainty, Channel P, High Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Based on a combination of rate scaler compression and Poisson statistics, one sigma.
-Mnenomic Pattern: Flux_DELTA</Caveats>
+         <Description>* Proton, H, Differential Flux Uncertainty, Channel P, High Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Based on a combination of rate scaler compression and Poisson statistics, one sigma.
+* Mnenomic Pattern: Flux_DELTA</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -741,7 +545,7 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Epoch Time, Midpoint of Integration, Channel P Parameters</Name>
          <ParameterKey>Epoch_ChanP</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel P, High Resolution Mode data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanP  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanP. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -762,8 +566,8 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Channel P, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>H_ChanP_Energy</ParameterKey>
-         <Description>Channel P, High Resolution Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel P, High Resolution Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -868,8 +672,8 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HGC_R_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -898,8 +702,8 @@ Mnenomic Pattern: HGC_R_ChanR</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HGC_R_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -928,8 +732,8 @@ Mnenomic Pattern: HGC_R_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HCI_Lon_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -958,8 +762,8 @@ Mnenomic Pattern: HCI_Lon_ChanD</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HGC_R_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -987,7 +791,7 @@ Mnenomic Pattern: HGC_R_ChanT</Caveats>
          <Name>Epoch Time, Midpoint of Integration, Channel T Parameters</Name>
          <ParameterKey>Epoch_ChanT</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel T, Ion Time of Flight, TOF, Mode data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanT  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanT. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -1032,9 +836,9 @@ Mnenomic Pattern: HGC_R_ChanT</Caveats>
          <Name>Channel P, Flow Direction for each Direction Bin, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HCI_ChanP</ParameterKey>
-         <Description>Channel P, High Resolution Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* Channel P, High Resolution Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HCI_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -1062,8 +866,8 @@ Mnenomic Pattern: HGC_R_ChanT</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HGC_R_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -1091,9 +895,9 @@ Mnenomic Pattern: HGC_R_ChanC</Caveats>
          <Name>Channel R, Flow Direction for each Direction Bin, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HCI_ChanR</ParameterKey>
-         <Description>Channel R, High Time Resolution Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* Channel R, High Time Resolution Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HCI_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -1120,110 +924,12 @@ Mnenomic Pattern: HGC_R_ChanC</Caveats>
          <Name>H, Differential Flux, Channel T</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_Flux_ChanT</ParameterKey>
-         <Description>Proton, H, Differential Flux, Channel T, Ion Time of Flight, TOF, Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Ion Composition Mode
-Mnenomic Pattern: Flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Proton, H, Differential Flux, Channel T, Ion Time of Flight, TOF, Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Ion Composition Mode
+* Mnenomic Pattern: Flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV/n)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -1249,10 +955,10 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux Uncertainty, Channel T</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_Flux_ChanT_DELTA</ParameterKey>
-         <Description>Proton, H, Differential Flux Uncertainty, Channel T, Ion Time of Flight, TOF, Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Based on a combination of rate scaler compression and Poisson statistics, one sigma.
-Mnenomic Pattern: Flux_DELTA</Caveats>
+         <Description>* Proton, H, Differential Flux Uncertainty, Channel T, Ion Time of Flight, TOF, Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Based on a combination of rate scaler compression and Poisson statistics, one sigma.
+* Mnenomic Pattern: Flux_DELTA</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV/n)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -1280,8 +986,8 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Channel T, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_ChanT_Energy</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV/n</Units>
@@ -1356,9 +1062,9 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Channel T, Flow Direction for each Direction Bin, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HCI_ChanT</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* Channel T, Ion Time of Flight, TOF, Mode, Flow Direction for each Direction Bin, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HCI_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -1385,10 +1091,10 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Mg Count Rate, Channel D</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>Mg_CountRate_ChanD</ParameterKey>
-         <Description>Magnesium, Mg Count Rate, Channel D, Ion Mode 2.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Magnesium, Mg Count Rate, Channel D, Ion Mode 2.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -1413,8 +1119,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel D, Mg, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>Mg_ChanD_Energy</ParameterKey>
-         <Description>Channel D, Ion Mode 2, Magnesium, Mg, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel D, Ion Mode 2, Magnesium, Mg, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -1495,8 +1201,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HCI_Lon_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1525,8 +1231,8 @@ Mnenomic Pattern: HCI_Lon_ChanR</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HCI_Lon_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1555,8 +1261,8 @@ Mnenomic Pattern: HCI_Lon_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HCI_Lon_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1585,8 +1291,8 @@ Mnenomic Pattern: HCI_Lon_ChanT</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HGC_R_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -1615,8 +1321,8 @@ Mnenomic Pattern: HGC_R_ChanD</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HGC_Lon_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1645,8 +1351,8 @@ Mnenomic Pattern: HGC_Lon_ChanC</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HGC_Lon_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1674,10 +1380,10 @@ Mnenomic Pattern: HGC_Lon_ChanD</Caveats>
          <Name>He3 Count Rate, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He3_CountRate_ChanC</ParameterKey>
-         <Description>Helium 3, He3 Count Rate, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Helium 3, He3 Count Rate, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -1702,8 +1408,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel C, He3, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He3_ChanC_Energy</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Helium 3, He3, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel C, Ion Mode 1, Helium 3, He3, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -1784,8 +1490,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HCI_Lat_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1814,8 +1520,8 @@ Mnenomic Pattern: HCI_Lat_ChanD</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HGC_Lon_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1844,8 +1550,8 @@ Mnenomic Pattern: HGC_Lon_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HGC_Lon_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1874,8 +1580,8 @@ Mnenomic Pattern: HGC_Lon_ChanR</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HGC_Lat_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1904,8 +1610,8 @@ Mnenomic Pattern: HGC_Lat_ChanC</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HGC_Lon_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1934,8 +1640,8 @@ Mnenomic Pattern: HGC_Lon_ChanT</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HCI_Lon_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1964,8 +1670,8 @@ Mnenomic Pattern: HCI_Lon_ChanC</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HGC_Lat_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1993,10 +1699,10 @@ Mnenomic Pattern: HGC_Lat_ChanD</Caveats>
          <Name>He4 Count Rate, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He4_CountRate_ChanC</ParameterKey>
-         <Description>Alpha Particle, He4 Count Rate, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Alpha Particle, He4 Count Rate, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2021,8 +1727,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel C, He4, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He4_ChanC_Energy</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Alpha Particle, He4, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel C, Ion Mode 1, Alpha Particle, He4, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -2103,8 +1809,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HCI_Lat_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2133,8 +1839,8 @@ Mnenomic Pattern: HCI_Lat_ChanR</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HGC_Lat_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2163,8 +1869,8 @@ Mnenomic Pattern: HGC_Lat_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HCI_Lat_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2193,8 +1899,8 @@ Mnenomic Pattern: HCI_Lat_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>HCI_R_ChanP</ParameterKey>
          <Description>Channel P, High Resolution Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R_ChanP</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2223,8 +1929,8 @@ Mnenomic Pattern: HCI_R_ChanP</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HCI_Lat_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2253,8 +1959,8 @@ Mnenomic Pattern: HCI_Lat_ChanT</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HCI_R_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2282,10 +1988,10 @@ Mnenomic Pattern: HCI_R_ChanR</Caveats>
          <Name>Si Count Rate, Channel D</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>Si_CountRate_ChanD</ParameterKey>
-         <Description>Silicon, Si Count Rate, Channel D, Ion Mode 2.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Silicon, Si Count Rate, Channel D, Ion Mode 2.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2310,8 +2016,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel D, Si, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>Si_ChanD_Energy</ParameterKey>
-         <Description>Channel D, Ion Mode 2, Silicon, Si, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel D, Ion Mode 2, Silicon, Si, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -2392,8 +2098,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>HGC_Lat_ChanR</ParameterKey>
          <Description>Channel R, High Time Resolution Mode, Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat_ChanR</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2422,8 +2128,8 @@ Mnenomic Pattern: HGC_Lat_ChanR</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HGC_Lat_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2452,8 +2158,8 @@ Mnenomic Pattern: HGC_Lat_ChanT</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HCI_Lat_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2481,10 +2187,10 @@ Mnenomic Pattern: HCI_Lat_ChanC</Caveats>
          <Name>H Count Rate, Channel T</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_CountRate_ChanT</ParameterKey>
-         <Description>Proton, H Count Rate, Channel T, Ion Time of Flight, TOF, Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Proton, H Count Rate, Channel T, Ion Time of Flight, TOF, Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2509,10 +2215,10 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>H Count Rate, Channel R</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>H_CountRate_ChanR</ParameterKey>
-         <Description>Proton, H Count Rate, Channel R, High Time Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Proton, H Count Rate, Channel R, High Time Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2537,10 +2243,10 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>H Count Rate, Channel P</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>H_CountRate_ChanP</ParameterKey>
-         <Description>Proton, H Count Rate, Channel P, High Resolution Mode.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Proton, H Count Rate, Channel P, High Resolution Mode.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2565,10 +2271,10 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>C Count Rate, Channel D</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>C_CountRate_ChanD</ParameterKey>
-         <Description>Carbon, C Count Rate, Channel D, Ion Mode 2.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Carbon, C Count Rate, Channel D, Ion Mode 2.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2593,8 +2299,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel D, C, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>C_ChanD_Energy</ParameterKey>
-         <Description>Channel D, Ion Mode 2, Carbon, C, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel D, Ion Mode 2, Carbon, C, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -2674,10 +2380,10 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Fe Count Rate, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>Fe_CountRate_ChanC</ParameterKey>
-         <Description>Fe, Fe Count Rate, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Fe, Fe Count Rate, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -2701,8 +2407,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel C, Fe, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>Fe_ChanC_Energy</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Fe, Fe, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel C, Ion Mode 1, Fe, Fe, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -2780,8 +2486,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>HCI_R_ChanC</ParameterKey>
          <Description>Channel C, Ion Mode 1, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R_ChanC</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2810,8 +2516,8 @@ Mnenomic Pattern: HCI_R_ChanC</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>HCI_R_ChanT</ParameterKey>
          <Description>Channel T, Ion Time of Flight, TOF, Mode, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R_ChanT</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2839,9 +2545,9 @@ Mnenomic Pattern: HCI_R_ChanT</Caveats>
          <Name>Channel P, Flow Direction for each Direction Bin, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>RTN_ChanP</ParameterKey>
-         <Description>Channel P, High Resolution Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* Channel P, High Resolution Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: RTN_ChanP</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -2868,9 +2574,9 @@ Mnenomic Pattern: HCI_R_ChanT</Caveats>
          <Name>Channel R, Flow Direction for each Direction Bin, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>RTN_ChanR</ParameterKey>
-         <Description>Channel R, High Time Resolution Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* Channel R, High Time Resolution Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: RTN_ChanR</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -2897,110 +2603,12 @@ Mnenomic Pattern: HCI_R_ChanT</Caveats>
          <Name>He4, Differential Flux, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He4_Flux_ChanC</ParameterKey>
-         <Description>Alpha Particle, He4, Differential Flux, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Ion Composition Mode
-Mnenomic Pattern: Flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Alpha Particle, He4, Differential Flux, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Ion Composition Mode
+* Mnenomic Pattern: Flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -3026,10 +2634,10 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>He4, Differential Flux Uncertainty, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He4_Flux_ChanC_DELTA</ParameterKey>
-         <Description>Alpha Particle, He4, Differential Flux Uncertainty, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Based on a combination of rate scaler compression and Poisson statistics, one sigma.
-Mnenomic Pattern: Flux_DELTA</Caveats>
+         <Description>* Alpha Particle, He4, Differential Flux Uncertainty, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Based on a combination of rate scaler compression and Poisson statistics, one sigma.
+* Mnenomic Pattern: Flux_DELTA</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -3057,9 +2665,9 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Name>Channel T, Flow Direction for each Direction Bin, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>RTN_ChanT</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* Channel T, Ion Time of Flight, TOF, Mode, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: RTN_ChanT</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -3087,8 +2695,8 @@ Mnenomic Pattern: Flux_DELTA</Caveats>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>HCI_R_ChanD</ParameterKey>
          <Description>Channel D, Ion Mode 2, Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R_ChanD</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -3704,10 +3312,10 @@ Mnenomic Pattern: HCI_R_ChanD</Caveats>
          <Name>O Count Rate, Channel C</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>O_CountRate_ChanC</ParameterKey>
-         <Description>Oxygen, O Count Rate, Channel C, Ion Mode 1.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime
-Mnenomic Pattern: CountRate</Caveats>
+         <Description>* Oxygen, O Count Rate, Channel C, Ion Mode 1.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>* Ion Composition Mode, corrected for deadtime
+* Mnenomic Pattern: CountRate</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -3732,8 +3340,8 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel C, O, Bin Characteristic Energy Value, Count Rate Parameters</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>O_ChanC_Energy</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Oxygen, O, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
-                      Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
+         <Description>* Channel C, Ion Mode 1, Oxygen, O, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+* Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>keV</Units>
@@ -4401,9 +4009,9 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel C, Flow Direction for each Direction Bin, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>RTN_ChanC</ParameterKey>
-         <Description>Channel C, Ion Mode 1, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* Channel C, Ion Mode 1, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: RTN_ChanC</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>
@@ -4430,9 +4038,9 @@ Mnenomic Pattern: CountRate</Caveats>
          <Name>Channel D, Flow Direction for each Direction Bin, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>RTN_ChanD</ParameterKey>
-         <Description>Channel D, Ion Mode 2, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* Channel D, Ion Mode 2, Flow Direction for each Direction Bin, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: RTN_ChanD</Caveats>
          <Cadence>PT10S</Cadence>
          <CoordinateSystem>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPIHI/HET/Level2/Rates/PT10S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT10S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) High Energy Telescope (HET) Rates, Level 2 (L2), 10 s Data</ResourceName>
-         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, High Energy Telescope, HET, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -227,7 +227,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Epoch Time, Midpoint of Integration</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration</Description>
-         <Caveats>Mnenomic Pattern: Epoch  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
@@ -353,8 +353,8 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -682,8 +682,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -930,8 +930,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -960,8 +960,8 @@ Mnenomic Pattern: HCI_R</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -1455,8 +1455,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1838,8 +1838,8 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -1911,8 +1911,8 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2069,8 +2069,8 @@ Mnenomic Pattern: HGC_R</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -2322,8 +2322,8 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -2584,8 +2584,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>

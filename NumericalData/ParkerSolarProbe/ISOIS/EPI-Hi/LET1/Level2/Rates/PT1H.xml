@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPIHI/LET1/Level2/Rates/PT1H</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/LET1/Level2/Rates/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) Low Energy Telescope 1 (LET1) Rates, Level 2 (L2), 1 h Data</ResourceName>
-         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, Low Energy Telescope 1, LET1, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -99,9 +99,9 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Energy Range 3, Side B, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R3B_Ne_BIN</ParameterKey>
-         <Description>Energy Range 3, Side B, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R3_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R3B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 3, Side B, Neon, Ne, Differential Counts.
+* Column 1 Labels from R3_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R3B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R3B_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -126,7 +126,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Name>Epoch Time, Midpoint of Integration</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration</Description>
-         <Caveats>Mnenomic Pattern: Epoch  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
@@ -877,8 +877,8 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -906,9 +906,9 @@ Mnenomic Pattern: HCI_R</Caveats>
          <Name>Energy Range 2, Side A, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R2A_He_BIN</ParameterKey>
-         <Description>Energy Range 2, Side A, Helium, He, Differential Counts.
-                      Column 1 Labels from R2_HE_BIN_ENERGY: ["1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027"].
-                      Column 2 Labels from R2A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 2, Side A, Helium, He, Differential Counts.
+* Column 1 Labels from R2_HE_BIN_ENERGY: ["1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027"].
+* Column 2 Labels from R2A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R2A_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -1033,8 +1033,8 @@ Mnenomic Pattern: HCI_R</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -1805,9 +1805,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, Ne to Si, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_NetoSi_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Neon to Silicon Group, Ne to Si, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_NETOSI_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Neon to Silicon Group, Ne to Si, Differential Count Rate, sectored.
+* Column 1 Labels from R26_NETOSI_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_NetoSi_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -2055,9 +2055,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, He, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_He_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Helium, He, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Helium, He, Differential Count Rate, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_He_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -2855,9 +2855,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_B_R26_SECT_RTN</ParameterKey>
-         <Description>LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: LET1_B_R26_SECT_RTN</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -2884,9 +2884,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_A_R1_SECT_RTN</ParameterKey>
-         <Description>LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: LET1_A_R1_SECT_RTN</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -3521,9 +3521,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, Fe Group, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_FeGroup_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Iron Group, Fe Group, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_FEGROUP_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Iron Group, Fe Group, Differential Count Rate, sectored.
+* Column 1 Labels from R26_FEGROUP_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_FeGroup_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -3686,8 +3686,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -4029,9 +4029,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>Energy Range 1, Side B, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1B_He_BIN</ParameterKey>
-         <Description>Energy Range 1, Side B, Helium, He, Differential Counts.
-                      Column 1 Labels from R1_HE_BIN_ENERGY: ["0.595 to 0.841","0.841 to 1.189","1.189 to 1.682","1.682 to 2.378","2.378 to 3.364"].
-                      Column 2 Labels from R1B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 1, Side B, Helium, He, Differential Counts.
+* Column 1 Labels from R1_HE_BIN_ENERGY: ["0.595 to 0.841","0.841 to 1.189","1.189 to 1.682","1.682 to 2.378","2.378 to 3.364"].
+* Column 2 Labels from R1B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R1B_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -4577,9 +4577,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_A_R1_SECT_HCI</ParameterKey>
-         <Description>LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* LET1, Side A, R1, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: LET1_A_R1_SECT_HCI</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -5429,9 +5429,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>Energy Ranges 2-6, Side B, H, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_H_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Proton, H, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Proton, H, Differential Count Rate, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_H_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -5500,9 +5500,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>Energy Ranges 2-6, Side A, CNO, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_CNO_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Carbon, Nitrogen, Oxygen Group, CNO, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_CNO_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Carbon, Nitrogen, Oxygen Group, CNO, Differential Count Rate, sectored.
+* Column 1 Labels from R26_CNO_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_CNO_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -5954,9 +5954,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_A_R26_SECT_HCI</ParameterKey>
-         <Description>LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: LET1_A_R26_SECT_HCI</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -5983,9 +5983,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_B_R1_SECT_HCI</ParameterKey>
-         <Description>LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: LET1_B_R1_SECT_HCI</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -6865,8 +6865,8 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -7113,9 +7113,9 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>Energy Ranges 2-6, Side A, He, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_He_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Helium, He, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Helium, He, Differential Count Rate, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_He_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -7141,9 +7141,9 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>Energy Range 3, Side B, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R3B_He_BIN</ParameterKey>
-         <Description>Energy Range 3, Side B, Helium, He, Differential Counts.
-                      Column 1 Labels from R3_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R3B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 3, Side B, Helium, He, Differential Counts.
+* Column 1 Labels from R3_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R3B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R3B_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -7601,9 +7601,9 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>Energy Ranges 2-6, Side A, H, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_H_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Proton, H, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Proton, H, Differential Count Rate, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_H_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -7629,9 +7629,9 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_B_R26_SECT_HCI</ParameterKey>
-         <Description>LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* LET1, Side B, R26, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: LET1_B_R26_SECT_HCI</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -8192,8 +8192,8 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -8607,9 +8607,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, Fe Group, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_FeGroup_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Iron Group, Fe Group, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_FEGROUP_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Iron Group, Fe Group, Differential Count Rate, sectored.
+* Column 1 Labels from R26_FEGROUP_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_FeGroup_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -8635,9 +8635,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_A_R26_SECT_RTN</ParameterKey>
-         <Description>LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* LET1, Side A, R26, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: LET1_A_R26_SECT_RTN</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -8664,9 +8664,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 4-5, Side B, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R45B_He_BIN</ParameterKey>
-         <Description>Energy Ranges 4-5, Side B, Helium, He, Differential Counts.
-                      Column 1 Labels from R45_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R45B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Ranges 4-5, Side B, Helium, He, Differential Counts.
+* Column 1 Labels from R45_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R45B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R45B_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -8790,9 +8790,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 3, Side A, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R3A_Ne_BIN</ParameterKey>
-         <Description>Energy Range 3, Side A, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R3_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R3A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 3, Side A, Neon, Ne, Differential Counts.
+* Column 1 Labels from R3_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R3A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R3A_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -9146,9 +9146,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 1, Side A, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1A_He_BIN</ParameterKey>
-         <Description>Energy Range 1, Side A, Helium, He, Differential Counts.
-                      Column 1 Labels from R1_HE_BIN_ENERGY: ["0.595 to 0.841","0.841 to 1.189","1.189 to 1.682","1.682 to 2.378","2.378 to 3.364"].
-                      Column 2 Labels from R1A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 1, Side A, Helium, He, Differential Counts.
+* Column 1 Labels from R1_HE_BIN_ENERGY: ["0.595 to 0.841","0.841 to 1.189","1.189 to 1.682","1.682 to 2.378","2.378 to 3.364"].
+* Column 2 Labels from R1A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R1A_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -9192,9 +9192,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 1, Side B, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1B_Ne_BIN</ParameterKey>
-         <Description>Energy Range 1, Side B, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R1_NE_BIN_ENERGY: ["1.189 to 1.682","1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727"].
-                      Column 2 Labels from R1B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 1, Side B, Neon, Ne, Differential Counts.
+* Column 1 Labels from R1_NE_BIN_ENERGY: ["1.189 to 1.682","1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727"].
+* Column 2 Labels from R1B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R1B_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -9319,8 +9319,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -9825,9 +9825,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 2, Side A, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R2A_Ne_BIN</ParameterKey>
-         <Description>Energy Range 2, Side A, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R2_NE_BIN_ENERGY: ["2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R2A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 2, Side A, Neon, Ne, Differential Counts.
+* Column 1 Labels from R2_NE_BIN_ENERGY: ["2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R2A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R2A_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -10381,8 +10381,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -10454,8 +10454,8 @@ Mnenomic Pattern: HGC_R</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -10716,9 +10716,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>Energy Range 2, Side B, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R2B_Ne_BIN</ParameterKey>
-         <Description>Energy Range 2, Side B, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R2_NE_BIN_ENERGY: ["2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R2B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 2, Side B, Neon, Ne, Differential Counts.
+* Column 1 Labels from R2_NE_BIN_ENERGY: ["2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R2B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R2B_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -10762,9 +10762,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>Energy Range 1, Side A, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1A_Ne_BIN</ParameterKey>
-         <Description>Energy Range 1, Side A, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R1_NE_BIN_ENERGY: ["1.189 to 1.682","1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727"].
-                      Column 2 Labels from R1A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 1, Side A, Neon, Ne, Differential Counts.
+* Column 1 Labels from R1_NE_BIN_ENERGY: ["1.189 to 1.682","1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727"].
+* Column 2 Labels from R1A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R1A_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -10851,9 +10851,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>Energy Ranges 2-6, Side B, CNO, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_CNO_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Carbon, Nitrogen, Oxygen Group, CNO, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_CNO_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Carbon, Nitrogen, Oxygen Group, CNO, Differential Count Rate, sectored.
+* Column 1 Labels from R26_CNO_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_CNO_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -10881,9 +10881,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>Energy Range 6, Side A, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R6A_Ne_BIN</ParameterKey>
-         <Description>Energy Range 6, Side A, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R6_NE_BIN_ENERGY: ["38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R6A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 6, Side A, Neon, Ne, Differential Counts.
+* Column 1 Labels from R6_NE_BIN_ENERGY: ["38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R6A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R6A_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -11651,9 +11651,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>Energy Range 3, Side A, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R3A_He_BIN</ParameterKey>
-         <Description>Energy Range 3, Side A, Helium, He, Differential Counts.
-                      Column 1 Labels from R3_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R3A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 3, Side A, Helium, He, Differential Counts.
+* Column 1 Labels from R3_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R3A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R3A_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -11697,9 +11697,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>LET1_B_R1_SECT_RTN</ParameterKey>
-         <Description>LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* LET1, Side B, R1, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from LET1_R1_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: LET1_B_R1_SECT_RTN</Caveats>
          <Cadence>PT1H</Cadence>
          <CoordinateSystem>
@@ -11755,8 +11755,8 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -12409,9 +12409,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, Ne to Si, Differential Count Rate, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_NetoSi_SECT_Rate</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Neon to Silicon Group, Ne to Si, Differential Count Rate, sectored.
-                      Column 1 Labels from R26_NETOSI_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Neon to Silicon Group, Ne to Si, Differential Count Rate, sectored.
+* Column 1 Labels from R26_NETOSI_SECT_ENERGY: ["4.000 to 8.000","8.000 to 16.000","16.000 to 32.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_NetoSi_SECT&gt;rate</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>s^-1</Units>
@@ -12463,9 +12463,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 4-5, Side B, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R45B_Ne_BIN</ParameterKey>
-         <Description>Energy Ranges 4-5, Side B, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R45_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R45B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Ranges 4-5, Side B, Neon, Ne, Differential Counts.
+* Column 1 Labels from R45_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R45B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R45B_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -12589,9 +12589,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 4-5, Side A, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R45A_Ne_BIN</ParameterKey>
-         <Description>Energy Ranges 4-5, Side A, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R45_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R45A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Ranges 4-5, Side A, Neon, Ne, Differential Counts.
+* Column 1 Labels from R45_NE_BIN_ENERGY: ["13.454 to 19.027","19.027 to 26.909","26.909 to 38.055","38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R45A_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R45A_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -12894,9 +12894,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 6, Side B, Ne, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R6B_Ne_BIN</ParameterKey>
-         <Description>Energy Range 6, Side B, Neon, Ne, Differential Counts.
-                      Column 1 Labels from R6_NE_BIN_ENERGY: ["38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
-                      Column 2 Labels from R6B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
+         <Description>* Energy Range 6, Side B, Neon, Ne, Differential Counts.
+* Column 1 Labels from R6_NE_BIN_ENERGY: ["38.055 to 53.817","53.817 to 76.109","76.109 to 107.635"].
+* Column 2 Labels from R6B_NE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07"].</Description>
          <Caveats>Mnenomic Pattern: R6B_Ne_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -12940,9 +12940,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 6, Side A, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R6A_He_BIN</ParameterKey>
-         <Description>Energy Range 6, Side A, Helium, He, Differential Counts.
-                      Column 1 Labels from R6_HE_BIN_ENERGY: ["19.027 to 26.909","26.909 to 38.055","38.055 to 53.817"].
-                      Column 2 Labels from R6A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 6, Side A, Helium, He, Differential Counts.
+* Column 1 Labels from R6_HE_BIN_ENERGY: ["19.027 to 26.909","26.909 to 38.055","38.055 to 53.817"].
+* Column 2 Labels from R6A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R6A_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -13525,9 +13525,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 6, Side B, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R6B_He_BIN</ParameterKey>
-         <Description>Energy Range 6, Side B, Helium, He, Differential Counts.
-                      Column 1 Labels from R6_HE_BIN_ENERGY: ["19.027 to 26.909","26.909 to 38.055","38.055 to 53.817"].
-                      Column 2 Labels from R6B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 6, Side B, Helium, He, Differential Counts.
+* Column 1 Labels from R6_HE_BIN_ENERGY: ["19.027 to 26.909","26.909 to 38.055","38.055 to 53.817"].
+* Column 2 Labels from R6B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R6B_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -13815,9 +13815,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Range 2, Side B, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R2B_He_BIN</ParameterKey>
-         <Description>Energy Range 2, Side B, Helium, He, Differential Counts.
-                      Column 1 Labels from R2_HE_BIN_ENERGY: ["1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027"].
-                      Column 2 Labels from R2B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Range 2, Side B, Helium, He, Differential Counts.
+* Column 1 Labels from R2_HE_BIN_ENERGY: ["1.682 to 2.378","2.378 to 3.364","3.364 to 4.757","4.757 to 6.727","6.727 to 9.514","9.514 to 13.454","13.454 to 19.027"].
+* Column 2 Labels from R2B_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R2B_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -14073,110 +14073,12 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, He, Differential Flux, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_He_SECT_Flux</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Helium, He, Differential Flux, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R26B_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Energy Ranges 2-6, Side B, Helium, He, Differential Flux, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R26B_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -14202,9 +14104,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, He, Differential Flux Uncertainty, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_He_SECT_Uncertainty</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Helium, He, Differential Flux Uncertainty, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Helium, He, Differential Flux Uncertainty, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_He_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -14233,110 +14135,12 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, H, Differential Flux, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_H_SECT_Flux</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Proton, H, Differential Flux, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R26B_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Energy Ranges 2-6, Side B, Proton, H, Differential Flux, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R26B_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -14362,9 +14166,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side B, H, Differential Flux Uncertainty, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26B_H_SECT_Uncertainty</ParameterKey>
-         <Description>Energy Ranges 2-6, Side B, Proton, H, Differential Flux Uncertainty, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side B, Proton, H, Differential Flux Uncertainty, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26B_H_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
@@ -14473,107 +14277,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1B_H_SECT_Flux</ParameterKey>
          <Description>Energy Range 1, Side B, Proton, H, Differential Flux, sectored</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R1B_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R1B_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -14700,110 +14406,12 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, He, Differential Flux, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_He_SECT_Flux</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Helium, He, Differential Flux, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R26A_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Energy Ranges 2-6, Side A, Helium, He, Differential Flux, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R26A_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -14829,9 +14437,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, He, Differential Flux Uncertainty, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_He_SECT_Uncertainty</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Helium, He, Differential Flux Uncertainty, sectored.
-                      Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Helium, He, Differential Flux Uncertainty, sectored.
+* Column 1 Labels from R26_HE_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_He_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -14861,107 +14469,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1A_He_SECT_Flux</ParameterKey>
          <Description>Energy Range 1, Side A, Helium, He, Differential Flux, sectored</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R1A_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R1A_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -15019,107 +14529,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1B_He_SECT_Flux</ParameterKey>
          <Description>Energy Range 1, Side B, Helium, He, Differential Flux, sectored</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R1B_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R1B_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -15176,110 +14588,12 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, H, Differential Flux, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_H_SECT_Flux</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Proton, H, Differential Flux, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R26A_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Energy Ranges 2-6, Side A, Proton, H, Differential Flux, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R26A_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -15305,9 +14619,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 2-6, Side A, H, Differential Flux Uncertainty, sectored</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R26A_H_SECT_Uncertainty</ParameterKey>
-         <Description>Energy Ranges 2-6, Side A, Proton, H, Differential Flux Uncertainty, sectored.
-                      Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
-                      Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Energy Ranges 2-6, Side A, Proton, H, Differential Flux Uncertainty, sectored.
+* Column 1 Labels from R26_H_SECT_ENERGY: ["2.000 to 4.000","4.000 to 8.000","8.000 to 16.000"].
+* Column 2 Labels from LET1_R26_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: R26A_H_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
@@ -15336,107 +14650,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R1A_H_SECT_Flux</ParameterKey>
          <Description>Energy Range 1, Side A, Proton, H, Differential Flux, sectored</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: R1A_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: R1A_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -15492,9 +14708,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Energy Ranges 4-5, Side A, He, Differential Counts</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>R45A_He_BIN</ParameterKey>
-         <Description>Energy Ranges 4-5, Side A, Helium, He, Differential Counts.
-                      Column 1 Labels from R45_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
-                      Column 2 Labels from R45A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
+         <Description>* Energy Ranges 4-5, Side A, Helium, He, Differential Counts.
+* Column 1 Labels from R45_HE_BIN_ENERGY: ["6.727 to 9.514","9.514 to 13.454","13.454 to 19.027","19.027 to 26.909","26.909 to 38.055"].
+* Column 2 Labels from R45A_HE_BIN_MASS_BIN: ["Mass bin 00","Mass bin 01","Mass bin 02","Mass bin 03","Mass bin 04","Mass bin 05","Mass bin 06","Mass bin 07","Mass bin 08","Mass bin 09","Mass bin 10","Mass bin 11","Mass bin 12","Mass bin 13","Mass bin 14","Mass bin 15"].</Description>
          <Caveats>Mnenomic Pattern: R45A_He_BIN</Caveats>
          <Cadence>PT1H</Cadence>
          <RenderingHints>
@@ -15539,8 +14755,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
          <Cadence>PT1H</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument (ISOIS EPI) Merged Summary, Level 2 (L2), 1 min Data</ResourceName>
-         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi and EPI-Lo, Summary data: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -102,8 +102,8 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_Rate_TS</ParameterKey>
          <Description>Proton, H, Differential Count Rate, Side A, for time series display</Description>
-         <Caveats>Mnenomic Pattern: A_H&gt;rate
-Variable Parent: A_H_Rate_TS_Parent</Caveats>
+         <Caveats>* Mnenomic Pattern: A_H&gt;rate
+* Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -129,7 +129,7 @@ Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Name>Epoch Time, Midpoint of Integration</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration</Description>
-         <Caveats>Mnenomic Pattern: Epoch  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
@@ -174,9 +174,9 @@ Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_CountRate_ChanT_SP</ParameterKey>
          <Description>Proton, H Count Rate, Channel T, Ion Time of Flight, TOF, Mode, for spectrogram display</Description>
-         <Caveats>Ion Composition Mode, corrected for deadtime, all species, calibrated for H
-Mnenomic Pattern: CountRate
-Variable Parent: H_CountRate_ChanT_SP_Parent</Caveats>
+         <Caveats>* Ion Composition Mode, corrected for deadtime, all species, calibrated for H
+* Mnenomic Pattern: CountRate
+* Variable Parent: H_CountRate_ChanT_SP_Parent</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -205,7 +205,7 @@ Variable Parent: H_CountRate_ChanT_SP_Parent</Caveats>
          <Name>Epoch Time, Midpoint of Integration, Channel T Parameters</Name>
          <ParameterKey>Epoch_ChanT</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel T, Ion Time of Flight, TOF, Mode data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanT  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanT. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -338,9 +338,9 @@ Variable Parent: H_CountRate_ChanT_SP_Parent</Caveats>
          <Set>Time Series defined by using: EPOCH_CHANE</Set>
          <ParameterKey>Electron_CountRate_ChanE</ParameterKey>
          <Description>Electron, e- Count Rate, Channel E, High Resolution Mode</Description>
-         <Caveats>Particle Energy Mode, corrected for deadtime, may contain substantial non-electron background
-Mnenomic Pattern: CountRate
-Variable Parent: Electron_CountRate_ChanE_Parent</Caveats>
+         <Caveats>* Particle Energy Mode, corrected for deadtime, may contain substantial non-electron background
+* Mnenomic Pattern: CountRate
+* Variable Parent: Electron_CountRate_ChanE_Parent</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -368,7 +368,7 @@ Variable Parent: Electron_CountRate_ChanE_Parent</Caveats>
          <Name>Epoch Time, Midpoint of Integration, Channel E Parameters</Name>
          <ParameterKey>Epoch_ChanE</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for Channel E, High Resolution Mode data Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch_ChanE  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch_ChanE. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;</UnitsConversion>
@@ -503,8 +503,8 @@ Variable Parent: Electron_CountRate_ChanE_Parent</Caveats>
          <Set>Time Series defined by using: HET_EPOCH</Set>
          <ParameterKey>HET_A_H_Rate_TS</ParameterKey>
          <Description>Proton, H, Differential Count Rate, HET, Side A, for time series display</Description>
-         <Caveats>Mnenomic Pattern: A_H&gt;rate
-Variable Parent: A_H_Rate_TS_Parent</Caveats>
+         <Caveats>* Mnenomic Pattern: A_H&gt;rate
+* Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
@@ -530,7 +530,7 @@ Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Name>Epoch Time, Midpoint of Integration, HET</Name>
          <ParameterKey>HET_Epoch</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration for HET Parameters</Description>
-         <Caveats>Mnenomic Pattern: Epoch  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
@@ -575,8 +575,8 @@ Variable Parent: A_H_Rate_TS_Parent</Caveats>
          <Set>Time Series defined by using: HET_EPOCH</Set>
          <ParameterKey>HET_A_Electrons_Rate_TS</ParameterKey>
          <Description>Electron, e-, Differential Count Rate, HET, Side A, for time series display</Description>
-         <Caveats>Mnenomic Pattern: A_Electrons&gt;rate
-Variable Parent: A_Electrons_Rate_TS_Parent</Caveats>
+         <Caveats>* Mnenomic Pattern: A_Electrons&gt;rate
+* Variable Parent: A_Electrons_Rate_TS_Parent</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>

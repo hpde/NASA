@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPIHI/HET/Level2/Rates/PT1M</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) High Energy Telescope (HET) Rates, Level 2 (L2), 1 min Data</ResourceName>
-         <ReleaseDate>2020-03-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-01-13T12:34:56.789Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, High Energy Telescope, HET, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -100,8 +100,8 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -389,7 +389,7 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Epoch Time, Midpoint of Integration</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time Tags, Nanoseconds since J2000 at Midpoint of the Integration</Description>
-         <Caveats>Mnenomic Pattern: Epoch  . This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Mnenomic Pattern: Epoch. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
@@ -1311,8 +1311,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -1587,8 +1587,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_Flux</ParameterKey>
          <Description>Helium, He, Differential Flux, Side B</Description>
-         <Caveats>Mnenomic Pattern: B_He&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: B_He&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -1877,8 +1877,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_Flux</ParameterKey>
          <Description>Proton, H, Differential Flux, Side A</Description>
-         <Caveats>Mnenomic Pattern: A_H&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
+         <Caveats>* Mnenomic Pattern: A_H&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -2450,8 +2450,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_R</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -2479,110 +2479,12 @@ Mnenomic Pattern: HCI_R</Caveats>
          <Name>He, Differential Flux, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_SECT_Flux</ParameterKey>
-         <Description>Helium, He, Differential Flux, sectored, Side A.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: A_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Helium, He, Differential Flux, sectored, Side A.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: A_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -2608,9 +2510,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>He, Differential Flux Uncertainty, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_SECT_Uncertainty</ParameterKey>
-         <Description>Helium, He, Differential Flux Uncertainty, sectored, Side A.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Helium, He, Differential Flux Uncertainty, sectored, Side A.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: A_He_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -2719,110 +2621,12 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_SECT_Flux</ParameterKey>
-         <Description>Proton, H, Differential Flux, sectored, Side B.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: B_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Proton, H, Differential Flux, sectored, Side B.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: B_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -2848,9 +2652,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux Uncertainty, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_SECT_Uncertainty</ParameterKey>
-         <Description>Proton, H, Differential Flux Uncertainty, sectored, Side B.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Proton, H, Differential Flux Uncertainty, sectored, Side B.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: B_H_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
@@ -4638,9 +4442,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>He, Differential Count Rate, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_SECT_Rate</ParameterKey>
-         <Description>Helium, He, Differential Count Rate, sectored, Side B.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Helium, He, Differential Count Rate, sectored, Side B.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: B_He_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -4878,9 +4682,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Electron, Differential Count Rate, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_Electrons_SECT_Rate</ParameterKey>
-         <Description>Electron, e-, Differential Count Rate, sectored, Side B.
-                      Column 1 Labels from ELECTRONS_SECT_ENERGY: ["1.000 to 2.000","2.000 to 4.000"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Electron, e-, Differential Count Rate, sectored, Side B.
+* Column 1 Labels from ELECTRONS_SECT_ENERGY: ["1.000 to 2.000","2.000 to 4.000"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: B_Electrons_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -4982,9 +4786,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>HET, Side A, R17, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HET_A_R17_SECT_RTN</ParameterKey>
-         <Description>HET, Side A, R17, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* HET, Side A, R17, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: HET_A_R17_SECT_RTN</Caveats>
          <Cadence>PT1M</Cadence>
          <CoordinateSystem>
@@ -5816,8 +5620,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -6196,9 +6000,9 @@ Mnenomic Pattern: HCI_Lon</Caveats>
          <Name>H, Differential Count Rate, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_H_SECT_Rate</ParameterKey>
-         <Description>Proton, H, Differential Count Rate, sectored, Side B.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Proton, H, Differential Count Rate, sectored, Side B.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: B_H_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -6441,8 +6245,8 @@ Mnenomic Pattern: HCI_Lon</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lat</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -6845,9 +6649,9 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>He, Differential Count Rate, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_He_SECT_Rate</ParameterKey>
-         <Description>Helium, He, Differential Count Rate, sectored, Side A.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Helium, He, Differential Count Rate, sectored, Side A.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: A_He_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -6873,110 +6677,12 @@ Mnenomic Pattern: HGC_Lat</Caveats>
          <Name>H, Differential Flux, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_SECT_Flux</ParameterKey>
-         <Description>Proton, H, Differential Flux, sectored, Side A.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: A_H_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Proton, H, Differential Flux, sectored, Side A.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: A_H_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J)^-1</UnitsConversion>
@@ -7002,9 +6708,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>H, Differential Flux Uncertainty, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_SECT_Uncertainty</ParameterKey>
-         <Description>Proton, H, Differential Flux Uncertainty, sectored, Side A.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Proton, H, Differential Flux Uncertainty, sectored, Side A.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: A_H_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV)^-1</Units>
@@ -7212,8 +6918,8 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_R</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Heliocentric Radial Distance, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_R</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_R</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ua</Units>
          <UnitsConversion>1.495978706961e11&gt;m</UnitsConversion>
@@ -7454,8 +7160,8 @@ Mnenomic Pattern: HGC_R</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HGC_Lon</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Longitude, Heliographic Carrington, HGI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HGC_Lon</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HGC_Lon</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -7483,9 +7189,9 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Name>HET, Side B, R17, Flow Direction for each Direction Bin, sectored, Radial-Tangential-Normal Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HET_B_R17_SECT_RTN</ParameterKey>
-         <Description>HET, Side B, R17, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
-                      Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["R","T","N"].</Description>
+         <Description>* HET, Side B, R17, Flow Direction for each Direction Bin, sectored, unit vector, Radial-Tangential-Normal, RTN, Coordinates, Cartesian.
+* Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["R","T","N"].</Description>
          <Caveats>Mnenomic Pattern: HET_B_R17_SECT_RTN</Caveats>
          <Cadence>PT1M</Cadence>
          <CoordinateSystem>
@@ -7513,8 +7219,8 @@ Mnenomic Pattern: HGC_Lon</Caveats>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HCI_Lat</ParameterKey>
          <Description>Spacecraft Position at the Timestamp, Latitude, Heliocentric Inertial, HCI, Coordinates, Spherical</Description>
-         <Caveats>See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
-Mnenomic Pattern: HCI_Lat</Caveats>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lat</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
@@ -7542,9 +7248,9 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>H, Differential Count Rate, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_H_SECT_Rate</ParameterKey>
-         <Description>Proton, H, Differential Count Rate, sectored, Side A.
-                      Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Proton, H, Differential Count Rate, sectored, Side A.
+* Column 1 Labels from H_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: A_H_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -7570,110 +7276,12 @@ Mnenomic Pattern: HCI_Lat</Caveats>
          <Name>He, Differential Flux, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_SECT_Flux</ParameterKey>
-         <Description>Helium, He, Differential Flux, sectored, Side B.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
-         <Caveats>Warning: CDAWeb plots not supported
-Mnenomic Pattern: B_He_SECT&gt;flux
-Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
-         <Caveats>Warning: CDAWeb plots not supported</Caveats>
+         <Description>* Helium, He, Differential Flux, sectored, Side B.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Caveats>* Warning: CDAWeb plots not supported
+* Mnenomic Pattern: B_He_SECT&gt;flux
+* Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
          <UnitsConversion>6.24161e-19&gt;(m^2 s sr J/n)^-1</UnitsConversion>
@@ -7699,9 +7307,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>He, Differential Flux Uncertainty, sectored, Side B</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>B_He_SECT_Uncertainty</ParameterKey>
-         <Description>Helium, He, Differential Flux Uncertainty, sectored, Side B.
-                      Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Helium, He, Differential Flux Uncertainty, sectored, Side B.
+* Column 1 Labels from HE_SECT_ENERGY: ["13.454 to 22.627","22.627 to 45.255"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: B_He_SECT&gt;uncertainty</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -8169,9 +7777,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>HET, Side B, R17, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HET_B_R17_SECT_HCI</ParameterKey>
-         <Description>HET, Side B, R17, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* HET, Side B, R17, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HET_B_R17_SECT_HCI</Caveats>
          <Cadence>PT1M</Cadence>
          <CoordinateSystem>
@@ -8198,9 +7806,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>Electron, Differential Count Rate, sectored, Side A</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>A_Electrons_SECT_Rate</ParameterKey>
-         <Description>Electron, e-, Differential Count Rate, sectored, Side A.
-                      Column 1 Labels from ELECTRONS_SECT_ENERGY: ["1.000 to 2.000","2.000 to 4.000"].
-                      Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
+         <Description>* Electron, e-, Differential Count Rate, sectored, Side A.
+* Column 1 Labels from ELECTRONS_SECT_ENERGY: ["1.000 to 2.000","2.000 to 4.000"].
+* Column 2 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].</Description>
          <Caveats>Mnenomic Pattern: A_Electrons_SECT&gt;rate</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
@@ -8830,9 +8438,9 @@ Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Name>HET, Side A, R17, Flow Direction for each Direction Bin, sectored, Heliocentric Inertial Coordinates, Cartesian</Name>
          <Set>Time Series defined by using: EPOCH</Set>
          <ParameterKey>HET_A_R17_SECT_HCI</ParameterKey>
-         <Description>HET, Side A, R17, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
-                      Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
-                      Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
+         <Description>* HET, Side A, R17, Flow Direction for each Direction Bin, sectored, unit vector, Heliocentric Inertial, HCI, Coordinates, Cartesian.
+* Column 1 Labels from HET_R17_SECTORS: ["Sector 00","Sector 01","Sector 02","Sector 03","Sector 04","Sector 05","Sector 06","Sector 07","Sector 08","Sector 09","Sector 10","Sector 11","Sector 12","Sector 13","Sector 14","Sector 15","Sector 16","Sector 17","Sector 18","Sector 19","Sector 20","Sector 21","Sector 22","Sector 23","Sector 24"].
+* Column 2 Labels from : ["x HCI","y HCI","z HCI"].</Description>
          <Caveats>Mnenomic Pattern: HET_A_R17_SECT_HCI</Caveats>
          <Cadence>PT1M</Cadence>
          <CoordinateSystem>
