@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.9</Version>
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/LET/L1/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A IMPACT (In-Situ Measurements of Particles and CME Transients) Low Energy Telescope (LET) 1-min Level 1 Ion Fluxes</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
       <Description>The IMPACT Low Energy Telescope (LET) data consist of 1-min 
 resolution unsectored fluxes and counts for each of 15 single-Z ionic species
 at each of a species-dependent number of energy bins ranging between 9 and 16,
@@ -20,7 +20,7 @@ of UCB</Acknowledgement>
       </Contact>
       <InformationURL>
         <Name>CDAWeb Skeleton Table</Name>
-        <URL>ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_let_00000000_v01.skt</URL>
       </InformationURL>
       <InformationURL>
         <Name>Caltech STEREO site</Name>

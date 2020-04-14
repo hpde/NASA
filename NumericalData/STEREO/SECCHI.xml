@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.6</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/STEREO/SECCHI</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO SECCHI data</ResourceName>
-             <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+             <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
             <Description>STEREO SECCHI data at VSO</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
@@ -29,7 +29,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>MEDOC site</Name>
-                <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
+                <URL>http://idoc-medoc.ias.u-psud.fr/</URL>
 </AccessURL>
             <Format>Text</Format>
 </AccessInformation>

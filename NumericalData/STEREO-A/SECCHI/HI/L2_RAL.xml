@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.8</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/STEREO-A/SECCHI/HI/L2_RAL</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A SECCHI HI Level 2 produced by UK Solar System Data Centre</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
             <Description>
 STEREO-A SECCHI HI Level 2 FITS files produced by the UK Solar System Data Centre, calibrated and background subtracted.  Images stored in FITS files with filenames such as "20140101_180501_24h1A_br11.fts". The meaning of the different parts of this filename is as follows:
 
@@ -24,7 +24,7 @@ STEREO-A SECCHI HI Level 2 FITS files produced by the UK Solar System Data Centr
 </Contact>
             <InformationURL>
                 <Name>UKSSDC - STEREO HI data processing documentation</Name>
-                <URL>https://www.ukssdc.ac.uk/solar/stereo/documentation/HI_processing_L2_data.html:1</URL>
+                <URL>https://www.ukssdc.ac.uk/solar/stereo/documentation/HI_processing_L2_data.html</URL>
 </InformationURL>
 </ResourceHeader>
         <AccessInformation>
