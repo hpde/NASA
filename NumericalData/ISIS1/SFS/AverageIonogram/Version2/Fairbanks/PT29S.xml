@@ -2,12 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ISIS1/SFS/AverageIonogramNew/Fairbanks/PT29S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ISIS1/SFS/AverageIonogram/Version2/Fairbanks/PT29S</ResourceID>
       <ResourceHeader>
-         <ResourceName>ISIS-1 Topside Sounder Ionogram over Fairbanks, AK, USA, Version 2, Swept-Frequency Sounder (SFS) (Latitude 65&#176;, Longitude 212&#176;), 29 s Data</ResourceName>
-         <ReleaseDate>2020-04-21T12:34:56.789Z</ReleaseDate>
-         <Description>This Ionogram was digitized from the original ISIS 1 Analog Telemetry Data on 7-Track Tape using the Facilities of the Data Evaluation Laboratory at NASA GSFC, Code 500. This Data Restoration Project is headed by Dr. R.F. Benson, NASA GSFC, Code 692. Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 ms corresponding to an Apparent Range Interval of c*t/2, where c is the Speed of Light, or 3.747 km. Each Ionogram consists of a Fixed Frequency Portion and a Swept Frequency Portion. The Time Resolution is typically 29 s.</Description>
-         <Acknowledgement>Please acknowledge James H. Whitteker, Robert F. Benson, and Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS data restoration project.</Acknowledgement>
+         <ResourceName>ISIS-1 Topside Sounder Average Ionogram over Fairbanks, AK, ULA, Version 2, Latitude 65&#176;, Longitude 212&#176;, 29 s Data</ResourceName>
+         <ReleaseDate>2020-04-22T12:34:56.789Z</ReleaseDate>
+         <Description>This Ionogram was digitized from the original ISIS 1 Analog Telemetry Data on 7-Track Tape using the Facilities of the Data Evaluation Laboratory at NASA GSFC, Code 500. This Data Restoration Project is headed by Dr. R.F. Benson, NASA GSFC, Code 692. Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 ms corresponding to an Apparent Range Interval of c*t/2, where c is the Speed of Light, or 3.747 km. Each Ionogram consists of a Fixed Frequency Portion and a Swept Frequency Portion. The Time Resolution is typically 29 s.
+
+This data product has been produced as part of the ISIS 1 topside digital ionogram database enhancement project, and this data product is one in the set of the Average Ionogram, version 2, av2, data products. Version 2 ISIS-I topside digital ionograms have been produced from the midlatitude Ottawa, OTT, the low-latitude Quito, and the high-latitude University of Alaska, Fairbanks telemetry stations. Digital ionograms from the midlatitude Santiago telemetry station are in production as of 2020-04-22. A major goal of the enhancement project is to produce as many topside soundings of ionospheric Ne(h) as possible so as to expand the Ne(h) profile coverage in latitude, longitude, and epoch. Original, version 1, files designated as &apos;av&apos; for average files where the apparent-range information was averaged to yield 15-km resolution are also available. Both versions, av and av2, have good ionogram data, but the lack of proper frame-sync detection in the av files often prevented the determination of frequency information. After correcting the frame-sync detection, it is possible to add the correct frequency information allowing the ionograms to be processed automatically, by software such as TOPIST, to yield topside Ne(h).</Description>
+         <Acknowledgement>Please acknowledge the Principal Investigator James H. Whitteker, Robert F. Benson, Dieter K. Bilitza, and Leonard N. Garcia for use of the Data</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/James.H.Whitteker</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -38,10 +40,16 @@
             <Description>ISIS/Alouette Page maintained by NASA GSFC with Science and Instrument Descriptions, Data Access, Software, and Publication Lists</Description>
          </InformationURL>
          <InformationURL>
+            <Name>ISIS 1 Data Restoration and Enhancement Project, Radio Science publication</Name>
+            <URL>https://doi.org/10.1029/2018RS006659</URL>
+            <Description>Benson, R.F., D. Bilitza, S.F. Fung, V. Truhlik, and Y. Wang (2018), Enhancing the ISIS-I topside digital ionogram database, Radio Sci., 53, DOI: 10.1029/2018RS006659</Description>
+         </InformationURL>
+         <InformationURL>
             <Name>NSSDC Master Catalog</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-009A</URL>
             <Description>Information about the Swept Frequency Sounder, SFS, Experiment on ISIS 1</Description>
          </InformationURL>
+         <PriorID>spase://VSPO/NumericalData/ISIS1/SFS/AverageIonogramNew/Fairbanks/PT29S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -65,12 +73,10 @@
          </AccessURL>
          <Format>CDF</Format>
          <Encoding>None</Encoding>
-         <Acknowledgement>Please acknowledge James H. Whitteker, Robert F. Benson, and Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS data restoration project. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+         <Acknowledgement>Please acknowledge the Principal Investigator James H. Whitteker, Robert F. Benson, Dieter K. Bilitza, and Leonard N. Garcia. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/ISIS1/SFS</InstrumentID>
-      <MeasurementType>Spectrum</MeasurementType>
-      <MeasurementType>Waves.Active</MeasurementType>
       <MeasurementType>Spectrum</MeasurementType>
       <MeasurementType>Waves.Active</MeasurementType>
       <TemporalDescription>
@@ -111,7 +117,7 @@
          <Description>Satellite ID: 1=Alouette 1, 2=Alouette 2, 3=ISIS 1, 4=ISIS 2</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>s/c_ID</AxisLabel>
+            <AxisLabel>S/C_ID</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>4</ScaleMax>
@@ -129,7 +135,7 @@
          <Description>Two-Digit Telemetry Station Code</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>station</AxisLabel>
+            <AxisLabel>Station</AxisLabel>
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>99</ScaleMax>
@@ -147,7 +153,7 @@
          <Description>Transmitter Power Code: 1=Primary, 400 W, 2=Secondary, 400 W</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>T_power</AxisLabel>
+            <AxisLabel>T_Power</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>2</ScaleMax>
@@ -165,7 +171,7 @@
          <Description>Sounder-Receiver Code: 0=Off, 1=On</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>s/r_code</AxisLabel>
+            <AxisLabel>S/R_Code</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
@@ -183,7 +189,7 @@
          <Description>Pulse per Second Code: 0=30 Pulses/s, 1=60 Pulses/s</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>pps_code</AxisLabel>
+            <AxisLabel>PPS_Code</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
@@ -237,7 +243,7 @@
          <Description>Sounder Mixed Mode, Transmission at a Fixed Frequency while the Sounder-Receiver sweeps over the Swept Frequency Range: 0=Off, 1=On</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>s_m_mode</AxisLabel>
+            <AxisLabel>S_M_Mode</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>1</ScaleMax>
@@ -255,7 +261,7 @@
          <Description>Fixed Frequency Code: 0=Off, 1=0.25 MHz, 2=0.48 MHz, 3=1.00 MHz, 4=1.95 MHz, 5=4.00 MHz, 6=9.303 MHz</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>f_code</AxisLabel>
+            <AxisLabel>Freq_Code</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>6</ScaleMax>
@@ -273,7 +279,7 @@
          <Description>Year of Ionogram Frame Sync</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>year</AxisLabel>
+            <AxisLabel>Year</AxisLabel>
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>62</ScaleMin>
             <ScaleMax>83</ScaleMax>
@@ -327,7 +333,7 @@
          <Description>Minute of Hour of Ionogram Frame Sync, UT</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>min</AxisLabel>
+            <AxisLabel>Min</AxisLabel>
             <ValueFormat>I2</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>60</ScaleMax>
@@ -345,7 +351,7 @@
          <Description>Second of Minute of Ionogram Frame Sync, UT</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>second</AxisLabel>
+            <AxisLabel>Second</AxisLabel>
             <ValueFormat>F7.4</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>60.0</ScaleMax>
@@ -422,7 +428,7 @@
                <ValidMin>-90.0</ValidMin>
                <ValidMax>90.0</ValidMax>
                <RenderingHints>
-                  <AxisLabel>latitude</AxisLabel>
+                  <AxisLabel>Latitude</AxisLabel>
                   <ScaleMin>-90.0</ScaleMin>
                   <ScaleMax>90.0</ScaleMax>
                </RenderingHints>
@@ -435,7 +441,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>360.0</ValidMax>
                <RenderingHints>
-                  <AxisLabel>longitude</AxisLabel>
+                  <AxisLabel>Longitude</AxisLabel>
                   <ScaleMin>0.0</ScaleMin>
                   <ScaleMax>360.0</ScaleMax>
                </RenderingHints>
@@ -448,7 +454,7 @@
                <ValidMin>0.0</ValidMin>
                <ValidMax>10000.0</ValidMax>
                <RenderingHints>
-                  <AxisLabel>height</AxisLabel>
+                  <AxisLabel>Height</AxisLabel>
                   <ScaleMin>0.0</ScaleMin>
                   <ScaleMax>10000.0</ScaleMax>
                </RenderingHints>
@@ -519,7 +525,7 @@
             <CoordinateSystemName>MAG</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>geom_lat</AxisLabel>
+            <AxisLabel>Geom_Lat</AxisLabel>
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-90.0</ScaleMin>
             <ScaleMax>90.0</ScaleMax>
@@ -544,7 +550,7 @@
             <CoordinateSystemName>MAG</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>geom_long</AxisLabel>
+            <AxisLabel>Geom_Long</AxisLabel>
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -568,7 +574,7 @@
          <UnitsConversion>1e3&gt;m</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>Satellite Altitude</AxisLabel>
+            <AxisLabel>Sat_Alt</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>4000.0</ScaleMax>
@@ -591,7 +597,7 @@
          <UnitsConversion>1e6&gt;Hz</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>gyrof</AxisLabel>
+            <AxisLabel>GyroFreq</AxisLabel>
             <ValueFormat>F7.3</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>100.0</ScaleMax>
@@ -612,7 +618,7 @@
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>inv_lat</AxisLabel>
+            <AxisLabel>Inv_Lat</AxisLabel>
             <ValueFormat>F7.2</ValueFormat>
             <ScaleMin>-90.0</ScaleMin>
             <ScaleMax>90.0</ScaleMax>
@@ -695,7 +701,7 @@
          <Description>Spacecraft Sunlight: 0=Out, 1=In, at the Time of Ionogram Frame Sync</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>sun</AxisLabel>
+            <AxisLabel>Sun</AxisLabel>
             <ValueFormat>I1</ValueFormat>
             <ScaleMin>1</ScaleMin>
             <ScaleMax>2</ScaleMax>
@@ -840,7 +846,7 @@
          <Caveats>seperates the fixed and swept portions</Caveats>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>swept_start</AxisLabel>
+            <AxisLabel>Swept_Start</AxisLabel>
             <ValueFormat>I5</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>10000</ScaleMax>
@@ -856,12 +862,12 @@
          <Name>Times of Ionogram Frequency Markers</Name>
          <ParameterKey>Time_mark</ParameterKey>
          <Description>Times of Ionogram Frequency Markers, Milliseconds after Frame Sync</Description>
-         <Caveats>time of frequency markers This Parameter exhibits an increasing Monotonic Progression.</Caveats>
+         <Caveats>Time of frequency markers. This parameter exhibits an increasing monotonic progression.</Caveats>
          <Cadence>PT29S</Cadence>
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>T_mark</AxisLabel>
+            <AxisLabel>T_Mark</AxisLabel>
             <ValueFormat>F10.3</ValueFormat>
             <ScaleMin>3000.0</ScaleMin>
             <ScaleMax>30000.0</ScaleMax>
@@ -884,7 +890,7 @@
          <Units>MHz</Units>
          <UnitsConversion>1e6&gt;Hz</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>freq</AxisLabel>
+            <AxisLabel>Freq</AxisLabel>
             <ValueFormat>E11.2</ValueFormat>
             <ScaleMin>0.1</ScaleMin>
             <ScaleMax>20.0</ScaleMax>
@@ -905,7 +911,7 @@
          <Description>Number of Delay Times per Ionogram Scan Line. Each Sounder Pulse Transmission is followed by a Scan of the Sounder-Receiver Video Amplitude Output Values for each Delay Time monitored after the transmitted Pulse. These Scans are called Scan Lines. There are two Types of ISIS 1 Binary Ionogram Files, one designated as Full and the other designated as Average. The Full File has 1340 Delay Times, one every 0.025 ms. The Average Files are derived from the Full Files by averaging the Amplitude Values in four Delay Time Bins. Thus, the Average Binary Files contain 335 Time Delay Bins within each Scan Line. The CDF Files were made from these Average Binary Files.</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>N_vh</AxisLabel>
+            <AxisLabel>N_VH</AxisLabel>
             <ValueFormat>I3</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>335</ScaleMax>
@@ -923,7 +929,7 @@
          <Description>Number of Ionogram Scan Line Frequencie Steps. Ionogram Files can be of different Lengths. In some the Swept Frequency Portion covers the Range from 0.1 Mhz to 10 MHz, in others from 0.1 Mhz to 20 MHz. Also, the proper Start of each Ionogram File, marked by a Frame Sync Pulse, was not always detected during the Analog to Digital, A/D, Conversion. In such cases, a Frame Sync was inserted to limit the File Size. Thus the Number of Sounder-Receiver Video Amplitude versus Delay Time Scan Lines per Ionogram can vary.</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>N_f</AxisLabel>
+            <AxisLabel>N_Freq</AxisLabel>
             <ValueFormat>I6</ValueFormat>
             <ScaleMin>0</ScaleMin>
             <ScaleMax>4000</ScaleMax>
@@ -943,7 +949,7 @@
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Delay time</AxisLabel>
+            <AxisLabel>Delay_Time</AxisLabel>
             <ValueFormat>F9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
          </RenderingHints>
@@ -963,7 +969,7 @@
          <Units>km</Units>
          <UnitsConversion>1e3&gt;m</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>V_height</AxisLabel>
+            <AxisLabel>V_Height</AxisLabel>
             <ValueFormat>F9.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
          </RenderingHints>
@@ -980,7 +986,7 @@
          <Name>Epoch Time</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time</Description>
-         <Caveats>This Parameter exhibits an increasing Monotonic Progression</Caveats>
+         <Caveats>This parameter exhibits an increasing monotonic progression</Caveats>
          <Cadence>PT29S</Cadence>
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
@@ -1003,7 +1009,7 @@
          <Description>Sounder Amplitude at 335 Virtual Heights for Fixed Frequency and Swept Frequency, Ionogram. The Sounder-Receiver Linear Video Amplitude, from 0 to 255 Telemetry Units, in each Apparent Range Bin of each Scan Line covering the Fixed Frequency and Swept Frequency Regions. This Range corresponds to a Linear Sounder-Receiver Video Amplitude Output Range from 0 V to 4.5 V. This Calibration is based on the Video Calibration Pulse, of 3.0 V or 170 Telemetry Units, at the End of the Line Scan following each Sounder Pulse. The Combined Calibration Pulses from all of the Line Scans produces a Colored Stripe at the Bottom of the Digital Ionograms. In order to derive an Input Power Level corresponding to the Receiver Video Output, it is necessary to know the Sounder-Receiver Automatic Gain Control, AGC, Voltage. This Voltage was obtained from the Pulse Code Modulation, PCM, Data and thus is only available if PCM Data were available. The AGC Voltage, which ranges from 0 V to 5.12 V, is obtained from a Linear Interpolation between the AGC Trace displayed between the 4005 km Apparent Range, at 26.7 ms Delay Time, as 5.12 V and the 4395 km, at 29.3 ms Delay Time, as 0 V. On the Full Ionograms these Numbers are 4001.250 km or 26.675 ms and 4398.750 km or 29.325 ms. On the Average Ionograms, which are available as either CDF or Binary Files from the SPDF or the NSSDC, the Range Resolution is 0.1 ms, corresponding to a Virtual Range Resolution of 15 km. There are 27 Rows an thus 26 Intervals covering the 0 V to 5.12 V Range; thus each Row in Virtual Range above, i.e. decreasing Delay Time, the Zero Level at 29.3 ms Delay Time corresponds to an Increase of 5.12/26 V of AGC with a Quantization Uncertainty of approximately Plus or Minus 0.1 V. Two Rows have Zero Video Output Amplitude Values on the Average Ionograms in order that a clear AGC Trace is visible on the Ionograms. The Row with the greatest Virtual Range corresponds to the actual AGC Value. On the Full Ionograms, which are only available as Binary Files from the NSSDC, the Range Resolution is 0.025 ms, corresponding to a Virtual Range Resolution of 3.75 km, and three Rows have Zero Video Output Amplitude Values; the middle Row corresponds to the actual AGC Value.</Description>
          <Cadence>PT29S</Cadence>
          <RenderingHints>
-            <AxisLabel>Relative Amplitude</AxisLabel>
+            <AxisLabel>Rel_Amp</AxisLabel>
             <ValueFormat>I3</ValueFormat>
          </RenderingHints>
          <Structure>
@@ -1028,7 +1034,7 @@
          <UnitsConversion>1e6&gt;Hz</UnitsConversion>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
-            <AxisLabel>frequency</AxisLabel>
+            <AxisLabel>Freq</AxisLabel>
             <ValueFormat>E11.2</ValueFormat>
             <ScaleMin>0.1</ScaleMin>
             <ScaleMax>25.0</ScaleMax>
