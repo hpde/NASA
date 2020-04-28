@@ -53,14 +53,14 @@
         <Availability>Online</Availability>
         <AccessRights>Open</AccessRights>
 	<AccessURL>
-            <Name>FTPs access to files at SPDF</Name>
+            <Name>FTPS access to files at SPDF</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
-            <Description>FTPs access to Gold Level L2 data</Description>
+            <Description>FTPS access to Gold Level L2 data</Description>
          </AccessURL>
          <AccessURL>
-           <Name>HTTPs access to files at SPDF</Name>
+           <Name>HTTPS access to files at SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
-            <Description>HTTPs access to Gold Level L2 data</Description>
+            <Description>HTTPS access to Gold Level L2 data</Description>
          </AccessURL>
          <Format>NetCDF</Format>
          <Acknowledgement>Space Physics Data Facility of the NASA Goddard Space Flight Center; Robert E McGuire</Acknowledgement>
