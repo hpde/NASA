@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema     http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema     http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <!-- Is index subelement of Structure element 0-based? -->
   <!-- Can duplicate Name subelements of PhysicalParameter element -->
   <!-- exist in a NumericalData resource -->
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/CRS/FLUX/P1D</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/Voyager2/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/ASCII/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Cosmic Ray Subsystem (CRS) Cruise Mode daily averages</ResourceName>
-      <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
+      <ReleaseDate>020-04-28T18:12:38Z</ReleaseDate>
       <Description>
                 daily averages of selected fluxes
             </Description>
@@ -23,6 +23,7 @@
         <URL>https://voyager.gsfc.nasa.gov</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager2/CRS/FLUX/P1D</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Voyager2/CRS/FLUX/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/CRS</RepositoryID>

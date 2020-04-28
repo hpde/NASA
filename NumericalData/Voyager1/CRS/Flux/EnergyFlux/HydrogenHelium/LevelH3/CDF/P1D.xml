@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Voyager1/CRS/HydrogenHeliumEnergyFlux/H3/P1D</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/Voyager1/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/CDF/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Voyager 1 Cosmic Ray Subsystem (CRS) Proton and Helium Energy Fluxes, Level H3 (H3), Daily Data</ResourceName>
-         <ReleaseDate>2020-04-24T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-04-28T18:12:38Z</ReleaseDate>
          <Description>The joint California Institute of Technology, Caltech, Goddard Space Flight Center, GSFC, Cosmic Ray Subsystem, CRS, experiment on Voyager consists of three types of solid state detector telescopes:
 
 * Two High Energy Telescopes: HET-I and HET-II
@@ -59,6 +59,7 @@ Cosmic Ray Subsystem Science Objectives:
             <URL>https://doi.org/10.1007/BF00211546</URL>
             <Description>Stone, E.C., R.E. Vogt, F.B. McDonald, B.J. Teegarden, J.H. Trainor, J.R. Jokipii, and W.R. Webber, Cosmic Ray Investigation for the Voyager Missions: Energetic Particle Studies in the Outer Heliosphere - and Beyond, Space Sci. Rev. 21, 355–376w, 1977.</Description>
          </InformationURL>
+         <PriorID>spase://VSPO/NumericalData/Voyager1/CRS/HydrogenHeliumEnergyFlux/H3/P1D</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
