@@ -2,9 +2,9 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-E/Level3/PitchAngleDistribution/PT0.2185S</ResourceID>
+      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-E/Level3/PitchAngleDistribution/PT13.981S</ResourceID>
       <ResourceHeader>
-         <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPE Electron Pitch Angle Distribution, Level 3 (L3), 0.2185 s Data</ResourceName>
+         <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPE Electron Pitch Angle Distribution, Level 3 (L3), 13.981 s Data</ResourceName>
          <ReleaseDate>2020-04-29T12:34:56.789Z</ReleaseDate>
          <Description>* SPAN-Electron, SPAN-E, Instrument SPE Level 3 Data
 * --------------------------------------------------
@@ -89,7 +89,7 @@ As part of the development of collaboration with the broader Heliophysics commun
             <StartDate>2018-10-31T00:00:00.000</StartDate>
             <RelativeStopDate>-P6M</RelativeStopDate>
          </TimeSpan>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Heliosphere</ObservedRegion>
       <ObservedRegion>Heliosphere.Inner</ObservedRegion>
@@ -101,7 +101,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <ParameterKey>Epoch</ParameterKey>
          <Description>Epoch Time Tags, TT2000, Nanoseconds since J2000 at Midpoint of the Integration</Description>
          <Caveats>Warning: the Epoch time typically has an irregular cadence owing to frequent changes in the operating mode. TT2000 is measured in nanoseconds from J2000 with leap seconds included. Please refer to CDF TT2000 documentation with regards to this convention. This time corresponds to the first measurement of the spectrum. In accordance with SPDF standards, this epoch is interpreted a CDF_TT2000 time. It is acknowledged here that this epoch is not strictly equal to &quot;terrestrial time&quot; as it is defined in the CDF_TT2000 documentation nor is the calendar date interpreted by CDF_T2000 operation performed on this epoch strictly equal to Coordinated Universal Time, UTC. This Parameter exhibits an increasing Monotonic Progression.</Caveats>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>ns</Units>
          <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
          <RenderingHints>
@@ -123,7 +123,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <ParameterKey>TIME</ParameterKey>
          <Description>Time</Description>
          <Caveats>This Parameter exhibits an increasing Monotonic Progression</Caveats>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>s</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
@@ -145,7 +145,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <ParameterKey>MET</ParameterKey>
          <Description>Parker Solar Probe, PSP, Mission Elapsed Time, MET, in string format</Description>
          <Caveats>The mission elapsed time string is constructed as met_seconds+':'+met_subseconds_base50000, where: met_seconds is the CCSDS_MET value cast as an integer string with no whitespace and met_subseconds_base50000 is an &quot;I05&quot; format integer string formed by converting the xxx_SUBSEC value to units of 1/50000 second. For example, if the xxx_SUBSEC value is recorded in parts per 65536 o second, the correct procedure would be to round 50000*(xxx_SUBSEC/65536) to the nearest integer and cast a string by using the &quot;I05&quot; format. Here, CCSDS_MET is the mission elapsed time, in seconds, from the PSP Epoch, which is defined to be January 1, 2010, 12:00:00 UTC and xxx_SUBSEC is the elapsed time in fractional seconds since the last tick of MET typically in units of 2^-16 seconds.</Caveats>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>s</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
@@ -162,7 +162,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>F0</ParameterKey>
          <Description>F0</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>F0</AxisLabel>
@@ -179,7 +179,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>TOT_ACCUM_PERIOD</ParameterKey>
          <Description>Total Accumulation Period</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>TOT_ACCUM_PERIOD</AxisLabel>
@@ -197,7 +197,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>NUM_ACCUM</ParameterKey>
          <Description>Number of Accumulations</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>NUM_ACCUM</AxisLabel>
@@ -215,7 +215,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>SMP_BITS</ParameterKey>
          <Description>SMP Bits</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>SMP_BITS</AxisLabel>
@@ -232,7 +232,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>ARCH_BITS</ParameterKey>
          <Description>ARCH Bits</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>ARCH_BITS</AxisLabel>
@@ -249,7 +249,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>LTCSNNNN_BITS</ParameterKey>
          <Description>LTCS NNNN Bits</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>LTCSNNNN_BITS</AxisLabel>
@@ -266,7 +266,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>STATUS_BITS</ParameterKey>
          <Description>Status Bits</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>STATUS_BITS</AxisLabel>
@@ -283,7 +283,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>PRODUCT_BITS</ParameterKey>
          <Description>Product Bits</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>PRODUCT_BITS</AxisLabel>
@@ -300,7 +300,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>MODE2</ParameterKey>
          <Description>Mode Number 2</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>MODE2</AxisLabel>
@@ -317,7 +317,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>QUALITY_FLAG</ParameterKey>
          <Description>Quality Flag</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Quality Flag</AxisLabel>
@@ -337,7 +337,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>EFLUX_VS_PA_E</ParameterKey>
          <Description>Energy Flux versus Pitch Angle, PA, and Energy, E</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>eV/(cm^2 s sr eV)</Units>
          <UnitsConversion>1.0e4&gt;J/(m^2 s sr J)</UnitsConversion>
          <RenderingHints>
@@ -361,7 +361,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>PITCHANGLE</ParameterKey>
          <Description>Pitch Angle</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
@@ -387,7 +387,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>ENERGY_VALS</ParameterKey>
          <Description>Particle Energy</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>eV</Units>
          <UnitsConversion>1.602176565e-19&gt;J</UnitsConversion>
          <RenderingHints>
@@ -414,7 +414,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>EFLUX_VS_ENERGY</ParameterKey>
          <Description>Differential Energy Flux versus Energy</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>eV/(cm^2 s sr eV)</Units>
          <UnitsConversion>1.0e4&gt;J/(m^2 s sr J)</UnitsConversion>
          <RenderingHints>
@@ -440,7 +440,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>SPX_VS_PA_E</ParameterKey>
          <Description>SPX, SPAN-Ae or SPAN-B, versus Pitch Angle, PA, and Energy, E</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>SPX_VS_PA_E</AxisLabel>
@@ -460,7 +460,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>NSAMPLE_VS_PA_E</ParameterKey>
          <Description>Number of Samples versus Pitch Angle, PA, and Energy, E</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>NSAMPLE_VS_PA_E</AxisLabel>
@@ -481,7 +481,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>MAGF_SC</ParameterKey>
          <Description>Magnetic Field, Spacecraft, SC, Coordinates</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <Units>nT</Units>
          <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
          <RenderingHints>
@@ -507,7 +507,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>VALID</ParameterKey>
          <Description>Valid</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>VALID</AxisLabel>
@@ -524,7 +524,7 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>GAP</ParameterKey>
          <Description>Gap</Description>
-         <Cadence>PT0.2185S</Cadence>
+         <Cadence>PT13.981S</Cadence>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>GAP</AxisLabel>
