@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
+  <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/OMNI/PT5M</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/OMNI/HighResolutionObservations/Version1/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI 5-min Data Set</ResourceName>
       <AlternateName>HRO-5</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-04-29T20:36:43Z</ReleaseDate>
       <Description>Solar wind magnetic field and plasma data at 5-min resolution created from HRO-1 which was in turn created from ACE, Wind and IMP 8 data shifted to the Earth's bow shock nose.</Description>
       <Acknowledgement>We acknowledgement J.H. King and N.E. Papitashvili of NASA/SPDF and QSS and the original providers of the input ACE, Wind and IMP 8 data</Acknowledgement>
       <Contact>
@@ -55,6 +55,7 @@
         <AssociationType>DerivedFrom</AssociationType>
       </Association>
       <PriorID>spase://VMO/NumericalData/OMNI/PT5M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/OMNI/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
