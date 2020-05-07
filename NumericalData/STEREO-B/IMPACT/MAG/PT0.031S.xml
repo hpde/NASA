@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.2</Version>
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/MAG/PT0.031S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT/MAG 32-Hz Magnetic Field Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>This data product contains 0.03125-s (32 Hz) burst-mode values
 of solar wind magnetic field data taken by the IMPACT/Magnetometer on STEREO-B. 
 The interface allows selection of STEREO A or STEREO B data and of vector quantities
@@ -20,20 +20,12 @@ M. Acuna (GSFC).</Acknowledgement>
         <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
 </Contact>
-      <InformationURL>
-        <Name>IMPACT MAG data-descriptive page at UCLA page</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/ssc/stereo/</URL>
-</InformationURL>
       <PriorID>spase://VSPO/NumericalData/STEREO-B/MAG/PT0.031S</PriorID>
 </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>IMPACT MAG Interface at UCLA</Name>
-        <URL>http://aten.igpp.ucla.edu/forms/stereo/ascii_heliocentric_full_final_Burst.html</URL>
-</AccessURL>
       <AccessURL>
         <Name>Data in SC coordinates from SPDF FTP area</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/sc/magb/</URL>

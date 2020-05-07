@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L2/TDISK/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level L2 ratio of the column abundance of thermospheric O relative to N2</ResourceName>
-      <ReleaseDate>2020-03-12T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>The GOLD daytime disk scan measurements are used to derive the TDISK data product, 
 	  which is the effective disk neutral temperature at a height of approximately 150 km. TDISK is derived 
 	  for each valid dayside Level 1C pixel for approximately 68 disk scan measurements performed per day 
@@ -43,7 +43,7 @@
       </Contact>
       <InformationURL>
         <Name>GOLD Homepage web page</Name>
-        <URL>http://gold.cs.ucf.edu/</URL>
+        <URL>https://gold.cs.ucf.edu/</URL>
         <Description>GOLD web page with news and other information.</Description>
       </InformationURL>
 	  <InformationURL>

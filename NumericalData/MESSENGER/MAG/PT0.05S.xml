@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
     <ResourceHeader>
       <ResourceName>MESSENGER MAG Cruise Phase Data, Resolutions up to 20Hz</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>This MESSENGER/MAG data set contains cruise-phase
 magnetic field vectors in RTN coordinates at time resolutions typically
 of 0.5s or 1.0s and sometimes as fine as 0.05s.</Description>
@@ -28,12 +28,12 @@ Anderson of JHU_APL, and the organization from which the data were
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/messenger/mag/rtn_cdf/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/messenger/rtn/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/messenger/mag/rtn_cdf//</URL>
         <Description>In CDF via http from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>

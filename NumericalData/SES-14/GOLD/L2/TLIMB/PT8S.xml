@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L2/TLIMB/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level L2 exospheric temperature</ResourceName>
-      <ReleaseDate>2020-03-12T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>
 	  GOLD retrieves the exospheric temperature from the integrated N2 LBH radiance profile 
 	  obtained from atmospheric limb scans (LIM observation mode). This data product, referred to as TLIMB, 
@@ -67,7 +67,7 @@
       </Contact>
       <InformationURL>
         <Name>GOLD Homepage web page</Name>
-        <URL>http://gold.cs.ucf.edu/</URL>
+        <URL>https://gold.cs.ucf.edu/</URL>
         <Description>GOLD web page with news and other information.</Description>
       </InformationURL>
 	  <InformationURL>

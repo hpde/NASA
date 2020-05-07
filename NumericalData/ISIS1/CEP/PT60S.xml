@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/ISIS1/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 1 Electron N and T data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
             <Description>ISIS 1 ionospheric electron density and temperature data at 1-5 min resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -16,10 +16,6 @@
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
-            <AccessURL>
-                <Name>FTPBrowser</Name>
-                <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/isis_a.html</URL>
-</AccessURL>
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isis/cylindrical_electrostatic_probes_ascii/isis1/</URL>

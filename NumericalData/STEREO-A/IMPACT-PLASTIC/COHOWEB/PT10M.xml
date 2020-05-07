@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.2</Version>
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT-PLASTIC/COHOWEB/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A COHOWEB field data from IMPACT and plasma data from PLASTIC</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description> STEREO data in COHOWEB come from the magnetometer of
     the IMPACT package and from the PLASTIC plasma detector.  Principal
     Investigators for these packages are Janet Luhmann (UCB) and Antoinette Galvin
@@ -23,10 +23,6 @@
         <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
         <Role>DataProducer</Role>
       </Contact>
-      <InformationURL>
-        <Name>STEREO site at UCLA</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/ssc/stereo/</URL>
-      </InformationURL>
       <InformationURL>
         <Name>STEREO PLASTIC site at UNH</Name>
         <URL>http://fiji.sr.unh.edu/</URL>

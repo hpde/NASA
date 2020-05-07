@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.6</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/CORONAS-F/SPIRIT/PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>CORONAS-F Full Sun XUV Spectroscopy Imaging (SPIRIT) Data</ResourceName>
-            <ReleaseDate>2016-04-12T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
             <Description>Data from the Full Sun XUV Spectroscopy Imaging (SPIRIT) onboard CORONAS-F.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/I.A.Zhitnik</PersonID>
@@ -21,7 +21,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>HTTP access to FITS files at MEDOC</Name>
-                <URL>http://idc-solar.ias.u-psud.fr/jsp/AvailableData.jsp</URL>
+                <URL>http://idoc-medoc.ias.u-psud.fr/sitools/client-user/index.html?project=Medoc-Solar-Portal</URL>
                 <Description>In FITS via HTTP from MEDOC</Description>
             </AccessURL>
             <Format>FITS</Format>

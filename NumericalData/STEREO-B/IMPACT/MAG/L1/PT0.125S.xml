@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/MAG/L1/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-situ Measurements of Particles And CME Transients (IMPACT) Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-B IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
       <Description>This data product contains Level 1 0.125-s values of solar wind magnetic field data taken by the IMPACT/Magnetometer on STEREO-B. The interface at UCB provides access to CDF-formatted files of magnetic field data in RTN coordinates. The interface at UCLA allows selection of STEREO A or STEREO B data and of vector quantities in RTN or spacecraft coordinates. It also allows selection of either of two parameter sets: [Bx, By, Bz,  B ] or [RBx, RBy, RBz,  B , cone and clock angles]. Further, this interface enables easy migration between plot vs. ASCII data presentation options and among the three available resolutions (1, 8, 32 Hz). The parameter level information given below is specific to the CDF version of the data at UCB.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -22,23 +22,8 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>The web site provides detailed descriptions of the STEREO IMPACT MAG instrument as well as associated data sets.</Description>
       </InformationURL>
-      <InformationURL>
-        <Name>IMPACT MAG data-descriptive page at UCLA page</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/ssc/stereo/</URL>
-      </InformationURL>
       <PriorID>spase://VHO/NumericalData/STEREO-B/IMPACT/MAG/L1_PT0.125S</PriorID>
     </ResourceHeader>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/UCLA</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>IMPACT MAG Interface at UCLA</Name>
-        <URL>http://aten.igpp.ucla.edu/forms/stereo/ascii_heliocentric_8hz_final.html</URL>
-      </AccessURL>
-      <Format>Text</Format>
-      <Acknowledgement>Please acknowledge the IMPACT MAG team and Dr. C.T. Russell for the UCLA data interface.</Acknowledgement>
-    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>

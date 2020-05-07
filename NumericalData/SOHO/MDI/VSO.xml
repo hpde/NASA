@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/SOHO/MDI/VSO</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO MDI Images via VSO</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
             <Description>Multiple general and specialized products at multiple processing levels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Rick.Bogart</PersonID>
@@ -29,7 +29,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>MEDOC site</Name>
-                <URL>http://idc-solar.ias.u-psud.fr/invoquerSva.do?sva=dataSearch&amp;menu=true</URL>
+                <URL>http://idoc-medoc.ias.u-psud.fr/sitools/client-user/index.html?project=Medoc-Solar-Portal</URL>
 </AccessURL>
             <Format>FITS</Format>
 </AccessInformation>
