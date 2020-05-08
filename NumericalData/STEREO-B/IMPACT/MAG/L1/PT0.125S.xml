@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO-B In-situ Measurements of Particles And CME Transients (IMPACT) Magnetic Field Vectors and Ancillary Data</ResourceName>
       <AlternateName>STEREO-B IMPACT/MAG Level 1 Data</AlternateName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-05-08T15:41:27Z</ReleaseDate>
       <Description>This data product contains Level 1 0.125-s values of solar wind magnetic field data taken by the IMPACT/Magnetometer on STEREO-B. The interface at UCB provides access to CDF-formatted files of magnetic field data in RTN coordinates. The interface at UCLA allows selection of STEREO A or STEREO B data and of vector quantities in RTN or spacecraft coordinates. It also allows selection of either of two parameter sets: [Bx, By, Bz,  B ] or [RBx, RBy, RBz,  B , cone and clock angles]. Further, this interface enables easy migration between plot vs. ASCII data presentation options and among the three available resolutions (1, 8, 32 Hz). The parameter level information given below is specific to the CDF version of the data at UCB.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
@@ -23,7 +23,8 @@
         <Description>The web site provides detailed descriptions of the STEREO IMPACT MAG instrument as well as associated data sets.</Description>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/STEREO-B/IMPACT/MAG/L1_PT0.125S</PriorID>
-    </ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT/MAG/PT1S</PriorID>    
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>

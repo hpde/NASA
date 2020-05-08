@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT-PLASTIC/COHOWEB/PT10M</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT-PLASTIC/COHOWEB/PT1H</ResourceID>
     <ResourceHeader>
-      <ResourceName>STEREO-B COHOWEB field data from IMPACT and plasma data from PLASTIC</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ResourceName>STEREO-A COHOWEB field data from IMPACT and plasma data from PLASTIC</ResourceName>
+      <ReleaseDate>2020-05-08T13:45:15Z</ReleaseDate>
       <Description> STEREO data in COHOWEB come from the magnetometer of
     the IMPACT package and from the PLASTIC plasma detector.  Principal
     Investigators for these packages are Janet Luhmann (UCB) and Antoinette Galvin
@@ -27,20 +27,21 @@
         <Name>STEREO PLASTIC site at UNH</Name>
         <URL>http://fiji.sr.unh.edu/</URL>
       </InformationURL>
-      <PriorID>spase://VSPO/NumericalData/STEREO-B/COHO1HR_MERGED_MAG_PLASMA</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/COHO1HR_MERGED_MAG_PLASMA</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT-PLASTIC/COHOWEB/PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/coho1hr_magplasma/</URL>
-        <Description>FTP access to STEREO-B data files at SPDF</Description>
+        <Name>FTPS access to files at SPDF</Name>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/coho1hr_magplasma/</URL>
+        <Description>FTP access to STEREO-A data files at SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/behind/coho1hr_magplasma/</URL>
+        <Name>HTTPS access to files at SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/coho1hr_magplasma/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -51,14 +52,14 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
-        <ProductKey>STB_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
-        <Description>STB_COHO1HR_MERGED_MAG_PLASMA with subset, plot and list via CDAWeb</Description>
+        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
+        <ProductKey>STA_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+        <Description>STA_COHO1HR_MERGED_MAG_PLASMA with subset, plot and list via CDAWeb</Description>
       </AccessURL>
-      <Format>Text</Format>
+      <Format>CDF</Format>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/STEREO-B/IMPACT</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/STEREO-B/PLASTIC</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/STEREO-A/IMPACT</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/STEREO-A/PLASTIC</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
@@ -68,7 +69,7 @@
         <Note>Exact stop and end dates differ for different instruments'
 data.  Lag time of latest data is typically some months.</Note>
       </TimeSpan>
-      <Cadence>PT10M</Cadence>
+      <Cadence>PT1H</Cadence>
     </TemporalDescription>
     <ObservedRegion>Heliosphere.Remote1AU</ObservedRegion>
   </NumericalData>
