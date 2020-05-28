@@ -4,7 +4,7 @@
    <NumericalData>
       <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</ResourceID>
       <ResourceHeader>
-         <ResourceName>PVO Magnetometer, OMAG, Plasma Analyzer, OPA, Merged Solar Wind Data, 10 min Data</ResourceName>
+         <ResourceName>Pioneer Venus Orbiter (PVO) Magnetometer, OMAG, Plasma Analyzer, OPA, Merged Solar Wind Data, 10 min Data</ResourceName>
          <ReleaseDate>2020-05-25T12:34:56.789Z</ReleaseDate>
          <Description>Pioneer Venus Orbiter, PVO, was the first orbiter mission designed to conduct a comprehensive and long term investigation of the planet Venus. PVO measured the detailed structure of the upper atmosphere and ionosphere of Venus and investigated the interaction of the solar wind with the Venusian ionosphere. Over the years from 1978 to 1992, PVO provided nearly continuous measurements of the solar wind from its highly eccentric orbit around Venus.
 
@@ -35,13 +35,15 @@ This merged data includes 10-minute averages for selected parameters of the inte
             <Description>NSSDC Master Catalog, Pioneer Venus Orbiter spacecraft</Description>
             <Language>en</Language>
          </InformationURL>
+<!--
          <InformationURL>
             <Name>Solar Wind IMF and Plasma Data Server, UCLA</Name>
             <URL>http://www-ssc.igpp.ucla.edu/forms/polar/corr_data.html</URL>
             <Description>Solar Wind Interplanetary Magnetic Field, IMF, and Plasma Data Server, ACE, IMP8, and Wind data are available in GSM coordinates, NEAR and PVO in pseuod-ecliptic coordinates, hosted by University of California, Los Angeles, UCLA</Description>
             <Language>en</Language>
          </InformationURL>
-         <InformationURL>
+-->    
+     <InformationURL>
             <Name>NSSDC Master Catalog, Pioneer Venus Orbiter, OMAG instrument</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-051A-12</URL>
             <Description>General information concerning the Pioneer Venus Orbiter, Magnetometer, OMAG, instrument</Description>
