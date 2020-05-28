@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/AIM/CIPS/PT90M</ResourceID>
         <ResourceHeader>
             <ResourceName>AIM/CIPS noctilucent cloud images and movies, etc.</ResourceName>
-            <ReleaseDate>2020-04-07T20:21:47Z</ReleaseDate>
+            <ReleaseDate>2020-05-28T21:17:13Z</ReleaseDate>
             <Description>AIM/CIPS (Cloud Imaging and Particle Size) data are available in multiple 
 processing levels: 1a (calibrated and geolocated albedo); 1b (map-
 projected albedo at 5km x 5km resolution); 1c (same as 1b, but with 
@@ -42,6 +42,17 @@ during that region's summer.(</Description>
             </AccessURL>
             <Format>NetCDF</Format>
             <Encoding>GZIP</Encoding>
+        </AccessInformation>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/UCOLO</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>Browse Images at LASP.</Name>
+                <URL>http://lasp.colorado.edu/aim/browse-images.php?dataset=pmc</URL>
+                <Description>For levels 2, 3a, 4 only; see InformationURL for other data</Description>
+            </AccessURL>
+            <Format>PNG</Format>
         </AccessInformation>
         <InstrumentID>spase://SMWG/Instrument/AIM/CIPS</InstrumentID>
         <MeasurementType>ImageIntensity</MeasurementType>
