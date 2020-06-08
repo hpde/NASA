@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/DE1/SAI/PT3M</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 1 Spin-Scan Auroral Imager UV Images</ResourceName>
       <AlternateName>Dynamics Explorer 1 Spin-Scan Auroral Imager UV Images</AlternateName>
       <AlternateName>DE-A Spin-Scan Auroral Imager UV Images</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-06-08T19:26:18Z</ReleaseDate>
       <Description>This data set contains ultraviolet images in quasi-logarithmically compressed counts from the vacuum ultraviolet imaging photometer of the Spin-Scan Auroral Imager (SAI) flown on DE 1.  The time resolution was 3 to 12 minutes per image.  Also included are the GCI position vector, velocity vector and spin axis of the spacecraft.  Data are available in CDF format from CDAWeb.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
-        <Role>PrincipalInvestigator</Role>
+        <Role>FormerPI</Role>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
