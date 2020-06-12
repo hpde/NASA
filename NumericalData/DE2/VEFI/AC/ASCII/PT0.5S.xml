@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/VEFI/AC/PT0.5S</ResourceID>
+    <ResourceID>spase://VSPO/NumericalData/DE2/VEFI/AC/ASCII/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 0.5-s AC Electric Field ASCII data</ResourceName>
       <AlternateName>Dynamics Explorer 2 0.5-s AC Electric Field ASCII data</AlternateName>
       <AlternateName>DE-B 0.5-s AC Electric Field ASCII data</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-06-12T22:01:56Z</ReleaseDate>
       <Description>This data set contains the averaged AC electric field data (1 or 2 points per second)
 and orbit information in ASCII format.</Description>
       <Contact>

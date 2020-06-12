@@ -1,10 +1,11 @@
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/DE2/MAGB-VEFI/PT0.5S</ResourceID>
+        <ResourceID>spase://VSPO/NumericalData/DE2/MAGB-VEFI/ASCII/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>DE-2 0.5-s magnetic and electric field data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-06-12T22:01:56Z</ReleaseDate>
             <Description>DE-2 0.5-s magnetic and electric field data at low altitude</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.A.Slavin</PersonID>
