@@ -40,12 +40,12 @@ and pressures.</Description>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/Level2/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/</URL>
         <Description>Access to Data in NetCDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/Level2/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/</URL>
         <Description>Access to Data in NetCDF Format via http from SPDF</Description>
       </AccessURL>
       <Format>NetCDF</Format>
