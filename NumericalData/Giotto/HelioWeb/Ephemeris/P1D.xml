@@ -12,14 +12,12 @@ The original trajectory data are taken from http://ssd.jpl.nasa.gov/horizons.cgi
 
 The production of the HG, HGI, and SE trajectory data requires a values for the &quot;Equinox Epoch&quot;, which is defined as the epoch time when the direction from the Earth to the sun at the time of the vernal equinox when the sun seems to cross equatorial plane of the Earth from below. This direction is called the First Point of Aries, FPA and it is not a fixed direction but drifts by about 1.4&#176; per century or 50.26&quot; per year. In addition, there are tiny irregularities in FPA drift that are on the order of 1&quot; per year or less. The Equinox Epoch can be determined by using a variety of methods for calculating the instantaneous FPA longitudinal direction and whether the tiny irregularities have been smoothed or averaged out. Four methods for determining the Equinox Epoch are in common usage:
 
-+---------------------------------------------------------------------+
 | Method Name  | FPA Longitude Definition                             |
-|---------------------------------------------------------------------|
+| ------------ | ---------------------------------------------------- |
 | B1950.0      | the actual FPA at 22:09 UT on December 31, 1949      |
 | J2000.0      | the smoothed FPA at 12:00 UT on January 1, 2000      |
 | True of Date | the actual FPA at 00:00 UT on the date of interest   |
 | Mean of Date | the smoothed FPA at 00:00 UT on the date of interest |
-+---------------------------------------------------------------------+
 
 The heliocentric trajectory data included in this data product have been calculated by using the Equinox Epoch: defined via the &quot;Mean of Date&quot; method.
 
