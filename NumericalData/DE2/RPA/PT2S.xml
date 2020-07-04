@@ -7,7 +7,7 @@
       <ResourceName>DE 2 2s Retarding Potential Analyzer (RPA) Ion Plasma Parameters</ResourceName>
       <AlternateName>Dynamics Explorer 2 RPA  Ion Plasma</AlternateName>
       <AlternateName>DE-B RPA  Ion Plasma</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains the following plasma
 parameters at 16ms resolution from the DE 2 Retarding Potential
 Analyzer: ion drift velocity, ion temperature, densities of all
@@ -50,12 +50,12 @@ Drs. W.B. Hanson (original P.I.) and R.A. Heelis</Acknowledgement>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/plasma_rpa/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

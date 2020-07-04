@@ -6,7 +6,7 @@
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L2/TDISK/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level L2 ratio of the column abundance of thermospheric O relative to N2</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The GOLD daytime disk scan measurements are used to derive the TDISK data product, 
 	  which is the effective disk neutral temperature at a height of approximately 150 km. TDISK is derived 
 	  for each valid dayside Level 1C pixel for approximately 68 disk scan measurements performed per day 
@@ -57,12 +57,12 @@
         <Availability>Online</Availability>
         <AccessRights>Open</AccessRights>
 	<AccessURL>
-            <Name>FTPS access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
             <Description>FTPS access to Gold Level L2 data</Description>
         </AccessURL>
         <AccessURL>
-           <Name>HTTPS access to files at SPDF</Name>
+           <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
             <Description>HTTPS access to Gold Level L2 data</Description>
         </AccessURL>

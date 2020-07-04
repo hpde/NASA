@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP8/CRNC/PT15M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 Cosmic Ray Nuclear Composition (CRNC) 15-min PHA and coincidence mode counts</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This 15-min-resolution data set consists of 5 count rates from the Low Energy Telescope, 
         8 count rates for the main telescope (MT), 4 counts of pulse height analyzed events in each of 4 MT 
         coincidence modes, and 27 box counts corresponding to specific species and energy ranges associated 
@@ -37,12 +37,12 @@
                 <Description>Interface to plot or list parameter subsets</Description>
             </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_uchi/15min_asci/</URL>
                 <Description>download files by ftp</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_uchi/15min_asci/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

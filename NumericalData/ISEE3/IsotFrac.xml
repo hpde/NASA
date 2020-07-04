@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/IsotFrac</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 Isotopic Fractions</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This data product consists of a single ASCII file 
 containing values and their uncertainties for isotopic fractions of 56 
 specific isotopes relative to isotope-integrated elemental abundances, 
@@ -33,11 +33,11 @@ ISEE 3 instrument Principal Investigator.</Acknowledgement>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/energetic_particles_cr/cr_composition/table2.txt</URL>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/energetic_particles_cr/cr_composition/table2.txt</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

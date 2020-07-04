@@ -6,7 +6,7 @@
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L1C/OCC/PT0.3S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level 1C Occultation data</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The Level 1C Dayside Disk Images are interrupted via stored instrument commands when 
 	  target stars suitable for occultation measurements approach either limb. 
 	  To perform the occultation measurement, the slit mechanism inserts the 1 degree wide occultation (OCC) 
@@ -43,12 +43,12 @@
         <Availability>Online</Availability>
         <AccessRights>Open</AccessRights>
 	<AccessURL>
-            <Name>FTPS access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gold/level1c/</URL>
             <Description>FTPS access to Gold Level 1C data</Description>
          </AccessURL>
          <AccessURL>
-           <Name>HTTPS access to files at SPDF</Name>
+           <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/gold/level1c/</URL>
             <Description>HTTPS access to Gold Level 1C data</Description>
          </AccessURL>

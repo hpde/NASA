@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/DE2/MAGB-VEFI/CDF/PT0.062S</ResourceID>
       <ResourceHeader>
          <ResourceName>DE 2 Vector Electric Field Instrument, VEFI, Magnetometer, MAG-B, Merged Magnetic and Electric Field Parameters, 62 ms Data</ResourceName>
-         <ReleaseDate>2020-06-11T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This Dynamics Explorer 2, DE 2, data set is a combination of the Vector Electric Field Instrument, VEFI, and Magnetometer-B, MAGB, high resolution data sets in spacecraft, SC, coordinates submitted to NSSDC. The following orbit-altitude, OA, parameters have been added to the data set:
 
 * 1) Model magnetic field, SC coordinates
@@ -89,12 +89,12 @@ The VEFI instrument consisted of six cylindrical elements 11 m long and 28 mm in
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/62ms_vefimagb_cdaweb/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/62ms_vefimagb_cdaweb/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/ElectricFieldIntensity/KeyParameter/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Plasma and Radio Waves (WAVES) Electric Field Intensities and Electron Plasma Densities, Key Parameter (K0), 3 min Data</ResourceName>
-         <ReleaseDate>2020-05-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Wind Waves instrument, Plasma and Radio Wave Key Parameter data: electric field average intensity in dB above background at 76 log-spaced frequencies from 250 Hz to 9.4 MHz that is determined from neural network analysis of the in situ electron plasma frequency, Fpe, line.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator M.L. Kaiser for use of the Data</Acknowledgement>
          <Contact>
@@ -70,12 +70,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_k0/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_k0/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

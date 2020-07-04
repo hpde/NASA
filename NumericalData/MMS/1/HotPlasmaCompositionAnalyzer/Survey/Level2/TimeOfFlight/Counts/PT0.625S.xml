@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/MMS/1/HotPlasmaCompositionAnalyzer/Survey/Level2/TimeOfFlight/Counts/PT0.625S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 1 Hot Plasma Composition Analyzer (HPCA) Time of Flight, TOF, Counts, Quick-Look Survey, Level 2 (L2), PT0.625S Data</ResourceName>
-         <ReleaseDate>2020-04-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Hot Plasma Composition Analyzer (HPCA) Time of Flight, TOF, Counts, Level 2, Survey 10 s Data. The MMS HPCA instruments measure the energy and composition of magnetospheric plasmas in the energy range from 1 eV to 40 keV. An electrostatic energy analyzer (ESA) that is optically coupled to a carbon-foil based Time-of-Flight (TOF) section comprises each HPCA. The basic HPCA data product is an array of counts for 5 ion species, at 63 energies, for each of 16 elevation anodes. Sixteen basic products, also called azimuths, are acquired every 10 s; half a spacecraft spin period nominally has 16 azimuths. The five ion species are protons (H+), alpha particles (He++), helium ions (He+), singly charged Oxygen (O+), and background counts.</Description>
          <Acknowledgement>Confer with PI for rules of acknowledgement. Determined by the Principal Investigator.</Acknowledgement>
          <Contact>
@@ -40,12 +40,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/hpca/srvy/l2/tof-counts/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms1/hpca/srvy/l2/tof-counts/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

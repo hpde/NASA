@@ -4,7 +4,7 @@
       <ResourceID>spase://VSPO/DisplayData/TIMED/GUVI/Electron_Density_Profiles_PS</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Electron Density Profile PS Images</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>F region electron density as a function of altitude and latitude derived from the GUVI limb data. Summaries of estimated peak electron density and total electron content are also given.  The profiles are derived from the 135.6 nm channel of the GUVI limb data. The 135.6 nm emission at night is due almost exclusively to recombination of O+ ions. Since O+ is the primary ion in the F region, the 135.6 nm volume emission rate is closely related to the square of the electron density.  The file spans roughly 63 days in one-day plots</Description>
          <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvitimed.jhuapl.edu/home_guvi-datausage.</Acknowledgement>
          <Contact>
@@ -62,12 +62,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level2b_e/edp/cdf/</URL>
             <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels/level2b_e/edp/cdf/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>

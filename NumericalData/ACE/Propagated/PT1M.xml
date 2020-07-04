@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) 1-min field and plasma data at bow shock nose</ResourceName>
          <AlternateName>ACE at BSN</AlternateName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Solar wind magnetic field and plasma data at 1-min resolution created from ACE data shifted to the Earth&apos;s bow shock nose (BSN).</Description>
          <Acknowledgement>We acknowledge N.Ness and C. Smith of the MAG team, D. McComas and R. Skoug of the SWEPAM team and J. King and N. Papitashvili of NASA/SPDF and ADNET who created this product.</Acknowledgement>
          <Contact>
@@ -40,12 +40,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/</URL>
             <Description>FTP path at SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/FIELDS2/Level2/SummaryTelemetry/PT8S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS F2 Time Domain Sampler (F2 TDS) 100 bit/s Summary Telemetry, Level 2 (L2), 8 s Data</ResourceName>
-         <ReleaseDate>2019-12-30T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>PSP FIELDS F2 100 bps Summary Telemetry Data</Description>
          <Acknowledgement>Produced by the PSP FIELDS Team at the University of Minnesota. For Public use.</Acknowledgement>
          <Contact>
@@ -51,12 +51,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/f2_100bps/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/f2_100bps/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

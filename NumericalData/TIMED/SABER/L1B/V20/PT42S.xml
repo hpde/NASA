@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L1B/V20/PT42S</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)IR Radiances in 10 channels (1.27 to 17ym) from 0 to 150 km, Version 1.07, Level 1B (L1B), 42 s Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Contains the SABER Level 1B calibrated radiance profiles converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing.</Description>
       <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
       <Contact>
@@ -37,12 +37,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/saber/level1b_v2_00_cdf/</URL>
         <Description>FTP repository of TIMED SABER Level 1B version 1.07 data in CDF format at CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/saber/level1b_v2_00_cdf/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

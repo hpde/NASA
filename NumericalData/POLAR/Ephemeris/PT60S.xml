@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Predicted Orbit, 1 min Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Polar orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
@@ -23,11 +23,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_or/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/orbit/pre_or/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

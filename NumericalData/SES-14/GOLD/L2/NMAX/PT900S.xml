@@ -6,7 +6,7 @@
     <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L2/NMAX/PT900S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level L2 Peak Electron Density</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The GOLD night disk scan (NI1) measurements are used to derive the peak electron density 
 	  (NMAX, electrons/cm3) on the disk. GOLD performs NI1 scans in both hemispheres from 17:00 to 21:00 hours 
 	  spacecraft local time each night. NMAX is retrieved on a 2D rectangular (latitude vs. longitude) grid 
@@ -39,12 +39,12 @@
         <Availability>Online</Availability>
         <AccessRights>Open</AccessRights>
 	<AccessURL>
-            <Name>FTPS access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
             <Description>FTPS access to Gold Level L2 data</Description>
          </AccessURL>
          <AccessURL>
-           <Name>HTTPS access to files at SPDF</Name>
+           <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/gold/level2/</URL>
             <Description>HTTPS access to Gold Level L2 data</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ISEE1/FPE/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 Solar Wind Analyzer 24-s Plasma Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains 24s (fast data rate) or 48s (slow
 rate) solar wind ion plasma parameters obtained during 1977-1983 solar wind 
 seasons (~July - ~January) when the spacecraft's local time of apogee was on 
@@ -60,12 +60,12 @@ the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
         <Description>For CDAWeb subset, plot and list capabilities</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/xfan_ascii/</URL>
         <Description>For ftp retrieval of daily ASCII files</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/xfan_ascii/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

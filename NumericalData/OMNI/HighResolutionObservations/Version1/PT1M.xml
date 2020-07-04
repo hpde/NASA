@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/OMNI/HighResolutionObservations/Version1/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI 1-min Data Set</ResourceName>
-      <ReleaseDate>2020-04-29T20:36:43Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>High resolution (1-min), multi-source, near-Earth solar wind magnetic field and plasma data as shifted to Earth's bow shock nose, plus several 1-min geomagnetic activity indices.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC for creating the OMNI data set.</Acknowledgement>
       <Contact>
@@ -82,11 +82,11 @@
         <ProductKey>OMNI_HRO_1MIN</ProductKey>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/monthly_1min/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/monthly_1min/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/ASCII/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 Vector Helium Magnetometer (MAG), Magnetic Field, 1 min ASCII Data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>ISEE 3 (ICE) 1-m magnetic field data, monthly ASCII files, deep space orbit phases 1984-1990</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -22,11 +22,11 @@
                 <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/isee_3_mag.html</URL>
             </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/1min_ascii_extracted/1min_hgi_1984_1990/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

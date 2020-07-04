@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
       <ResourceHeader>
          <ResourceName>Genesis 3D Ion Moments</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Genesis level 2 3-dimensional ion moments and a bidirectional electron streaming flag</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -30,12 +30,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/genesis/gim/</URL>
             <Description>For ftp downloads of daily CDF-formatted files</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/genesis/gim/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>

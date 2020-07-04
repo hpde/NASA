@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-2/SK3/KP/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Auroral Probe SKA-3 2-min Key Parameters </ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This set of Interball Auroral Probe 2-min key parameters contains spectra and anistropy of electrons within energy ranges of 20-40
 keV from two time-of-flight detectors EM-1-1 and EM-1-2. The field of view of these detectors are directed oppositely and perpendicular to the satellite 
 rotation axis.  See more information at http://www.iki.rssi.ru/interball/ </Description>
@@ -19,12 +19,12 @@ rotation axis.  See more information at http://www.iki.rssi.ru/interball/ </Desc
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/aurora/enf/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/aurora/enf/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

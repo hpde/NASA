@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/FAST/MAG/Fluxgate/PT7.8125MS</ResourceID>
       <ResourceHeader>
          <ResourceName>FAST Fluxgate Magnetometer High-Resolution 7.8125 ms Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Calibrated Fluxgate Data acquired by the Fast Auroral SnapshoT Small Explorer, FAST, Magnetometer Instrument. Data have been calibrated, despun, and detrended against the International Geomagnetic Reference Field, IGRF, using IGRF Coefficients for the Date of Acquisition. Data are provided in several Coordinate Systems. Non detrended Data in Spacecraft and Geocentric Equatorial Inertial Coordinates are provided. Ephemeris Data are also provided.</Description>
          <Acknowledgement>C.W. Carlson, R.J. Strangeway Include Acknowledgement in any publication.</Acknowledgement>
          <Contact>
@@ -37,12 +37,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/fast/dcf/l2/dcb/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

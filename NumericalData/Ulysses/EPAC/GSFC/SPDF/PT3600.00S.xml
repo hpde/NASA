@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/GSFC/SPDF/PT3600.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses EPAC hourly rates and fluxes, CDAWeb</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Hourly proton and electron fluxes with spectral and directional information</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
@@ -23,11 +23,11 @@
         <ProductKey>UY_M1_EPA</ProductKey>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

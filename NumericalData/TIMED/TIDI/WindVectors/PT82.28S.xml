@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/TIMED/TIDI/WindVectors/PT82.28S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED TIMED Doppler Interferometer (TIDI) Zonal and Meridional Winds at 60-180 km, Version 0307, 82.28 s Data</ResourceName>
-         <ReleaseDate>2020-05-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>The TIMED Doppler Interferometer, TIDI, instrument is a Fabry-Perot interferometer designed to measure zonal and meridional winds in the mesosphere and lower thermosphere.
 
 This TIMED TIDI data product contains neutral gas doppler temperature estimates and vector wind velocities estimated from line of sight inverted wind profiles based on rotational line measurements of molecular Oxygen, O&#8322;, (0,0) by using the TIDI P9 763.78 nm filter. This Level 3 data set of wind vectors contains that are mapped onto fixed angle-along-the-track grids. Vertical resolution is ~2 km at the lower altitudes and 25 km at the thermosphere, with an accuracy that approaches approximately 3 m/sec. Each profile is annotated with ancillary data including profile position and processing status.
@@ -74,12 +74,12 @@ TIMED TIDI data are available from the following access URLs but the linked data
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/tidi/windvectors_ncar/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/tidi/windvectors_ncar/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

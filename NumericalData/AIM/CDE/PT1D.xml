@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/AIM/CDE/PT1D</ResourceID>
         <ResourceHeader>
             <ResourceName>AIM/CDE dust grain impact data</ResourceName>
-            <ReleaseDate>2020-06-04T20:50:23Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>AIM/CDE (Cosmic Dust Experiment) data are available
 as Levels 1 and 2 daily netCDF files.  L1 data contains, for each dust 
 grain impact, a time tag, pulse height data, a number of electrons released 
@@ -33,12 +33,12 @@ Polar Mesospheric Cloud brightness.
            <Availability>Online</Availability>
            <AccessRights>Open</AccessRights>
            <AccessURL>
-              <Name>FTPS access to files at SPDF</Name>
+              <Name>FTPS from SPDF (not with most browsers)</Name>
               <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aim/cde/data/</URL>
               <Description>In CDF via FTP from CDAWeb</Description>
            </AccessURL>
            <AccessURL>
-              <Name>HTTPS access to files at SPDF</Name>
+              <Name>HTTPS from SPDF</Name>
               <URL>https://spdf.gsfc.nasa.gov/pub/data/aim/cde/data/</URL>
               <Description>In CDF via HTTP from CDAWeb</Description>
            </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ISEE1/MAG/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 magnetometer 4-sec data</ResourceName>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>4-sec vector magnetic field values recorded by the NASA ISEE-1
 satellite, in spacecraft coordinates (close to GSE), available from UCLA and CDAWeb
 value-added interfaces and, via ftp, in binary from UCLA and in CDF from
@@ -27,12 +27,12 @@ used for accessing data.</Acknowledgement>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/4sec_mfi/</URL>
         <Description>ftp access to CDF files</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/4sec_mfi/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/BARREL/1B/Ephemeris/L2/PT4S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1B Ephemeris (EPHM) Geographic and Magnetic Coordinates</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Geographic and Magnetic Coordinates - Geographic Coordinates are obtained from an Onboard GPS Unit, Magnetic Coordinates are derived by using the IRBEM FORTRAN Library, Ephemeris Data Products (Latitude, Longitude, Altitude, and Time) are each returned from the Payload once every 4 s</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/barrel/l2/1b/ephem/</URL>
             <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/1b/ephem/</URL>
             <Description>In CDF via http from SPDF</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ProtonAlphaFullSpectra/PT1.74S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPAN-A Electron Energy Spectra, Level 2 (L2), 1.74 s Data</ResourceName>
-         <ReleaseDate>2020-01-21T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>SPAN-E Level 2 ELectron Energy Spectra Data
 -------------------------------------------
 
@@ -123,12 +123,12 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/sweap/spe/l2/spa_sf1_32e/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/sweap/spe/l2/spa_sf1_32e/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

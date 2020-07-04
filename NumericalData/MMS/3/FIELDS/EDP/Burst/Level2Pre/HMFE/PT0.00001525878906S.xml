@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/FIELDS/EDP/Burst/Level2Pre/HMFE/PT0.00001525878906S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Axial Double Probe, Spin Plane Double Probe (ADP-SDP) Three-Dimensional HMFE Electric Field, Level 2, Burst Survey</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Electric Double Probe, Three-Dimensional HMFE Electric Field, Level 2, Burst Survey, Level 1B AC Electric Field Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -39,12 +39,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/brst/l2/hmfe/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/brst/l2/hmfe/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

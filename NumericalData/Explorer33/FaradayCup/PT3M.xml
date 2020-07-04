@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Explorer33/FaradayCup/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>Explorer 33 3-min solar wind plasma data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This data set has 3-min resolution solar wind plasma parameters (flow speed and direction angles, ion thermal speed and density) from the MIT Faraday Cup on Explorer 33 (AIMP 1, IMP D). There are no spacecraft position data in the records. The data are in annual ASCII files.</Description>
          <Acknowledgement>To the MIT plasma team and to the Space Physics Data Facility at Goddard</Acknowledgement>
          <Contact>
@@ -28,11 +28,11 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/explorer/explorer33/plasma_probe/3-min_interplanetary_plasma_param/</URL>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/explorer/explorer33/plasma_probe/3-min_interplanetary_plasma_param/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

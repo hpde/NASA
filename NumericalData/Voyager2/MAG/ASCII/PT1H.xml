@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/ASCII/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 1-hr Averaged Triaxial Fluxgate Magnetometer (MAG) Interplanetary Magnetic Field in ASCII Format</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>
                This data set contains hour averages of the interplanetary magnetic     
                field (IMF) measurements obtained by the triaxial fluxgate magnetometer 
@@ -70,12 +70,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii/</URL>
         <Description>The data set format and description are in vy2mag_1h_fmt.txt</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/magnetic_fields/ip_1hour_ascii/</URL>
         <Description>The data set format and description are in vy2mag_1h_fmt.txt</Description>
       </AccessURL>

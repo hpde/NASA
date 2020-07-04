@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager2/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb. Magnetic field vectors and plasma flow direction angles are given in RTN coordinates. Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and L. Burlaga for magnetic field data and J. Richardson (P.I.) for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -35,12 +35,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/</URL>
         <Description>for annual files via http</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/merged/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

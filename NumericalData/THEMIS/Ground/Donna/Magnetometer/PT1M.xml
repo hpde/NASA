@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Donna/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Donna (DON) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Donna, Norway, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (DON), Station Location: (GEO Latitude 66.1, Longitude 12.5), TGO Network</Description>
          <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
@@ -32,12 +32,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/don/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/don/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

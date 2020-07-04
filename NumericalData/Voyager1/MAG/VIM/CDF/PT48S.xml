@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/VIM/CDF/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data Near and Beyond Termination Shock in CDF Format</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The main science objectives for the Voyager Interplanetary Mission, VIM, are as follows:
                       - investigate the structure of the solar wind magnetic fields and plasma in the inner and outer heliosphere;
                       - conduct long term study of heliospheric evolution during different phases of the 22-year solar magnetic cycle and the 11-year solar activity cycle;
@@ -44,12 +44,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/vim_48secmag/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields_cdaweb/vim_48secmag/</URL>
         <Description>In CDF via http from SPDF.</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SOHO/Attitude/Definitive/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Definitive Attitude, 10 min Data, Satellite Body Axis Pitch, Roll, and Yaw Angles in GCI, GSE, GSM, and HEC Coordinates</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>SOHO 3-Axis Stabilized Definitive Attitude Data, Satellite Body Axis Orientation as specified by Pitch, Roll, and Yaw Angles in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, Geocentric Solar Magnetospheric, GSM, and Heliospheric Ecliptic, HEC, Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
@@ -35,12 +35,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/soho/orbit/def_at/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/soho/orbit/def_at/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

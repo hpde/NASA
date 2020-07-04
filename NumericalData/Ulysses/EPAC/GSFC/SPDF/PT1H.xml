@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/GSFC/SPDF/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses EPAC full-resolution rates and fluxes at SPDF</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Full resolution proton and electron fluxes, plus many count rates in annual files</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
@@ -17,11 +17,11 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/epac/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/epac/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

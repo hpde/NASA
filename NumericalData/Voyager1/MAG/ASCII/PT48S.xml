@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/ASCII/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data in ASCII Format</ResourceName>
-      <ReleaseDate>2019-08-08T15:43:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the 
         outboard magnetometer, of the dual magnetometers system on V1, varies between 0.1 and 0.2 nT, comparable 
         to the most probable magnetic field strength in the inner heliosheath and significantly larger 
@@ -76,12 +76,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_48s_ascii/data/</URL>
         <Description>In ascii via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/magnetic_fields/ip_48s_ascii/data/</URL>
         <Description>In ascii via HTTP from SPDF</Description>
       </AccessURL>

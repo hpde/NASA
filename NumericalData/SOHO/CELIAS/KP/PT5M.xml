@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SOHO/CELIAS/KP/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Charge, Element, and Isotope Analysis System (CELIAS) 5-min Key Parameter Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Data include 5-min solar wind speed values, heavy ion
 fluxes in energy bands 0.02-1. MeV/q and 0.5-50 keV/q, and solar EUV
 photon fluxes from the CELIAS package on SOHO.  They are key parameter
@@ -35,11 +35,11 @@ of U. Bern</Acknowledgement>
         <Description>With subset, plot and ASCII list functions from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/soho/celias/k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/soho/celias/k0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

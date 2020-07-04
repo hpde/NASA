@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 1-min data at CDAWeb</ResourceName>
    <DOI>10.21978/P8T923</DOI>
-      <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains magnetic field component
 and magnitude averages every minute, with components given in spacecraft,
 GSE and GSM coordinates.  Standard deviations in the averages are given,
@@ -37,12 +37,12 @@ CDAWeb team at NASA/GSFC</Acknowledgement>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/60sec_mfi/</URL>
         <Description>ftp access to CDF files</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee2/isee2_cdaweb/60sec_mfi/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

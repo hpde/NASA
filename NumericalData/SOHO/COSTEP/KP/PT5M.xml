@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SOHO/COSTEP/KP/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Comprehensive Suprathermal and Energetic Particle Analyzer (COSTEP) Key Parameter Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Data include 5-min differential fluxes of protons 
 at seven energies between 0.54 and 47 MeV, of electrons at four energies
 between 0.5 and 7.4 MeV and of alpha particles at four energies between
@@ -34,11 +34,11 @@ of Universitat Kiel</Acknowledgement>
         <Description>With subset, plot and ASCII list functions from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/soho/costep/k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/soho/costep/k0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

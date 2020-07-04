@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ACE/MAG_SWEPAM/PT240S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE MAG SWEPAM 4-min merged IMF+plasma data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>ACE MAG and SWEPAM 4-min merged magnetic field and plasma parameter moments data at NSSDC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
@@ -33,11 +33,11 @@
                 <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ace_merge.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/merged/4_min_merged_mag_plasma/</URL>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/merged/4_min_merged_mag_plasma/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

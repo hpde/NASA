@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/RARP/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses URAP RAR Peak 10-min Electric Field Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This set of RAR (Radio Astronomy Receiver) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak electric field intensities in 10-minute intervals via CDAWeb. The frequency spectra are determined from measurements on the X antenna of the URAP instrument in units of microvolt/Hz^0.5 for the frequency channel from 1.25 - 940.0 kHz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
@@ -41,12 +41,12 @@
         <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/uds_10min_ascii/rarp/</URL>
         <Description>For ftp downloads of ASCII Ulysses URAP data</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/uds_10min_ascii/rarp/</URL>
         <Description>For http downloads of ASCII Ulysses URAP data</Description>
       </AccessURL>

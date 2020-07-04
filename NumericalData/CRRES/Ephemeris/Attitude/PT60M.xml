@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/CRRES/Ephemeris/Attitude/PT60M</ResourceID>
         <ResourceHeader>
             <ResourceName>CRRES Attitude data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This data set contains CRRES spacecraft attitude data that consists of a series of time-tagged coefficients from fits of attitude motion. These parameters are used with software (AGMOD) provided to the agencies to calculate their sensor LOS (line-of-sight) as a function of time.
 </Description>
             <Acknowledgement>Plesae acknowledge The Aerospace Corporation and the National Space Science Data Center.</Acknowledgement>
@@ -28,11 +28,11 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/crres/attitude/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/crres/attitude/</URL>
             </AccessURL>
             <Format>Binary</Format>

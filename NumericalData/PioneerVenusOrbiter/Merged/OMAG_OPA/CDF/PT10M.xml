@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer Venus Orbiter (PVO) Magnetometer, OMAG, Plasma Analyzer, OPA, Merged Solar Wind Data, 10 min Data</ResourceName>
-         <ReleaseDate>2020-05-25T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Pioneer Venus Orbiter, PVO, was the first orbiter mission designed to conduct a comprehensive and long term investigation of the planet Venus. PVO measured the detailed structure of the upper atmosphere and ionosphere of Venus and investigated the interaction of the solar wind with the Venusian ionosphere. Over the years from 1978 to 1992, PVO provided nearly continuous measurements of the solar wind from its highly eccentric orbit around Venus.
 
 * PI, magnetic field instrument: C.T. Russell, University of California, Los Angeles
@@ -61,12 +61,12 @@ This merged data includes 10-minute averages for selected parameters of the inte
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/10m_magplasma_cdf</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/10m_magplasma_cdf</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

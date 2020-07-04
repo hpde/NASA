@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Maps-TXT</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo digital maps every 6 months</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Hydrogen ENA fluxes in each of three IBEX-Lo energy 
 bands in each of 21,600 [720(longitude) by 30(latitude)] bins, 
 accumulated over 6 months.  Bins are defined in J2000 ecliptic 
@@ -28,12 +28,12 @@ separate data product.</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/maps/digital_data/</URL>
                 <Description>Directory with energy-range-specific subdirectories</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/maps/digital_data/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

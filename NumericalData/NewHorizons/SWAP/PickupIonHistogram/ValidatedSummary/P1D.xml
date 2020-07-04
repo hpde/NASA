@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/NewHorizons/SWAP/PickupIonHistogram/ValidatedSummary/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>New Horizons Solar Wind Around Pluto (SWAP) Pick-Up Ion Histograms, Validated Summary Data (VS), Daily Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Solar WInd Pick-Up Ion Histogram Validated Summary (VS) Data from the New Horizons Solar Wind Around Pluto (SWAP) Instrument. Elliott, H.A., D.J. McComas, P. Valek, G. Nicolaou, S. Weidner, and G. Livadiotis (2016), ApJS, 223(2), 1-21, doi:10.3847/0067-0049/223/2/19. McComas, D.J., et al., (2008), The Solar Wind Around Pluto (SWAP) Instrument Aboard New Horizons, Space Sci Rev, 140(1), 261-313, doi:10.1007/s11214-007-9205-3. McComas, D.J., Zirnstein, E.J., Bzowski, M., et al., 2017, ApJS, 233, 8. Vasyliunas, V.M., and Siscoe, G.L. 1976, JGR, 81, 1247.</Description>
          <Acknowledgement>D.J. McComas</Acknowledgement>
          <Contact>
@@ -36,12 +36,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/new-horizons/swap/ions-histogram/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/new-horizons/swap/ions-histogram/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

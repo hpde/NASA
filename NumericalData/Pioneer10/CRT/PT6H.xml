@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Pioneer10/CRT/PT6H</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Cosmic-Ray Telescope (CRT) 6-hr fluxes and rates</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This data set has eight 6-hour fluxes (3.45-5.15, 30.55-56.47 and 120.7-227.3 MeV protons, 3.44-4.97, 10.03-21.7, 30.67-56.7 and 112.7-413 MeV/n alpha particles, and 2-6 MeV electrons), 28 count rates, and Poisson uncertainties in the fluxes and rates, as determined from the Cosmic Ray Telescope (CRT) on the Pioneer 10 spacecraft.  Data are in annual files with consistent end-of-record marks.  Spacecraft position data are not given in the data records but are accessible from Helioweb at http://cohoweb.gsfc.nasa.gov/helios/heli.html</Description>
             <Acknowledgement>the Principal Investigator, Frank B. McDonald</Acknowledgement>
             <Contact>
@@ -40,12 +40,12 @@
                 <Description>Multi-source spectral plots (MSSP) of energetic particle fluxes for Z less than or equal to 2.</Description>
             </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/crt/ip_6hour_ascii/</URL>
                 <Description>For ftp downloading of annual files</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/crt/ip_6hour_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

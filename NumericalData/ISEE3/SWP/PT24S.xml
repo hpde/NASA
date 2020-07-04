@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/SWP/PT24S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 24-s ion plasma data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>ISEE 3 24-s ion plasma data, L1 orbit phase 1978-1980</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Samuel.J.Bame</PersonID>
@@ -21,11 +21,11 @@
                 <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/isee3_p.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_protons_24s_ascii/</URL>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/plasma/sw_protons_24s_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

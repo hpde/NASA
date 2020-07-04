@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/HFR/PT7S</ResourceID>
       <ResourceHeader>
          <ResourceName>Parker Solar Probe, FIELDS Radio Frequency Spectrometer, RFS, High Frequency Receiver, HFR, Spectra, Level 2 (L2), 7 s and 56 s Data</ResourceName>
-         <ReleaseDate>2019-12-30T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>PSP FIELDS Radio Frequency Spectrometer, RFS, High Frequency Receiver, HFR, Data:
 
 The RFS is the high frequency component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1]. For a full description of the FIELDS experiment, see reference [2]. For a description of the RFS, see reference [3].
@@ -47,12 +47,12 @@ PSP/FIELDS Rules of the Road available at http://fields.ssl.berkeley.edu/rules/<
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/rfs_hfr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/rfs_hfr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

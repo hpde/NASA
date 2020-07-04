@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/L2_PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 12-sec Level 2 Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 12-sec time resolution. 
 Calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Center
 and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameter
@@ -37,12 +37,12 @@ keys" given below are as used by CDAWeb.</Description>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h3/</URL>
         <Description>FTP repository of 12-sec ACE/EPAM L2 data in CDF format at CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h3/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

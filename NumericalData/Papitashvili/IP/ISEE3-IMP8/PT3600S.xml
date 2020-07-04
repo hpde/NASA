@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Papitashvili/IP/ISEE3-IMP8/PT3600S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 - IMP 8 Impact Parameters</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>ISEE 3 - IMP 8 - Earth impact parameters (IP).  IP is the minimal distance by which a plasma element seen at one body misses being seen by a second body.  Cf. http://ftpbrowser.gsfc.nasa.gov/impact_des.html</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
@@ -21,7 +21,7 @@
                 <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/impact_ii.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>hourly and daily values via ftp from NSSDC</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aaa_special-purpose-datasets/aaa_impact_parameters/imp_isee3/</URL>
 </AccessURL>
             <Format>Text</Format>

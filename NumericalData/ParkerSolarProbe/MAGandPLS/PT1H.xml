@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/MAGandPLS/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Parker Solar Probe (PSP) Merged Magnetic Field, Plasma, and Ephemeris, Hourly Data</ResourceName>
-         <ReleaseDate>2020-05-12T18:27:40Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>The NSSDC Coordinated Heliospheric Observations Web, COHOWeb, hourly and daily Parker Solar Probe, PSP, data were made by using high resolution data from from CDAWeb.
 
 The PSP COHO file include data derived from the PSP FIELDS Fluxgate Magnetometer data as well as Densities, Vector Velocities, and Scalar Radial Component Temperatures of Solar Wind Protons measured by the PSP SWEAP Solar Probe Cup, SPC. The original PSP magnetic field data comes from the PSP_FLD_L2_MAG_RTN_1MIN data product while the original plasma data comes from the PSP_SWP_SPC_L3I data product by applying the following conditions:
@@ -57,12 +57,12 @@ The PSP COHO file include data derived from the PSP FIELDS Fluxgate Magnetometer
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/coho1hr_magplasma/cdf/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/coho1hr_magplasma/cdf/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

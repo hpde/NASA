@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/SEPT/L1/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT (In-Situ Measurements of Particles and CME Transients) Solar Electron Proton Telescope (SEPT) 1-min Level 1 Electron and Proton Spectra</ResourceName>
-      <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The IMPACT Solar Electron Proton Telescope (SEPT) Level 1
 data consist of electron and proton fluxes from each of 32 energy bands that 
 span ~20 keV to 2000(electrons) or 7000(protons) keV.  These spectra are 
@@ -39,11 +39,11 @@ of UCB</Acknowledgement>
         <Description>With subset, plot and ASCII list functions from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/sept/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/sept/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

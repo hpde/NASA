@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/1/Ephemeris/Survey/Level2/Tsyganenko_89_Disturbed/PT30S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Magnetic Ephemeris and Coordinates (MEC) Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Disturbed Conditions), Quick-Look Survey</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Magnetospheric Multiscale 1 (MMS 1) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Quick-Look (30 s) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for disturbed magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 6 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
       <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
       <Contact>
@@ -40,12 +40,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/mec/srvy/l2/epht89d/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms1/mec/srvy/l2/epht89d/</URL>
         <Description>In CDF via http from SPDF.</Description>
       </AccessURL>

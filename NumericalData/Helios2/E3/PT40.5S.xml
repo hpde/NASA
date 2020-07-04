@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Helios2/E3/PT40.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 2 40.5-sec Combined Magnetic Field and Plasma Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Helios 2 40-second merged magnetic field and plasma data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -18,12 +18,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2_40sec/</URL>
         <Description>FTP path at SPDF/NSSDC</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2_40sec/</URL>
         <Description>FTP path at SPDF/NSSDC</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Thule.Air.Base/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Thule Air Base (TAB) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Thule Air Base, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (TAB), Station Location: (GEO Latitude 76.5, Longitude 291.2), Norwegian Mag. Network</Description>
          <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/tab/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/tab/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

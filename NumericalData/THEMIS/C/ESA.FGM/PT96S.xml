@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>ARTEMIS P2 field-plasma merged data, near moon</ResourceName>
       <AlternateName>THEMIS-C field-plasma merged data, near moon</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains 96s and 384s resolution
 magnetic field and plasma ion data from the THEMIS-C ESA and FGM 
 instruments during the near moon (ARTEMIS) phase of the spacecraft
@@ -75,12 +75,12 @@ and Natalia Papitashvili at GSFC/SPDF</Acknowledgement>
         <Description>For CDAWeb subset plot and list capabilities</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/</URL>
         <Description>For ftp retrieval of annual ASCII files</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/</URL>
         <Description>For http retrieval of annual ASCII files</Description>
       </AccessURL>

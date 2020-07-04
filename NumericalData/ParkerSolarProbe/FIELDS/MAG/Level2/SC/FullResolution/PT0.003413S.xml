@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/MAG/Level2/SC/FullResolution/PT0.003413S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS Fluxgate Magnetometer (MAG) Magnetic Field Vectors, Spacecraft, SC, Coordinates, Full Resolution, Level 2 (L2), 3.413 ms Data</ResourceName>
-         <ReleaseDate>2019-12-30T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Parker Solar Probe FIELDS Instrument Suite Fluxgate Magnetometer, MAG, Data: The time resolution of the MAG time series data varies with instrument mode ranging from 2.289 samples/s to 292.9 samples/s. These two data sampling rates corresponding to 2 samples or 256 samples per 0.874 s where 0.874 s is equal to 2^25 divided 38.4 MHz. See reference [2] for a complete explanation of the MAG instrument sampling methodology. The Magnetometer has four ranges: &#177;1024 nT, &#177;4096 nT, &#177;16,384 nT, and &#177;65,536 nT. The Magnetometer Range is selected by an algorithm based on the strength of the ambient magnetic field. The magnetic field measurement precision is &#177;15 bits, based on the 16-bit Analog to Digital Converter, ADC.
 
 References:
@@ -51,12 +51,12 @@ References:
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_sc/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/mag_sc/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

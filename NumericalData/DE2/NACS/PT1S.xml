@@ -7,7 +7,7 @@
       <ResourceName>DE 2 1-sec NACS Temperature and Composition data</ResourceName>
       <AlternateName>Dynamics Explorer 2 NACS data</AlternateName>
       <AlternateName>DE-B NACS data</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set containss, at 1-sec resolution,
 the neutral temperature and the densities (and % error) of O, N2,
 He, N, and Ar from the Neutral Atmosphere Composition Spectrometer
@@ -35,12 +35,12 @@ Investigator, Dr. George Carignan</Acknowledgement>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

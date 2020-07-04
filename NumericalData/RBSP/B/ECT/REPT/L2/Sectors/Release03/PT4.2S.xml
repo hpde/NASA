@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/REPT/L2/Sectors/Release03/PT4.2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Relativistic Electron Proton Telescope (REPT) Science Data, Electron Fluxes, 2 MeV to 20 MeV, Proton Fluxes, 20 MeV to 120 MeV, Level 2, Release #3 (L2), 4.2 s Data</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Van Allen Probe B, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Relativistic Electron Proton Telescope, REPT, Science Data. Electron Fluxes, 2 MeV to 20 MeV, and Proton Fluxes, 20 MeV to 120 MeV</Description>
       <Acknowledgement>D.N. Baker. This Work was supported by Van Allen Probes/RBSP-ECT Funding provided by JHU/APL Contract 967399 under NASA Prime Contract NAS5-01072.</Acknowledgement>
       <Contact>
@@ -61,12 +61,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/rept/sectors/rel03/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspb/l2/ect/rept/sectors/rel03/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

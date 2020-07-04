@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Kenai/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Kenai (KENA) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Kenai, AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (KENA), Station Location: (GEO Latitude 60.6, Longitude 208.7), THEMIS GBO/UCLA Network</Description>
          <Acknowledgement>Please acknowledge D. Hampton, V. Angelopoulos, C.T. Russell, (University of Alaska, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -39,12 +39,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/kena/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/kena/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

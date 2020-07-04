@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Voyager 2 Low-Energy Charged Particle (LECP) Proton Intensities in ASCII Format daily</ResourceName>
       <AlternateName>v2-LECP-PROTONFLUX-PT24H</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Count Rates, Averaged Over All Sectors, Voyager2, LECP, Filtered, Channel, Calibrated, CadencePT24H
                 
                 Each file in this directory contains one year's worth of data from the
@@ -56,12 +56,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_prot_flux_1day/</URL>
         <Description>http access to annual ASCII files</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_prot_flux_1day/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

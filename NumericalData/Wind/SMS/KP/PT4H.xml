@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/SMS/KP/PT4H</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind SMS Key Parameter 4-hour Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Combined SWICS and STICS data containing 4 hour averaged alpha particle velocity, C/O abundance ratio, and carbon and oxygen ionization temperatures. Time is for the start of the averaging interval. Computed are the average alpha velocity, average C/O abundance ratio, average carbon ionization temperature (in million degs K) from C6 and C5 (using the tables of Arnaud and Rothenflug, 1985), the average oxygen ionization temperature from O7 and O6 (in million degs K, using tables of Arnaud and Rothenflug, 1985). These averages are made over 4 hours. He velocity and He kinetic temperature are computed every 3 minutes and are contained in the K1 CDF. References: Space Science Reviews 71:79-124, 1995, Kluwer Academic Publishers, Belgium Instrument consist of: Solar Wind Ion Composition Spectrometer (SWICS); high resolution mass spectrometer (MASS); Supra-Thermal Ion Composition Spectrometer (STICS) and common DPU</Description>
       <Acknowledgement>Principle Investigator G. Gloeckler and the Wind team</Acknowledgement>
       <Contact>
@@ -37,11 +37,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/sms/k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/sms/k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/MFE/PT55S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Magnetic Field Key Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>POLAR Magnetic Field Experiment (MFE) data; 0.92 minute and 6 second averages in GSE, GSM, SM coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
@@ -19,11 +19,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/mfe/mfe_k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/mfe/mfe_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

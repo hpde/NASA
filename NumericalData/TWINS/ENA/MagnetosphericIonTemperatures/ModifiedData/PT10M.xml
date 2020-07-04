@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/TWINS/ENA/MagnetosphericIonTemperatures/ModifiedData/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>TWINS 1, TWINS 2 Storm Time Equatorial Magnetospheric Ion Temperatures derived from Energetic Neutral Fluxes (ENA), Modified Data 2 (MD2), 10 min Data</ResourceName>
-         <ReleaseDate>2020-04-23T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Two Wide-angle Imaging Neutral-atom Spectrometers, TWINS, energetic neutral atom, ENA, derived equatorial magnetospheric ion temperatures, see Katus et al. (2017)</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator D.J. McComas for use of the Data</Acknowledgement>
          <Contact>
@@ -46,12 +46,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/twins/combined/ena/m2/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/twins/combined/ena/m2/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

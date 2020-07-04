@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ISEE1/FPE/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 FPE plasma parameters, 6 Re to bow shock</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>TBD</Description>
       <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling</Acknowledgement>
       <Contact>
@@ -23,12 +23,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/1min_fpe/</URL>
         <Description>For ftp retrieval of daily CDF files</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/1min_fpe/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-1/CORALL/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail CORALL Plasma 2-Min Key Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Interball Tail CORALL 2-Min Key Parameters, plasma ion density, speed, vector velocity</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Yury.I.Yermolaev</PersonID>
@@ -18,11 +18,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/tail/cor/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/cor/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

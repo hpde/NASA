@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H1</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ultraviolet Imager H1 High-Resolution Images</ResourceName>
-      <ReleaseDate>2020-05-12T15:51:32Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This dataset contains high resolution MPEG canned images of aurora and airglow from the Polar Ultraviolet Imager (UVI).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -18,12 +18,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTPS access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h1/</URL>
         <Description>Polar Ultraviolet Imager, High Res from SPDF via FTP</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTPS access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h1/</URL>
         <Description>Polar Ultraviolet Imager, High Res from SPDF via HTTP</Description>
       </AccessURL>

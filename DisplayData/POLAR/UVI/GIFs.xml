@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/GIFs</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ultraviolet Imager High-Resolution Images</ResourceName>
-      <ReleaseDate>2020-05-07T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night from the Polar UltraViolet Imager (UVI) experiment.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -21,11 +21,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTPS access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/aa_pre_generated_plots/gifs/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTPS access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/aa_pre_generated_plots/gifs/</URL>
         <Description>Collection of gifs in SPDF</Description>
       </AccessURL>

@@ -7,7 +7,7 @@
       <ResourceName>DE 2 0.5-s AC Electric Field ASCII data</ResourceName>
       <AlternateName>Dynamics Explorer 2 0.5-s AC Electric Field ASCII data</AlternateName>
       <AlternateName>DE-B 0.5-s AC Electric Field ASCII data</AlternateName>
-      <ReleaseDate>2020-06-12T22:01:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains the averaged AC electric field data (1 or 2 points per second)
 and orbit information in ASCII format.</Description>
       <Contact>
@@ -40,11 +40,11 @@ and orbit information in ASCII format.</Description>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/ac_500ms_ascii/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/electric_fields_vefi/ac_500ms_ascii/</URL>
 </AccessURL>
       <Format>Text</Format>

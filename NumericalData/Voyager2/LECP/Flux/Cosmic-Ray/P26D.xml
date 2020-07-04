@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Voyager 2 LECP Cosmic Ray Proton Rates in ASCII Format 26-day</ResourceName>
       <AlternateName>v2-LECP-COSMICRATES-P26D</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Count Rates, Averaged Over All Sectors, Voyager2, LECP, Filtered, Channel, Calibrated, CadenceP26D</Description>
       <Acknowledgement>Please acknowledge the LECP PI (S.M. Krimigis) and the lead LECP CoI (R.B. Decker)</Acknowledgement>
       <Contact>
@@ -46,12 +46,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_cosray_rate_26day/v2_cosray_rate_26d.txt</URL>
         <Description>http access to single ASCII file</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager2/particle/lecp/v2_cosray_rate_26day/v2_cosray_rate_26d.txt</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

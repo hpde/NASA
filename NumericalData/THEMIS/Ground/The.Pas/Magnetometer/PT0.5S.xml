@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Flin Flon (TPAS) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
          <AlternateName>Flin Flon Vector Magnetic Field 0.5 s Data</AlternateName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Flin Flon (The Pas), MB, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (TPAS), Station Location: (GEO Latitude 54.0, Longitude 259.1), THEMIS GBO/UCLA Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell, (University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -47,12 +47,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/tpas/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/tpas/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

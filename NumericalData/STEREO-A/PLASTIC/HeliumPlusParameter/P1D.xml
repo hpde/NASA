@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/HeliumPlusParameter/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A PLasma and Supra-Thermal Ion Composition (PLASTIC) He&#8314; Counts and Relative Energy Flux in four Velocity Ranges normalized by the Solar Wind Speed, Level 3 (L3), Daily Data</ResourceName>
-         <ReleaseDate>2020-05-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>STEREO-A Plasma and Suprathermal Ion Composition, Singly-charged Helium, He&#8314;, counts and relative differential energy fluxes binned by the ion speed relative to the solar wind bulk speed, four speed ratio bins.
 
 STEREO PLASTIC daily suprathermal He&#8314; pickup ion signatures include He&#8314; energy spectra, directional information, and contenxt information, such as the H&#8314; plasma velocity. The four speed ratio, V/Vsw, bin ranges of are: 1.44 to 1.85, 1.85 to 2.50, 2.50 to 3.50, and 3.50 to 8.00.
@@ -67,12 +67,12 @@ Note that this SPASE Numerical Description only describes the MESSENGER Magnetom
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l3/plastic/heplus/24hr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

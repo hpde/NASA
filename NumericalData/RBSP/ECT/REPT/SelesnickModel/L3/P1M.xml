@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/RBSP/ECT/REPT/SelesnickModel/L3/P1M</ResourceID>
       <ResourceHeader>
          <ResourceName>RBSP Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Relativistic Electron Proton Telescope (REPT) Selenick Radiation Belt Proton Intensity Model, Level 3 (L3), Monthly Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>The Files associated with the Van Allen Probes Selenick Model Data Product contain Model Radiation Belt Proton Intensity derived from Data taken by the Van Allen Probes REPT Instruments using the Method described by: Selesnick, R.S., Baker, D.N., Kanekal, S.G., Hoxie, V.C., and X. Li, (2018). Modeling the Proton Radiation Belt with Van Allen Probes Relativistic Electron-Proton Telescope Data. J. Geophys. Res.: Space Phys., 123. https://doi.org/10.1002/2017JA024661. Each File contains average Intensity, as a Function of Kinetic Energy, Equatorial Pitch Angle, and L-Shell, derived from one Month of Data.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, Daniel N. Baker, from the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC), University of Colorado, Boulder for providing the Data. This Work was supported by Van Allen Probes/RBSP-ECT Funding provided by JHU/APL Contract 967399 under NASA Prime Contract NAS5-01072. See Usage Guidelines at: http://www.rbsp-ect.lanl.gov/DataProductsUsage.php.</Acknowledgement>
          <Contact>
@@ -41,12 +41,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/combined/l3/ect/rept/selesnick-model/cdf</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/combined/l3/ect/rept/selesnick-model/cdf</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

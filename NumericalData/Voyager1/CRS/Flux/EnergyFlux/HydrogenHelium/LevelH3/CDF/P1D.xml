@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Voyager1/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/CDF/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Voyager 1 Cosmic Ray Subsystem (CRS) Proton and Helium Energy Fluxes, Level H3 (H3), Daily Data</ResourceName>
-         <ReleaseDate>2020-04-28T18:12:38Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>The joint California Institute of Technology, Caltech, Goddard Space Flight Center, GSFC, Cosmic Ray Subsystem, CRS, experiment on Voyager consists of three types of solid state detector telescopes:
 
 * Two High Energy Telescopes: HET-I and HET-II
@@ -66,12 +66,12 @@ Cosmic Ray Subsystem Science Objectives:
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/particle/crs/cdfs/one_day/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/particle/crs/cdfs/one_day/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

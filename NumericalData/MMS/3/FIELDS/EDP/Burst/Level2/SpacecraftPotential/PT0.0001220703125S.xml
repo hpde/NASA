@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/FIELDS/EDP/Burst/Level2/SpacecraftPotential/PT0.0001220703125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Electric Double Probe (EDP) Spacecraft Potential, Burst Survey</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Electric Double Probe, Dual Probe Spacecraft Potential, Level 2, Burst Survey Data. Spacecraft potential is etstimatrd by averaging measurements of the probe-to-spacecraft potential from several probes.</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -44,12 +44,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/brst/l2/scpot/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/edp/brst/l2/scpot/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

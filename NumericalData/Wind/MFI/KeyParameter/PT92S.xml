@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Wind/MFI/KeyParameter/PT92S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Fields Instrument (MFI) Magnetic Field Vector and Spacecraft Position, Key Parameter (K0), 92 s Data</ResourceName>
-         <ReleaseDate>2020-05-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Wind Magnetic Fields Investigation, MFI, Key Parameter magnetic field data in GSE and GSM coordinates.
 
 References:
@@ -76,12 +76,12 @@ References:
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_k0/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_k0/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

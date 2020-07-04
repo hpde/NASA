@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/AC/BurstMemory/SCM/PT0.0068267S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS Digital Fields Board (DFB) Searchcoil Magnetometer, SCM, Burst Waveform, Level 2 (L2), 0.873813 s Data</ResourceName>
-         <ReleaseDate>2020-04-13T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>PSP FIELDS Digital Fields Board (DFB), Differential Voltage data:
 
 The DFB is the low frequency, less than 75 kHz, component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1] below. For a full description of the FIELDS experiment, see reference [2]. For a description of the DFB, see reference [3].
@@ -74,12 +74,12 @@ References:
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/dfb_dbm_scm</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/psp/fields/l2/dfb_dbm_scm</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

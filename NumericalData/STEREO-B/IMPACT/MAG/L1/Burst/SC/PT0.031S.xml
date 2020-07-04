@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/MAG/L1/Burst/SC/PT0.031S</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG)  Burst Mode, Magnetic Field Vector, Spacecraft (SC) Coordinates, Level 1 (L1), 31 ms Data</ResourceName>
-         <ReleaseDate>2020-05-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This data product contains Level 1 0.03125-s or 32 Hz burst-mode values of solar wind magnetic field data measured by the IMPACT Magnetometer on STEREO-B in Spacecraft, SC, coordinates.</Description>
          <Acknowledgement>Please acknowledge the STEREO IMPACT Principal Investigator J.G. Luhmann for use of the Data and the key IMPACT Magnetometer personnel: C.W. Smith and the late M.H. Acuna.</Acknowledgement>
          <Contact>
@@ -40,12 +40,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTPS access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/sc/magb/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTPS access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/sc/magb/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

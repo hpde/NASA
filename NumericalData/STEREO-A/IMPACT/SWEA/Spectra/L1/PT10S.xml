@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/SWEA/Spectra/L1/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Solar Wind Electron Analyzer (SWEA) Spectra</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>STEREO Ahead In-situ Measurements of Particles and CME Transients, IMPACT, Solar Wind Electron Analyzer, SWEA, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -31,12 +31,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/swea_spec/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l1/impact/swea_spec/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

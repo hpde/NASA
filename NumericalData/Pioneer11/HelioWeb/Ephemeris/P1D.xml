@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Pioneer11/HelioWeb/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer 11 Ephemeris, Heliocentric Trajectories, Heliographic, Heliographic Inertial, and Solar Ecliptic Coordinates, HelioWeb, Daily Data</ResourceName>
-         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Heliocentric trajectories for Pioneer 11 in Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinates
 
 The original trajectory data are taken from http://ssd.jpl.nasa.gov/horizons.cgi where users can find many more objects. In the case of orbit data for planets, the orbit data can be used as a proxy for spacecraft ephemeris that are in orbit about the planets. On a heliospheric scale, differences between the planet orbital tarjectory and that of the spacecraft are very small. For instance, the heliocentric longitudes differ by only 0.25&#176; for a spacecraft stationed near the L1 Lagrange point at approximately 100 Earth radii upstream of the Earth.
@@ -73,12 +73,12 @@ More precise coordinates, and some planet-centered coordinates, are found in the
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/helio1day/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/helio1day/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

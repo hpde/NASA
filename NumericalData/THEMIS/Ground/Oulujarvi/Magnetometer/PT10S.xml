@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Oulujarvi/Magnetometer/PT10S</ResourceID>
       <ResourceHeader>
          <ResourceName>Oulujarvi (OUJ) Ground-based Vector Magnetic Field (L2) 10.0 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Oulujarvi, Finland, Ground-based Vector Magnetic Field Level 2 Data, 10.0 s Time Resolution, Station Code: (OUJ), Station Location: (GEO Latitude 64.5, Longitude 27.2), IMAGE Network</Description>
          <Acknowledgement>Please acknowledge L. Juusola, (Finnish Meteorological Institute)</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/ouj/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/ouj/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

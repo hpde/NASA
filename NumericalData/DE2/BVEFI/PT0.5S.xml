@@ -7,7 +7,7 @@
       <ResourceName>DE 2 0.5-sec Combined Magnetic Field Vector Electric Field DC data</ResourceName>
       <AlternateName>Dynamics Explorer 2 MAGB and VEFI DC data</AlternateName>
       <AlternateName>DE-B MAGB and VEFI DC data</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>DE-2 0.5-s magnetic and electric field data at low altitude</Description>
       <Acknowledgement>NASA; Nelson C. Maynard; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -49,11 +49,11 @@
         <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/de2_mag.html</URL>
 </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/dc_500ms_ascii/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de2/magnetic_electric_fields_vefi_magb/dc_500ms_ascii/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

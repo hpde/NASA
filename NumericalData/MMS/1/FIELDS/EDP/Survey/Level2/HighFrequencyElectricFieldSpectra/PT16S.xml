@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>MMS 1 Axial Double Probe, Spin Plane Double Probe (ADP-SDP) Electric Double Probe, High-Frequency Electric Field Spectra, Level 2, Survey</ResourceName>
       <AlternateName>MMS1_EDP_SRVY_L2_HFESP</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Electric Double Probe, High-Frequency AC Electric Field Spectra, Level 2, Survey Data, Level 1B AC Electric Field Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -40,12 +40,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/edp/srvy/l2/hfesp/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms1/edp/srvy/l2/hfesp/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>
