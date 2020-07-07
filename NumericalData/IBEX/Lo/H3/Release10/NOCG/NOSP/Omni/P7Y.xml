@@ -147,20 +147,12 @@ The data in IBEX Release 10 are separated into 6 month and 1 year segments. The 
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-<<<<<<< HEAD
-            <Name>FTP access to files at SPDF</Name>
-=======
             <Name>FTPS from SPDF (not with most browsers)</Name>
->>>>>>> 30e54cf052ac01f9d41ceb8c37a2cd697f5a97f0
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release10/ena_lo_nocg_nosp_omni_7yr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-<<<<<<< HEAD
-            <Name>HTTP access to files at SPDF</Name>
-=======
             <Name>HTTPS from SPDF</Name>
->>>>>>> 30e54cf052ac01f9d41ceb8c37a2cd697f5a97f0
             <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release10/ena_lo_nocg_nosp_omni_7yr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>
