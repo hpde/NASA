@@ -4,8 +4,8 @@
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/AIM/SOFIE/PT90M</ResourceID>
     <ResourceHeader>
-      <ResourceName>AIM/SOFIE mixing ratios, extinction profiles, etc. (L2 data)</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ResourceName>AIM/SOFIE mixing ratios, extinction profiles, etc.</ResourceName>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The daily netCDF files at GATS, Inc., hold level 2
 SOFIE (Solar Occultation for Ice Experiment) data.  These include primary absorber mixing ratios (CO2, CH4, NO,H2O, O3), 
 10 aerosol extinction profiles, uncertainity profiles for mixing ratios and 
@@ -18,10 +18,11 @@ and pressures.</Description>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
-        <Name>Info interface page at Hampton U.</Name>
-        <URL>http://aim.hamptonu.edu/library/documentation/instruments/sofie/sofie_docs.html</URL>
+	<Name>Documentation directory on the SPDF server</Name>
+	<URL>https://spdf.gsfc.nasa.gov/pub/data/aim/sofie/documentation/</URL>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/AIM/SOFIE/L2_Data</PriorID>
+      <PriorID>spase://VSPO/DisplayData/AIM/SOFIE/PT90M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/GATS</RepositoryID>
@@ -38,13 +39,13 @@ and pressures.</Description>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/Level2/</URL>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/</URL>
         <Description>Access to Data in NetCDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/Level2/</URL>
+        <Name>HTTPS from SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/aim/sofie/data/Level2/data_files/</URL>
         <Description>Access to Data in NetCDF Format via http from SPDF</Description>
       </AccessURL>
       <Format>NetCDF</Format>

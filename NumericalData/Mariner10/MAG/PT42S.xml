@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Mariner10/MAG/PT42S</ResourceID>
         <ResourceHeader>
             <ResourceName>Mariner 10 Magnetometer 42-s Data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>These interplanetary data from the Mariner 10 Fluxgate Magnetometer consist of 42-s average magnetic field vectors in Heliographic
 RTN coordinates in ASCII format. The data are grouped into one day files and span the time period from 1973 day 307 (Nov. 3) through 1975 day 80
 (Mar. 21). Each file consists of ASCII records, one line per record. Each line consists of a two digit year, a decimal day of year (1 Jan. = Day 0),
@@ -27,11 +27,11 @@ NSSDC for usage of this data set in presentations and publications.</Acknowledge
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mariner/mariner10/magnetic_fields/ip_42s_ascii/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/mariner/mariner10/magnetic_fields/ip_42s_ascii/</URL>
             </AccessURL>
             <Format>Text</Format>

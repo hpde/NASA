@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/THEMIS/C/GMOM/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C (P2/ARTEMIS-P2) Electron and Ion Moments (GMOM) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure and Temperature</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>THEMIS-C Electrostatic Analyzer (ESA) and Solid State Telescope (SST) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure, and Temperature. Generated from ESA and SST Combined Distributions. Data include Electron/Ion Ground-Calculated Fluxes and Spectrograms for Ions from 5 eV to 4 MeV and Electrons from 6 eV to 700 keV.</Description>
       <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
@@ -49,12 +49,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/gmom/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/gmom/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

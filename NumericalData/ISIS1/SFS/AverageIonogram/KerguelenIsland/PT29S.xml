@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ISIS1/SFS/AverageIonogram/KerguelenIsland/PT29S</ResourceID>
       <ResourceHeader>
          <ResourceName>ISIS-1 Topside Sounder Average Ionogram over Kerguelen Island, France: KER, Latitude -49, Longitude 70</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This Ionogram was digitized from the original ISIS 1 Analog Telemetry Data on 7-Track Tape using the Facilities of the Data Evaluation Laboratory at NASA GSFC, Code 500. This Data Restoration Project is headed by Dr. R.F. Benson, NASA GSFC, Code 692. Ionograms were digitized at the Rate of 40,000 16-bit samples/s. This Sample Rate is higher than the Nyquist Frequency of 30 kHz. The Sample Frequency of 40 kHz provides a Measurement every 25 ms corresponding to an Apparent Range Interval of c*t/2, where c is the Speed of Light, or 3.747 km. Each Ionogram consists of a Fixed Frequency Portion and a Swept Frequency Portion. The Time Resolution is typically 29 s.</Description>
          <Acknowledgement>James H. Whitteker, Robert F. Benson, Dieter K. Bilitza. Please thank James H. Whitteker, Principal Investigator for the ISIS 1 Swept Frequency Sounder, SFS, Instrument and Robert F. Benson, Project Scientist for the Alouette/ISIS Data-Restoration</Acknowledgement>
          <Contact>
@@ -48,12 +48,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to CDF Files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis1/KER_49S_070E/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to CDF Files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdf/isis1/KER_49S_070E/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

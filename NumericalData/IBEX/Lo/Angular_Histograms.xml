@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Angular_Histograms</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo Angular Histograms</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Each table (CSV file) captures the numbers 
 of counts of arriving energetic neutral atoms, as integrated 
 over a full 8-day orbit, for a single IBEX-Lo energy step, 
@@ -32,12 +32,12 @@ species categories.</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/mass_spectrometer_data/angular_histograms/</URL>
                 <Description>Directory with energy-range-specific subdirectories</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/mass_spectrometer_data/angular_histograms/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

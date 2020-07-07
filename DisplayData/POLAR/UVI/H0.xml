@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.2</Version>
+  <Version>2.3.1</Version>
   <DisplayData>
     <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/H0</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -15,32 +15,28 @@
         <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-      <!--  <InformationURL>
-                <Name>UVI Home Page</Name>
-                <URL>http://tideuvira.nsstc.nasa.gov/uvi</URL>
-                <Description>The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the user to view 36 second images and key parameter mosaics from the mission and download software, plus links to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.</Description>
-            </InformationURL> -->
       <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H0</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h0/</URL>
+        <Description>Polar Ultraviolet Imager, High Res from SPDF via FTP</Description>     
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_k0</URL>
-        <Description>In CDF via HTTP from CDAWeb</Description>
+        <Name>HTTPS from SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h0/</URL>
+        <Description>Polar Ultraviolet Imager, High Res from SPDF via HTTP</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_UVI&amp;index=sp_phys</URL>
         <ProductKey>PO_H0_UVI</ProductKey>
       </AccessURL>
-      <Format>CDF</Format>
+      <Format>MPEG</Format>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
@@ -48,12 +44,11 @@
     <MeasurementType>ImageIntensity</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1996-03-23T15:56:15</StartDate>
-        <StopDate>2008-02-10T18:40:28</StopDate>
+        <StartDate>1998-04-29T11:52:00</StartDate>
+        <StopDate>1998-05-09T20:20:00</StopDate>
       </TimeSpan>
     </TemporalDescription>
     <SpectralRange>Ultraviolet</SpectralRange>
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    <Caveats>UVI Key Parameters are summary data only.  In some cases parameters such as pointing and calibration were not be adequate to support quantitative scientific analysis.  They should not to be used for presentation, publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, and when the despun platform is pointed away from the earth.</Caveats>
   </DisplayData>
 </Spase>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/Catalog/IMP8/MAG/Multisource</ResourceID>
         <ResourceHeader>
             <ResourceName>Multi-spacecraft bow shock crossing list</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Lists of bow shock crossings observed by the IMP 8,
 Geotail, Magion-4 and Cluster/Rumba spacecraft.  For each crossing, time
 and spacecraft location are given, plus GSE and GSM components of upstream
@@ -57,12 +57,12 @@ supports subsetting, filtering by numeric ranges of any parameters,
 and 2-parameter scatter plots.</Description>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/aaa_special-purpose-datasets/aaa_boundary_crossings/bowshock_crossings/</URL>
                 <Description>Spacecraft-specific annual files of bow shock crossings</Description>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/aaa_special-purpose-datasets/aaa_boundary_crossings/bowshock_crossings/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

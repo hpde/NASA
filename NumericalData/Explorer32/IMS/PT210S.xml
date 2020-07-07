@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Explorer32/IMS/PT210S</ResourceID>
         <ResourceHeader>
             <ResourceName>Explorer 32 ion mass spectrometer data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Explorer 32 (AE-B) ion mass spectrometer, densities of H+, He+, N+, O+,</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -21,11 +21,11 @@
                 <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/explorer32.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/explorer/explorer32/plasma_ims/</URL>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/explorer/explorer32/plasma_ims/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

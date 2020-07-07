@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SAMPEX/PCA/PT48M</ResourceID>
     <ResourceHeader>
       <ResourceName>SAMPEX Polar-Cap-Averaged Fluxes, all instruments</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains 17 differential fluxes of
 protons (mainly), helium ions, Z.GE.6 ions, and electrons, plus one integral
 flux of protons and electrons, as averaged over polar cap passes of the
@@ -53,11 +53,11 @@ IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</De
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/sampex/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/sampex/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
 </AccessURL>

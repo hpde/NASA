@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/Attitude/Definitive/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Definitive Attitude, Hourly Values, Direction Cosines in RTN, GSE, and J2000 GCI Coordinates</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>ACE Definitive Attitude, Direction Cosines in Radial-Tangential-Normal, RTN, Geocentric Solar Ecliptic, GSE, and J2000 Geocentric Ecliptic, GCI, Coordinates. Data in GCI and RTN Coordinates are received Daily by the ACE Science Center, ASC, from the ACE Flight Dynamics Facility, FDF, at GSFC. ASC transforms the Data into the other Coordinate Systems. The Data are reported for the Beginning and End of each DSN Telemetry Pass, and also for the Beginning and End of each Spacecraft Maneuver during a DSN Pass. Because the Attitude and Orbit of the ACE Spacecraft change relatively slowly, the FDF does not provide the Data on finer Time Scales.</Description>
       <Acknowledgement>E.C. Stone, Please acknowledge the Principal Investigator, E. C. Stone, California Institute of Technology, Pasadena, USA. See the Rules of Use available from the ACE Science Center, ASC, at: http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html.</Acknowledgement>
       <Contact>
@@ -36,12 +36,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/def_at/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/orbit/level_2_cdaweb/def_at/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/ChargeStates/PT3H30M</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Solar Wind Ion Composition Spectrometer (SWICS) Average Solar Wind Velocity, Isotope Ratios, and Iron Charge States, (M1), 3.5 h Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This Data Set contains 3.5 hour Averages of the Solar Wind Ion Density Ratio (to O6+), Velocity And Temperature from the Ulysses Solar Wind Ion Composition Spectrometer. Data Set Contact: R. von Steiger, International Space Science Institute, Bern, Switzerland. Principal Investigators: J. Geiss, International Space Science Institute, Bern, Switzerland, and G. Gloeckler, University of Maryland, College Park, Maryland, USA. Reference: Astron. Astrophys. Suppl. Ser., 92(2), 267-289 (1992). Relevant Web Sites: http://space.umd.edu/UMD_sensors/uls_swics.html.</Description>
          <Acknowledgement>J. Geiss, G. Gloeckler, Please acknowledge the Principal Investigators, J. Geiss of the International Space Science Institute, Bern, Switzerland, and G. Gloeckler of the University of Maryland, USA. Also, please acknowledge C. Tranquille of the Ulysses Data System, ESA/ESTEC, NL. See the UDS Users Guide, UDS_UG-02, available for download from http://helio.esa.int/ulysses/.</Acknowledgement>
          <Contact>
@@ -35,12 +35,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics_cdaweb/scs_m1/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/plasma/swics_cdaweb/scs_m1/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-1/MIFM/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail 6-sec magnetic field data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description> Magnetic field measurements on-board the Interball 1 probe are carried out by the FM-3I and MFI (FGM-I) instruments. Data presented here are the combination of the data of all magnetometers. First, all FM-3I M1 data are used, if they are absent, the MFI data are used, and if data from both magnetometer are absent, FM-3I M2 data presented. The FM-3 M1 and MFI data are averaged over 6-second time intervals.</Description>
       <Acknowledgement>The Interball project, IZMIRAN and Space Research Institute RAS  (SRI).</Acknowledgement>
       <Contact>
@@ -32,11 +32,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/tail/mfi_h0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/mfi_h0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

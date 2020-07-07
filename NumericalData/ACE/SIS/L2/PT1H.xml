@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/SIS/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>ACE Solar Isotope Spectrometer (SIS) hourly intensities and count rates, for each of 14 elements (He,C,N,O,Ne,Na,Mg,Al,Si,S,Ar,Ca,Fe,Ni). in each of 8 energy bins. Overall energy ranges covered go from 3.4-41 MeV/n for helium to 10.5-168 MeV/n for iron. These are calibrated science quality data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The "parameter keys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -33,12 +33,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/sis/level_2_cdaweb/sis_h2/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/sis/level_2_cdaweb/sis_h2/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

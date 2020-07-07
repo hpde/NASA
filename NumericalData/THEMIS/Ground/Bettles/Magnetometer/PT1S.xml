@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Bettles/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Bettles (BETT) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Bettles, AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (BETT), Station Location: (GEO Latitude 66.9, Longitude 208.5), University of Alaska Network</Description>
          <Acknowledgement>Please acknowledge D. Hampton, (University of Alaska)</Acknowledgement>
          <Contact>
@@ -32,12 +32,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bett/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/bett/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

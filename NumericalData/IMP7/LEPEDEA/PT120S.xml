@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/IMP7/LEPEDEA/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 7 LANL 2-m plasma data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>IMP 7 LANL 2-min solar wind plasma parameter data, including temperature anisotropy and alpha/proton ratio</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
@@ -27,11 +27,11 @@
         <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/imp7_lanl_2m.html</URL>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp7/plasma_lanl/solarwind_2min/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp7/plasma_lanl/solarwind_2min/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/ECT/MagEIS/L2/Sectors/Release03/PT10.9S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Magnetic Electron Ion Spectrometer (MagEIS), Electron Fluxes, 20 to 4000 keV, Proton Fluxes, 50 to 1500 keV, Level 2, Release #3 (L2), 10.9 s Data</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Van Allen Probe A, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Electron Fluxes from about 20 to 4000 keV and Proton Fluxes from about 50 to 1500 keV.</Description>
       <Acknowledgement>J.B. Blake, H.E. Spence, G.D. Reeves</Acknowledgement>
       <Contact>
@@ -60,12 +60,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/mageis/sectors/rel03/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/ect/mageis/sectors/rel03/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
 </AccessURL>

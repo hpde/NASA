@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/DMSP_5D-3/F16/SESS/SSJ5/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP F16 Special Sensor J, SESS/SSJ5, Precipitating Electrons and Ions Observed at 850 km, 1 s Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Precipitating Electrons And ions observed at nominally 850 km Altitude and over a Range of Energies from 30 eV to 30 keV by using the Special Sensor J, SSJ, Instrument. Please contact Rob.Redmon@noaa.gov with Questions and Comments. Many Individuals made Important Contributions including: D. Hardy, E. Holeman, F. Rich, D. Ober, G. Wilson, J. Machuzak, K. Kadinsky-Cade, J. McGarity, W.F. Denig, K. Martin, R. Redmon, D. Knipp, L. Kilcommons.</Description>
       <Acknowledgement>R.J. Redmon, L.M. Kilcommons, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them.</Acknowledgement>
       <Contact>
@@ -35,12 +35,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf16/ssj/precipitating-electrons-ions/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/dmsp/dmspf16/ssj/precipitating-electrons-ions/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

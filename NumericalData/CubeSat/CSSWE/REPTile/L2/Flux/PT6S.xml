@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/CubeSat/CSSWE/REPTile/L2/Flux/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>CSSWE REPTile Level 2 6-s Flux</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains Level 2 flux data from the Relativistic Electron and Proton Telescope integrated little experiment (REPTile)on board the Colorado Student Space Weather Experiment (CSSWE) CubeSat.  Electrons and protons are measured in five energy ranges in units of differential flux (number&#x2215;MeV&#x2215;s&#x2215;sr&#x2215;cm&#xB2;)including: 
 
 E1: flux for electrons E= 0.5-1.63 MeV 
@@ -47,12 +47,12 @@ Electrons from E3 are measured in units of integral flux (number&#x2215;s&#x2215
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/csswe/l2/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/csswe/l2/</URL>
         <Description>In CDF via http from CDAWeb</Description>
       </AccessURL>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.3.1</Version>
     <Catalog>
         <ResourceID>spase://VSPO/Catalog/STEREO/SIRs.List</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Stream Interaction Region List</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2020-05-08T15:41:27Z</ReleaseDate>
             <Description>This catalog has a list of stream interaction regions 
 (SIR's) observed by STEREO-A and/or STEREO-B between March 2007 and March 
 2009.  For each of the ~145 STEREO A or B observations, the following 
@@ -19,17 +19,17 @@ list, given in both PDF and Excel formats, will be updated periodically.</Descri
             </Contact>
             <InformationURL>
                 <Name>STEREO L3 data page</Name>
-                <URL>http://www-ssc.igpp.ucla.edu/forms/stereo/stereo_level_3.html</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/impact/level3/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/Catalog/STEREO_SIR_List</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UCLA</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>SIR list, PDF version</Name>
-                <URL>http://www-ssc.igpp.ucla.edu/~jlan/STEREO/Level3/STEREO_Level3_SIR.pdf</URL>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/impact/level3/STEREO_Level3_SIR.pdf</URL>
                 <Description>For Excel version, go to Information URL above</Description>
             </AccessURL>
             <Format>Text</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/3DP/ELPD/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP EESA-LOW Electron Pitch-Angle Distributions</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Wind 3DP electron pitch angle product providing electron fluxes in 8 directional bins relative to the local magnetic field direction at 15 different energy levels. Time resolution is mode- dependent, with 96s being used for the past several years and with higher resolution (e.g., 24s) used for some earlier intervals. For any given cadence, electron observations made over the full cadence interval and in all look directions in and out of the spacecraft spin plane, are folded together with the magnetic field vector as averaged over the cadence interval, to produce the pitch angle distributions. The data are calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -28,12 +28,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_elpd/</URL>
         <Description>in CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_elpd/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

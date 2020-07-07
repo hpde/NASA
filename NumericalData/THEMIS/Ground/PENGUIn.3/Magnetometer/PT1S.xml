@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/PENGUIn.3/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>PENGUIn-3 (PG3) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>PENGUIn-3, Antarctica, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (PG3), Station Location: (GEO Latitude -84.8, Longitude 37.6), Antarctic Network</Description>
          <Acknowledgement>Please acknowledge C.R. Clauer, (Virginia Tech)</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/pg3/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/pg3/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

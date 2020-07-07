@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Coral.Harbour/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Coral Harbour (CHBR) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-04-18T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Coral Harbour, NU, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (CHBR), Station Location: (GEO Latitude 64.2, Longitude 276.7), MACCS Network</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator E.S. Steinmetz, (Augsburg College)</Acknowledgement>
          <Contact>
@@ -31,12 +31,20 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
+<<<<<<< HEAD
             <Name>FTP access to files at SPDF</Name>
+=======
+            <Name>FTPS from SPDF (not with most browsers)</Name>
+>>>>>>> 30e54cf052ac01f9d41ceb8c37a2cd697f5a97f0
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/chbr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
+<<<<<<< HEAD
             <Name>HTTP access to files at SPDF</Name>
+=======
+            <Name>HTTPS from SPDF</Name>
+>>>>>>> 30e54cf052ac01f9d41ceb8c37a2cd697f5a97f0
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/chbr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

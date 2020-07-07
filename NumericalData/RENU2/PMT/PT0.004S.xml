@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/RENU2/PMT/PT0.004S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 PhotoMultiplier Tube (PMT) Auroral Red and Green Line Luminosity in Raylieghs, Background subtracted, High Time Resolution (H0), 4 ms Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>RENU2 PMT Counts converted to Rayleighs and Background subtracted</Description>
          <Acknowledgement>Please acknowledge the Principal Investigators, M.R. Lessard and J.H. Hecht, from the University of New Hampshire and Aerospace Corporation, respectively, for providing the Data.</Acknowledgement>
          <Contact>
@@ -50,12 +50,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/sounding_rockets/renu2/pmt/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/sounding_rockets/renu2/pmt/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

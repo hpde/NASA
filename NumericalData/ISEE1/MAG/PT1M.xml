@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/ISEE1/MAG/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 magnetometer 1-min data at CDAWeb</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains magnetic field component
 and magnitude averages every minute, with components given in spacecraft,
 GSE and GSM coordinates.  Standard deviations in the averages are given,
@@ -22,23 +22,18 @@ CDAWeb team at NASA/GSFC</Acknowledgement>
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>DataProducer</Role>
 </Contact>
-      <InformationURL>
-        <Name>UCLA-IGPP ISEE Magnetometer Interactive Data Server</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/forms/isee/</URL>
-        <Description>Data at 60-s and 4-s resolution are available for the entire ISEE mission (October 22, 1977 through  September 25, 1987) and can be displayed either as a plot or an ASCII listing. The ISEE-1 and -2 magnetometer data server is provided by the Institute of Geophysics and Planetary Physics (IGPP) at UCLA, through a grant to Robert J. Strangeway from the NASA Space Physics Data System (SPDS).</Description>
-</InformationURL>
       <PriorID>spase://VMO/NumericalData/ISEE1/MAG/PT1M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/60sec_mfi/</URL>
         <Description>ftp access to CDF files</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/isee1_cdaweb/60sec_mfi/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

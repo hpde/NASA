@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/TIDE/H1_CDF</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIDE 6-s Z-unresolved Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The TIDE H1 CDF files contain non-mass Total Ion contribution below 411 eV.  Data are available for 1996-12-07 
 through 2008-04-16.  Data is accumulated over the 6-second Polar spacecraft spin.  The files contain moments 
 density, velocity (Vx and Vy only), temperature (T_perp and T_para) and the spectrograms for both the differential energy flux versus 
@@ -42,12 +42,12 @@ and several parameters that describe the instrument status and details about the
         <Description>CDAWeb TIDE H1 CDF viewer</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/tide/tide_h1/</URL>
         <Description>CDAWeb TIDE H1 CDF viewer</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/tide/tide_h1/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP4/SPME/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 4 SPME Energetic Particle Count Rates</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>IMP 4 SPME hourly &gt;10, &gt;30, &gt;60 MeV proton count rates and 1-10 MeV proton and alpha particle rates, in ASCII via ftp</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stamatios.M.Krimigis</PersonID>
@@ -17,11 +17,11 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp4/particles_apl/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp4/particles_apl/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/THEMIS/B/Ephemeris/SSCWeb/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-B (P1/ARTEMIS-P1) Orbit (Ephemeris)</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>THEMIS-B Orbital Information provided via the Satellite Situation Center, SSCWeb, System and Services, Space Physics Data Facility, SPDF, GSFC, NASA</Description>
       <Acknowledgement>V. Angelopoulos</Acknowledgement>
       <Contact>
@@ -31,12 +31,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thb/ssc/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thb/ssc/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

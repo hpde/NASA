@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/ISEE3/MAG/PT0.16S</ResourceID>
       <ResourceHeader>
          <ResourceName>ISEE-3 High Resolution Magnetic Field Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>These data are the highest-time-resolution data available from the ISEE-3 MAG instrument. The data are separated into four files per day, each with the date (YYDDD) and starting hour (00, 06, 12, or 18) embedded in the data file name. The ASCII files were compressed using gzip, and must be de-compressed before using. Some or all files from any particular day may be absent due to absence of data. Files are located in yearly sub-directories.</Description>
          <Acknowledgement>Please acknowledge Edward J. Smith (P.I.) and the National Space Science Data Center.</Acknowledgement>
          <Contact>
@@ -25,11 +25,11 @@
             <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/isee3.html</URL>
          </AccessURL>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/magnetic_fields/0.16sec_ascii_gz/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>

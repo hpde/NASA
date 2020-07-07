@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/AE-E/BIMS_OSS/PT256S</ResourceID>
         <ResourceHeader>
             <ResourceName>AE-E MSIS Neutral Density Data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This set of neutral density data was deduced from the mass spectrometer measurements on the Atmosphere Explorer E's Bennett Ion-Mass Spectrometer and Open-Source Neutral Mass Spectrometer.  The density numbers (in cm-3) for hydrogen, nitrogen and molecular oxygen were provided by A. Hedin (GSFC, Code 914, now retired). They are related to A. Hedin's atmospheric modelling work (Mass Spectrometer and Incoherent Scatter atmospheric model - MSIS). In addition to density, the record includes also orbital parameters.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -21,11 +21,11 @@
                 <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ae_e.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ae/ae_msis_data/</URL>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ae/ae_msis_data/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS Ground-based All Sky Imager Keogram, Level-1</ResourceName>
       <AlternateName>THEMIS-Ground ASK</AlternateName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>THEMIS Ground All Sky Imager Keograms for all observatories.  Keograms are composed of thin images slices taken down the middle of all-sky images and graphed against time.  Keograms allow for substorm analysis without the need for full sized raw images.   The ASI stations each monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours a sun shades deploy to protect the CCD.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.</Acknowledgement>
       <!--Vassilis Angelopoulos -->
@@ -31,12 +31,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l1/ask/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l1/ask/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

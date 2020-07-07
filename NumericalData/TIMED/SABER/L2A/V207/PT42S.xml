@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2A/V207/PT42S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) O&#8323;, CO&#8322;, and H&#8322;O Mixing Ratios, O, O&#8322;, OH, and NO Volume Emission Rates, and also National Meteorological Center, NMC, Neutral Temperature Density, and Pressure, Version 2.07, Level 2A (L2A), 42 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>The Sounding of the Atmosphere using Broadband Emission Radiometry, SABER, Instrument is one of four Instruments on the NASA Thermosphere Ionosphere Mesosphere Energetics Dynamics, TIMED, Satellite. The primary Goal of the SABER Experiment is to provide the Data needed to advance our understanding of the fundamental Processes governing the Energetics, Chemistry, Dynamics, and Transport in the Mesosphere and Lower Thermosphere. SABER accomplishes this with Global Measurements of the Atmosphere by using a 10-Channel Broadband Limb-Scanning Infrared Radiometer covering the Spectral Range from 1.27 &#181;m to 17 &#181;m. These Measurements are used to provide Vertical Profiles of Kinetic Temperature, Pressure, Geopotential Height, Volume Mixing Ratios, VMR, for these Trace Species: Ozone, O&#8323;, Carbon Dioxide, CO&#8322;, Water, H&#8322;O, Atomic Oxygen, O, and Atomic Hydrogen, H. These Measurements also used to provide Volume Emission Rates, VER, for 5.3 &#181;m NO, 2.1 &#181;m OH, 1.6 &#181;m OH, and 1.27 &#181;m O(&#185;&#916;), Cooling Rates and Heating Rates for many CO&#8322;, O&#8323;, and O&#8322; Bands, and Chemical Heating Rates for seven important Reactions. This Description Text is adapted from the SABER Data and Experiment Home Page, NASA Langley, http://saber.gats-inc.com.
 
 This Numerical Data Document describes the TIMED SABER H&#8322;O Version 2.07 Data Product.
@@ -55,12 +55,12 @@ The SABER H&#8322;O Data have not been made publicly available until the Release
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/saber/level2a_v2_07_cdf/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/saber/level2a_v2_07_cdf/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

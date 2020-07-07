@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/BARREL/2I/Magnetometer/L2/PT0.25S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2I Tri-Axial Fluxgate Magnetometer (MAGN) Magnetic Field, data are neither Gain Corrected nor Despun</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Three-Axis Magnetometer Reading with Nominal Conversion, Data are neither Gain Corrected nor Despun</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2i/magn/</URL>
             <Description>In CDF via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/barrel/l2/2i/magn/</URL>
             <Description>In CDF via http from SPDF</Description>
          </AccessURL>

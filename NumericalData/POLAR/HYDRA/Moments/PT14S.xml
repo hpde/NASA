@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/Moments/PT14S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar HYDRA 14-sec Moments</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set from the POLAR Hot Plasma Analyzer (HYDRA) contains survey electron and proton moments for density, bulk velocity (GSM), and temperature in parallel and perpendicular directions at 13.8-second resolution as determined for s/c potential at 0-20keV. Higher quality data products may be available from the P.I.  The direction designations "parallel,""perpendicular," and "antiparallel" refer to the magnetic field and indicate sample averaging over pitch-angle ranges of 0-30, 75-105, and 150-180 degrees. Reference: HYDRA is a 3-Dimensional Electron and Ion Hot Plasma Instrument
 for the Polar Spacecraft of the GGS Mission, J. Scudder et al., Space Sci. Rev., 71,459-495, Feb. 1995. http://www-st.physics.uiowa.edu</Description>
       <Acknowledgement>Please acknowledge the P.I. and NASA Space Physics Data Facility (SPDF) CDAWeb when using these data.</Acknowledgement>
@@ -29,12 +29,12 @@ for the Polar Spacecraft of the GGS Mission, J. Scudder et al., Space Sci. Rev.,
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/hydra/moments-14sec/</URL>
         <Description>In CDF via FTP from SPDF</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/hydra/moments-14sec/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

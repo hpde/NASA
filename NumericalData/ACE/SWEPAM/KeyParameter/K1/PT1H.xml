@@ -4,7 +4,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/KeyParameter/K1/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM), Key Parameter, K1, Preliminary Browse Data</ResourceName>
-      <ReleaseDate>2019-10-23T19:31:33Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM), Key Parameter, K1, Browse Data is designed for monitoring large scale particle and field behavior and for selecting interesting time periods. The data is automatically generated from the spacecraft data stream using simple algorithms provided by the instrument teams. It is not routinely checked for accuracy and is subject to revision. Use this data at your own risk, and consult with the appropriate instrument teams about citing it. SWEPAM browse data is not validated by the experimenters and should not be used except for preliminary examination prior to detailed Studies. See: http://www.srl.caltech.edu/ACE/.</Description>
       <Acknowledgement>D.J. McComas</Acknowledgement>
       <Contact>
@@ -31,12 +31,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_k1/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swepam/level_2_cdaweb/swe_k1/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
       </AccessURL>

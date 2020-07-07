@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Platform Attitude, Daily Definitive Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Polar platform attitude definitive data include: orbital, GCI, GSE and GSM angles.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -18,11 +18,11 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/orbit/def_pa/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/orbit/def_pa/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

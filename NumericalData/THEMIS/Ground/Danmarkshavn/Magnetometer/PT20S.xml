@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Danmarkshavn/Magnetometer/PT20S</ResourceID>
       <ResourceHeader>
          <ResourceName>Danmarkshavn (DMH) Ground-based Vector Magnetic Field (L2) 20.0 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Danmarkshavn, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 20.0 s Time Resolution, Station Code: (DMH), Station Location: (GEO Latitude 76.8, Longitude 341.4), DTU Network</Description>
          <Acknowledgement>Please acknowledge H. Gleisner, (Danish Meteorological Institute, Denmark)</Acknowledgement>
          <Contact>
@@ -32,12 +32,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/dmh/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/greenland_gmag/l2/dmh/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

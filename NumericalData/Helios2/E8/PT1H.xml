@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/Helios2/E8/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 2 E8 (Keppler) Hourly Particle Fluxes</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Data set records contain hourly count rates of protons and 
 electrons in 16 energy ranges (protons: 15 differential channels between 21 and 
 677 keV, plus &gt;677 keV; electrons: 15 differential channels between 17 and 835 
@@ -32,11 +32,11 @@ Institure, Lindau</Acknowledgement>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/helios/helios2/particle/e8_keppler/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/particle/e8_keppler/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

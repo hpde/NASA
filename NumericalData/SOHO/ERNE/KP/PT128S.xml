@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SOHO/ERNE/KP/PT128S</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO /Energetic and Relativistic Nuclei and Electron (ERNE) Key Parameter Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Data include 128s differential fluxes of protons 
 and He4 nuclei, each at six energies between 3 and 96 MeV and of 
 electrons at two energies (4-16 and &gt;16 MeV).  They are key parameter 
@@ -33,11 +33,11 @@ of the University of Turku</Acknowledgement>
         <Description>With subset, plot and ASCII list functions from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/soho/erne/k0/</URL>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/soho/erne/k0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

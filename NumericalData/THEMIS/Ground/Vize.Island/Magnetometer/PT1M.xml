@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Vize.Island/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Vize Island (VIZ) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Vize Island, Russia, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (VIZ), Station Location: (GEO Latitude 79.3, Longitude 76.5), AARI Network</Description>
          <Acknowledgement>Please acknowledge O. Troshichev, (Arctic and Antarctic Research Institute)</Acknowledgement>
          <Contact>
@@ -31,12 +31,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/viz/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/viz/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

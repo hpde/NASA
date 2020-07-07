@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Ulysses/FGM/PT01S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses High Resolution Magnetic Field Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains high resolution samples at about one-second intervals of the interplanetary magnetic field measured by the Ulysses Magnetic Field experiment. Field vector components are given in units of nanoteslas and in RTN coordinates, where R is the sun-s/c axis, T is the cross product of the solar rotation axis and R, and T is the cross product of R and T. The field magnitudes in nT are averages of scalar magnitudes at higher time resolution. Times are computed at the mid-point of each averaging interval and expressed in Spacecraft Event Time - UT (SCET-UT). Data gaps have not been flagged in any way - if there were no available data in a particular hour then there is no data record for that hour. No data from the Feb. 1992 encounter with Jupiter are included. Each file includes one day of data. Parameter key information given below is specific to the data version at nssdcftp and at the ESA Research and Scientific Support Department site identified below. Further details on the magnetic field measurements can be found in the following reference: Balogh, A., et al., Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, A. Balogh of Imperial College, London, UK. and the repository from which you accessed the data.</Acknowledgement>
       <Contact>
@@ -61,11 +61,11 @@
         <Description>UY_1SEC_VHM</Description>
 </AccessURL>
       <AccessURL>
-        <Name>FTP access to ASCII files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to ASCII files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/mag/interplanetary/second/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

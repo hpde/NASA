@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Whitehorse/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Whitehorse (WHIT) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>Whitehorse, YT, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (WHIT), Station Location: (GEO Latitude 61.0, Longitude 224.8), THEMIS GBO/UCLA Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell, (University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -46,12 +46,12 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/whit/</URL>
             <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/whit/</URL>
             <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

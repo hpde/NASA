@@ -5,7 +5,7 @@
       <ResourceID>spase://VSPO/NumericalData/IBEX/Hi/H3/Release10/CG/NOSP/Ram/P1Y</ResourceID>
       <ResourceHeader>
          <ResourceName>IBEX High Energy Neutral Atom Imager (ENA-Hi) Data Release 10, Compton-Getting corrected, not Survival Probability corrected, Ram direction, West Longitude Ecliptic Maps, 1 year averaged data, Level H3</ResourceName>
-         <ReleaseDate>2019-11-15T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
          <Description>This IBEX-Hi data set is from Release 10 of all-sky map data for the first seven years, 2009-2015, in the form of ram direction Hydrogen, H, energetic neutral atom fluxes with Compton-Getting corrections for spacecraft motion and with no corrections for ENA survival probability between 1 and 100 AU. All-sky maps have been compiled for each consecutive 1 year time interval.
 
 The Interstellar Boundary Explorer, IBEX, has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX-Hi and/or IBEX-Lo data covering 2009-2017. The data consist of all-sky maps in Solar Ecliptic Longitude, east and west, and Latitude angles for Energetic Neutral Atom, ENA, Hydrogen fluxes from IBEX-Hi from energy band 2 through energy band 6, see the first table below, in numerical data form. This particular data set is from IBEX Release 10 which includes observation from the first seven years, 2009-2015, of the IBEX mission. Details of the data and enabled science from Release 10 are given in the following journal publication:
@@ -127,12 +127,12 @@ The data in IBEX Release 10 are separated into 6 month and 1 year segments. The 
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>FTP access to files at SPDF</Name>
+            <Name>FTPS from SPDF (not with most browsers)</Name>
             <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release10/ena_hi_cg_nosp_ram_1yr/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
-            <Name>HTTP access to files at SPDF</Name>
+            <Name>HTTPS from SPDF</Name>
             <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release10/ena_hi_cg_nosp_ram_1yr/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>

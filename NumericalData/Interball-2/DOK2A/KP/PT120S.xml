@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Interball-2/DOK2A/KP/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Auroral Energetic Particle 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains 2-min key parameters of energetic particles from the Interball Auroral Probe Electron and Proton Anisotropy (DOK-2A).  Electron and proton fluxes were measured witin energy ranges of 20-40 keV in fixed antisoloar direction and in scanned positions from 45 to 180 degrees to the sun direction.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Karel.Kudela</PersonID>
@@ -17,12 +17,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/aurora/epi/</URL>
         <Description>in CDF via FTP from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/aurora/epi/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

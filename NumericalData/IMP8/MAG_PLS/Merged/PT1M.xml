@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IMP8/MAG_PLS/Merged/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 MAG PLS field and plasma merged 1-min data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This IMP 8 merged solar wind data set at 1- min resolution was created at GSFC in 2005, using as input both the "15.36 s" magnetic field data set and the "1 min" MIT plasma data set with no time shift to the Earth's bow shock nose (BSN). </Description>
             <Acknowledgement>We acknowledge A.Szabo and R. Lepping of the MAG team, A. Lazarus 
 of the PLS team and J. King and N. Papitashvili of NASA/SPDF and ADNET 
@@ -28,12 +28,12 @@ who created this product.</Acknowledgement>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/merged/</URL>
                 <Description>FTP path at SPDF/NSSDC</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/merged/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

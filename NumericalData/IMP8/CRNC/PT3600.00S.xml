@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.2</Version>
+    <Version>2.3.1</Version>
     <NumericalData>
         <ResourceID>spase://VSPO/NumericalData/IMP8/CRNC/PT3600.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 CRNC Hourly Count Rates</ResourceName>
-            <ReleaseDate>2014-08-06T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
             <Description>Hourly count rates from U.Chi/UNH IMP 8 experiment, 9 each proton and alpha channels 11-95 MeV/n, 3 electron channels 0.7-50 MeV, 2 each CNO and Z&gt;8 channels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
@@ -13,12 +13,12 @@
             <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_UCHI_FTP</PriorID>
         </ResourceHeader>
         <AccessInformation>
-            <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>in ASCII via ftp from UNH site</Name>
-                <URL>ftp://ulysses.sr.unh.edu/WWW/Simpson/imp8.html</URL>
+                <Name>in ASCII via ftp from OMNIWeb Browser</Name>
+                <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/imp_chi_crnc_1h_st.html</URL>
             </AccessURL>
             <Format>Text</Format>
         </AccessInformation>

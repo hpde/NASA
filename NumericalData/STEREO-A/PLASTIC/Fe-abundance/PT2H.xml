@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/Fe-abundance/PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A Plasma and Suprathermal Ion Composition (PLASTIC) 2-hour Iron Plasma Parameters</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data product contains 2-hour averaged values of solar wind
 iron flow speed, density, thermal speed, iron to proton density ratio,
 and quality flags for each of these parameters.  It also contains the iron 
@@ -76,12 +76,12 @@ charge state used in the V and Vth (1D Maxwellian) fitting algorithm</Descriptio
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l2/plastic/iron/2hr/</URL>
         <Description>In CDF via ftp from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/ahead/l2/plastic/iron/2hr/</URL>
         <Description>In CDF via http from SPDF</Description>
       </AccessURL>

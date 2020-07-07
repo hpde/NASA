@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Histograms</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo Histograms</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>Each record captures the number of arriving ENA's
 of a specific energy band, coincidence type, species (hydrogen or 
 oxygen) and spin phase.  Data for each full ~15s spacecraft spin 
@@ -33,12 +33,12 @@ are in ASCII.</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>SPDF FTP area</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/time_series/histograms/</URL>
                 <Description>Directory with energy-range-specific subdirectories</Description>
             </AccessURL>
             <AccessURL>
-                <Name>SPDF HTTP area</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/release3/lo/time_series/histograms/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

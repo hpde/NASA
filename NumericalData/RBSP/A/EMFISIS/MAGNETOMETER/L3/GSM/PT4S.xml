@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER/L3/GSM/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Fluxgate Magnetometer 4 second resolution data in GSM coordinates</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Fluxgate magnetometer data - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -40,12 +40,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/emfisis/magnetometer/4sec/gsm/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/emfisis/magnetometer/4sec/gsm/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

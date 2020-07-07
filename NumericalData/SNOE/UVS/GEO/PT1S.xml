@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/SNOE/UVS/GEO/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>SNOE UVS (Ultraviolet Spectrometer) geographic coordinates</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This set of SNOE UVS (Ultraviolet Spectrometer) data contains nitric oxide volume density translated from the spacecraft look angle through the atmosphere at the limb of Earth.  Density data are provided from 100 to 150 km altitudes in 10 km intervals at the recorded geographic latitude and longitude (5-degree bins). Any data outages of size one (i.e. all adjacent neighbors contain valid data) in the dataset are filled in using linear interpolation in the altitude direction. 
              </Description>
       <Contact>
@@ -24,12 +24,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/1min_cdaweb/l3_geo/</URL>
         <Description>ftp access to CDF files</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/snoe/NO_uvs/1min_cdaweb/l3_geo/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>

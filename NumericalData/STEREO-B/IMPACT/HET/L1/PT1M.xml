@@ -5,7 +5,7 @@
         <ResourceID>spase://VSPO/NumericalData/STEREO-B/IMPACT/HET/L1/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B IMPACT HET Level 1 Data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This data set contains Level 1 1-min data from the High Energy Telescopes (HET) of STEREO IMAPCT.  Electron flux in particles/(cm2-sr-sec-MeV) are measured in 3 energy ranges: 0.7-1.4, 1.4-2.8 and 2.8-4.0 MeV.  Proton flux are measured in 11 energy ranges: 13.6-15.1, 14.9-17.1, 17.0-19.3, 20.8-23.8, 23.8-26.4, 26.3-29.7, 29.5-33.4, 33.4-35.8, 35.5-40.5, 40.0-60.0, and 60.0-100.0 MeV.</Description>
             <Acknowledgement>Please acknowledge the STEREO IMPACT PI, Janet Luhmann of UCB and NASA Space Physics Data Facility (SPDF) CDAWeb</Acknowledgement>
             <Contact>
@@ -27,11 +27,11 @@
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/het/</URL>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/behind/l1/impact/het/</URL>
             </AccessURL>
             <Format>CDF</Format>

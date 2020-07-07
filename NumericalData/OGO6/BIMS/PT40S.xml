@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/OGO6/BIMS/PT40S</ResourceID>
         <ResourceHeader>
             <ResourceName>OGO 6 BIMS ion mass spectrometer data</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>OGO 6 Bennett Ion Mass Spectrometer (BIMS), densities of H+, He+, N+, O+ N2+, O2+, NO+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -21,11 +21,11 @@
                 <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/ogo6.html</URL>
 </AccessURL>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ogo/ogo6/plasma_bims/ni_40s_ascii/</URL>
 </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ogo/ogo6/plasma_bims/ni_40s_ascii/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

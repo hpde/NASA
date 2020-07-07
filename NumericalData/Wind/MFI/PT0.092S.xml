@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/Wind/MFI/PT0.092S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Magnetic Field Investigation (MFI) Data at full resolution</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data product contains Wind MFI full resolution magnetic field magnitude and GSE and GSM Cartesian components. Time resolution is typically 0.046s or 0.092s from launch through 1997, and is 0.092s thereafter. Final Version 5 data are accessible to within about 3 months of current date, newly defined Version 4 data (with final Bz offsets and not-yet-final spacecraft position vectors) between 3 months and about 2 weeks of current date, and newly defined Version 3 data (with the most recently determined Bz offset value, not yet final for the Version 3 interval) from 2 weeks to about 2 days of current.</Description>
       <Acknowledgement>User will acknowledge the Wind MFI instrument team, and the server from which the data were accessed, in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -36,12 +36,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_h2/</URL>
         <Description>For ftp downloads of CDF formatted data from SPDF</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/mfi/mfi_h2/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>

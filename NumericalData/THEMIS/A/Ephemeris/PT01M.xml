@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://VSPO/NumericalData/THEMIS/A/Ephemeris/PT01M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A Level 1 Probe State Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The L1 STATE files contain the following data, sampled at one-minute intervals:
 
                * probe position and velocity in GEI, GSE, and GSM coordinates;
@@ -39,7 +39,7 @@
 </InformationURL>
       <InformationURL>
         <Name>THEMIS Ephemeris Format Definition</Name>
-        <URL>ftp://apollo.ssl.berkeley.edu/pub/THEMIS/3%20Ground%20Systems/3.2%20Science%20Operations/Science%20Operations%20Documents/thm_ogs_431m_ephemeris_format_definition.pdf</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/documents/tdas/docs/thm_ogs_431m_ephemeris_format_definition.pdf</URL>
         <Description>Ephemeris file format and quantity details including RoI descriptions.</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/A/Ephemeris/PT01M</PriorID>
@@ -49,12 +49,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/tha/l1/state/</URL>
         <Description>NASA/GSFC CDAWeb ftp access to the data.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/tha/l1/state/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>

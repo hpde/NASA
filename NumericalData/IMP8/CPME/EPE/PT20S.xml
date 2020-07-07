@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/IMP8/CPME/EPE/PT20S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Charged Particle Measurement Experiment (CPME) Energetic Particle Experiment (EPE) MAG PLS Merge Data Set</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>This data set contains 20.48s IMP8 CPME and EPE energetic 
 particle data, along with IMP8 magnetic field and plasma data to facilitate use 
 of the particle data.  CPME data consist of: spin-integrated, 20.48s resolution 
@@ -52,7 +52,7 @@ accessing data from APL.</Acknowledgement>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
-        <Name>Merge data set content and format</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/imp/imp8/documents/archived_website/imp8_merged.html</URL>
         <Description>Content and detailed format of records of Merge data set</Description>
       </InformationURL>
@@ -68,7 +68,7 @@ accessing data from APL.</Acknowledgement>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_apl/merge_20s_ascii/</URL>
         <Description>gzipped ASCII daily files via ftp from NSSDC</Description>
       </AccessURL>

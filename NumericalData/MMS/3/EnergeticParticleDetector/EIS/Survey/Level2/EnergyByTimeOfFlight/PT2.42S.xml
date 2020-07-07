@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/MMS/3/EnergeticParticleDetector/EIS/Survey/Level2/EnergyByTimeOfFlight/PT2.42S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Energetic Particle Detector, Energetic Ion Spectrometer (EPD-EIS) Energy by Time of Flight, Level 2, Quick-Look Survey</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>Energetic Particle Detector (EPD), Energetic Ion Spectrometer (EIS) Energy by Time of Flight, Level 2, Quick-Look Survey, 2.42 s Data. The EIS provides ion composition measurements (protons versus oxygen ions) and angular distributions over the energy range from approximately 45 to 500 keV.</Description>
       <Acknowledgement>B. Mauk</Acknowledgement>
       <Contact>
@@ -41,12 +41,12 @@
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms3/epd-eis/srvy/l2/extof/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
 </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms3/epd-eis/srvy/l2/extof/</URL>
         <Description>In CDF via http from SPDF.</Description>
 </AccessURL>

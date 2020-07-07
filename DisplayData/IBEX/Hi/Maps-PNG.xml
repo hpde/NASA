@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/DisplayData/IBEX/Hi/Maps-PNG</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Hi maps in PNG display format</ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>As of this writing (11/5/2010), this product 
 had been issued by the IBEX team in two releases. 
 Release 1 IBEX-Hi map data are superseded by Release 2
@@ -77,12 +77,12 @@ at SWRI: http://ibex.swri.edu/ibexpublicdata/Data_Release_2/)</Description>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/hi/maps/images/release_2/</URL>
                 <Description>Directory with subdirectories for two epochs and for two frameworks</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/hi/maps/images/release_2/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

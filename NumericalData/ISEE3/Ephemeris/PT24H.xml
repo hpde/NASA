@@ -4,7 +4,7 @@
         <ResourceID>spase://VSPO/NumericalData/ISEE3/Ephemeris/PT24H</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 Daily Trajectory Data </ResourceName>
-            <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
             <Description>This data set contains orbital parameters for ISEE-3: heliospheric radial distance in AU, solar ecliptical latitude, solar ecliptical longitude, solar heliographic latitude, solar heliographic longitude, and solar solar heliographic inertial longitude with respect to the ascending node of solar equator on the ecliptic.  These data were obtained from running the program HELICOOR in the public directory NSSDCA::ANON_DIR:[ACTIVE.HELIO]. These data are based on predicted trajectories calculated with the GTDS code by the NSSDC Satellite Situation Center and converted to solar ecliptic and heliographic coordinates by the HELIOCOOR program. The HELICOOR code was written by R. Parthasarathy. The program GENTRJCON added the HILLON longitude.
 
 Note that the solar ecliptic coordinates are given with respect to true equinox and ecliptic of date. The solar ascending node was located at
@@ -25,12 +25,12 @@ ecliptic longitude +74.367 degrees as of 1 Jan. 1900 at 1200 UT; this longitude 
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
-                <Name>FTP access to files at SPDF</Name>
+                <Name>FTPS from SPDF (not with most browsers)</Name>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/traj/daily/</URL>
                 <Description>Via ftp in ASCII from SPDF</Description>
             </AccessURL>
             <AccessURL>
-                <Name>HTTP access to files at SPDF</Name>
+                <Name>HTTPS from SPDF</Name>
                 <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/traj/daily/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>

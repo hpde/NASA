@@ -5,7 +5,7 @@
     <ResourceID>spase://VSPO/NumericalData/ACE/SWICS/L2/PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE SWICS 2.0 Solar Wind 2-Hour Data </ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
       <Description>The SWICS 2.0 dataset consists of time series measurements by ACE/SWICS of the elemental abundance, charge state composition, and kinetic distribution of heavy ions in the solar wind. This data set begins after August 23, 2011, when a radiation and age-induced hardware anomaly altered the instrument's operational state. It should not be confused with SWICS 1.1, the recalibrated data set extending from launch up to the anomaly.
 SWICS 2.0 continues to make heavy ion measurements which are not available from any other instrument, and new data analysis methods have been developed to address the statistical and calibration issues of the current instrument state.</Description>
       <Contact>
@@ -36,12 +36,12 @@ SWICS 2.0 continues to make heavy ion measurements which are not available from 
         <ProductKey>AC_H3_SW2</ProductKey>
       </AccessURL>
       <AccessURL>
-        <Name>FTP access to files at SPDF</Name>
+        <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/sw2_h3/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>HTTP access to files at SPDF</Name>
+        <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/swics/level_2_cdaweb/sw2_h3/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
       </AccessURL>
