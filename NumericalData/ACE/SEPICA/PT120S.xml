@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/SEPICA/PT120S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ACE/SEPICA/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SEPICA L2 2-min H and He flux data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
             <Description>ACE SEPICA L2 2-min H and He flux data, by charge states, at ASC</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Eberhard.S.Moebius</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_SEPICA_2M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/ACE/SEPICA/PT120S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>

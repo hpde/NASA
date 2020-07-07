@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Fe-abundance/PT2H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-B/PLASTIC/Fe-abundance/PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B  Plasma and Suprathermal Ion Composition (PLASTIC) 2-hour Iron Plasma Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
       <Description>This data product contains 2-hour averaged values of solar wind
 iron flow speed, density, thermal speed, iron to proton density ratio,
 and quality flags for each of these parameters.  It also contains the iron 
@@ -26,6 +26,7 @@ charge state used in the V and Vth (1D Maxwellian) fitting algorithm</Descriptio
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/STEREO-B/PLASTIC/Fe-abundance/PT2H</PriorID>
       <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Fe_charge_state/PT2H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Fe-abundance/PT2H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

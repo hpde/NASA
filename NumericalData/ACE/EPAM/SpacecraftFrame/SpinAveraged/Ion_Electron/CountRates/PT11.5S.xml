@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT11.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT11.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>ACE Electron Proton Alpha Monitor (EPAM), Spacecraft Frame, Spin-Averaged Ion and Electron Count Rates, 11.5 s Averages</ResourceName>
          <AlternateName>EPAM-PG65-12S</AlternateName>
-         <ReleaseDate>2018-01-30T18:01:30</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
          <Description>12sec-averaged and spin-averaged count rates from all detectors.</Description>
          <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
          <Contact>
@@ -19,18 +19,19 @@
             <Description>The Explanation HTML page at Fundamental Technologies describes how the numeric data from the ACE EPAM instrument are divided into different print-groups, the nomenclature of the ASCII-based comma-separated variable (CSV) files, and how those files can be accessed.</Description>
          </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT5M</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT5M</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT1H</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT1H</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/P1D</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/P1D</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <PriorID>spase://VEPO/NumericalData/ACE/EPAM/RATES/EPAM-PG65-12S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/ACE/EPAM/SpacecraftFrame/SpinAveraged/Ion_Electron/CountRates/PT11.5S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/FTECS</RepositoryID>

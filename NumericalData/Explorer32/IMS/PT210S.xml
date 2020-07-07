@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Explorer32/IMS/PT210S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Explorer32/IMS/PT210S</ResourceID>
         <ResourceHeader>
             <ResourceName>Explorer 32 ion mass spectrometer data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
             <Description>Explorer 32 (AE-B) ion mass spectrometer, densities of H+, He+, N+, O+,</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_EXPLORER32_HDR_IMS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Explorer32/IMS/PT210S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

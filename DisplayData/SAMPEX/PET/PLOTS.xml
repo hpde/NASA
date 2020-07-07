@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/SAMPEX/PET/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/SAMPEX/PET/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>SAMPEX PET Flux Plots</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:36Z</ReleaseDate>
             <Description>SAMPEX PET proton (&gt;4, 19-28, 28-64 MeV) and electron (2-6, 3.5-16, &gt;3, &gt;1 MeV) flux plots, color coded vs, time and L value</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
@@ -15,6 +15,7 @@
                 <Role>DataProducer</Role>
 </Contact>
             <PriorID>spase://VSPO/DisplayData/P_SAMPEX_HDR_PET_PLOTS</PriorID>
+            <PriorID>spase://VSPO/DisplayData/SAMPEX/PET/PLOTS</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCOLO</RepositoryID>

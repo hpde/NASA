@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Iqaluit/Magnetometer/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Iqaluit/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Iqaluit (IQA) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:32Z</ReleaseDate>
          <Description>Iqaluit, NU, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (IQA), Station Location: (GEO Latitude 63.8, Longitude 291.5), NRCan Network</Description>
          <Acknowledgement>Please acknowledge D. Calp, (Geological Survey of Canada)</Acknowledgement>
          <Contact>
@@ -30,6 +30,7 @@
             <URL>https://geomag.nrcan.gc.ca/data-donnee/dl/dl-en.php</URL>
             <Description>Web site for information and access to magnetic field data</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Iqaluit/Magnetometer/PT1S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Pioneer10/CPC/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Pioneer10/CPC/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Charged Particle Composition (CPC)  1-Hour Count Rates</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:07Z</ReleaseDate>
             <Description>Hourly count rates from U. Chicago Charged Particle Composition
 Investigation (CPC) carried on Pioneer 10.  There are four rates each, for protons 
 and alpha particles, at 11-20, 20-24, 24-29, 29-67 MeV/n.  There are four additional 
@@ -32,6 +32,7 @@ and the GSFC Space Physics Data Facility.</Acknowledgement>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer10/particle/cpi/ip_1hour_ascii/p10cpihr_fmt.txt</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Pioneer10/CPC/PT1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Pioneer10/CPC/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

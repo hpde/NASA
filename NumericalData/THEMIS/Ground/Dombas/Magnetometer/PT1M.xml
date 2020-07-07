@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT1M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Dombas (DOB) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:30Z</ReleaseDate>
          <Description>Dombas, Norway, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (DOB), Station Location: (GEO Latitude 62.1, Longitude 9.1), TGO Network</Description>
          <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
             <Description>Main menu for access to magnetic field data</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT1M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Dombas/Magnetometer/PT1M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

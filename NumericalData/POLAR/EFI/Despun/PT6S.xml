@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/EFI/Despun/PT6S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/EFI/Despun/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Electric Fields Instrument (EFI), 6-sec Electric Field in Despun Spacecraft Coordinates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
       <Description>This set of data from the Polar EFI (Electric Field Instrument) contains two electric field
 components on the spin plane in despun spacecraft coordinates at 6-sec intervals.</Description>
       <Contact>
@@ -13,6 +13,7 @@ components on the spin plane in despun spacecraft coordinates at 6-sec intervals
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_EFI_6SEDSC</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/EFI/Despun/PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

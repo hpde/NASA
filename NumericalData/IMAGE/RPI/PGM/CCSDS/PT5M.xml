@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Radio Plasma Imager (RPI) Plasmagram Full Resolution Binary Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
          <Description>RPI plasmagram full resolution data (received signal strength in the frequency-range frame), uncalibrated. Presented as instrument packets wrapped in the standard CCSDS headers. Description of the RPI instrument-level data model can be found at http://ulcar.uml.edu/RPI/RPITelemetryDataFormat_V2.8.pdf. Data are viewed/calibrated/edited by BinBrowser software, see http://ulcar.uml.edu/rpi.html for download and users' guide. RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses. Echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
@@ -19,6 +19,7 @@
             <URL>https://ulcar.uml.edu/rpi.html</URL>
 </InformationURL>
          <PriorID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/MFI/PT15S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/MFI/PT15S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Field Investigation (MFI) 15-sec magnetic field data, solar wind only</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
          <Description>Data consist of 15-sec averages of magnetic field magnitude and GSE Cartesian components, from the MFI magnetometer on Wind. Data are for only the solar wind phases of the Wind orbit.</Description>
          <Acknowledgement>Dr. Adam Szabo</Acknowledgement>
          <Contact>
@@ -22,6 +22,7 @@
             <Description>Details on creation and content of this data set</Description>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/Wind/MFI/PT15S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/MFI/PT15S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

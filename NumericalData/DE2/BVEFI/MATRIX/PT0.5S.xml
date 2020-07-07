@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/BVEFI/MATRIX/PT0.5S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/BVEFI/MATRIX/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 Combined Magnetic Field Vector Electric Field data Matrix</ResourceName>
       <AlternateName>Dynamics Explorer 2 Combined Magnetic Field Vector Electric Field data Matrix</AlternateName>
       <AlternateName>DE-B Combined Magnetic Field Vector Electric Field data Matrix</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>Dynamics Explorer 2 Magnetic Field and Vector Electric Field Instrument DC Matrix</Description>
       <Acknowledgement>NASA; Nelson C. Maynard; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -33,6 +33,7 @@
         <Description>Introduction to the Magnetic Field Observations Triaxial Fluxgate Magnetometer on DE 2</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/BVEFI/MATRIX/PT0.5S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/BVEFI/MATRIX/PT0.5S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE2</RepositoryID>

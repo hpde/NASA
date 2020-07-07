@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/TIDI/WindVectors/PT82.28S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/TIDI/WindVectors/PT82.28S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED TIMED Doppler Interferometer (TIDI) Zonal and Meridional Winds at 60-180 km, Version 0307, 82.28 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
          <Description>The TIMED Doppler Interferometer, TIDI, instrument is a Fabry-Perot interferometer designed to measure zonal and meridional winds in the mesosphere and lower thermosphere.
 
 This TIMED TIDI data product contains neutral gas doppler temperature estimates and vector wind velocities estimated from line of sight inverted wind profiles based on rotational line measurements of molecular Oxygen, O&#8322;, (0,0) by using the TIDI P9 763.78 nm filter. This Level 3 data set of wind vectors contains that are mapped onto fixed angle-along-the-track grids. Vertical resolution is ~2 km at the lower altitudes and 25 km at the thermosphere, with an accuracy that approaches approximately 3 m/sec. Each profile is annotated with ancillary data including profile position and processing status.
@@ -68,6 +68,7 @@ TIMED TIDI data are available from the following access URLs but the linked data
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/TIMED/TIDI/TIDI</PriorID>
          <PriorID>spase://VSPO/NumericalData/TIMED_WINDVECTORSNCAR_TIDI</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/TIDI/WindVectors/PT82.28S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ISS/AMS-02/P27D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ISS/AMS-02/P27D</ResourceID>
       <ResourceHeader>
          <ResourceName>ISS Alpha Magnetic Spectrometer-02 (AMS-02) Particle Fluxes and Flux Ratios, Bartel Rotation Averages, Modified Data 0 (M0), 27 Day Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:43Z</ReleaseDate>
          <Description>Alpha Magnetic Spectrometer (AMS-02) Proton Flux (p), Helium Flux (He), p/He Flux Ratio, Electron Flux (e-), Positron Flux (e+) and e+/e- Flux Ratio at Bartels Rotation Time Resolution</Description>
          <Acknowledgement>V. Bindi, Please acknowledge the Principal Investigators and CDAWeb when using these Data.</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>https://www.nasa.gov/mission_pages/station/research/experiments/742.html</URL>
             <Description>NASA Web Page for the Alpha Mass Spectrometer-02 (AMS-02) onboard the International Space Station</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ISS/AMS-02/P27D</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

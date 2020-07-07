@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2.2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/SWICS/PT12M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/SWICS/PT12M</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWEPAM/SWICS Level 3 Merged Solar Wind Proton Data</ResourceName>
-            <ReleaseDate>2012-07-05T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
             <Description>These data files contain 12-min resolution solar wind
 proton flow velocity (GSE, RTN and GSM components), scalar speed, density, 
 and (radial component of) temperature, plus the alpha particle to proton 
@@ -40,6 +40,7 @@ instrument teams and the ACE Science Center</Acknowledgement>
                 <Description>ACE Science Center site describing SWEPAM/SWICS merged 
 solar wind proton data set</Description>
             </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/SWICS/PT12M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>

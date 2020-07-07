@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/OMNI/HighResolutionObservations/Version2/PT5M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/OMNI/HighResolutionObservations/Version2/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>OMNI, Combined Solar Wind Plasma Moments and Interplanetary Magnetic Field (IMF) Time-Shifted to the Nose of the Earth&apos;s Bow Shock, plus Geomagnetic Indices, 5 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
          <Description>Near-Earth Heliospheric Data, OMNI, Definitive Multispacecraft Interplanetary Parameters Data, 5 min averaged
 
 Additional information for all parameters are available from OMNI Data Documentation: https://omniweb..sci.gsfc.nasa.gov/html/HROdocum.html
@@ -54,6 +54,7 @@ Modifications:
             <URL>https://omniweb.gsfc.nasa.gov/html/hro_news.html</URL>
             <Description>Release Notes: News for High Resolution OMNI data</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/OMNI/HighResolutionObservations/Version2/PT5M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

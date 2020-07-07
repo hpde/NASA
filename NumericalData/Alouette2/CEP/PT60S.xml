@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Alouette2/CEP/PT60S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Alouette2/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Alouette 2 electron density data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:17Z</ReleaseDate>
             <Description>Alouette 2 ionospheric electron density data at 1-5 min resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_ALOUETTE2_HDR_NE</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Alouette2/CEP/PT60S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMP8/MAG_PLS/Propagated/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMP8/MAG_PLS/Propagated/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 MAG PLS 1-min field and plasma data at bow shock nose</ResourceName>
       <AlternateName>IMP 8 at BSN</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
       <Description>Solar wind magnetic field and plasma data at 1-min resolution 
 created from IMP 8 data shifted to the Earth's bow shock nose (BSN).</Description>
       <Acknowledgement>We acknowledge A.Szabo and R. Lepping of the MAG team, A. Lazarus 
@@ -25,6 +25,7 @@ who created this product.</Acknowledgement>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/omni/high_res_omni/sc_specific/00readme.txt</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/IMP8/Propagated/PT1M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMP8/MAG_PLS/Propagated/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

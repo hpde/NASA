@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/High.Latitude.Monitoring.Station/Magnetometer/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/High.Latitude.Monitoring.Station/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Anchorage (HLMS) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:32Z</ReleaseDate>
          <Description>Anchorage (High-Latitude Monitoring Station), AK, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (HLMS), Station Location: (GEO Latitude 61.2, Longitude 210.1), University of Alaska Network</Description>
          <Acknowledgement>Please acknowledge D. Hampton, (University of Alaska)</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
             <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Anchorage/Magnetometer/PT1S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/High.Latitude.Monitoring.Station/Magnetometer/PT1S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

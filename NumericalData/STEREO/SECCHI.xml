@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/STEREO/SECCHI</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/STEREO/SECCHI</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO SECCHI data</ResourceName>
-             <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
+             <ReleaseDate>2020-07-07T21:15:23Z</ReleaseDate>
             <Description>STEREO SECCHI data at VSO</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_STEREO_HDR_SECCHI</PriorID>
+            <PriorID>spase://VSPO/NumericalData/STEREO/SECCHI</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

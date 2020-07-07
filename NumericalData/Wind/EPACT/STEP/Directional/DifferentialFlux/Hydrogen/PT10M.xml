@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/STEP/Directional/DifferentialFlux/Hydrogen/PT10M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/EPACT/STEP/Directional/DifferentialFlux/Hydrogen/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Energetic Particle Acceleration Composition Transport (EPACT) SupraThermal Energetic Particle Telescope (STEP) Differential, Directional Hydrogen Fluxes, 10 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
          <Description>The EPACT Instrument on Wind STEP - SupraThermal Energetic Particle Telescope measures Ion Fluxes of Protons (H) in 0.12.5 MeV Energy Range and He-Fe Nuclei in the &#8764;0.032 MeV/nucleon Energy Ranges in two identical Telescopes, each with a Geometrical Factor of 0.4 cm^2 sr and a rectangular Field of View with an Angular Acceptance of 44&#176; in Azimuth and 17&#176; in Polar Angle.</Description>
          <Acknowledgement>Mihir Desai</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>https://wind.nasa.gov/</URL>
             <Description>Wind Project Web Site</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/Wind/EPACT/STEP/Directional/DifferentialFlux/Hydrogen/PT10M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

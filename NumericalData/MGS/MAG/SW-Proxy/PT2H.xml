@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/MGS/MAG/SW-Proxy/PT2H</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/MGS/MAG/SW-Proxy/PT2H</ResourceID>
       <ResourceHeader>
          <ResourceName>Mars Global Surveyor Solar Wind Proxy Pressures</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:45Z</ReleaseDate>
          <Description>Derivation of the solar wind dynamic pressure at Mars using Mars Global Surveyor data. There is no upstream solar wind monitor at Mars (as of the release of this data set). This data set is a proxy for the solar wind dynamic pressure derived from Mars Global Surveyor (MGS) Magnetometer (MAG) measurements. The rationale behind the proxy is that pressure is conserved in the solar wind interaction with Mars. At altitudes from ~400-800 km, the dominant pressure term is magnetic field pressure. We measure the magnetic field with MAG, calculate the pressure (B2/2µo) in that altitude range and assume that it balances the incident solar wind pressure. This proxy is reliable for determining relative solar wind pressure at Mars. Absolute values may deviate from the proxy. The pressure does drop with solar zenith angle (SZA). This affect is accounted for by fitting a function of SZA to the dayside, northern hemisphere data from an MGS pass. The number of points included in the fit is provided in the file. The standard deviation from the fit is also provided. Because we do a fit to one orbit&apos;s worth of dayside, northern hemisphere data, we obtain one value for PSW every orbit, which has a period of ~2 hr.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Dana.H.Crider</PersonID>
@@ -17,6 +17,7 @@
             <Description>Data Derivation Description from the Provider</Description>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/MGS/MAG/SW-Proxy/PT2H</PriorID>
+         <PriorID>spase://VSPO/NumericalData/MGS/MAG/SW-Proxy/PT2H</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

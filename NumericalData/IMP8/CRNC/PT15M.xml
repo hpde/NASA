@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/CRNC/PT15M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/CRNC/PT15M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 Cosmic Ray Nuclear Composition (CRNC) 15-min PHA and coincidence mode counts</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>This 15-min-resolution data set consists of 5 count rates from the Low Energy Telescope, 
         8 count rates for the main telescope (MT), 4 counts of pulse height analyzed events in each of 4 MT 
         coincidence modes, and 27 box counts corresponding to specific species and energy ranges associated 
@@ -26,6 +26,7 @@
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IMP8/UChi/PT15M</PriorID>
             <PriorID>spase://VEPO/NumericalData/IMP8/CRNC/PT15M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/CRNC/PT15M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/SPECTRAL-MATRIX/PT6S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/A/EMFISIS/WFR/L2/SPECTRAL-MATRIX/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Waveform Receiver (WFR) Cross Spectral Matrix, Level 2 (L2), 6 s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:11Z</ReleaseDate>
       <Description>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Waveform Receiver (WFR) Three-Axis Electric Field (EU, EV, EW) and Magnetic Field (BU, BV, BW) Cross Spectral Matrix, Six Diagonal and 15 Off-Diagonal Components, 10 kHz to 487 kHz, 82 Frequency Bins</Description>
       <Acknowledgement>C. Kletzing</Acknowledgement>
       <Contact>
@@ -42,6 +42,7 @@
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/WFR-SPECTRAL-MATRIX/L2/PT6S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/WFR-SPECTRAL-MATRIX_EMFISIS-QUICK-LOOK/PT6S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/WFR-SPECTRAL-MATRIX/QUICK-LOOK/PT6S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/SPECTRAL-MATRIX/PT6S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

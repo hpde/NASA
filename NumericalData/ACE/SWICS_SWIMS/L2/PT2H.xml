@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ACE/SWICS_SWIMS/L2/PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Ion Composition Spectrometer (SWICS) Solar Wind Plasma Elemental and Isotopic Density, Speed, Thermal Speed, Charge State, and Ratio Parameters, Level 2 (L2), 2 h Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
       <Description>This ACE SWICS/SWIMS Data Set contains the Alpha Particle Number Density, He/O, C/O, Ne/O, Mg/O, Si/O, Fe/O Abundance Ratios, C, O, Mg, Si, Fe Average Charge States, C+6/C+4, C+6/C+5, O+7/O+6 Charge State Ratios, He+2, C+5, O+6, Fe+10 Speeds and Thermal Speeds, and a Solar Wind Type Parameter that characterizes the Solar Wind as either Streamer, Coronal Hole, Coronal Mass Ejection (CME), or Unidentified.
                       
                       The Solar Wind Ion Composition Spectrometer (SWICS), prior to August 23, 2011 and denoted as SWICS Version 1.1, determines uniquely the Chemical and Ionic Charge State Composition of the Solar Wind, the Temperatures and Mean Speeds of major Solar Wind Ions at all Speeds above 300 km/s for Protons and 170 km/s for Fe+16, and resolves Protons and Helium Isotopes of Solar and Interstellar Sources. SWICS 1.1 measures the Distribution Functions of Interstellar Cloud Pick-Up Ions and Interplanetary Dust Cloud Pick-Up Ions up to Energies of 100 keV/e.
@@ -44,6 +44,7 @@
         <Description>ACE SWICS Instrument Home Page at UM</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2HR</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT2H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Pioneer11/CPC/PT15M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Pioneer11/CPC/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 11 Charged Particle Composition(CPC) 15-min Count Rates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
       <Description>This data set contains coincidence mode counts and 
 accumulation times, plus "box counts" based on pulse height analysis (PHA), 
 at 15-min resolution. There are 11 coincidence mode counts and 27 "box 
@@ -29,6 +29,7 @@ and Bruce McKibben.</Acknowledgement>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer11/particle/cpi/ip_15min_ascii/cpi_p11_15min.sfdu</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Pioneer11/CPC/PT15M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Pioneer11/CPC/PT15M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

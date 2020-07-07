@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/CRRES/HEEF/PT5H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/CRRES/HEEF/PT5H</ResourceID>
         <ResourceHeader>
             <ResourceName>CRRES HEEF electron equatorial distributions vs.L</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
             <Description>This data set holds half-orbit (~5 hour) resolution 
 electron distributions (19 5-deg equatorial pitch angles vs. 19 energies) 
 from the High Energy Electron Fluxmeter (HEEF) on the CRRES spacecraft.  
@@ -31,6 +31,7 @@ is contained within the companion documentation.</Description>
 now a readme at nssdcftp.</Description>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/CRRES/HEEF/Lbins</PriorID>
+            <PriorID>spase://VSPO/NumericalData/CRRES/HEEF/PT5H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

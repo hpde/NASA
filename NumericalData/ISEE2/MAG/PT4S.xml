@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE2/MAG/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 4-sec data</ResourceName>
    <DOI>10.21978/P8PG8V</DOI>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
       <Description>4-sec vector magnetic field values recorded by the ESA ISEE-2
 satellite, in spacecraft coordinates (close to GSE).</Description>
       <Acknowledgement>UCLA-IGPP ISEE Magnetometer Team, and the source
@@ -29,6 +29,7 @@ used for accessing data (see below).</Acknowledgement>
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <PriorID>spase://VMO/NumericalData/ISEE2/MAG/PT4S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ISEE2/MAG/PT4S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

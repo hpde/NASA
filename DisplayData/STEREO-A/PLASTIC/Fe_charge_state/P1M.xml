@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/STEREO-A/PLASTIC/Fe_charge_state/P1M</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/STEREO-A/PLASTIC/Fe_charge_state/P1M</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A PLASTIC Iron Charge State Data Plots</ResourceName>
-           <ReleaseDate>2019-11-22T20:04:13Z</ReleaseDate>
+           <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>This data product contains monthly plots of iron ion charge state.  
 Different panels give (1) color-coded counts of iron vs. charge state
 and time, plus intensity-time profiles of (2) average charge state, 
@@ -23,6 +23,7 @@ and time, plus intensity-time profiles of (2) average charge state,
                 <Name>Readme at STEREO Science Center</Name>
                 <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Iron/</URL>
             </InformationURL>
+            <PriorID>spase://VSPO/DisplayData/STEREO-A/PLASTIC/Fe_charge_state/P1M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>

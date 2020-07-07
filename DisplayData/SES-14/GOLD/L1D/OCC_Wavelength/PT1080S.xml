@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://VSPO/DisplayData/SES-14/GOLD/L1D/OCC_Wavelength/PT1080S</ResourceID>
+  <ResourceID>spase://NASA/DisplayData/SES-14/GOLD/L1D/OCC_Wavelength/PT1080S</ResourceID>
   <ResourceHeader>
    <ResourceName>Gold Level 1D 130 nm to 170 nm Counts at Altitudes Occultation Plots</ResourceName>
-   <ReleaseDate>2020-06-01T20:24:53Z</ReleaseDate>
+   <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
    <Description>The Level 1C Dayside Disk Images are interrupted via stored instrument commands when 
 	  target stars suitable for occultation measurements approach either limb. 
 	  To perform the occultation measurement, the slit mechanism inserts the 1 degree wide occultation (OCC) 
@@ -36,6 +36,7 @@
      <URL>https://doi.org/10.1007/s11214-017-0392-2</URL>
      <Description>Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383.</Description>
    </InformationURL>
+      <PriorID>spase://VSPO/DisplayData/SES-14/GOLD/L1D/OCC_Wavelength/PT1080S</PriorID>
   </ResourceHeader>  
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

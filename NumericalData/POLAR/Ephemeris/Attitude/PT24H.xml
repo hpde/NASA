@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Platform Attitude, Daily Definitive Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:01Z</ReleaseDate>
       <Description>Polar platform attitude definitive data include: orbital, GCI, GSE and GSM angles.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PA_DEFINITIVE_ATTITUDE</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT24H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

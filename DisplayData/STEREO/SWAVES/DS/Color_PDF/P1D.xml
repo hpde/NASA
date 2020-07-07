@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/STEREO/SWAVES/DS/Color_PDF/P1D</ResourceID>
+      <ResourceID>spase://NASA/DisplayData/STEREO/SWAVES/DS/Color_PDF/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO WAVES (SWAVES) PDF Dynamic Spectrogram Plots both Ahead and Behind s/c</ResourceName>
-         <ReleaseDate>2018-03-09T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
          <Description>This dataset contains 24 hour duration dynamic spectrogram plots from the combined STEREO A and B Waves instrument. The plots are provided in several file formats (PNG, Postscript and PDF) and there are renditions in color and grayscale with and without additional lines of time series data indicating the instrument operating status. These plots all reside within the same directory structure subdivided by year. The "new" subdirectory contain plots at a higher resolution but currently are not available for dates early in the mission. These data consist of output from the SWAVES HFR and LFR receivers. - the High Frequency Receivers (HFR) - for spectral analysis and direction finding of radio noise generated from a few solar radii (16 MHz) to about half an Astronomical Unit (125 kHz) - the Low Frequency Receiver (LFR) - for spectral analysis and direction finding from about half an Astronomical Unit (160 kHz) to one AU (2.5 kHz).</Description>
          <Acknowledgement>Users please acknowledge the STEREO/WAVES Principal Investigator Jean-Louis Henry Bougeret.</Acknowledgement>
          <Contact>
@@ -29,6 +29,7 @@
             <Language>en</Language>
          </InformationURL>
          <PriorID>spase://VWO/DisplayData/STEREO/SWAVES/DS.Color.PDF.P1D</PriorID>
+          <PriorID>spase://VSPO/DisplayData/STEREO/SWAVES/DS/Color_PDF/P1D</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

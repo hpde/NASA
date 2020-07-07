@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Release_3/Counts</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Lo/Release_3/Counts</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo Release-3 Counts for flow longitude analysis</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:37Z</ReleaseDate>
             <Description>This product contains counts accumulated in 
 each of 30 6-deg spin phase bins over some variable time span
 indicated in each record.  The time spans are selected to support
@@ -29,6 +29,7 @@ of time spans used in an orbit varies from 5 to 45.
                 <URL>http://ibex.swri.edu/ibexpublicdata/Data_Release_3/</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Lo/Release_3/Counts</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Lo/Release_3/Counts</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

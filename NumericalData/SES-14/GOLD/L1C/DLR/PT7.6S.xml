@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SES-14/GOLD/L1C/DLR/PT7.6S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SES-14/GOLD/L1C/DLR/PT7.6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Gold Level 1C German Space Agency Disk data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
       <Description>The Level 1C German Space Agency Disk data is sampled on a uniform angular grid of 0.2° in both Longitude and Latitude. The data is resampled as follows:
 		* About 4 scan mirror positions to fill the 0.2° L1C bin.
 		* Image displacement per scan mirror step: 0.0494°
@@ -35,6 +35,7 @@
         <URL>https://doi.org/10.1007/s11214-017-0392-2</URL>
         <Description>Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383.</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/SES-14/GOLD/L1C/DLR/PT7.6S</PriorID>
     </ResourceHeader> 
     <AccessInformation>
         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/IMP8/MAG/Multisource</ResourceID>
+        <ResourceID>spase://NASA/Catalog/IMP8/MAG/Multisource</ResourceID>
         <ResourceHeader>
             <ResourceName>Multi-spacecraft bow shock crossing list</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>Lists of bow shock crossings observed by the IMP 8,
 Geotail, Magion-4 and Cluster/Rumba spacecraft.  For each crossing, time
 and spacecraft location are given, plus GSE and GSM components of upstream
@@ -44,6 +44,7 @@ references therein.</Description>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/Catalog/BS_Multisource</PriorID>
+            <PriorID>spase://VSPO/Catalog/IMP8/MAG/Multisource</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

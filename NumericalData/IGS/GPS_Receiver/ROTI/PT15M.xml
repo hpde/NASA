@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>GPS Deduced ROTI Index, Standard Deviation of the Rate of Change of the Total Electron Content (TEC), World Maps and Movies, 15 min Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
       <Description>The ROTI Index is the Standard Deviation of the Rate of Change of the Total Electron Content, TEC, during a 15 min Interval. The TEC Values are measured between a Global Positioning Satellite, GPS, and Ground Receiver Station.</Description>
       <Acknowledgement>X. Pi</Acknowledgement>
       <Contact>
@@ -26,6 +26,7 @@
         <Description>Jet Propulsion Laboratory, JPL, Ionospheric and Atmospheric Remote Sensing Web Site</Description>
       </InformationURL>
       <PriorID>spase://JAXA/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/BVEFI/PT0.5S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/BVEFI/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 0.5-sec Combined Magnetic Field Vector Electric Field DC data</ResourceName>
       <AlternateName>Dynamics Explorer 2 MAGB and VEFI DC data</AlternateName>
       <AlternateName>DE-B MAGB and VEFI DC data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>DE-2 0.5-s magnetic and electric field data at low altitude</Description>
       <Acknowledgement>NASA; Nelson C. Maynard; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -39,6 +39,7 @@
       <PriorID>spase://VSPO/NumericalData/P_DE2_HDR_MAG_VEFI_0.5S</PriorID>
       <PriorID>spase://VSPO/NumericalData/DE2/MAGB-VEFI/PT0.5S</PriorID>
       <PriorID>spase://VMO/NumericalData/DE2/BVEFI/DC/PT0.5S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/BVEFI/PT0.5S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

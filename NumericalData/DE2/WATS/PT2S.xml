@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/WATS/PT2S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/WATS/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 2s WATS Wind Velocity, Density and Temperature data</ResourceName>
       <AlternateName>Dynamics Explorer 2 WATS data</AlternateName>
       <AlternateName>DE-B WATS data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
       <Description>This data set contains, at 2-sec resolution,
 the neutral wind horizontal velocity, temperature and density
 from the Wind and Temperature Spectrometer (WATS) flown on DE 2. 
@@ -28,6 +28,7 @@ Investigator, the late Dr. Nelson Spencer</Acknowledgement>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_wats/00readme.txt</URL>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/DE2/WATS/PT2S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/WATS/PT2S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

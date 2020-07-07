@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/POLAR/VIS/EJ</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/POLAR/VIS/EJ</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar VIS Images from CDAWeb</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>Polar VIS Images from CDAWeb</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
 </Contact>
       <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_VIS_EJ</PriorID>
+        <PriorID>spase://VSPO/DisplayData/POLAR/VIS/EJ</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

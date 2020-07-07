@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/LEPEDEA/PT180.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/LEPEDEA/PT180.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 LEPEDEA Magnetotail Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>IMP 8 LEPEDEA Magnetotail Distribution Functions and Moments for Selected Intervals</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
@@ -15,6 +15,7 @@
                 <Role>GeneralContact</Role>
             </Contact>            
 <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_LEPEDEA_SPDF</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/LEPEDEA/PT180.00S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

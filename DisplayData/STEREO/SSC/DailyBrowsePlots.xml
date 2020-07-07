@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/STEREO/SSC/DailyBrowsePlots</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/STEREO/SSC/DailyBrowsePlots</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Science Center Daily Browse Plots</ResourceName>
-         <ReleaseDate>2016-11-16T00:00:00Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>
 Daily browse plots from the STEREO in situ (IMPACT, PLASTIC) and radio (S/WAVES) instruments are available on the STEREO Science Center (SSC) website.  The in situ data are derived from the low cadence space weather telemetry and are not publishable quality.  The S/WAVES time-frequency plots are taken from the S/WAVES website, and are based on the actual science data--these are delayed by one or more days depending on availablity.
 
@@ -17,6 +17,7 @@ Upon entering the daily browse tool, one is initially taken to the browse page f
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <PriorID>spase://VSPO/DisplayData/STEREO/SSC/DailyBrowsePlots</PriorID>
 	</ResourceHeader>
 	<AccessInformation>
 	  <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

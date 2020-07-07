@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/AIM/CDE/PT1D</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/AIM/CDE/PT1D</ResourceID>
         <ResourceHeader>
             <ResourceName>AIM/CDE dust grain impact data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
             <Description>AIM/CDE (Cosmic Dust Experiment) data are available
 as Levels 1 and 2 daily netCDF files.  L1 data contains, for each dust 
 grain impact, a time tag, pulse height data, a number of electrons released 
@@ -27,6 +27,7 @@ Polar Mesospheric Cloud brightness.
                 <URL>http://aim.hamptonu.edu/library/documentation/instruments/cde/cde_docs.html</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/AIM/CDE/L1_L2_Data</PriorID>
+            <PriorID>spase://VSPO/NumericalData/AIM/CDE/PT1D</PriorID>
         </ResourceHeader>
         <AccessInformation>
            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

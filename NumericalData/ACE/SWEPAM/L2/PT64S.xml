@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT64S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/L2/PT64S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) 64-Second Level 2 Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
       <Description>Solar Wind Ion parameters from ACE/SWEPAM. Level 2 data, 64-second averages. Parameters include proton density, temperature (radial component) and flow speed, flow velocity vector in GSE, GSM and RTN coordinates, and alpha to proton density ratio. ACE position vectors in GSE and GSM are included. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. Hourly averaged L2 plasma parameters are also available from these access paths. The "parameter keys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledge the ACE/SWEPAM instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -27,6 +27,7 @@
         <Description>ACE level 2 data rules of use, and caveats</Description>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/ACE/SWEPAM/L2_PT64S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT64S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

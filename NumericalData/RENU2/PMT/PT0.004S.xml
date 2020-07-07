@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/RENU2/PMT/PT0.004S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/RENU2/PMT/PT0.004S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 PhotoMultiplier Tube (PMT) Auroral Red and Green Line Luminosity in Raylieghs, Background subtracted, High Time Resolution (H0), 4 ms Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
          <Description>RENU2 PMT Counts converted to Rayleighs and Background subtracted</Description>
          <Acknowledgement>Please acknowledge the Principal Investigators, M.R. Lessard and J.H. Hecht, from the University of New Hampshire and Aerospace Corporation, respectively, for providing the Data.</Acknowledgement>
          <Contact>
@@ -44,6 +44,7 @@
             <URL>https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL081885</URL>
             <Description>Lessard, M.R., Fritz, B., Sadler, B., Cohen, I., Kenward, D., Godbole, N., Clemmons, J.H., Hecht, J.H., Lynch, K.A., Harrington, M., Roberts, T.M., Hysell, D., Crowley, G., Sigernes, F., Syrjasuo, M., Ellingson, P., Partamies, N., Moen, J., Clausen, L., Oksavik, K., and T. Yeoman, Overview of the Rocket Experiment for Neutral1, Upwelling Sounding Rocket 2 (RENU2), Geophys. Res. Lett., 46, https://doi.org/10.1029/2018GL081885</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/RENU2/PMT/PT0.004S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

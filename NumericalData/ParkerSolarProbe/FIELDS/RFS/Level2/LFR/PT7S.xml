@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/LFR/PT7S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/LFR/PT7S</ResourceID>
       <ResourceHeader>
          <ResourceName>Parker Solar Probe, FIELDS Radio Frequency Spectrometer, RFS, Low Frequency Receiver, LFR, Spectra, Level 2 (L2), 7 s and 56 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:05Z</ReleaseDate>
          <Description>PSP FIELDS Radio Frequency Spectrometer, RFS, Low Frequency Reciever, LFR, Data:
 
 The RFS is the high frequency component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1]. For a full description of the FIELDS experiment, see reference [2]. For a description of the RFS, see reference [3].
@@ -41,6 +41,7 @@ PSP/FIELDS Rules of the Road available at http://fields.ssl.berkeley.edu/rules/<
             <URL>http://fields.ssl.berkeley.edu/data/</URL>
             <Description>Parker Solar Probe, PSP, FIELDS Satellite Operations Center, SOC, FIELDS Radio Frequency Spectrometer, RFS, Low Frequency Reciever, LFR, and High Frequency Receiver, HFR, data web site, hosted at the University of California, Berkeley</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/LFR/PT7S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

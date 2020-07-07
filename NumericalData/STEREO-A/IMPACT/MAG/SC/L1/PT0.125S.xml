@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG) Magnetic Field Vectors, in Spacecraft (SC) Coordinates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
       <Description>STEREO Ahead In-situ Measurements of Particles and CME Transients, IMPACT, Magnetometer Instrument, MAG, Magnetic Field Vectors, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -26,6 +26,7 @@
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/PT1S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

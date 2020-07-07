@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/HOUSEKEEPING/L2/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/A/EMFISIS/HOUSEKEEPING/L2/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A EMFISIS housekeeping parameters</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:10Z</ReleaseDate>
       <Description>EMFISIS housekeeping parameters</Description>
       <Acknowledgement/>
       <Contact>
@@ -33,6 +33,7 @@
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/HK_EMFISIS__V1/PT1S/PT1S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/HOUSEKEEPING/L2/PT1S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/HOUSEKEEPING/L2/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

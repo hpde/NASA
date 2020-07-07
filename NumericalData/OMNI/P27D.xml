@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/OMNI/P27D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/OMNI/P27D</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI 27-Day Data Set</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
       <Description>27-day averaged, multi-source, near-Earth solar wind magnetic field, plasma and energetic proton flux data, plus AE, AU, AL, Kp, ap, and Dst geomagnetic indices, Polar Cap (Thule) index, F10.7 index, and Rz (sunspot number). Also available at 1-hour and 1-day resolution.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC for creating the OMNI data set.</Acknowledgement>
       <Contact>
@@ -62,6 +62,7 @@
         <AssociationType>DerivedFrom</AssociationType>
       </Association>
       <PriorID>spase://VMO/NumericalData/OMNI/P27D</PriorID>
+        <PriorID>spase://VSPO/NumericalData/OMNI/P27D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

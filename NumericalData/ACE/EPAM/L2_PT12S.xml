@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_8.xsd'">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/L2_PT12S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ACE/EPAM/L2_PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 12-sec Level 2 Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:07Z</ReleaseDate>
       <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 12-sec time resolution. 
 Calibrated science quality data.  The data are accessible via ftp in HDF and CDF from the ACE Science Center
 and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites.  The "parameter
@@ -31,6 +31,7 @@ keys" given below are as used by CDAWeb.</Description>
         <URL>http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html</URL>
         <Description>ACE level 2 data rules of use, and caveats</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/ACE/EPAM/L2_PT12S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Lyford/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Lyford/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Lyford (LYFD) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:33Z</ReleaseDate>
          <Description>Lyford, TX, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (LYFD), Station Location: (GEO Latitude 26.4, Longitude 262.2), McMAC Network</Description>
          <Acknowledgement>Please acknowledge P. Chi, (University of California, Los Angeles)</Acknowledgement>
          <Contact>
@@ -30,6 +30,7 @@
             <URL>http://autumn.athabascau.ca/</URL>
             <Description>Calibration files at http://autumn.athabascau.ca/themis.gbo.mag.calibration</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Lyford/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

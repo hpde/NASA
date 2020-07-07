@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/STEREO/IP.Shock.List</ResourceID>
+        <ResourceID>spase://NASA/Catalog/STEREO/IP.Shock.List</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO IP Shock List</ResourceName>
-            <ReleaseDate>2020-05-08T15:41:27Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>This catalog has spacecraft-specific lists of 
 interplanetary shocks measured by STEREO-a and STEREO-B between
 January 2007 and March 2009.  For each of the 49 STEREO-A shocks
@@ -26,6 +26,7 @@ periodically.</Description>
                 <Description/>
             </InformationURL>
             <PriorID>spase://VSPO/Catalog/STEREO_IP_Shock_List</PriorID>
+            <PriorID>spase://VSPO/Catalog/STEREO/IP.Shock.List</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

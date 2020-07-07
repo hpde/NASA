@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/OGO6/BIMS/PT40S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/OGO6/BIMS/PT40S</ResourceID>
         <ResourceHeader>
             <ResourceName>OGO 6 BIMS ion mass spectrometer data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
             <Description>OGO 6 Bennett Ion Mass Spectrometer (BIMS), densities of H+, He+, N+, O+ N2+, O2+, NO+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_OGO6_HDR_BIMS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/OGO6/BIMS/PT40S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

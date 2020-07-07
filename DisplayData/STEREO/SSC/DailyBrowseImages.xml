@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/STEREO/SSC/DailyBrowseImages</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/STEREO/SSC/DailyBrowseImages</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Science Center Daily Browse Images and Movies</ResourceName>
-         <ReleaseDate>2016-11-09T21:35:00Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>
 Daily browse images and movies from each of the STEREO SECCHI (Sun Earth Connection Coronal and Heliospheric Investigation) telescopes (EUVI, COR1, COR2, HI1, HI2) are available on the STEREO Science Center (SSC) website.  Images are produced initially from the low resolution real time space weather beacon data, and the browse page for the current day is updated every 15 minutes if new data are available.  The initial low resolution real time images are replaced with the full resolution versions once they are available, typically about three days later.  Large gaps in time are filled in with beacon images if possible.  Daily context images from SDO/AIA, the Mauna Loa K-Coronagraph, and SOHO/LASCO/C2 are also included.  (Earlier dates substitute SOHO/EIT and Mauna Loa MkIV.)
 
@@ -17,6 +17,7 @@ Upon entering the daily browse tool, one is initially taken to the browse page f
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <PriorID>spase://VSPO/DisplayData/STEREO/SSC/DailyBrowseImages</PriorID>
 	</ResourceHeader>
 	<AccessInformation>
 	  <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

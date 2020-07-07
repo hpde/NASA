@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
       <ResourceHeader>
          <ResourceName>Genesis 3D Ion Moments</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:34Z</ReleaseDate>
          <Description>Genesis level 2 3-dimensional ion moments and a bidirectional electron streaming flag</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
             <Role>DataProducer</Role>
          </Contact>
          <PriorID>spase://VHO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Genesis/GIM/3DMOM/PT2M30S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

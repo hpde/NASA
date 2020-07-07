@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/CNOFS/VEFI/BField/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/CNOFS/VEFI/BField/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>CNOFS VEFI 1-sec Magnetic Field preliminary data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:29Z</ReleaseDate>
       <Description>This data set contains magnetic field data from the fluxgate
 magnetometer associated with the C/NOFS Vector  
 Electric Field Instrument (VEFI).  The data include 1-sec
@@ -20,6 +20,7 @@ spacecraft positions.  As of 5/13/2010, the data were preliminary.</Description>
         <URL>https://vefi.gsfc.nasa.gov/vefi/dataproducts.html</URL>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/CNOFS_VEFI_BFIELD_1SEC</PriorID>
+        <PriorID>spase://VSPO/NumericalData/CNOFS/VEFI/BField/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

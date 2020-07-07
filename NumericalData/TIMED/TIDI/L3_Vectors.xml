@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/TIDI/L3_Vectors</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/TIDI/L3_Vectors</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED TIDI Vectors</ResourceName>
-         <ReleaseDate>2018-01-18T21:30:27.573</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
          <Description>Contains the TIDI Level 3 data mapped onto a fixed angle-along-the-track grid. The wind is decomposed into its zonal and meridional components. Each profile is annotated with ancillary data including profile position and processing status.</Description>
          <Acknowledgement>The TIDI instrument has been sponsored by NASA through grants NAG5-5049 and NNX07AB72G and is currently supported by NNX07AF48G. </Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <URL>http://tidi.engin.umich.edu/save_lists/documents/pdf_files/3933-VectorFileFormat.pdf</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/TIDI/L3_Vectors</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/TIDI/L3_Vectors</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/TIDI_POC</RepositoryID>

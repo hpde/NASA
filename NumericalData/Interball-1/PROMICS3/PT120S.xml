@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Interball-1/PROMICS3/PT120S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Interball-1/PROMICS3/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail PROMICS H+ and O+ 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:43Z</ReleaseDate>
       <Description>Interball Tail H+ and O+ count rates from multiple sensors on PROMICS, 2-min key parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ingrid.Sandahl</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_INTERBALLTAIL_HDR_PROMIS_KP</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Interball-1/PROMICS3/PT120S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

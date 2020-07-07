@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/MFI/KeyParameter/PT92S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/MFI/KeyParameter/PT92S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Fields Instrument (MFI) Magnetic Field Vector and Spacecraft Position, Key Parameter (K0), 92 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
          <Description>Wind Magnetic Fields Investigation, MFI, Key Parameter magnetic field data in GSE and GSM coordinates.
 
 References:
@@ -70,6 +70,7 @@ References:
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_MFI_92S</PriorID>
          <PriorID>spase://VSPO/NumericalData/Wind/MFI/KeyParameters/PT92S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/MFI/KeyParameter/PT92S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

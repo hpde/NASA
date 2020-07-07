@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses GRB data via CDAWeb</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:49Z</ReleaseDate>
       <Description>This data set from the Ulysses Gammay-Ray Bursts experiment contains 5-minute resolution filtered averages of cosmic gamma ray and solar X-Ray count rates. Count rate units are c/s. See Astron. Astrophys. Suppl. Ser., 92(2), 401-410, 1992 for more information.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
@@ -16,6 +16,7 @@
         <Role>DataProducer</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_GRB_CDAWEB</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/GRB/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

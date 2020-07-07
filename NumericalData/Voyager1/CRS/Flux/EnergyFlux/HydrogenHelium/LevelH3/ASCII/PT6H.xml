@@ -5,10 +5,10 @@
   <!-- Can duplicate Name subelements of PhysicalParameter element -->
   <!-- exist in a NumericalData resource -->
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/ASCII/PT6H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/ASCII/PT6H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Cosmic Ray Subsystem (CRS) Cruise Mode Six hour averages</ResourceName>
-      <ReleaseDate>2020-04-28T18:12:38Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:50Z</ReleaseDate>
       <Description>
                 six hour averages of selected fluxes
             </Description>
@@ -24,6 +24,7 @@
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager1/CRS/FLUX/PT6H</PriorID>
       <PriorID>spase://VSPO/NumericalData/Voyager1/CRS/FLUX/PT6H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/CRS/Flux/EnergyFlux/HydrogenHelium/LevelH3/ASCII/PT6H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/CRS</RepositoryID>

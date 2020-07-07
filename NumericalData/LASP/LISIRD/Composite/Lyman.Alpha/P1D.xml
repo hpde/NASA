@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/LASP/LISIRD/Composite/Lyman.Alpha/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/LASP/LISIRD/Composite/Lyman.Alpha/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>LISIRD supplied Composite Lyman Alpha</ResourceName>
-      <ReleaseDate>2018-03-28T16:08:31Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:45Z</ReleaseDate>
       <Description>This data product contains daily irradiance levels 
 (photons/s/cm**2) of solar Lyman alpha (121.5 nm) radiation from multiple 
 spacecraft and modelling sources, including AE-E/ESUM, SME/SUVM, 
@@ -27,6 +27,7 @@ data were used in the data set.</Acknowledgement>
 Worden</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/CompositeLymanAlpha</PriorID>
+        <PriorID>spase://VSPO/NumericalData/LASP/LISIRD/Composite/Lyman.Alpha/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/LISIRD</RepositoryID>

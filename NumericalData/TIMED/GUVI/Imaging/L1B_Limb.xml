@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
 <Version>2.2.2</Version>
 <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1B_Limb</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1B_Limb</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Imaging Level 1B Limb</ResourceName>
-         <ReleaseDate>2018-01-18T21:29:20.277</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
          <Description>Level 1B Limb data contains calibrated radiance data over multiple scans that are geolocated into a GUVI-based coordinate system on the limb.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1B_datainfo.pdf</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1B_Limb</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1B_Limb</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

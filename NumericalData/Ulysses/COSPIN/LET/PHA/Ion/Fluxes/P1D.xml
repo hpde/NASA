@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/Ion/Fluxes/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/LET/PHA/Ion/Fluxes/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) Low Energy Telescope (LET) Proton and Helium PHA based Fluxes in ASCII Format, Daily Average Data</ResourceName>
          <AlternateName>COSPIN-LET-PHA-1D</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
          <Description>This Data Set contains Daily Average PHA based Fluxes of Protons (2-4, 4-6, 6-8, 8-16, 16-20 MeV), Alpha Particles (4-6, 6-9, 11-20 MeV/n), and the Poisson Uncertainties in those Fluxes</Description>
          <Acknowledgement>Please acknowledge the COSPIN PI, R. Bruce McKibben, the lead LET Co-PI, Richard G. Marsden, and the UDS and/or NSSDC</Acknowledgement>
          <Contact>
@@ -37,10 +37,11 @@
             <Description>This PDF File at the Ulysses Final Archive (UFA) COSPIN Low Energy Telescope, LET, Handbook and many other appended Documents</Description>
 </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/HeavyIon/Fluxes/P20D</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/Ulysses/COSPIN/LET/PHA/HeavyIon/Fluxes/P20D</AssociationID>
             <AssociationType>Other</AssociationType>
 </Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/LET/PHA/P1D</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/Ion/Fluxes/P1D</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

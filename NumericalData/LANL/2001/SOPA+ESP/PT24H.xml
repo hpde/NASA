@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/LANL/2001/SOPA+ESP/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/LANL/2001/SOPA+ESP/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL 2001 H3 Data Set</ResourceName>
-      <ReleaseDate>2019-04-30T16:10:33Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:45Z</ReleaseDate>
       <Description>LANL 2001 H3 Data Set</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Eric.Dors</PersonID>
@@ -21,6 +21,7 @@
         <Description>Top-level web page for LANL data</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/LANL/01A/2001/PT24H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/LANL/2001/SOPA+ESP/PT24H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>

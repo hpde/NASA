@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ISEE3/Ephemeris/PT12M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ISEE3/Ephemeris/PT12M</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 12-min Trajectory Data</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
             <Description>ISEE 3 positions.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
                 <Role>MetadataContact</Role>
 </Contact>
             <PriorID>spase://VEPO/NumericalData/ISEE3/Ephemeris/PT12M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/ISEE3/Ephemeris/PT12M</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

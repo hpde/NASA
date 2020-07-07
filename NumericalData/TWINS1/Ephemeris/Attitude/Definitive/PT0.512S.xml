@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TWINS1/Ephemeris/Attitude/Definitive/PT0.512S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TWINS1/Ephemeris/Attitude/Definitive/PT0.512S</ResourceID>
       <ResourceHeader>
          <ResourceName>TWINS-1 Ephemeris, Definitive Spacecraft Attitude, PT0.512S Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
          <Description>Two Wide-angle Imaging Neutral-atom Spectrometers 1, TWINS 1, Spacecraft Attitude data, Earth Centered Inertial, ECI, coordinates.
 
 This TWINS data set contains spacecraft attitude data as polar and azimuthal instrument pointing vectors. The polar vector points along the TWINS rotation axis. The azimuthal vector lies in the plane normal to the polar vector and points toward the central scanning position, which is defined as the zero-point location. Such pointing is derived from both the spacecraft attitude history, SAH, file and the sensor mounting orientation. The computation employed is designed to achieve a pointing accuracy of 0.5&#176;. Any deviation from this accuracy level is indicated in the header record metadata.</Description>
@@ -30,6 +30,7 @@ This TWINS data set contains spacecraft attitude data as polar and azimuthal ins
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/TWINS1/Attitude</PriorID>
          <PriorID>spase://VSPO/NumericalData/TWINS1/ENA/TWINS1_AT_DEF_Data</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TWINS1/Ephemeris/Attitude/Definitive/PT0.512S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

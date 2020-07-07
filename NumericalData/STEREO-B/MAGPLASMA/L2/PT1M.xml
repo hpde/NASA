@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients from the Magnetometer and the Plasma and Suprathermal Ion and Composition Instruments (IMPACT/MAG, PLASTIC) Solar Wind Plasma Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
       <Description>STEREO-B In-situ Measurements of Particles and CME Transients, IMPACT, Magnetometer Instrument, MAG, Magnetic Field Vector and PLAsma and SupraThermal Ion Composition, PLASTIC, Solar Wind Parameter, Level 2, Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -26,6 +26,7 @@
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT-PLASTIC/PT1M</PriorID>   
+        <PriorID>spase://VSPO/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</PriorID>
  </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

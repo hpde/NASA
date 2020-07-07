@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/SWE/IonMoments/KeyParameter/PT99S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/SWE/IonMoments/KeyParameter/PT99S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Solar Wind Experiment (SWE) Thermal Plamsa Moments, Key Parameter (K0), 99 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:06Z</ReleaseDate>
          <Description>Wind SWE Key Parameter data: proton density, thermal speed, flow velocity vectors, and spacecraft position vectors. Various versions differ slightly from each other. The version at MIT has flow velocity vectors experessed bby using Geocentric Solar Ecliptic, GSE, Cartesian and spherical representations and GSE Cartesian position vectors. The version available via nssdcftp and FTPBrowser has temperature instead of thermal speed and has no flow direction angles. The CDAWeb version has flow velocity and spacecraft position vectors in both GSE and Geocentric Solar Magnetospheric, GSM, coordinates, flow dynamic pressure, NmV^2, and velocity and density quality flags. The data were progressively despiked in passing from CDAWeb to MIT to nssdcftp/FTPBrowser.
 
 Use of the Quality Variables:
@@ -151,6 +151,7 @@ Note that this SPASE Numerical Description only describes the MESSENGER Magnetom
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_SWE_KP_92S</PriorID>
          <PriorID>spase://VSPO/NumericalData/Wind/SWE/KeyParameters/PT92S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/SWE/IonMoments/KeyParameter/PT99S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

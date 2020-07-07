@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/RBSP/A/EMFISIS/WFR/diagonal</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/RBSP/A/EMFISIS/WFR/diagonal</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) WFR diagonal components</ResourceName>
-      <ReleaseDate>2018-03-26T14:24:21Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) WFR diagonal components</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Craig.A.Kletzing</PersonID>
@@ -22,6 +22,7 @@
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/DisplayData/RBSP/A/EMFISIS/WFR/diagonal</PriorID>
+        <PriorID>spase://VSPO/DisplayData/RBSP/A/EMFISIS/WFR/diagonal</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

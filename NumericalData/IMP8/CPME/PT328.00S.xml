@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/CPME/PT328.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/CPME/PT328.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 CPME 5-min rates and fluxes</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
             <Description>IMP 8 CPME electron, proton, alpha particle and Z&gt;2 count rates and fluxes at 5-min and lower resolutions</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_CPME_FTECS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/CPME/PT328.00S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/FTECS</RepositoryID>

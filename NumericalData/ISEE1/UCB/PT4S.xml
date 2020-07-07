@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE1/UCB/PT4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE1/UCB/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 UCB 4-sec fluxes, offline at NSSDC</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
       <Description>This data set holds 10 particle fluxes per 4-sec data record, including electrons at 1.4 - 1.6 keV, 4.5-6.0 keV, 19  - 280 keV, 84 -280 keV and &gt; 200 keV, protons at 1.4 - 1.6 keV and 4.5 - 6.0 keV, and electrons and protons mixed at 16 - 280 keV, 84 - 280 keV and &gt; 300 keV electrons plus &gt; 1 MeV protons.  Data cover three distinct time spans: 1977_10_22 - 1980_02_19, 1982_10_24 - 1983_12_27 and 1986_03_30 - 1986_06_17.  GSE spacecraft position vectors are included in the records.  The data are presently (January, 2008) held in flat file format, with ASCII header files and IEEE binary data files.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Kinsey.A.Anderson</PersonID>
@@ -24,6 +24,7 @@
         <URL>https://nssdc.gsfc.nasa.gov/nmc/dataset/display.action?id=SPMS-00296</URL>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/SPMS-00296</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ISEE1/UCB/PT4S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/THEMIS/E/Ephemeris/PT01M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/E/Ephemeris/PT01M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-E Level 1 Probe State Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:28Z</ReleaseDate>
       <Description>The L1 STATE files contain the following data, sampled at one-minute intervals:
 
                * probe position and velocity in GEI, GSE, and GSM coordinates;
@@ -43,6 +43,7 @@
         <Description>Ephemeris file format and quantity details including RoI descriptions.</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/E/Ephemeris/PT01M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/E/Ephemeris/PT01M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

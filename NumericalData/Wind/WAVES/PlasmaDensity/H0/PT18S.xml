@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/PlasmaDensity/H0/PT18S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/WAVES/PlasmaDensity/H0/PT18S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Plasma and Radio Waves (WAVES) Electron Plasma Densities, Level H0 (H0), 17.664 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:06Z</ReleaseDate>
          <Description>Wind Waves high time resolution plasma densities estimated by using the electron density inferred from the thermal noise peak as recognized by a neural network.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator M.L. Kaiser for use of the Data</Acknowledgement>
          <Contact>
@@ -64,6 +64,7 @@
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_WAVES_DENSITY</PriorID>
          <PriorID>spase://VSPO/NumericalData/Wind/WAVES/PT18S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/WAVES/PlasmaDensity/H0/PT18S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

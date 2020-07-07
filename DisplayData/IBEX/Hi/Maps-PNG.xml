@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/IBEX/Hi/Maps-PNG</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/IBEX/Hi/Maps-PNG</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Hi maps in PNG display format</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:33Z</ReleaseDate>
             <Description>As of this writing (11/5/2010), this product 
 had been issued by the IBEX team in two releases. 
 Release 1 IBEX-Hi map data are superseded by Release 2
@@ -71,6 +71,7 @@ at SWRI: http://ibex.swri.edu/ibexpublicdata/Data_Release_2/)</Description>
                 <URL>http://ibex.swri.edu/ibexpublicdata/Data_Release_2/</URL>
             </InformationURL>
             <PriorID>spase://VEPO/DisplayData/IBEX/Hi/Maps-PNG</PriorID>
+            <PriorID>spase://VSPO/DisplayData/IBEX/Hi/Maps-PNG</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

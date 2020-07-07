@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP6/BAME/PT120S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP6/BAME/PT120S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 6 LANL 2-m plasma data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
             <Description>IMP 6 LANL 2-min solar wind plasma parameter data, including temperature anisotropy and alpha/proton ratio</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP6_HDR_LANL_2MIN</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP6/BAME/PT120S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

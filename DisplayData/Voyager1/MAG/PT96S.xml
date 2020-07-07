@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/Voyager1/MAG/PT96S</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/Voyager1/MAG/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 MAG 2-day plots at MAG team site</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
       <Description>Voyager 1 magnetic field data plots at the Voyager MAG team site. Plots show magnetic field magnitude, direction angles, and Cartesian components in RTN coordinates. Plots typically cover 2 days.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
       <Contact>
@@ -22,6 +22,7 @@
       </InformationURL>
       <PriorID>spase://VHO/DisplayData/Voyager1/MAG/PT96S</PriorID>
       <PriorID>spase://VSPO/DisplayData/Voyager1/MAG/plots.PT96S</PriorID>
+        <PriorID>spase://VSPO/DisplayData/Voyager1/MAG/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

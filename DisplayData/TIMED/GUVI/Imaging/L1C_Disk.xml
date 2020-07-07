@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
 <Version>2.2.8</Version>
 <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
+      <ResourceID>spase://NASA/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Level 1C FUV airglow radiance images.</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
          <Description>Global maps of GUVI Level 1C FUV airglow radiances.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -17,6 +17,7 @@
 </URL>
          </InformationURL>
          <PriorID>spase://VITMO/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
+          <PriorID>spase://VSPO/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

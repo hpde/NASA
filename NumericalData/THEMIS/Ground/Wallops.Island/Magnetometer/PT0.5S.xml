@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Wallops.Island/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Wallops.Island/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wallops Island (WLPS) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
          <Description>Wallops Island, VA, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (WLPS), Station Location: (GEO Latitude 37.9, Longitude 284.6), THEMIS GBO Network</Description>
          <Acknowledgement>Please acknowledge P. Chi, (United States Air Force Academy, University of California, Los Angeles)</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://sprg.ssl.berkeley.edu/themis/</URL>
             <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Wallops.Island/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

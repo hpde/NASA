@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/PLS/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/PLS/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 MIT 1-hour plasma data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>IMP 8 MIT solar wind plasma parameters, hourly averages</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_MIT_1HR</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/PLS/PT1H</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

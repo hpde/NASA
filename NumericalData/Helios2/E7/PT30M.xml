@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Helios2/E7/PT30M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Helios2/E7/PT30M</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 2 E7 (Trainor) 30-min fluxes and rates</ResourceName>
-            <ReleaseDate>2018-02-23T16:11:25Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:35Z</ReleaseDate>
             <Description>This data set, created in 2010 by Nand Lal, 
 contains 30-min resolution fluxes and count rates of
 energetic protons, alpha particles, electrons and 
@@ -45,6 +45,7 @@ Dr. Nand Lal</Acknowledgement>
                 <Description>Listing of parameters in data records</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Helios2/E7/PT30M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Helios2/E7/PT30M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

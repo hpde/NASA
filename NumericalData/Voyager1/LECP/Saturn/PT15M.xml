@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/Saturn/PT15M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/LECP/Saturn/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Saturn Low Energy Charged Particle (LECP) Calibrated, Resampled, Sectored, Version 1.0, 15 min Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:53Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -99,6 +99,7 @@ A measured Parameter equaling the Number of Ions hitting a Particle Detector per
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/LECP/Saturn/PT15M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/LECP/Saturn/PT15M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

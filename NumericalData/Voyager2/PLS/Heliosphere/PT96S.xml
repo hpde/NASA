@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PLS/Heliosphere/PT96S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/PLS/Heliosphere/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Heliosphere Plasma Science (PLS) Solar Wind Plasma, 192 s Fine Resolution Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:59Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -25,6 +25,7 @@ Voyager 2 Plasma Data of the Solar Wind, Fine Resolution Data</Description>
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager2/PLS/Heliosphere/PT192S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/PLS/Heliosphere/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

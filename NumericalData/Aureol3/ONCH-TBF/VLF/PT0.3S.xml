@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Aureol3/ONCH-TBF/VLF/PT0.3S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Aureol3/ONCH-TBF/VLF/PT0.3S</ResourceID>
         <ResourceHeader>
             <ResourceName>Aureol 3 VLF Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:17Z</ReleaseDate>
             <Description>This data set contains power of electromagnetic wave components from 
 narrow band (10%) filters at 140, 450, 800, 4500, and 15000 Hz.  For 
 any given time segment the power for any one of five predefined pairs 
@@ -23,6 +23,7 @@ The data records are in ASCII.</Description>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <PriorID>spase://VSPO/NumericalData/Aureol3/ONCH-TBF/VLF/PT0.3S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

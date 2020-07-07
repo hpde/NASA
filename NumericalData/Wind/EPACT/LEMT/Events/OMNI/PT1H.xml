@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/OMNI/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Wind/EPACT/LEMT/Events/OMNI/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT)/LEMT 1-Hr Omnidirectional Fluxes</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
             <Description>
 This dataset contains hourly-averaged omnidirectional fluxes for He, C, O, Ne, Si, and Fe in
 particles/cm2-sr-s-MeV/nuc in seven energy bins (six for Ne) in the general range of 2-10 MeV/nucleon. 
@@ -38,6 +38,7 @@ Fe: 2.40-3.00, 3.00-3.95, 3.95-4.80, 4.80-5.90, 5.90-7.80, 7.80-9.30, 9.30-12.50
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/epact/flux_ascii/hourly/aareadme_epact_lemt_hr</URL>
 </InformationURL>
         <PriorID>spase://VEPO/NumericalData/Wind/EPACT/LEMT/Events/OMNI/PT1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/OMNI/PT1H</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

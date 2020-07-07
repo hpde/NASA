@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/LB/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/LB/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Beacon</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
       <Description>STEREO-A, In-situ Measurements of Particles and CME Transients, IMPACT, Instrument, Level 1B, Data Note: The Onboard SWEA Calculation of Moments and Pitch Angle Distributions are compromised by a Charging Effect at Low Energies. STE-U is not providing any Science Data as the Instrument is blinded by Sunlight and thus these Variables are not accessible via CDAWeb.</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -25,6 +25,7 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/LB/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/LECP/FLUXBOX/H-Rate/P26D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/LECP/FLUXBOX/H-Rate/P26D</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Low-Energy Charged Particle (LECP) H Fluxbox Rates in ASCII Format 26-day</ResourceName>
       <AlternateName>V2-LECP-FLUXBOX-H-RATE-PT5D</AlternateName>
-      <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:56Z</ReleaseDate>
       <ExpirationDate>2100-12-01T00:00:00.000</ExpirationDate>
       <Description>Weighted Count Rates, Derived from PHA Data plus Rate Data by sectors and averaged, Voyager2, LECP,  
                 Uncalibrated, Cadence PT5D</Description>
@@ -29,6 +29,7 @@
         <Description>The webpage provides a detailed description of Fluxbox Rate files.</Description>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager2/LECP/FLUXBOX/H-RATE-P26D</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/LECP/FLUXBOX/H-Rate/P26D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

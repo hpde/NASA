@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Interball-1/CORALL/PT120S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Interball-1/CORALL/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail CORALL Plasma 2-Min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:43Z</ReleaseDate>
       <Description>Interball Tail CORALL 2-Min Key Parameters, plasma ion density, speed, vector velocity</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Yury.I.Yermolaev</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_INTTAIL_HDR_CORALL_120S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Interball-1/CORALL/PT120S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

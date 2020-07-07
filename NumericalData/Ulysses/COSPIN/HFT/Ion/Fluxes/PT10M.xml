@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/HFT/Ion/Fluxes/PT10M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/HFT/Ion/Fluxes/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Flux Telescope (HFT) Proton and Heavy Ion Spin-Averaged and Sectored Counting Rate based Nominal Fluxes, 10 min Average Data</ResourceName>
       <AlternateName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Flux Telescope (HFT) Energetic (MeV) Nuclei Nominal Fluxes, 10 min Average Data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
       <Description>This Data Set contains 10 min Average Spin-Averaged and Sectored Counting Rate based Nominal Fluxes of Energetic Proton and Heavier Nuclei from the Ulysses COSPIN High Flux Telescope. The Parameter Keys in the Parameter Level Segments below are specifically relevant to the UFA accessible Versions of the Data.</Description>
       <Acknowledgement>Please acknowledge the COSPIN HFT Lead Investigator, J. David Anglin</Acknowledgement>
       <Contact>
@@ -26,6 +26,7 @@
         <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Flux Telescope, HFT, 10 min Average Proton and Heavy Ion Nominal Fluxes</Description>
 </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HFT/Fluxes/PT10M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/HFT/Ion/Fluxes/PT10M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

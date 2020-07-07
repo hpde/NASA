@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
 	<Version>2.3.0</Version>
 	<NumericalData>
-		<ResourceID>spase://VSPO/NumericalData/Weygand/IMP8/PLS/Processed/GSM/PT60S</ResourceID>
+		<ResourceID>spase://NASA/NumericalData/Weygand/IMP8/PLS/Processed/GSM/PT60S</ResourceID>
 		<ResourceHeader>
 			<ResourceName>IMP-8 Linearly Interpolated 60 s Resolution PLS data in GSM Coordinates</ResourceName>
 			<AlternateName>1973-078A-02 data</AlternateName>
 			<AlternateName>IMP-8 Plasma Faraday Cup data</AlternateName>
 			<DOI>10.21978/P8R646</DOI>
-			<ReleaseDate>2019-06-20T07:59:57.000Z</ReleaseDate>
+			<ReleaseDate>2020-07-07T21:16:02Z</ReleaseDate>
 			<Description>IMP-8 linearly interpolated to have the measurements on the minute at 60 s resolution PLS data in GSM coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
 			<Acknowledgement>NASA, Alan J. Lazarus, James M. Weygand</Acknowledgement>
 			<PublicationInfo>
@@ -30,6 +30,7 @@
 				<Description>Solar wind archive at UCLA. This archive provides a list of available data resources and available time ranges.</Description>
 			</InformationURL>
 			<PriorID>spase://VMO/NumericalData/Weygand/IMP8/PLS/Processed/GSM/PT60S</PriorID>
+ 		   <PriorID>spase://VSPO/NumericalData/Weygand/IMP8/PLS/Processed/GSM/PT60S</PriorID>
 		</ResourceHeader>
 		<AccessInformation>
 			<RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

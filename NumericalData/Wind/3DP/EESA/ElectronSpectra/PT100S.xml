@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/3DP/EESA/ElectronSpectra/PT100S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/3DP/EESA/ElectronSpectra/PT100S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Hot Plasma and Charged Particles (3DP) Electron Electrostatic Analyzer (EESA) Low, Omnidirectional Flux Spectra, 5 eV to 1100 eV, 24 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
          <Description>Wind Three-Dimensional Particle, 3DP, instrument, Electron Electrostatic Analyzer, EESA, Low Energy Spectra, ELSP, omni directional electron differential number flux spectra, 3 eV to 30 keV.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator R.P. Lin and S.D. Bale for use of the Data</Acknowledgement>
          <Contact>
@@ -68,6 +68,7 @@
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_3DP_ELSP</PriorID>
          <PriorID>spase://VSPO/NumericalData/Wind/3DP/EESA_LOW/SP/PT24S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/3DP/EESA/ElectronSpectra/PT100S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

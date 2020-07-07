@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/TWINS1/Ephemeris/PT1M45S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/TWINS1/Ephemeris/PT1M45S</ResourceID>
     <ResourceHeader>
       <ResourceName>TWINS 1 - Spacecraft Ephemeris</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
       <Description>Definitive orbit data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -21,6 +21,7 @@
         <Description>?</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/TWINS1/Ephemeris/PT1M45S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/TWINS1/Ephemeris/PT1M45S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

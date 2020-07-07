@@ -5,10 +5,10 @@
   <!-- Can duplicate Name subelements of PhysicalParameter element -->
   <!-- exist in a NumericalData resource -->
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/CRS/RATES/PT15M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/CRS/RATES/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Cosmic Ray Subsystem (CRS) Cruise Mode 15 Minute Averages</ResourceName>
-      <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:51Z</ReleaseDate>
       <Description>
                 15 minute averages of selected rates
             </Description>
@@ -23,6 +23,7 @@
         <URL>https://voyager.gsfc.nasa.gov</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager1/CRS/RATES/PT15M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/CRS/RATES/PT15M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/CRS</RepositoryID>

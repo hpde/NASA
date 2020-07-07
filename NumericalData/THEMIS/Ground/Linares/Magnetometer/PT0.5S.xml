@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Linares/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Linares/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Linares (LRES) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:33Z</ReleaseDate>
          <Description>Linares, Mexico, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (LRES), Station Location: (GEO Latitude 24.9, Longitude 260.5), McMAC Network</Description>
          <Acknowledgement>Please acknowledge P. Chi, (University of California, Los Angeles)</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://spc.igpp.ucla.edu/mcmac/rmd_files/</URL>
             <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Linares/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Wind/3DP/UCB/PT24.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Wind/3DP/UCB/PT24.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind 3DP Plasma data at UCB</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:32</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
             <Description>Wind 3DP thermal and energetic ion and electron distributions and moments, multiple CDF file types</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
@@ -15,6 +15,7 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_3DP_UCB</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Wind/3DP/UCB/PT24.00S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>

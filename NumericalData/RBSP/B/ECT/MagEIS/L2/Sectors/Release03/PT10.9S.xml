@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/B/ECT/MagEIS/L2/Sectors/Release03/PT10.9S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/B/ECT/MagEIS/L2/Sectors/Release03/PT10.9S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Magnetic Electron Ion Spectrometer (MagEIS), Electron Fluxes, 20 to 4000 keV, Proton Fluxes, 50 to 1500 keV, Level 2, Release #3 (L2), 10.9 s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:13Z</ReleaseDate>
       <Description>Van Allen Probe B, Energetic Particle, Composition, and Thermal Plasma Suite, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Electron Fluxes from about 20 to 4000 keV and Proton Fluxes from about 50 to 1500 keV.</Description>
       <Acknowledgement>J.B. Blake, H.E. Spence, G.D. Reeves</Acknowledgement>
       <Contact>
@@ -54,6 +54,7 @@
       <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/MAGEIS/L2/PT10.9S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/ECT/MAGEIS-L2/</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/ECT/PRE/MAGEIS-L2/</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/B/ECT/MagEIS/L2/Sectors/Release03/PT10.9S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

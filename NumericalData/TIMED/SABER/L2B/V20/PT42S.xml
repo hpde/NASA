@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
 <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/SABER/L2B/V20/PT42S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/SABER/L2B/V20/PT42S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) Level 2B</ResourceName>
-         <ReleaseDate>2019-06-17T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
          <Description>Contains SABER Level 2a data that have been further processed to produce higher level products. Includes mixing ratio - CO2, O, H; Cooling rate (kelvin/day) - CO2, NO, O3, H2O; Heating rate (kelvin/day) - O3, O2, CO2; Reaction rates (/sec); Airglow (watts/m^2/sr); Geostrophic winds (m/s). </Description>
          <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
          <Contact>
@@ -18,6 +18,7 @@
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/SABER/L2B</PriorID>
          <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L2B</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L2B/V20/PT42S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>

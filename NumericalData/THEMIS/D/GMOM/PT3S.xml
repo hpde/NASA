@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/THEMIS/D/GMOM/PT3S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/D/GMOM/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-D (P3) Electron and Ion Moments (GMOM) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure and Temperature</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:27Z</ReleaseDate>
       <Description>THEMIS-D Electrostatic Analyzer (ESA) and Solid State Telescope (SST) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure, and Temperature. Generated from ESA and SST Combined Distributions. Data include Electron/Ion Ground-Calculated Fluxes and Spectrograms for Ions from 5 eV to 4 MeV and Electrons from 6 eV to 700 keV.</Description>
       <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
@@ -43,6 +43,7 @@
         <URL>http://themis.ssl.berkeley.edu/instrument_esa.shtml</URL>
         <Description>Detailed Description of the Electrostatic Analyzer (ESA) Instrument</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/D/GMOM/PT3S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

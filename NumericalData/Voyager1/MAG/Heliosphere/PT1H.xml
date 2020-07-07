@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema file:/C:/Projects/Voyager/spase-2_2_2.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Heliosphere/PT1H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/MAG/Heliosphere/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Heliosphere Magnetic Field in Heliographic and Inertial Heliographic Coordinates, Hourly Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:54Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -97,6 +97,7 @@ The Magnetic Field Components may be recovered by using F2, delta, and lambda. N
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Heliosphere.Outer/PT1H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/Heliosphere/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

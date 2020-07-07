@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER/L3/GEI/PT4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER/L3/GEI/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Fluxgate Magnetometer 4 second resolution data in GEI coordinates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:14Z</ReleaseDate>
       <Description>Fluxgate magnetometer data - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -34,6 +34,7 @@
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER/4SEC-GEI/L3/PT.0015625S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER_4SEC-GEI_EMFISIS-L3/PT.015625S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/GEI/PT4S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/MAGNETOMETER/L3/GEI/PT4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

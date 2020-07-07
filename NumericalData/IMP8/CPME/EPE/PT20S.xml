@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMP8/CPME/EPE/PT20S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMP8/CPME/EPE/PT20S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Charged Particle Measurement Experiment (CPME) Energetic Particle Experiment (EPE) MAG PLS Merge Data Set</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
       <Description>This data set contains 20.48s IMP8 CPME and EPE energetic 
 particle data, along with IMP8 magnetic field and plasma data to facilitate use 
 of the particle data.  CPME data consist of: spin-integrated, 20.48s resolution 
@@ -62,6 +62,7 @@ accessing data from APL.</Acknowledgement>
         <Description>Details of CPME and EPE instruments and data, including Merge data set</Description>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/IMP8/CPME/EPE/PT20S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMP8/CPME/EPE/PT20S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

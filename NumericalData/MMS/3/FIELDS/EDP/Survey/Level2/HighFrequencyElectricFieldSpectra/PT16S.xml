@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/MMS/3/FIELDS/EDP/Survey/Level2/HighFrequencyElectricFieldSpectra/PT16S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/MMS/3/FIELDS/EDP/Survey/Level2/HighFrequencyElectricFieldSpectra/PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Axial Double Probe, Spin Plane Double Probe (ADP-SDP) Electric Double Probe, High-Frequency Electric Field Spectra, Level 2, Survey</ResourceName>
       <AlternateName>MMS3_EDP_SRVY_L2_HFESP</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:55Z</ReleaseDate>
       <Description>Electric Double Probe, High-Frequency AC Electric Field Spectra, Level 2, Survey Data, Level 1B AC Electric Field Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -34,6 +34,7 @@
         <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/MMS/3/FIELDS/EDP/Survey/Level2/HighFrequencyElectricFieldSpectra/PT16S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

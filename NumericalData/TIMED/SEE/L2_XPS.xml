@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
 <Version>2.2.2</Version>
 <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/SEE/L2_XPS</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/SEE/L2_XPS</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED SEE Level2 XPS Solar Irradiance Data</ResourceName>
-         <ReleaseDate>2018-01-18T21:30:14.573</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
          <Description>The 12 X-Ray Photometers (XP) aboard SEE perform full-disk irradiance measurements of the Sun for about 3 minutes every orbit (97 minutes) which usually gives 14-15 measurements per day. 8 of the XPs produce XUV signals (more info on XP coatings) and one other XP provides a hydrogen Lyman-alpha measurement (121.5 nm). The XPS Level 2 data is time averaged over the entire day, after being 1-AU corrected and removing flares. The 1-AU correction is provided.</Description>
          <Acknowledgement>NASA, Thomas N. Woods</Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <URL>http://lasp.colorado.edu/home/see/data/daily-averages/level-2-xps/</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/SEE/L2_XPS</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/SEE/L2_XPS</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/SEE_POC</RepositoryID>

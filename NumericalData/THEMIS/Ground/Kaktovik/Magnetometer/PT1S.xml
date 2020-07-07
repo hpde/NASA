@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Kaktovik/Magnetometer/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Kaktovik/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Kaktovik (KAKO) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:32Z</ReleaseDate>
          <Description>Kaktovik, AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (KAKO), Station Location: (GEO Latitude 70.1, Longitude 216.4), University of Alaska Network</Description>
          <Acknowledgement>Please acknowledge D. Hampton, V. Angelopoulos, C.T. Russell, (University of Alaska, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -33,6 +33,7 @@
             <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
             <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Kaktovik/Magnetometer/PT1S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

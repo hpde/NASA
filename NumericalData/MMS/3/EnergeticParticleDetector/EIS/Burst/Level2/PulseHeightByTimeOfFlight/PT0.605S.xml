@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/MMS/3/EnergeticParticleDetector/EIS/Burst/Level2/PulseHeightByTimeOfFlight/PT0.605S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/MMS/3/EnergeticParticleDetector/EIS/Burst/Level2/PulseHeightByTimeOfFlight/PT0.605S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 3 Energetic Particle Detector, Energetic Ion Spectrometer (EPD-EIS) Pulse Height by Time of Flight, Level 2, Burst Survey</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:53Z</ReleaseDate>
       <Description>Energetic Particle Detector (EPD), Energetic Ion Spectrometer (EIS) Pulse Height by Time of Flight, Level 2, Burst Survey, 0.605 s Data. The EIS provides ion composition measurements (protons versus oxygen ions) and angular distributions over the energy range from approximately 45 to 500 keV.</Description>
       <Acknowledgement>B. Mauk</Acknowledgement>
       <Contact>
@@ -35,6 +35,7 @@
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/epd/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/MMS/3/EnergeticParticleDetector/EIS/Burst/Level2/PulseHeightByTimeOfFlight/PT0.605S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

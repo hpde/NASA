@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/IMAGE/RPI/PGM/PT5M</ResourceID>
+      <ResourceID>spase://NASA/DisplayData/IMAGE/RPI/PGM/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE radio plasma imager (RPI) Plasmagram Plots</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
          <Description>Collection of RPI Plasmagram images at University of Massachusetts Lowell, covering complete mission period from 2000-04-21 to 2005-12-18. Access to images is arranged via a webpage containing a query form with the time period of interest and options for search of expert-annotated plasmagrams. The query returns a list of qualifying plasmagrams with URLs pointing to images. RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the sounder pulses. Echoes that can be used to derive remote, long-range, magnetospheric electron-density profiles, appear as discrete traces on plasmagrams. These plasmagram traces are intermixed with vertical signatures with greater intensity at shorter ranges, corresponding to locally excited plasma resonances, and other vertical signatures that cover the entire listening period, i.e., the entire virtual-range scale, corresponding to various natural and/or man-made emissions propagating in space and/or local interference.</Description>
          <Acknowledgement>Users please acknowledge B. W. Reinisch of the University of Massachusetts Lowell for making these plasmagram images available.</Acknowledgement>
          <Contact>
@@ -29,11 +29,12 @@
             <Language>en</Language>
 </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/IMAGE/RPI/PGM/CCSDS/PT5M</AssociationID>
             <AssociationType>DerivedFrom</AssociationType>
 </Association>
          <PriorID>spase://VWO/DisplayData/IMAGE/RPI/IMAGE_RPI_PNG_PGM_PT5M</PriorID>
          <PriorID>spase://VWO/DisplayData/IMAGE/RPI/PGM.PT5M</PriorID>
+          <PriorID>spase://VSPO/DisplayData/IMAGE/RPI/PGM/PT5M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UML/RPI</RepositoryID>

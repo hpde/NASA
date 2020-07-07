@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Inukjuak/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Inukjuak/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Inukjuak (INUK) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:32Z</ReleaseDate>
          <Description>Inukjuak, QC, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (INUK), Station Location: (GEO Latitude 58.5, Longitude 281.9), AUTUMNX Network</Description>
          <Acknowledgement>Please acknowledge M. Connors, I. Schofield, (Athabasca University)</Acknowledgement>
          <Contact>
@@ -35,6 +35,7 @@
             <Description>Calibration files at http://autumn.athabascau.ca/themis.gbo.mag.calibration</Description>
 </InformationURL>
          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Inujuak/Magnetometer/PT0.5S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Inukjuak/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

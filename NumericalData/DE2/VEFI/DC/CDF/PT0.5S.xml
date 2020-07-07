@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/DE2/VEFI/DC/CDF/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/DE2/VEFI/DC/CDF/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>DE 2 Vector Electric Field Instrument (VEFI) DC Electric Field X and Y components, Spacecraft, SC, coordinates, PT0.5S Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
          <Description>The Dynamics Explorer 2, DE 2, Vector Electric Field Instrument, VEFI, used flight-proven double-probe techniques with 20-m baselines to obtain measurements of DC electric fields. This electric field investigation had the following objectives:
 
 * 1) Obtain accurate and comprehensive triaxial DC electric field measurements at ionospheric altitudes in order to refine the basic spatial patterns
@@ -55,6 +55,7 @@ The basic electronic system was very similar in concept to those used on IMP-8 a
             <Description>General information concerning the Dynamics Explorer 2, Vector Electric Field Instrument, VEFI, instrument</Description>
             <Language>en</Language>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/DE2/VEFI/DC/CDF/PT0.5S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

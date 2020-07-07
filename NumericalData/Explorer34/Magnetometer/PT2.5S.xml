@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Explorer34/Magnetometer/PT2.5S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Explorer34/Magnetometer/PT2.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Explorer 34 Triaxial Fluxgate Magnetometer data</ResourceName>
       <AlternateName>IMP 4 Triaxial Fluxgate Magnetometer data</AlternateName>
       <AlternateName>IMP-F Triaxial Fluxgate Magnetometer data</AlternateName>
-      <ReleaseDate>2018-05-23T14:34:45Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
       <Description>This dataset contains 2.5 second measurements of the magnetic field data from the triaxial 
       	fluxgate magnetometer and position measurements from Explorer 34 spacecraft in several different coordinate 
       	systems. These data were not well documented. Time is most likely in columns 25-27. Time is given 
@@ -32,6 +32,7 @@
         <Language>EN</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Explorer34/Magnetometer/PT2.5S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Explorer34/Magnetometer/PT2.5S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

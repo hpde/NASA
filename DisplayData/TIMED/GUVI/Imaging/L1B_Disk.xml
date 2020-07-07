@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/TIMED/GUVI/Imaging/L1B_Disk</ResourceID>
+      <ResourceID>spase://NASA/DisplayData/TIMED/GUVI/Imaging/L1B_Disk</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Imaging Level 1B Disk images</ResourceName>
-         <ReleaseDate>2018-01-18T21:06:45.385</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
          <Description>GUVI Level 1B FUV airglow radiance images.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1B_datainfo.pdf</URL>
          </InformationURL>
          <PriorID>spase://VITMO/DisplayData/TIMED/GUVI/Imaging/L1B_Disk</PriorID>
+          <PriorID>spase://VSPO/DisplayData/TIMED/GUVI/Imaging/L1B_Disk</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

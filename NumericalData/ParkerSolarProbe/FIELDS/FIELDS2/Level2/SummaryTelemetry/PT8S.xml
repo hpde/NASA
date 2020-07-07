@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/FIELDS2/Level2/SummaryTelemetry/PT8S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/FIELDS2/Level2/SummaryTelemetry/PT8S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS F2 Time Domain Sampler (F2 TDS) 100 bit/s Summary Telemetry, Level 2 (L2), 8 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:04Z</ReleaseDate>
          <Description>PSP FIELDS F2 100 bps Summary Telemetry Data</Description>
          <Acknowledgement>Produced by the PSP FIELDS Team at the University of Minnesota. For Public use.</Acknowledgement>
          <Contact>
@@ -45,6 +45,7 @@
             <URL>http://parkersolarprobe.jhuapl.edu/The-Mission/index.php</URL>
             <Description>Parker Solar Probe, PSP, Mission Overview, hosted by the Applied Physics Laboratory, Johns Hopkins University</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/FIELDS2/Level2/SummaryTelemetry/PT8S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

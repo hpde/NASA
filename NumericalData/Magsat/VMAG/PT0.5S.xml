@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Magsat/VMAG/PT0.5S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Magsat/VMAG/PT0.5S</ResourceID>
         <ResourceHeader>
             <ResourceName>MAGSAT 0.5-s magnetic field data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:59Z</ReleaseDate>
             <Description>MAGSAT 0.5-s magnetic field data at low altitude in NEV coordinates</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.E.Purucker</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_MAGSAT_HDR_MAG_0.5S</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Magsat/VMAG/PT0.5S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/IDM/PT0.25S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/IDM/PT0.25S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 250ms IDM Ion Drift Velocities</ResourceName>
       <AlternateName>Dynamics Explorer 2 IDM Ion Drift Velocities</AlternateName>
       <AlternateName>DE-B IDM Ion Drift Velocities</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>This data set contains cross-track ion drift
 velocities obtained at 250ms resolution from the DE 2 Ion Drift
 Meter (IDM).  Data are available in ASCII from nssdcftp and in CDF
@@ -36,6 +36,7 @@ Dr. R.A. Heelis</Acknowledgement>
         <Description>Introduction to the Ion Drift Meter Observations on DE 2</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/IDM/PT0.25S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/IDM/PT0.25S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

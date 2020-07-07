@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/WAVES/ElectricFieldIntensity/KeyParameter/PT3M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/WAVES/ElectricFieldIntensity/KeyParameter/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Plasma and Radio Waves (WAVES) Electric Field Intensities and Electron Plasma Densities, Key Parameter (K0), 3 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:06Z</ReleaseDate>
          <Description>Wind Waves instrument, Plasma and Radio Wave Key Parameter data: electric field average intensity in dB above background at 76 log-spaced frequencies from 250 Hz to 9.4 MHz that is determined from neural network analysis of the in situ electron plasma frequency, Fpe, line.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator M.L. Kaiser for use of the Data</Acknowledgement>
          <Contact>
@@ -64,6 +64,7 @@
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_WAVES_KEY_PARAMETERS</PriorID>
          <PriorID>spase://VSPO/NumericalData/Wind/WAVES/KeyParameters/PT18S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/WAVES/ElectricFieldIntensity/KeyParameter/PT3M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/GOSLING/PT12S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/GOSLING/PT12S</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 LANL 12-s Magnetotail Plasma Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>This data set contains IMP 8 LANL 12-s solar wind plasma parameters from the magnetotail. Parameters included are proton density flow speed and azimuthal direction, and min and max temperatures; alpha particle parameters are given relative to protons: Abundance and temperature ratios, and relative flow speeds and directions. Alpha temperature anisotropy, and azimuthal angles of both proton and alpha pressure tensor symmetry axis are also given. </Description>
             <Acknowledgement>Please acknowledge NASA Space Physics Data Facility, National Space Science Data Center and the Principal Investigator for data usage.</Acknowledgement>
             <Contact>
@@ -12,6 +12,7 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_LANL_12S</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/GOSLING/PT12S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

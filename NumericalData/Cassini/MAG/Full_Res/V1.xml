@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Cassini/MAG/Full_Res/V1</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Cassini/MAG/Full_Res/V1</ResourceID>
     <ResourceHeader>
       <ResourceName>Cassini MAG Full Resolution Magnetic Field Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>This PDS-accessible data set contains Cassini magnetic
 field data at the highest resolution available as of May, 2012.  The MAG 
 instrument consists of the fluxgate magnetometer (FGM) and helium 
@@ -30,6 +30,7 @@ Version 3 data to be based on an improved calibration.</Description>
         <URL>https://pds-ppi.igpp.ucla.edu/search/?t=Saturn&amp;sc=null&amp;i=Magnetometer&amp;title=Saturn%20:%20Magnetometer</URL>
         <Description>PDS pages describing the mission, instruments and data</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/Cassini/MAG/Full_Res/V1</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

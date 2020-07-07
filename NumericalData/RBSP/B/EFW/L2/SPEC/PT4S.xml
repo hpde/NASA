@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/B/EFW/L2/SPEC/PT4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/B/EFW/L2/SPEC/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Spectrogram Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:14Z</ReleaseDate>
       <Description>This data set contains Level 2 wave electric field and search coil wave magnetic fields spectral data from the Electric Field and Waves Suite (EFW) onboard Van Allen Probe B. Spectrograms between ~40 Hz and ~8 kHz are calculated on-board the EFW instrument every 4 seconds. These data include one component of the ac-coupled electric field from the rotating V12 sensors (V12ac). The electric field quantity is labeled EFW/L2. Also included are two components of the wave magnetic field from the University of Iowa EMFISIS sensors. The search coil quantities are labeled EFW/L2 spec64 smu. In the labels smu&#xC2;&#x80;&#xC2;&#x9D; and smv&#xC2;&#x80;&#xC2;&#x9D;, the suffixes u and &#xC2;&#x80;&#xC2;&#x9C;v&#xC2;&#x80;&#xC2;&#x9D; refer to the u and v sensor coordinates rotating with the spacecraft. All these quantities, the nature of the on board signal processing, their filtering, time resolution and their respective coordinate systems are described in the EFW instrument paper (Wygant et al. 2013). 
 
 When the spectral CDF is opened, many other possible quantities are listed which have no data in them. Possible sources include: E12dc, E34dc, E56dc, E12ac, E34ac, E56ac, E DC parallel, E DC perpendicular 1, E DC perpendicular 1, E AC parallel, E AC perpendicular 1, E AC perpendicular 2, V1+V2+V3+V4/4AC, SCMu, SCMv, SCMw, SCM parallel, SCM perpendicular 1 and SCM perpendicular 2. 
@@ -33,6 +33,7 @@ Those without data are &#xC2;&#x80;&#xC2;&#x9C;place holder quantities&#xC2;&#x8
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/L2_SPEC/PT4S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EFW/L2/SPEC/UTC</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/L2/SPEC/PT4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

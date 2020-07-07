@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Pioneer10/MAG/ASCII/PT60M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Pioneer10/MAG/ASCII/PT60M</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Magnetometer 1-hr data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
             <Description>This data set contains Pioneer 10 1-hr averaged magnetic field vectors in RTN coordinates during the cruise phase in ASCII format.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -12,6 +12,7 @@
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_PION10_HDR_MAG_1HR</PriorID>
             <PriorID>spase://VSPO/NumericalData/Pioneer10/MAG/PT60M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Pioneer10/MAG/ASCII/PT60M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

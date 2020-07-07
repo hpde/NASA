@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/LB/Browse/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-A/PLASTIC/LB/Browse/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A Plasma and Supra-Thermal Ion Composition (PLASTIC) Beacon Browse Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
       <Description>The STEREO-A PLASTIC Beacon data has not been validated and should not be used for publication purposes</Description>
       <Acknowledgement>A.B. Galvin, Please acknowledge the Principal Investigator, Antoinette Galvin of the University of New Hampshire, and NASA contract NAS5-00132 See the rules of use available at http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm.</Acknowledgement>
       <Contact>
@@ -25,6 +25,7 @@
         <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
         <Description>PLASTIC Index Web Page at University of New Hampshire</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/LB/Browse/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

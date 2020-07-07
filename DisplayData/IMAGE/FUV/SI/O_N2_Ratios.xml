@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/IMAGE/FUV/SI/O_N2_Ratios</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/IMAGE/FUV/SI/O_N2_Ratios</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE FUV SI plots of O/N2 Ratios</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:33Z</ReleaseDate>
             <Description>This data set consists of images of thermospheric
 O/N2 column density ratios at 2-min resolution during times of strong
 geomagnetic storms (Dst.LT.-80nT) of 2000-2005. The ratios are generated
@@ -24,6 +24,7 @@ SI images.</Description>
                 <Name>Data descriptive text at JHU_APL</Name>
                 <URL>https://image.gsfc.nasa.gov/index.php?documentation</URL>
 </InformationURL>
+            <PriorID>spase://VSPO/DisplayData/IMAGE/FUV/SI/O_N2_Ratios</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

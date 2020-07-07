@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level3/SolarWindMomentsFits/PT0.2185S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level3/SolarWindMomentsFits/PT0.2185S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPC Ion Number Density, Velocity, and Thermal Speed Momemts and Fits, Level 3 (L3), 0.2185 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:07Z</ReleaseDate>
          <Description>SPC Level 3 Ion Data
 --------------------
 
@@ -76,6 +76,7 @@ NASA open data policy applies. Consultation with the instrument team is strongly
             <URL>http://sweap.cfa.harvard.edu/Data.html</URL>
             <Description>Parker Solar Probe, PSP, SWEAP Data Access web site, Smithsonian Astrophysical Observatory</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level3/SolarWindMomentsFits/PT0.2185S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

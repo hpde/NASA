@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/CA60/PHA/Sectored/Ion/SEP_Event/CountRates/PT17M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ACE/EPAM/CA60/PHA/Sectored/Ion/SEP_Event/CountRates/PT17M</ResourceID>
       <ResourceHeader>
          <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) CA60 PHA Sectored Ion SEP Event Accumulated Count Rates, 17 min Averages</ResourceName>
          <AlternateName>EPAM-PHA-EVENT</AlternateName>
-         <ReleaseDate>2018-01-30T18:01:30</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:06Z</ReleaseDate>
          <ExpirationDate>2008-10-01T00:00:00.000</ExpirationDate>
          <Description>Synchronously accumulated rates for the Composition Aperture channels used in the Pulse Height Analyzer matrix data.</Description>
          <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
@@ -20,10 +20,11 @@
             <Description>The Explanation HTML page at Fundamental Technologies describes how the numeric data from the ACE EPAM instrument are divided into different print-groups, the nomenclature of the ASCII-based comma-separated variable (CSV) files, and how those files can be accessed.</Description>
          </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/ACE/EPAM/CA60/PHA/Ion/SEP_Event/MatrixData/PT17M</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/ACE/EPAM/CA60/PHA/Ion/SEP_Event/MatrixData/PT17M</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <PriorID>spase://VEPO/NumericalData/ACE/EPAM/PHA/G121</PriorID>
+          <PriorID>spase://VSPO/NumericalData/ACE/EPAM/CA60/PHA/Sectored/Ion/SEP_Event/CountRates/PT17M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/FTECS</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/THEMIS/C/ESA.FGM/PT96S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/C/ESA.FGM/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>ARTEMIS P2 field-plasma merged data, near moon</ResourceName>
       <AlternateName>THEMIS-C field-plasma merged data, near moon</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:25Z</ReleaseDate>
       <Description>This data set contains 96s and 384s resolution
 magnetic field and plasma ion data from the THEMIS-C ESA and FGM 
 instruments during the near moon (ARTEMIS) phase of the spacecraft
@@ -43,6 +43,7 @@ and Natalia Papitashvili at GSFC/SPDF</Acknowledgement>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/merged/ascii/00readme_themisc.txt</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/C/ESA.FGM/PT96S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/C/ESA.FGM/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

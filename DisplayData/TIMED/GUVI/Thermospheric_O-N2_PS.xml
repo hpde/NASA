@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <DisplayData>
-      <ResourceID>spase://VSPO/DisplayData/TIMED/GUVI/Thermospheric_O-N2_PS</ResourceID>
+      <ResourceID>spase://NASA/DisplayData/TIMED/GUVI/Thermospheric_O-N2_PS</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI L3 Thermospheric O/N2 PS Images</ResourceName>
-         <ReleaseDate>2018-01-18T21:28:21.833</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
          <Description>Thermospheric O/N2 daily maps of the thermospheric column number density ratio of O and N2 referenced at N2 column number density level of 10E17 cm-2.</Description>
          <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvitimed.jhuapl.edu/home_guvi-datausage.</Acknowledgement>
          <Contact>
@@ -24,6 +24,7 @@
             <URL>http://guvitimed.jhuapl.edu/data_status_l3_on2_ps</URL>
          </InformationURL>
          <PriorID>spase://VITMO/DisplayData/TIMED/GUVI/Thermospheric_O-N2_PS</PriorID>
+          <PriorID>spase://VSPO/DisplayData/TIMED/GUVI/Thermospheric_O-N2_PS</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

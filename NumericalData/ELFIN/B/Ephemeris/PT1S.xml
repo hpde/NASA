@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ELFIN/B/Ephemeris/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ELFIN/B/Ephemeris/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>ELFIN B Ephemeris (State) CubeSat Position, Velocity, Attitude, Spin Rate, and Spin Phase, Level 1 (L1), 1 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
          <Description>The Electron Losses and Fields Investigation (ELFIN) Mission is a Space Weather Mission using three Scientific Instruments in a 3U+ CubeSat. The Instruments measure Wave and Particle Data. This Data Product is a Probe State File that contains CubeSat Position, Velocity, Spin Attitude, Spin Rate, and Spin Phase Data.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos, NASA, and NSF for providing the Data. Open Data for Scientific Use.</Acknowledgement>
          <Contact>
@@ -30,6 +30,7 @@
             <URL>https://elfin.igpp.ucla.edu/adcs</URL>
             <Description>ELFIN Attitude Determination and Control Subsystem, ADCS, Web Page, University of California, Los Angeles</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ELFIN/B/Ephemeris/PT1S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

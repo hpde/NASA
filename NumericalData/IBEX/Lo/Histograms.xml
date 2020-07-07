@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Histograms</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Lo/Histograms</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo Histograms</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:37Z</ReleaseDate>
             <Description>Each record captures the number of arriving ENA's
 of a specific energy band, coincidence type, species (hydrogen or 
 oxygen) and spin phase.  Data for each full ~15s spacecraft spin 
@@ -27,6 +27,7 @@ are in ASCII.</Description>
                 <Description>This file was created by the IBEX team.</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Lo/Histograms</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Lo/Histograms</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

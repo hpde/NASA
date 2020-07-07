@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/SWOOPS/ElectronParams/PT335.00S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/SWOOPS/ElectronParams/PT335.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses SWOOPS Electron N and T Parameters Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:49Z</ReleaseDate>
       <Description>Full resolution Ulysses/SWOOPS Total, Core and Halo Electron Densities and Temperatures</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_SWOOPS_CDAWEB_ELECTRONS_ELS</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/SWOOPS/ElectronParams/PT335.00S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Predicted Orbit, 1 min Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
       <Description>Polar orbit data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
@@ -17,6 +17,7 @@
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDORBIT_60S</PriorID>
       <PriorID>spase://VMO/NumericalData/POLAR/Ephemeris/PT01M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/PT60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

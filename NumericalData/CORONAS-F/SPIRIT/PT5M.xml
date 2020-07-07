@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/CORONAS-F/SPIRIT/PT5M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/CORONAS-F/SPIRIT/PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>CORONAS-F Full Sun XUV Spectroscopy Imaging (SPIRIT) Data</ResourceName>
-            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:29Z</ReleaseDate>
             <Description>Data from the Full Sun XUV Spectroscopy Imaging (SPIRIT) onboard CORONAS-F.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/I.A.Zhitnik</PersonID>
@@ -14,6 +14,7 @@
                 <Name>Information about SPIRIT Data</Name>
                 <URL>http://coronas.izmiran.ru/F/SPIRIT//</URL>
             </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/CORONAS-F/SPIRIT/PT5M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>

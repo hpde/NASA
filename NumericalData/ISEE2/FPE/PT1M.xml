@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE2/FPE/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE2/FPE/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 FPE plasma parameters, 6 Re to bow shock</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
       <Description>TBD</Description>
       <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling</Acknowledgement>
       <Contact>
@@ -17,6 +17,7 @@
         <URL>ftps://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/ISEE2/FPE/PT1M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ISEE2/FPE/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

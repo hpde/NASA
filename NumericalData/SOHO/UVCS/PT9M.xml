@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/SOHO/UVCS/PT9M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/SOHO/UVCS/PT9M</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO UVCS Data</ResourceName>
-             <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+             <ReleaseDate>2020-07-07T21:15:19Z</ReleaseDate>
             <Description>SOHO/UVCS (Ultraviolet Coronagraph Spectrometer) Spectral Data Files from SDAC via VSO</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.L.Kohl</PersonID>
                 <Role>PrincipalInvestigator</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_SOHO_HDR_UVCS</PriorID>
+            <PriorID>spase://VSPO/NumericalData/SOHO/UVCS/PT9M</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/SDAC</RepositoryID>

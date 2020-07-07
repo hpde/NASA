@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/Svalgaard/Sector.Boundary.Crossing</ResourceID>
+        <ResourceID>spase://NASA/Catalog/Svalgaard/Sector.Boundary.Crossing</ResourceID>
         <ResourceHeader>
             <ResourceName>L. Svalgaard's Interplanetary Sector Boundary Crossing List</ResourceName>
-            <ReleaseDate>2019-03-04T20:01:29Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>This list of interplanetary sector boundary crossings,
 now spanning 1926-2011, has been compiled by Leif Svalgaard from ground 
 magnetometer data and in situ interplanetary magnetic field observations 
@@ -25,6 +25,7 @@ event list</Acknowledgement>
                 <Description>Link to Svalgaard and other sector boundary crossing lists</Description>
             </InformationURL>
             <PriorID>spase://VSPO/Catalog/Svalgaard_SB_List</PriorID>
+            <PriorID>spase://VSPO/Catalog/Svalgaard/Sector.Boundary.Crossing</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/WSO</RepositoryID>

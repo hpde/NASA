@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Angular_Histograms</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Lo/Angular_Histograms</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo Angular Histograms</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:37Z</ReleaseDate>
             <Description>Each table (CSV file) captures the numbers 
 of counts of arriving energetic neutral atoms, as integrated 
 over a full 8-day orbit, for a single IBEX-Lo energy step, 
@@ -26,6 +26,7 @@ species categories.</Description>
                 <Description>This file was created by the IBEX team.</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Lo/Angular_Histograms</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Lo/Angular_Histograms</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

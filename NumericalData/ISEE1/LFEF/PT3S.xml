@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE1/LFEF/PT3S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE1/LFEF/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 2-D, 3-sec Electric Field Data, offline at NSSDC</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
       <Description>of GSE X and Y components of the electric field; spacecraft potential, wave power in three frequency bands (3-14 Hz, 14-80 Hz, 120-600 Hz), spacecraft position in GSM, and 3-sec magnetic field data from the UCLA magnetometer.  Uncertainty in Ex is 1-2 mV/meter, and less in Ey.  Data values are binary integers.</Description>
       <Acknowledgement>Please acknowledge the PI, Dr. Forrest Mozer of UCB, and NSSDC</Acknowledgement>
       <Contact>
@@ -21,6 +21,7 @@
         <URL>https://nssdc.gsfc.nasa.gov/nmc/dataset/display.action?id=SPMS-00238</URL>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/SPMS-00238</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ISEE1/LFEF/PT3S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

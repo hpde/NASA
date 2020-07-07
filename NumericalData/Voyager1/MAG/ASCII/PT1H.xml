@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/ASCII/PT1H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/MAG/ASCII/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 1-hr Averaged  Triaxial Fluxgate Magnetometer (MAG) Interplanetary Magnetic Field in ASCII Format</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:53Z</ReleaseDate>
       <Description>                                        
       This data set contains hour averages of the interplanetary magnetic     
       field (IMF) measurements obtained by the triaxial fluxgate magnetometer 
@@ -64,6 +64,7 @@
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_MAG_1HR_ASC</PriorID>
       <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/PT1H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/ASCII/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

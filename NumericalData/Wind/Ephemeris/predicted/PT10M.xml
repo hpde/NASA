@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Wind/Ephemeris/predicted/PT10M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Wind/Ephemeris/predicted/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind predicted Spacecraft Positions, 10 min Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
       <Description>Predicted (calculated) Wind spacecraft positions in various coordinate systems</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -17,6 +17,7 @@
 </Contact>
       <PriorID>spase://VHO/NumericalData/Wind/Ephemeris/predicted_PT10M</PriorID>
       <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/PT600S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/predicted/PT10M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>

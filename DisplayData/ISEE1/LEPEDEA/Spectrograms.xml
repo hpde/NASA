@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/ISEE1/LEPEDEA/Spectrograms</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/ISEE1/LEPEDEA/Spectrograms</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 1 LEPEDEA Ion and Electron Spectrograms</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
             <Description>This data set consists of a set of daily files
 with GIF-formatted spectrograms displaying color coded ion flux levels
 as functions of time and of energy level, in each of 4 look-direction 
@@ -26,6 +26,7 @@ team at U. Iowa, L.A. Frank, Principal Investigator</Acknowledgement>
                 <Name>LEPEDEA Web site</Name>
                 <URL>http://www-pi.physics.uiowa.edu/lep/</URL>
             </InformationURL>
+            <PriorID>spase://VSPO/DisplayData/ISEE1/LEPEDEA/Spectrograms</PriorID>
             <PriorID>spase://VSPO/DisplayData/ISEE1/LEPEDEA/Spectrograms</PriorID>
         </ResourceHeader>
         <AccessInformation>

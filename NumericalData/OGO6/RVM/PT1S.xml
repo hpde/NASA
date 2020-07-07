@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/OGO6/RVM/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/OGO6/RVM/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>OGO 6 Magnetic Survey, Rubidium Vapor Magnetometer data</ResourceName>
-      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
       <Description>The OGO-6 Rubidium Vapor Magnetometer data files give the spacecraft position in ECEF coordinates and the magnetic field magnitude at 1 s resolution.</Description>
       <Acknowledgement>National Aeronautics and Space Administration; Dr. Nelson W. Spencer; Dr. Robert A. Langel, III; Dr. Joseph C. Cain; Technical University of Denmark National Space Institute</Acknowledgement>
       <Contact>
@@ -21,6 +21,7 @@
         <Role>MetadataContact</Role>
       </Contact>
       <PriorID>spase://VMO/NumericalData/OGO/6/RVM/PT1S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/OGO6/RVM/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/OGO6</RepositoryID>

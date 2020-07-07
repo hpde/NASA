@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/PT1M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A multi-instrument Level 1 IMPACT data from UCB</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
             <Description>Level 1 data from each of the several IMPACT instruments,
 in CDF.  Time resolutions range from 0.125s (MAG) to 1m (SEPT, LET, HET).
 Full spectral and directional resolution is preserved in the data. Links 
@@ -25,6 +25,7 @@ for the instrument(s) whose data you are using. (cf. web site)</Acknowledgement>
                 <URL>http://stereo.ssl.berkeley.edu/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/L1</PriorID>
+            <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/PT1M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>

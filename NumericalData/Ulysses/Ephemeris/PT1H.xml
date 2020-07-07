@@ -2,16 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/Ephemeris/PT1H</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/Ephemeris/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Spacecraft Positions</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
          <Description>Ulysses spacecraft positions data product generated at Helioweb (http://cohoweb.gsfc.nasa.gov/helios/heli.html)</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
          <PriorID>spase://VHO/NumericalData/Ulysses/Ephemeris/PT1H</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/Ephemeris/PT1H</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema file:/C:/Projects/Voyager/spase-2_2_2.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/PRA/Jupiter/PT48S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/PRA/Jupiter/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Jupiter Planetary Radio Astronomy (PRA) Resampled Summary Browse 48 s Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:54Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -111,6 +111,7 @@ A Set of derived Parameters consisting of Power Fluxes at various contiguous Fre
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/PRA/Jupiter/PT48S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/PRA/Jupiter/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

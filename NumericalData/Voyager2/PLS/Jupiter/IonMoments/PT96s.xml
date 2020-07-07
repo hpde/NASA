@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PLS/Jupiter/IonMoments/PT96S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/PLS/Jupiter/IonMoments/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Jupiter Plasma Science (PLS) Derived Ion Moments, Version 1.1, 96 s Data</ResourceName>
-      <ReleaseDate>2019-06-12T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:16:00Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -83,6 +83,7 @@ Many different Forms of Ion Density are derived. Some are distinguished by their
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager2/PLS/Jupiter/PT96.0S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Voyager2/PLS/Jupiter/MMode/PT96S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/PLS/Jupiter/IonMoments/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

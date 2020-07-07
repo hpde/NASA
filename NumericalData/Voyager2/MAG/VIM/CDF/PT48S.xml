@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data Near and Beyond Termination Shock in CDF Format</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:59Z</ReleaseDate>
       <Description>The main science objectives for the Voyager Interplanetary Mission, VIM, are as follows:
                       - investigate the structure of the solar wind magnetic fields and plasma in the inner and outer heliosphere;
                       - conduct long term study of heliospheric evolution during different phases of the 22-year solar magnetic cycle and the 11-year solar activity cycle;
@@ -38,6 +38,7 @@
         <URL>https://cohoweb.gsfc.nasa.gov</URL>
         <Description>Voyager 2 merged Magnetic Field and Ephemeris Data from COHOWeb</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

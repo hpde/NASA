@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/SEE/L3</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/SEE/L3</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED SEE Level 3 Solar Irradiance Data</ResourceName>
-         <ReleaseDate>2018-01-18T21:30:14.793</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
          <Description>SEE Level 3 data files contain one daily averaged solar irradiance spectrum in 1 nm intervals extracted from the EGS Level 2 and XPS Level 2 data products. Shortward of 27 nm, a solar model is scaled to match the XPS broadband data. SEE Level 3 data files also contain 38 emission lines extracted from EGS Level 2 spectra, and the XPS Level 2 diode irradiances.
 
 For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 minutes), which usually gives 14-15 measurements per day. The SEE Level 3 data are time averaged over the entire day, after applying corrections for atmospheric absorption, degradation, flare removal, and to 1-AU.</Description>
@@ -18,6 +18,7 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
             <URL>http://lasp.colorado.edu/home/see/data/daily-averages/level-3/</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/SEE/L3</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/SEE/L3</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/SEE_POC</RepositoryID>

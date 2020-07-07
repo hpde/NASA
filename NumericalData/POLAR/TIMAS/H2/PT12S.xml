@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/TIMAS/H2/PT12S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/TIMAS/H2/PT12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIMAS H2 Level 1 Ion Upflowing Fluxes Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
       <Description>H+, O+, He+ and He++ upflowing fluxes and statistical uncertainties processed by the TIMAS science team.These data were used in preparing several papers, see Information URLs.
             Includes also non-TIMAS Data:
             UT,
@@ -71,6 +71,7 @@
         <Description>The Seasonal Variation of Auroral Ion Beams, H.L. Collin, W.K. Peterson, O.W. Lennartsson, and J.F. Drake, Geophysical Research Letters, 25, 4071, 1998.</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/POLAR/TIMAS/H2_PT12S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/TIMAS/H2/PT12S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/TIMAS_H2</RepositoryID>
@@ -119,9 +120,9 @@
     <Caveats>Several compromises were made in assembling the data base. In particular background subtraction, short averaging intervals and the normally low count rates for minor ions (O+, He+, and He++) lead to many data intervals where the data values reported are not statistically significant. The data files therefore contain many diagnostic parameters and data quality flags.</Caveats>
     <Keyword>Energetic Ion Mass-Energy Spectra</Keyword>
     <Keyword>Net outflowing number flux</Keyword>
-    <InputResourceID>spase://VSPO/NumericalData/POLAR/TIMAS/H0/PT12S</InputResourceID>
-    <InputResourceID>spase://VSPO/NumericalData/Wind/MFI/PT03S</InputResourceID>
-    <InputResourceID>spase://VSPO/NumericalData/POLAR/MFE/PT55S</InputResourceID>
+    <InputResourceID>spase://NASA/NumericalData/POLAR/TIMAS/H0/PT12S</InputResourceID>
+    <InputResourceID>spase://NASA/NumericalData/Wind/MFI/PT03S</InputResourceID>
+    <InputResourceID>spase://NASA/NumericalData/POLAR/MFE/PT55S</InputResourceID>
     <Parameter>
       <Name>Center Epoch for H_Fluence</Name>
       <ParameterKey>H_Epoch</ParameterKey>

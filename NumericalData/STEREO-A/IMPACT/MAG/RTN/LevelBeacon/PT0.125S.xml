@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/RTN/LevelBeacon/PT0.125S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/MAG/RTN/LevelBeacon/PT0.125S</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG) Magnetic Field Vectors, in Radial-Tangential-Normal (RTN) Coordinates, Level Beacon (LB), PT0.125S Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
          <Description>STEREO Ahead reprocessed IMPACT/MAG Beacon magnetic field vector component and vector magnitude data expressed in Heliographic, HG, Radial-Tangential-Normal, RTN, Cartesian coordinates around the 2015 solar conjunction.
 
 * Version 1: Used internally at UCB and UCLA ONLY, No corrections applied to raw MAG data
@@ -34,6 +34,7 @@
             <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
             <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, experiment and data descriptions, web site hosted by UC Berkeley</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/RTN/LevelBeacon/PT0.125S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

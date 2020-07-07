@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar (Charge and Mass Magnetospheric Ion Composition) CAMMICE 3-Min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
       <Description>Polar CAMMICE (Charge and Mass Magnetospheric Ion Composition) Key Parameters, H, He, O Count Rates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
@@ -17,6 +17,7 @@
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_CAMMICE-PARAM_204S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/Polar/CAMMICE/MICS/PT3M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

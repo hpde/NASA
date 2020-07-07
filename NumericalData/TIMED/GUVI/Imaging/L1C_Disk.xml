@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI Imaging Level 1C Disk</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
       <Description>This Level 1C data product measured over multiple scans on the disk contains data directly measure by the sensors such as photometer counts, uncertainties, light intensities and pointing information derived from the GUVI raw sensor data and the TIMED Satellite ephemeris data. The data are geolocated at a 150 km altitude, then gridded and binned to a 25 km X 25 km resolution GUVI-based coordinate system consisting of the along orbit position of the sensor and the angle of the scan from the nadir position. This gridding eliminates overlap from scan to scan due to the large instantaneous field-of-view of GUVI (about 12 degrees) and involves coaddition to place the values on a uniform instrument shared grid. The data is then determined whether its from day, night, aurora or twilight pixels.</Description>
       <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       <Contact>
@@ -17,6 +17,7 @@
         <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf</URL>
       </InformationURL>
       <PriorID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
+        <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

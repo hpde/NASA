@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT1M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Andenes (AND) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:29Z</ReleaseDate>
          <Description>Andenes, Norway, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (AND), Station Location: (GEO Latitude 69.3, Longitude 16.0), TGO Network</Description>
          <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
             <Description>Main menu for access to magnetic field data</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT1M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Andenes/Magnetometer/PT1M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/SOHO/CELIAS/PT30S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/SOHO/CELIAS/PT30S</ResourceID>
       <ResourceHeader>
          <ResourceName>SOHO Charge, Element, and Isotope Analysis System (CELIAS) Proton Monitor 30 Second Solar Wind data</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:18Z</ReleaseDate>
          <Description>The Proton Monitor is a solar wind Energy per Charge (E/Q) analyzer of a new design, consisting of a three-box deflection system followed by a wedge-shaped MicroChannel Plate (MCP) assembly. The data are derived from sets of 6 rates (one for each voltage step of the PM deflection system) obtained every 30 seconds. The voltage steps are spaced logarithmically (about 60% step size) from about 0.3 to 3 kV. At a given voltage step the energy per charge dynamic range is slightly more than a factor of 2. The overall geometry factor of the PM is about 1.0 x 10**-4 cm**2.</Description>
          <Acknowledgement>Please acknowledge the University of Maryland Space Physics Group</Acknowledgement>
          <Contact>
@@ -18,6 +18,7 @@
             <Description>Site hosting instrument information, some data and plots for SOHO Celias PM</Description>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/SOHO/CELIAS/PT30S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/SOHO/CELIAS/PT30S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

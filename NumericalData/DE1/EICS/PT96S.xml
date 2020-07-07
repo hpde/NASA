@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE1/EICS/PT96S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE1/EICS/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 1 Energetic Ion Composition Spectrometer (EICS) Validated Summary Data</ResourceName>
       <AlternateName>Dynamics Explorer 1 EICS Validated Summary Data</AlternateName>
       <AlternateName>DE-A EICS Validated Summary Data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>This Validated Summary (VS) data set from the DE 1 Energetic Ion Composition Spectrometer (EICS) contains 96-second averaged fluxes (in units of 1/(cm^2-sec-sr-keV) ) for H+, O+, and He+ ions in 15 energy (~0.01 to ~20 keV) and 14 pitch angle bins. It also includes data uncertainties, data quality indicators, and spacecraft position. Data are in CDF format from CDAWeb.</Description>
       <Acknowledgement>Please acknowledge the EICS Principal Investigator, Dr. E. G. Shelley</Acknowledgement>
       <Contact>
@@ -19,6 +19,7 @@
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/DE1/EICS/VS</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE1/EICS/PT96S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

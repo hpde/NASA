@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/EPAC/GSFC/SPDF/PT3600.00S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/EPAC/GSFC/SPDF/PT3600.00S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses EPAC hourly rates and fluxes, CDAWeb</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
       <Description>Hourly proton and electron fluxes with spectral and directional information</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.Bruns</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_EPAC_CDAWEB_RATES_DIGITAL</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/EPAC/GSFC/SPDF/PT3600.00S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

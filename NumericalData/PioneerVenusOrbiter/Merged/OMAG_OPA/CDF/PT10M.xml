@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer Venus Orbiter (PVO) Magnetometer, OMAG, Plasma Analyzer, OPA, Merged Solar Wind Data, 10 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
          <Description>Pioneer Venus Orbiter, PVO, was the first orbiter mission designed to conduct a comprehensive and long term investigation of the planet Venus. PVO measured the detailed structure of the upper atmosphere and ionosphere of Venus and investigated the interaction of the solar wind with the Venusian ionosphere. Over the years from 1978 to 1992, PVO provided nearly continuous measurements of the solar wind from its highly eccentric orbit around Venus.
 
 * PI, magnetic field instrument: C.T. Russell, University of California, Los Angeles
@@ -55,6 +55,7 @@ This merged data includes 10-minute averages for selected parameters of the inte
             <Description>General information concerning the Pioneer Venus Orbiter, Solar Wind Plasma Analyzer, OPA, instrument</Description>
             <Language>en</Language>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

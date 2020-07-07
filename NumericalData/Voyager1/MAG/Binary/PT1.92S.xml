@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Binary/PT1.92S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/MAG/Binary/PT1.92S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 1.92-s Averaged Triaxial Fluxgate Magnetometer (MAG) Interplanetary Magnetic Field in Binary Format</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:53Z</ReleaseDate>
       <Description>This data set includes the Voyager spacecraft number (1 or 2), the date-time in
 decimal year (90.00000 is day 1 of 1990), the magnetic field strength F1
 computed from high-resolution magnitudes, the elevation and azimuth angles
@@ -96,6 +96,7 @@ Processes in the Outer Heliosphere,  L. F. Burlaga.</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_MAG_1.92S_BIN</PriorID>
       <PriorID>sspase://VSPO/NumericalData/Voyager1/MAG/PT1.92S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/Binary/PT1.92S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</RepositoryID>

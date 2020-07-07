@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</ResourceID>
     <ResourceHeader>
       <ResourceName>Explorer 35 Goddard Space Flight Center Magnetometer data</ResourceName>
       <AlternateName>IMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>IMP-E Goddard Space Flight Center Magnetometer data</AlternateName>
       <AlternateName>AIMP 2 Goddard Space Flight Center Magnetometer data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
       <Description>This data set, from the GSFC magnetometer on the lunar- orbiting Explorer 35 spacecraft, contains 81.92s averages, taken over 5.12s values, of the magnetic field magnitude and Cartesian components in GSE and GSM coordinates, plus the standard deviations for field magnitude and GSE component averages. The spacecraft position vector is given in GSE, GSM and SSE (Selenocentric Solar Ecliptic) coordinates. Additional parameters in the data records relate to field data in payload coordinates, spacecraft spin rate and spin axis direction, relative variability of the field vector and its magnitude, and various quality flags. The data are available in annual ASCII files.</Description>
       <Acknowledgement>To the instrument PI, Norman F. Ness, and to the Space Physics Data Facility at Goddard</Acknowledgement>
       <Contact>
@@ -21,6 +21,7 @@
 </InformationURL>
       <PriorID>spase://VHO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</PriorID>
       <PriorID>spase://VMO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Explorer35/GSFC_Magnetometer/PT82S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

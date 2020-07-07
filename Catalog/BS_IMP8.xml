@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <Catalog>
-    <ResourceID>spase://VSPO/Catalog/BS_IMP8</ResourceID>
+    <ResourceID>spase://NASA/Catalog/BS_IMP8</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 bow shock crossings</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
       <Description>A complete list of bow shock crossings observed by IMP 8 spacecraft. The shock crossings were manually identified in magnetic field and/or thermal plasma measurements by J. Merka, A. Szabo, K. Paularena, J. Richardson, and T. Narock.
       Each identified crossing was reviewed by at least two persons from the team.
      
@@ -18,6 +18,7 @@
         <Role>DataProducer</Role>
 </Contact>
       <PriorID>spase://VMO/Catalog/BS_IMP8</PriorID>
+      <PriorID>spase://VSPO/Catalog/BS_IMP8</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

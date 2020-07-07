@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/THEMIS/B/SCM/PT0.125S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/B/SCM/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-B: Search Coil Magnetometer 1/8s, 1/128s and 1/8192s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:25Z</ReleaseDate>
       <Description>THEMIS-B: Search Coil Magnetometer (SCM) magnetic field measurements. Includes FAST SURVEY, PARTICLE BURST and WAVE BURST data. FAST SURVEY (SCF): 1/8 second time resolution. PARTICLE BURST (SCP): 1/128 second time resolution; only short bursts of data. WAVE BURST (SCW): 1/8192 second time resolution; only short bursts of data. Sensor and electronics design provided by LPP, Roux and Le Contel. SCM Telemetry Modes (Only first 3 apply to level 2 SCM products): +-------------------------------------------------------------------------------------------------------------------------+   Fast Survey (scf)   Waveform data for the 3 SCM components; sampling rate between 2 and 256 S/s, nominal value is 8.     Particle Burst (scp)   Waveform data nominally at 128 S/s.     Wave Burst (scw)   Waveform data nominally at 8192 S/s.     Filter Bank (fbk)^   Mean signal value over 6 frequency bands (4-2 kHz, 1-0.5 kHz, 256-128 Hz, 64-32 Hz, 16-8 Hz.     Particle Burst Spectra (ffp)^^   Compressed FFT spectra in 16, 32, or 64 frequency bins; sampling between 1/4 to 8 S/s.     Wave Burst Spectra (ffw)^^   Compressed FFT spectra in 16, 32, or 64 frequency bins; sampling between 1/4 to 8 S/s.   +-------------------------------------------------------------------------------------------------------------------------+ * ^Only two available inputs between all 3 SCM and 12 EFI data signals. * ^^Only four available inputs between 3 SCM and 16 other data signals.</Description>
       <Acknowledgement>NASA Contract NAS5-02099, V. Angelopoulos for use of data from the THEMIS Mission; also A. Roux and CETP for their work on the SCM.</Acknowledgement>
       <Contact>
@@ -27,6 +27,7 @@
         <Description>Details on THEMIS data policy and giving proper credits in publications.</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/B/SCM/PT0.125S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/B/SCM/PT0.125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

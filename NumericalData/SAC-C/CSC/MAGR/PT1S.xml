@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SAC-C/CSC/MAGR/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SAC-C/CSC/MAGR/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>SAC-C Mag-R: Calibrated CSC and raw IST data</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
       <Description>This dataset contains 1 second measurements of the magnetic field vector from the Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer and matrices describing rotation from J2000 reference system to stellar compass coordinate system and Earth Centered, Earth Fixed polar coordinates to J2000 reference system on the SAC-C spacecraft.</Description>
       <Acknowledgement>Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Space Research Institute (Denmark); National Commission of Space Activities (CONAE) (Argentina); Instituto Nacional de Pesquisas Espaciais, Brazil (Brazil); Agenzia Spaziale Italiana (Italy)</Acknowledgement>
       <Contact>
@@ -17,6 +17,7 @@
         <Role>MetadataContact</Role>
 </Contact>
       <PriorID>spase://VMO/NumericalData/SAC-C/CSC/MAGR/PT1S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/SAC-C/CSC/MAGR/PT1S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SAC-C</RepositoryID>

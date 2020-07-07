@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Rankin.Inlet/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Rankin.Inlet/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Rankin Inlet (RANK) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:35Z</ReleaseDate>
          <Description>Rankin Inlet, NU, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (RANK), Station Location: (GEO Latitude 62.8, Longitude 267.9), THEMIS GBO/Carisma Network</Description>
          <Acknowledgement>Please acknowledge I. Mann, (University of Alberta)</Acknowledgement>
          <Contact>
@@ -36,6 +36,7 @@
             <Description>THEMIS</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Rankin.Inlet/Magnetometer/PT0.5S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Rankin.Inlet/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

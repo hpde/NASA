@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <Annotation>
-    <ResourceID>spase://VSPO/Annotation/Alysha.Reinard/MagneticCloud/STEREO-B.2007-05-22T03_36_00</ResourceID>
+    <ResourceID>spase://NASA/Annotation/Alysha.Reinard/MagneticCloud/STEREO-B.2007-05-22T03_36_00</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic cloud observed by STEREO-B</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:06:17Z</ReleaseDate>
       <Description>MC identified based on strong magnetic fields, large magnetic field rotation, enhanced helium/proton density ratio, and depressed proton temp
      
       temperatures were calculated because actual measurements were not available
@@ -29,10 +29,11 @@
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <Association>
-        <AssociationID>spase://VSPO/Annotation/Alysha.Reinard/MagneticCloud/STEREO-A.2007-05-21T19_12_00</AssociationID>
+        <AssociationID>spase://NASA/Annotation/Alysha.Reinard/MagneticCloud/STEREO-A.2007-05-21T19_12_00</AssociationID>
         <AssociationType>Other</AssociationType>
 </Association>
       <PriorID>spase://VHO/Annotation/Alysha.Reinard/MagneticCloud/STEREO-B.2007-05-22T03_36_00</PriorID>
+      <PriorID>spase://VSPO/Annotation/Alysha.Reinard/MagneticCloud/STEREO-B.2007-05-22T03_36_00</PriorID>
 </ResourceHeader>
     <AnnotationType>Event</AnnotationType>
     <PhenomenonType>MagneticCloud</PhenomenonType>

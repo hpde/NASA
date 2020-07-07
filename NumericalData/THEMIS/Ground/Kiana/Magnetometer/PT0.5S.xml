@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Kiana/Magnetometer/PT0.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Kiana/Magnetometer/PT0.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Kiana (KIAN) Ground-based Vector Magnetic Field (L2) 0.5 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:32Z</ReleaseDate>
          <Description>Kiana, AK, Ground-based Vector Magnetic Field Level 2 Data, 0.5 s Time Resolution, Station Code: (KIAN), Station Location: (GEO Latitude 67.0, Longitude 199.6), THEMIS EPO/UCLA Network</Description>
          <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell, (University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
          <Contact>
@@ -40,6 +40,7 @@
             <Description>THEMIS</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Kiana/Magnetometer/PT0.5S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Kiana/Magnetometer/PT0.5S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

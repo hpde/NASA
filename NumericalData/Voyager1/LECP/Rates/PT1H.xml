@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/Rates/PT1H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/LECP/Rates/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Low-Energy Charged Particle (LECP) Average Filtered Rate Data in ASCII Format hourly</ResourceName>
       <AlternateName>V1-LECP-RATES--PT1H</AlternateName>
-      <ReleaseDate>2018-02-23T19:45:49Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:53Z</ReleaseDate>
       <ExpirationDate>2100-12-01T00:00:00.000</ExpirationDate>
       <Description>Count Rates, All Sectors, Voyager1, LECP, Filtered, Channel, CadencePT1H</Description>
       <Acknowledgement>Please acknowledge the LECP PI (S.M. Krimigis)
@@ -29,6 +29,7 @@
         <Description>The webpage provides a detailed description of averaged LECP rates files.</Description>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager1/LECP/Rates.PT1H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/LECP/Rates/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

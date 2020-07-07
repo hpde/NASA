@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Wind/SWE/FaradayCup/IonDistribution/PT92S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Wind/SWE/FaradayCup/IonDistribution/PT92S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Solar Wind Experiment (SWE) Faraday Cup, Solar Wind Plasma Reduced Ion Distribution Functions, 92 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
          <Description>WIND Solar Wind Experiment, SWE, Faraday cup data: this data set contains three-dimensional measurements of ions in the energy range 150 eV to 8 keV. Placed 15&#176; above and below equatorial plane of the spacecraft, the Faraday Cups measure ion charge flux as a function of epoch, cup number, orientation angle, and bias grid potential. For each time point, a full spectrum is comprised of charge flux measurements at the two Faraday cup sensors at 20 azimuth angles for each of 31 energy-per-charge windows with 1240 data points per spectrum. Spectra are built up over approximately 92 s intervals. The effective area of the Faraday cup sensor as a function of incidence angle onto the cup is also provided.</Description>
          <Acknowledgement>Please acknowledge the PI K.W. Ogilvie, NASA GSFC, 301-286-5904, Keith.W.Ogilvie@nasa.gov, and A.J. Lazarus, MIT, 617-253-4284, ajl@space.mit.edu.</Acknowledgement>
          <Contact>
@@ -95,6 +95,7 @@
             <Language>en</Language>
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/Wind/SWE/Faraday-Cup/Ion-Dist/PT92S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Wind/SWE/FaradayCup/IonDistribution/PT92S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

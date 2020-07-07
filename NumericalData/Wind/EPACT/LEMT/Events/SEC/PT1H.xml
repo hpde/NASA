@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/SEC/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Wind/EPACT/LEMT/Events/SEC/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT)/LEMT 1-Hr Spin-Sectored H,He,O,Fe Counts for Events</ResourceName>
-            <ReleaseDate>2018-02-22T15:50:20Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
             <Description>This data set contains hourly counts of H, He, O 
 and Fe nuclei in 16 look directions about the spacecraft spin axis.  
 Counts for each of the four species are given at 2.5-5 MeV/n, and an 
@@ -38,6 +38,7 @@ of B.</Description>
                 <URL>https://vho.nasa.gov/mission/wind/epact/omni/AA_read_me_first.txt</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Wind/EPACT/LEMT/Events/SEC/PT1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/SEC/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>

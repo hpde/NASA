@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/Saturn/PT48S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/MAG/Saturn/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Saturn Magnetic Field in Kronographic L1 Coordinates, Resampled, Version 1.1, 48 s Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:59Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -120,6 +120,7 @@ All Magnetic Field Observations are measured in nT. All of the Magnetic Field Da
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager2/MAG/Saturn/PT48S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/Saturn/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/PHA/Ion/Fluxes/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/HET/PHA/Ion/Fluxes/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Proton and Helium PHA based Fluxes in ASCII Format, Daily Average Data</ResourceName>
          <AlternateName>COSPIN-HET-FLUXES-P1D</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
          <Description>This Data Set contains Daily Average Proton and Helium PHA based Fluxes and Errors from the COSPIN High Energy Telescope (HET) in the approximate Energy Ranges 39-70 MeV/n and 71-94 MeV/n from Day 296, 1990 through Day 181, 2009</Description>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
          <Contact>
@@ -37,6 +37,7 @@
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, Daily Average PHA based Protons and Helium in two Energy Intervals covering the approximate Energy Ranges 39-70 and 71-94 MeV/n</Description>
 </InformationURL>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HET/PH_Fluxes/P1D</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/PHA/Ion/Fluxes/P1D</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

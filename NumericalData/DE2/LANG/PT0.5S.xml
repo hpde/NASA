@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/LANG/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 500ms Langmuir Probe (LANG)  Te and Ni data</ResourceName>
       <AlternateName>Dynamics Explorer 2 LANG data</AlternateName>
       <AlternateName>DE-B LANG data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>This data set contains electron temperatures and
 ion densities obtained at 500ms resolution from the DE 2 Langmuir
 Probe (LANG).  Data are available in ASCII from nssdcftp and in CDF
@@ -36,6 +36,7 @@ Dr. Larry Brace</Acknowledgement>
         <Description>Introduction to the Langmuir Probe (LANG) Observations on DE 2</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/LANG/PT0.5S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/LANG/PT0.5S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Vega1/Ephemeris/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Vega1/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Vega 1 Trajectory Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:50Z</ReleaseDate>
          <Description>Daily Vega 1 position data in Solar Ecliptic and HGI coordinates.</Description>
          <Acknowledgement>National Space Science Data Center(NSSDC), Space Physics Data Facility(SPDF).</Acknowledgement>
          <Contact>
@@ -21,6 +21,7 @@
             <Role>MetadataContact</Role>
          </Contact>
          <PriorID>spase://VHO/NumericalData/Vega1/Ephemeris/P1D</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Vega1/Ephemeris/P1D</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

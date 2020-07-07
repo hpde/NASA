@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/POLAR/VIS/PT240S</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/POLAR/VIS/PT240S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Visible Imaging System 24-sec Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>This dataset contains the investigator-selected Key Parameters from the Polar Visible Imaging System (VIS). The VIS key parameter data set is a survey of auroral activity provided by a series of single images showing a significant area of the auroral zone at visible wavelengths. An auroral image of 256 x 256 pixels is produced approximately every 24 seconds dependent on the integration time and filter selected. Some coordinate information is included for viewer orientation. Coordinates are calculated for a grid of 18 x 18 points corresponding to one pixel out of every 15 x 15 pixel block. In addition, a rotation matrix and a table of distortion-correcting look direction unit vectors are provided for the purpose of calculating coordinates for every pixel.
 
 To facilitate viewing of the images, a mapping of pixel value to a recommended color table based on the characteristics of the selected filter is included with each image.
@@ -18,6 +18,7 @@ The data set also contains various imager-related parameters, plus spacecraft po
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_VIS_K0</PriorID>
+        <PriorID>spase://VSPO/DisplayData/POLAR/VIS/PT240S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

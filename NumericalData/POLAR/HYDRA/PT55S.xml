@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/PT55S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/HYDRA/PT55S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar HYDRA 55-s Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
       <Description>Polar HYDRA 55-s key parameters, electron densities and average energies</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_HYDRA_55S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/HYDRA/PT55S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

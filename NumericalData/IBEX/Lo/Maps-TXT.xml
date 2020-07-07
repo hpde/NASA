@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Lo/Maps-TXT</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Lo/Maps-TXT</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Lo digital maps every 6 months</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:37Z</ReleaseDate>
             <Description>Hydrogen ENA fluxes in each of three IBEX-Lo energy 
 bands in each of 21,600 [720(longitude) by 30(latitude)] bins, 
 accumulated over 6 months.  Bins are defined in J2000 ecliptic 
@@ -22,6 +22,7 @@ separate data product.</Description>
                 <URL>http://ibex.swri.edu/ibexpublicdata/Maps/Lo/Maps_Lo_description.txt</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Lo/Maps_txt</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Lo/Maps-TXT</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

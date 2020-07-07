@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/IMP8/EECA/UMD</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/IMP8/EECA/UMD</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 UMD flux plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
             <Description>12-day plots of IMP8/U. Maryland energetic particle fluxes</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_IMP8_HDR_EECA_UMD</PriorID>
+            <PriorID>spase://VSPO/DisplayData/IMP8/EECA/UMD</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UMD</RepositoryID>

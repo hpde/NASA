@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SCATHA/Science/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SCATHA/Science/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA Science Summary Data</ResourceName>
-      <ReleaseDate>2018-05-11T15:59:36Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
       <Description>SCATHA Science Summary Data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
@@ -21,6 +21,7 @@
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/SCATHA/SC1/SC2/SC3/SC4/SC10/SC11/PT1M</PriorID>
       <PriorID>spase://VMO/NumericalData/SCATHA/summary</PriorID>
+        <PriorID>spase://VSPO/NumericalData/SCATHA/Science/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>

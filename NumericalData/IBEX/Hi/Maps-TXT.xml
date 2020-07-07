@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Hi/Maps-TXT</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Hi/Maps-TXT</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Hi digital maps every 6 months</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:37Z</ReleaseDate>
             <Description>As of this writing (11/5/2010), this product 
 had been issued by the IBEX team in two releases. 
 Release 1 IBEX-Hi map data are superseded by Release 2
@@ -71,6 +71,7 @@ at SWRI: http://ibex.swri.edu/ibexpublicdata/Data_Release_2/)</Description>
                 <URL>http://ibex.swri.edu/ibexpublicdata/Data_Release_2/</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Hi/Maps-TXT</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Hi/Maps-TXT</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

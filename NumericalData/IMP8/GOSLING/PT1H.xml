@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/GOSLING/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/GOSLING/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 LANL hourly averaged plasma data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>IMP 8 LANL hourly solar wind plasma parameter averages</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP8_HDR_LANL_1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/GOSLING/PT1H</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

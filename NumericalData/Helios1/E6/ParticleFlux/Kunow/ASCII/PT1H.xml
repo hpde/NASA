@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Helios1/E6/ParticleFlux/Kunow/ASCII/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Helios1/E6/ParticleFlux/Kunow/ASCII/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Helios 1 E6 (Kunow) Hourly Particle Fluxes in ASCII Format</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:35Z</ReleaseDate>
             <Description>Data set records contain fluxes of protons in 5 energy
 ranges (4-13, 13-27, 27-37, 37-51, &gt;51 MeV), alpha particles in 6 energy ranges
 (2-4, 4-13, 13-27, 27-37, 37-48, &gt;48 MeV/n), and electrons in 2 ranges (0.3-0.8,
@@ -28,6 +28,7 @@ Kiel</Acknowledgement>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Helios1/E6/PT1H</PriorID>
             <PriorID>spase://VEPO/NumericalData/Helios1/E6/ParticleFlux/Kunow/ASCII/PT1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Helios1/E6/ParticleFlux/Kunow/ASCII/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

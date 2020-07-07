@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ACE/ULEIS/Ion/Fluxes/L2/PT1H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ACE/ULEIS/Ion/Fluxes/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Ultra Low Energy Isotope Spectrometer (ULEIS) Ion Fluxes, Level 2, Hourly Data</ResourceName>
-      <ReleaseDate>2019-08-05T15:03:35Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
       <Description>The Ultra Low Energy Isotope Spectrometer measures Ion Fluxes over the Charge Range from H through Ni from about 20 keV/nucleon to 10 MeV/nucleon, thus covering both Suprathermal and Energetic Particle Energy Ranges. Exploratory Measurements of Ultra-Heavy Species (Mass Range above Ni) will also be performed in a more limited Energy Range near 0.5 MeV/nucleon. ULEIS will be studying the Elemental and Isotopic Composition of Solar Energetic Particles, and the Mechanisms by which these Particles are energized in the Solar Corona. ULEIS will also investigate Mechanisms by which Supersonic Interplanetary Shock Waves energize Ions. To avoid Confusion and Misunderstanding, it is recommended that Users consult with the appropriate ACE Team Members before publishing Work derived from the Data. The ACE Team has worked hard to ensure that the Level 2 Data are free from Errors, but the Team cannot accept Responsibility for Erroneous Data, or for Misunderstandings about how the Data may be used. This is especially true if the appropriate ACE Team Members are not consulted before Publication. At the very least, Preprints should be forwarded to the ACE Team before Publication.</Description>
       <Acknowledgement>Please acknowledge the ACE ULEIS Instrument Team and the Principal Investigator Glenn Mason of JHU/APL.</Acknowledgement>
       <Contact>
@@ -23,6 +23,7 @@
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/ACE/ULEIS/L2_PT1H</PriorID>
       <PriorID>spase://VSPO/NumericalData/ACE/ULEIS/PT3600S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ACE/ULEIS/Ion/Fluxes/L2/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

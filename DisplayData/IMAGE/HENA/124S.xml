@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/IMAGE/HENA/124S</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/IMAGE/HENA/124S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE HENA Images, Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
       <Description>IMAGE High Energy Neutral Atom (HENA) images for several energy channels &lt;10 to 60 keV, key parameters,</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.G.Mitchell</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/DisplayData/P_IMAGE_HDR_HENA_124S</PriorID>
+        <PriorID>spase://VSPO/DisplayData/IMAGE/HENA/124S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

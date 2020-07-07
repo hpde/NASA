@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Lovozero/Magnetometer/PT1M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Lovozero/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Lovozero (LOZ) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:33Z</ReleaseDate>
          <Description>Lovozero, Russia, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (LOZ), Station Location: (GEO Latitude 68.0, Longitude 35.0), AARI Network</Description>
          <Acknowledgement>Please acknowledge O. Troshichev, (Arctic and Antarctic Research Institute)</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://geophys.aari.ru/</URL>
             <Description>AARI</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Lovozero/Magnetometer/PT1M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/A1S/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Wind/EPACT/LEMT/Events/A1S/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT)/LEMT 1-Hr H,He,O,Fe Anisotropies for Events</ResourceName>
-            <ReleaseDate>2018-02-22T15:50:20Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
             <Description>This data set contains hourly resolution anisotropies
 in spacecraft and solar wind frames for 2.5-5 MeV/n H, He, O and Fe 
 nuclei, plus 5-8 MeV/n He nuclei.  First-, second- and third-order 
@@ -44,6 +44,7 @@ an alternative power law index.</Description>
                 <URL>https://vho.nasa.gov/mission/wind/epact/a1s/A00_read_me_first.txt</URL>
             </InformationURL>
         <PriorID>spase://VEPO/NumericalData/Wind/EPACT/LEMT/Events/A1S/PT1H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/Events/A1S/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>

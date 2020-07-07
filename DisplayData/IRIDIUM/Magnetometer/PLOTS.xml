@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/IRIDIUM/Magnetometer/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/IRIDIUM/Magnetometer/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Iridium magnetic field data plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
             <Description>Plots of various summaries of Birkeland current system magnetic field data from ~70 Iridium spacecraft; cf. Anderson et al, JGR,107, SMP-11, 2002.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_IRIDIUM_HDR_PLOTS</PriorID>
+            <PriorID>spase://VSPO/DisplayData/IRIDIUM/Magnetometer/PLOTS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

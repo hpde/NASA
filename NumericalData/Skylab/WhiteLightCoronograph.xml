@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Skylab/WhiteLightCoronograph</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Skylab/WhiteLightCoronograph</ResourceID>
         <ResourceHeader>
             <ResourceName>Skylab White Light Coronograph in FITS Format</ResourceName>
             <AlternateName>Skylab S052 Data</AlternateName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:23Z</ReleaseDate>
             <Description>This data set contains Skylab SO-52 whitelight coronagraph FITS images, as originally posted at UCAR/HAO. Four types of data are provided: intensity of the corona in B/Bsun units, alpha-angle data, polarization data, and polarization brightness data. The data have been corrected for Earths elliptic orbit around the sun.</Description>
             <Acknowledgement>The assistance of Dr. O.C. St. Cyr at NASA Goddard Space Flight Center is gratefully acknowledged in supplying SPDF with a copy of these data.</Acknowledgement>
             <Contact>
@@ -17,6 +17,7 @@
         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/skylab/whitelight_coronagraph/documents/</URL>
         <Description>Holdings of calibrated images of Skylab White Light Coronograph Data in FITS Format</Description>
 </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/Skylab/WhiteLightCoronograph</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

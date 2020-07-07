@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/EPAM/MFSA/PT17M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ACE/EPAM/MFSA/PT17M</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 17-min-Averaged Flux Data</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:14Z</ReleaseDate>
             <Description>This descriptor identifies an ensemble of 26 data sets 
 of 17-min-averaged, background-corrected energetic particle fluxes.  Various 
 data sets have fluxes that are: spin-averaged or spin-sectored; if sectored 
@@ -35,6 +35,7 @@ ASCII-based comma-separated variable (CSV) files, and how those files can be
 accessed.  Owing to their great similarities, "this file works for both EPAM
 and HISCALE." - TPA</Description>
             </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/ACE/EPAM/MFSA/PT17M</PriorID>
             <PriorID>spase://VSPO/NumericalData/ACE/EPAM/MFSA/PT17M</PriorID>
         </ResourceHeader>
         <AccessInformation>

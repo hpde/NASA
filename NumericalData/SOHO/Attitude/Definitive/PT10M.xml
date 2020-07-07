@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SOHO/Attitude/Definitive/PT10M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SOHO/Attitude/Definitive/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Definitive Attitude, 10 min Data, Satellite Body Axis Pitch, Roll, and Yaw Angles in GCI, GSE, GSM, and HEC Coordinates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:18Z</ReleaseDate>
       <Description>SOHO 3-Axis Stabilized Definitive Attitude Data, Satellite Body Axis Orientation as specified by Pitch, Roll, and Yaw Angles in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, Geocentric Solar Magnetospheric, GSM, and Heliospheric Ecliptic, HEC, Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
@@ -29,6 +29,7 @@
         <URL>https://sscweb.gsfc.nasa.gov</URL>
         <Description>The Satellite Situation Center Web, SSCWeb, Service has been developed and is operated jointly by the NASA/GSFC Space Physics Data Facility, SPDF, and the National Space Science Data Center, NSSDC, to support a Range of NASA Science Programs and to fulfill Key International NASA Responsibilities including those of NSSDC and the World Data Center-A for Rockets and Satellites. The Software and associated Database of SSCWeb together form a System to cast Geocentric Spacecraft Location Information into a Framework of Empirical Geophysical Regions and Mappings of Spacecraft Locations along Lines of the Earth's Magnetic Field. This Capability is one Key to Mission Science Planning, both Single Missions and Coordinated Observations of Multiple Spacecraft with Ground-Based Investigations, and to subsequent Multi-Mission Data Analysis.</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/SOHO/Attitude/Definitive/PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

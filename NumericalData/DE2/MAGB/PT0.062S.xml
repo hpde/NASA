@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/MAGB/PT0.062S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/MAGB/PT0.062S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-B)data</ResourceName>
       <AlternateName>Dynamics Explorer 2 MAG-B data</AlternateName>
       <AlternateName>DE-B MAG-B data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
       <Description>Dynamics Explorer 2 Magnetic Field Observations Triaxial Fluxgate Magnetometer</Description>
       <Acknowledgement>NASA; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -24,6 +24,7 @@
         <Description>Introduction to the Magnetic Field Observations Triaxial Fluxgate Magnetometer on DE 2</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE2/MAGB/PT0.062S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/MAGB/PT0.062S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE2</RepositoryID>

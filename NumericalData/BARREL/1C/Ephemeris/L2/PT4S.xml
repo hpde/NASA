@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/BARREL/1C/Ephemeris/L2/PT4S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/BARREL/1C/Ephemeris/L2/PT4S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1C Ephemeris (EPHM) Geographic and Magnetic Coordinates</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:18Z</ReleaseDate>
          <Description>Geographic and Magnetic Coordinates - Geographic Coordinates are obtained from an Onboard GPS Unit, Magnetic Coordinates are derived by using the IRBEM FORTRAN Library, Ephemeris Data Products (Latitude, Longitude, Altitude, and Time) are each returned from the Payload once every 4 s</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://barreldata.ucsc.edu</URL>
             <Description>Access to all releases of BARREL data and links to the Science Operation Center Tools</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/BARREL/1C/Ephemeris/L2/PT4S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

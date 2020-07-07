@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/SDO/AIA/PT10S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/SDO/AIA/PT10S</ResourceID>
         <ResourceHeader>
             <ResourceName>SDO/AIA Data Products at LMSAL</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
             <Description>Lockheed Martin Solar and Astrophysics Laboratory
 (LMSAL) provides multiple access paths to a variety of SDO (Solar 
 Dynamics Observatory)/AIA (Atmospheric Imaging Assembly) digital and 
@@ -21,6 +21,7 @@ in each of 10 UV/EUV wavelengths every 10 seconds.</Description>
                 <URL>http://aia.lmsal.com/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/SDO/AIA/MultipleData</PriorID>
+            <PriorID>spase://VSPO/NumericalData/SDO/AIA/PT10S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/LMSAL</RepositoryID>

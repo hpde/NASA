@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/Sectored/PT10M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/HET/Rates/Sectored/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Energy Telescope (HET) Ion and Electron Eight-Sectored Coincidence Counting Rates in ASCII Format, 10 min Data</ResourceName>
          <AlternateName>COSPIN-HET-SECTORED-RATES-PT10M</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
          <Description>This Data Set contains 10 min Average Ion and Electron Eight-Sectored Coincidence Counting Rates from the COSPIN High Energy Telescope (HET). These Data provide a Measure of the Anisotropy of Particle Arrival Directions in the Spacecraft Spin Plane</Description>
          <Acknowledgement>Please acknowledge R. Bruce McKibben, Space Science Center, University of New Hampshire</Acknowledgement>
          <Contact>
@@ -37,10 +37,11 @@
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Energy Telescope, HET, 10 min Average Ion and Electron Eight-Sectored Counting Rates</Description>
 </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/SpinAveraged/PT10M</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/Ulysses/COSPIN/HET/Rates/SpinAveraged/PT10M</AssociationID>
             <AssociationType>PartOf</AssociationType>
 </Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HET/Sectored-Rates/PT10M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/HET/Rates/Sectored/PT10M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

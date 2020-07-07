@@ -1,11 +1,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
   <Version>2.2.8</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/MMS/FIELDS/MagneticField/QL.PNG.PT120M</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/MMS/FIELDS/MagneticField/QL.PNG.PT120M</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS Fields 2 hour Combined Magnetic Field QuickLook plots</ResourceName>
       <AlternateName>fields_mms_bfield</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:34Z</ReleaseDate>
       <Description>
 This dataset contains PNG format plots of 2 hour duration Magnetic Field QuickLook time series (Btot, and Bx, By, Bz in GSM-DMPA coordinates and Bx, By, Bz in DMPA coordinates*) and 3-component survey spectrograms for MMS1, MMS2, MMS3, MMS4 from the Fields suite on the MMS spacecraft.
 
@@ -80,6 +80,7 @@ NASA MMS Science Data Management Plan: SwRI Document 10160.18-PDMP-01
                 <URL>https://mms.gsfc.nasa.gov/</URL>
                 <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/DisplayData/MMS/FIELDS/MagneticField/QL.PNG.PT120M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/MMS_SDC</RepositoryID>

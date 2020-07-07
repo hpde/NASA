@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/DMSP_5D-2/SSJ4/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/DMSP_5D-2/SSJ4/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>DMSP SSJ/4 Particle Flux Spectral Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:33Z</ReleaseDate>
             <Description>DMSP SSJ/4 30 eV - 30 keV ion and electron spectral plots, multiple DMSP spacecraft</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Patrick.Newell</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_DMSP_HDR_SSJ4_JHUAPL_PLOTS</PriorID>
+            <PriorID>spase://VSPO/DisplayData/DMSP_5D-2/SSJ4/PLOTS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

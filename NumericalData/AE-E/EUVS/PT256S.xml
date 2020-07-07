@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/AE-E/EUVS/PT256S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/AE-E/EUVS/PT256S</ResourceID>
         <ResourceHeader>
             <ResourceName>AE-E Extreme UltraViolet (EUV) Spectrometer Flux</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
             <Description>The EUV flux data came from the Extreme UltraViolet Spectrometer on the Atmosphere Explorer E. The data
 for 15 wavelength groups are normalized to the reference spectrum SC21REFW.DAT (located in directory REF_SPEC). GET_EUVS.FOR is a program to read
 the EUV data file (written by Dean Pesnell).
@@ -28,6 +28,7 @@ thermosphere. Details of this analysis are described in:
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_AE-E_HDR_EUV</PriorID>
+            <PriorID>spase://VSPO/NumericalData/AE-E/EUVS/PT256S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/KET/PHA/Fluxes/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/KET/PHA/Fluxes/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) Kiel Electron Telescope (KET) Proton, Helium, and Electron PHA based Fluxes in ASCII Format, Daily Average Data</ResourceName>
          <AlternateName>COSPIN-KET-PHA-1D</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
          <Description>This Data Set contains Daily Average PHA based Fluxes of Protons (34.1-125.0, 125.0-320.0, 320.0-2100.0, &gt;2100.0 MeV), Alpha Particles (34.2-125.0, 125.0-320.0, 320.0-2100.0, &gt;2100.0 MeV/n), and Electrons (2.5-7.0 Mev, 2.5 GV) and the Poisson Uncertainties in those Fluxes</Description>
          <Acknowledgement>Please acknowledge the COSPIN PI, R. Bruce McKibben, the KET Co-PI, Bernd Heber, and the UDS and/or NSSDC</Acknowledgement>
          <Contact>
@@ -32,6 +32,7 @@
             <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN Kiel Electron Telescope Telescope, KET, Daily Average Proton, Helium, and Electron PHA based Count Rates.</Description>
 </InformationURL>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/KET/PHA/P1D</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/KET/PHA/Fluxes/P1D</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

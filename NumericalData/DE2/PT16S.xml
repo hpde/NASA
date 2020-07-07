@@ -2,18 +2,19 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/PT16S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 16-s Unified Abstract data</ResourceName>
       <AlternateName>Dynamics Explorer 2 UA data</AlternateName>
       <AlternateName>DE-B UAdata</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
       <Description>Dynamics Explorer (DE)-2 16-s aeronomy data from all experiments, including electron, ion and neutral densities, temperatures, composition and winds, and airglow emissions</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_DE2_HDR_UA</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE2/PT16S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

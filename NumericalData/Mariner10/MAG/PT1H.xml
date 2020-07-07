@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Mariner10/MAG/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Mariner10/MAG/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>Mariner 10 Magnetometer 1-hr Data</ResourceName>
-            <ReleaseDate>2017-11-13T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:59Z</ReleaseDate>
             <Description>These interplanetary magnetic field data from the Mariner 10 Fluxgate Magnetometer consist of hourly averaged magnetic field vectors in Heliographic RTN coordinates in ASCII format. The data were extracted with the FORTRAN code M10MAGHR.for from VMS binary data in NSSDC Data Set
 73-085A-04P.  Each file consists of ASCII records, one line per record. Each line consists of a two digit year, a decimal day of year (1 Jan. = Day 1), hour of the day of the data interval, 
 the radial, tangential, and normal components of the magnetic field (in heliographic RTN coordinates), and the magnitude of the magnetic field.  Magnetic field units are nanoTelsa (1 Gauss = 100,000 nT).  Data are available for 1973-1974.</Description>
@@ -18,6 +18,7 @@ NSSDC for usage of this data set in presentations and publications.</Acknowledge
                 <PersonID>spase://SMWG/Person/John.F.Cooper</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <PriorID>spase://VSPO/NumericalData/Mariner10/MAG/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

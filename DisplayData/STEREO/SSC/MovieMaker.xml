@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/STEREO/SSC/MovieMaker</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/STEREO/SSC/MovieMaker</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Science Center Image Search Tool and Movie Maker</ResourceName>
-         <ReleaseDate>2016-11-10T16:39:00Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>
 The STEREO Science Center (SSC) Image Search Tool and Movie Maker is a web resource that allows the user to select JPEG images from each of the STEREO SECCHI (Sun Earth Connection Coronal and Heliospheric Investigation) telescopes (EUVI, COR1, COR2, HI1, HI2).  These are the same images that appear on the SSC Daily Browse Images pages.  Images are produced initially from the low resolution real time space weather beacon data, and are available to the tool within minutes of the telemetry being received on the ground.  The initial low resolution real time images are replaced with the full resolution versions once they are available, typically about three days later.  Large gaps in time are filled in with beacon images if possible.
 
@@ -19,6 +19,7 @@ The spacecraft and telescope to be searched is selected from a menu on the left.
                 <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
+            <PriorID>spase://VSPO/DisplayData/STEREO/SSC/MovieMaker</PriorID>
 	</ResourceHeader>
 	<AccessInformation>
 	  <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

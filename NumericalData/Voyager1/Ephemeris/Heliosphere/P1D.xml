@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema file:/C:/Projects/Voyager/spase-2_2_2.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/Ephemeris/Heliosphere/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/Ephemeris/Heliosphere/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Heliosphere Ephemeris in Heliographic and Solar Ecliptic Coordinates, Daily Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:51Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -54,6 +54,7 @@ Use of these Data in Publications should be accompanied at minimum by Acknowledg
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/Ephemeris/Heliosphere/P1D</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/Ephemeris/Heliosphere/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

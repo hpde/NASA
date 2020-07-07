@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/DE1/RIMS/PT1M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/DE1/RIMS/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>DE 1 Retarding Ion Mass Spectrometer (RIMS) Low Channel, H+ and He++, and High Channel, He+, O+, and O++, Density, Temperature, and Electric Potential, 1 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
          <Description>The Data were provided by Dennis Gallagher, MSFC. The Retarding Ion Mass Spectrometer, RIMS, consisted of a Retarding Potential Analyzer for Energy Analysis in Series with a Magnetic Ion-Mass Spectrometer for Mass Analysis. Multiple Sensor Heads permitted the Determination of the Thermal Plasma Flow Characteristics. This Instrument was designed to operate in two basic Commandable Modes: a High-Altitude mode in which the Density, Temperature, and Bulk Flow Characteristics of principally H+, He+, and O+ Ions were measured, and a Low-Altitude Mode that concentrated on the Composition in the 1-u to 32-u Range. This Investigation provided Information on:
                       
                       (1) The Densities of H+, He+, and O+ Ions in the Ionosphere, Plasmasphere, Plasma Trough, and Polar Cap including the Density Distribution along the Magnetic Vector in the Vicinity of the Satellite Apogee
@@ -39,6 +39,7 @@
             <URL>https://spacephysics.msfc.nasa.gov/projects/rims/</URL>
             <Description>Information on the Dynamics Explorer 1, DE-1, Retarding Ion Mass Spectrometer, RIMS, at Marshall Space Flight Center</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/DE1/RIMS/PT1M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

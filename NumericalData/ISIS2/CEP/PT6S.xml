@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ISIS2/CEP/PT6S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ISIS2/CEP/PT6S</ResourceID>
         <ResourceHeader>
             <ResourceName>ISIS 2 Electron N and T data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:42Z</ReleaseDate>
             <Description>ISIS 2 ionospheric electron density and temperature data at 6 sec resolution</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_ISIS2_HDR_NETE</PriorID>
+            <PriorID>spase://VSPO/NumericalData/ISIS2/CEP/PT6S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,15 +2,16 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Interball-2/Ephemeris/PT120S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Interball-2/Ephemeris/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Auroral Ephemeris Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:44Z</ReleaseDate>
       <Description>Interball Auroral 2-min orbital data includes position in GSE and GSM coordinates in RE (6370 km) and velocity in km/s.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
+        <PriorID>spase://VSPO/NumericalData/Interball-2/Ephemeris/PT120S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

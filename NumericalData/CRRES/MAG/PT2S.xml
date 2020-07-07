@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/CRRES/MAG/PT2S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/CRRES/MAG/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>CRRES 2s magnetic field data</ResourceName>
       <AlternateName>CRRES MAG data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>This data set contains magnetic field vectors and tilt angles from the CRRES tri-axial fluxgate magnetometer data. The magnetic field vectors are at 2 s resolution and in the Vehicle Dipole Horizon (VDH) coordinate system. Also included are the magnetic field magnitude and the tilt of the magnetic field in Theta and Phi in the VDH coordinate system.</Description>
       <Acknowledgement>NASA; Department of Defense-Department of the Air Force (United States); AFRL; Dr. Howard J. Singer; Dr. E. Gary Mullen</Acknowledgement>
       <Contact>
@@ -31,6 +31,7 @@
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <PriorID>spase://VMO/NumericalData/CRRES/MAG/PT2S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/CRRES/MAG/PT2S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

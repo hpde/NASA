@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/Ephemeris/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/Ephemeris/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Spacecraft Positions</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:56Z</ReleaseDate>
       <Description>Voyager 2 spacecraft positions generated from data at HelioWeb (cohoweb.gsfc.nasa.gov/helios/heli.html) These data were obtained from running the program HELICOOR in the public directory NSSDCA::ANON_DIR:[ACTIVE.HELIO]. These data are based on predicted trajectories calculated with the GTDS code by the NSSDC Satellite Situation Center and converted to solar ecliptic and heliographic coordinates by the HELIOCOOR program. The HELICOOR code was written by R. Parthasarathy. The program GENTRJCON added the HILLON longitude. Note that the solar ecliptic coordinates are given with respect to true equinox and ecliptic of date. The solar ascending node was located at ecliptic longitude +74.367 degrees as of 1 Jan. 1900 at 1200 UT; this longitude increases by 1.4 degrees/century.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -16,6 +16,7 @@
         <Role>MetadataContact</Role>
       </Contact>
       <PriorID>spase://VHO/NumericalData/Voyager2/Ephemeris/P1D</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/Ephemeris/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

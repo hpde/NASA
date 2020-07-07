@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP8/EECA/PT11M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP8/EECA/PT11M</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 8 UMD EECA 10.92m Rates, PHA</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
             <Description>This data set, from the Electrostatic Energy-Charge
 Analyzer (EECA) part of the U. Maryland experiment on IMP 8, contains 
 count rate and pulse height data enabling the computation of 10.92-min 
@@ -41,6 +41,7 @@ descriptive material on the experiment and data inside the Data Set
 Catalog</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IMP8/EECA/PT11M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP8/EECA/PT11M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

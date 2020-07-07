@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema file:/C:/Projects/Voyager/spase-2_2_2.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/MAG/Heliosphere/PT48S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/MAG/Heliosphere/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Heliosphere Magnetic Field in Heliographic and Inertial Heliographic Coordinates, 48 s Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:59Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -81,6 +81,7 @@ Time Format Definitions: YY=Year, DDD=Day of Year, HH=Hour, MM=Minute, SS=Second
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager2/MAG/Heliosphere.Outer/PT48S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/Heliosphere/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

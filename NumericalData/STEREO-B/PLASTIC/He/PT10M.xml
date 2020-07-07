@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
 <Version>2.2.2</Version>
 <NumericalData>
-   <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/He/PT10M</ResourceID>
+   <ResourceID>spase://NASA/NumericalData/STEREO-B/PLASTIC/He/PT10M</ResourceID>
    <ResourceHeader>
       <ResourceName>STEREO-B PLASTIC 10-min Alpha Particle Plasma Parameters</ResourceName>
-      <ReleaseDate>2012-10-25T00:00:00</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
       <Description>This data product contains 10-min averaged values of solar wind
 alpha particle flow speed, density, thermal speed, alpha to proton density ratio,
 and proton-alpha flow speed difference.</Description>
@@ -19,6 +19,7 @@ and proton-alpha flow speed difference.</Description>
          <Name>PLASTIC Index page at UNH</Name>
          <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
       </InformationURL>
+       <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/He/PT10M</PriorID>
    </ResourceHeader>
    <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE1/MAGA/PT6S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE1/MAGA/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-A)</ResourceName>
       <AlternateName>Dynamics Explorer 1 MAG-A data</AlternateName>
       <AlternateName>DE-A MAG-A data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>Dynamics Explorer 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer at 6 second resolution.</Description>
       <Acknowledgement>NASA; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -24,6 +24,7 @@
         <Description>Introduction to the Magnetic Field Observations Triaxial Fluxgate Magnetometer on DE 1</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE1/MAGA/PT6S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE1/MAGA/PT6S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE1</RepositoryID>

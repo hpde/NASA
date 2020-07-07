@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 3 Merged Vector Helium Magnetometer (MAG), and Solar WInd Plasma (SWP), 2 min CDF Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
       <Description>These Files provides access to ISEE 3 Merged Field and Plasma 2-min data generated at the NSSDC as part of preparing ISEE 3 data for the creation of new OMNI data sets. Input to the data set were ISEE 3 Magnetometer, MAG, 1 min Data, Solar Wind Plasma, SWP, 24 s data, and spacecraft position 1 day data, all obtained from ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/. Pertinent documentation may be found at the same FTP directory. The annual files of this ASCII data set may be accessed at ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/2_min_merged_mag_plasma/as well. Time span: magnetic field from 1978-09-11 to 1982-10-12 and solar wind plasma from 1978-09-11 to 1980-02-19. Note that the magnetic field is given in Spacecraft-Centered, Solar Ecliptic, SE, coordinates.</Description>
       <Acknowledgement>E.J. Smith, Helium Vector Magnetometer, J.T. Gosling, Solar Wind Plasma</Acknowledgement>
       <Contact>
@@ -29,6 +29,7 @@
         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/isee/isee3/2_min_merged_mag_plasma/aareadme.txt</URL>
         <Description>Description of the Format of the ISEE-3 Merged Magnetic Field and Solar Wind Plasma 2 min Average ASCII Data</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

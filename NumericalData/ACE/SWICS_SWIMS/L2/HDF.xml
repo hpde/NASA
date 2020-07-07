@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.3</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/HDF</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ACE/SWICS_SWIMS/L2/HDF</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWICS Solar Wind Data from the ACE Science Center</ResourceName>
-            <ReleaseDate>2015-01-29T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
             <Description>The Solar Wind Ion Composition Spectrometer (SWICS) Solar Wind Data set consists of time series measurements  of the elemental abundance, charge state composition, and kinetic properties of heavy ions in the solar wind. Time resolutions: 1 hour, 2 hour, and 1 day.  (Not all products are delivered at all time-resolutions.) 
 This descriptor comprises two sets of data:
 (1)The SWICS 1.1 data set which covers launch up to August 23, 2011, when a radiation and age-induced hardware anomaly altered the instrument's operational state.
@@ -15,6 +15,7 @@ This descriptor comprises two sets of data:
                 <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact>
+            <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/HDF</PriorID>
          </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/ACE_SC</RepositoryID>

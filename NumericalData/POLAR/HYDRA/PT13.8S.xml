@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/HYDRA/PT13.8S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/HYDRA/PT13.8S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar HYDRA 13.8 sec Ion and Electron Fluxes</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
       <Description>Polar HYDRA 13.8 sec ion and electron fluxes, 12.5 eV - 18.3 keV, 29 energy channels</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_HYDRA_138S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/HYDRA/PT13.8S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

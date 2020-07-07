@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/SolarOrbiter/HelioWeb/Ephemeris/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/SolarOrbiter/HelioWeb/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Solar Orbiter Ephemeris, Heliocentric Trajectories, Heliographic, Heliographic Inertial, and Solar Ecliptic Coordinates, HelioWeb, Daily Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:23Z</ReleaseDate>
          <Description>Heliocentric trajectories for Comet Borrelly in Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinates
 
 The original trajectory data are taken from http://ssd.jpl.nasa.gov/horizons.cgi where users can find many more objects. In the case of orbit data for planets, the orbit data can be used as a proxy for spacecraft ephemeris that are in orbit about the planets. On a heliospheric scale, differences between the planet orbital tarjectory and that of the spacecraft are very small. For instance, the heliocentric longitudes differ by only 0.25&#176; for a spacecraft stationed near the L1 Lagrange point at approximately 100 Earth radii upstream of the Earth.
@@ -67,6 +67,7 @@ More precise coordinates, and some planet-centered coordinates, are found in the
             <URL>https://ssd.jpl.nasa.gov/horizons.cgi</URL>
             <Description>HORIZONS Web Interface, a web page that provides limited access to the JPL HORIZONS system which can be used to generate ephemerides for solar system bodies</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/SolarOrbiter/HelioWeb/Ephemeris/P1D</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

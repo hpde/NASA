@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/ChargeStates/PT3H30M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/SWICS/GSFC/SPDF/ChargeStates/PT3H30M</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Solar Wind Ion Composition Spectrometer (SWICS) Average Solar Wind Velocity, Isotope Ratios, and Iron Charge States, (M1), 3.5 h Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:49Z</ReleaseDate>
          <Description>This Data Set contains 3.5 hour Averages of the Solar Wind Ion Density Ratio (to O6+), Velocity And Temperature from the Ulysses Solar Wind Ion Composition Spectrometer. Data Set Contact: R. von Steiger, International Space Science Institute, Bern, Switzerland. Principal Investigators: J. Geiss, International Space Science Institute, Bern, Switzerland, and G. Gloeckler, University of Maryland, College Park, Maryland, USA. Reference: Astron. Astrophys. Suppl. Ser., 92(2), 267-289 (1992). Relevant Web Sites: http://space.umd.edu/UMD_sensors/uls_swics.html.</Description>
          <Acknowledgement>J. Geiss, G. Gloeckler, Please acknowledge the Principal Investigators, J. Geiss of the International Space Science Institute, Bern, Switzerland, and G. Gloeckler of the University of Maryland, USA. Also, please acknowledge C. Tranquille of the Ulysses Data System, ESA/ESTEC, NL. See the UDS Users Guide, UDS_UG-02, available for download from http://helio.esa.int/ulysses/.</Acknowledgement>
          <Contact>
@@ -29,6 +29,7 @@
             <URL>https://www.cosmos.esa.int/web/ulysses/swics</URL>
             <Description>Ulysses Solar Wind Ion Composition Experiment, SWICS, Web Page</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/ChargeStates/PT3H30M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

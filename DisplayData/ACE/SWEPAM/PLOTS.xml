@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/ACE/SWEPAM/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/ACE/SWEPAM/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>ACE SWEPAM STEA Electron Pitch Angle Plots</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:33Z</ReleaseDate>
             <Description>ACE SWEPAM STEA electron pitch angle plots, 12 hours per frame, 10 energy channels from 73 eV to 1.73 keV, one panel per energy channel</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Ruth.Skoug</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_ACE_HDR_SWEPAM_STEA_PLOTS</PriorID>
+            <PriorID>spase://VSPO/DisplayData/ACE/SWEPAM/PLOTS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/LANL</RepositoryID>

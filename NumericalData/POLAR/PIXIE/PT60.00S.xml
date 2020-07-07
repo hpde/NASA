@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/POLAR/PIXIE/PT60.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/POLAR/PIXIE/PT60.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar PIXIE Level 1 Data Archive</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
             <Description>Polar PIXIE Level 1 Auroral X-ray Data Archive in CDF Format</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.Schultz</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PIXIE_L1</PriorID>
+            <PriorID>spase://VSPO/NumericalData/POLAR/PIXIE/PT60.00S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/LMSAL</RepositoryID>

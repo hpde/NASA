@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IBEX/Hi/Direct_Events</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IBEX/Hi/Direct_Events</ResourceID>
         <ResourceHeader>
             <ResourceName>IBEX-Hi Direct Events</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:36Z</ReleaseDate>
             <Description>Each record captures the characteristics of
 one energetic neutral atom arriving at IBEX-Hi.  Included is a
 time tag (seconds since 00:00 UT of January 6, 1980), an arrival
@@ -24,6 +24,7 @@ of the 6 IBEX-Hi energy bands.  The data files are in ASCII.</Description>
                 <Description>This file was created by the IBEX team.</Description>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/IBEX/Hi/Direct_Events</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IBEX/Hi/Direct_Events</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

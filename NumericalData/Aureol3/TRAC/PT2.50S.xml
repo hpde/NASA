@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Aureol3/TRAC/PT2.50S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Aureol3/TRAC/PT2.50S</ResourceID>
         <ResourceHeader>
             <ResourceName>ARCAD Magnetic Field Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:17Z</ReleaseDate>
             <Description>ARCAD magnetic field data at 2.5-s resolution; altitude &lt; 2000 km, near polar</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_ARCAD_HDR_MAG</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Aureol3/TRAC/PT2.50S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

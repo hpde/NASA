@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/PWI/LHFWR/16kHz/Interferometry/PT0.000028S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/PWI/LHFWR/16kHz/Interferometry/PT0.000028S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Plasma Wave Instrument (PWI), High Frequency Waveform Receiver, 16 kHz, Time Domain Fields.</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
       <Description>The unattenuated frequency range for this file type is 20Hz to 16000Hz. The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz). For a description of the PWI receivers and the different operational modes see: http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html</Description>
       <Acknowledgement>U. Iowa, Donald. A. Gurnett</Acknowledgement>
       <Contact>
@@ -27,6 +27,7 @@
         <Language>en</Language>
 </InformationURL>
       <PriorID>spase://VWO/NumericalData/POLAR/PWI/LHFWR.16kHz.Interferometry.PT0.000028S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/PWI/LHFWR/16kHz/Interferometry/PT0.000028S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

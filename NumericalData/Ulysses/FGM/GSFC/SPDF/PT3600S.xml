@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/FGM/GSFC/SPDF/PT3600S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/FGM/GSFC/SPDF/PT3600S</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses magnetic field 1-hr data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
       <Description>This data set contains high resolution samples at about one-hour intervals 1hrof the interplanetary magnetic field measured by the Ulysses Magnetic Field experiment. Field vector components are given in units ofnanoteslas and in RTN coordinates, where R is the radial component or the sun-s/c axis, T is the transverse (along-track) component or the cross product of the solar rotation axis and R, and N is the normal (cross-track) component or the cross product of R and T. The field magnitudes in nT are averages of scalar magnitudes at higher time resolution. Times are computed at the mid-point of each 
 minute interval and expressed in Spacecraft Event Time - UT (SCET-UT). Data gaps have not been flagged in any way - if there were no available data in a particular hour then there is no data record for that hour. No data from the Feb. 1992 encounter with Jupiter are included. Each file includes one day of data. Further details on the magnetic field measurements can be found in the following reference: Balogh, A., et al., Astron. Astrophys. Suppl. Ser., 92(2), 221, 1992.</Description>
       <Acknowledgement>Please acknowledge CDAWeb and the Principal Investigator, A. Balogh of Imperial College, London, UK.</Acknowledgement>
@@ -18,6 +18,7 @@ minute interval and expressed in Spacecraft Event Time - UT (SCET-UT). Data gaps
         <Role>DataProducer</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_MAG_1hr_CDAWEB</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/FGM/GSFC/SPDF/PT3600S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/MMS/4/FIELDS/EDP/Slow/Level2/DCElectricField/PT0.125S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/MMS/4/FIELDS/EDP/Slow/Level2/DCElectricField/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 4 Electric Double Probe (EDP) Three-Dimensional Electric Field, Quick-Look, Slow Survey</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:58Z</ReleaseDate>
       <Description>Electric Double Probe, Quick-Look Three-Dimensional Electric Field, Level 2, Slow Survey Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -33,6 +33,7 @@
         <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>Magnetospheric Multiscale (MMS) mission home page</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/MMS/4/FIELDS/EDP/Slow/Level2/DCElectricField/PT0.125S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/STEREO/SIRs.List</ResourceID>
+        <ResourceID>spase://NASA/Catalog/STEREO/SIRs.List</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Stream Interaction Region List</ResourceName>
-            <ReleaseDate>2020-05-08T15:41:27Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>This catalog has a list of stream interaction regions 
 (SIR's) observed by STEREO-A and/or STEREO-B between March 2007 and March 
 2009.  For each of the ~145 STEREO A or B observations, the following 
@@ -22,6 +22,7 @@ list, given in both PDF and Excel formats, will be updated periodically.</Descri
                 <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/impact/level3/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/Catalog/STEREO_SIR_List</PriorID>
+            <PriorID>spase://VSPO/Catalog/STEREO/SIRs.List</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

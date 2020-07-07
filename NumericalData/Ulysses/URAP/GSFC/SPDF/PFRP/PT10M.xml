@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/PFRP/PT10M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Ulysses/URAP/GSFC/SPDF/PFRP/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses URAP PFR Peak 10-min Electric Field Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:50Z</ReleaseDate>
       <Description>This set of PFR (Plasma Frequency Receiver) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak electric field intensities in 16 channels and 10-minute intervals via CDAWeb. The frequency spectra are determined from measurements on the X antenna of the URAP instrument in units of microvolt/Hz^0.5 for the frequency channel from 0.57 to 35 kHz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_PFRP_Peak_CDAWEB_DIGITAL</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/PFRP/PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

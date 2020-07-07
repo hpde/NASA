@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMAGE/Orbit/Predict/PT120S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMAGE/Orbit/Predict/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE Predicted Orbital Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
       <Description>IMAGE Predicted Orbit Data, GSE and GSM Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>GeneralContact</Role>
 </Contact>
       <PriorID>spase://VSPO/NumericalData/P_IMAGE_HDR_PREORBIT_120S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMAGE/Orbit/Predict/PT120S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

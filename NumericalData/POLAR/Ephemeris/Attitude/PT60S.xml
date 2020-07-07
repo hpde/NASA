@@ -2,16 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT60S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Attitude Data, 1 min Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:01Z</ReleaseDate>
       <Description>Polar Attitude data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDATTITUDE_60S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

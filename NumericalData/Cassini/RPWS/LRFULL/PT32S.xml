@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Cassini/RPWS/LRFULL/PT32S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Cassini/RPWS/LRFULL/PT32S</ResourceID>
     <ResourceHeader>
       <ResourceName>Cassini Radio and Plasma Wave Science (RPWS) Low Rate Full Resolution</ResourceName>
       <AlternateName>Cassini Orbiter Radio and Plasma Wave Science</AlternateName>
       <AlternateName>RPWS_RPWS_LOW_RATE_FULL</AlternateName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>The Cassini Radio and Plasma Wave Science (RPWS) Low Rate Full Resolution Calibrated (RPWS_LOW_RATE_FULL) is a data set including all spectral density measurements acquired by the RPWS in units of electric or magnetic field spectral density. This data set includes calibrated values for each frequency channel for each sensor for all times during the mission including the two Venus flybys, the Earth flyby, the Jupiter flyby, interplanetary cruise, and the entire Saturn tour. Data for this data set are acquired from the RPWS Low Frequency Receiver (LFR), Medium Frequency Receiver (MFR), Medium Frequency Digital Receiver (MFDR) (which can be used to replace MFR band 2 data) and High Frequency Receiver (HFR). Data are presented in a set of tables organized so as to have fixed-length records for ease in data handling. This data set is intended to be the most comprehensive and complete data set included in the Cassini RPWS archive. A browse data set is included with these data which provides for a graphical search of the data using a series of thumbnail and full-sized spectrograms which lead the user to the particular data file(s) of interest. This data set should be among the first used by a user of any of the RPWS archive as it will lead one to information required to search for more detailed or highly specialized products.</Description>
       <Acknowledgement>When using this data please acknowledge the PI Donald A. Gurnett and Co-I William S. Kurth, NASA, the PDS and the VWO.</Acknowledgement>
       <Contact>
@@ -33,6 +33,7 @@
         <Description>The Cassini RPWS Volume 172 (typical) readme file with descriptions of the data, the organization of the data within the volume and associated software</Description>
       </InformationURL>
       <PriorID>spase://VWO/NumericalData/Cassini/RPWS/LRFULL_PT32S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Cassini/RPWS/LRFULL/PT32S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

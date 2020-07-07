@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/CRRES/HEEF/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/CRRES/HEEF/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>CRRES HEEF 1-min electron distribution functions</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>This data set holds 1-min resolution electron distributions
 (19 5-deg pitch angles vs. 19 energies) from the High Energy Electron
 Fluxmeter (HEEF) on the CRRES spacecraft.  The energy range covered is 
@@ -23,6 +23,7 @@ is contained within the companion documentation.</Description>
 now a readme at nssdcftp.</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/CRRES/HEEF/PT1M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/CRRES/HEEF/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

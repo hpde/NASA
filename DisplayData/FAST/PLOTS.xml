@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/FAST/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/FAST/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>FAST spin-resolution summary plots</ResourceName>
-            <ReleaseDate>2014-08-04T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:33Z</ReleaseDate>
             <Description>This data set displays summary plots of spin resolution (5-sec) electric and magnetic AC and DC fields data, energetic particle data, plasma waves and plasma data directly from UCB.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
@@ -27,6 +27,7 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_FAST_HDR_SPINRES_PLOTS</PriorID>
+            <PriorID>spase://VSPO/DisplayData/FAST/PLOTS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>

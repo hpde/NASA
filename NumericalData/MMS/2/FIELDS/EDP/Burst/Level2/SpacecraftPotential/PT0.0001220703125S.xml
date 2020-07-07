@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/MMS/2/FIELDS/EDP/Burst/Level2/SpacecraftPotential/PT0.0001220703125S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/MMS/2/FIELDS/EDP/Burst/Level2/SpacecraftPotential/PT0.0001220703125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 2 Electric Double Probe (EDP) Spacecraft Potential, Burst Survey</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:51Z</ReleaseDate>
       <Description>Electric Double Probe, Dual Probe Spacecraft Potential, Level 2, Burst Survey Data. Spacecraft potential is etstimatrd by averaging measurements of the probe-to-spacecraft potential from several probes.</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -38,6 +38,7 @@
         <URL>http://mms.space.swri.edu/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI).</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/MMS/2/FIELDS/EDP/Burst/Level2/SpacecraftPotential/PT0.0001220703125S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

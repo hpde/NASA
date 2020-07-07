@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Density and other Parameters derived by digitizing Traces on Spectrograms, Level 4 (L4), 0.5 s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:15Z</ReleaseDate>
       <Description>Van Allen Probe B, Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, derived Density and other Parameters inferred by digitizing Traces on Spectrograms. The EMFISIS Waves Instrument provides a Measure of the Frequency of the Upper Hybrid Resonance Band thereby providing an accurate Determination of the Electron Density. The Electron Density is most easily and accurately measured by Means of Resonances and Cutoffs in the Wave Spectrum rather than Particle Detector Measurements which are subject to Spacecraft Charging and other complicating Factors.</Description>
       <Acknowledgement>C.A. Kletzing</Acknowledgement>
       <Contact>
@@ -52,6 +52,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/Density/ElectronDensity</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WaveformReceiver/ElectronDensity/Level4</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

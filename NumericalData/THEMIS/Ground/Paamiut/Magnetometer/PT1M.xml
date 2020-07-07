@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT1M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>Paamiut (FHB) Ground-based Vector Magnetic Field (L2) 1.0 min Data</ResourceName>
          <AlternateName>Frederikshap Vector Magnetic Field 1.0 min Data</AlternateName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:34Z</ReleaseDate>
          <Description>Paamiut (Frederikshap), Greenland, Ground-based Vector Magnetic Field Level 2 Data, 1.0 min Time Resolution, Station Code: (FHB), Station Location: (GEO Latitude 62.0, Longitude 310.3), DTU Network</Description>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
             <Description>Main menu for access to magnetic field data</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT1M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Paamiut/Magnetometer/PT1M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

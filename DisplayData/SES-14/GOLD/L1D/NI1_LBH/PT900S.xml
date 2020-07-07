@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://VSPO/DisplayData/SES-14/GOLD/L1D/NI1_LBH/PT900S</ResourceID>
+  <ResourceID>spase://NASA/DisplayData/SES-14/GOLD/L1D/NI1_LBH/PT900S</ResourceID>
   <ResourceHeader>
    <ResourceName>Gold Level 1D Day Disk LBH Plots</ResourceName>
-   <ReleaseDate>2020-06-01T20:24:53Z</ReleaseDate>
+   <ReleaseDate>2020-07-07T19:48:36Z</ReleaseDate>
    <Description>Level 1D Lyman-Birge-Hopfield (LBH) files contain a thumbnail image (PNG) for individual nightside 
    disk scans using the low resolution slit. There are individual thumbnail files created for total LBH radiance (kR). 
    Separate files are created for Channel A and Channel B data.  A new L1D file is generated for each new L1C file. 
@@ -30,6 +30,7 @@
      <URL>https://doi.org/10.1007/s11214-017-0392-2</URL>
      <Description>Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383.</Description>
    </InformationURL>
+      <PriorID>spase://VSPO/DisplayData/SES-14/GOLD/L1D/NI1_LBH/PT900S</PriorID>
   </ResourceHeader> 
   <AccessInformation>
    <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

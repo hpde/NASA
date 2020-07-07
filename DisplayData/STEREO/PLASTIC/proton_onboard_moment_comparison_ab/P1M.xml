@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
 	<Version>2.2.2</Version>
 	<DisplayData>
-		<ResourceID>spase://VSPO/DisplayData/STEREO/PLASTIC/proton_onboard_moment_comparison_ab/P1M</ResourceID>
+		<ResourceID>spase://NASA/DisplayData/STEREO/PLASTIC/proton_onboard_moment_comparison_ab/P1M</ResourceID>
 		<ResourceHeader>
 			<ResourceName>STEREO PLASTIC Proton Onboard Plasma Parameter Comparison Plots</ResourceName>
-			<ReleaseDate>2019-11-22T20:04:13Z</ReleaseDate>
+			<ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
 			<Description>Browse level (non-publishable) Velocity, Density, and Temperature for Protons from not fully validated (but quickly available) onboard calculations.</Description>
 			<Acknowledgement>Please acknowledge STEREO PLASTIC Investigation (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
 			<Contact>
@@ -21,6 +21,7 @@
 				<Name>Readme at STEREO Science Center</Name>
 				<URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level2/Protons/Derived_from_On_Board_Calculation/READ_ME_PLASTIC_Protons_OBMoments.pdf</URL>
 			</InformationURL>
+ 		   <PriorID>spase://VSPO/DisplayData/STEREO/PLASTIC/proton_onboard_moment_comparison_ab/P1M</PriorID>
 		</ResourceHeader>
 		<AccessInformation>
 			<RepositoryID>spase://SMWG/Repository/UNH</RepositoryID>

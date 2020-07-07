@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <Catalog>
-    <ResourceID>spase://VSPO/Catalog/CME-ICME_Cho2003</ResourceID>
+    <ResourceID>spase://NASA/Catalog/CME-ICME_Cho2003</ResourceID>
     <ResourceHeader>
       <ResourceName>CME/ICME list by Cho et al., 2003</ResourceName>
       <AlternateName>Cho2003</AlternateName>
-      <ReleaseDate>2018-06-07T17:06:45Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
       <Description>CME/ICME list created by Cho et al., 2003. Method:
 
 CMEs are selected which have temporal and spatial proximity to the type II events in Table 1 of Fry et al (2003). C2 appearance time, PA, and speed from SOHO/LASCO CME catalog are used (http://cdaw.gsfc.nasa.gov/CME_list/). They say: "The procedure for examining the arrival time predictions of ICMEs and IP shocks for the near-simultaneous events are summarized as follows: 
@@ -26,6 +26,7 @@ CMEs are selected which have temporal and spatial proximity to the type II event
         <Description>Paper published in Journal of Geophysical Research describing the method of CME/ICME selection</Description>
       </InformationURL>
       <PriorID>spase://VHO/Catalog/CME-ICME_Cho2003</PriorID>
+      <PriorID>spase://VSPO/Catalog/CME-ICME_Cho2003</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/CDAW</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/UCLA/MHD-IPIC3D/2008-02-15/PT0S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/UCLA/MHD-IPIC3D/2008-02-15/PT0S</ResourceID>
     <ResourceHeader>
       <ResourceName>UCLA MHD and iPic3D model Agyrotropy results</ResourceName>
    <DOI>10.21978/P8890C</DOI>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
       <Description>Agyrotropy and position vector results from UCLA MHD and iPic3D model run for the event on 2008-02-15.</Description>
       <Acknowledgement>Space Plasma Simulations Group</Acknowledgement>
    <PublicationInfo>
@@ -28,6 +28,7 @@
         <Description>Description of the agryotropy, magnetic field,
   electric field, pressure, flows, and density from the UCLA MHD IPIC3D model.</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/UCLA/MHD-IPIC3D/2008-02-15/PT0S</PriorID>
 </ResourceHeader>
     <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UCLA/MHD-IPIC3D</RepositoryID>

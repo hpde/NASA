@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/L3/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/STEREO-A/PLASTIC/L3/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A Plasma and Supra-Thermal Ion Composition (PLASTIC) He+ Daily Phase Space Densities</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
       <Description>STEREO-A Plasma and Supra-Thermal Ion Composition, PLASTIC, He+ Phase Space Density, PSD, binned by V/Vsw, Level 3, Daily Resolution Data</Description>
       <Acknowledgement>A.B. Galvin, Please acknowledge the Principal Investigator, Antoinette Galvin, University of New Hampshire, and NASA contract NAS5-00132. See the Rules Of Use available at http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm.</Acknowledgement>
       <Contact>
@@ -25,6 +25,7 @@
         <URL>http://stereo.sr.unh.edu/stereo.html</URL>
         <Description>STEREO Plasma and Supra-Thermal Ion Composition, PLASTIC, Web Site, University of New Hampshire, Release Notes and other Information</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/STEREO-A/PLASTIC/L3/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

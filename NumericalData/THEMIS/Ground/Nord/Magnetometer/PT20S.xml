@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S</ResourceID>
       <ResourceHeader>
          <ResourceName>Nord (NRD) Ground-based Vector Magnetic Field (L2) 20.0 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:34Z</ReleaseDate>
          <Description>Nord, Greenland, Ground-based Vector Magnetic Field Level 2 Data, 20.0 s Time Resolution, Station Code: (NRD), Station Location: (GEO Latitude 81.6, Longitude 343.3), DTU Network</Description>
          <Acknowledgement>Please acknowledge H. Gleisner, (Danish Meteorological Institute, Denmark)</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
             <Description>Main menu for access to magnetic field data</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Nord/Magnetometer/PT20S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

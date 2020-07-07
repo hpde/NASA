@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/IBEX/Hi/H3/Release10/CG/NOSP/Ram/P7Y</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/IBEX/Hi/H3/Release10/CG/NOSP/Ram/P7Y</ResourceID>
       <ResourceHeader>
          <ResourceName>IBEX High Energy Neutral Atom Imager (ENA-Hi) Data Release 10, Compton-Getting corrected, not Survival Probability corrected, Ram direction, West Longitude Ecliptic Maps, Level H3 (H3), 7 year average Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:36Z</ReleaseDate>
          <Description>The IBEX ENA-Hi and IBEX ENA-Lo data sets are from Release 10 of all-sky map data for the first seven years, 2009-2015, in the form of ram direction Hydrogen, H, energetic neutral atom fluxes with Compton-Getting corrections for spacecraft motion and with no corrections for ENA survival probability between 1 and 100 AU. All-sky maps have been compiled for the whole 7 yr time interval.
 
 The Interstellar Boundary Explorer, IBEX, has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX ENA-Hi and/or IBEX ENA-Lo data covering 2009-2017. The data consist of all-sky maps in Solar Ecliptic Longitude, east and west, and Latitude angles for Energetic Neutral Atom, ENA, Hydrogen fluxes from either IBEX ENA-Hi from energy band 2 through energy band 6, see the first table below, or from IBEX ENA-Lo from energy band 5 through energy band 8, see the second table below. Details of the data and enabled science from Release 10 are given in the following journal publications that describe the 7-yr data results and the IBEX-Hi and IBEX-Lo Instruments:
@@ -141,6 +141,7 @@ The data in IBEX Release 10 are separated into 6 month and 1 year segments. The 
             <URL>https://link.springer.com/article/10.1007/s11214-009-9504-y</URL>
             <Description>Funsten, H.O., Allegrini, F., Bochsler, P., Dunn, G., Ellis, S., Everett, D., Fagan, M.J., Fuselier, S.A., Granoff, M., Gruntman, M., Guthrie, A.A., Hanley, J., Harper, R.W., Heirtzler, D., Janzen, P., Kihara, K.H., King, B., Kucharek, H., Manzo, M.P., Maple, M., Mashburn, K., McComas, D.J., Moebius, E., Nolin, J., Piazza, D., Pope, S., Reisenfeld, D.B., Rodriguez, B., Roelof, E.C., Saul, L., Turco, S., Valek, P., Weidner, S., Wurz, P., and S. Zaffke, The Interstellar Boundary Explorer High Energy (IBEX-Hi) Neutral Atom Imager, Space Science Review, 146: 75-103, DOI:10.1007/s11214-009-9504-y, 2009</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/IBEX/Hi/H3/Release10/CG/NOSP/Ram/P7Y</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

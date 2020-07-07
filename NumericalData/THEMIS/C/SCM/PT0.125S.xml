@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/THEMIS/C/SCM/PT0.125S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/C/SCM/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C: Search Coil Magnetometer 1/8s, 1/128s and 1/8192s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:26Z</ReleaseDate>
       <Description>THEMIS-C: Search Coil Magnetometer (SCM) magnetic field measurements. Includes FAST SURVEY, PARTICLE BURST and WAVE BURST data. FAST SURVEY (SCF): 1/8 second time resolution. PARTICLE BURST (SCP): 1/128 second time resolution; only short bursts of data. WAVE BURST (SCW): 1/8192 second time resolution; only short bursts of data. Sensor and electronics design provided by LPP, Roux and Le Contel.
 
 SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
@@ -41,6 +41,7 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
         <Description>Details on THEMIS data policy and giving proper credits in publications.</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/C/SCM/PT0.125S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/C/SCM/PT0.125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

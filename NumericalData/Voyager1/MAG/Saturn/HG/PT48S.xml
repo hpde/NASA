@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/MAG/Saturn/HG/PT48S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/MAG/Saturn/HG/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Saturn Magnetic Field in Heliographic RTN Coordinates, Resampled, Version 1.0, 48 s Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:54Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -90,6 +90,7 @@ The Data Files are given in ASCII, Fixed Field Width, Comma-delimited Tables. Th
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/MAG/Saturn/PT48.0S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/MAG/Saturn/HG/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

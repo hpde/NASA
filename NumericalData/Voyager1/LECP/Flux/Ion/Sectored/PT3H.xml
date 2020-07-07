@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/Flux/Ion/Sectored/PT3H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/LECP/Flux/Ion/Sectored/PT3H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Low-Energy Charged Particle (LECP) Ion Channel Intensities By Sector in ASCII Format 3-hour</ResourceName>
       <AlternateName>V1-LECP-IONFLUX-SECTORED-PT3H</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:52Z</ReleaseDate>
       <Description>Count Rates, For All Sectors, Voyager1, LECP, Filtered, Channel, Calibrated, CadencePT3H</Description>
       <Acknowledgement>Please acknowledge the LECP PI (S.M. Krimigis) and the lead LECP CoI (R.B. Decker)</Acknowledgement>
       <Contact>
@@ -28,6 +28,7 @@
         <Description>The webpage provides a detailed description of Ion Channel Intensity files.</Description>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Voyager1/LECP/Flux.Ion.Sectored.PT3H</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/LECP/Flux/Ion/Sectored/PT3H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

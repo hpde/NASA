@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SNOE/UVS/GEO/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SNOE/UVS/GEO/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>SNOE UVS (Ultraviolet Spectrometer) geographic coordinates</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:18Z</ReleaseDate>
       <Description>This set of SNOE UVS (Ultraviolet Spectrometer) data contains nitric oxide volume density translated from the spacecraft look angle through the atmosphere at the limb of Earth.  Density data are provided from 100 to 150 km altitudes in 10 km intervals at the recorded geographic latitude and longitude (5-degree bins). Any data outages of size one (i.e. all adjacent neighbors contain valid data) in the dataset are filled in using linear interpolation in the altitude direction. 
              </Description>
       <Contact>
@@ -18,6 +18,7 @@
         <Description>Information on SNOE UVS data</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_SNOE_HDR_UVS_NO_L3_GEO</PriorID>
+        <PriorID>spase://VSPO/NumericalData/SNOE/UVS/GEO/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

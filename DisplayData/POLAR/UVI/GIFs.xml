@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
   <Version>2.3.1</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/POLAR/UVI/GIFs</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/POLAR/UVI/GIFs</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ultraviolet Imager High-Resolution Images</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night from the Polar UltraViolet Imager (UVI) experiment.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -15,6 +15,7 @@
         <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+        <PriorID>spase://VSPO/DisplayData/POLAR/UVI/GIFs</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>

@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Cassini/RPWS/KP/PT60S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Cassini/RPWS/KP/PT60S</ResourceID>
     <ResourceHeader>
       <ResourceName>Cassini Radio and Plasma Wave Science (RPWS) Key Parameter 60S</ResourceName>
       <AlternateName>Cassini Orbiter Radio and Plasma Wave Science</AlternateName>
       <AlternateName>Cassini RPWS SUMMARY KEY PARAMETER 60S V1.0</AlternateName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>The Cassini Radio and Plasma Wave Science (RPWS) calibrated summary key parameter data set includes reduced temporal and spectral resolution spectral information calibrated in units of spectral density for the entire Cassini mission. This data set includes calibrated values binned and averaged within 1 minute by 0.1 decade spectral channels for all times during the mission including the two Venus flybys, the Earth flyby, the Jupiter flyby, interplanetary cruise, and the entire Saturn tour. Data for this data set are acquired by the RPWS Low Frequency Receiver (LFR), Medium Frequency Receiver (MFR), and High Frequency Receiver (HFR). Data are presented in a set of fixed-record-length tables. This data set is intended to provide numerical summary data which can be used in conjunction with other Cassini fields and particles key parameter data sets to establish trends, select events, or simply as a browse data set for the Cassini RPWS archive. This data set should be among the first used by a user of any of the RPWS archive as it will lead one to information required to search for more detailed or highly specialized products.</Description>
       <Acknowledgement>When using this data please acknowledge the PI Donald A. Gurnett and Co-I William S. Kurth, NASA, the PDS and the VWO.</Acknowledgement>
       <Contact>
@@ -33,6 +33,7 @@
         <Description>The Cassini RPWS Volume 172 (typical) readme file with descriptions of the data, the organization of the data within the volume and associated software</Description>
       </InformationURL>
       <PriorID>spase://VWO/NumericalData/Cassini/RPWS/KP_PT60S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Cassini/RPWS/KP/PT60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

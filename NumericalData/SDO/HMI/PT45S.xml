@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/SDO/HMI/PT45S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/SDO/HMI/PT45S</ResourceID>
         <ResourceHeader>
             <ResourceName>SDO/HMI Data Products at JSOC/Stanford U.</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
             <Description>The HMI-AIA (Helioseismic and Magnetic Imager -
 Atmospheric Imaging Assembly) JSOC (Joint Science Operations Center) 
 at Stanford University archives, and provides multiple access paths 
@@ -27,6 +27,7 @@ vector magnetograms (maps of the photospheric magnetic field).
                 <URL>http://hmi.stanford.edu/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/SDO/HMI/MultipleData</PriorID>
+            <PriorID>spase://VSPO/NumericalData/SDO/HMI/PT45S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/Stanford/HMI-AIA.JSOC</RepositoryID>

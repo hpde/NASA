@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level3/PitchAngleDistribution/PT13.981S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level3/PitchAngleDistribution/PT13.981S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPAN-A Electron Pitch Angle Distributions, Level 3 (L3), 13.981 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:07Z</ReleaseDate>
          <Description>* SPAN-Electron, SPAN-E, Instrument SPE Level 3 Data
 * --------------------------------------------------
 
@@ -54,6 +54,7 @@ As part of the development of collaboration with the broader Heliophysics commun
             <Description>Parker Solar Probe, PSP, SWEAP Data Access web site, Smithsonian Astrophysical Observatory</Description>
             <Language>en</Language>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level3/PitchAngleDistribution/PT13.981S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

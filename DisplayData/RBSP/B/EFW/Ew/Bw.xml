@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/RBSP/B/EFW/Ew/Bw</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/RBSP/B/EFW/Ew/Bw</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Electric Fields and Waves Instrument (EFW) spec64  Bw, Ew comparison ylog</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>Van Allen Probe B Electric Fields and Waves Instrument (EFW) spec64 Bw, Ew comparison ylog</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.R.Wygant</PersonID>
@@ -22,6 +22,7 @@
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/DisplayData/RBSP/B/EFW/Ew/Bw</PriorID>
+        <PriorID>spase://VSPO/DisplayData/RBSP/B/EFW/Ew/Bw</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UMN</RepositoryID>

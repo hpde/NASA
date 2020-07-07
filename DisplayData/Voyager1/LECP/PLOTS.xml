@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/Voyager1/LECP/PLOTS</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/Voyager1/LECP/PLOTS</ResourceID>
         <ResourceHeader>
             <ResourceName>Voyager 1 LECP Survey Plots at JHU_APL</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:30</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
             <Description>26-day, 104-day and 1-year plots of fluxes of 40-4000 keV ions in 8 channels and of .57-31 MeV protons in 3 channels</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.B.Decker</PersonID>
@@ -23,6 +23,7 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/DisplayData/P_VOYAGER1_HDR_LECP_PLOT</PriorID>
+            <PriorID>spase://VSPO/DisplayData/Voyager1/LECP/PLOTS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

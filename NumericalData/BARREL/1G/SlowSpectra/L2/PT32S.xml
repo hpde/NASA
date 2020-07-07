@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/BARREL/1G/SlowSpectra/L2/PT32S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/BARREL/1G/SlowSpectra/L2/PT32S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1G X-Ray Spectrometer (SSPC) Bremsstrahlung X-Ray Spectrum Slow Time Resolution</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:19Z</ReleaseDate>
          <Description>Bremsstrahlung X-ray Spectra, 256 Energy bIns transmitted over 32 Frames</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://barreldata.ucsc.edu</URL>
             <Description>Access to all releases of BARREL data and links to the Science Operation Center Tools</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/BARREL/1G/SlowSpectra/L2/PT32S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

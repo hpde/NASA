@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/IMP5/SPME/PT1H</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/IMP5/SPME/PT1H</ResourceID>
         <ResourceHeader>
             <ResourceName>IMP 5 SPME Energetic Particle Count Rates</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
             <Description>IMP 5 SPME hourly &gt;10, &gt;30, &gt;60 MeV proton count rates and 1-10 MeV proton and alpha particle rates, in ASCII via ftp</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stamatios.M.Krimigis</PersonID>
                 <Role>CoInvestigator</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IMP5_HDR_SPME</PriorID>
+            <PriorID>spase://VSPO/NumericalData/IMP5/SPME/PT1H</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

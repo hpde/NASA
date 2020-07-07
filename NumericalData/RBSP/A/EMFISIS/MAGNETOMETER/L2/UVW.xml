@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER/L2/UVW</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER/L2/UVW</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A UVW Science Coordinates data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:10Z</ReleaseDate>
       <Description>Fluxgate magnetometer data - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -34,6 +34,7 @@
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER_UVW_EMFISIS-L2/PT1S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER/UVW/L2/PT1S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/UVW</PriorID>
+        <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/MAGNETOMETER/L2/UVW</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

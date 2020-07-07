@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IRIS/IRIS/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IRIS/IRIS/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>IRIS Calibrated Images and Spectra Data</ResourceName>
-      <ReleaseDate>2020-03-24T18:05:17Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
       <Description>This data set contains calibrated level-2 images and spectra data from the Interface Region Imaging Spectrograph (IRIS). 
 
 UV images from IRIS telescope record observations of features as small
@@ -58,6 +58,7 @@ into timeseries of slitjaw images and spectral raster scans.
         <URL>https://www.lmsal.com/hek/hcr?cmd=view-recent-events&amp;instrument=iris</URL>
         <Description>Recent IRIS observations</Description>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/IRIS/IRIS/PT1S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/LMSAL</RepositoryID>

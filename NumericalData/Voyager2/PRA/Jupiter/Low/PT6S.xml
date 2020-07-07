@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/PRA/Jupiter/Low/PT6S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/PRA/Jupiter/Low/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 Planetary Radio Astronomy (PRA) Lowband Receiver Jupiter encounter, 6 sec resolution</ResourceName>
       <AlternateName>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</AlternateName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:16:00Z</ReleaseDate>
       <Description>
 	   (Description based on material from VG2_PRA_JUP_HRES_DS.CAT)
 
@@ -190,6 +190,7 @@ https://pds-ppi.igpp.ucla.edu/citations_policy.jsp
       </InformationURL>
       <PriorID>spase://VWO/NumericalData/Voyager2/PRA/VG2_PRA_Low_Jupiter_PT6S</PriorID>
       <PriorID>spase://VWO/NumericalData/Voyager2/PRA/Jupiter/Low.PT6S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/PRA/Jupiter/Low/PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

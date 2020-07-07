@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/RHESSI/HESSI/EVENTLIST</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/RHESSI/HESSI/EVENTLIST</ResourceID>
         <ResourceHeader>
             <ResourceName>RHESSI Flare List</ResourceName>
-            <ReleaseDate>2017-01-26T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
             <Description>RHESSI X-ray-based flare list, current to ~2 days</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Gordon.D.Holman</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_RHESSI_HDR_EVENTLIST</PriorID>
+            <PriorID>spase://VSPO/NumericalData/RHESSI/HESSI/EVENTLIST</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC</RepositoryID>

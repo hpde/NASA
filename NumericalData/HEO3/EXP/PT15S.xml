@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/HEO3/EXP/PT15S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/HEO3/EXP/PT15S</ResourceID>
     <ResourceHeader>
       <ResourceName>HEO-3 Data from the EXP instrument in 15-second averages</ResourceName>
-      <ReleaseDate>2019-05-02T16:56:17Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:34Z</ReleaseDate>
       <Description>These data consist of energetic particle measurements, given as proton counts, electron counts, and dose/dose rate. The spacecraft are equipped with a combination of dome and telescope dosimeters. Data from these instruments is available in 15-second averages and binned by magnetic L-shell in IGRF and Olson-Pfitzer (Quiet) field models. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
@@ -23,6 +23,7 @@
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/HEO3/EXP/PT15S</PriorID>
       <PriorID>spase://VSPO/NumericalData/HEO-3/EXP/PT15S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/HEO3/EXP/PT15S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>

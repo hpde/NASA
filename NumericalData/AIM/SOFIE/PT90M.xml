@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/AIM/SOFIE/PT90M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/AIM/SOFIE/PT90M</ResourceID>
     <ResourceHeader>
       <ResourceName>AIM/SOFIE mixing ratios, extinction profiles, etc.</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
       <Description>The daily netCDF files at GATS, Inc., hold level 2
 SOFIE (Solar Occultation for Ice Experiment) data.  These include primary absorber mixing ratios (CO2, CH4, NO,H2O, O3), 
 10 aerosol extinction profiles, uncertainity profiles for mixing ratios and 
@@ -23,6 +23,7 @@ and pressures.</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/AIM/SOFIE/L2_Data</PriorID>
       <PriorID>spase://VSPO/DisplayData/AIM/SOFIE/PT90M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/AIM/SOFIE/PT90M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/GATS</RepositoryID>

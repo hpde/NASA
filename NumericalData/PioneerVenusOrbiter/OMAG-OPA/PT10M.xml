@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/OMAG-OPA/PT10M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/PioneerVenusOrbiter/OMAG-OPA/PT10M</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer Venus Orbiter (PVO) 10-min field and plasma data</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
             <Description>Ten-min averaged values of PVO field and plasma 
 parameters are given.  Users may plot or list one of two sets of parameters.
 The first has time, RBx, RBy, RBz,|B|, V, Np, Tp, perp pressure.
@@ -24,6 +24,7 @@ from solar wind orbit phases</Description>
                 <URL>http://www-ssc.igpp.ucla.edu/ssc/pvo/</URL>
             </InformationURL>
             <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/OMAG_OPA/PT10M</PriorID>
+            <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/OMAG-OPA/PT10M</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCLA</RepositoryID>

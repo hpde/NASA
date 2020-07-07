@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/ISEE3/IsotAbun</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/ISEE3/IsotAbun</ResourceID>
         <ResourceHeader>
             <ResourceName>ISEE 3 Isotopic Abundance Ratios</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
             <Description>This data product consists of a single ASCII file 
 containing values and their uncertainties for 32 abundance ratios of 
 various pairs of isotopes of 13 chemical elements (C, O, Ne, Mg, Al, 
@@ -27,6 +27,7 @@ ISEE 3 instrument Principal Investigator.</Acknowledgement>
                 <URL>ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/energetic_particles_cr/cr_composition/</URL>
             </InformationURL>
             <PriorID>spase://VEPO/NumericalData/ISEE3/IsotAbun</PriorID>
+            <PriorID>spase://VSPO/NumericalData/ISEE3/IsotAbun</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

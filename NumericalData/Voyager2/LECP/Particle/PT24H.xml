@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager2/LECP/Particle/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager2/LECP/Particle/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 LECP - Daily Average Interplanetary Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:58Z</ReleaseDate>
       <Description>This data file contains 1 day averages of count rates for 11 energetic ion channels from the Low Energy Charged Particle (LECP) instrument on Voyager 2. The data listed are averaged over 24 hours, with the start time of the averging interval begining at the start of the day listed.  For 
  example, 77/300 is an average over hours 0-23 on day 300 of 1977. Times are given in SCET-UT. The count rates R are in counts per second.  The statistical uncertainty for each channel is the inverse square root of the total number of counts during each 24 hour period times the average count rate R. Included in the data table are the passbands in KeV for protons, the logarithmic mean energy Em for the differential energy channels, the geometric factor "g" (cm**2-steradian), and the flux conversion factor "f".  To get from count rate R to differential in energy flux "dj(E)/dE", multiply R by f, 
  i.e., 
@@ -32,6 +32,7 @@ Use of these data in publications should be accompanied by acknowledgements of t
         <PersonID>spase://SMWG/Person/Robert.B.Decker</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
+        <PriorID>spase://VSPO/NumericalData/Voyager2/LECP/Particle/PT24H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

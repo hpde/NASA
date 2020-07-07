@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/LECP/Jupiter/PT3M12S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/LECP/Jupiter/PT3M12S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Jupiter Low Energy Charged Particle (LECP) Far Encounter, Step Period, 3.2 min Data</ResourceName>
-      <ReleaseDate>2018-11-27T18:09:04Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:53Z</ReleaseDate>
       <Description>* Data Set Overview
 * =================
 
@@ -119,6 +119,7 @@ To determine the Energy Bandpass, one must judge the Mass Species of the detecte
         <Language>En</Language>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/Voyager1/LECP/Jupiter/PT3M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/LECP/Jupiter/PT3M12S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>

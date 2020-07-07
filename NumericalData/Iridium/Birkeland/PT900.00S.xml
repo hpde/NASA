@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Iridium/Birkeland/PT900.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Iridium/Birkeland/PT900.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Iridium magnetic field digital indices</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:31</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:44Z</ReleaseDate>
             <Description>Various summaries of Birkeland current system magnetic field data from ~70 Iridium spacecraft; cf. Anderson et al, JGR, 107, SMP-11, 2002.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/NumericalData/P_IRIDIUM_HDR_DIGITAL</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Iridium/Birkeland/PT900.00S</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

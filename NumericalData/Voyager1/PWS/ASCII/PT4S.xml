@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Voyager1/PWS/ASCII/PT4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Voyager1/PWS/ASCII/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 PWS full resolution plasma wave data</ResourceName>
-      <ReleaseDate>2017-08-19T00:00:00</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:55Z</ReleaseDate>
       <Description>Full resolution plasma wave spectrum analyzer data from Voyager 1 PWS instrument</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
@@ -17,6 +17,7 @@
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_VOYAGER1_HDR_PWS_FULLRES</PriorID>
       <PriorID>spase://VSPO/NumericalData/Voyager1/PWS/PT4S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Voyager1/PWS/ASCII/PT4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/PDS</RepositoryID>

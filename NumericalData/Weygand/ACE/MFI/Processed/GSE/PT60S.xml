@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3.0.xsd">
 	<Version>2.3.0</Version>
 	<NumericalData>
-		<ResourceID>spase://VSPO/NumericalData/Weygand/ACE/MFI/Processed/GSE/PT60S</ResourceID>
+		<ResourceID>spase://NASA/NumericalData/Weygand/ACE/MFI/Processed/GSE/PT60S</ResourceID>
 		<ResourceHeader>
 			<ResourceName>ACE Linearly Interpolated 60 s Resolution Tri-axial Fluxgate Magnetometer in GSE Coordinates</ResourceName>
 			<AlternateName>ACE MAG data</AlternateName>
 			<DOI>10.21978/P8PD2W</DOI>
-			<ReleaseDate>2019-06-19T10:07:19.000Z</ReleaseDate>
+			<ReleaseDate>2020-07-07T21:16:01Z</ReleaseDate>
 			<Description>ACE linearly interpolated to have the measurements on the minute at 60 s resolution tri-axial fluxgate magnetometer data in GSE coordinates. This data set consists of processed solar wind data that has been linearly interpolated to 1 min resolution at the position of the spacecraft using the interp1.m function in MATLAB.  This data set was originally constructed by Dr. J.M. Weygand for Prof. R.L. McPherron, who was the principle investigator of two National Science Foundation studies: GEM Grant ATM 02-1798 and a Space Weather Grant ATM 02-08501. These data were primarily used in superposed epoch studies and cross correlation studies on solar wind.</Description>
 			<Acknowledgement>NASA, Chuck Smith, James M. Weygand</Acknowledgement>
 			<PublicationInfo>
@@ -34,6 +34,7 @@
 				<Description>ACE Magnetometer Interactive Data Server</Description>
 			</InformationURL>
 			<PriorID>spase://VMO/NumericalData/Weygand/ACE/MFI/Processed/GSE/PT60S</PriorID>
+ 		   <PriorID>spase://VSPO/NumericalData/Weygand/ACE/MFI/Processed/GSE/PT60S</PriorID>
 		</ResourceHeader>
 		<AccessInformation>
 			<RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

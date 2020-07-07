@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Leirvogur/Magnetometer/PT10S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Leirvogur/Magnetometer/PT10S</ResourceID>
       <ResourceHeader>
          <ResourceName>Leirvogur (LRV) Ground-based Vector Magnetic Field (L2) 1,0 min Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:33Z</ReleaseDate>
          <Description>Leirvogur, Iceland, Ground-based Vector Magnetic Field Level 2 Data, 1,0 min Time Resolution, Station Code: (LRV), Station Location: (GEO Latitude 64.3, Longitude 338.3), LMO Network</Description>
          <Acknowledgement>Please acknowledge G. Bjornsson, (Science Institute, University of Iceland)</Acknowledgement>
          <Contact>
@@ -30,6 +30,7 @@
             <URL>ftp://cygnus.raunvis.hi.is/</URL>
             <Description>Data available through</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Leirvogur/Magnetometer/PT10S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

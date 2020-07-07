@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/L1C/Disk/LBH2/SouthPolar/Movies/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/L1C/Disk/LBH2/SouthPolar/Movies/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Global Ultraviolet Imager (GUVI) Airglow Flux 14-day Movies, at Wavelength LBH2 in South Polar Projection</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
       <Description>GUVI measures FUV Airglow in five Spectral Bands: the atomic HI Lyman-alpha Band, 121.6 nm, two atomic Oxygen OI Bands, 130.4 nm and 135.6 nm, and the molecular Nitrogen Lyman-Birge-Hopfield Short, LBHS, 141 to 152.8 nm, and Lyman-Birge-Hopfield Long, LBHL, 167.2 to 181.2 nm, Bands. The Cross-Track Scanning Spectrograph images a Ground Swath of 3000 km Width providing nearly Contiguous Global Coverage with 15 Orbits per Day. This L1CDisk, Level 1C Disk, Version 3, File provides the calibrated, geolocated, and rectified Intensities for the fifth LBH2, 1650-1800 &#xC5;, Wavelength Band. This is a Movie with mapped Images of the Log Intensities by Orbit by using a South Polar Projection.</Description>
       <Acknowledgement>A. B. Christensen</Acknowledgement>
       <Contact>
@@ -30,6 +30,7 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/cdaweb_guvi_tutorial.pdf</URL>
         <Description>CDAWEB Tutorial for Use of TIMED Global Ultraviolet Imager, GUVI, Data Products. This Tutorial guides you through a typical CDAWeb Session using TIMED/GUVI Parameters.</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/L1C/Disk/LBH2/SouthPolar/Movies/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

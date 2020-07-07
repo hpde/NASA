@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/STEREO-B/Ephemeris/HEEQ/PT05M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/STEREO-B/Ephemeris/HEEQ/PT05M</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-B Ephemeris in the HEEQ Coordinate System</ResourceName>
          <AlternateName>STEREO-B Positions</AlternateName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
          <Description>STEREO atttitude and orbit data are distributed as SPICE kernels. Since most SEP investigators would rather not deal with SPICE kernels, Caltech provides text files containing position data for the two STEREO spacecraft, in the following coordinate systems: GEI, GSE, GSM, HCI, HEE, HEEQ.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
@@ -22,6 +22,7 @@
             <Description>This document provides information about orientation of the LET instrument on the STEREO Ahead and Behind spacecraft, and instructions for calculating pointing (attitude) and position vectors for any SEP instrument from the spacecraft ancillary data.</Description>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/STEREO-B/Ephemeris/HEEQ_PT05M</PriorID>
+          <PriorID>spase://VSPO/NumericalData/STEREO-B/Ephemeris/HEEQ/PT05M</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/STEREO/AttitudeOrbit</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Helios2/Combined/PT40.5S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Helios2/Combined/PT40.5S</ResourceID>
       <ResourceHeader>
          <ResourceName>Helios 2 Merged Plasma and Magnetic Field</ResourceName>
-         <ReleaseDate>2018-02-27T16:46:59Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:35Z</ReleaseDate>
          <Description>Merged solar wind plasma and magnetic field measurements from the Helios 2 spacecraft. Variable time resolution (2-10 minutes) Calibrated science quality data.</Description>
          <Acknowledgement>User will acknowledge the Helios plasma instrument PI Dr. Helmut Rosenbauer and the magnetometer PI Prof. Fritz M. Neubauer.</Acknowledgement>
          <Contact>
@@ -30,6 +30,7 @@
             <Description>A website describing the Helios mission and its instruments</Description>
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/Helios2/Combined/PT40.5S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Helios2/Combined/PT40.5S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

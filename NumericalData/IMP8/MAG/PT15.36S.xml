@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMP8/MAG/PT15.36S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMP8/MAG/PT15.36S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 MAG 15.36s Magnetic Field Measurements</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:39Z</ReleaseDate>
       <Description>IMP 8 magnetic field measurements from tri-axis magnetometer. 
 Time resolution is 15.36 second.  Data are based on a 2010 data reprocessing
 by the PI team.  Parameter details below are based on the version of the data 
@@ -24,6 +24,7 @@ these data.</Acknowledgement>
 access to the data</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/IMP8/MAG/PT15.36S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMP8/MAG/PT15.36S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

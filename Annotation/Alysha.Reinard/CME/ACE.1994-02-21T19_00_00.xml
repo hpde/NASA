@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <Annotation>
-    <ResourceID>spase://VSPO/Annotation/Alysha.Reinard/CME/ACE.1994-02-21T19_00_00</ResourceID>
+    <ResourceID>spase://NASA/Annotation/Alysha.Reinard/CME/ACE.1994-02-21T19_00_00</ResourceID>
     <ResourceHeader>
       <ResourceName>ICME observed by ACE</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:01:30Z</ReleaseDate>
       <Description>ICMEs were identified based on magnetic field strength, helium abundance &gt;0.1, and rotation in azimuthal magnetic field.</Description>
       <Acknowledgement>FIXME</Acknowledgement>
       <Contact>
@@ -26,6 +26,7 @@
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <PriorID>spase://VHO/Annotation/Alysha.Reinard/CME/ACE.1994-02-21T19_00_00</PriorID>
+      <PriorID>spase://VSPO/Annotation/Alysha.Reinard/CME/ACE.1994-02-21T19_00_00</PriorID>
 </ResourceHeader>
     <AnnotationType>Event</AnnotationType>
     <PhenomenonType>CoronalMassEjection</PhenomenonType>

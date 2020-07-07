@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1B_Spectrograph</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1B_Spectrograph</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Level 1B Spectrograph</ResourceName>
-         <ReleaseDate>2018-01-18T21:29:20.495</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
          <Description>Level 1B Spectrograph data contains calibrated and geolocated radiance data into a GUVI based coordinate system in Spectrograph mode.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1B_spectrograph_datainfo.pdf</URL>
          </InformationURL>
          <PriorID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1B_Spectrograph</PriorID>
+          <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1B_Spectrograph</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>

@@ -2,16 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Genesis/Ephemeris/PT1H</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Genesis/Ephemeris/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Genesis Spacecraft Positions</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:34Z</ReleaseDate>
          <Description>Genesis spacecraft trajectory data</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
             <Role>DataProducer</Role>
          </Contact>
          <PriorID>spase://VHO/NumericalData/Genesis/Ephemeris/PT1H</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Genesis/Ephemeris/PT1H</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/SAMPEX/DailyAveragedLvsTime/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/SAMPEX/DailyAveragedLvsTime/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>SAMPEX Daily-averaged flux</ResourceName>
-      <ReleaseDate>2019-05-21T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
       <Description>SAMPEX Daily-averaged flux</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Shrikanth.G.Kanekal</PersonID>
@@ -25,6 +25,7 @@
         <URL>http://virbo.org/Kanekal/SAMPEX</URL>
 </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/SAMPEX/DailyAveragedLvsTime</PriorID>
+        <PriorID>spase://VSPO/NumericalData/SAMPEX/DailyAveragedLvsTime/PT24H</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ViRBO</RepositoryID>

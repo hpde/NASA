@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.8</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/THEMIS/Ground/Barrow/Magnetometer/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Barrow/Magnetometer/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>Barrow (BRW) Ground-based Vector Magnetic Field (L2) 1.0 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:29Z</ReleaseDate>
          <Description>Barrow, AK, Ground-based Vector Magnetic Field Level 2 Data, 1.0 s Time Resolution, Station Code: (BRW), Station Location: (GEO Latitude 71.3, Longitude 203.4), USGS Network</Description>
          <Acknowledgement>Please acknowledge C.A. Finn, (United States Geological Survey, Golden)</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
             <Description>Web site for access to magnetic field data</Description>
 </InformationURL>
          <PriorID>spase://VMO/NumericalData/THEMIS/Ground/Barrow/Magnetometer/PT1S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Barrow/Magnetometer/PT1S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/AMPTE-CCE/MFE/PT5.83S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/AMPTE-CCE/MFE/PT5.83S</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE-CCE Spin-averaged Magnetic Field Measurements</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
       <Description>AMPTE-CCE spin-averaged DC magnetic field at ~5.83 second resolution.</Description>
       <Acknowledgement>User will acknowledge the AMPTE/CCE magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -19,6 +19,7 @@
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/AMPTE_CCE/MFE/PT5.83S</PriorID>
       <PriorID>spase://VMO/NumericalData/AMPTE-CCE/MFE/PT5.83S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/AMPTE-CCE/MFE/PT5.83S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

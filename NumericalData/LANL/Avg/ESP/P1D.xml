@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/LANL/Avg/ESP/P1D</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/LANL/Avg/ESP/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL-GEO ESP Differential Log-Flux Daily Avg.</ResourceName>
       <AlternateName>Los  Alamos National Laboratory (LANL)-GEOsynchronous (GEO) Energetic Spectrometer for Particles (ESP) Log (base 10) Differential Flux (Particles/(cm^2)/s/keV/steradian) Daily Avg. (of available satellite data)</AlternateName>
-      <ReleaseDate>2018-04-04T18:19:57Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:45Z</ReleaseDate>
       <Description>Daily-averaged electron fluxes from the Los Alamos National Laboratory (LANL) Energetic Spectrometer for Particles (ESP) Daily averages from each geosynchronous satellite available on any given day were merged into a single, uniform daily average. Data span 22 September, 1989 through 31 December, 2009. Data are log(flux) with flux in units of electrons /(cm^2.s.sr.keV) [see t 2010JA015735 _LANL_Data_and_Processing for details]</Description>
       <Acknowledgement>Reeves, G. D., S. K. Morley, R. H. W. Friedel, M. G. Henderson, T. E. Cayton, G. Cunningham, J. B. Blake, R. A. Christensen, and D. Thomsen (2011), On the relationship between relativistic electron flux and solar wind velocity: Paulikas and Blake revisited, J. Geophys. Res., 116, A02213, doi:10.1029/2010JA015735.</Acknowledgement>
       <Contact>
@@ -53,6 +53,7 @@
         <Description>Readme file with basic information on processing performed.</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/LANL/ESP/P1D</PriorID>
+        <PriorID>spase://VSPO/NumericalData/LANL/Avg/ESP/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/AGU/JGR</RepositoryID>

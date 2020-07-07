@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.9</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Pioneer10/Ephemeris/P1D</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Pioneer10/Ephemeris/P1D</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Daily Spacecraft Trajectory Version 3.1 Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:07Z</ReleaseDate>
             <Description>This data set consists of daily spacecraft position coordinates in ASCII format, as converted from the Version 3.1 final archive (NSSDC ID # 72-012A-13L) for Plasma Analyzer data originally submitted to NSSDC in VMS binary format.</Description>
             <Acknowledgement>Please acknowledge the Principal Investigator, Dr. Paul R. Gazis, and SPDF.</Acknowledgement>
             <Contact>
@@ -17,6 +17,7 @@
 </InformationURL>
             <PriorID>spase://VEPO/NumericalData/Pioneer10/Ephemeris/P1D</PriorID>
             <PriorID>spase://VEPO/NumericalData/Pioneer10/Ephemeris/PT24H</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Pioneer10/Ephemeris/P1D</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

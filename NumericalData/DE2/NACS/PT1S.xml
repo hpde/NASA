@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE2/NACS/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE2/NACS/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 2 1-sec NACS Temperature and Composition data</ResourceName>
       <AlternateName>Dynamics Explorer 2 NACS data</AlternateName>
       <AlternateName>DE-B NACS data</AlternateName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
       <Description>This data set containss, at 1-sec resolution,
 the neutral temperature and the densities (and % error) of O, N2,
 He, N, and Ar from the Neutral Atmosphere Composition Spectrometer
@@ -29,6 +29,7 @@ Investigator, Dr. George Carignan</Acknowledgement>
         <Name>Readme file at SPDF</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de2/neutral_gas_nacs/00readme.txt</URL>
 </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/DE2/NACS/PT1S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

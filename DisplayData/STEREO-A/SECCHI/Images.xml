@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.3.1</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/STEREO-A/SECCHI/Images</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/STEREO-A/SECCHI/Images</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-A SECCHI telescopes images and movies</ResourceName>
-             <ReleaseDate>2020-04-14T20:54:39Z</ReleaseDate>
+             <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>Images and movies from each of the STEREO SECCHI
 (Sun Earth Connection Coronal and Heliospheric Investigation)
 telescopes (EUVI, COR1, COR2, HI), with images at the cadence
@@ -31,6 +31,7 @@ May, 2008, DOI: 10.1007/s11214-008-9341-4</Description>
                 <Name>SECCHI top page at NRL</Name>
                 <URL>https://secchi.nrl.navy.mil/</URL>
 </InformationURL>
+            <PriorID>spase://VSPO/DisplayData/STEREO-A/SECCHI/Images</PriorID>
             <PriorID>spase://VSPO/DisplayData/STEREO-A/SECCHI/Images</PriorID>
 </ResourceHeader>
         <AccessInformation>

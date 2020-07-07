@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/AMPTE-IRM/Plasma/PT4.4S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/AMPTE-IRM/Plasma/PT4.4S</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE-IRM Plasma Data</ResourceName>
-      <ReleaseDate>2018-04-18T16:35:54Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
       <Description>AMPT-IRM spin-averaged plasma moments at ~4.4 second resolution.</Description>
       <Acknowledgement>User will acknowledge the AMPTE-IRM 3-D Plasma Analyser team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -23,6 +23,7 @@
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/AMPTE_IRM/Plasma/PT4.4S</PriorID>
       <PriorID>spase://VMO/NumericalData/AMPTE-IRM/Plasma/PT4.4S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/AMPTE-IRM/Plasma/PT4.4S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

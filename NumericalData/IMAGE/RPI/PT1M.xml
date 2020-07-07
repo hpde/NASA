@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMAGE/RPI/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE RPI Monthly Electron Density Values</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
       <Description>The electron density values listed in this file are derived from the IMAGE Radio
 Plasma Imager (B.W. Reinisch, PI) data using an automatic fitting program
 written by Phillip Webb with manual correction.
@@ -49,6 +49,7 @@ data points are right, but it does eliminate some human bias.</Description>
         <Language>en</Language>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_IMAGE_HDR_RPI_ELECTRON_DENSITY_1M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMAGE/RPI/PT1M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

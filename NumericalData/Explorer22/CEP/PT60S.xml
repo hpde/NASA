@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Explorer22/CEP/PT60S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Explorer22/CEP/PT60S</ResourceID>
         <ResourceHeader>
             <ResourceName>Explorer 22 Electron Density and Temperature Data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
             <Description>Explorer 22 (Beacon Explorer B) electron density and temperature data at 1-5 minute resolution, non-continuous, from Langmuir probe - cylindrical electrostatic probe</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
@@ -15,6 +15,7 @@
                 <Role>GeneralContact</Role>
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_EXPLR22_HDR_NETE</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Explorer22/CEP/PT60S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

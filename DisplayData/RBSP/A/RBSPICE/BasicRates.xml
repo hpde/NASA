@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/RBSP/A/RBSPICE/BasicRates</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/RBSP/A/RBSPICE/BasicRates</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Basic Rates</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>Van Allen Probe A Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Basic Rates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
@@ -17,6 +17,7 @@
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/DisplayData/RBSP/A/RBSPICE/BasicRates</PriorID>
+        <PriorID>spase://VSPO/DisplayData/RBSP/A/RBSPICE/BasicRates</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/PT1H</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Heliosphere Instrument for Spectral, Composition, and Anisotropy at Low Energies (HISCALE) MFSA, Solar Wind Frame, Spin-Averaged Electron Fluxes, Hourly Averages</ResourceName>
          <AlternateName>HISCALE-MFSA-SpinAvg-Electron-1h</AlternateName>
-         <ReleaseDate>2018-02-26T18:55:13Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:41Z</ReleaseDate>
          <ExpirationDate>2008-10-01T00:00:00.000</ExpirationDate>
          <Description>Hourly-averaged electron fluxes from the MF Spectrum Analyzer of the Ulysses/HISCALE instrument. All energies thresholds take into account the incident particle type, shielding, and inactive dead-layer of the solid state detector. All fluxes are background corrected and are in the solar wind rest frame.</Description>
          <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies, LLC</Acknowledgement>
@@ -20,14 +20,15 @@
             <Description>A table summarizing the contents of HISCALE data available via the SPDF</Description>
          </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/PT17M</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/PT17M</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/P1D</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/P1D</AssociationID>
             <AssociationType>Other</AssociationType>
          </Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/HISCALE/MFSA/G81-1H</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/HISCALE/LEFS/SolarWindFrame/SpinAveraged/Electron/Fluxes/PT1H</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/FTECS</RepositoryID>

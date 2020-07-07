@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/BandpassFilter/DV12/HighGain/PT0.873813S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/BandpassFilter/DV12/HighGain/PT0.873813S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS Digital Fields Board (DFB) DC-coupled Differential Voltage, V1-V2 Antennae, Dipole Mode, Bandpass filtered, High Gain, Sensor coordinates, Level 2 (L2), 0.873813 s Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:03Z</ReleaseDate>
          <Description>PSP FIELDS Digital Fields Board, DFB, dV12 data:
 
 The DFB is the low frequency, less than 75 kHz, component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1] below. For a full description of the FIELDS experiment, see reference [2]. For a description of the DFB, see reference [3].
@@ -68,6 +68,7 @@ References:
             <URL>http://parkersolarprobe.jhuapl.edu/The-Mission/index.php</URL>
             <Description>Parker Solar Probe, PSP, Mission Overview, hosted by the Applied Physics Laboratory, Johns Hopkins University</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/BandpassFilter/DV12/HighGain/PT0.873813S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

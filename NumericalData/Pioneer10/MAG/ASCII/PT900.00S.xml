@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/Pioneer10/MAG/ASCII/PT900.00S</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/Pioneer10/MAG/ASCII/PT900.00S</ResourceID>
         <ResourceHeader>
             <ResourceName>Pioneer 10 Magnetometer 15-min data</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
             <Description>Pioneer 10 15-min averaged magnetic field vectors in RTN coordinates, with covariances, cruise phase, ASCII</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
@@ -12,6 +12,7 @@
 </Contact>
             <PriorID>spase://VSPO/NumericalData/P_PION10_HDR_MAG_15MIN</PriorID>
             <PriorID>spase://VSPO/NumericalData/Pioneer10/MAG/PT900.00S</PriorID>
+            <PriorID>spase://VSPO/NumericalData/Pioneer10/MAG/ASCII/PT900.00S</PriorID>
 </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DMSP_5D-3/F18/SESS/SSM-Boom/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DMSP_5D-3/F18/SESS/SSM-Boom/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP F18 Special Sensor Magnetometer, SESS/SSM-Boom, Magnetic Field Measurements taken at 850 km, 1 s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
       <Description>Defense Meteorology Satellite Program, DMSP, F18 Vector Magnetometer Measurements, 850 km Altitude</Description>
       <Acknowledgement>R.J. Redmon, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them.</Acknowledgement>
       <Contact>
@@ -25,6 +25,7 @@
         <URL>https://www.ngdc.noaa.gov/stp/satellite/satdataservices.html</URL>
         <Description>NGDC Solar and Terrestrial Physics, STP, Satellite Data Services</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/DMSP_5D-3/F18/SESS/SSM-Boom/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

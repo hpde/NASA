@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.8</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/SuprathermalEventList</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/STEREO-B/PLASTIC/SuprathermalEventList</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO-B PLASTIC Suprathermal Event List</ResourceName>
-            <ReleaseDate>2016-11-15T00:00:00</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:15:23Z</ReleaseDate>
             <Description>This data product contains a list of automatically identified suprathermal proton events measured on the Wide Angle Partition without a Solid State Detector (WAP non-SSD) portion of the STEREO/PLASTIC instrument. This list in conjunction with the IMPACT magnetic field information and PLASTIC solar wind data can aid a user in identifying energetic proton events related to Stream Interaction Regions (SIRs), shocks, upstream events, magnetospheric events, etc.</Description>
             <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation 
 (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
@@ -20,6 +20,7 @@
                 <Name>Readme at STEREO Science Center</Name>
                 <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/plastic/level3/Suprathermals/READ_ME_PLASTIC_Suprathermals.pdf</URL>
             </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/SuprathermalEventList</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>

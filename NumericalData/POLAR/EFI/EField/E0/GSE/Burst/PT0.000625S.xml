@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/POLAR/EFI/EField/E0/GSE/Burst/PT0.000625S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/POLAR/EFI/EField/E0/GSE/Burst/PT0.000625S</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar Electric Fields Instrument (EFI), Electric field in GSE coordinates,, Burst Resolution (E_0 version)</ResourceName>
-         <ReleaseDate>2018-03-09T15:35:11Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
          <Description>Electric field in GSE coordinates (E_0 version, from instrument EField bursts.</Description>
          <Acknowledgement>The user will acknowledge, in any publication which uses POLAR EFI data, the instrument PI.</Acknowledgement>
          <Contact>
@@ -16,6 +16,7 @@
             <Role>MetadataContact</Role>
          </Contact>
          <PriorID>spase://VWO/NumericalData/POLAR/EFI/EField_E0_GSE_Burst</PriorID>
+          <PriorID>spase://VSPO/NumericalData/POLAR/EFI/EField/E0/GSE/Burst/PT0.000625S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/UCB/POLAR/EFI</RepositoryID>

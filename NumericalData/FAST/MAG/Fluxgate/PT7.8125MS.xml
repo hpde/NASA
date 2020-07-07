@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/FAST/MAG/Fluxgate/PT7.8125MS</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/FAST/MAG/Fluxgate/PT7.8125MS</ResourceID>
       <ResourceHeader>
          <ResourceName>FAST Fluxgate Magnetometer High-Resolution 7.8125 ms Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:34Z</ReleaseDate>
          <Description>Calibrated Fluxgate Data acquired by the Fast Auroral SnapshoT Small Explorer, FAST, Magnetometer Instrument. Data have been calibrated, despun, and detrended against the International Geomagnetic Reference Field, IGRF, using IGRF Coefficients for the Date of Acquisition. Data are provided in several Coordinate Systems. Non detrended Data in Spacecraft and Geocentric Equatorial Inertial Coordinates are provided. Ephemeris Data are also provided.</Description>
          <Acknowledgement>C.W. Carlson, R.J. Strangeway Include Acknowledgement in any publication.</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
             <Description>FAST Magnetometer Instrument Description</Description>
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/FAST/DCF/MAG/HR_DCB/PT0.125S</PriorID>
+          <PriorID>spase://VSPO/NumericalData/FAST/MAG/Fluxgate/PT7.8125MS</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

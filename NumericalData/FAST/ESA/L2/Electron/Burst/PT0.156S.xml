@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/FAST/ESA/L2/Electron/Burst/PT0.156S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/FAST/ESA/L2/Electron/Burst/PT0.156S</ResourceID>
     <ResourceHeader>
       <ResourceName>FAST Electrostatic Analyzer (ESA), Electron Burst 0.156 s Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
       <Description>The FAST IES and EES measure 32 pitch angle directions simultaneously, 11.25&#xB0; resolution, and sweep over 48 energy steps in 1/64 of a spacecraft spin. The energy range is nominally 3 eV to 25 keV for ions and 4 eV to 30 keV for electrons, respectively. Each spectrometer consists of two half sensor heads each with 180&#xB0; by 10&#xB0; field-of-view, FOV, that are mounted on opposite sides of the spacecraft to form a 360&#xB0; planar FOV. The out-of-plane response is roughly Gaussian with a full width, half maximum, FWHM, of about 5&#xB0;. The planar FOV is within the spacecraft spin plane, which is oriented with the spin vector normal to the nominal magnetic field direction. This orientation facilitates continuous pitch angle measurements. Deflectors are used to steer the sensor FOV out of this plane by up to 10&#xB0; to account for variations of the magnetic field direction during the orbit. In general, the pitch angle distribution always includes both the parallel and Anti-parallel magnetic field directions. Burst data consists of a 32 angle by 48 anergy bin array of counts. Counts are pseudo-log compressed from 16 to 8 bits onboard. The first energy step is a high voltage retrace and should be ignored. Detector anodes rotate by half an anode or 5.625&#xB0; each sweep. Survey data is averaged burst data that has been despun onboard. Slow survey is averaged into a 32 angle by 48 energy array each half spin or about 2.5 s. Some blurring of the angular resolution results from the half anode rotation on alternate sweeps. Fast survey is averaged into a 64 angle by 48 energy array that maintains the angular resolution. Fast survey time resolution varies from 1/16 to 1/4 of a spin.</Description>
       <Acknowledgement>J.P. McFadden</Acknowledgement>
       <Contact>
@@ -30,6 +30,7 @@
         <URL>http://sprg.ssl.berkeley.edu/fast/scienceops/docs/fast_esa_problems.pdf</URL>
         <Description>FAST Electrostatic Analyzer Known Data Problems and Limitations</Description>
       </InformationURL>
+        <PriorID>spase://VSPO/NumericalData/FAST/ESA/L2/Electron/Burst/PT0.156S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

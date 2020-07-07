@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/CRRES/PWE/PT8S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/CRRES/PWE/PT8S</ResourceID>
     <ResourceHeader>
       <ResourceName>CRRES plasma wave data</ResourceName>
       <AlternateName>CRRES Plasma Wave Experiment data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
       <Description>This data set contains electron cyclotron frequency, plasma frequency, upper hybrid frequency, and electron density data from the Plasma Wave Experiment on board CREES at about 8 s resolution.</Description>
       <Acknowledgement>NASA; Department of Defense-Department of the Air Force (United States); AFRL; Dr. Roger R. Anderson; Dr. E. Gary Mullen</Acknowledgement>
       <Contact>
@@ -31,6 +31,7 @@
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <PriorID>spase://VMO/NumericalData/CRRES/PWE/PT8S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/CRRES/PWE/PT8S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

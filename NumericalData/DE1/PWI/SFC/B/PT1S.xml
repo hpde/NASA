@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/DE1/PWI/SFC/B/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/DE1/PWI/SFC/B/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DE 1 Plasma Waves Instrument (PWI) Step Frequency Receiver B data</ResourceName>
       <AlternateName>Dynamics Explorer 1 PWI SFR B data</AlternateName>
       <AlternateName>DE-A PWI SFR B data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
       <Description>Plasma Waves Instrument Step Frequency Receiver B data</Description>
       <Acknowledgement>NASA; Donald A. Gurnett</Acknowledgement>
       <Contact>
@@ -24,6 +24,7 @@
         <Description>Introduction to the Plasma Wave Instrument on DE1</Description>
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE1/PWI/SFRB/PT1S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/DE1/PWI/SFC/B/PT1S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE1</RepositoryID>

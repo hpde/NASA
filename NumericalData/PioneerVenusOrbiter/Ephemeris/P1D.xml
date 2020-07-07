@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Ephemeris/P1D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/PioneerVenusOrbiter/Ephemeris/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer Venus Orbiter(PVO) Daily Trajectory Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:08Z</ReleaseDate>
          <Description>This data set contains trajectory data from the Pioneer Venus Orbiter. It includes the radial distance of Venus from the sun, and solar ecliptic coordinates of Venus with respect to true equinox and ecliptic of date.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator and SPDF.</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
          </InformationURL>
          <PriorID>spase://VHO/NumericalData/Pioneer_Venus/Ephemeris/P1D</PriorID>
          <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Ephemeris/PT24H</PriorID>
+          <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Ephemeris/P1D</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</RepositoryID>

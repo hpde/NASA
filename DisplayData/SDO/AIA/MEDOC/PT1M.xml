@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
 <Version>2.2.2</Version>
 <DisplayData>
-   <ResourceID>spase://VSPO/DisplayData/SDO/AIA/MEDOC/PT1M</ResourceID>
+   <ResourceID>spase://NASA/DisplayData/SDO/AIA/MEDOC/PT1M</ResourceID>
    <ResourceHeader>
       <ResourceName>SDO/AIA Images at MEDOC</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:36Z</ReleaseDate>
       <Description>These data consist of SDO AIA solar images at each
 of nine wavelengths (94 A to 335 A at 7 wavelengths, plus one each
 at 1600 and 1700 A) at 1-min resolution.  The interface lets the
@@ -24,6 +24,7 @@ Spatiales (CNES).</Description>
          <Name>AIA top web page at Lockheed</Name>
          <URL>http://aia.lmsal.com/</URL>
 </InformationURL>
+       <PriorID>spase://VSPO/DisplayData/SDO/AIA/MEDOC/PT1M</PriorID>
 </ResourceHeader>
    <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/MEDOC</RepositoryID>

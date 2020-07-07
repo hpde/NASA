@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <NumericalData>
-        <ResourceID>spase://VSPO/NumericalData/CRRES/PROTEL/PT1M</ResourceID>
+        <ResourceID>spase://NASA/NumericalData/CRRES/PROTEL/PT1M</ResourceID>
         <ResourceHeader>
             <ResourceName>CRRES PROTEL 1-min proton distribution functions</ResourceName>
-            <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T21:14:30Z</ReleaseDate>
             <Description>This data set holds 1-min resolution proton distributions
 (19 5-deg pitch angles vs. 24 energies) from the Proton Telescope (PROTEL) 
 on the CRRES spacecraft.  The energy range covered is 1-100 MeV.  The data 
@@ -21,6 +21,7 @@ companion documentation.</Description>
                 <Description>AFRL document authored by Donald Brautigam on HEEP and PROTEL, 
 now a readme at nssdcftp.</Description>
             </InformationURL>
+            <PriorID>spase://VSPO/NumericalData/CRRES/PROTEL/PT1M</PriorID>
             <PriorID>spase://VSPO/NumericalData/CRRES/PROTEL/PT1M</PriorID>
         </ResourceHeader>
         <AccessInformation>

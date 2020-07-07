@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <DisplayData>
-    <ResourceID>spase://VSPO/DisplayData/RBSP/A/ECT/REPT/Electron</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/RBSP/A/ECT/REPT/Electron</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Relativistic Electron Proton Telescope (REPT,)Electron Fluxes Summary Plots</ResourceName>
-      <ReleaseDate>2019-10-24T21:12:08Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T19:48:35Z</ReleaseDate>
       <Description>Van Allen Probe A, Summary Plots of Electron fluxes measured by the Relativistic Electron Proton Telescope (REPT), which is one of three instruments on the Energetic Particle, Composition and Thermal Plasma Suite (ECT)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harlan.E.Spence</PersonID>
@@ -22,10 +22,11 @@
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://VSPO/NumericalData/RBSP/A/ECT/REPT/L3/Sectors/Release03/PT4.2S</AssociationID>
+        <AssociationID>spase://NASA/NumericalData/RBSP/A/ECT/REPT/L3/Sectors/Release03/PT4.2S</AssociationID>
         <AssociationType>DerivedFrom</AssociationType>
 </Association>
       <PriorID>spase://ViRBO/DisplayData/RBSP/A/ECT/REPT/Electron</PriorID>
+        <PriorID>spase://VSPO/DisplayData/RBSP/A/ECT/REPT/Electron</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/JHU_APL</RepositoryID>

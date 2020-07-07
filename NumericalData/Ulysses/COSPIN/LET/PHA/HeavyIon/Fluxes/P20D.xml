@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
    <Version>2.2.9</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/HeavyIon/Fluxes/P20D</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/Ulysses/COSPIN/LET/PHA/HeavyIon/Fluxes/P20D</ResourceID>
       <ResourceHeader>
          <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) Low Energy Telescope (LET) Oxygen, Nitrogen, and Neon PHA based Fluxes in ASCII Format, 20 day Average Data</ResourceName>
          <AlternateName>COSPIN-LET-PHA-20D</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:40Z</ReleaseDate>
          <Description>This Data Set contains 20 day Average PHA based Fluxes of Oxygen (4-8, 8-12, 12-16, 16-20 MeV/n), Nitrogen (4-7, 8-20 MeV/n), and Neon (4-8, 9-30 MeV/n), and the Poisson Uncertainties in those Fluxes</Description>
          <Acknowledgement>Please acknowledge the COSPIN PI, R. Bruce McKibben, the lead LET Co-PI, Richard G. Marsden, and the UDS and/or NSSDC</Acknowledgement>
          <Contact>
@@ -37,10 +37,11 @@
             <Description>This PDF File at the Ulysses Final Archive (UFA) COSPIN Low Energy Telescope, LET, Handbook and many other appended Documents</Description>
 </InformationURL>
          <Association>
-            <AssociationID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/Ion/Fluxes/P1D</AssociationID>
+            <AssociationID>spase://NASA/NumericalData/Ulysses/COSPIN/LET/PHA/Ion/Fluxes/P1D</AssociationID>
             <AssociationType>Other</AssociationType>
 </Association>
          <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/LET/PHA/P20D</PriorID>
+          <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/LET/PHA/HeavyIon/Fluxes/P20D</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>

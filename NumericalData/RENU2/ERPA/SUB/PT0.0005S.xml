@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/RENU2/ERPA/SUB/PT0.0005S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/RENU2/ERPA/SUB/PT0.0005S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 Electron Retarding Potential Analyzer (ERPA) Thermal Electron Temperature (Sub), (H0), 0.5 ms Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:16Z</ReleaseDate>
          <Description>RENU2 Electron Retarding Potential Analyzer (ERPA) Thermal Electron Temperature (Sub)</Description>
          <Acknowledgement>Marc R. Lessard</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://mirl.sr.unh.edu/projects_renu2/projects_renu2.html</URL>
             <Description>Rocket Experiment for Neutral Upwelling 2, RENU 2, Mission Overview Web Page</Description>
 </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/RENU2/ERPA/SUB/PT0.0005S</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

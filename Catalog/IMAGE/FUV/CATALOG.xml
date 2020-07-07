@@ -1,10 +1,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/IMAGE/FUV/CATALOG</ResourceID>
+        <ResourceID>spase://NASA/Catalog/IMAGE/FUV/CATALOG</ResourceID>
         <ResourceHeader>
             <ResourceName>IMAGE FUV Substorm Onset Catalog</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>This is a table of times of substorm onsets observed by IMAGE/FUV.  The raw instrument counts in the FUV image with the greatest number of counts at time of onset, the X and Y pixel numbers for this greatest-count pixel, the onset geographic and geomagnetic latitude and longitude angles and local time, and the geocentric distance of IMAGE are also given for each onset.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Harald.U.Frey</PersonID>
@@ -20,6 +20,7 @@
                 <Description>IMAGE/FUV Home Page at UCB</Description>
             </InformationURL>
             <PriorID>spase://VSPO/Catalog/P_IMAGE_FUV_SUBSTORM_CATALOG</PriorID>
+            <PriorID>spase://VSPO/Catalog/IMAGE/FUV/CATALOG</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UCB</RepositoryID>

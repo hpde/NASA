@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.2</Version>
     <Catalog>
-        <ResourceID>spase://VSPO/Catalog/SOHO/CELIAS/IPSHOCKS</ResourceID>
+        <ResourceID>spase://NASA/Catalog/SOHO/CELIAS/IPSHOCKS</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO CELIAS Interplanetary Shock List</ResourceName>
-            <ReleaseDate>2012-04-11T10:42:29</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:17:05Z</ReleaseDate>
             <Description>SOHO CELIAS Proton Monitor Interplanetary Shock List</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>
                 <Role>GeneralContact</Role>
             </Contact>
             <PriorID>spase://VSPO/Catalog/P_SOHO_HDR_CELIAS_IPSHOCKS</PriorID>
+            <PriorID>spase://VSPO/Catalog/SOHO/CELIAS/IPSHOCKS</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/UMD</RepositoryID>

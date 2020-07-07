@@ -1,16 +1,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
    <Version>2.2.2</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/SOHO/EIT/PT12M</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/SOHO/EIT/PT12M</ResourceID>
       <ResourceHeader>
          <ResourceName>SOHO EIT Line Intensity Data</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:15:19Z</ReleaseDate>
          <Description>SOHO/EIT Line Intensity Data Files from SDAC via VSO, Joe Gurman at GSFC/SDAC, Co-I for EIT</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
             <Role>CoInvestigator</Role>
 </Contact>
          <PriorID>spase://VSPO/NumericalData/P_SOHO_HDR_EIT_INTENS</PriorID>
+          <PriorID>spase://VSPO/NumericalData/SOHO/EIT/PT12M</PriorID>
 </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/SDAC</RepositoryID>

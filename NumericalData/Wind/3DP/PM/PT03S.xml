@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Wind/3DP/PM/PT03S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Wind/3DP/PM/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP PESA Moments Data</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
       <Description>Wind 3DP proton and ion onboard calculated moments from the PESA instrument. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <Contact>
@@ -19,6 +19,7 @@
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/Wind/3DP/PT03S</PriorID>
       <PriorID>spase://VHO/NumericalData/Wind/3DP/PM.PT03S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Wind/3DP/PM/PT03S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

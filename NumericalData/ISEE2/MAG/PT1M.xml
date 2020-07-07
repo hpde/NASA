@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
   <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/ISEE2/MAG/PT1M</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ISEE2/MAG/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 magnetometer 1-min data at CDAWeb</ResourceName>
    <DOI>10.21978/P8T923</DOI>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:40Z</ReleaseDate>
       <Description>This data set contains magnetic field component
 and magnitude averages every minute, with components given in spacecraft,
 GSE and GSM coordinates.  Standard deviations in the averages are given,
@@ -32,6 +32,7 @@ CDAWeb team at NASA/GSFC</Acknowledgement>
         <Role>DataProducer</Role>
 </Contact>
       <PriorID>spase://VMO/NumericalData/ISEE2/MAG/PT1M</PriorID>
+        <PriorID>spase://VSPO/NumericalData/ISEE2/MAG/PT1M</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

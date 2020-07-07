@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
     <Version>2.3.1</Version>
     <DisplayData>
-        <ResourceID>spase://VSPO/DisplayData/SOHO/EIT/P27D</ResourceID>
+        <ResourceID>spase://NASA/DisplayData/SOHO/EIT/P27D</ResourceID>
         <ResourceHeader>
             <ResourceName>SOHO EIT Coronal Synoptic Maps</ResourceName>
-            <ReleaseDate>2020-05-04T13:45:15Z</ReleaseDate>
+            <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
             <Description>For each Carrington rotation, there are two coronal
 synoptic maps of the sun in each of 3 Fe lines (171A, 195A, 284A) and 
 in He (304A)  These maps are from the Extreme Ultraviolet Imaging Telescope 
@@ -30,6 +30,7 @@ through 2055 (end date April 26, 2006)</Description>
 several sets of such maps</Description>
             </InformationURL>
             <PriorID>spase://VSPO/DisplayData/SOHO/EIT/Synoptic</PriorID>
+            <PriorID>spase://VSPO/DisplayData/SOHO/EIT/P27D</PriorID>
         </ResourceHeader>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/Stanford/Solar_Synoptic</RepositoryID>

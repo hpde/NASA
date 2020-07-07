@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/IMAGE/RPI/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IMAGE/RPI/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE RPI Plasmagram/Echogram Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
       <Description>This set of daily plasmagrams/echograms comes from the IMAGE Radio Plasma Imager that studies the Earth's magnetophere in the 3 kHz to 3 MHz frequency range.  RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the sounder pulses. Echoes that can be used to derive remote, long-range, magnetospheric electron-density profiles, appear as discrete traces on plasmagrams. These plasmagram traces are intermixed with vertical signatures with greater intensity at shorter ranges, corresponding to locally excited plasma resonances, and other vertical signatures that cover the entire listening period, i.e., the entire virtual-range scale, corresponding to various natural and/or man-made emissions propagating in space and/or local interference.</Description>
       <Acknowledgement>Please acknowledge the instrument PI and NASA's Space Physics Data Facility.</Acknowledgement>
       <Contact>
@@ -36,6 +36,7 @@
         <Language>en</Language>
 </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_IMAGE_HDR_RPI_K0</PriorID>
+        <PriorID>spase://VSPO/NumericalData/IMAGE/RPI/PT24H</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

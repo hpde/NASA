@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
-    <ResourceID>spase://VSPO/NumericalData/Explorer43/MMF/PT2S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/Explorer43/MMF/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>Explorer 43 Measurement of Magnetic Fields (MMF) data at 15.36 s Resolution</ResourceName>
       <AlternateName>IMP 6 MMF data</AlternateName>
       <AlternateName>IMP I MMF data</AlternateName>
       <AlternateName>IMP EYE MMF data</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
       <Description>The Explorer 43 Measurement of Magnetic Fields (MMF) data at 15.36 s resolution in various coordinate systems.  These data consists of magnetic field vectors, variances, and spacecraft position measurements in several coordinate systems.</Description>
       <Acknowledgement>NASA-Office of Space Science Applications (United States); Dr. Norman F. Ness</Acknowledgement>
       <Contact>
@@ -27,6 +27,7 @@
 </InformationURL>
       <PriorID>spase://VMO/NumericalData/Explorer/43/MMF/PT2S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Explorer/43/MMF/PT2S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/Explorer43/MMF/PT2S</PriorID>
 </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/VMO</RepositoryID>

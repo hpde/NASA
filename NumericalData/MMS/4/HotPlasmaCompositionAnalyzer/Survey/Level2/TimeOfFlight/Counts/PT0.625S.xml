@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
    <Version>2.3.1</Version>
    <NumericalData>
-      <ResourceID>spase://VSPO/NumericalData/MMS/4/HotPlasmaCompositionAnalyzer/Survey/Level2/TimeOfFlight/Counts/PT0.625S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/MMS/4/HotPlasmaCompositionAnalyzer/Survey/Level2/TimeOfFlight/Counts/PT0.625S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 4 Hot Plasma Composition Analyzer (HPCA) Time of Flight, TOF, Counts, Quick-Look Survey, Level 2 (L2), PT0.625S Data</ResourceName>
-         <ReleaseDate>2020-07-03T23:28:58Z</ReleaseDate>
+         <ReleaseDate>2020-07-07T21:14:59Z</ReleaseDate>
          <Description>Hot Plasma Composition Analyzer (HPCA) Time of Flight, TOF, Counts, Level 2, Survey 10 s Data. The MMS HPCA instruments measure the energy and composition of magnetospheric plasmas in the energy range from 1 eV to 40 keV. An electrostatic energy analyzer (ESA) that is optically coupled to a carbon-foil based Time-of-Flight (TOF) section comprises each HPCA. The basic HPCA data product is an array of counts for 5 ion species, at 63 energies, for each of 16 elevation anodes. Sixteen basic products, also called azimuths, are acquired every 10 s; half a spacecraft spin period nominally has 16 azimuths. The five ion species are protons (H+), alpha particles (He++), helium ions (He+), singly charged Oxygen (O+), and background counts.</Description>
          <Acknowledgement>Confer with PI for rules of acknowledgement. Determined by the Principal Investigator.</Acknowledgement>
          <Contact>
@@ -34,6 +34,7 @@
             <URL>https://link.springer.com/article/10.1007/s11214-014-0119-6</URL>
             <Description>Young, D. T. , J.L. Burch, R.G. Gomez, A. De Los Santos, G.P. Miller, P. Wilson, IV, N. Paschalidis, S.A. Fuselier, K. Pickens, E. Hertzberg, C.J. Pollock, J. Scherrer, P.B. Wood, E.T. Donald, D. Aaron, J. Furman, D. George, R.S. Gurnee, R.S. Hourani, A. Jacques, T. Johnson, T. Orr, K.S. Pan, S. Persyn, S. Pope, J. Roberts, M.R. Stokes, K.J. Trattner, and J.M. Webster, Hot Plasma Composition Analyzer for the Magnetospheric Multiscale Mission, Space Sci. Rev., 199, 407–470, 2016, DOI: 10.1007/s11214-014-0119-6</Description>
          </InformationURL>
+          <PriorID>spase://VSPO/NumericalData/MMS/4/HotPlasmaCompositionAnalyzer/Survey/Level2/TimeOfFlight/Counts/PT0.625S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
