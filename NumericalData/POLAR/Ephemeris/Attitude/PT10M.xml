@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.8</Version>
+  <Version>2.3.1</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT60S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT10M</ResourceID>
     <ResourceHeader>
-      <ResourceName>Polar Attitude Data, 1 min Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:01Z</ReleaseDate>
-      <Description>Polar Attitude data, 1-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
+      <ResourceName>Polar Attitude Data, 10 min Data</ResourceName>
+      <ReleaseDate>2020-07-23T19:09:26Z</ReleaseDate>
+      <Description>Polar Attitude data, 10-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PREDATTITUDE_60S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT60S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT60S</PriorID>
+      <PriorID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT600</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -42,7 +43,7 @@
         <StartDate>1996-03-08T00:00:00</StartDate>
         <StopDate>2008-06-14T23:50:00</StopDate>
       </TimeSpan>
-      <Cadence>PT60S</Cadence>
+      <Cadence>PT10M</Cadence>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
   </NumericalData>
