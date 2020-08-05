@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
+  <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/OMNI/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI Hourly Data Set</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/1shr-ht18</DOI>      
+      <ReleaseDate>2020-08-05T15:15:28Z</ReleaseDate>
       <Description>Hourly averaged, multi-source, near-Earth solar wind magnetic 
 field, plasma and energetic proton flux data, plus AE, AU, AL, Kp, ap, and Dst 
 geomagnetic indices, Polar Cap (Thule) index, F10.7 index, and Rz (sunspot number).  
@@ -13,6 +14,11 @@ Also available at 1-day and 27-day resolution.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed 
 and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC 
 for creating the OMNI data set.</Acknowledgement>
+       <PublicationInfo>
+           <Authors>Weygand, James, M; McPherron, Robert, L</Authors>
+           <PublicationDate>2006-01-01T00:00:00</PublicationDate>
+           <PublishedBy>UCLA</PublishedBy>
+       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>GeneralContact</Role>
@@ -67,7 +73,7 @@ for creating the OMNI data set.</Acknowledgement>
         <AssociationType>DerivedFrom</AssociationType>
       </Association>
       <PriorID>spase://VMO/NumericalData/OMNI/PT1H</PriorID>
-        <PriorID>spase://VSPO/NumericalData/OMNI/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/OMNI/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
