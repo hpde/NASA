@@ -4,8 +4,8 @@
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/Level2/MergedRates/PT1S</ResourceID>
       <ResourceHeader>
-         <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) Merged Rates, Level 2 (L2), 10 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:06Z</ReleaseDate>
+         <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) Merged Rates, Level 2 (L2), 1 s Data</ResourceName>
+         <ReleaseDate>2020-08-20T14:12:54Z</ReleaseDate>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS&#9737;IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS&#9737;IS visualization tools are provided as a quicklook utility for the community to better access the IS&#9737;IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS&#9737;IS team cannot guarantee that they are error-free. For questions regarding the use of IS&#9737;IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -92,7 +92,7 @@ Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-00
             <StartDate>2018-10-06T00:00:00.000</StartDate>
             <RelativeStopDate>-P6M</RelativeStopDate>
          </TimeSpan>
-         <Cadence>PT10S</Cadence>
+         <Cadence>PT1S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Heliosphere</ObservedRegion>
       <ObservedRegion>Heliosphere.Inner</ObservedRegion>
