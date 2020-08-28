@@ -5,6 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/OMNI/HighResolutionObservations/Version2/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>OMNI, Combined Solar Wind Plasma Moments and Interplanetary Magnetic Field (IMF) Time-Shifted to the Nose of the Earth&apos;s Bow Shock, plus Geomagnetic Indices, 1 min Data</ResourceName>
+         <DOI>https://doi.org/10.48322/mj0k-fq60</DOI>
          <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
          <Description>Near-Earth Heliospheric Data, OMNI, Definitive Multispacecraft Interplanetary Parameters Data, 1 min averaged
 
@@ -23,6 +24,11 @@ Modifications:
 * 1) Conversion to ISTP/IACG CDFs via SKTEditor, February 2000
 * 2) Time tags in CDAWeb version were modified to use the CDAWeb convention of having mid-average time tags rather than OMNI original convention of start-of-average time tags, March 2005</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator J.H. King and N.E. Papitashvili for use of the Data</Acknowledgement>
+	 <PublicationInfo>
+           <Authors>Papitashvili, Natalia E.;  King, Joseph H.</Authors>
+           <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+           <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
             <Role>PrincipalInvestigator</Role>
