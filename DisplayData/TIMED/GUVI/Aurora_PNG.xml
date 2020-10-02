@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/DisplayData/TIMED/GUVI/Aurora_PNG</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Auroral PNG Images</ResourceName>
-         <ReleaseDate>2020-07-07T19:48:37Z</ReleaseDate>
+         <ReleaseDate>2020-10-02T19:45:37Z</ReleaseDate>
          <Description>2-D E0 and Q map images of the north and south pole aurora from GUVI L1C N2 LBH radiance data.</Description>
          <Acknowledgement>The GUVI data used here are provided through support from the NASA MOamp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton. See also Data Usage Policy at http://guvitimed.jhuapl.edu/home_guvi-datausage .</Acknowledgement>
          <Contact>
@@ -78,12 +78,12 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTPS from SPDF (not with most browsers)</Name>
-            <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/timed/guvi/levels/level3/guvi_aurora/data/cdf/</URL>
+            <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10/level3/guvi_aurora/data/cdf/</URL>
             <Description>FTP repository of TIMED GUVI L3 Aurora data in CDF format at CDAWeb</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/timed/guvi/levels/level3/guvi_aurora/data/cdf/</URL>
+            <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10/level3/guvi_aurora/data/cdf/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>
          <Format>CDF</Format>

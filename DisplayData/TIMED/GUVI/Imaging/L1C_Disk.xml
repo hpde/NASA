@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/DisplayData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Level 1C FUV airglow radiance images.</ResourceName>
-         <ReleaseDate>2020-07-31T19:35:02Z</ReleaseDate>
+         <ReleaseDate>2020-10-02T19:45:37Z</ReleaseDate>
          <Description>Global maps of GUVI Level 1C FUV airglow radiances.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -37,12 +37,12 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTPS from SPDF (not with most browsers)</Name>
-            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10_v10/level1c/disk_cdf/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10/level1c/disk_cdf/</URL>
             <Description>FTP repository of TIMED GUVI L2B EDP data in CDF format at CDAWeb</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10_v10/level1c/disk_cdf/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/timed/guvi/levels_v10/level1c/disk_cdf/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>
          <Format>CDF</Format>
