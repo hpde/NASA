@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/MMS/1/HotPlasmaCompositionAnalyzer/Survey/Level2/Moments/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Hot Plasma Composition Analyzer (HPCA) Moments, Level 2, Quick-Look Survey</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:49Z</ReleaseDate>
+      <ReleaseDate>2020-10-30T19:22:07Z</ReleaseDate>
       <Description>Hot Plasma Composition Analyzer (HPCA) Moments, Level 2, Survey, 10 s Data. The MMS HPCA instruments measure the energy and composition of magnetospheric plasmas in the energy range from 1 eV to 40 keV. An electrostatic energy analyzer (ESA) that is optically coupled to a carbon-foil based Time-of-Flight (TOF) section comprises each HPCA. The basic HPCA data product is an array of counts for 5 ion species, at 63 energies, for each of 16 elevation anodes. Sixteen basic products, also called azimuths, are acquired every 10 s; half a spacecraft spin period nominally has 16 azimuths. The five ion species are protons (H+), alpha particles (He++), helium ions (He+), singly charged Oxygen (O+), and background counts.</Description>
       <Acknowledgement>J. Burch, S. Fuselier, Confer with PI for rules of acknowledgement</Acknowledgement>
       <Contact>
@@ -30,19 +30,9 @@
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
       </InformationURL>
       <InformationURL>
-        <Name>The MMS Scientific Investigation, SMART, home page at Southwest Research Institute (SwRI)</Name>
-        <URL>http://mms.space.swri.edu/index.html</URL>
-        <Description>The Magnetospheric Multiscale (MMS) Scientific Investigation home page. The MMS Scientific Investigation is called Solving Magnetospheric Acceleration, Reconnection, and Turbulence (SMART). The web page is hosted by the Southwest Research Institute (SwRI).</Description>
-      </InformationURL>
-      <InformationURL>
         <Name>Data Caveats and Current Release Notes at LASP MMS SDC</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/hpca/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>The MMS SwRI Team Instrument Payload home page</Name>
-        <URL>http://mms.space.swri.edu/instruments.html</URL>
-        <Description>The Magnetospheric Multiscale (MMS) Instrument Payload home page. The web page is hosted by the Southwest Research Institute (SwRI).</Description>
       </InformationURL>
         <PriorID>spase://VSPO/NumericalData/MMS/1/HotPlasmaCompositionAnalyzer/Survey/Level2/Moments/PT10S</PriorID>
     </ResourceHeader>
