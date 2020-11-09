@@ -5,10 +5,16 @@
         <ResourceID>spase://NASA/Catalog/STEREO/SEP.List</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO SEP List</ResourceName>
+            <DOI>https://doi.org/10.48322/nbrg-kw23</DOI>
             <ReleaseDate>2020-11-04T16:43:05Z</ReleaseDate>
             <Description>This catalog has a list of the Solar Energetic Particles (SEP) Events observed by STEREO-A and/or STEREO-B.  For each of the observations, the following information is given: event start time, event end time, STEREO maximum_flux fluence, and a comment.  It is expected that this list, 
 given in both PDF and Excel formats, will be updated periodically.</Description>
             <Acknowledgement>STEREO IMPACT Team</Acknowledgement>
+            <PublicationInfo>
+               <Authors>Lan Jian</Authors>
+               <PublicationDate>2020-01-01T00:00:00Z</PublicationDate>
+               <PublishedBy>NASA STEREO</PublishedBy>
+            </PublicationInfo>
             <Contact>
                 <PersonID>spase://SMWG/Person/Lan.Jian</PersonID>
                 <Role>GeneralContact</Role>
