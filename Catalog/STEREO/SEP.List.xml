@@ -13,7 +13,7 @@ given in both PDF and Excel formats, will be updated periodically.</Description>
             <PublicationInfo>
                <Authors>Lan Jian</Authors>
                <PublicationDate>2020-01-01T00:00:00Z</PublicationDate>
-               <PublishedBy>NASA STEREO</PublishedBy>
+               <PublishedBy>STEREO Science Center at the NASA Solar Data Analysis Center</PublishedBy>
             </PublicationInfo>
             <Contact>
                 <PersonID>spase://SMWG/Person/Lan.Jian</PersonID>
@@ -25,6 +25,17 @@ given in both PDF and Excel formats, will be updated periodically.</Description>
                 <Description/>
             </InformationURL>
         </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <Name>SEP list, text version</Name>
+                <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/impact/level3/LanJian_STEREO_SEP_List.txt</URL>
+                <Description>For Excel version, go to Information URL above</Description>
+            </AccessURL>
+            <Format>Text</Format>
+        </AccessInformation>
         <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
             <Availability>Online</Availability>
