@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/CEPPAD/PT100S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar CEPPAD Key Parameters, 100-sec Count Rates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Polar CEPPAD (Comprehensive Energetic Particle Pitch Angle Detector) key parameters, directional and spin-integrated count rates.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
@@ -29,7 +29,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_CEP&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_CEP&amp;index=sp_phys</URL>
         <ProductKey>PO_K0_CEP</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

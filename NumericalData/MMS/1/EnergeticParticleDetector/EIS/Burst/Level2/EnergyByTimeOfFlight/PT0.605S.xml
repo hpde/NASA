@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/MMS/1/EnergeticParticleDetector/EIS/Burst/Level2/EnergyByTimeOfFlight/PT0.605S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Energetic Particle Detector, Energetic Ion Spectrometer (EPD-EIS) Energy by Time of Flight, Level 2, Burst Survey</ResourceName>
-      <ReleaseDate>2020-10-30T19:22:07Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Energetic Particle Detector (EPD), Energetic Ion Spectrometer (EIS) Energy by Time of Flight, Level 2, Burst Survey, 0.605 s Data. The EIS provides ion composition measurements (protons versus oxygen ions) and angular distributions over the energy range from approximately 45 to 500 keV.</Description>
       <Acknowledgement>B. Mauk</Acknowledgement>
       <Contact>
@@ -48,7 +48,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS1_EPD-EIS_BRST_L2_EXTOF&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS1_EPD-EIS_BRST_L2_EXTOF&amp;index=sp_phys</URL>
         <ProductKey>MMS1_EPD-EIS_BRST_L2_EXTOF</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
 </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/PWI/HFWR/25kHz/Interferometry/PT0.000014S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Plasma Wave Instrument (PWI), High Frequency Waveform Receiver, 25kHz bandwidth interferometry fields</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>PWI&gt;Plasma Wave Instrument Reference: Gurnett, D.A. et al, The Polar Plasma Wave Instrument, Space Science Reviews, Vol. 71, pp. 597-622, 1995. donald-gurnett@uiowa.edu An FFT on 1024 values was used in calibrating the data; i.e., perform FFT, calibrate in frequency domain, perform inverse FFT to get calibrated time series. Coordinate system used: antenna coordinate system, where the u-axis is offset by -45 degrees from the spacecraft x-axis, the v-axis is offset by -45 degrees from the spacecraft y-axis, and the z-axis is identical to the spacecraft z-axis. Effective bandwidth is 1.5*delta_f, where delta_f depends on the size of the FFT used to convert to the frequency domain, and delta_t. These data come in snapshots of 190902 points distributed among 2 to 6 channels every 9.2 seconds, where the duration of the snapshot is 0.045 seconds. Since Epoch time is in milliseconds, the times for the data points will not be unique unless the Delta_T in milliseconds is added to the Epoch time for the snapshot. The unattenuated frequency range for this file type is 20Hz to 25000Hz. The cadence value given here is computed from the inverse of the sampling rate (71.43 kHz). For a description of the PWI receivers and the different operational modes see: http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html</Description>
       <Acknowledgement>UIowa, Donald A. Gurnett</Acknowledgement>
       <Contact>
@@ -48,7 +48,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H8_PWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H8_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H8_PWI</ProductKey>
         <Description>In CDF via FTP from SPDF</Description>
       </AccessURL>
@@ -67,7 +67,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H8_PWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H8_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H8_PWI</ProductKey>
         <Description>Plots, lists and files from CDAWeb of the data resource:PO_H8_PWI</Description>
       </AccessURL>

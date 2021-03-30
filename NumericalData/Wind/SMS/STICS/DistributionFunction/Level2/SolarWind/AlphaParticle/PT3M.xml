@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/Wind/SMS/STICS/DistributionFunction/Level2/SolarWind/AlphaParticle/PT3M</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind SMS Suite, SupraThermal Ion Composition Spectrometer (SMS/STICS) Alpha Particle Distribution Function and Differential Flux, Solar Wind, Level 2 (L2), PT3M Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>The Suprathermal Ion Composition Spectrometer (STICS) is a Time of Flight (TOF) Plasma Mass Spectrometer, capable of identifying Mass and Mass per Charge for incident Ions up to 200 keV/q. It uses an Electrostatic Analyzer to admit Ions of a particular Energy per Charge (E/Q) into the TOF Chamber. The E/Q Voltage is stepped through 32 Values, sitting at each Value for approximately 24 s, to measure Ions over the full E/Q Range of 6 keV/q to 200 keV/q. Ions then pass through a Carbon Foil and TOF Chamber, before finally impacting on a Solid-State Detector (SSD) for Energy Measurement. STICS combines these three Measurements of E/Q, TOF and Residual Energy, producing PHA Words. This Triple-Coincidence Technique greatly improves the Signal to Noise Ratio in the Data. Measurements of E/Q and TOF without Residual Energy also produce PHA Words. These Double-Coincidence Measurements are characterized by better Statistics since Ions whose Energy does not allow them to be registered by the SSD can still be counted in Double-Coincidence Measurements. However, Ion Identification in Double-Coincidence Measurements are limited to a select Number of Ions that are well separated in E/Q - TOF Space. The STICS Instrument provides full 3D Velocity Distribution Functions, through a Combination of multiple Telescopes and Spacecraft Spin. The Instrument includes three separate TOF Telescopes that view three separate Latitude Sectors, as shown in Figure 1. In addition, the WIND Spacecraft Spins, allowing the three Telescopes to trace out a nearly 4&#960; sr Viewing Area. The Longitudinal Sectors are shown in Figure 2. The Solar Direction is in Sectors 8-10 while the Earthward Direction is in Sectors 0-2.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, G. Gloeckler, for providing the Data.</Acknowledgement>
          <Contact>
@@ -48,7 +48,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-HE2PLUS-3MIN_SMS-STICS-SOLARWIND&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-HE2PLUS-3MIN_SMS-STICS-SOLARWIND&amp;index=sp_phys</URL>
             <ProductKey>WI_L2-HE2PLUS-3MIN_SMS-STICS-SOLARWIND</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

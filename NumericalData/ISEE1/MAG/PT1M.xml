@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/ISEE1/MAG/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 magnetometer 1-min data</ResourceName>
-      <ReleaseDate>2021-01-29T21:02:50Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data set contains magnetic field component
 and magnitude averages every minute, with components given in spacecraft,
 GSE and GSM coordinates.  Standard deviations in the averages are given,
@@ -46,7 +46,7 @@ CDAWeb team at NASA/GSFC</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISEE1_60SEC_MFI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISEE1_60SEC_MFI&amp;index=sp_phys</URL>
         <ProductKey>ISEE1_60SEC_MFI</ProductKey>
         <Description>Plots, lists and files from CDAWeb</Description>
 </AccessURL>

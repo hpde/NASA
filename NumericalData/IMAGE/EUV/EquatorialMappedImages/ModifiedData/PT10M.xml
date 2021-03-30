@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/IMAGE/EUV/EquatorialMappedImages/ModifiedData/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>IMAGE Extreme UltraViolet (EUV) Imager, Modified Data 2 (M2), 10 min Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>The IMAGE extreme ultraviolet (EUV) imager detects resonantly scattered solar EUV photons with a wavelength of 30.4 nm that have been resonantly scattered by singly ionized helium (Sandel et al., 2000). The sizeable database of IMAGE global snapshots from the extreme ultraviolet (EUV) imager provides revolutionary observations of spatial and temporal plasma distributions throughout the plasmasphere. In this study, the IMAGE EUV data have been mapped to the equator using the approach detailed in Gallagher et al. (2005). IMAGE EUV data have been used to create an automated method that locates and extracts the plasmapause. The plasmapause extraction technique searches a set range of possible plasmasphere densities for a maximum gradient in order to identify the magnetic local time, MLT, dependent plasmapause position as a function of time. This description has been adapted from text appearing in Katus et al. (2015).</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator R.M. Katus for use of the Data</Acknowledgement>
          <Contact>
@@ -53,7 +53,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IMAGE_M2_EUV&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IMAGE_M2_EUV&amp;index=sp_phys</URL>
             <ProductKey>IMAGE_M2_EUV</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

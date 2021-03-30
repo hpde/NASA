@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Attitude Data, 10 min Data</ResourceName>
-      <ReleaseDate>2020-07-23T19:09:26Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Polar Attitude data, 10-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -30,7 +30,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_AT_PRE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_AT_PRE&amp;index=sp_phys</URL>
         <ProductKey>PO_AT_PRE</ProductKey>
         <Description>PO_AT_PRE</Description>
       </AccessURL>

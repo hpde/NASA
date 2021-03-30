@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/SEE/L3A</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED SEE Level 3A Solar Irradiance Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>SEE Level 3A data files contain each measurements averaged solar irradiance spectrum in 1 nm intervals extracted from the EGS Level 2A and XPS Level 2A data products. Shortward of 27 nm, a solar model is scaled to match the XPS broadband data. SEE Level 3A data files also contain 38 emission lines extracted from EGS Level 2A spectra, and the XPS Level 2A diode irradiances.
 
 For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 minutes), which usually gives 14-15 measurements per day. The SEE Level 3A data are time averaged over each measurement, after applying corrections for atmospheric absorption, degradation, flare removal, and to 1-AU.</Description>
@@ -57,7 +57,7 @@ For normal operations, SEE observes the Sun for about 3 minutes every orbit (97 
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L3A_SEE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L3A_SEE&amp;index=sp_phys</URL>
         <ProductKey>TIMED_L3A_SEE</ProductKey>
         <Description> TIMED SEE L3A data with subset, plot, list from CDAWeb</Description>
       </AccessURL>

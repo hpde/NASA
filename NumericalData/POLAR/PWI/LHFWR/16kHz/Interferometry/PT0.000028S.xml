@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/PWI/LHFWR/16kHz/Interferometry/PT0.000028S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Plasma Wave Instrument (PWI), High Frequency Waveform Receiver, 16 kHz, Time Domain Fields.</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The unattenuated frequency range for this file type is 20Hz to 16000Hz. The cadence value given here is computed from the inverse of the sampling rate (35.71 kHz). For a description of the PWI receivers and the different operational modes see: http://www-pw.physics.uiowa.edu/plasma-wave/istp/polar/modes.html</Description>
       <Acknowledgement>U. Iowa, Donald. A. Gurnett</Acknowledgement>
       <Contact>
@@ -35,7 +35,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTP access to files at SPDF</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H5_PWI</ProductKey>
         <Description>In CDF via FTP from SPDF</Description>
 </AccessURL>
@@ -54,7 +54,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H5_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_H5_PWI</ProductKey>
         <Description>Plots, lists and files from CDAWeb of the data resource:PO_H5_PWI</Description>
 </AccessURL>

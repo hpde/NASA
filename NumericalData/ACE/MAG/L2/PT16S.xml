@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/ACE/MAG/L2/PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages of field magnitude and GSE and GSM Cartesian components, plus standard deviations, plus ACE location data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The "parameter keys" given below are as used by CDAWeb. One-sec, 4-min, 1-hr, 1-day and 27-day averages are also available via the access paths given below.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H0_MFI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H0_MFI&amp;index=sp_phys</URL>
         <ProductKey>AC_H0_MFI</ProductKey>
         <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities from CDAWeb</Description>
       </AccessURL>

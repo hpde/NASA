@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/MMS/2/FastPlasmaInvestigation/DIS/Burst/Level2/PartialMoments/PT0.15S</ResourceID>
       <ResourceHeader>
          <ResourceName>MMS 2 Fast Plasma Investigation, Dual Ion Spectrometer (FPI, DIS) Partial Distribution Moments, Burst Survey, Level 2 (L2), 150 ms Data</ResourceName>
-         <ReleaseDate>2020-10-30T19:22:07Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>FPI usually operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution in this Mode. Data are also made available at Survey (4.5 s, etc.) Resolution. Per Mission Design, not all Burst Resolution Data are downlinked, but all Survey Data are downlinked. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually operates in Slow Survey (SS) Mode (60 s Resolution) outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Partial Moments that come from performing the Standard Moment Integrals over a limited Portion of Velocity Space. The resulting Quantities are named similarly to their corresponding Standard Moments, but are decorated with &apos;part&apos; to differentiate. For example, density_part is the Density Moment integrated from a particular Energy Step to Infinity. These Partial Moments are formed from the indicated Data Type (DES/DIS Burst, FS or SS). For convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
          <Acknowledgement>J.L. Burch, B.L. Giles</Acknowledgement>
          <Contact>
@@ -57,7 +57,7 @@
 </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS2_FPI_BRST_L2_DIS-PARTMOMS&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS2_FPI_BRST_L2_DIS-PARTMOMS&amp;index=sp_phys</URL>
             <ProductKey>MMS2_FPI_BRST_L2_DIS-PARTMOMS</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
 </AccessURL>

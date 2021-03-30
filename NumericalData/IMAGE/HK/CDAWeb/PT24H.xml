@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/IMAGE/HK/CDAWeb/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE Housekeeping Data via CDAWeb</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:38Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This set of housekeeping data from the IMAGE mission comes from the Central Interface Data Processor (CIDP) and the interface with the Spacecraft/System Control Unit (SCU).   The CIDP provides the following major functions for the Observatory:
 (1) Instrument data acquisition, processing, and compression.
 (2) Stored command processing.
@@ -74,7 +74,7 @@ IM_HK_TML: Image Thermal Housekeeping
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IM_HK_ADS&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IM_HK_ADS&amp;index=sp_phys</URL>
         <ProductKey>IM_HK_ADS</ProductKey>
         <Description>Plots, lists and files from CDAWeb</Description>
       </AccessURL>

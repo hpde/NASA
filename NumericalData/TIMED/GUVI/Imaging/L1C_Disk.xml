@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI Imaging Level 1C Disk</ResourceName>
-      <ReleaseDate>2020-07-31T19:35:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This Level 1C data product measured over multiple scans on the disk contains data directly measure by the sensors such as photometer counts, uncertainties, light intensities and pointing information derived from the GUVI raw sensor data and the TIMED Satellite ephemeris data. The data are geolocated at a 150 km altitude, then gridded and binned to a 25 km X 25 km resolution GUVI-based coordinate system consisting of the along orbit position of the sensor and the angle of the scan from the nadir position. This gridding eliminates overlap from scan to scan due to the large instantaneous field-of-view of GUVI (about 12 degrees) and involves coaddition to place the values on a uniform instrument shared grid. The data is then determined whether its from day, night, aurora or twilight pixels.</Description>
       <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       <Contact>
@@ -55,7 +55,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L1CDISK_GUVI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L1CDISK_GUVI&amp;index=sp_phys</URL>
         <ProductKey>TIMED_L1CDISK_GUVI</ProductKey>
         <Description>TIMED GUVI Imaging L1C data with subset, plot, list from CDAWeb</Description>
       </AccessURL>

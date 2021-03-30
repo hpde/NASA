@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Plasma Moments, Level 2 (H2), 1 h Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This Data Product contains Measurements from the ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) Instrument. The Quality of the ACE Level 2 Data are such that it is suitable for serious Scientific Study. However, to avoid Confusion and Misunderstanding, it is recommended that Users consult with the appropriate ACE Team Members before publishing Work derived from the Data. The ACE Team has worked hard to ensure that the Level 2 Data are free from Errors, but the Team cannot accept Responsibility for erroneous Data, or for Misunderstandings about how the Data may be used. This is especially true if the appropriate ACE Team Members are not consulted before Publication. At the very least, Preprints should be forwarded to the ACE Team before Publication. SWEPAM References: http://www.srl.caltech.edu/ACE/</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. See the Rules Of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html.</Acknowledgement>
       <Contact>
@@ -58,7 +58,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H2_SWE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H2_SWE&amp;index=sp_phys</URL>
         <ProductKey>AC_H2_SWE</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

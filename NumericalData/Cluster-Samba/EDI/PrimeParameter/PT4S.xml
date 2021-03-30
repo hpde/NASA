@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cluster-Samba Prime Parameter Electron Drift Instrument (EDI) Data</ResourceName>
       <AlternateName>Cluster 3 Prime Parameter EDI data</AlternateName>
-      <ReleaseDate>2021-02-12T20:40:18Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This instrument (EDI: Electron Drift Instrument) measures the drift of a weak beam of test electrons that, when emitted in certain directions, return to the spacecraft after one gyration. This drift is related to the electric field and the gradient in the magnetic field, and these quantities can, by the use of different electron energies, be determined separately. The fundamental time step to determine the new parameters and direct the beams and the detectors is 2 ms. Inter-experiment links include: magnetic field information from FGM and STAFF, a blanking pulse received from WHISPER to warn of possible interference from that active experiment, and a similar blanking pulse sent to PEACE when the EDI electron beam could interfere with the PEACE electron measurement. For more details of the Cluster mission, the spacecraft, and its instruments, see the report Cluster: mission, payload and supporting activities, March 1993, ESA SP-1159, and the included article The Electron Drift Instrument for Cluster, by G. Paschmann et al., from which this information was obtained.</Description>
       <Acknowledgement>NASA, Dr. Goetz Paschmann, European Space Agency</Acknowledgement>
       <Contact>
@@ -107,7 +107,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C3_PP_EDI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=C3_PP_EDI&amp;index=sp_phys</URL>
         <ProductKey>C3_PP_EDI</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

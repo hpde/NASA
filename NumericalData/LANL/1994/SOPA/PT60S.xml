@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>LANL 1994 Synchronous Orbit Particle Analyzer (SOPA) at 60 sec Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>LANL 095 SOPA data</AlternateName>
-      <ReleaseDate>2020-07-07T21:14:44Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The LANL 1994-084 SOPA data set contains various parameters in a variety of coordinates systems including GEI, spacecraft, polar geographic, and polar magnetic coordinates at about 60 s resolution. These parameters include universal time, spacecraft location, electron and on density, electron and on temperature, electron and ion particle flux, electron and ion energies, electron and ion rangies, and data quality flags. </Description>
       <Acknowledgement>Los Alamos National Laboratory;  Dr. Reiner Friedel</Acknowledgement>
       <Contact>
@@ -46,7 +46,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=L4_K0_SPA&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=L4_K0_SPA&amp;index=sp_phys</URL>
         <ProductKey>L4_K0_SPA</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

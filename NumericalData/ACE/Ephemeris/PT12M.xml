@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE GSE 12-min Position Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -34,7 +34,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_OR_SSC&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_OR_SSC&amp;index=sp_phys</URL>
         <ProductKey>AC_OR_SSC</ProductKey>
       </AccessURL>
       <AccessURL>

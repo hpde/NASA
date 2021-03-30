@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/Wind/SWE/IonMoments/KeyParameter/PT99S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Solar Wind Experiment (SWE) Thermal Plamsa Moments, Key Parameter (K0), 99 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:16:06Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Wind SWE Key Parameter data: proton density, thermal speed, flow velocity vectors, and spacecraft position vectors. Various versions differ slightly from each other. The version at MIT has flow velocity vectors experessed bby using Geocentric Solar Ecliptic, GSE, Cartesian and spherical representations and GSE Cartesian position vectors. The version available via nssdcftp and FTPBrowser has temperature instead of thermal speed and has no flow direction angles. The CDAWeb version has flow velocity and spacecraft position vectors in both GSE and Geocentric Solar Magnetospheric, GSM, coordinates, flow dynamic pressure, NmV^2, and velocity and density quality flags. The data were progressively despiked in passing from CDAWeb to MIT to nssdcftp/FTPBrowser.
 
 Use of the Quality Variables:
@@ -169,7 +169,7 @@ Note that this SPASE Numerical Description only describes the MESSENGER Magnetom
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_K0_SWE&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_K0_SWE&amp;index=sp_phys</URL>
             <ProductKey>WI_K0_SWE</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

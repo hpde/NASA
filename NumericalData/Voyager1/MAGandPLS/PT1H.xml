@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/Voyager1/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2021-03-11T18:39:11Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb. Magnetic field vectors and plasma flow direction angles are given in RTN coordinates. Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and L. Burlaga for magnetic field data and J. Richardson (P.I.) for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -46,7 +46,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=VOYAGER1_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=VOYAGER1_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
         <ProductKey>VOYAGER1_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
         <Description>For CDAWeb subset,plot and list capabilities</Description>
       </AccessURL>

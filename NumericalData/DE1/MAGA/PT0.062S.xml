@@ -7,7 +7,7 @@
       <ResourceName>DE 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-A)high resolution data set</ResourceName>
       <AlternateName>Dynamics Explorer 1 MAG-A data</AlternateName>
       <AlternateName>DE-A MAG-A data</AlternateName>
-      <ReleaseDate>2020-07-07T21:14:31Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Dynamics Explorer 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer</Description>
       <Acknowledgement>NASA; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -45,11 +45,11 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
-        <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/62ms_magagms_cdaweb/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/62ms_magagms_cdaweb/</URL>
 </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
-        <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/62ms_magagms_cdaweb/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/62ms_magagms_cdaweb/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
 </AccessURL>
       <Format>CDF</Format>

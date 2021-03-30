@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/DisplayData/Voyager1/MAG/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 MAG 2-day plots at MAG team site</ResourceName>
-      <ReleaseDate>2020-07-07T19:48:38Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Voyager 1 magnetic field data plots at the Voyager MAG team site. Plots show magnetic field magnitude, direction angles, and Cartesian components in RTN coordinates. Plots typically cover 2 days.</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator, N. Ness of University of Delaware and Co-Investigator L. Burlaga of NASA GSFC.</Acknowledgement>
       <Contact>
@@ -18,7 +18,7 @@
       </Contact>
       <InformationURL>
         <Name>Readme at Voyager MAG team web site</Name>
-        <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/summary/readme.summary</URL>
       </InformationURL>
       <PriorID>spase://VHO/DisplayData/Voyager1/MAG/PT96S</PriorID>
       <PriorID>spase://VSPO/DisplayData/Voyager1/MAG/plots.PT96S</PriorID>
@@ -30,11 +30,11 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
-        <URL>ftps://spdf.sci.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/plots/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/plots/</URL>
       </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
-        <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/plots/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/vgrmag-data/plots/</URL>
       </AccessURL>
       <Format>Postscript</Format>
     </AccessInformation>

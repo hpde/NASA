@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar (Charge and Mass Magnetospheric Ion Composition) CAMMICE 3-Min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Polar CAMMICE (Charge and Mass Magnetospheric Ion Composition) Key Parameters, H, He, O Count Rates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
@@ -34,7 +34,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_CAM&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_CAM&amp;index=sp_phys</URL>
         <ProductKey>PO_K0_CAM</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

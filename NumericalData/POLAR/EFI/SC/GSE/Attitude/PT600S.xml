@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/EFI/SC/GSE/Attitude/PT600S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Electric Fields Instrument (EFI), Spacecraft Attitude in GSE coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:01Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>the Polar spacecraft positive spin axis direction vector (normalized to magnitude 1), in GSE coordinates.</Description>
       <Acknowledgement>Please acknowledge the instrument PI, F.S. Mozer, and CDAWeb when using these data.</Acknowledgement>
       <Contact>
@@ -44,7 +44,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_10MINATT_EFI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_10MINATT_EFI&amp;index=sp_phys</URL>
         <ProductKey>PO_10MINATT_EFI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

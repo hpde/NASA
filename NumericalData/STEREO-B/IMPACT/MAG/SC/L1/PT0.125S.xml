@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/STEREO-B/IMPACT/MAG/SC/L1/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG) Magnetic Field Vectors, in Spacecraft (SC) Coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>STEREO Behind In-situ Measurements of Particles and CME Transients, IMPACT, Magnetometer Instrument, MAG, Magnetic Field Vectors, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -44,7 +44,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_MAG_SC&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_MAG_SC&amp;index=sp_phys</URL>
         <ProductKey>STB_L1_MAG_SC</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

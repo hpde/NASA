@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/MESSENGER/MAG/PT0.05S</ResourceID>
       <ResourceHeader>
          <ResourceName>MESSENGER Magnetometer (MAG) Interplanetary Magnetic Field, Radial-Tangential-Normal, RTN, Coordinates, High Resolution, 1 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:45Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>This MESSENGER Magnetic field data set contains cruise-phase magnetic field vectors in RTN coordinates at time resolutions typically of 0.5 s or 1.0 s and sometimes as fine as 0.05 s.
 
 The Mercury Surface, Space Environment, Geochemistry, and Ranging, MESSENGER, mission is designed to study the characteristics and environment of Mercury from orbit. The nominal orbit is planned to have a periapsis of 200 km at 60&#176; N latitude, an apoapsis of 15,193 km, a period of 12 hours, and an inclination of 80&#176;. The periapsis will slowly rise due to solar perturbations to over 400 km at the end of 88 days, one Mercury year, at which point it will be readjusted to a 200 km, 12 hour orbit via a two burn sequence. Data will be collected from orbit for one Earth year, the nominal primary mission was planned to end in March 2012.
@@ -92,7 +92,7 @@ The MESSENGER Magnetometer data are also available from the Planetary Data Syste
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MESSENGER_MAG_RTN&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MESSENGER_MAG_RTN&amp;index=sp_phys</URL>
             <ProductKey>MESSENGER_MAG_RTN</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/TWINS1/Ephemeris/Attitude/Definitive/PT0.512S</ResourceID>
       <ResourceHeader>
          <ResourceName>TWINS-1 Ephemeris, Definitive Spacecraft Attitude, PT0.512S Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Two Wide-angle Imaging Neutral-atom Spectrometers 1, TWINS 1, Spacecraft Attitude data, Earth Centered Inertial, ECI, coordinates.
 
 This TWINS data set contains spacecraft attitude data as polar and azimuthal instrument pointing vectors. The polar vector points along the TWINS rotation axis. The azimuthal vector lies in the plane normal to the polar vector and points toward the central scanning position, which is defined as the zero-point location. Such pointing is derived from both the spacecraft attitude history, SAH, file and the sensor mounting orientation. The computation employed is designed to achieve a pointing accuracy of 0.5&#176;. Any deviation from this accuracy level is indicated in the header record metadata.</Description>
@@ -48,7 +48,7 @@ This TWINS data set contains spacecraft attitude data as polar and azimuthal ins
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TWINS1_AT_DEF&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TWINS1_AT_DEF&amp;index=sp_phys</URL>
             <ProductKey>TWINS1_AT_DEF</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

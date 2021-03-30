@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/ACE/SWICS/L2/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE SWICS 2.0 Solar Wind Protons 12-min Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:16Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The SWICS 12-minute proton data contains densities, speeds, and thermal speeds
 from the beginning of the mission up to the present day. The densities have
 been cross-calibrated to the proton monitors ACE/SWEPAM and WIND/SWE, and
@@ -44,7 +44,7 @@ http://www.srl.caltech.edu/ACE/ASC/DATA/level2/ssprotons/swics_protons_release_n
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H6_SWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H6_SWI&amp;index=sp_phys</URL>
         <ProductKey>AC_H6_SWI</ProductKey>
 </AccessURL>
       <AccessURL>

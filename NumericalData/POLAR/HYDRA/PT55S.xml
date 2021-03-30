@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/HYDRA/PT55S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar HYDRA 55-s Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Polar HYDRA 55-s key parameters, electron densities and average energies</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
@@ -29,7 +29,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_HYD&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_HYD&amp;index=sp_phys</URL>
         <ProductKey>PO_K0_HYD</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

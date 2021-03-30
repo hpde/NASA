@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/THEMIS/A/GMOM/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A (P5) Electron and Ion Moments (GMOM) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure and Temperature</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:24Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>THEMIS-A Electrostatic Analyzer (ESA) and Solid State Telescope (SST) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure, and Temperature. Generated from ESA and SST Combined Distributions. Data include Electron/Ion Ground-Calculated Fluxes and Spectrograms for Ions from 5 eV to 4 MeV and Electrons from 6 eV to 700 keV.</Description>
       <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
@@ -61,7 +61,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L2_GMOM&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L2_GMOM&amp;index=sp_phys</URL>
         <ProductKey>THA_L2_GMOM</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

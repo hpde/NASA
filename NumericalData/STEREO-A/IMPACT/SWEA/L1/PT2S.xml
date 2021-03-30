@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/SWEA/L1/PT2S</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Solar Wind Electron Analyzer (SWEA) 3-Dimensional Electron Distributions, Burst Mode, Level 1 (L1), 2 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>The file contains Level 1 3D electron distributions in burst mode from the In-situ Measurements of Particles and CME Transients, IMPACT, SWEA instrument on the STEREO Ahead spacecraft. For important usage caveats see https://cdaweb.gsfc.nasa.gov/stereo_swea_caveats.html.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator J.G. Luhmann for use of the Data</Acknowledgement>
          <Contact>
@@ -62,7 +62,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L1_SWEA_DISB&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L1_SWEA_DISB&amp;index=sp_phys</URL>
             <ProductKey>STA_L1_SWEA_DISB</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

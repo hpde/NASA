@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/EPACT/SEP/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT) APE-B Telescope Proton Fluxes 18.90 to 21.90 MeV, Level 2, 1 hr Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The Energetic Particles: Acceleration, Composition and Transport, EPACT, on Wind. The APE-B Telescope measures Proton Fluxes at Particle Energies of 18.90 MeV to 21.90 MeV.</Description>
       <Acknowledgement>T.T. Von Rosenvinge, D.V. Reames</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-1HOUR-SEP_EPACT-APE_B&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-1HOUR-SEP_EPACT-APE_B&amp;index=sp_phys</URL>
         <ProductKey>WI_L2-1HOUR-SEP_EPACT-APE_B</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

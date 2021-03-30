@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/L1C/Disk/LBH2/Mercator/Movies/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Global Ultraviolet Imager (GUVI) Airglow Flux 14-day Movies, at Wavelength LBH2 in Mercator Projection</ResourceName>
-      <ReleaseDate>2020-07-31T19:35:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>GUVI measures FUV Airglow in five Spectral Bands: the atomic HI Lyman-alpha Band, 121.6 nm, two atomic Oxygen OI Bands, 130.4 nm and 135.6 nm, and the molecular Nitrogen Lyman-Birge-Hopfield Short, LBHS, 141 to 152.8 nm, and Lyman-Birge-Hopfield Long, LBHL, 167.2 to 181.2 nm, Bands. The Cross-Track Scanning Spectrograph images a Ground Swath of 3000 km Width providing nearly Contiguous Global Coverage with 15 Orbits per Day. This L1CDisk, Level 1C Disk, Version 3, File provides the calibrated, geolocated, and rectified Intensities for the fifth LBH2, 1650-1800 &#xC5;, Wavelength Band. This is a Movie with mapped Images of the Log Intensities by Orbit by using a Transverse Mercator Projection.</Description>
       <Acknowledgement>A. B. Christensen</Acknowledgement>
       <Contact>
@@ -48,7 +48,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L1CDISK_GUVI_LBH2_MERC_MOVIES&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_L1CDISK_GUVI_LBH2_MERC_MOVIES&amp;index=sp_phys</URL>
         <ProductKey>TIMED_L1CDISK_GUVI_LBH2_MERC_MOVIES</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

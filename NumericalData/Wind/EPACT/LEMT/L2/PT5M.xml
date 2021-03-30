@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/EPACT/LEMT/L2/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind EPACT/LEMT 5-min key parameter flux data</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This set of key parameter flux data from the Wind EPACT (Energetic Particles: Acceleration,Composition and Transport) telescopes contains fluxes of He, C, O Ne,Si, Fe nuclei in the general range 2-11 MeV/n, each averaged over 5 minutes. Poisson uncertainties are given for each flux.</Description>
       <Acknowledgement>Dr. Tycho T. Von Rosenvinge</Acknowledgement>
       <Contact>
@@ -36,7 +36,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-5MIN-SEP_EPACT-LEMT&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-5MIN-SEP_EPACT-LEMT&amp;index=sp_phys</URL>
         <ProductKey>WI_L2-5MIN-SEP_EPACT-LEMT</ProductKey>
         <Description>CDAWeb interface with subsetting, graphics, listing
 and file creation</Description>

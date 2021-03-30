@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/PWI/KeyParameters/PT300S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar PWI Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This set of key parameters comes from the Polar Plasma Wave Instrument.   The data set contains the observed electron, proton, and oxygen cyclotron frequencies, plus the average and peak electric and magnetic fields in 160 frequencies from the two swept frequency receivers (SFRs), at 5-minute resolution. Additional related mode and antenna information is also given, plus spacecraft position in magnetic coordinates, and the variables Epoch (Time standard for CDF) and Time_PB5 (Time standard for ISTP data).
 
 The electron, ion and cyclotron frequencies are derived from the following: Fce = 0.028 kHz*B, where B is the magnitude of the ambient magnetic field measured in nT. Fcp = Fce/1837 in kHz. FcO+ = Fcp/16 in kHz. All frequencies in the Key parameters are converted to Hz. Since the SFR frequency steps vary with the mode, the measured SFR frequencies will be mapped to a fixed array of 160 approximately logarithmically spaced frequency values, 32 frequency values for each of the five SFR channels.
@@ -33,7 +33,7 @@ In the log mode, the 64 frequency steps of the fourth and fifth frequency channe
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_PWI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_PWI&amp;index=sp_phys</URL>
         <ProductKey>PO_K0_PWI</ProductKey>
         <Description>P0_K0_PWI</Description>
       </AccessURL>

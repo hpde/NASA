@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/Genesis/GIM/3DMOM/PT2M30S</ResourceID>
       <ResourceHeader>
          <ResourceName>Genesis 3D Ion Moments</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:34Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Genesis level 2 3-dimensional ion moments and a bidirectional electron streaming flag</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/John.T.Steinberg</PersonID>
@@ -48,7 +48,7 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GENESIS_3DL2_GIM&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=GENESIS_3DL2_GIM&amp;index=sp_phys</URL>
             <ProductKey>GENESIS_3DL2_GIM</ProductKey>
             <Description>Plots, lists or files from CDAWeb</Description>
          </AccessURL>

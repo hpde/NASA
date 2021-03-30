@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/EPACT/PT92S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT) 92s KP Fluxes</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This set of key parameter flux data 
 from the Wind EPACT (Energetic Particles: Acceleration, 
 Composition and Transport) telescopes contains fluxes of 
@@ -36,7 +36,7 @@ and 1-10 MeV electrons, each averaged over 92 seconds.</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_K0_EPA&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_K0_EPA&amp;index=sp_phys</URL>
         <ProductKey>WI_K0_EPA</ProductKey>
         <Description>CDAWeb interface with subsetting, graphics, listing
 and file creation</Description>

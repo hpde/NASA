@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/RENU2/PMT/PT0.004S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 PhotoMultiplier Tube (PMT) Auroral Red and Green Line Luminosity in Raylieghs, Background subtracted, High Time Resolution (H0), 4 ms Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>RENU2 PMT Counts converted to Rayleighs and Background subtracted</Description>
          <Acknowledgement>Please acknowledge the Principal Investigators, M.R. Lessard and J.H. Hecht, from the University of New Hampshire and Aerospace Corporation, respectively, for providing the Data.</Acknowledgement>
          <Contact>
@@ -62,7 +62,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_PMT&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_PMT&amp;index=sp_phys</URL>
             <ProductKey>RENU2_H0_PMT</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Interball-2/IMAP3/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Aurora MAG 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:44Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Interball Auroral Magnetometer, 2-min key parameters, field intensity and index</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Vladislav.M.Petrov</PersonID>
@@ -29,7 +29,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IA_K0_MFI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IA_K0_MFI&amp;index=sp_phys</URL>
         <ProductKey>IA_K0_MFI</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/CNOFS/VEFI/Lightning/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>CNOFS VEFI 500-msec Optical Lightning Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:29Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data set contains the low rate data from the C/NOFS Vector Electric Field Instrument (VEFI) lightning detector during nighttime passes of the satellite along its low inclination (13 degree) orbit and within the altitude domain defined by the satellite&#x2019;s perigee and apogee of 401 km and 867 km, respectively.  Two photodiodes measure white light irradiance at 2 Hz in 7 threshold values and in 2 look directions (north and south). Data are at 0.5-sec resolution.  The lightning detector data may be used to identify a possible relationship between the occurrence of lightning and the occurrence of Spread-F caused, deep density dropouts in the ionosphere. Reference: Jacobson et al, J Atm Ocean Tech, 2011, doi:10.1175/JTECH-D-11-00047.1   </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.F.Pfaff</PersonID>
@@ -23,7 +23,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CNOFS_VEFI_LD_500MS&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=CNOFS_VEFI_LD_500MS&amp;index=sp_phys</URL>
         <ProductKey>CNOFS_VEFI_LD_500MS</ProductKey>
         <Description>Plots, lists and files from CDAWeb.</Description>
       </AccessURL>

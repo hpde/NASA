@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/BARREL/1S/SlowSpectra/L2/PT32S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1S X-Ray Spectrometer (SSPC) Bremsstrahlung X-Ray Spectrum Slow Time Resolution</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:22Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Bremsstrahlung X-ray Spectra, 256 Energy bIns transmitted over 32 Frames</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -43,7 +43,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_1S_L2_SSPC&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_1S_L2_SSPC&amp;index=sp_phys</URL>
             <ProductKey>BAR_1S_L2_SSPC</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

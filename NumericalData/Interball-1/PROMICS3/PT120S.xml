@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Interball-1/PROMICS3/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail PROMICS H+ and O+ 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:43Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Interball Tail H+ and O+ count rates from multiple sensors on PROMICS, 2-min key parameters</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ingrid.Sandahl</PersonID>
@@ -29,7 +29,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_K0_ICD&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_K0_ICD&amp;index=sp_phys</URL>
         <ProductKey>IT_K0_ICD</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

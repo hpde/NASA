@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/BARREL/1L/Magnetometer/L2/PT0.25S</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 1L Tri-Axial Fluxgate Magnetometer (MAGN) Magnetic Field, data are neither Gain Corrected nor Despun</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:20Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Three-Axis Magnetometer Reading with Nominal Conversion, Data are neither Gain Corrected nor Despun</Description>
          <Acknowledgement>R. Millan</Acknowledgement>
          <Contact>
@@ -43,7 +43,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_1L_L2_MAGN&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=BAR_1L_L2_MAGN&amp;index=sp_phys</URL>
             <ProductKey>BAR_1L_L2_MAGN</ProductKey>
             <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

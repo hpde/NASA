@@ -5,7 +5,7 @@
     <ResourceHeader>
       <ResourceName>ISIS 1 Topside Sounder Ionograms</ResourceName>
       <AlternateName>ISIS-1 Topside Sounder Ionogram CDFs at NASA's CDAWeb</AlternateName>
-      <ReleaseDate>2020-07-07T21:14:41Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>These ionograms were digitized from the original ISIS-1 7-track analog telemetry tapes using the facilities of the former Data Evaluation Laboratory at the NASA/GSFC. This data restoration project is headed by Dr. R.F. Benson (NASA/GSFC). Ionograms were digitized at the rate of 40,000 16-bit samples/sec. This sample rate is higher than the Nyquist frequency of 30 kHz. The sample frequency of 40 kHz provides a measurement every 25 microseconds corresponding to an apparent range (c*t/2) interval of 3.75 km. Each ionogram consists of a fixed-frequency and and a swept-frequency portion. The time resolution between ionograms is typically 29 seconds.</Description>
       <Acknowledgement>Users please acknowledge the Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center, ISIS-1 SFS instrument Principal Investigator J. H. Whitteker and ISIS Data-Restoration project lead Robert F. Benson.</Acknowledgement>
       <Contact>
@@ -53,7 +53,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I1_AV_ALL&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I1_AV_ALL&amp;index=sp_phys</URL>
         <ProductKey>I1_AV_ALL</ProductKey>
         <Description>Repository of ISIS-1 data in CDF format at NASA CDAWeb, accessible via web interface.</Description>
         <Language>en</Language>

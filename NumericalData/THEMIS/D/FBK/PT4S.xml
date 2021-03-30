@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/THEMIS/D/FBK/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-D: Probe Electric Field Instrument and Search Coil Magnetometer Instrument, Digital Fields Board - digitally computed Filter Bank spectra and E12 peak and average in HF band (FBK).</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:27Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The Filter Bank is part of the Digital fields board and provides band-pass filtering for EFI and SCM spectra as well as E12HF peak and average value calculations.  The Filter Bank provides band-pass filtering for less computationally and power intensive spectra than the FFT would provide.  The process is as follows:   Signals are fed to the Filter Bank via a low-pass FIR filter with a cut-off frequency half that of the original signal maximum.  The output is passed to the band-pass filters, is differenced from the original signal, then absolute value of the data is taken and averaged.  The output from the low-pass filter is also sent to a second FIR filter with 2:1 decimation.  This output is then fed back through the system.  The process runs through 12 cascades for input at 8,192 samples/s and 13 for input at 16,384 samples/sec (EAC input only), reducing the signal and computing power by a factor 2 at each cascade.  At each cascade a set of data is produced at a sampling frequency of 2^n from 2 Hz to the initial sampling frequency (frequency characteristics for each step are shown below in Table 1).  The average from the Filter Bank is compressed to 8 bits with a pseudo-logarithmic encoder.  The data is stored in sets of six frequency bins at 2.689 kHz, 572 Hz, 144.2 Hz, 36.2 Hz, 9.05 Hz, and 2.26 Hz.  The average of the coupled E12HF signal and it's peak value are recorded over 62.5 ms windows (i.e. a 16 Hz sampling rate).  Accumulation of values from signal 31.25 ms windows is performed externally.  The  analog signals fed into the FBK are E12DC and SCM1.  Sensor and electronics design provided by UCB (J. W. Bonnell, F. S. Mozer), Digital Fields Board provided by LASP (R. Ergun), Search coil data provided by CETP (A. Roux).
 
 Table 1:  Frequency Properties.
@@ -71,7 +71,7 @@ Cascade  |  Frequency content of Input Signal  |  Low-pass Filter Cutoff Frequen
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THD_L2_FBK&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THD_L2_FBK&amp;index=sp_phys</URL>
         <ProductKey>THD_L2_FBK</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb.</Description>
       </AccessURL>

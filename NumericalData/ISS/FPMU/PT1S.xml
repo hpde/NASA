@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/ISS/FPMU/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISS Floating Potential Measurement Unit (FPMU), Summary Parameter 1 s Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:43Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>International Space Station, ISS, Floating Potential Measurement Unit, FPMU, Ionosphere Summary Wide Langmuir Probe, WLP, Density and Narrow Langmuir Probe, NLP, Temperature Records 1 s Data. The Space Dynamics Laboratory, SDL, Utah State University, USU, developed the FPMU for the NASA Johnson Space Center. The FPMU was installed by ISS Crew Members during an Extra Vehicular Activity, EVA, on the Starboard, Sl, Truss of the ISS in early August 2006. The System is based on past USU SDL Space Instruments and incorporates a Floating Potential Probe, Multiple Langmuir Probes, and a Plasma Frequency Probe into one Sensor Suite. The FPMU is used to correct the Charging Models of the Station each time a New Section is added to the Structure. By providing Feedback on the Effectiveness of Steps taken to control Charging, the FPMU helps ensure a Safe Working Environment for the Astronauts.</Description>
       <Acknowledgement>R.M. Suggs, S.L. Koontz, NASA Johnson Space Center Contact Rob Suggs for support and use. Rob.Suggs@nasa.gov.</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISS_SP_FPMU&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ISS_SP_FPMU&amp;index=sp_phys</URL>
         <ProductKey>ISS_SP_FPMU</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

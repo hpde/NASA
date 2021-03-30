@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/RENU2/IG2/PT0.001S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 Ion Gauge (IG2) Sensor Pressure, High Time Resolution (H0), 1 ms Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Rocket Experiment for Neutral Upwelling 2, RENU2, Ionization Gauge, Neutral Gas Pressure Measurements</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, M.R. Lessard, from the University of New Hampshire for providing the Data.</Acknowledgement>
          <Contact>
@@ -58,7 +58,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_IG2&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_IG2&amp;index=sp_phys</URL>
             <ProductKey>RENU2_H0_IG2</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

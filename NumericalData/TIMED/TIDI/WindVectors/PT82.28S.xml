@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/TIMED/TIDI/WindVectors/PT82.28S</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED TIMED Doppler Interferometer (TIDI) Zonal and Meridional Winds at 60-180 km, Version 0307, 82.28 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:39Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>The TIMED Doppler Interferometer, TIDI, instrument is a Fabry-Perot interferometer designed to measure zonal and meridional winds in the mesosphere and lower thermosphere.
 
 This TIMED TIDI data product contains neutral gas doppler temperature estimates and vector wind velocities estimated from line of sight inverted wind profiles based on rotational line measurements of molecular Oxygen, O&#8322;, (0,0) by using the TIDI P9 763.78 nm filter. This Level 3 data set of wind vectors contains that are mapped onto fixed angle-along-the-track grids. Vertical resolution is ~2 km at the lower altitudes and 25 km at the thermosphere, with an accuracy that approaches approximately 3 m/sec. Each profile is annotated with ancillary data including profile position and processing status.
@@ -86,7 +86,7 @@ TIMED TIDI data are available from the following access URLs but the linked data
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_WINDVECTORSNCAR_TIDI&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_WINDVECTORSNCAR_TIDI&amp;index=sp_phys</URL>
             <ProductKey>TIMED_WINDVECTORSNCAR_TIDI</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

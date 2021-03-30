@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>OMNI Combined Heliopheric Observations (COHO), Merged Magnetic Field, Plasma and Ephermeris, Definitive Hourly Data</ResourceName>
       <DOI>https://doi.org/10.48322/6ffx-3441</DOI>
-      <ReleaseDate>2020-08-28T18:26:14Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Hourly Averaged Definitive Multispacecraft Interplanetary ParametersData. The Heliographic Inertial, HGI, Coordinates are Sun-Centered and inertially fixed with respect to an X-Axis directed along the Intersection Line of the Ecliptic and Solar Equatorial Planes. The Solar Equatorial Plane is inclined at 7.25&#xB0; from the Ecliptic. This Direction was towards Ecliptic Longitude of 74.367&#xB0; on 1 January 1900 at 1200 UT but because of Precession of the Celestial Equator, this Longitude increases by 1.4&#xB0; per Century. The Z-Axis is directed Perpendicular and Northward from the Solar Equator, and the Y-Axis completes the Right-Handed Set. This System differs from usual Heliographic Coordinates, e.g. Carrington Longitudes, which are fixed in the Frame of the Rotating Sun. The RTN System is fixed at a Spacecraft or a Planet. The R-Axis is directed radially away from the Sun, the T-Axis is the Cross Product of the Solar Rotation Axis and the R-Axis, and the N-Axis is the Cross Product of the R-Axis and T-Axis. At 0&#xB0; Heliographic Latitude when the Spacecraft is in the Solar Equatorial Plane, the N-Axis and Solar Rotation Axis are Parallel. Latitude and Longitude Angles of Solar Wind Plasma Flow are generally measured from the Radius Vector away from the Sun. In all cases, Latitude Angles are Positive for North-Going Flow. The Flow Longitude Angles have been treated differently for the Near-Earth Data, i.e. the OMNI, and for the Deep Space Data. The Flow is Positive for the Near-Earth Data when coming from the Right Side of the Sun as viewed from the Earth, i.e. flowing toward +Y from -X GSE or Opposite to the Direction of Planetary Motion. On the other hand, the Flow Longitudes for the Deep Space Spacecraft use the opposite Sign Convection, i.e. Positive for Flow in the +T Direction in the RTN System.</Description>
       <Acknowledgement>J.H. King, N.E. Papitashvili, NSSDC Public.</Acknowledgement>
 	  <PublicationInfo>
@@ -53,7 +53,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=OMNI_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=OMNI_COHO1HR_MERGED_MAG_PLASMA&amp;index=sp_phys</URL>
         <ProductKey>OMNI_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

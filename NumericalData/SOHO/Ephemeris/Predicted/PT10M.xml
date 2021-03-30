@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/SOHO/Ephemeris/Predicted/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Predicted Orbit, 10 min Data, Spacecraft Position and Velocity in GCI, GSE, GSM, HEC, and HG Coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:19Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>SOHO Predicted Orbit, Spacecraft Position and Velocity in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, Geocentric Solar Magnetospheric, GSM, Heliospheric Ecliptic, HEC, and Heliographic, HG, Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SO_OR_PRE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SO_OR_PRE&amp;index=sp_phys</URL>
         <ProductKey>SO_OR_PRE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/TIMAS/K1/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIMAS K1 Key Parameter data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:02Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>H+, O+, He+ and He++ number fluxes for survey purposes only
             Reference:E.G. Shelley et al., The Toroidal Imaging Mass-Angle Spectrograph (TIMAS) for the Polar Mission, Sp. Sci. Rev, Vol 71, pp 497-530, 1995.
             Version 0: June, 2001</Description>
@@ -46,7 +46,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K1_TIM&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K1_TIM&amp;index=sp_phys</URL>
         <ProductKey>PO_K1_TIM</ProductKey>
       </AccessURL>
       <Format>CDF</Format>

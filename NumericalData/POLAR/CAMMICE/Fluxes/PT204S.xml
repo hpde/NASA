@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/POLAR/CAMMICE/Fluxes/PT204S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar CAMMICE 3-Min Fluxes</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:00Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Polar CAMMICE H, He, O fluxes in several energy channels, ~1-200 keV/q</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Reiner.Friedel</PersonID>
@@ -29,7 +29,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_CAM&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_CAM&amp;index=sp_phys</URL>
         <ProductKey>PO_H0_CAM</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

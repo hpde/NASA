@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/Spectra/SCM/E/LowFrequency/HighGain/PT6.99054S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP FIELDS Digital Fields Board (DFB) DC-coupled Searchcoil Magnetometer, SCM, Spectra, Low Frequency, High Gain, e-component, Sensor coordinates, Level 2 (L2), 6.99054 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:04Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>PSP FIELDS Digital Fields Board, DFB, SCMelfhg data:
 
 The DFB is the low frequency, less than 75 kHz, component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1] below. For a full description of the FIELDS experiment, see reference [2]. For a description of the DFB, see reference [3].
@@ -94,7 +94,7 @@ References:
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG&amp;index=sp_phys</URL>
             <ProductKey>PSP_FLD_L2_DFB_DC_SPEC_SCMELFHG</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

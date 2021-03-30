@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/RBSP/A/EFW/L2/ESVY_DESPUN/PT0.031S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Electric Fields and Waves (EFW) 32 sample/sec despun electric field in modified-GSE (MGSE) coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:10Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>These high time resolution de-spun data are EFW measurements of the spin plane electric field at 32 samples/s. These data are presented in the MGSE system. Special care should be taken in its use. The EFW instrument can be sensitive to the low energy plasma environment and spacecraft effects in ways that other instruments are not. Users should read the "RBSP/EFW Data Required Reading" document for more details. In addition, mismatches between the responses of the different probes can introduce error signals. A preliminary check of the quality of this data may be carried out by comparing the rotated 32 sample/s electric field in the high time resolution CDF to the spin fit data found in the spin fit CDFs. In order to carry out this comparison the high time resolution data should be averaged down to the spin period to eliminate the higher frequency turbulence.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb. The work by the EFW team was conducted under JHU/APL contract 922613 (RBSP-EFW)</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_EFW-L2_ESVY_DESPUN&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_EFW-L2_ESVY_DESPUN&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_EFW-L2_ESVY_DESPUN</ProductKey>
       </AccessURL>
       <Format>Text</Format>

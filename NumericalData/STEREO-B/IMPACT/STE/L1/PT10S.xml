@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/STEREO-B/IMPACT/STE/L1/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT (In-Situ Measurements of Particles and CME Transients) Suprathermal Electron Telescope (STE) 10-s Level 1 Electron Spectra</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The IMPACT Suprathermal Electron (STE) Telescope data 
 consist of 10-sec resolution electron counts from each of 8 sensors in each 
 of 32 energy bands that span 1.9 keV to 100 keV.  Only four sensors provide 
@@ -33,7 +33,7 @@ of UCB</Acknowledgement>
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_STE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_STE&amp;index=sp_phys</URL>
         <ProductKey>STB_L1_STE</ProductKey>
         <Description>With subset, plot and ASCII list functions from CDAWeb</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/MMS/4/Ephemeris/Burst/Level2/Tsyganenko_89_Disturbed/PT0.030S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 4 Magnetic Ephemeris and Coordinates (MEC) Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Disturbed Conditions), Burst Survey</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:57Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Magnetospheric Multiscale 4 (MMS 4) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Burst (30 ms) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for disturbed magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 11 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
       <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
       <Contact>
@@ -52,7 +52,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS4_MEC_BRST_L2_EPHT89D&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS4_MEC_BRST_L2_EPHT89D&amp;index=sp_phys</URL>
         <ProductKey>MMS4_MEC_BRST_L2_EPHT89D</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

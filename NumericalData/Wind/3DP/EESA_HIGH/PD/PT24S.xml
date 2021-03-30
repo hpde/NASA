@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/3DP/EESA_HIGH/PD/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP EESA-HIGH Electron Pitch-Angle Distributions</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Wind 3DP electron pitch angle product providing electron 
         fluxes in 8 directional bins relative to the local magnetic field 
         direction at 15 different energy levels.</Description>
@@ -57,7 +57,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_EHPD_3DP&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_EHPD_3DP&amp;index=sp_phys</URL>
         <ProductKey>WI_EHPD_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>

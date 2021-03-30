@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/NumericalData/IBEX/Hi/H3/Release10/CG/SP/Ram/P1Y</ResourceID>
       <ResourceHeader>
          <ResourceName>IBEX High Energy Neutral Atom Imager (ENA-Hi) Data Release 10, Compton-Getting corrected, Survival Probability corrected, Ram direction, West Longitude Ecliptic Maps, 1 year averaged data, Level H3</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:36Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>This IBEX-Hi data set is from Release 10 of all-sky map data for the first seven years, 2009-2015, in the form of ram direction Hydrogen, H, energetic neutral atom fluxes with Compton-Getting corrections for spacecraft motion and with corrections for ENA survival probability between 1 and 100 AU. All-sky maps have been compiled for each consecutive 1 year time interval.
 
 The Interstellar Boundary Explorer, IBEX, has operated in space since 2008 updating our knowledge of the outer heliosphere and its interaction with the local interstellar medium. Start-time: 2008-12-25. There are currently 14 releases of IBEX-Hi and/or IBEX-Lo data covering 2009-2017. The data consist of all-sky maps in Solar Ecliptic Longitude, east and west, and Latitude angles for Energetic Neutral Atom, ENA, Hydrogen fluxes from IBEX-Hi from energy band 2 through energy band 6, see the first table below, in numerical data form. This particular data set is from IBEX Release 10 which includes observation from the first seven years, 2009-2015, of the IBEX mission. Details of the data and enabled science from Release 10 are given in the following journal publication:
@@ -107,7 +107,7 @@ The data in IBEX Release 10 are separated into 6 month and 1 year segments. The 
          </InformationURL>
          <InformationURL>
             <Name>IBEX Data Release 10, IBEX-Hi Maps Overview Listing, SPDF, NASA</Name>
-            <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/release10/IBEX-Data-Release-10_Seven-Years-of-Imaging-the-Global-Heliosphere-with-IBEX.pdf</URL>
             <Description>Interstellar Boundary Explorer, IBEX, Mission, Data Release 10, IBEX-Hi Maps in ASCII List Format and Image Format, hosted by the Space Physics Data Facility, SPDF, NASA</Description>
          </InformationURL>
          <InformationURL>
@@ -138,7 +138,7 @@ The data in IBEX Release 10 are separated into 6 month and 1 year segments. The 
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR&amp;index=sp_phys</URL>
             <ProductKey>IBEX_H3_ENA_HI_R10_CG_SP_RAM_1YR</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/STEREO-A/PLASTIC/Protons/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A Plasma and Suprathermal Ion Composition (PLASTIC) 10-min Proton Plasma Parameters</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data product contains 10-min averaged values of solar wind proton flow speed, density, and temperature and corresponding thermal speed. The records also hold flow velocity vector components and direction angles in HERTN and RTN coordinates. Chi-squared and statistical uncertainties are included, as are various flags. STEREO position information is given in radial distance and HEE, HEEQ and HCI direction angles.</Description>
       <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L2_PLA_1DMAX_10MIN&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L2_PLA_1DMAX_10MIN&amp;index=sp_phys</URL>
         <ProductKey>STA_L2_PLA_1DMAX_10MIN</ProductKey>
       </AccessURL>
       <Format>Text</Format>

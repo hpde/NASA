@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/STEREO-B/IMPACT/MAG/L1/Burst/RTN/PT0.031S</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG)  Burst Mode, Magnetic Field Vector, Radial-Tangential-Normal (RTN) Coordinates, Level 1 (L1), 31 ms Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>This data product contains Level 1 0.03125-s or 32 Hz burst-mode values of solar wind magnetic field data measured by the IMPACT Magnetometer on STEREO-B in Radial-Tangential-Normal, RTN, coordinates.</Description>
          <Acknowledgement>Please acknowledge the STEREO IMPACT Principal Investigator J.G. Luhmann for use of the Data and the key IMPACT Magnetometer personnel: C.W. Smith and the late M.H. Acuna.</Acknowledgement>
          <Contact>
@@ -52,7 +52,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_MAGB_RTN&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_L1_MAGB_RTN&amp;index=sp_phys</URL>
             <ProductKey>STB_L1_MAGB_RTN</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

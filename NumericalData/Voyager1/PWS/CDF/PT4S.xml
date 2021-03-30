@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Voyager1/PWS/CDF/PT4S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Plasma Wave System (PWS), Low Rate Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:55Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Voyager 1 Plasma Wave Subsystem, PWS, Electric Field Spectrum Analyzer Cruise Phase Data. The Data Set encompasses all Spectrum Analyzer Observations obtained in the Cruise Mission Phases before, between, and after the Jupiter and Saturn Encounter Phases.</Description>
       <Acknowledgement>D. Gurnett, W.S. Kurth</Acknowledgement>
       <Contact>
@@ -47,7 +47,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=VG1_PWS_LR&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=VG1_PWS_LR&amp;index=sp_phys</URL>
         <ProductKey>VG1_PWS_LR</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

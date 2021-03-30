@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/THEMIS/C/Ephemeris/SSCWeb/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C (P2/ARTEMIS-P2) Orbit (Ephemeris)</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:26Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>THEMIS-C Orbital Information provided via the Satellite Situation Center, SSCWeb, System and Services, Space Physics Data Facility, SPDF, GSFC, NASA</Description>
       <Acknowledgement>V. Angelopoulos</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THC_OR_SSC&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THC_OR_SSC&amp;index=sp_phys</URL>
         <ProductKey>THC_OR_SSC</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

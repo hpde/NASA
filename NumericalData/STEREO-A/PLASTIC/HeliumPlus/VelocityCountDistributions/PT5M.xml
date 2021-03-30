@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/STEREO-A/PLASTIC/HeliumPlus/VelocityCountDistributions/PT5M</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A PLasma and Supra-Thermal Ion Composition (PLASTIC) He+ Pickup Ion (PUI) Solar Wind Frame Velocity Count Distributions and Proton Plasma Densities and Velocities, Level 3 (L3), 5 min Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>This data set presents STEREO-A PLASTIC PickUp Ion, PUI, He&#8314; velocity distributions defined at a 5 min time resolution in the solar wind, SW, frame of reference. The velocity distributions are defined as a function of magnitude of the He&#8314; PUI velocity vector divided by the solar wind speed in 69 velocity bins. This data set is not efficiency corrected, which has been shown to cause an increased relative count rate in the suprathermal tail region. Observations using this data set should be limited to the core PUI distribution.
 
 This data set is released in conjunction with the publication of Bower et al. (2019) to satisfy the American Geophysical Union, AGU, fair use data policy. Funding for this data release was provided by the SR&amp;T Grant NNX16AF79G and the Heliophysics Grand Challenge 80NSSC17K000 at the University of New Hampshire and under DLR-Grant 50 OC 1103 at the Universit&#228;t Kiel. CJF funded by NASA STEREO Quadrature grant. If these data are used in presentation or publications, we strongly suggest contacting J.S. Bower at jonathan.bower@unh.edu to ensure you are working with the latest release. For reporting purposes, we request bibliography information for any publication, etc., using these data. Please send information on the use of this data to the PLASTIC PI A.B. Galvin at toni.galvin@unh.edu. If you have questions regarding the data availability, please contact the PLASTIC Data System Manager Lorna Ellis at lorna.ellis@unh.edu.</Description>
@@ -55,7 +55,7 @@ This data set is released in conjunction with the publication of Bower et al. (2
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN&amp;index=sp_phys</URL>
             <ProductKey>STA_L3_PLA_HEPLUS_SW_VELCTDIST_5MIN</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

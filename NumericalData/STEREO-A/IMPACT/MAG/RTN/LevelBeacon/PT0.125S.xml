@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/MAG/RTN/LevelBeacon/PT0.125S</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG) Magnetic Field Vectors, in Radial-Tangential-Normal (RTN) Coordinates, Level Beacon (LB), PT0.125S Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:20Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>STEREO Ahead reprocessed IMPACT/MAG Beacon magnetic field vector component and vector magnitude data expressed in Heliographic, HG, Radial-Tangential-Normal, RTN, Cartesian coordinates around the 2015 solar conjunction.
 
 * Version 1: Used internally at UCB and UCLA ONLY, No corrections applied to raw MAG data
@@ -52,7 +52,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_LB_MAG_RTN&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_LB_MAG_RTN&amp;index=sp_phys</URL>
             <ProductKey>STA_LB_MAG_RTN</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/RBSP/A/EFW/L2/VSVY/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A DC-coupled EFW 1-second sensor potentials relative to spacecraft in volts</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:10Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data set contains DC-coupled sensor potentials and negative of spacecraft potential relative to sensor floating potentials from the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  All six EFW sensor potentials are included. Also included are average potentials from opposing booms, i.e., (V1+V2)/2, (V3+V4)/2, and (V5+V6)/2, from autoscale and fixed scale (-15 to 5 V). These quantities are the negative of the spacecraft potential relative to the sensor floating potential, and have the contribution from the external electric field removed.  Four spin-plane components of the electric field are measured at DC-12 Hz with 0.05 mV/m accuracy, and two spin-axis components, with ~3 mV/m accuracy. Spacecraft potentials cover cold plasma densities of 0.1 to ~100 cm-3 at 1-second cadence.  The default sampling rate is 16 samp/s at 16-bit resolution, covering a +/- 225-V range.  Further details on the EFW instrument in general or these data in particular can be found in the EFW Instrument paper, Wygant et al., 2013 (Space Science Reviews; submitted, 02/2013).</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -53,7 +53,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_EFW-L2_VSVY-HIRES&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPA_EFW-L2_VSVY-HIRES&amp;index=sp_phys</URL>
         <ProductKey>RBSPA_EFW-L2_VSVY-HIRES</ProductKey>
       </AccessURL>
       <Format>Text</Format>

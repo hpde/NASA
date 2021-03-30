@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/STEREO-B/PLASTIC/LB/Browse/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B Plasma and Supra-Thermal Ion Composition (PLASTIC) Beacon Browse Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:22Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The STEREO-B PLASTIC Beacon data has not been validated and should not be used for publication purposes</Description>
       <Acknowledgement>A.B. Galvin, Please acknowledge the Principal Investigator, Antoinette Galvin of the University of New Hampshire, and NASA contract NAS5-00132 See the rules of use available at http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm.</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_LB_PLA_BROWSE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STB_LB_PLA_BROWSE&amp;index=sp_phys</URL>
         <ProductKey>STB_LB_PLA_BROWSE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

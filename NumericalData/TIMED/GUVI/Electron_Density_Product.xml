@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Electron_Density_Product</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI L2B Electron Density Profiles</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The Level-2 Electron Density Profiles data product contains F-region electron density as a function of altitude and latitude derived from the GUVI limb data.  Summaries of estimated peak electron density and total electron content are also given as Level 3 products.
 The profiles are derived from the 135.6-nm channel of the GUVI limb data. The 135.6-nm emission at night is due almost exclusively to recombination of O+ ions.  Since O+ is the primary ion in the F region, the 135.6-nm volume emission rate is closely related to the square of the electron density.
 Details of the procedure of producing the electron densities are given in: DeMajistre, R., L.J. Paxton, D. Morrison, J-H. Yee, L.P. Goncherenko and A.B. Christensen, Retrievals of nighttime electron density from Thermosphere Ionosphere Mesosphere and Dynamics (TIMED) mission Global Ultraviolet Imager (GUVI) Measurements, J. Geophys Res., 109, A05305, doi:10.1029/2003JA010296.
@@ -58,7 +58,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_EDP_GUVI&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=TIMED_EDP_GUVI&amp;index=sp_phys</URL>
         <ProductKey>TIMED_EDP_GUVI</ProductKey>
         <Description> TIMED GUVI L2 data with subset, plot, list from CDAWeb</Description>
       </AccessURL>

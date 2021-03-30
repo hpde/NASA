@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/Attitude/Definitive/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Definitive Attitude, 10 min Data, Spin Axis Orientation Angles in GCI, GSE and GSM Coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Wind Definitive Attitude Body Spin Rate and Spin Axis Orientation Right Ascension and Declination Angles in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, and Geocentric Solar Magnetospheric, GSE, Coordinates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -51,7 +51,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_AT_DEF&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_AT_DEF&amp;index=sp_phys</URL>
         <ProductKey>WI_AT_DEF</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

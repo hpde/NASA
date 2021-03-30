@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/ELFIN/B/Ephemeris/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>ELFIN B Ephemeris (State) CubeSat Position, Velocity, Attitude, Spin Rate, and Spin Phase, Level 1 (L1), 1 s Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:14:33Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>The Electron Losses and Fields Investigation (ELFIN) Mission is a Space Weather Mission using three Scientific Instruments in a 3U+ CubeSat. The Instruments measure Wave and Particle Data. This Data Product is a Probe State File that contains CubeSat Position, Velocity, Spin Attitude, Spin Rate, and Spin Phase Data.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos, NASA, and NSF for providing the Data. Open Data for Scientific Use.</Acknowledgement>
          <Contact>
@@ -48,7 +48,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ELB_L1_STATE&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ELB_L1_STATE&amp;index=sp_phys</URL>
             <ProductKey>ELB_L1_STATE</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

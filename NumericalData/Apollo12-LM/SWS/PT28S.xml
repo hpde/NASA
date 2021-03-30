@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Apollo12-LM/SWS/PT28S</ResourceID>
     <ResourceHeader>
       <ResourceName>Apollo 12 Solar Wind Measurements at the Lunar Surface 28-s Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:17Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data set contains the highest time resolution plasma data available (28 sec per spectrum) from the solar wind experiment onboard Apollo 12. Contained in each record are: time, proton density, alpha-to-proton ratio, bulk speed, angle of flow, most probable thermal speed, and various housekeeping and fit parameters relating to the reliability of the calculated plasma parameters. 
 
 During the local lunar night there is no solar wind signal so there are data gaps of about 15 days each lunation. </Description>
@@ -39,7 +39,7 @@ During the local lunar night there is no solar wind signal so there are data gap
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=APOLLO12_SWS_28S&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=APOLLO12_SWS_28S&amp;index=sp_phys</URL>
         <ProductKey>APOLLO12_SWS_28S</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb.</Description>
       </AccessURL>

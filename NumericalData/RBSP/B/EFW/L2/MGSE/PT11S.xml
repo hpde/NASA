@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/RBSP/B/EFW/L2/MGSE/PT11S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Spinfit DC Electric Field estimates level-2 in M-GSE coordinates</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:14Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This data set contains spinfit DC Electric Field estimates in M-GSE coordinates that are measured by the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  One 2D vector estimate of the E-field is computed at a cadence of once per spin period (typically 10.7 to 11.1 s) using the survey E-field data product - the potential difference between EFW sensors V1 and V2 (E12) sampled at a nominal rate of 32 samp/s with a resolution of 16 bits.
 
 The X-component of the E-field estimate, corresponding to the axial component in the spacecraft coordinate system, is set to zero in this data product.  See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a discussion of this convention for this data product.
@@ -60,7 +60,7 @@ The root mean square residual between the data included in the fit and the resul
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPB_EFW-L2_E-SPINFIT-MGSE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RBSPB_EFW-L2_E-SPINFIT-MGSE&amp;index=sp_phys</URL>
         <ProductKey>RBSPB_EFW-L2_E-SPINFIT-MGSE</ProductKey>
       </AccessURL>
       <Format>Text</Format>

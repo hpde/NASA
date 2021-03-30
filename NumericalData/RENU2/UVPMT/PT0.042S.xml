@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/RENU2/UVPMT/PT0.042S</ResourceID>
       <ResourceHeader>
          <ResourceName>RENU2 UltraViolet PhotoMultiplier Tube (UVPMT) Atomic Oxygen Density, High Time Resolution (H0), 42 ms Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:17Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Rocket Experiment for Neutral Upwelling 2, RENU2, UltraViolet PhotoMultiplier Tube, UVPMT, Counts. The UVPMT Instrument is used to observe Atomic Oxygen Signatures in Sunlight, that is, above the Payload.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, M.R. Lessard, from the University of New Hampshire for providing the Data.</Acknowledgement>
          <Contact>
@@ -59,7 +59,7 @@
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_UVPMT&amp;index=sp_phys</URL>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=RENU2_H0_UVPMT&amp;index=sp_phys</URL>
             <ProductKey>RENU2_H0_UVPMT</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>

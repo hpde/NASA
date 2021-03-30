@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/MMS/2/FIELDS/EDP/Fast/Level2/DCElectricField/PT0.03125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 2 Electric Double Probe (EDP) Three-Dimensional Electric Field, Quick-Look, Fast Survey</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:51Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Electric Double Probe, Quick-Look Three-Dimensional Electric Field, Level 2, Fast Survey Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
@@ -51,7 +51,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS2_EDP_FAST_L2_DCE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS2_EDP_FAST_L2_DCE&amp;index=sp_phys</URL>
         <ProductKey>MMS2_EDP_FAST_L2_DCE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
 </AccessURL>

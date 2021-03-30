@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/STEREO-A/PLASTIC/L3/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A Plasma and Supra-Thermal Ion Composition (PLASTIC) He+ Daily Phase Space Densities</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:21Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>STEREO-A Plasma and Supra-Thermal Ion Composition, PLASTIC, He+ Phase Space Density, PSD, binned by V/Vsw, Level 3, Daily Resolution Data</Description>
       <Acknowledgement>A.B. Galvin, Please acknowledge the Principal Investigator, Antoinette Galvin, University of New Hampshire, and NASA contract NAS5-00132. See the Rules Of Use available at http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm.</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L3_PLA_HEPLUS_F_VSW_24HR&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=STA_L3_PLA_HEPLUS_F_VSW_24HR&amp;index=sp_phys</URL>
         <ProductKey>STA_L3_PLA_HEPLUS_F_VSW_24HR</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

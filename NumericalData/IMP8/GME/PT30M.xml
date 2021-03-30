@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/IMP8/GME/PT30M</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Goddard Medium Energy (GME) 30-min energetic particle rates and fluxes</ResourceName>
-      <ReleaseDate>2021-03-11T18:39:11Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>This CDAWeb-accessible data set contains 30-minute,
 spin-averaged count rates and fluxes, and their statistical uncertainties,
 of energetic particles from the IMP8 GME experiment.  Included are fluxes
@@ -44,7 +44,7 @@ coincidence modes.  Proton and alpha particle fluxes, for every other energy bin
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I8_H0_GME&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I8_H0_GME&amp;index=sp_phys</URL>
         <ProductKey>I8_H0_GME</ProductKey>
         <Description>Subset, plot and list via CDAWeb; ASCII output option</Description>
 </AccessURL>

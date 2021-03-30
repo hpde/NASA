@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/KeyParameter/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Plasma Moments, Preliminary Values, Key Parameter (K0), 5 min Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:14:15Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>The ACE Browse Data are designed for monitoring large-scale Particle and Field Behavior and for selecting interesting Time Periods. The Data are automatically generated from the Spacecraft Data Stream using simple Algorithms provided by the Instrument Teams. It is not routinely checked for Accuracy and is subject to revision. Use this Data at your own Risk, and consult with the appropriate Instrument Teams about citing it. These are SWEPAM Browse Data. These Data have not validated by the Experimenters and should not be used except for preliminary Examination prior to detailed Studies. SWEPAM - Solar Wind Electron Proton Alpha Monitor References: http://www.srl.caltech.edu/ACE/.</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute.</Acknowledgement>
       <Contact>
@@ -54,7 +54,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_K0_SWE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_K0_SWE&amp;index=sp_phys</URL>
         <ProductKey>AC_K0_SWE</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/Wind/Ephemeris/predicted/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind predicted Spacecraft Positions, 10 min Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>Predicted (calculated) Wind spacecraft positions in various coordinate systems</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -46,7 +46,7 @@
 </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_OR_PRE&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_OR_PRE&amp;index=sp_phys</URL>
         <ProductKey>WI_OR_PRE</ProductKey>
 </AccessURL>
       <Format>CDF</Format>

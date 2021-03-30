@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/THEMIS/C/SCM/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C: Search Coil Magnetometer 1/8s, 1/128s and 1/8192s Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:26Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>THEMIS-C: Search Coil Magnetometer (SCM) magnetic field measurements. Includes FAST SURVEY, PARTICLE BURST and WAVE BURST data. FAST SURVEY (SCF): 1/8 second time resolution. PARTICLE BURST (SCP): 1/128 second time resolution; only short bursts of data. WAVE BURST (SCW): 1/8192 second time resolution; only short bursts of data. Sensor and electronics design provided by LPP, Roux and Le Contel.
 
 SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
@@ -66,7 +66,7 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.sci.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THC_L2_SCM&amp;index=sp_phys</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THC_L2_SCM&amp;index=sp_phys</URL>
         <ProductKey>THC_L2_SCM</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
