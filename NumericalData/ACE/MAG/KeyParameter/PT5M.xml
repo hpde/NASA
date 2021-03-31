@@ -65,20 +65,6 @@
       <Encoding>None</Encoding>
       <Acknowledgement>N.F. Ness, Please acknowledge the Principal Investigator, N.F. Ness, Bartol Research Institute. See the Rules of Use available from the ACE Science Center at http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
-    <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-      <Availability>Online</Availability>
-      <AccessRights>Open</AccessRights>
-      <AccessURL>
-        <Name>CDAWeb HAPI Server</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/hapi/info?id=AC_K0_MFI</URL>
-        <Style>HAPI</Style>
-        <ProductKey>AC_K0_MFI</ProductKey>
-        <Description>This server implements Version 2.2.0 of the HAPI spec and provides streaming access to 778 different NASA Heliophysics time series datasets.</Description>
-      </AccessURL>
-      <Format>JSON</Format>
-      <Encoding>None</Encoding>
-    </AccessInformation>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/ACE/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>

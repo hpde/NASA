@@ -5,6 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/HFR/PT7S</ResourceID>
       <ResourceHeader>
          <ResourceName>Parker Solar Probe, FIELDS Radio Frequency Spectrometer, RFS, High Frequency Receiver, HFR, Spectra, Level 2 (L2), 7 s and 56 s Data</ResourceName>
+         <DOI>https://doi.org/10.48322/gf9t-4082</DOI>
          <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>PSP FIELDS Radio Frequency Spectrometer, RFS, High Frequency Receiver, HFR, Data:
 
@@ -24,6 +25,11 @@ References:
          <Acknowledgement>Please acknowledge S.D. Bale for use of the Data. 
 
 PSP/FIELDS Rules of the Road available at http://fields.ssl.berkeley.edu/rules/</Acknowledgement>
+         <PublicationInfo>
+             <Authors>Bale, Stuart D</Authors>
+             <PublicationDate>2020-01-01T00:00:00Z</PublicationDate>
+             <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
             <Role>PrincipalInvestigator</Role>
