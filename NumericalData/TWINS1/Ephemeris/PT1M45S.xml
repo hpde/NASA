@@ -201,6 +201,7 @@ from CDAWeb</Description>
       <Units>km</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+		<CoordinateSystemName>ECD</CoordinateSystemName>
       </CoordinateSystem>
       <Structure>
         <Size>3</Size>
@@ -635,6 +636,7 @@ from CDAWeb</Description>
       <Units>hr</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+		<CoordinateSystemName>ECD</CoordinateSystemName>
       </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
