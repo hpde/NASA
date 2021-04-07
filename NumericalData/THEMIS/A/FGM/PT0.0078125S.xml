@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
-  <Version>2.2.9</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+  <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/A/FGM/PT0.0078125S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A: Fluxgate Magnetometer Measurements 1/128s</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-07T13:45:22Z</ReleaseDate>
       <Description>Spacecraft-collected fluxgate magnetometer measurements: Decimated TeleMetry High, DSL, GSE and GSM coordinates, cadence 3s-1/128s. The high-resolution data is available only for time intervals when the instrument was switched into a high-resolution mode. Sensor and electronics design provided by TUBS (Glassmeier, Auster) and IWF (Baumjohann, Magnes)</Description>
       <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission, K. H. Glassmeier, U. Auster and W. Baumjohann for the use of FGM data provided under the lead of the Technical University of Braunschweig and with financial support through the German Ministry for Economy and Technology and the German Center for Aviation and Space (DLR) under contract 50 OC 0302</Acknowledgement>
       <Contact>
@@ -34,7 +34,7 @@
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS-A/FGM/PT0.0078125S</PriorID>
       <PriorID>spase://VMO/NumericalData/THEMIS/A/FGM/PT0.0078125S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/A/FGM/PT0.0078125S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/A/FGM/PT0.0078125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -55,6 +55,16 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L2_FGM&amp;index=sp_phys</URL>
         <ProductKey>THA_L2_FGM</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THA_L2_FGM@0</ProductKey>
+        <ProductKey>THA_L2_FGM@1</ProductKey>
+        <ProductKey>THA_L2_FGM@2</ProductKey>
+        <ProductKey>THA_L2_FGM@3</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>

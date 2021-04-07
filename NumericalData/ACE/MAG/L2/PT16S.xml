@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+  <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/MAG/L2/PT16S</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Magnetic Field 16-Second Level 2 Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-07T13:45:22Z</ReleaseDate>
       <Description>ACE Magnetometer level 2 data, 16-second averages of field magnitude and GSE and GSM Cartesian components, plus standard deviations, plus ACE location data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The "parameter keys" given below are as used by CDAWeb. One-sec, 4-min, 1-hr, 1-day and 27-day averages are also available via the access paths given below.</Description>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -27,7 +27,7 @@
         <Description>ACE level 2 data rules of use, and caveats</Description>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/ACE/MAG/L2_PT16S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/MAG/L2/PT16S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/MAG/L2/PT16S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -55,6 +55,13 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H0_MFI&amp;index=sp_phys</URL>
         <ProductKey>AC_H0_MFI</ProductKey>
         <Description>ACE/MAG L2 16-sec data with subset, plot, list functionalities from CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_H0_MFI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>Please acknowledge the ACE/MAG instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
