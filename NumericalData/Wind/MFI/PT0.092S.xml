@@ -5,11 +5,11 @@
     <ResourceID>spase://NASA/NumericalData/Wind/MFI/PT0.092S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Magnetic Field Investigation (MFI) Data at full resolution</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-08T16:50:08Z</ReleaseDate>
       <Description>This data product contains Wind MFI full resolution magnetic field magnitude and GSE and GSM Cartesian components. Time resolution is typically 0.046s or 0.092s from launch through 1997, and is 0.092s thereafter. Final Version 5 data are accessible to within about 3 months of current date, newly defined Version 4 data (with final Bz offsets and not-yet-final spacecraft position vectors) between 3 months and about 2 weeks of current date, and newly defined Version 3 data (with the most recently determined Bz offset value, not yet final for the Version 3 interval) from 2 weeks to about 2 days of current.</Description>
       <Acknowledgement>User will acknowledge the Wind MFI instrument team, and the server from which the data were accessed, in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
-        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <PersonID>spase://SMWG/Person/Andriy.Koval</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
