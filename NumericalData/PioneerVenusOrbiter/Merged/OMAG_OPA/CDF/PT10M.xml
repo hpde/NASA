@@ -5,7 +5,7 @@
       <ResourceID>spase://NASA/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</ResourceID>
       <ResourceHeader>
          <ResourceName>Pioneer Venus Orbiter (PVO) Magnetometer, OMAG, Plasma Analyzer, OPA, Merged Solar Wind Data, 10 min Data</ResourceName>
-         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+         <ReleaseDate>2021-04-19T15:08:48Z</ReleaseDate>
          <Description>Pioneer Venus Orbiter, PVO, was the first orbiter mission designed to conduct a comprehensive and long term investigation of the planet Venus. PVO measured the detailed structure of the upper atmosphere and ionosphere of Venus and investigated the interaction of the solar wind with the Venusian ionosphere. Over the years from 1978 to 1992, PVO provided nearly continuous measurements of the solar wind from its highly eccentric orbit around Venus.
 
 * PI, magnetic field instrument: C.T. Russell, University of California, Los Angeles
@@ -56,6 +56,7 @@ This merged data includes 10-minute averages for selected parameters of the inte
             <Language>en</Language>
          </InformationURL>
           <PriorID>spase://VSPO/NumericalData/PioneerVenusOrbiter/Merged/OMAG_OPA/CDF/PT10M</PriorID>
+          <PriorID>spase://NASA/NumericalData/PioneerVenusOrbiter/OMAG-OPA/PT10M</PriorID>      
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -63,12 +64,12 @@ This merged data includes 10-minute averages for selected parameters of the inte
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTPS from SPDF (not with most browsers)</Name>
-            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/10m_magplasma_cdf</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/</URL>
             <Description>Access to Data in CDF Format via ftp from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/merged/10m_magplasma_cdf</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/pioneer/pioneer_venus/</URL>
             <Description>Access to Data in CDF Format via http from SPDF</Description>
          </AccessURL>
          <AccessURL>
