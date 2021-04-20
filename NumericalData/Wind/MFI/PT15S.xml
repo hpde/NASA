@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/Wind/MFI/PT15S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Field Investigation (MFI) 15-sec magnetic field data, solar wind only</ResourceName>
-         <ReleaseDate>2021-04-12T18:58:29Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/rbny-1r30</DOI>
+         <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
          <Description>Data consist of 15-sec averages of magnetic field magnitude and GSE Cartesian components, from the MFI magnetometer on Wind. Data are for only the solar wind phases of the Wind orbit.</Description>
          <Acknowledgement>Please acknowledge Principal Investigator A. Koval, UMBC, NASA/GSFC, and J. King and N. Papitashvili, NASA/GSFC/SPDF, data set producers.</Acknowledgement>
+         <PublicationInfo>
+             <Authors>Koval, Andriy; Szabo, Adam;Papitashvili, Natalia, E</Authors>
+             <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+             <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Andriy.Koval</PersonID>
             <Role>PrincipalInvestigator</Role>

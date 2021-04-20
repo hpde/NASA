@@ -5,7 +5,8 @@
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ProtonEnergyFlux/PT7S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPAN-A Proton Differential Energy Flux for each Deflector Step, Energy, and Anode, Level 2 (L2), 7 s Data</ResourceName>
-         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/ftnv-7755s</DOI>
+         <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
          <Description>SPI Level 2 Data
 ----------------
 
@@ -28,6 +29,11 @@ As part of the development of collaboration with the broader Heliophysics commun
 
 * 5) Users are encouraged to provide the PI a copy of each manuscript that uses the PI data prior to submission of that manuscript for consideration of publication. On publication, the citation should be transmitted to the PI and any other providers of data.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator J.C. Kasper for use of the Data</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Livi, Roberto; Larson, Davin, E.; Rahmati, Ali</Authors>
+            <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
             <Role>PrincipalInvestigator</Role>

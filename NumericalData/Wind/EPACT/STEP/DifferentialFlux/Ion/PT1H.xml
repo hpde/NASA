@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/Wind/EPACT/STEP/DifferentialFlux/Ion/PT1H</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Energetic Particle Acceleration Composition Transport (EPACT) SupraThermal Energetic Particle Telescope (STEP) Differential Ion Fluxes, 1 h Data</ResourceName>
-         <ReleaseDate>2020-07-07T21:16:04Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/6654-mc20</DOI>
+         <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
          <Description>The EPACT Instrument on Wind STEP - SupraThermal Energetic Particle Telescope measures Ion Fluxes of Protons (H) in 0.12.5 MeV Energy Range and He-Fe Nuclei in the &#8764;0.032 MeV/nucleon Energy Ranges in two identical Telescopes, each with a Geometrical Factor of 0.4 cm^2 sr and a Rectangular Field</Description>
          <Acknowledgement>Mihir Desai</Acknowledgement>
+         <PublicationInfo>
+             <Authors>Mihir, Desai,; Mukherjee, Joey; Filwett, Rachel, J</Authors>
+             <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+             <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Mihir.Desai</PersonID>
             <Role>PrincipalInvestigator</Role>

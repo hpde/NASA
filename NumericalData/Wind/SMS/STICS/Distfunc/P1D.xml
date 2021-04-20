@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/Wind/SMS/STICS/Distfunc/P1D</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Suprathermal Ion Composition Spectrometer (STICS) Distribution Functions</ResourceName>
          <AlternateName>Wind/STICS</AlternateName>
-         <ReleaseDate>2020-07-07T21:16:05Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/naj7-dg41</DOI>
+         <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
          <Description>Wind Suprathermal Ion Composition Spectrometer (STICS) phase-space distribution functions at 1-day time resolution for specified ions. Calibrated science quality data presented in the native spacecraft frame. The data files contain 3D phase space density distribution, A(v) (currently in arbitrary units) functions, for H+. There are 512 values for A(v) for each time step, corresponding to each directional sector (16 total directions) and each Deflection Voltage Step (DVS) corresponding to a set E/q value (32 total voltage steps per sector). Only proton distribution functions are currently released at the production level.</Description>
          <Acknowledgement>Please acknowledge the Wind/STICS instrument team.</Acknowledgement>
+         <PublicationInfo>
+             <Authors>Gloeckler, George; Raines, James; Lepri, Susan, T; Zurbuchen, Thomas</Authors>
+             <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+             <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Jim.Raines</PersonID>
             <Role>DataProducer</Role>

@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+  <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Wind/3DP/ELPD/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind 3DP EESA-LOW Electron Pitch-Angle Distributions</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/kesf-re26</DOI>
+      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
       <Description>Wind 3DP electron pitch angle product providing electron fluxes in 8 directional bins relative to the local magnetic field direction at 15 different energy levels. Time resolution is mode- dependent, with 96s being used for the past several years and with higher resolution (e.g., 24s) used for some earlier intervals. For any given cadence, electron observations made over the full cadence interval and in all look directions in and out of the spacecraft spin plane, are folded together with the magnetic field vector as averaged over the cadence interval, to produce the pitch angle distributions. The data are calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any publication resulting from use of this data.</Acknowledgement>
+      <PublicationInfo>
+         <Authors>Lin, Robert, P; Bale, Stuart, D; Wilson III, Lynn, B; Schroeder, Peter</Authors>
+         <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+         <PublishedBy>NASA Space Physics Data Facility; Space Sciences Laboratory, University of California Berkeley</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>

@@ -1,12 +1,18 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.8</Version>
+  <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Wind/Attitude/Definitive/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Definitive Attitude, 10 min Data, Spin Axis Orientation Angles in GCI, GSE and GSM Coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/b88q-p434</DOI>
+      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
       <Description>Wind Definitive Attitude Body Spin Rate and Spin Axis Orientation Right Ascension and Declination Angles in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, and Geocentric Solar Magnetospheric, GSE, Coordinates</Description>
+      <PublicationInfo>
+         <Authors>Wind flight operations team (FOT);  Candey, Robert</Authors>
+         <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>ProjectScientist</Role>

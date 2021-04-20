@@ -5,7 +5,8 @@
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPC/Level2/ChargeFluxDistributions/PT0.2185S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPC Ion Charge Flux Distributions, Electrical Current versus Time and Energy-per-Charge, Level 2 (L2), 0.2185 s Data</ResourceName>
-         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/wpk2-yq48</DOI>         
+         <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
          <Description>SPC Level 2 Ion Data
 --------------------
 
@@ -49,6 +50,11 @@ As part of the development of collaboration with the broader Heliophysics commun
          <Acknowledgement>Please acknowledge the Principal Investigator J.C. Kasper for use of the Data. 
 
 NASA open data policy applies. Consultation with the instrument team is strongly recommended.</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Kasper, Justin, C.; Stevens, M., L.; Case, A., W.; Korreck, K., E.</Authors>
+            <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
             <Role>PrincipalInvestigator</Role>

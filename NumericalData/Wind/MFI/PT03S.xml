@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+  <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Wind/MFI/PT03S</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Magnetic Field Investigation (MFI) Composite Data</ResourceName>
-      <ReleaseDate>2021-04-12T18:58:29Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/av38-wn55</DOI>
+      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
       <Description>Wind MFI composite data in GSE and GSM coordinates. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Final Version 5 data are accessible to within about 3 months of current date, newly defined Version 4 data (with final Bz offsets and not-yet-final spacecraft position vectors) between 3 months and about 2 weeks of current date, and newly defined Version 3 data (with the most recently determined Bz offset value, not yet final for the Version 3 interval) from 2 weeks to about 2 days of current.</Description>
       <Acknowledgement>User will acknowledge the Wind MFI instrument team, and the site from which data are pulled, in any publication resulting from the use of these data.</Acknowledgement>
+      <PublicationInfo>
+          <Authors>Koval, Andriy; Lepping, Ronald, P; Szabo, Adam</Authors>
+          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Andriy.Koval</PersonID>
         <Role>PrincipalInvestigator</Role>
