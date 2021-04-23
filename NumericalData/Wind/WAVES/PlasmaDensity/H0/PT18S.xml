@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-   <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/Wind/WAVES/PlasmaDensity/H0/PT18S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Plasma and Radio Waves (WAVES) Electron Plasma Densities, Level H0 (H0), 17.664 s Data</ResourceName>
-         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/thkc-wf80</DOI>
+         <ReleaseDate>2021-04-23T16:51:14Z</ReleaseDate>
          <Description>Wind Waves high time resolution plasma densities estimated by using the electron density inferred from the thermal noise peak as recognized by a neural network.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator M.L. Kaiser for use of the Data</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Bougeret, Jean-Louis, Henry; MacDowall, Robert, J; Goetz, Keith; Kellogg, Paul, J</Authors>
+            <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
-            <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
+            <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
             <Role>PrincipalInvestigator</Role>
+            <Note>U.S. Principal Investigator</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Karine.Issautier</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Note>Observatoire de Paris,Meudon Principal Investigator</Note>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>

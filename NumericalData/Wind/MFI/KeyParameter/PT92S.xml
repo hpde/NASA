@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-   <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/Wind/MFI/KeyParameter/PT92S</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Fields Instrument (MFI) Magnetic Field Vector and Spacecraft Position, Key Parameter (K0), 92 s Data</ResourceName>
-         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/pxak-n392</DOI>
+         <ReleaseDate>2021-04-23T16:51:14Z</ReleaseDate>
          <Description>Wind Magnetic Fields Investigation, MFI, Key Parameter magnetic field data in GSE and GSM coordinates.
 
 References:
@@ -14,6 +15,11 @@ References:
 * 2. Computer Sciences Corporation, Data Format Control Document, DFCD, between the International Solar-Terrestrial Physics, ISTP, program information investigators, CSC/TR-91/6014, 560-1DFD/0190, July 1992.
 * 3. Behannon, K.W., International Solar Terrestrial Physics, ISTP, program investigator data analysis requirements for Wind and Geotail spacecraft magnetometer experiment, September 1987.</Description>
          <Acknowledgement>Please acknowledge the Principal Investigator R.P. Lepping for use of the Data</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Szabo, Adam; Koval, Andriy; Lepping, Ronald, P</Authors>
+            <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
             <Role>PrincipalInvestigator</Role>
