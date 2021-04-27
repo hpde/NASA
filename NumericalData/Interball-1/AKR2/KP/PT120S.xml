@@ -1,19 +1,19 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Interball-1/AKR2/KP/PT120S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail Radio Emission 2-min Key Parameters</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This set of Interball Tail Probe radio emission flux was measured in 2-min intervals in the 100, 252, 500 kHz frequencies, with the width of each channel at about 10 kHz. Loop antenna with 1.5 m2 area was used.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/L.Fischer</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
-        <PriorID>spase://VSPO/NumericalData/Interball-1/AKR2/KP/PT120S</PriorID>
-</ResourceHeader>
+      </Contact>
+      <PriorID>spase://VSPO/NumericalData/Interball-1/AKR2/KP/PT120S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -22,14 +22,14 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/interball/tail/akr/</URL>
         <Description>in CDF via FTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/akr/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -39,9 +39,23 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_K0_AKR&amp;index=sp_phys</URL>
         <ProductKey>IT_K0_AKR</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>IT_K0_AKR</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Interball-1/AKR2</InstrumentID>
     <MeasurementType>Waves</MeasurementType>
@@ -49,10 +63,10 @@
       <TimeSpan>
         <StartDate>1995-08-06T07:11:00</StartDate>
         <StopDate>2000-10-16T01:17:00</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT120S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <!--InstrumentRegion=Heliosphere.NearEarth-->
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
-</NumericalData>
+  </NumericalData>
 </Spase>

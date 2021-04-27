@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/TIDE/H0_CDF</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar TIDE 6-s H, He, O Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The TIDE H0 CDF files contain H+, O+, and He+ data below 411 eV.  Data are available for 1996-03-27 through 1996-09-30.  Data is 
 accumulated over the 6-second Polar spacecraft spin.  For each ion, the files contain moments density, velocity (Vx, Vy, Vz), 
 temperature (T_perp and T_para) and spectogram for differential energy flux versus energy (flux averaged over spin and polar angle), 
@@ -31,7 +31,7 @@ about the data processing.</Description>
                 <URL>http://tideuvira.nsstc.nasa.gov/tide</URL>
             </InformationURL> -->
       <PriorID>spase://VMO/NumericalData/POLAR/TIDE/H0_CDF</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/TIDE/H0_CDF</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/TIDE/H0_CDF</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,6 +52,20 @@ about the data processing.</Description>
         <Description>In CDF via HTTP from SPDF</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_H0_TID</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <!--   <AccessInformation>
             <RepositoryID>spase://SMWG/Repository/NASA/NSSTC</RepositoryID>

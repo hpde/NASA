@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ISS/TEPC/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISS Tissue-Equivalent Proportional Counter (TEPC), Dose Analyzer, 10 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The Position Sensitive-Tissue Equivalent Proportional Chamber, PS-TEPC, is a Radiation Measuring Instrument that measures absorbed Doses and Path Length of Space Radiation Particles simultaneously and determines the Real-Time Liner Energy Transfer, LET, and Equivalent Doses to assess Radiation Risk to Crew Members during Space Flight. Dose Management for Space Radiation Exposure is extremely Important for Crew Members, because the Dose Rates resulting from Radiation Sources including Galactic Cosmic Rays, Solar Particle Events, and Protons trapped in the Earth's Radiation Belts and Secondary Particles such as Neutrons in Low Earth Orbit, LEO, are a few Hundred times greater than those on the Ground. The Detector of the PS-TEPC is a Time Projection Chamber, TPC, made of Biological Tissue-Equivalent Materials where a Micro-Pixel Chamber, m-PIC, is used as a 2-Dimensional Position Sensor, which can acquires 3-Dimensional Tracks and the Energy of each Particle, as well as its Energy, that contributes to Dose Distributions occurring in a Human Body. TEPC Serial Number 1003, TEPC Analysis Software Version Number, 3.1.</Description>
       <Acknowledgement>E.N. Zapp, Space Radiation Analysis Group, NASA Johnson Space Center</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
         <URL>https://www.nasa.gov/mission_pages/station/research/experiments/1079.html</URL>
         <Description>Establishment of the Dosimetric Technique in the International Space Station, ISS, with a Position Sensitive-Tissue Equivalent Proportional Chamber, PS-TEPC, 20170802</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/ISS/TEPC/PT10S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ISS/TEPC/PT10S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +49,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>E.N. Zapp, Space Radiation Analysis Group, NASA Johnson Space Center . Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ISS_DOSANL_TEPC</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>E.N. Zapp, Space Radiation Analysis Group, NASA Johnson Space Center . Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -85,7 +99,7 @@
       <ParameterKey>DOSE</ParameterKey>
       <Description>Average Dose Rate</Description>
       <Cadence>PT10S</Cadence>
-      <Units>&#xB5;Gy/min</Units>
+      <Units>µGy/min</Units>
       <UnitsConversion>6e-5&gt;Gy/s</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -108,7 +122,7 @@
       <ParameterKey>DOSE_EQ60</ParameterKey>
       <Description>Average Dose Equivalent Rate, International Commission on Radiological Protection, Publication 60, ICRP-60</Description>
       <Cadence>PT10S</Cadence>
-      <Units>&#xB5;Sv/min</Units>
+      <Units>µSv/min</Units>
       <UnitsConversion>6e-5&gt;Sv/s</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -152,7 +166,7 @@
       <ParameterKey>LONGITUDE</ParameterKey>
       <Description>International Space Station, ISS, Longitude, Geographic, GEO</Description>
       <Cadence>PT10S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -178,7 +192,7 @@
       <ParameterKey>LATITUDE</ParameterKey>
       <Description>International Space Station, ISS, Latitude, Geographic, GEO</Description>
       <Cadence>PT10S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/C/SCM/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C: Search Coil Magnetometer 1/8s, 1/128s and 1/8192s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>THEMIS-C: Search Coil Magnetometer (SCM) magnetic field measurements. Includes FAST SURVEY, PARTICLE BURST and WAVE BURST data. FAST SURVEY (SCF): 1/8 second time resolution. PARTICLE BURST (SCP): 1/128 second time resolution; only short bursts of data. WAVE BURST (SCW): 1/8192 second time resolution; only short bursts of data. Sensor and electronics design provided by LPP, Roux and Le Contel.
 
 SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
@@ -41,7 +41,7 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
         <Description>Details on THEMIS data policy and giving proper credits in publications.</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/C/SCM/PT0.125S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/C/SCM/PT0.125S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/C/SCM/PT0.125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -77,6 +77,22 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THC_L2_SCM@0</ProductKey>
+        <ProductKey>THC_L2_SCM@1</ProductKey>
+        <ProductKey>THC_L2_SCM@2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>

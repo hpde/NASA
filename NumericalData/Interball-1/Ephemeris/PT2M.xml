@@ -1,33 +1,33 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Interball-1/Ephemeris/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail definitive orbital data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Definitive Interball Tail satellite and subsatellite (Interball-1 and Magion-4) orbital data: Spacecraft position, velocity, and status flags.</Description>
       <Acknowledgement>The Interball project, Russian Space Research Institute (IKI) and Dr. Prokhorenko</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Victoria.I.Prokhorenko</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>IKI Satellite Situation Center</Name>
         <URL>http://www.iki.rssi.ru/vprokhor/</URL>
         <Description>This page maintains the Situation Analysis for the IKI International Space Missions and its coordination with the Inter-Agency multimission campaigns.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Interball Tail Probe Situation Analysis</Name>
         <URL>http://www.iki.rssi.ru/vprokhor/tail.htm</URL>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VMO/NumericalData/Interball-Tail/Ephemeris/PT2M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Interball-1/Ephemeris/PT2M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/Interball-1/Ephemeris/PT2M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -36,15 +36,15 @@
         <Name>FTP access to files at SPDF</Name>
         <URL>ftps://cdaweb.gsfc.nasa.gov/pub/data/interball/tail/orbit/</URL>
         <Description>In CDF via FTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/interball/tail/orbit/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -54,15 +54,29 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IT_OR_DEF&amp;index=sp_phys</URL>
         <ProductKey>IT_OR_DEF</ProductKey>
         <Description>Interball Tail definitive orbital data with subset, plot, and list functionalities from CDAWeb.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>SSCWeb</Name>
         <URL>https://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
         <ProductKey>interballtail</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Encoding>None</Encoding>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>IT_OR_DEF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Interball-1/Ephemeris</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Magion-4/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
@@ -70,9 +84,9 @@
       <TimeSpan>
         <StartDate>1995-08-07T00:00:00Z</StartDate>
         <StopDate>2000-10-16T13:55:00.00Z</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT2M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
@@ -90,8 +104,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>I1 position in GSE</Name>
       <ParameterKey>SC_pos_GSE</ParameterKey>
@@ -101,10 +115,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -114,7 +128,7 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Y (GSE)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -122,7 +136,7 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Z (GSE)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -130,13 +144,13 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>I1 S/C position in GSM</Name>
       <ParameterKey>SC_pos_GSM</ParameterKey>
@@ -146,10 +160,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -159,7 +173,7 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Y (GSM)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -167,7 +181,7 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Z (GSM)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -175,13 +189,13 @@
           <ValidMin>-30.0</ValidMin>
           <ValidMax>30.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>I1 S/C velocity in GSE</Name>
       <ParameterKey>SC_vel_GSE</ParameterKey>
@@ -191,10 +205,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F7.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -204,7 +218,7 @@
           <ValidMin>-10.0</ValidMin>
           <ValidMax>10.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Vy (GSE)</Name>
           <Qualifier>Component.J</Qualifier>
@@ -212,7 +226,7 @@
           <ValidMin>-10.0</ValidMin>
           <ValidMax>10.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>I1 Vz (GSE)</Name>
           <Qualifier>Component.K</Qualifier>
@@ -220,13 +234,13 @@
           <ValidMin>-10.0</ValidMin>
           <ValidMax>10.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Velocity</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>SC/SS separation in GSE</Name>
       <ParameterKey>SC/SS_sep_GSE</ParameterKey>
@@ -236,10 +250,10 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <ValueFormat>F8.1</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -249,7 +263,7 @@
           <ValidMin>-100000.0</ValidMin>
           <ValidMax>100000.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>dy GSE</Name>
           <Qualifier>Component.J</Qualifier>
@@ -257,7 +271,7 @@
           <ValidMin>-100000.0</ValidMin>
           <ValidMax>100000.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>dz GSE</Name>
           <Qualifier>Component.K</Qualifier>
@@ -265,13 +279,13 @@
           <ValidMin>-100000.0</ValidMin>
           <ValidMax>100000.0</ValidMax>
           <FillValue>-1.0E31</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Flag_O</Name>
       <ParameterKey>SF_SC_orbit</ParameterKey>
@@ -281,8 +295,8 @@
       <FillValue>128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Flag_S</Name>
       <ParameterKey>SF_SC_sep</ParameterKey>
@@ -292,8 +306,8 @@
       <FillValue>128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Gap Flag</Name>
       <ParameterKey>Gap_Flag</ParameterKey>
@@ -303,7 +317,7 @@
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

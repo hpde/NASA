@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data Near and Beyond Termination Shock in CDF Format</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The main science objectives for the Voyager Interplanetary Mission, VIM, are as follows:
                       - investigate the structure of the solar wind magnetic fields and plasma in the inner and outer heliosphere;
                       - conduct long term study of heliospheric evolution during different phases of the 22-year solar magnetic cycle and the 11-year solar activity cycle;
@@ -37,7 +38,7 @@
         <URL>https://cohoweb.gsfc.nasa.gov</URL>
         <Description>Voyager 2 merged Magnetic Field and Ephemeris Data from COHOWeb</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Voyager2/MAG/VIM/CDF/PT48S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -61,6 +62,21 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>L.F. Burlaga, Please acknowledge the Principal Investigator, N.F. Ness of the Bartol Research Institute, University of Delaware, and the NASA National Space Science Data Center (NSSDC) for usage of data from this site in publications and presentations. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>VOYAGER2_48S_MAG-VIM@0</ProductKey>
+        <ProductKey>VOYAGER2_48S_MAG-VIM@1</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>L.F. Burlaga, Please acknowledge the Principal Investigator, N.F. Ness of the Bartol Research Institute, University of Delaware, and the NASA National Space Science Data Center (NSSDC) for usage of data from this site in publications and presentations. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

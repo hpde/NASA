@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/B/GMOM/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-B (P1/ARTEMIS-P1) Electron and Ion Moments (GMOM) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure and Temperature</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>THEMIS-B Electrostatic Analyzer (ESA) and Solid State Telescope (SST) Ground-Calculated Particle Energy Fluxes and Moments: Density, Velocity, Pressure, and Temperature. Generated from ESA and SST Combined Distributions. Data include Electron/Ion Ground-Calculated Fluxes and Spectrograms for Ions from 5 eV to 4 MeV and Electrons from 6 eV to 700 keV.</Description>
       <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
@@ -43,7 +43,7 @@
         <URL>http://themis.ssl.berkeley.edu/instrument_esa.shtml</URL>
         <Description>Detailed Description of the Electrostatic Analyzer (ESA) Instrument</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/B/GMOM/PT3S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/B/GMOM/PT3S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -67,6 +67,27 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THB_L2_GMOM@0</ProductKey>
+        <ProductKey>THB_L2_GMOM@1</ProductKey>
+        <ProductKey>THB_L2_GMOM@2</ProductKey>
+        <ProductKey>THB_L2_GMOM@3</ProductKey>
+        <ProductKey>THB_L2_GMOM@4</ProductKey>
+        <ProductKey>THB_L2_GMOM@5</ProductKey>
+        <ProductKey>THB_L2_GMOM@6</ProductKey>
+        <ProductKey>THB_L2_GMOM@7</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>V. Angelopoulos, C.W. Carlson, J. McFadden, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -766,7 +787,7 @@
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_ptiff_symm_ang, thb_ptiff_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1658,7 +1679,7 @@
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_pteff_symm_ang, thb_pteff_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -2558,7 +2579,7 @@
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_ptirf_symm_ang, thb_ptirf_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -3450,7 +3471,7 @@
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_pterf_symm_ang, thb_pterf_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -4350,7 +4371,7 @@
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_ptibb_symm_ang, thb_ptibb_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -5242,7 +5263,7 @@
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, Good Data only</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function APPLY_GMOM_QFLAG with the following input parameters: thb_ptebb_symm_ang, thb_ptebb_data_quality.</Caveats>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -6329,7 +6350,7 @@
       <ParameterKey>thb_ptiff_symm_ang</ParameterKey>
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -7508,7 +7529,7 @@
       <ParameterKey>thb_pteff_symm_ang</ParameterKey>
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -8703,7 +8724,7 @@
       <ParameterKey>thb_ptirf_symm_ang</ParameterKey>
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -9882,7 +9903,7 @@
       <ParameterKey>thb_pterf_symm_ang</ParameterKey>
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -11077,7 +11098,7 @@
       <ParameterKey>thb_ptibb_symm_ang</ParameterKey>
       <Description>Ion Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -12256,7 +12277,7 @@
       <ParameterKey>thb_ptebb_symm_ang</ParameterKey>
       <Description>Electron Symmetry Angle between the Symmetry Direction and the Magnetic Field Vector, B, Full ESA-SST-B, all Data Qualities</Description>
       <Cadence>PT3S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>

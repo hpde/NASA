@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/E/FFT/PT0.0556S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-E: On Board Fast Fourier Transform (FFT) power spectra of Electric (EFI) and Magnetic (SCM) field measurements, for particle and wave burst survey modes.</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>On Board Fast Fourier Transform (FFT) power spectra of Electric (EFI) and Magnetic (SCM) field measurements for particle and wave burst survey modes.  Spectra are produced only in Particle Burst and Wave Burst modes; only a preselected four of the signals listed in Table 1 are input at any time.  Data fed through the FFT while not in Particle or Wave Burst modes is automatically disgarded.  The FFTs (Cooley-Tukey algorithm) are conducted as an integral part of the power spectrum calculation by the Field Programable Gate Arrays (FPGAs).  A CORDIC algorithm is used for sine/cosine calculations. The data has raw resolution of 1024 pts for 8,192 sample/sec signals and 2048 pts for 16,384 sample/sec signals (EAC measurements only).  Signals at 8,192 samples/sec are handled by 1024-point FFTs, while those at 16,384 samples/sec go through 2048-point FFTs.  Past and current signal configurations for specific spacecraft are listed bellow in Table 2. The spectra are arranged into log spaced frequency bins in steps of 16, 32, or 64.  Cadence is adjusted to keep packet size constant (i.e. increasing the fequency resolution by a factor of 2 decreases the sampling rate by 1/2).  The frequency bins cover a range of 0 Hz to 4 kHz.
 
 Table 1: FFT Input Signals.
@@ -65,7 +65,7 @@ SCM:  *The SCM uses an instrument specific set of axes; an orthogonal system cen
         <URL>http://themis.ssl.berkeley.edu</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/E/FFT/PT0.0556S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/E/FFT/PT0.0556S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/E/FFT/PT0.0556S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -88,6 +88,28 @@ SCM:  *The SCM uses an instrument specific set of axes; an orthogonal system cen
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THE_L2_FFT@0</ProductKey>
+        <ProductKey>THE_L2_FFT@1</ProductKey>
+        <ProductKey>THE_L2_FFT@2</ProductKey>
+        <ProductKey>THE_L2_FFT@3</ProductKey>
+        <ProductKey>THE_L2_FFT@4</ProductKey>
+        <ProductKey>THE_L2_FFT@5</ProductKey>
+        <ProductKey>THE_L2_FFT@6</ProductKey>
+        <ProductKey>THE_L2_FFT@7</ProductKey>
+        <ProductKey>THE_L2_FFT@8</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/THEMIS/E/EFI</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/THEMIS/E/SCM</InstrumentID>

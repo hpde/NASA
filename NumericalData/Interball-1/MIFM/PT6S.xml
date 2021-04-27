@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Interball-1/MIFM/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball Tail 6-sec magnetic field data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description> Magnetic field measurements on-board the Interball 1 probe are carried out by the FM-3I and MFI (FGM-I) instruments. Data presented here are the combination of the data of all magnetometers. First, all FM-3I M1 data are used, if they are absent, the MFI data are used, and if data from both magnetometer are absent, FM-3I M2 data presented. The FM-3 M1 and MFI data are averaged over 6-second time intervals.</Description>
       <Acknowledgement>The Interball project, IZMIRAN and Space Research Institute RAS  (SRI).</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_INTTAIL_HDR_MAG_6S</PriorID>
       <PriorID>spase://VMO/NumericalData/Interball-1/FM3I/PT6S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Interball-1/MIFM/PT6S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Interball-1/MIFM/PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -47,6 +47,20 @@
         <ProductKey>IT_H0_MFI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>IT_H0_MFI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Interball-1/MIFM</InstrumentID>

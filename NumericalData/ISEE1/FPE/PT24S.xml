@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ISEE1/FPE/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 Solar Wind Analyzer 24-s Plasma Parameters</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data set contains 24s (fast data rate) or 48s (slow
 rate) solar wind ion plasma parameters obtained during 1977-1983 solar wind 
 seasons (~July - ~January) when the spacecraft's local time of apogee was on 
@@ -24,7 +25,7 @@ Ion Experiment, a companion to LANL's Fast Plasma Analyzer (FPE).</Description>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee1/plasma_lanl/aareadme.txt</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/ISEE1/FPE/PT24S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ISEE1/FPE/PT24S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ISEE1/FPE/PT24S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -75,6 +76,21 @@ the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
         <Units>KB</Units>
         <Per>P1D</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling and
+the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ISEE1_H2_FPE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling and
 the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
     </AccessInformation>

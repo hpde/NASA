@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>OMNI Combined Heliopheric Observations (COHO), Merged Magnetic Field, Plasma and Ephermeris, Definitive Hourly Data</ResourceName>
       <DOI>https://doi.org/10.48322/6ffx-3441</DOI>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>Hourly Averaged Definitive Multispacecraft Interplanetary ParametersData. The Heliographic Inertial, HGI, Coordinates are Sun-Centered and inertially fixed with respect to an X-Axis directed along the Intersection Line of the Ecliptic and Solar Equatorial Planes. The Solar Equatorial Plane is inclined at 7.25&#xB0; from the Ecliptic. This Direction was towards Ecliptic Longitude of 74.367&#xB0; on 1 January 1900 at 1200 UT but because of Precession of the Celestial Equator, this Longitude increases by 1.4&#xB0; per Century. The Z-Axis is directed Perpendicular and Northward from the Solar Equator, and the Y-Axis completes the Right-Handed Set. This System differs from usual Heliographic Coordinates, e.g. Carrington Longitudes, which are fixed in the Frame of the Rotating Sun. The RTN System is fixed at a Spacecraft or a Planet. The R-Axis is directed radially away from the Sun, the T-Axis is the Cross Product of the Solar Rotation Axis and the R-Axis, and the N-Axis is the Cross Product of the R-Axis and T-Axis. At 0&#xB0; Heliographic Latitude when the Spacecraft is in the Solar Equatorial Plane, the N-Axis and Solar Rotation Axis are Parallel. Latitude and Longitude Angles of Solar Wind Plasma Flow are generally measured from the Radius Vector away from the Sun. In all cases, Latitude Angles are Positive for North-Going Flow. The Flow Longitude Angles have been treated differently for the Near-Earth Data, i.e. the OMNI, and for the Deep Space Data. The Flow is Positive for the Near-Earth Data when coming from the Right Side of the Sun as viewed from the Earth, i.e. flowing toward +Y from -X GSE or Opposite to the Direction of Planetary Motion. On the other hand, the Flow Longitudes for the Deep Space Spacecraft use the opposite Sign Convection, i.e. Positive for Flow in the +T Direction in the RTN System.</Description>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <Description>Hourly Averaged Definitive Multispacecraft Interplanetary ParametersData. The Heliographic Inertial, HGI, Coordinates are Sun-Centered and inertially fixed with respect to an X-Axis directed along the Intersection Line of the Ecliptic and Solar Equatorial Planes. The Solar Equatorial Plane is inclined at 7.25° from the Ecliptic. This Direction was towards Ecliptic Longitude of 74.367° on 1 January 1900 at 1200 UT but because of Precession of the Celestial Equator, this Longitude increases by 1.4° per Century. The Z-Axis is directed Perpendicular and Northward from the Solar Equator, and the Y-Axis completes the Right-Handed Set. This System differs from usual Heliographic Coordinates, e.g. Carrington Longitudes, which are fixed in the Frame of the Rotating Sun. The RTN System is fixed at a Spacecraft or a Planet. The R-Axis is directed radially away from the Sun, the T-Axis is the Cross Product of the Solar Rotation Axis and the R-Axis, and the N-Axis is the Cross Product of the R-Axis and T-Axis. At 0° Heliographic Latitude when the Spacecraft is in the Solar Equatorial Plane, the N-Axis and Solar Rotation Axis are Parallel. Latitude and Longitude Angles of Solar Wind Plasma Flow are generally measured from the Radius Vector away from the Sun. In all cases, Latitude Angles are Positive for North-Going Flow. The Flow Longitude Angles have been treated differently for the Near-Earth Data, i.e. the OMNI, and for the Deep Space Data. The Flow is Positive for the Near-Earth Data when coming from the Right Side of the Sun as viewed from the Earth, i.e. flowing toward +Y from -X GSE or Opposite to the Direction of Planetary Motion. On the other hand, the Flow Longitudes for the Deep Space Spacecraft use the opposite Sign Convection, i.e. Positive for Flow in the +T Direction in the RTN System.</Description>
       <Acknowledgement>J.H. King, N.E. Papitashvili, NSSDC Public.</Acknowledgement>
-	  <PublicationInfo>
-           <Authors>Papitashvili, Natalia E.;  King, Joseph H.</Authors>
-           <PublicationDate>2020-01-01T00:00:00</PublicationDate>
-           <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      <PublicationInfo>
+        <Authors>Papitashvili, Natalia E.;  King, Joseph H.</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
@@ -35,7 +35,7 @@
         <URL>https://cohoweb.gsfc.nasa.gov</URL>
         <Description>Additional analysis tools for these data from the</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/OMNI/COHO/MergedMagPlasma/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/OMNI/COHO/MergedMagPlasma/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -59,6 +59,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J.H. King, N.E. Papitashvili, NSSDC Public. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>OMNI_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J.H. King, N.E. Papitashvili, NSSDC Public. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -97,7 +111,7 @@
       <ParameterKey>heliographicLatitude</ParameterKey>
       <Description>Spacecraft Latitude, Heliographic, HGI, Coordinates</Description>
       <Cadence>PT1H</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -122,7 +136,7 @@
       <ParameterKey>heliographicLongitude</ParameterKey>
       <Description>Spacecraft Longitude, Heliographic, HGI, Coordinates</Description>
       <Cadence>PT1H</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -265,7 +279,7 @@
       <ParameterKey>elevAngle</ParameterKey>
       <Description>Proton Flow, Elevation Angle, equivalently Latitude, Heliographic, HGI, Coordinates</Description>
       <Cadence>PT1H</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -287,7 +301,7 @@
       <ParameterKey>azimuthAngle</ParameterKey>
       <Description>Proton Flow, Azimuth Angle, equivalently Longitude, Heliographic, HGI, Coordinates</Description>
       <Cadence>PT1H</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -331,7 +345,7 @@
       <ParameterKey>T</ParameterKey>
       <Description>Temperature</Description>
       <Cadence>PT1H</Cadence>
-      <Units>&#xB0;K</Units>
+      <Units>°K</Units>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Temperature</AxisLabel>

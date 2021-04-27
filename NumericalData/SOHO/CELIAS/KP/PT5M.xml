@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/SOHO/CELIAS/KP/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Charge, Element, and Isotope Analysis System (CELIAS) 5-min Key Parameter Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Data include 5-min solar wind speed values, heavy ion
 fluxes in energy bands 0.02-1. MeV/q and 0.5-50 keV/q, and solar EUV
 photon fluxes from the CELIAS package on SOHO.  They are key parameter
@@ -22,7 +23,7 @@ of U. Bern</Acknowledgement>
         <URL>https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cel_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/SOHO/CELIAS/KP/PT5M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/SOHO/CELIAS/KP/PT5M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/SOHO/CELIAS/KP/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +50,21 @@ of U. Bern</Acknowledgement>
         <Units>kB</Units>
         <Per>P1D</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge the P.I., Peter Bochsler 
+of U. Bern, and CDAWeb at GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>SO_K0_CEL</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the P.I., Peter Bochsler 
 of U. Bern, and CDAWeb at GSFC/SPDF</Acknowledgement>
     </AccessInformation>

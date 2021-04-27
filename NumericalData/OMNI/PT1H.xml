@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd'">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/OMNI/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI Hourly Data Set</ResourceName>
-      <DOI>https://doi.org/10.48322/1shr-ht18</DOI>      
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/1shr-ht18</DOI>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Hourly averaged, multi-source, near-Earth solar wind magnetic 
 field, plasma and energetic proton flux data, plus AE, AU, AL, Kp, ap, and Dst 
 geomagnetic indices, Polar Cap (Thule) index, F10.7 index, and Rz (sunspot number).  
@@ -14,11 +14,11 @@ Also available at 1-day and 27-day resolution.</Description>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed 
 and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC 
 for creating the OMNI data set.</Acknowledgement>
-       <PublicationInfo>
-           <Authors>Papitashvili, Natalia E.;  King, Joseph H.</Authors>
-           <PublicationDate>2020-01-01T00:00:00</PublicationDate>
-           <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
-       </PublicationInfo>
+      <PublicationInfo>
+        <Authors>Papitashvili, Natalia E.;  King, Joseph H.</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>GeneralContact</Role>
@@ -129,6 +129,22 @@ Pathway to 1-min, 5-min, 1-day, 27-day averages.</Description>
         <Units>KB</Units>
         <Per>P1Y</Per>
       </DataExtent>
+      <Acknowledgement>We acknowledge the experiment teams that acquired, processed 
+and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC 
+for creating the OMNI data set.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>OMNI2_H0_MRG1HR</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>We acknowledge the experiment teams that acquired, processed 
 and provided the OMNI-included data, and J.H. King and N.E. Papitashvili of NASA/GSFC 
 for creating the OMNI data set.</Acknowledgement>

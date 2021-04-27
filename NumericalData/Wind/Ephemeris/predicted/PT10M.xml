@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,25 +6,25 @@
     <ResourceHeader>
       <ResourceName>Wind predicted Spacecraft Positions, 10 min Data</ResourceName>
       <DOI>https://doi.org/10.48322/73de-sf52</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Predicted (calculated) Wind spacecraft positions in various coordinate systems</Description>
       <PublicationInfo>
-          <Authors>Candey, Robert, M; Wind, Flight Operations Team</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Candey, Robert, M; Wind, Flight Operations Team</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>DataProducer</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>Scientist</Role>
-</Contact>
+      </Contact>
       <PriorID>spase://VHO/NumericalData/Wind/Ephemeris/predicted_PT10M</PriorID>
       <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/PT600S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/predicted/PT10M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/predicted/PT10M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
       <Availability>Online</Availability>
@@ -33,10 +33,10 @@
         <Name>Wind Spacecraft homepage</Name>
         <URL>https://wind.nasa.gov/ephemeris/pre/</URL>
         <Description>Homepage for the Wind mission. Contains links to data and instrument descriptions.</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -44,28 +44,42 @@
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/orbit/pre_or/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/orbit/pre_or/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_OR_PRE&amp;index=sp_phys</URL>
         <ProductKey>WI_OR_PRE</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_OR_PRE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Wind/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-04-06T00:00:00Z</StartDate>
         <RelativeStopDate>P0D</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT10M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <Parameter>
       <Name>Epoch</Name>
       <ParameterKey>Epoch</ParameterKey>
@@ -75,8 +89,8 @@
       <FillValue>-1.0e31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>PB5 Time</Name>
       <ParameterKey>Time_PB5</ParameterKey>
@@ -86,21 +100,21 @@
         <Element>
           <Name>Year</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Day of year</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Milisecond of day</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GEI Position</Name>
       <ParameterKey>GCI_POS</ParameterKey>
@@ -110,32 +124,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GEI Velocity</Name>
       <ParameterKey>GCI_VEL</ParameterKey>
@@ -145,32 +159,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GSE Position</Name>
       <ParameterKey>GSE_POS</ParameterKey>
@@ -180,32 +194,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GSE Velocity</Name>
       <ParameterKey>GSE_VEL</ParameterKey>
@@ -215,32 +229,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GSM Position</Name>
       <ParameterKey>GSM_POS</ParameterKey>
@@ -250,32 +264,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>GSM Velocity</Name>
       <ParameterKey>GSM_VEL</ParameterKey>
@@ -285,32 +299,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Sun Vector</Name>
       <ParameterKey>SUN_VECTOR</ParameterKey>
@@ -320,32 +334,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.6e+08</ValidMin>
       <ValidMax>1.6e+08</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>HEC Position</Name>
       <ParameterKey>HEC_POS</ParameterKey>
@@ -355,32 +369,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.8e+06</ValidMin>
       <ValidMax>1.8e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>HEC Velocity</Name>
       <ParameterKey>HEC_VEL</ParameterKey>
@@ -390,32 +404,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-12.0</ValidMin>
       <ValidMax>12.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Carrington Rotation Number</Name>
       <ParameterKey>CRN_EARTH</ParameterKey>
@@ -426,8 +440,8 @@
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Heliographic Longitude of Earth</Name>
       <ParameterKey>LONG_EARTH</ParameterKey>
@@ -436,15 +450,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>HG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>6.28319</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Heliographic Latitude of Earth</Name>
       <ParameterKey>LAT_EARTH</ParameterKey>
@@ -453,15 +467,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>HG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>-1.5708</ValidMin>
       <ValidMax>1.5708</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Heliographic Longitude of Spacecraft</Name>
       <ParameterKey>LONG_SPACE</ParameterKey>
@@ -470,15 +484,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>HG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>6.28319</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Heliographic Latitude of Spacecraft</Name>
       <ParameterKey>LAT_SPACE</ParameterKey>
@@ -487,14 +501,14 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>HG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>-1.5708</ValidMin>
       <ValidMax>1.5708</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

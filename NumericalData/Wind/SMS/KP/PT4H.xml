@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind SMS Key Parameter 4-hour Data</ResourceName>
       <DOI>https://doi.org/10.48322/wms0-rv35</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Combined SWICS and STICS data containing 4 hour averaged alpha particle velocity, C/O abundance ratio, and carbon and oxygen ionization temperatures. Time is for the start of the averaging interval. Computed are the average alpha velocity, average C/O abundance ratio, average carbon ionization temperature (in million degs K) from C6 and C5 (using the tables of Arnaud and Rothenflug, 1985), the average oxygen ionization temperature from O7 and O6 (in million degs K, using tables of Arnaud and Rothenflug, 1985). These averages are made over 4 hours. He velocity and He kinetic temperature are computed every 3 minutes and are contained in the K1 CDF. References: Space Science Reviews 71:79-124, 1995, Kluwer Academic Publishers, Belgium Instrument consist of: Solar Wind Ion Composition Spectrometer (SWICS); high resolution mass spectrometer (MASS); Supra-Thermal Ion Composition Spectrometer (STICS) and common DPU</Description>
       <Acknowledgement>Principle Investigator G. Gloeckler and the Wind team</Acknowledgement>
       <PublicationInfo>
-          <Authors>Gloeckler, George; Ipavich, Fred, M; Galvin, Antoinette, B</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Gloeckler, George; Ipavich, Fred, M; Galvin, Antoinette, B</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
@@ -37,7 +37,7 @@
       <PriorID>spase://VHO/NumericalData/Wind/SMS/KP.PT4H</PriorID>
       <PriorID>spase://VSPO/NumericalData/Wind/SMS/SWICS-STICS/PT600S</PriorID>
       <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_SWICS_STICS_CDAWEB</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Wind/SMS/KP/PT4H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/SMS/KP/PT4H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -59,6 +59,20 @@
         <Description>WI_K0_SMS</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_K0_SMS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Wind/SMS/STICS</InstrumentID>

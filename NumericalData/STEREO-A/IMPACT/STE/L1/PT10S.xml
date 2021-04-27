@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/STE/L1/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A IMPACT (In-Situ Measurements of Particles and CME Transients) Suprathermal Electron Telescope (STE) 10-s Level 1 Electron Spectra</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The IMPACT Suprathermal Electron (STE) Telescope data 
 consist of 10-sec resolution electron counts from each of 8 sensors in each 
 of 32 energy bands that span 1.9 keV to 100 keV.  Only four sensors provide 
@@ -25,7 +25,7 @@ of UCB</Acknowledgement>
         <URL>https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/sta_l1_ste_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/STEREO-A/IMPACT/STE/L1/PT10S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/STE/L1/PT10S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/STE/L1/PT10S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,6 +52,21 @@ of UCB</Acknowledgement>
         <Units>MB</Units>
         <Per>P1D</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge the P.I., Janet Luhmann of UCB, 
+and CDAWeb at GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STA_L1_STE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the P.I., Janet Luhmann of UCB, 
 and CDAWeb at GSFC/SPDF</Acknowledgement>
     </AccessInformation>

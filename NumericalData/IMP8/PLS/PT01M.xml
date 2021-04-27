@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -5,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>IMP 8 MIT Full Resolution Definitive Interplanetary Plasma Data</ResourceName>
       <AlternateName>IMP 8 Solar Wind Plasma Faraday Cup Data</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The MIT Faraday cup experiment on IMP 8 measures 
 currents from solar wind ions, and from these measurements we calculate 
 the velocity, density, and temperature of the solar wind. The IMP 8 data 
@@ -61,7 +62,7 @@ which you accessed the data.</Acknowledgement>
         <Description>Text created by MIT IMP8 plasma team</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/IMP8/PLS/PT01M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/IMP8/PLS/PT01M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/IMP8/PLS/PT01M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -94,6 +95,20 @@ which you accessed the data.</Acknowledgement>
         <Description>With subset, plot and list functionalities</Description>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>I8_H0_MITPLASMA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderVersion>v01</ProviderVersion>

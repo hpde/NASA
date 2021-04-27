@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -5,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind EPACT/LEMT 5-min key parameter flux data</ResourceName>
       <DOI>https://doi.org/10.48322/5jq3-gs16</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This set of key parameter flux data from the Wind EPACT (Energetic Particles: Acceleration,Composition and Transport) telescopes contains fluxes of He, C, O Ne,Si, Fe nuclei in the general range 2-11 MeV/n, each averaged over 5 minutes. Poisson uncertainties are given for each flux.</Description>
       <Acknowledgement>Dr. Tycho T. Von Rosenvinge</Acknowledgement>
       <PublicationInfo>
-          <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V; Tan, Lun, C; Allan Tylka</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V; Tan, Lun, C; Allan Tylka</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>
@@ -25,7 +26,7 @@
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-        <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/L2/PT5M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/L2/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -48,6 +49,21 @@
 and file creation</Description>
       </AccessURL>
       <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge Principal Investigator T. von Rosenvinge
+and the CDAWeb team at NASA/GSFC</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_L2-5MIN-SEP_EPACT-LEMT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge Principal Investigator T. von Rosenvinge
 and the CDAWeb team at NASA/GSFC</Acknowledgement>
     </AccessInformation>

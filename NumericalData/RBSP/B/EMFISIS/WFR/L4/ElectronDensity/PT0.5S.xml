@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) Density and other Parameters derived by digitizing Traces on Spectrograms, Level 4 (L4), 0.5 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Van Allen Probe B, Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, derived Density and other Parameters inferred by digitizing Traces on Spectrograms. The EMFISIS Waves Instrument provides a Measure of the Frequency of the Upper Hybrid Resonance Band thereby providing an accurate Determination of the Electron Density. The Electron Density is most easily and accurately measured by Means of Resonances and Cutoffs in the Wave Spectrum rather than Particle Detector Measurements which are subject to Spacecraft Charging and other complicating Factors.</Description>
       <Acknowledgement>C.A. Kletzing</Acknowledgement>
       <Contact>
@@ -23,7 +23,7 @@
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
-        <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
+        <Description>Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
       </InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
@@ -52,7 +52,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/Density/ElectronDensity</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WaveformReceiver/ElectronDensity/Level4</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L4/ElectronDensity/PT0.5S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -76,6 +76,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>C.A. Kletzing. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSP-B_DENSITY_EMFISIS-L4</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>C.A. Kletzing. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -273,7 +287,7 @@
       <Name>Digitization Type</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>digi_type</ParameterKey>
-      <Description>There are two Digitization Type Values: &apos;fuh&apos; denotes that the Upper Hybrid Resonance Frequency, fuh, was digitized, or &apos;fpe&apos; denotes that the Electron Plasma Frequency, fpe, was digitized by using Cutoffs. The digi_type Parameter is not for plotting.</Description>
+      <Description>There are two Digitization Type Values: 'fuh' denotes that the Upper Hybrid Resonance Frequency, fuh, was digitized, or 'fpe' denotes that the Electron Plasma Frequency, fpe, was digitized by using Cutoffs. The digi_type Parameter is not for plotting.</Description>
       <Cadence>PT0.5S</Cadence>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>

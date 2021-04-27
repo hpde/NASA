@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Flux Telescope (HFT) Proton and Heavy Ion Spin-Averaged and Sectored Counting Rate based Nominal Fluxes, 10 min Average Data</ResourceName>
       <AlternateName>Ulysses Cosmic Ray and Solar Particle Investigation (COSPIN) High Flux Telescope (HFT) Energetic (MeV) Nuclei Nominal Fluxes, 10 min Average Data</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This Data Set contains 10 min Average Spin-Averaged and Sectored Counting Rate based Nominal Fluxes of Energetic Proton and Heavier Nuclei from the Ulysses COSPIN High Flux Telescope. The Parameter Keys in the Parameter Level Segments below are specifically relevant to the UFA accessible Versions of the Data.</Description>
       <Acknowledgement>Please acknowledge the COSPIN HFT Lead Investigator, J. David Anglin</Acknowledgement>
       <Contact>
@@ -14,20 +14,20 @@
         <Role>CoInvestigator</Role>
         <Role>DataProducer</Role>
         <Role>TeamLeader</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>The Ulysses Cosmic Ray and Solar Particle Investigation, COSPIN</Name>
         <URL>http://ufa.esac.esa.int/ufa/#instruments</URL>
         <Description>Published Description of the COSPIN Instrumentation, J.A. Simpson et al., Astron. Astrophys. Suppl. Ser. 92, 365-399, 1992. See especially Section 4.4 for a detailed Description of the High Flux Telescopes, HFT. An electronic Copy of this Paper is available at http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?1992A%26AS...92..365S&amp;defaultprint=YES&amp;filetype=.pdf.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>User Notes for the COSPIN/HFT Data Files</Name>
         <URL>http://ufa.esac.esa.int/ufa-sl-server/data-action?PROTOCOL=HTTP&amp;PRODUCT_TYPE=ALL&amp;FILE_NAME=cospin_hft_un.html&amp;FILE_PATH=/ufa/HiRes/doc/cospin</URL>
         <Description>The User Notes File at the Ulysses Final Archive (UFA) describes the Format of the ASCII Data Files for the COSPIN High Flux Telescope, HFT, 10 min Average Proton and Heavy Ion Nominal Fluxes</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VEPO/NumericalData/Ulysses/COSPIN/HFT/Fluxes/PT10M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/HFT/Ion/Fluxes/PT10M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/Ulysses/COSPIN/HFT/Ion/Fluxes/PT10M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</RepositoryID>
       <Availability>Online</Availability>
@@ -36,11 +36,11 @@
         <Name>Ulysses Final Archive Access to COSPIN/HFT 10 min Average Proton and Heavy Ion Nominal Fluxes</Name>
         <URL>http://ufa.esac.esa.int/ufa/#data</URL>
         <Description>Parent Directory containing downloadable .zip compressed Yearly Subdirectories with Naming Convention coshftYY.zip, where YY indicates the two digit Year corresponding to the Data in the Subdirectory. Each Subdirectory contains Daily ASCII Files with Naming Convention ucoshftaYYDDD.dat where YY and DOY are the two digit Year and the three digit Day of Year (January 1 = 1). Each File contains nominally 10 min Averages of HFT Counting Rate based Fluxes of Protons and Heavier Nuclei from the COSPIN High Flux Telescope. The Data are presented in Flux Units, (cm^2 s sr MeV/n)^-1. Of the 22 Data Channels presented, 21 provide Spin-Averaged Fluxes, and one Proton Channel is accumulated in 32 Spin Sectors. Therefore each Tab-delimited Data Record contains, in addition to five Integer Time Fields, 53 Floating Point Fields of measured Fluxes. Since Particle Identification is based simply on Energy Losses exceeding Discriminator Thresholds in a single 18 micron thick Silicon Solid State Detector, explicit Identification of Nuclear Charge is not possible. The Channels are labeled with the usually dominant Particle Species, and may contain significant Contributions from Heavier Nuclei. The Contents of the 58 Fields in each Data Record are described in the COSPIN/HFT User Notes referred to above. (See also Anglin et al., J. Geophys. Res., 102, 1, 1997 for a further Discussion of the Function of the HFT, especially in High Flux Environments). The Thinness of the Detector in Combination with the Discriminator Threshold Levels make the HFT very insensitive to Electrons. The Data Cycle is Complex (See Simpson et al., 1992, cited above) and at the most Common Science Telemetry Rate of 1024 bps, one complete Data Cycle is returned every 256 s. Thus at low Bit Rates (256 bps or lower) a full Data Cycle cannot be completed in one 10 min Interval. Fortunately, prior to Loss of the Ulysses X-band Transmitter in January 2008 Periods where such low Bit Rates were used were quite rare. The Accumulation Intervals for all Fluxes, both Spin-Averaged and sectored, are synchronized with the Spacecraft Spin Period so that each Readout corresponds to an Integral Number of Spins.</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Encoding>ZIP</Encoding>
       <Acknowledgement>Please acknowledge the COSPIN HFT Lead Investigator, J. David Anglin</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -49,15 +49,15 @@
         <Name>FTP Access to CDF Files at SPDF</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/hft/</URL>
         <Description>HFT Data Access via FTP in CDF Format from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTP Access to CDF Files at SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin_cdaweb/hft/</URL>
         <Description>HFT Data Access via HTTP in CDF Format from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>Please acknowledge the CDAWeb or nssdcftp, as appropriate, from NASA/GSFC/SPDF</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -67,29 +67,43 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=UY_M0_HFT&amp;index=sp_phys</URL>
         <ProductKey>UY_M0_HFT</ProductKey>
         <Description>Subset, Plot, List via CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/hft/10_min/</URL>
         <Description>HFT Data Access via FTP in ASCII Format from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/particle/cospin/hft/10_min/</URL>
         <Description>HFT Data Access via HTTP in ASCII Format from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>Please acknowledge the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>UY_M0_HFT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Please acknowledge the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/COSPIN/HFT</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1990-10-22T00:00:00.000</StartDate>
         <StopDate>2007-04-20T23:59:59.999</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT10M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.Outer</ObservedRegion>
     <Parameter>
       <Name>Interval Start Time</Name>
@@ -104,40 +118,40 @@
           <ValidMin>1990</ValidMin>
           <ValidMax>2009</ValidMax>
           <FillValue>Null</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Day of Year</Name>
           <Index>2</Index>
           <ValidMin>1</ValidMin>
           <ValidMax>366</ValidMax>
           <FillValue>Null</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Hour of Day</Name>
           <Index>3</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>23</ValidMax>
           <FillValue>Null</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Minute of Hour</Name>
           <Index>4</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>59</ValidMax>
           <FillValue>Null</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>Seconds of Minute</Name>
           <Index>5</Index>
           <ValidMin>0</ValidMin>
           <ValidMax>59</ValidMax>
           <FillValue>Null</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.28-7.0 MeV Proton Spin-Averaged Flux based on counting rate F1J(0)</Name>
       <ParameterKey>Column_6</ParameterKey>
@@ -156,9 +170,9 @@
           <Low>0.28</Low>
           <High>7.0</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.50-2.27 MeV Proton Spin-Averaged Flux based on counting rate F1J(1)</Name>
       <ParameterKey>Column_7</ParameterKey>
@@ -177,9 +191,9 @@
           <Low>0.50</Low>
           <High>2.27</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.76-1.37 MeV Proton Spin-Averaged Flux based on counting rate F1J(2)</Name>
       <ParameterKey>Column_8</ParameterKey>
@@ -198,9 +212,9 @@
           <Low>0.76</Low>
           <High>1.37</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.31-5.4 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(3)</Name>
       <ParameterKey>Column_9</ParameterKey>
@@ -219,9 +233,9 @@
           <Low>0.31</Low>
           <High>5.4</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.38-3.9 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(4)</Name>
       <ParameterKey>Column_10</ParameterKey>
@@ -240,9 +254,9 @@
           <Low>0.38</Low>
           <High>3.9</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.45-2.9 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(5)</Name>
       <ParameterKey>Column_11</ParameterKey>
@@ -261,9 +275,9 @@
           <Low>0.45</Low>
           <High>2.9</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.51-2.26 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(6)</Name>
       <ParameterKey>Column_12</ParameterKey>
@@ -282,9 +296,9 @@
           <Low>0.51</Low>
           <High>2.26</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.58-1.91 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(7)</Name>
       <ParameterKey>Column_13</ParameterKey>
@@ -303,9 +317,9 @@
           <Low>0.58</Low>
           <High>1.91</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.64-1.66 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(8)</Name>
       <ParameterKey>Column_14</ParameterKey>
@@ -324,9 +338,9 @@
           <Low>0.64</Low>
           <High>1.66</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.71-1.50 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(9)</Name>
       <ParameterKey>Column_15</ParameterKey>
@@ -345,9 +359,9 @@
           <Low>0.71</Low>
           <High>1.50</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.78-1.35 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(10)</Name>
       <ParameterKey>Column_16</ParameterKey>
@@ -366,9 +380,9 @@
           <Low>0.78</Low>
           <High>1.35</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.85-1.25 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(11)</Name>
       <ParameterKey>Column_17</ParameterKey>
@@ -387,9 +401,9 @@
           <Low>0.85</Low>
           <High>1.25</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.91-1.17 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(12)</Name>
       <ParameterKey>Column_18</ParameterKey>
@@ -408,9 +422,9 @@
           <Low>0.91</Low>
           <High>1.17</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.98-1.12 MeV/n Helium Spin-Averaged Flux based on counting rate F1J(13)</Name>
       <ParameterKey>Column_19</ParameterKey>
@@ -429,9 +443,9 @@
           <Low>0.98</Low>
           <High>1.12</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.34-29.6 MeV/n (for Oxygen) Spin-Averaged Flux based on counting rate F1J(14)</Name>
       <ParameterKey>Column_20</ParameterKey>
@@ -450,9 +464,9 @@
           <Low>0.34</Low>
           <High>29.6</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.36-27.4 MeV/n (for Oxygen) Spin-Averaged Flux based on counting rate F1J(15)</Name>
       <ParameterKey>Column_21</ParameterKey>
@@ -471,9 +485,9 @@
           <Low>0.36</Low>
           <High>27.4</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.20-6.7 MeV Proton Spin-Averaged Flux based on counting rate F2L</Name>
       <ParameterKey>Column_22</ParameterKey>
@@ -492,9 +506,9 @@
           <Low>0.20</Low>
           <High>6.7</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT 0.55-1.95 MeV Proton Spin-Averaged Flux based on counting rate F2H</Name>
       <ParameterKey>Column_23</ParameterKey>
@@ -513,13 +527,13 @@
           <Low>0.55</Low>
           <High>1.95</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
-      <Name>COSPIN/HFT 0.68-1.56 MeV/n (for He) Z&#x2265;2 Spin-Averaged Flux based on counting rate F3</Name>
+      <Name>COSPIN/HFT 0.68-1.56 MeV/n (for He) Z≥2 Spin-Averaged Flux based on counting rate F3</Name>
       <ParameterKey>Column_24</ParameterKey>
-      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F3 responding primarily to 0.68-1.56 MeV/n (for He) Z&#x2265;2 nuclei.</Description>
+      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F3 responding primarily to 0.68-1.56 MeV/n (for He) Z≥2 nuclei.</Description>
       <Caveats>Since the energy range is defined entirely by a discriminator level on the single 18 micron thick Silicon detector, other high energy nuclei with energy losses in the detector greater than that of a normally incident 0.68 MeV/n helium nucleus will also contribute to this flux.</Caveats>
       <Cadence>PT10M</Cadence>
       <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -534,13 +548,13 @@
           <Low>0.68</Low>
           <High>1.56</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
-      <Name>COSPIN/HFT 0.8-4.9 MeV/n (for Carbon) Z&#x2265;3 Spin-Averaged Flux based on counting rate F4</Name>
+      <Name>COSPIN/HFT 0.8-4.9 MeV/n (for Carbon) Z≥3 Spin-Averaged Flux based on counting rate F4</Name>
       <ParameterKey>Column_25</ParameterKey>
-      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F4 responding primarily to 0.8-4.9 MeV/n (for He) Z&#x2265;2 nuclei.</Description>
+      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F4 responding primarily to 0.8-4.9 MeV/n (for He) Z≥2 nuclei.</Description>
       <Caveats>Since the energy range is defined entirely by a discriminator level on the single 18 micron thick Silicon detector, other high energy nuclei with energy losses in the detector greater than that of a normally incident 0.8 MeV/n Carbon nucleus will also contribute to this flux.</Caveats>
       <Cadence>PT10M</Cadence>
       <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -555,13 +569,13 @@
           <Low>0.8</Low>
           <High>4.9</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
-      <Name>COSPIN/HFT 1.28-8.5 MeV/n (for Sulphur) Z&#x2265;12 Spin-Averaged Flux based on counting rate F5</Name>
+      <Name>COSPIN/HFT 1.28-8.5 MeV/n (for Sulphur) Z≥12 Spin-Averaged Flux based on counting rate F5</Name>
       <ParameterKey>Column_26</ParameterKey>
-      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F3 responding primarily to 1.28-8.5MeV/n (for Sulphur) Z&#x2265;12 nuclei.</Description>
+      <Description>Nominal 10-minute average HFT spin-averaged flux based on counting rate F3 responding primarily to 1.28-8.5MeV/n (for Sulphur) Z≥12 nuclei.</Description>
       <Caveats>Since the energy range is defined entirely by a discriminator level on the single 18 micron thick Silicon detector, other high energy nuclei with energy losses in the detector greater than that of a normally incident 1.28 MeV/n Sulphur nucleus will also contribute to this flux.</Caveats>
       <Cadence>PT10M</Cadence>
       <Units>(cm^2 s sr MeV/n)^-1</Units>
@@ -576,9 +590,9 @@
           <Low>1.28</Low>
           <High>8.5</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>COSPIN/HFT Proton 32-Sectored Flux based on counting rate F2S</Name>
       <ParameterKey>Columns 27 through 58</ParameterKey>
@@ -594,7 +608,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S2</Name>
           <Index>2</Index>
@@ -602,7 +616,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S3</Name>
           <Index>3</Index>
@@ -610,7 +624,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S4</Name>
           <Index>4</Index>
@@ -618,7 +632,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S5</Name>
           <Index>5</Index>
@@ -626,7 +640,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S6</Name>
           <Index>6</Index>
@@ -634,7 +648,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S7</Name>
           <Index>7</Index>
@@ -642,7 +656,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S8</Name>
           <Index>8</Index>
@@ -650,7 +664,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S9</Name>
           <Index>9</Index>
@@ -658,7 +672,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S10</Name>
           <Index>10</Index>
@@ -666,7 +680,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S11</Name>
           <Index>11</Index>
@@ -674,7 +688,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S12</Name>
           <Index>12</Index>
@@ -682,7 +696,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S13</Name>
           <Index>13</Index>
@@ -690,7 +704,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S14</Name>
           <Index>14</Index>
@@ -698,7 +712,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S15</Name>
           <Index>15</Index>
@@ -706,7 +720,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S16</Name>
           <Index>16</Index>
@@ -714,7 +728,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S17</Name>
           <Index>17</Index>
@@ -722,7 +736,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S18</Name>
           <Index>18</Index>
@@ -730,7 +744,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S19</Name>
           <Index>19</Index>
@@ -738,7 +752,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S20</Name>
           <Index>20</Index>
@@ -746,7 +760,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S21</Name>
           <Index>21</Index>
@@ -754,7 +768,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S22</Name>
           <Index>22</Index>
@@ -762,7 +776,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S23</Name>
           <Index>23</Index>
@@ -770,7 +784,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S24</Name>
           <Index>24</Index>
@@ -778,7 +792,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S25</Name>
           <Index>25</Index>
@@ -786,7 +800,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S26</Name>
           <Index>26</Index>
@@ -794,7 +808,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S27</Name>
           <Index>27</Index>
@@ -802,7 +816,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S28</Name>
           <Index>28</Index>
@@ -810,7 +824,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S29</Name>
           <Index>29</Index>
@@ -818,7 +832,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S30</Name>
           <Index>30</Index>
@@ -826,7 +840,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S31</Name>
           <Index>31</Index>
@@ -834,7 +848,7 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
+        </Element>
         <Element>
           <Name>F2S32</Name>
           <Index>32</Index>
@@ -842,8 +856,8 @@
           <ValidMin>0.0</ValidMin>
           <ValidMax>1000000</ValidMax>
           <FillValue>-999</FillValue>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Average</Qualifier>
@@ -852,8 +866,8 @@
           <Low>0.29</Low>
           <High>6.7</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
-</NumericalData>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

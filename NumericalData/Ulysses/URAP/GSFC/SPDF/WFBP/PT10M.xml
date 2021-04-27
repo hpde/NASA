@@ -1,18 +1,18 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Ulysses/URAP/GSFC/SPDF/WFBP/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses URAP WFA 10-min Magnetic Field Peak Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This set of WFA (Waveform Analyzer) data from the Ulysses URAP (Unified Radio and Plasma Waves) experiment contains averages of the peak magnetic field intensities in 10-min intervals via CDAWeb. The frequency spectra are determined from measurements on the Y and Z antenna of the URAP instrument in units of 1.0e-15 Tesla/Hz**0.5 for frequency channels from 0.22-448 Hz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Bob.McDowell</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_ULYSSES_HDR_URAP_WFBP_CDAWEB_DIGITAL</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/WFBP/PT10M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Ulysses/URAP/GSFC/SPDF/WFBP/PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,6 +52,20 @@
         <Description>For http downloads of ASCII Ulysses URAP data</Description>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>UY_M0_WFBP</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/URAP</InstrumentID>

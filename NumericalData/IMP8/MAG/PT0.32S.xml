@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/IMP8/MAG/PT0.32S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 MAG 320 msec GSE magnetic field data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Data consist of 320 ms magnetic field magnitude and
 Cartesian components.</Description>
       <Acknowledgement>Dr. Adam Szabo</Acknowledgement>
@@ -22,7 +23,7 @@ Cartesian components.</Description>
         <Description>Details on creation of this data set</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/IMP8/MAG/PT0.32S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/IMP8/MAG/PT0.32S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/IMP8/MAG/PT0.32S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -55,6 +56,20 @@ Cartesian components.</Description>
         <Description>FTPBrowser graphical display interface to ASCII data</Description>
       </AccessURL>
       <Format>Text</Format>
+      <Acknowledgement>Dr. Adam.Szabo</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>I8_320MSEC_MAG</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Dr. Adam.Szabo</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

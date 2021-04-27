@@ -1,37 +1,37 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/MMS/4/EnergeticParticleDetector/EIS/Survey/Level2/PulseHeightByTimeOfFlight/PT2.42S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 4 Energetic Particle Detector, Energetic Ion Spectrometer (EPD-EIS) Pulse Height by Time of Flight, Level 2, Quick-Look Survey</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Energetic Particle Detector (EPD), Energetic Ion Spectrometer (EPD EIS) Pulse Height by Time of Flight, Level 2, Quick-Look Survey, 2.42 s Data. The EIS provides ion composition measurements (protons versus oxygen ions) and angular distributions over the energy range from approximately 45 to 500 keV.</Description>
       <Acknowledgement>B. Mauk</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
         <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Goddard Space Flight Center (GSFC).</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Data Caveats and Current Release Notes at LASP MMS SDC</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/epd/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
-</InformationURL>
-        <PriorID>spase://VSPO/NumericalData/MMS/4/EnergeticParticleDetector/EIS/Survey/Level2/PulseHeightByTimeOfFlight/PT2.42S</PriorID>
-</ResourceHeader>
+      </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/MMS/4/EnergeticParticleDetector/EIS/Survey/Level2/PulseHeightByTimeOfFlight/PT2.42S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -40,22 +40,36 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms4/epd-eis/srvy/l2/phxtof/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms4/epd-eis/srvy/l2/phxtof/</URL>
         <Description>In CDF via http from SPDF.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS4_EPD-EIS_SRVY_L2_PHXTOF&amp;index=sp_phys</URL>
         <ProductKey>MMS4_EPD-EIS_SRVY_L2_PHXTOF</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>B. Mauk. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>MMS4_EPD-EIS_SRVY_L2_PHXTOF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>B. Mauk. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MMS/4/EnergeticParticleDetector/EIS</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/MMS/4/FIELDS/FGM</InstrumentID>
@@ -64,9 +78,9 @@
       <TimeSpan>
         <StartDate>2015-09-01T00:00:00.000</StartDate>
         <RelativeStopDate>-P2M</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT2.42S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -88,14 +102,14 @@
         <AxisLabel>time</AxisLabel>
         <ScaleMin>6.3620705023355e+13</ScaleMin>
         <ScaleMax>6.3620724488464e+13</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>2016-01-23T00:00:03.451003074</ValidMin>
       <ValidMax>2016-01-23T05:24:28.560065031</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Time Minus</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -108,14 +122,14 @@
         <AxisLabel>DTMinus</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Time Plus</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -128,14 +142,14 @@
         <AxisLabel>DTPlus</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Accumulation Time Duration</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -148,14 +162,14 @@
         <AxisLabel>DT</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Instrument Deadtime</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -168,14 +182,14 @@
         <AxisLabel>Deadtime</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Instrument Mode Large Pixel Setting</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -187,14 +201,14 @@
         <AxisLabel>LargePixel</AxisLabel>
         <ValueFormat>i1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>InstrumentMode</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Measurement Window Start Time</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -207,14 +221,14 @@
         <AxisLabel>StartTAI</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Nominal Measurement Time</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -227,14 +241,14 @@
         <AxisLabel>MidTAI</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Measurement Window Stop Time</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -247,14 +261,14 @@
         <AxisLabel>EndTAI</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spin Number</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -266,14 +280,14 @@
         <AxisLabel>Spin</AxisLabel>
         <ValueFormat>i10</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>65535</ValidMax>
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spin Sector</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -285,14 +299,14 @@
         <AxisLabel>Sector</AxisLabel>
         <ValueFormat>i2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>31</ValidMax>
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Quality Flag</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -304,14 +318,14 @@
         <AxisLabel>Quality</AxisLabel>
         <ValueFormat>i10</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>2147483647</ValidMax>
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -323,7 +337,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>48.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -331,37 +345,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -369,8 +383,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -382,7 +396,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>59.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -390,37 +404,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -428,8 +442,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -441,7 +455,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>64.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -449,37 +463,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -487,8 +501,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -500,7 +514,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>40.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -508,37 +522,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -546,8 +560,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -559,7 +573,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>49.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -567,37 +581,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -605,8 +619,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -618,7 +632,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>53.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -626,37 +640,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC04 H+ 17keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC05 H+ 25keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC06 H+ 35keVcounts</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC07 H+ 57keVcounts</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -664,8 +678,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -678,7 +692,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>26.4517</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -686,37 +700,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -724,8 +738,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -738,7 +752,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>32.5136</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -746,37 +760,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -784,8 +798,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -798,7 +812,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>35.269</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -806,37 +820,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -844,8 +858,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -858,7 +872,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>22.0443</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -866,37 +880,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -904,8 +918,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -918,7 +932,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>27.0042</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -926,37 +940,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -964,8 +978,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -978,7 +992,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>29.2086</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -986,37 +1000,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC04 H+ 17keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC05 H+ 25keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC06 H+ 35keVcps</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC07 H+ 57keVcps</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1024,8 +1038,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1039,7 +1053,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>95844.6</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1047,37 +1061,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1085,8 +1099,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t0_energy</ParameterKey>
@@ -1098,37 +1112,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t0_energy_dminus</ParameterKey>
@@ -1140,37 +1154,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t0_energy_dplus</ParameterKey>
@@ -1182,37 +1196,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1226,7 +1240,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>64704.8</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1234,37 +1248,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1272,8 +1286,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t1_energy</ParameterKey>
@@ -1285,37 +1299,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t1_energy_dminus</ParameterKey>
@@ -1327,37 +1341,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t1_energy_dplus</ParameterKey>
@@ -1369,37 +1383,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1413,7 +1427,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>79023.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1421,37 +1435,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1459,8 +1473,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t2_energy</ParameterKey>
@@ -1472,37 +1486,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t2_energy_dminus</ParameterKey>
@@ -1514,37 +1528,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t2_energy_dplus</ParameterKey>
@@ -1556,37 +1570,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1600,7 +1614,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>93144.8</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1608,37 +1622,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1646,8 +1660,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t3_energy</ParameterKey>
@@ -1659,37 +1673,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t3_energy_dminus</ParameterKey>
@@ -1701,37 +1715,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t3_energy_dplus</ParameterKey>
@@ -1743,37 +1757,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1787,7 +1801,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>69613.5</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1795,37 +1809,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1833,8 +1847,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t4_energy</ParameterKey>
@@ -1846,37 +1860,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t4_energy_dminus</ParameterKey>
@@ -1888,37 +1902,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t4_energy_dplus</ParameterKey>
@@ -1930,37 +1944,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -1974,7 +1988,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>51991.2</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -1982,37 +1996,37 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>10.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC04 H+ 17keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC05 H+ 25keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>20.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC06 H+ 35keVintensity</Name>
           <Index>4</Index>
           <RenderingHints>
             <AxisLabel>40.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC07 H+ 57keVintensity</Name>
           <Index>5</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2020,8 +2034,8 @@
         <ParticleType>Proton</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t5_energy</ParameterKey>
@@ -2033,37 +2047,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>10.09</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t5_energy_dminus</ParameterKey>
@@ -2075,37 +2089,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Proton Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_proton_t5_energy_dplus</ParameterKey>
@@ -2117,37 +2131,37 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>10.09</ScaleMin>
         <ScaleMax>75.96</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>5</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>75.96</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2159,7 +2173,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2167,23 +2181,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2191,8 +2205,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2204,7 +2218,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>4.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2212,23 +2226,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2236,8 +2250,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2249,7 +2263,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>5.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2257,23 +2271,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2281,8 +2295,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2294,7 +2308,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>4.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2302,23 +2316,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2326,8 +2340,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2339,7 +2353,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>4.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2347,23 +2361,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2371,8 +2385,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2384,7 +2398,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>4.0</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2392,23 +2406,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC01 O 89keVcounts</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC02 O 142keVcounts</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2416,8 +2430,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2430,7 +2444,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>1.65332</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2438,23 +2452,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2462,8 +2476,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2476,7 +2490,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2.20443</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2484,23 +2498,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2508,8 +2522,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2522,7 +2536,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2.75553</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2530,23 +2544,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2554,8 +2568,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2568,7 +2582,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2.20443</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2576,23 +2590,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2600,8 +2614,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2614,7 +2628,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2.20454</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2622,23 +2636,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2646,8 +2660,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2660,7 +2674,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>2.20443</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2668,23 +2682,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC01 O 89keVcps</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC02 O 142keVcps</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2692,8 +2706,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2707,7 +2721,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>538.541</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2715,23 +2729,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS40AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2739,8 +2753,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t0_energy</ParameterKey>
@@ -2752,29 +2766,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t0_energy_dminus</ParameterKey>
@@ -2786,29 +2800,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t0_energy_dplus</ParameterKey>
@@ -2820,29 +2834,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -2856,7 +2870,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>468.031</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -2864,23 +2878,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS41AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -2888,8 +2902,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t1_energy</ParameterKey>
@@ -2901,29 +2915,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t1_energy_dminus</ParameterKey>
@@ -2935,29 +2949,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t1_energy_dplus</ParameterKey>
@@ -2969,29 +2983,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3005,7 +3019,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>531.956</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -3013,23 +3027,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS42AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3037,8 +3051,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t2_energy</ParameterKey>
@@ -3050,29 +3064,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t2_energy_dminus</ParameterKey>
@@ -3084,29 +3098,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t2_energy_dplus</ParameterKey>
@@ -3118,29 +3132,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3154,7 +3168,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>813.441</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -3162,23 +3176,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS43AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3186,8 +3200,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t3_energy</ParameterKey>
@@ -3199,29 +3213,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t3_energy_dminus</ParameterKey>
@@ -3233,29 +3247,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t3_energy_dplus</ParameterKey>
@@ -3267,29 +3281,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3303,7 +3317,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>607.311</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -3311,23 +3325,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS44AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3335,8 +3349,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t4_energy</ParameterKey>
@@ -3348,29 +3362,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t4_energy_dminus</ParameterKey>
@@ -3382,29 +3396,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t4_energy_dplus</ParameterKey>
@@ -3416,29 +3430,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Intensity (Flux)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3452,7 +3466,7 @@
         <ValueFormat>g22.8</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>363.767</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -3460,23 +3474,23 @@
           <Index>1</Index>
           <RenderingHints>
             <AxisLabel>60.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC01 O 89keVintensity</Name>
           <Index>2</Index>
           <RenderingHints>
             <AxisLabel>90.0000</AxisLabel>
-</RenderingHints>
-</Element>
+          </RenderingHints>
+        </Element>
         <Element>
           <Name>MMS45AHC02 O 142keVintensity</Name>
           <Index>3</Index>
           <RenderingHints>
             <AxisLabel>100.000</AxisLabel>
-</RenderingHints>
-</Element>
-</Structure>
+          </RenderingHints>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3484,8 +3498,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Incident Energy</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t5_energy</ParameterKey>
@@ -3497,29 +3511,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>45.21</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Energy Bin Lower Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t5_energy_dminus</ParameterKey>
@@ -3531,29 +3545,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Oxygen Energy Bin Higher Width</Name>
       <ParameterKey>mms4_epd_eis_phxtof_oxygen_t5_energy_dplus</ParameterKey>
@@ -3565,29 +3579,29 @@
         <ValueFormat>g6.1</ValueFormat>
         <ScaleMin>45.21</ScaleMin>
         <ScaleMax>173.42</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>173.42</ValidMax>
       <FillValue>-1.0e+38</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3599,7 +3613,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3607,8 +3621,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3620,7 +3634,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3628,8 +3642,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3641,7 +3655,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3649,8 +3663,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3662,7 +3676,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3670,8 +3684,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3683,7 +3697,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3691,8 +3705,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Dump Counts</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3704,7 +3718,7 @@
         <AxisLabel>Counts</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3712,8 +3726,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>Counts</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3726,7 +3740,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3734,8 +3748,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3748,7 +3762,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3756,8 +3770,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3770,7 +3784,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3778,8 +3792,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3792,7 +3806,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3800,8 +3814,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3814,7 +3828,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3822,8 +3836,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Dump Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3836,7 +3850,7 @@
         <AxisLabel>CPS</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3844,8 +3858,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3859,7 +3873,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3867,8 +3881,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3882,7 +3896,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3890,8 +3904,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3905,7 +3919,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3913,8 +3927,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3928,7 +3942,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3936,8 +3950,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3951,7 +3965,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3959,8 +3973,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Dump Intensity</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3974,7 +3988,7 @@
         <AxisLabel>Intensity</AxisLabel>
         <ValueFormat>g</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.79769e+308</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -3982,8 +3996,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>EnergyFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 0</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -3999,15 +4013,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 1</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4023,15 +4037,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 2</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4047,15 +4061,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 3</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4071,15 +4085,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 4</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4095,15 +4109,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch Angle for Telescope 5</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4119,15 +4133,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 0 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4137,37 +4151,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 1 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4177,37 +4191,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 2 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4217,37 +4231,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 3 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4257,37 +4271,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 4 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4297,37 +4311,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Telescope 5 Look Vector (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4337,37 +4351,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.0</ScaleMin>
         <ScaleMax>1.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.0</ValidMin>
       <ValidMax>1.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Magnetic Field (BCS)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4379,41 +4393,41 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>4</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector in GSE Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4425,37 +4439,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Position Vector in GSM Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4467,37 +4481,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft-Moon Vector in GSE Coordinates</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4509,37 +4523,37 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Transformation Matrix (BCS to GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4549,61 +4563,61 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>9</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Tensor</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Transformation Matrix (GSE to GSM)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4613,61 +4627,61 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>9</Size>
         <Element>
           <Name>Element 1</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 2</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 3</Name>
           <Index>3</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 4</Name>
           <Index>4</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 5</Name>
           <Index>5</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 6</Name>
           <Index>6</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 7</Name>
           <Index>7</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 8</Name>
           <Index>8</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Element 9</Name>
           <Index>9</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Tensor</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Position, Radius</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4683,15 +4697,15 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Dipole L-Shell</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4705,14 +4719,14 @@
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Latitude (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4724,7 +4738,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GSELat MMS4</AxisLabel>
@@ -4732,15 +4746,15 @@
         <ScaleMin>-90.0</ScaleMin>
         <ScaleMax>90.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Longitude (GSE)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4752,7 +4766,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GSELon MMS4</AxisLabel>
@@ -4760,15 +4774,15 @@
         <ScaleMin>-180.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-180.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Latitude (GSM)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4780,7 +4794,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GSMLat MMS4</AxisLabel>
@@ -4788,15 +4802,15 @@
         <ScaleMin>-90.0</ScaleMin>
         <ScaleMax>90.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Longitude (GSM)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4808,7 +4822,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>GSMLon MMS4</AxisLabel>
@@ -4816,15 +4830,15 @@
         <ScaleMin>-180.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-180.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Latitude (SM)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4840,15 +4854,15 @@
         <ScaleMin>-90.0</ScaleMin>
         <ScaleMax>90.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Longitude (SM)</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4864,15 +4878,15 @@
         <ScaleMin>-180.0</ScaleMin>
         <ScaleMax>180.0</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-180.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Orbit Number</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4886,14 +4900,14 @@
         <ScaleMin>-1.79769e+308</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-1.79769e+308</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 0 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4907,7 +4921,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -4915,8 +4929,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 1 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4930,7 +4944,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -4938,8 +4952,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 2 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4953,7 +4967,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -4961,8 +4975,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 3 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4976,7 +4990,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -4984,8 +4998,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 4 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -4999,7 +5013,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -5007,8 +5021,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Solid State Energy Detector 5 Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5022,7 +5036,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -5030,8 +5044,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Valid Number of Events Processed</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5045,14 +5059,14 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start 0 Anode Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5066,7 +5080,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -5074,8 +5088,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Stop 0 Anode Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5089,7 +5103,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -5097,8 +5111,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Valid Number of Events above Pulse Height by Time-of-Flight Threshold Count Rate</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5112,7 +5126,7 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -5120,8 +5134,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Differential</Qualifier>
         <ParticleQuantity>CountRate</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Valid Number of Energy by Time-of-Flight Events</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5135,14 +5149,14 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Valid Number of Pulse Height by Time-of-Flight Events</Name>
       <Set>Time series defined by using: EPOCH</Set>
@@ -5156,13 +5170,13 @@
         <ValueFormat>e12.5</ValueFormat>
         <ScaleMin>0.0</ScaleMin>
         <ScaleMax>3.40282e+38</ScaleMax>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>3.40282e+38</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

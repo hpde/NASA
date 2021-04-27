@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/AMPTE-CCE/MEPA/PT0.1875S</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE-CCE Medium Energy Particle Analyzer (MEPA), Energetic Particles, H0, 0.1875 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This dataset contains high time resolution MEPA rate channel data. MEPA is a particle telescope with an ION head and a TOF head. The TOF head can measure species and energy, while the ION head only measures the energy of the ions, which are mostly protons. In fact, the counts in the ION head are all assumed to be protons up to 1830 keV. The ION head has 10 energy channels, and so the first 8 channels, that are all below 1830 keV, are assumed to be all protons, and the 2 channels above this are assumed to be all alphas. The TOF head has 9 energy channels that are generic, ions of any species are counted, and some species specific channels for protons, helium, oxygen, and iron. The AMPTE data was divided into records, with each record holding data from 4 spins. In any record, all the TOF species channels are always present, but only one of either a, the 10 ION head channels or b, 9 TOF generic channels are present. The majority of records have the ION head channels. The AMPTE spacecraft had a spin period of about 6 seconds. The exact spin period varies slightly and is included in the data. MEPA data is sectored into 32 directions per spin. Nearly all channels are reported as sectored values, but to conserve telemetry, many channels are only read out every other spin, or every fourth spin. In this data, all values are summed so that they are reported every fourth spin. Note that in the original AMPTE datesets, there was a timing problem which required that 19.75 seconds, one Major Frame of telemetry, be added to time values extracted from the processing system. This correction has already been made in the particle data in this dataset.</Description>
       <Acknowledgement>R.W. McEntire, JHU APL is acknowledged for its Role in restoring and providing AMPTE MEPA Data.</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
         <Description>AMPTE/CCE MEPA Information and Data</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/AMPTE_CCE/MEPA/PT0.1875S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/AMPTE-CCE/MEPA/PT0.1875S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/AMPTE-CCE/MEPA/PT0.1875S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -50,6 +50,24 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>R.W. McEntire, JHU APL is acknowledged for its Role in restoring and providing AMPTE MEPA Data. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AMPTECCE_H0_MEPA@0</ProductKey>
+        <ProductKey>AMPTECCE_H0_MEPA@1</ProductKey>
+        <ProductKey>AMPTECCE_H0_MEPA@2</ProductKey>
+        <ProductKey>AMPTECCE_H0_MEPA@3</ProductKey>
+        <ProductKey>AMPTECCE_H0_MEPA@4</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>R.W. McEntire, JHU APL is acknowledged for its Role in restoring and providing AMPTE MEPA Data. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/Ephemeris/Definitive/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Definitive Orbit, Daily Values, in GSE and J2000 GCI Coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>ACE Definitive Orbit, in Geocentric Solar Ecliptic, GSE, and J2000 Geocentric Ecliptic, GCI, Coordinates. Data in GCI and RTN Coordinates are received Daily by the ACE Science Center, ASC, from the ACE Flight Dynamics Facility, FDF, at GSFC. ASC transforms the Data into the other Coordinate Systems. The Data are reported for the Beginning and End of each DSN Telemetry Pass, and also for the Beginning and End of each Spacecraft Maneuver during a DSN Pass. Because the Attitude and Orbit of the ACE Spacecraft change relatively slowly, the FDF does not provide the Data on finer Time Scales.</Description>
       <Acknowledgement>E.C. Stone, Please acknowledge the Principal Investigator, E. C. Stone, California Institute of Technology, Pasadena, USA. See the Rules of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html.</Acknowledgement>
       <Contact>
@@ -30,7 +30,7 @@
         <URL>https://sscweb.gsfc.nasa.gov</URL>
         <Description>The Satellite Situation Center Web, SSCWeb, Service has been developed and is operated jointly by the NASA/GSFC Space Physics Data Facility, SPDF, and the National Space Science Data Center, NSSDC, to support a Range of NASA Science Programs and to fulfill Key International NASA Responsibilities including those of NSSDC and the World Data Center-A for Rockets and Satellites. The Software and associated Database of SSCWeb together form a System to cast Geocentric Spacecraft Location Information into a Framework of Empirical Geophysical Regions and Mappings of Spacecraft Locations along Lines of the Earth's Magnetic Field. This Capability is one Key to Mission Science Planning, both Single Missions and Coordinated Observations of Multiple Spacecraft with Ground-Based Investigations, and to subsequent Multi-Mission Data Analysis.</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/ACE/Ephemeris/Definitive/P1D</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/Ephemeris/Definitive/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -54,6 +54,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>E.C. Stone, Please acknowledge the Principal Investigator, E. C. Stone, California Institute of Technology, Pasadena, USA. See the Rules of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_OR_DEF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>E.C. Stone, Please acknowledge the Principal Investigator, E. C. Stone, California Institute of Technology, Pasadena, USA. See the Rules of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ACE/ASC/level2/policy_lvl2.html. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

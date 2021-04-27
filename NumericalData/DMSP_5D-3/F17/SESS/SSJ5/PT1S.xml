@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/DMSP_5D-3/F17/SESS/SSJ5/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP F17 Special Sensor J, SESS/SSJ5, Precipitating Electrons and Ions Observed at 850 km, 1 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Precipitating Electrons And ions observed at nominally 850 km Altitude and over a Range of Energies from 30 eV to 30 keV by using the Special Sensor J, SSJ, Instrument. Please contact Rob.Redmon@noaa.gov with Questions and Comments. Many Individuals made Important Contributions including: D. Hardy, E. Holeman, F. Rich, D. Ober, G. Wilson, J. Machuzak, K. Kadinsky-Cade, J. McGarity, W.F. Denig, K. Martin, R. Redmon, D. Knipp, L. Kilcommons.</Description>
       <Acknowledgement>R.J. Redmon, L.M. Kilcommons, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them.</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
         <URL>https://www.ngdc.noaa.gov/stp/satellite/satdataservices.html</URL>
         <Description>NGDC Solar and Terrestrial Physics, STP, Satellite Data Services</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/DMSP_5D-3/F17/SESS/SSJ5/PT1S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/DMSP_5D-3/F17/SESS/SSJ5/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -53,6 +53,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>R.J. Redmon, L.M. Kilcommons, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>DMSP-F17_SSJ_PRECIPITATING-ELECTRONS-IONS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>R.J. Redmon, L.M. Kilcommons, Data Access provided by NGDC in Coordination with AFRL and the University of Colorado, Boulder. Please acknowledge the Data Providers. If you find Problems, please report them. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -1946,7 +1960,7 @@
       <Description>Spacecraft Latitude, Geographic Inertial, GEO, Coordinates</Description>
       <Caveats>Calculated by using IDL Astro Library Function ECI2GEO</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -1973,7 +1987,7 @@
       <Description>Spacecraft Longitude, Geographic Inertial, GEO, Coordinates</Description>
       <Caveats>Calculated by using IDL Astro Library Function ECI2GEO</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -2022,7 +2036,7 @@
       <Description>Spacecraft Latitude, Altitude Adjusted Corrected Geomagnetic, AACGM, Coordinates</Description>
       <Caveats>Calculated by using the SuperDARN AACGM IDL Library. Values are the Result of linearly interpolating between two nearest AACGM 5 Year Epochs.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -2049,7 +2063,7 @@
       <Description>Spacecraft Longitude, Altitude Adjusted Corrected Geomagnetic, AACGM, Coordinates</Description>
       <Caveats>Calculated by using the SuperDARN AACGM IDL Library. Values are the Result of linearly interpolating between two nearest AACGM 5 Year Epochs.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>

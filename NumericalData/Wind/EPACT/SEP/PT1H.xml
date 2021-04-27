@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind Energetic Particle Acceleration, Composition and Transport (EPACT) APE-B Telescope Proton Fluxes 18.90 to 21.90 MeV, Level 2, 1 hr Data</ResourceName>
       <DOI>https://doi.org/10.48322/k50r-er56</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The Energetic Particles: Acceleration, Composition and Transport, EPACT, on Wind. The APE-B Telescope measures Proton Fluxes at Particle Energies of 18.90 MeV to 21.90 MeV.</Description>
       <Acknowledgement>T.T. Von Rosenvinge, D.V. Reames</Acknowledgement>
       <PublicationInfo>
-          <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>
@@ -35,7 +35,7 @@
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/epact/flux_ascii/ape-b/</URL>
         <Description>Access to Wind Energetic Particles: Acceleration, Composition and Transport, EPACT, Solar Energetic Particle, SEP, ASCII Data Files</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/Wind/EPACT/SEP/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/EPACT/SEP/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -59,6 +59,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>T.T. Von Rosenvinge, D.V. Reames. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_L2-1HOUR-SEP_EPACT-APE_B</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>T.T. Von Rosenvinge, D.V. Reames. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

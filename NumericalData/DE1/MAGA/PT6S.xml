@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -7,25 +7,25 @@
       <ResourceName>DE 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-A)</ResourceName>
       <AlternateName>Dynamics Explorer 1 MAG-A data</AlternateName>
       <AlternateName>DE-A MAG-A data</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Dynamics Explorer 1 Magnetic Field Observations Triaxial Fluxgate Magnetometer at 6 second resolution.</Description>
       <Acknowledgement>NASA; Masahisa Sugiura</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Masahisa.Sugiura</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog on the Magnetic Field Observations Triaxial Fluxgate Magnetometer</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A-01</URL>
         <Description>Introduction to the Magnetic Field Observations Triaxial Fluxgate Magnetometer on DE 1</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VMO/NumericalData/DE1/MAGA/PT6S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/DE1/MAGA/PT6S</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/DE1/MAGA/PT6S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCLA/DE1</RepositoryID>
       <Availability>Online</Availability>
@@ -34,10 +34,10 @@
         <Name>VMO UCLA</Name>
         <URL>http://vmo.igpp.ucla.edu/data1/DE1/MAGA/gms_62ms_vmsbin/</URL>
         <Description>Dynamics Explorer 1 MAG-B 62 ms data</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Binary</Format>
       <Acknowledgement>Please acknowledge the NASA's Space Physics Facility, National Space Science Data Center, and Dr Masahisa Sugiura</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -45,14 +45,14 @@
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/de1/magnetic_fields_maga/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -62,11 +62,25 @@
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=DE1_6SEC_MAGAGMS&amp;index=sp_phys</URL>
         <ProductKey>DE1_6SEC_MAGAGMS</ProductKey>
         <Description>DE1_6SEC_MAGAGMS</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Encoding>ASCII</Encoding>
       <Acknowledgement>NASA; Masahisa Sugiura; VMO</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>DE1_6SEC_MAGAGMS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>NASA; Masahisa Sugiura; VMO</Acknowledgement>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderResourceName>Dynamics Explorer 1 Tri-axial fluxgate magnetometer</ProviderResourceName>
     <ProviderProcessingLevel>Level-2</ProviderProcessingLevel>
@@ -77,9 +91,9 @@
         <StartDate>1981-09-15T00:00:00</StartDate>
         <StopDate>1991-02-18T00:00:00</StopDate>
         <Note>Time format in data files is: Year, Day of Year, Milliseconds of the Day</Note>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT6S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <Keyword>6 s</Keyword>
     <Keyword>Magnetosphere</Keyword>
     <Keyword>Auroral region</Keyword>
@@ -100,7 +114,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Description>Universal Time expressed using a 3-column year, day of year,  milliseconds of the day representation</Description>
@@ -108,22 +122,22 @@
           <Name>Year</Name>
           <Index>1</Index>
           <ParameterKey>Year</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>DOY</Name>
           <Index>2</Index>
           <ParameterKey>Day of year</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>Milliseconds</Name>
           <Index>3</Index>
           <ParameterKey>Milliseconds of the Day</ParameterKey>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Instrument Mode</Name>
       <ParameterKey>Support Data</ParameterKey>
@@ -133,11 +147,11 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Dynamics Explorer 1 measured magnetic field vector</Name>
       <ParameterKey>Dynamics Explorer 1 Measured Magnetic Field Vectors</ParameterKey>
@@ -154,7 +168,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -162,25 +176,25 @@
           <Qualifier>Magnitude</Qualifier>
           <Index>1</Index>
           <ParameterKey>Br</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>Bth-GMS</Name>
           <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
           <Index>2</Index>
           <ParameterKey>Bth</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>Bph-GMS</Name>
           <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
           <Index>3</Index>
           <ParameterKey>Bph</ParameterKey>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Dynamics Explorer 1 model magnetic field vector</Name>
       <ParameterKey>Dynamics Explorer 1 Model Magnetic Field Vectors</ParameterKey>
@@ -197,7 +211,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
@@ -205,25 +219,25 @@
           <Qualifier>Magnitude</Qualifier>
           <Index>1</Index>
           <ParameterKey>MBr</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>MBth-GMS</Name>
           <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
           <Index>2</Index>
           <ParameterKey>MBth</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>MBph-GMS</Name>
           <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
           <Index>3</Index>
           <ParameterKey>MBph</ParameterKey>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Magnetic</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Dynamics Explorer 1 spacecraft position vector</Name>
       <ParameterKey>Dynamics Explorer 1 position vector</ParameterKey>
@@ -234,7 +248,7 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>5</Size>
         <Element>
@@ -242,35 +256,35 @@
           <Qualifier>Magnitude</Qualifier>
           <Index>1</Index>
           <ParameterKey>Altitude (km)</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>MLONG</Name>
           <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
           <Index>2</Index>
           <ParameterKey>Magnetic Longitude (Deg)</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>MLAT</Name>
           <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
           <Index>3</Index>
           <ParameterKey>Magnetic Latitude (Deg)</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>MLT</Name>
           <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
           <Index>2</Index>
           <ParameterKey>Magnetic Local Time (hours)</ParameterKey>
-</Element>
+        </Element>
         <Element>
           <Name>ILAT</Name>
           <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
           <Index>3</Index>
           <ParameterKey>Invariant Latitude (Deg)</ParameterKey>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

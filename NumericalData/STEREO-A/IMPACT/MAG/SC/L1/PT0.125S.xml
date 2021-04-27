@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Fluxgate Magnetometer (MAG) Magnetic Field Vectors, in Spacecraft (SC) Coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>STEREO Ahead In-situ Measurements of Particles and CME Transients, IMPACT, Magnetometer Instrument, MAG, Magnetic Field Vectors, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/PT1S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/MAG/SC/L1/PT0.125S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -50,6 +50,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STA_L1_MAG_SC</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

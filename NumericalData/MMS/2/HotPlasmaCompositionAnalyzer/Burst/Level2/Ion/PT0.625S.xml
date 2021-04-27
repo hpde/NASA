@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/MMS/2/HotPlasmaCompositionAnalyzer/Burst/Level2/Ion/PT0.625S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 2 Hot Plasma Composition Analyzer (HPCA) Ions, Level 2, Burst Survey</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Hot Plasma Composition Analyzer (HPCA) Ions, Level 2, Burst Survey, 0.625 s Data. The MMS HPCA instruments measure the energy and composition of magnetospheric plasmas in the energy range from 1 eV to 40 keV. An electrostatic energy analyzer (ESA) that is optically coupled to a carbon-foil based Time-of-Flight (TOF) section comprises each HPCA. The basic HPCA data product is an array of counts for 5 ion species, at 63 energies, for each of 16 elevation anodes. Sixteen basic products, also called azimuths, are acquired every 0.625 s; half a spacecraft spin period nominally has 16 azimuths. The five ion species are protons (H+), alpha particles (He++), helium ions (He+), singly charged Oxygen (O+), and background counts.</Description>
       <Acknowledgement>J. Burch, S. Fuselier, Confer with PI for rules of acknowledgement</Acknowledgement>
       <Contact>
@@ -34,7 +34,7 @@
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/hpca/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/MMS/2/HotPlasmaCompositionAnalyzer/Burst/Level2/Ion/PT0.625S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/MMS/2/HotPlasmaCompositionAnalyzer/Burst/Level2/Ion/PT0.625S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -58,6 +58,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Burch, S. Fuselier, Confer with PI for rules of acknowledgement. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>MMS2_HPCA_BRST_L2_ION</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Burch, S. Fuselier, Confer with PI for rules of acknowledgement. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

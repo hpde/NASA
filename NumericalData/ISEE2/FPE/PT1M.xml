@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ISEE2/FPE/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 2 FPE plasma parameters, 6 Re to bow shock</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>TBD</Description>
       <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling</Acknowledgement>
       <Contact>
@@ -16,7 +17,7 @@
         <URL>https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/isee2_h1_fpe_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/ISEE2/FPE/PT1M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ISEE2/FPE/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ISEE2/FPE/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,6 +53,21 @@ the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
         <Description>For CDAWeb subset, plot and list capabilities</Description>
       </AccessURL>
       <Format>Text</Format>
+      <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling and
+the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ISEE2_H1_FPE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the FPE PI, Dr. John Gosling and
 the Space Physics Data Facility at NASA/GSFC</Acknowledgement>
     </AccessInformation>

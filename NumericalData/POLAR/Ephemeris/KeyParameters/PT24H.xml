@@ -1,18 +1,18 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/KeyParameters/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Spin Phase Key Parameter Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Polar spin phase angle and spin rate.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_SpinPhase_KeyParm</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/KeyParameters/PT24H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/KeyParameters/PT24H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -34,6 +34,20 @@
         <Description>PO_K0_SPHA</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_K0_SPHA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/POLAR/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/SAMPEX/PCA/PT48M</ResourceID>
     <ResourceHeader>
       <ResourceName>SAMPEX Polar-Cap-Averaged Fluxes, all instruments</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data set contains 17 differential fluxes of
 protons (mainly), helium ions, Z.GE.6 ions, and electrons, plus one integral
 flux of protons and electrons, as averaged over polar cap passes of the
@@ -32,11 +32,11 @@ URL of this descriptor.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Data descriptive text at Caltech</Name>
         <URL>http://www.srl.caltech.edu/sampex/DataCenter/docs/NSSDC_Level2_doc_v1-3.pdf</URL>
@@ -45,10 +45,10 @@ and G. Mason originally in 1996 and most recently updated in 2007 to describe th
 many NSSDC-resident SAMPEX data sets, including the polar cap averaged fluxes.
 This document also identifies a series of mission and instrument papers at
 IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VEPO/NumericalData/SAMPEX/PCA/PT48M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/SAMPEX/PCA/PT48M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/SAMPEX/PCA/PT48M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -56,14 +56,14 @@ IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</De
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/sampex/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/sampex/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -73,9 +73,23 @@ IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</De
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=SX_K0_POF&amp;index=sp_phys</URL>
         <ProductKey>SX_K0_POF</ProductKey>
         <Description>Plots, lists and files from CDAWeb.Name of the data resource:SX_K0_POF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>SX_K0_POF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SAMPEX_DC</RepositoryID>
       <Availability>Online</Availability>
@@ -84,9 +98,9 @@ IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</De
         <Name>SAMPEX Data Center</Name>
         <URL>http://www.srl.caltech.edu/sampex/DataCenter/DATA/polarcap/flux_polarcap_avgd_ascii/data/</URL>
         <Description>In ASCII via ftp from SDC</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
-</AccessInformation>
+    </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/SAMPEX/MAST</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/SAMPEX/HILT</InstrumentID>
@@ -98,9 +112,9 @@ IEEE Transactions on Geoscience and Remote Sensing, Vol. 31, No. 3, May 1993</De
       <TimeSpan>
         <StartDate>1992-07-06T00:00:00</StartDate>
         <StopDate>2004-06-30T23:59:59</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT48M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <Parameter>
       <Name>Polar cap entry time</Name>
@@ -111,8 +125,8 @@ of fluxes, expressed in ISO time format (YYYY_MM_DDTHH:MM:SS.SZ)</Description>
       <Cadence>PT48M</Cadence>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Polar cap exit time</Name>
       <ParameterKey>exit_iso_time</ParameterKey>
@@ -122,8 +136,8 @@ of fluxes, expressed in ISO time format (YYYY_MM_DDTHH:MM:SS.SZ)</Description>
       <Cadence>PT48M</Cadence>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Polar cap flag</Name>
       <ParameterKey>Polarcap_ID</ParameterKey>
@@ -131,8 +145,8 @@ of fluxes, expressed in ISO time format (YYYY_MM_DDTHH:MM:SS.SZ)</Description>
       <Cadence>PT48M</Cadence>
       <Support>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>LICA flags</Name>
       <ParameterKey>lica_flag</ParameterKey>
@@ -142,11 +156,11 @@ given above for meanings of flags and their values.</Description>
       <Structure>
         <Size>4</Size>
         <Description>The 4 LICA flags</Description>
-</Structure>
+      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>HILT flags</Name>
       <ParameterKey>HILT_flag</ParameterKey>
@@ -156,11 +170,11 @@ given above for meanings of flags and their values.</Description>
       <Structure>
         <Size>6</Size>
         <Description>The 6 HILT flags</Description>
-</Structure>
+      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>MAST flags</Name>
       <ParameterKey>MAST_flag</ParameterKey>
@@ -170,11 +184,11 @@ given above for meanings of flags and their values.</Description>
       <Structure>
         <Size>3</Size>
         <Description>The 3 MAST flags</Description>
-</Structure>
+      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>PET flags</Name>
       <ParameterKey>PET_flag</ParameterKey>
@@ -184,11 +198,11 @@ given above for meanings of flags and their values.</Description>
       <Structure>
         <Size>3</Size>
         <Description>The 3 PET flags</Description>
-</Structure>
+      </Structure>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Fluxes of Z.GE.6 ions</Name>
       <ParameterKey>zGT2_DID_FLX</ParameterKey>
@@ -202,14 +216,14 @@ URL.</Description>
       <Structure>
         <Size>9</Size>
         <Description>The 9 Z.GE.6 fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Fluxes of helium ions</Name>
       <ParameterKey>He_dif_flux</ParameterKey>
@@ -220,14 +234,14 @@ listed above, from LICA, HILT and MAST instruments</Description>
       <Structure>
         <Size>4</Size>
         <Description>The 4 Helium ion fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Fluxes of protons</Name>
       <ParameterKey>Prot_Dif_Flux</ParameterKey>
@@ -239,14 +253,14 @@ measurements.</Description>
       <Structure>
         <Size>2</Size>
         <Description>The 2 proton fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Fluxes of electrons</Name>
       <ParameterKey>Elect_Dif_Flux</ParameterKey>
@@ -257,14 +271,14 @@ listed above, from the PET instrument.</Description>
       <Structure>
         <Size>2</Size>
         <Description>The 2 electron fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Integral fluxes of ions and electrons</Name>
       <ParameterKey>Int_Flux</ParameterKey>
@@ -278,8 +292,8 @@ above 0.8 MeV and electrons above 0.6 MeV, from LICA</Description>
         <ParticleType>Electron</ParticleType>
         <Qualifier>Average</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Statistical uncertainites in fluxes of Z.GE.6 ions</Name>
       <ParameterKey>zGT2_FLX_SIG</ParameterKey>
@@ -290,14 +304,14 @@ ions in 9 energy bins listed above, from LICA, HILT and MAST instruments</Descri
       <Structure>
         <Size>9</Size>
         <Description>Uncertainties in the 9 Z.GE.6 fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>StandardDeviation</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Statistical uncertainites in fluxes of helium ions</Name>
       <ParameterKey>He_flx_sigma</ParameterKey>
@@ -308,14 +322,14 @@ ions in 4 energy bins listed above, from LICA, HILT and MAST instruments</Descri
       <Structure>
         <Size>4</Size>
         <Description>Uncertainties in the 4 helium fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <Qualifier>StandardDeviation</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Statistical uncertainites in fluxes of protons</Name>
       <ParameterKey>Prot_Flux_Sigma</ParameterKey>
@@ -326,14 +340,14 @@ in 2 energy bins listed above, from MAST and PET instruments</Description>
       <Structure>
         <Size>2</Size>
         <Description>Uncertainties in the 2 proton fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <Qualifier>StandardDeviation</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Statistical uncertainites in fluxes of electrons</Name>
       <ParameterKey>Elect_Flx_Sigma</ParameterKey>
@@ -344,14 +358,14 @@ in 2 energy bins listed above, from PET instrument</Description>
       <Structure>
         <Size>2</Size>
         <Description>Uncertainties in the 2 electron fluxes</Description>
-</Structure>
+      </Structure>
       <FillValue>-1.0E+31</FillValue>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <Qualifier>StandardDeviation</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Statistical uncertainties in ntegral fluxes of ions and electrons</Name>
       <ParameterKey>Int_Flux_sigma</ParameterKey>
@@ -365,7 +379,7 @@ mainly of protons above 0.8 MeV and electrons above 0.6 MeV, from LICA</Descript
         <ParticleType>Electron</ParticleType>
         <Qualifier>StandardDeviation</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

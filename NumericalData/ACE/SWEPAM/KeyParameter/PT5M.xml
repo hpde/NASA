@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/KeyParameter/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Plasma Moments, Preliminary Values, Key Parameter (K0), 5 min Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The ACE Browse Data are designed for monitoring large-scale Particle and Field Behavior and for selecting interesting Time Periods. The Data are automatically generated from the Spacecraft Data Stream using simple Algorithms provided by the Instrument Teams. It is not routinely checked for Accuracy and is subject to revision. Use this Data at your own Risk, and consult with the appropriate Instrument Teams about citing it. These are SWEPAM Browse Data. These Data have not validated by the Experimenters and should not be used except for preliminary Examination prior to detailed Studies. SWEPAM - Solar Wind Electron Proton Alpha Monitor References: http://www.srl.caltech.edu/ACE/.</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute.</Acknowledgement>
       <Contact>
@@ -36,7 +37,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/PT300S</PriorID>
       <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_SWEPAM_300S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/KeyParameter/PT5M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/KeyParameter/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -60,6 +61,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_K0_SWE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProviderProcessingLevel>Calculated</ProviderProcessingLevel>

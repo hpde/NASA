@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/LB/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Beacon</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>STEREO-A, In-situ Measurements of Particles and CME Transients, IMPACT, Instrument, Level 1B, Data Note: The Onboard SWEA Calculation of Moments and Pitch Angle Distributions are compromised by a Charging Effect at Low Energies. STE-U is not providing any Science Data as the Instrument is blinded by Sunlight and thus these Variables are not accessible via CDAWeb.</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/LB/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/LB/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +49,22 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STA_LB_IMPACT@0</ProductKey>
+        <ProductKey>STA_LB_IMPACT@1</ProductKey>
+        <ProductKey>STA_LB_IMPACT@2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -364,7 +380,7 @@
       <ParameterKey>MagAz</ParameterKey>
       <Description>Magnetic Field Azimuth, SWEA Coordinates</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>MagAz(SWEA)</AxisLabel>
@@ -384,7 +400,7 @@
       <ParameterKey>MagEl</ParameterKey>
       <Description>Magnetic Field Elevation, SWEA Coordinates</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>MagEl(SWEA)</AxisLabel>
@@ -1741,7 +1757,7 @@
       <Name>SEP LET, 3He Flux</Name>
       <Set>Time series defined by using: EPOCH_SEP</Set>
       <ParameterKey>LET3HeFlux</ParameterKey>
-      <Description>SEP Low Energy Telescope, LET, Helium 3, 3He, Flux, in two Energies, Full 260&#xB0; Coverage</Description>
+      <Description>SEP Low Energy Telescope, LET, Helium 3, 3He, Flux, in two Energies, Full 260° Coverage</Description>
       <Cadence>PT1M</Cadence>
       <Units>(cm^2 s sr MeV/n)^-1</Units>
       <UnitsConversion>6.24161e22&gt;(m^2 s sr J/n)^-1</UnitsConversion>

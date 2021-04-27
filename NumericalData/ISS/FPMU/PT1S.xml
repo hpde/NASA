@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ISS/FPMU/PT1S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISS Floating Potential Measurement Unit (FPMU), Summary Parameter 1 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>International Space Station, ISS, Floating Potential Measurement Unit, FPMU, Ionosphere Summary Wide Langmuir Probe, WLP, Density and Narrow Langmuir Probe, NLP, Temperature Records 1 s Data. The Space Dynamics Laboratory, SDL, Utah State University, USU, developed the FPMU for the NASA Johnson Space Center. The FPMU was installed by ISS Crew Members during an Extra Vehicular Activity, EVA, on the Starboard, Sl, Truss of the ISS in early August 2006. The System is based on past USU SDL Space Instruments and incorporates a Floating Potential Probe, Multiple Langmuir Probes, and a Plasma Frequency Probe into one Sensor Suite. The FPMU is used to correct the Charging Models of the Station each time a New Section is added to the Structure. By providing Feedback on the Effectiveness of Steps taken to control Charging, the FPMU helps ensure a Safe Working Environment for the Astronauts.</Description>
       <Acknowledgement>R.M. Suggs, S.L. Koontz, NASA Johnson Space Center Contact Rob Suggs for support and use. Rob.Suggs@nasa.gov.</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
         <URL>http://www.sdl.usu.edu/programs/fpmu</URL>
         <Description>Floating Potential Measurement Unit, FPMU, Home Page, Space Dynamics Laboratory, Utah State University, per NASA Policy Directive 2200.1B, Section 1.a.5</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/ISS/FPMU/PT1S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ISS/FPMU/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -53,6 +53,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>R.M. Suggs, S.L. Koontz, NASA Johnson Space Center Contact Rob Suggs for support and use. Rob.Suggs@nasa.gov. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ISS_SP_FPMU</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>R.M. Suggs, S.L. Koontz, NASA Johnson Space Center Contact Rob Suggs for support and use. Rob.Suggs@nasa.gov. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -93,7 +107,7 @@
       <Description>International Space Station, ISS, Longitude, Geographic, GEO</Description>
       <Caveats>Geodetic Latitude</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -120,7 +134,7 @@
       <Description>International Space Station, ISS, Latitude, Geographic, GEO</Description>
       <Caveats>Geodetic Longitude</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -192,7 +206,7 @@
       <Description>Electron Temperature</Description>
       <Caveats>Electron temperature derived from the FPMU Narrow Langmuir Probe</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;K</Units>
+      <Units>°K</Units>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Electron Temperature</AxisLabel>
@@ -215,7 +229,7 @@
       <Description>International Space Station, ISS, Pitch Angle</Description>
       <Caveats>This ISS Pitch Attitude Information is necessary for Proper Derivation of the NLP Density. The NLP is a Cylindrical Langmuir Probe which is symmetric about the Roll and Yaw Axes.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>

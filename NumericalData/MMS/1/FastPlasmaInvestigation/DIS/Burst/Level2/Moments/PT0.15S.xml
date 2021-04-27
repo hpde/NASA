@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/MMS/1/FastPlasmaInvestigation/DIS/Burst/Level2/Moments/PT0.15S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 1 Fast Plasma Investigation, Dual Ion Spectrometer (FPI, DIS) Distribution Moments, Burst Survey, Level 2 (L2), 150 ms Data</ResourceName>
-      <ReleaseDate>2020-10-30T19:22:07Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The Fast Plasma Instrument (FPI) usually Operates in Fast Survey (FS) Mode in the MMS Region Of Interest (ROI) for the current Mission Phase. Data are taken at Burst (30/150 ms for DES/DIS) Resolution in this Mode. Data are also made available at Survey (4.5 s, etc.) Resolution. Per Mission Design, not all Burst Resolution Data are downlinked, but all Survey Data are downlinked. Planning around Calibration Activities, avoidance of Earth Radiation Belts, etc., when possible, FPI usually Operates in Slow Survey (SS) Mode outside of ROI, and then only the 60 s Resolution Survey Data are available. This Product contains Results from integrating the standard Moments of Phase Space Distributions formed from the indicated Data Type (DES/DIS Burst, FS or SS). For Convenience, some additional Parameters are included to augment those most commonly found in a Moments Product of this sort, plus Time Stamps and other Annotation characterizing the State of the Instrument System at the indicated Time.</Description>
       <Acknowledgement>J. Burch, B.L. Giles</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Barbara.L.Giles</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>The Magnetospheric Multiscale (MMS) Mission home page at Goddard Space Flight Center (GSFC)</Name>
         <URL>https://mms.gsfc.nasa.gov</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted at the Goddard Space Flight Center (GSFC)</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>The MMS Mission home page at the Science Data Center (SDC) LASP, UC Boulder</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission Home Page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>NASA Web Page providing Inforamtion for the Magnetospheric Multiscale (MMS) Fast Plasma Investigation (FPI) Instrument</Name>
         <URL>https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html#fpi</URL>
         <Description>NASA Web Page providing an Overview of the Magnetospheric Multiscale (MMS) Fast Plasma Investigation (FPI) Instrument</Description>
-</InformationURL>
-        <PriorID>spase://VSPO/NumericalData/MMS/1/FastPlasmaInvestigation/DIS/Burst/Level2/Moments/PT0.15S</PriorID>
-</ResourceHeader>
+      </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/MMS/1/FastPlasmaInvestigation/DIS/Burst/Level2/Moments/PT0.15S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -49,22 +49,36 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/brst/l2/dis-moms/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms1/fpi/brst/l2/dis-moms/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
         <ProductKey>MMS1_FPI_BRST_L2_DIS-MOMS</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. Burch, B.L. Giles. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>MMS1_FPI_BRST_L2_DIS-MOMS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>J. Burch, B.L. Giles. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCOLO/LASP/MMS_SDC</RepositoryID>
       <Availability>Online</Availability>
@@ -73,11 +87,11 @@
         <Name>HTTP access to files at the MMS Science Data Center, SDC, at the Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Name>
         <URL>https://lasp.colorado.edu/mms/sdc/public/data/</URL>
         <Description>Access to MMS Data in CDF Format via http from the MMS SDC</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. Burch, B.L. Giles. Please acknowledge the Data Providers and the MMS SDC when using these Data.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MMS/1/FastPlasmaInstrument/DIS</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -86,9 +100,9 @@
       <TimeSpan>
         <StartDate>2015-07-15T00:00:00.000</StartDate>
         <StopDate>2018-09-15T23:59:59.999</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT0.15S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -109,14 +123,14 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>1990-01-01T00:00:00.000000000</ValidMin>
       <ValidMax>2100-01-01T00:00:01.000000000</ValidMax>
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Epoch Plus Var</Name>
       <ParameterKey>Epoch_plus_var</ParameterKey>
@@ -126,13 +140,13 @@
       <UnitsConversion>1.0&gt;s</UnitsConversion>
       <RenderingHints>
         <ValueFormat>F4.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.5</ValidMax>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Epoch Minus Var</Name>
       <ParameterKey>Epoch_minus_var</ParameterKey>
@@ -142,13 +156,13 @@
       <UnitsConversion>1.0&gt;s</UnitsConversion>
       <RenderingHints>
         <ValueFormat>F4.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>4.5</ValidMax>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Data Quality Error Flags</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -161,14 +175,14 @@
         <AxisLabel>Error_Flags</AxisLabel>
         <ValueFormat>I10</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>4294967294</ValidMax>
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Compression Flag</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -181,14 +195,14 @@
         <AxisLabel>Compress_Flag</AxisLabel>
         <ValueFormat>I1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Step Table Parity</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -201,14 +215,14 @@
         <AxisLabel>Step_Table_Para</AxisLabel>
         <ValueFormat>I1</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>1</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Del-Phi Count</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -221,14 +235,14 @@
         <AxisLabel>DelPhi_Count</AxisLabel>
         <ValueFormat>I4.4</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>5761</ValidMax>
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Del-Phi Angle</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -243,7 +257,7 @@
         <AxisLabel>DelPhi_Angle</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -251,8 +265,8 @@
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <Qualifier>PhaseAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Sector De-Spin P Value</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -265,14 +279,14 @@
         <AxisLabel>DeSpin_P</AxisLabel>
         <ValueFormat>I2.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>32</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS +X Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -285,16 +299,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_px</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -303,8 +317,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS -X Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -317,16 +331,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_mx</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -335,8 +349,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS +Y Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -349,16 +363,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_py</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -367,8 +381,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS -Y Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -381,16 +395,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_my</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -399,8 +413,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS +Z Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -413,16 +427,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_pz</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -431,8 +445,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, DBCS -Z Direction</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -445,16 +459,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>Spectrogram</DisplayType>
         <AxisLabel>DEF_mz</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -463,8 +477,8 @@
         <Qualifier>Array</Qualifier>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, Omni-Directional</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -479,10 +493,10 @@
         <AxisLabel>DEF_Omni</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -490,8 +504,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Energy Spectrum, Background</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -506,7 +520,7 @@
         <AxisLabel>DEF_Spect_BG</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -515,8 +529,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Magnitude</Qualifier>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Number Density, Background</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -531,7 +545,7 @@
         <AxisLabel>N_BG</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -540,8 +554,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -555,7 +569,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -564,8 +578,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Number Density, Error</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -579,7 +593,7 @@
         <AxisLabel>N_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -588,8 +602,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Number Density, Extrapolation, Low</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -603,7 +617,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -612,8 +626,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Number Density, Extrapolation, High</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -627,7 +641,7 @@
         <AxisLabel>N</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -636,8 +650,8 @@
         <Qualifier>Magnitude</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Bulk Velocity Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -649,27 +663,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_DBCS</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy_DBCS</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz_DBCS</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2500.0</ValidMin>
       <ValidMax>2500.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -678,8 +692,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Bulk Velocity Spintone Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -692,27 +706,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_spintone_DBCS</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy_spintone_DBCS</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz_spintone_DBCS</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2500.0</ValidMin>
       <ValidMax>2500.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -721,8 +735,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Bulk Velocity Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -734,27 +748,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_GSE</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy_GSE</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz_GSE</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2500.0</ValidMin>
       <ValidMax>2500.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -763,8 +777,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Bulk Velocity Spintone Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -777,27 +791,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_spintone_GSE</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy_spintone_GSE</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz_spintone_GSE</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2500.0</ValidMin>
       <ValidMax>2500.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -806,8 +820,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Bulk Velocity Error Vector</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -820,27 +834,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx_err</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy_err</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz_err</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>5000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -850,8 +864,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>FlowVelocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Pressure Tensor, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -864,24 +878,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_DBCS</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Pressure Tensor, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -894,24 +908,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_GSE</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Pressure Tensor, Error</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -924,16 +938,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>P_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
@@ -941,8 +955,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Pressure, Background</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -954,13 +968,13 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>DEF_Pres_BG</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-100000.0</ValidMin>
       <ValidMax>100000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -969,8 +983,8 @@
         <Qualifier>Scalar</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Pressure</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Temperature Tensor, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -983,24 +997,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_DBCS</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Temperature Tensor, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1013,24 +1027,24 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_GSE</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
         <Qualifier>Tensor</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Temperature Tensor, Error</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1043,16 +1057,16 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_Error</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3 3</Size>
-</Structure>
+      </Structure>
       <FillValue>-1.0e+31</FillValue>
       <Particle>
         <ParticleType>Ion</ParticleType>
@@ -1060,8 +1074,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Heat Flux Vector, DBCS</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1073,27 +1087,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_DBCS</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qy_DBCS</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qz_DBCS</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2.5e+06</ValidMin>
       <ValidMax>2.5e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1102,8 +1116,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Heat Flux Vector, GSE</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1115,27 +1129,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_GSE</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qy_GSE</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qz_GSE</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-2.5e+06</ValidMin>
       <ValidMax>2.5e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1144,8 +1158,8 @@
         <Qualifier>Vector</Qualifier>
         <Qualifier>Moment</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Heat Flux Error Vector</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1158,27 +1172,27 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Qx_err</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qy_err</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Qz_err</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>5.0e+06</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1188,8 +1202,8 @@
         <Qualifier>Moment</Qualifier>
         <Qualifier>Uncertainty</Qualifier>
         <ParticleQuantity>HeatFlux</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Sky Map Energy</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1203,10 +1217,10 @@
         <AxisLabel>Energy</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>32000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1214,8 +1228,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Sky Map Energy, Delta Value</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1229,10 +1243,10 @@
         <AxisLabel>Delta_Energy</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LogScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>32</Size>
-</Structure>
+      </Structure>
       <ValidMin>0.0</ValidMin>
       <ValidMax>5000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1240,8 +1254,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Array</Qualifier>
         <ParticleQuantity>Energy</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Parallel Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1255,7 +1269,7 @@
         <AxisLabel>eT_Para</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1265,8 +1279,8 @@
         <Qualifier>FieldAligned</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Ion Perpendicular Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -1280,7 +1294,7 @@
         <AxisLabel>eT_Perp</AxisLabel>
         <ValueFormat>E12.2</ValueFormat>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0e+30</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -1289,7 +1303,7 @@
         <Qualifier>Parallel</Qualifier>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

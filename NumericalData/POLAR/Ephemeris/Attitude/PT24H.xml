@@ -1,18 +1,18 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT24H</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Platform Attitude, Daily Definitive Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Polar platform attitude definitive data include: orbital, GCI, GSE and GSM angles.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_PA_DEFINITIVE_ATTITUDE</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT24H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/Ephemeris/Attitude/PT24H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -34,6 +34,20 @@
         <Description>PO_PA_DEF</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_PA_DEF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/POLAR/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>

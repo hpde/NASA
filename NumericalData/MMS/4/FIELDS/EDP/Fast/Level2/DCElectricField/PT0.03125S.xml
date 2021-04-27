@@ -1,40 +1,40 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/MMS/4/FIELDS/EDP/Fast/Level2/DCElectricField/PT0.03125S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 4 Electric Double Probe (EDP) Three-Dimensional Electric Field, Quick-Look, Fast Survey</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Electric Double Probe, Quick-Look Three-Dimensional Electric Field, Level 2, Fast Survey Data</Description>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.Ergun</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Per-Arne.Lindqvist</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>At NASA GSFC</Name>
         <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>Magnetospheric Multiscale (MMS) mission home page</Description>
-</InformationURL>
-        <PriorID>spase://VSPO/NumericalData/MMS/4/FIELDS/EDP/Fast/Level2/DCElectricField/PT0.03125S</PriorID>
-</ResourceHeader>
+      </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/MMS/4/FIELDS/EDP/Fast/Level2/DCElectricField/PT0.03125S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -43,22 +43,36 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/mms/mms4/edp/fast/l2/dce/</URL>
         <Description>In CDF via ftp from SPDF.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/mms/mms4/edp/fast/l2/dce/</URL>
         <Description>In CDF via http from SPDF.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=MMS4_EDP_FAST_L2_DCE&amp;index=sp_phys</URL>
         <ProductKey>MMS4_EDP_FAST_L2_DCE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>MMS4_EDP_FAST_L2_DCE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>J. Burch, R. Ergun, P. Lindqvist. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/MMS/4/FIELDS/ADP</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/MMS/4/FIELDS/SDP</InstrumentID>
@@ -67,9 +81,9 @@
       <TimeSpan>
         <StartDate>2015-08-15T00:00:00.000</StartDate>
         <RelativeStopDate>-P2M</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT0.03125S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
@@ -91,8 +105,8 @@
       <FillValue>9999-12-31T23:59:59.999999999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>ADP and SDP Calibrated DC Electric Field (GSE)</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -104,34 +118,34 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>f8.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Ex</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ey</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ez</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-700.0</ValidMin>
       <ValidMax>700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>ADP and SDP Calibrated DC Electric Field (DSL)</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -143,34 +157,34 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>f8.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Ex</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ey</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ez</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-700.0</ValidMin>
       <ValidMax>700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Electric Field Difference, L2 Output to L1 input (DSL)</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -182,34 +196,34 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>f8.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Ex</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ey</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ez</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-700.0</ValidMin>
       <ValidMax>700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Vector</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>DC Electric Field Error Estimate</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -221,30 +235,30 @@
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <ValueFormat>f8.3</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Ex</Name>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ey</Name>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Ez</Name>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-700.0</ValidMin>
       <ValidMax>700.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Field>
         <Qualifier>Uncertainty</Qualifier>
         <FieldQuantity>Electric</FieldQuantity>
-</Field>
-</Parameter>
+      </Field>
+    </Parameter>
     <Parameter>
       <Name>Status Bitmask</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -253,14 +267,14 @@
       <Cadence>PT0.03125S</Cadence>
       <RenderingHints>
         <ValueFormat>i7</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>65534</ValidMax>
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Data Quality indicator</Name>
       <Set>Time series defined by using: MMS4_EDP_EPOCH_FAST_L2</Set>
@@ -269,14 +283,14 @@
       <Cadence>PT0.03125S</Cadence>
       <RenderingHints>
         <ValueFormat>i7</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>4</ValidMax>
       <FillValue>255</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Epoch Time Delta Plus/Minus</Name>
       <ParameterKey>mms4_edp_deltap_fast_l2</ParameterKey>
@@ -286,13 +300,13 @@
       <UnitsConversion>1.0e-9&gt;s</UnitsConversion>
       <RenderingHints>
         <ValueFormat>f20.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>61000.0</ValidMin>
       <ValidMax>6.25e+07</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

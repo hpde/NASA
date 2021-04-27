@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema   http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</ResourceID>
     <ResourceHeader>
       <ResourceName>GPS Deduced ROTI Index, Standard Deviation of the Rate of Change of the Total Electron Content (TEC), World Maps and Movies, 15 min Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The ROTI Index is the Standard Deviation of the Rate of Change of the Total Electron Content, TEC, during a 15 min Interval. The TEC Values are measured between a Global Positioning Satellite, GPS, and Ground Receiver Station.</Description>
       <Acknowledgement>X. Pi</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
         <Description>Jet Propulsion Laboratory, JPL, Ionospheric and Atmospheric Remote Sensing Web Site</Description>
       </InformationURL>
       <PriorID>spase://JAXA/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/IGS/GPS_Receiver/ROTI/PT15M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -50,6 +50,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>X. Pi. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>GPS_ROTI15MIN_JPL</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>X. Pi. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -231,7 +245,7 @@
       <ParameterKey>lat</ParameterKey>
       <Description>Latitude, Geographic, GEO</Description>
       <Cadence>PT15M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -543,7 +557,7 @@
       <ParameterKey>lon</ParameterKey>
       <Description>Longitude, Geographic, GEO</Description>
       <Cadence>PT15M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>

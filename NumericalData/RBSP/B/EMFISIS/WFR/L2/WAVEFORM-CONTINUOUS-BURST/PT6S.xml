@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/B/EMFISIS/WFR/L2/WAVEFORM-CONTINUOUS-BURST/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B WFR waveform continuous burst data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>WaveForm Receiver (WFR) Three Axis Electric Field (EU, EV, EW) and Three Axis Magnetic field (BU, BV, BW)  continuous burst waveforms @ 35 kS/sec - Craig Kletzing (University of Iowa)</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -41,7 +41,7 @@
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-QUICK-LOOK/PT6S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST/QUICK-LOOK/PT6S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST/PT6S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L2/WAVEFORM-CONTINUOUS-BURST/PT6S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/EMFISIS/WFR/L2/WAVEFORM-CONTINUOUS-BURST/PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -70,6 +70,20 @@
         <ProductKey>RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSP-B_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/RBSP/B/EMFISIS</InstrumentID>
     <MeasurementType>ElectricField</MeasurementType>

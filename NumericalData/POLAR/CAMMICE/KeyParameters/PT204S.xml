@@ -1,24 +1,24 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar (Charge and Mass Magnetospheric Ion Composition) CAMMICE 3-Min Key Parameters</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Polar CAMMICE (Charge and Mass Magnetospheric Ion Composition) Key Parameters, H, He, O Count Rates</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <PriorID>spase://VSPO/NumericalData/P_POLAR_HDR_CAMMICE-PARAM_204S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/Polar/CAMMICE/MICS/PT3M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/POLAR/CAMMICE/KeyParameters/PT204S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -26,19 +26,33 @@
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/cammice/cammice_k0/</URL>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/cammice/cammice_k0/</URL>
         <Description>In CDF via HTTP from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_K0_CAM&amp;index=sp_phys</URL>
         <ProductKey>PO_K0_CAM</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_K0_CAM</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/POLAR/CAMMICE-MICS</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
@@ -46,9 +60,9 @@
       <TimeSpan>
         <StartDate>1996-02-26T00:00:00</StartDate>
         <StopDate>2008-04-16T00:00:00</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT204S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
     <Parameter>
       <Name>Time</Name>
@@ -61,8 +75,8 @@
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Measurement start offset</Name>
       <ParameterKey>Epoch_DELTA_MINUS</ParameterKey>
@@ -74,8 +88,8 @@
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Measurement end offset</Name>
       <ParameterKey>Epoch_DELTA_PLUS</ParameterKey>
@@ -87,8 +101,8 @@
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch angle</Name>
       <ParameterKey>Alpha</ParameterKey>
@@ -97,8 +111,8 @@
       <Units>degrees</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Pitch angle bin width</Name>
       <ParameterKey>Alpha_DELTA</ParameterKey>
@@ -107,8 +121,8 @@
       <Units>degrees</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Energy</Name>
       <ParameterKey>Energy</ParameterKey>
@@ -117,8 +131,8 @@
       <Units>keV/e</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Energy channel half-width</Name>
       <ParameterKey>Energy_DELTA</ParameterKey>
@@ -127,8 +141,8 @@
       <Units>keV/e</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional H+ flux</Name>
       <ParameterKey>HFlux</ParameterKey>
@@ -137,8 +151,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HFlux_DELTA</ParameterKey>
@@ -147,8 +161,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He+ flux</Name>
       <ParameterKey>HepFlux</ParameterKey>
@@ -157,8 +171,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepFlux_DELTA</ParameterKey>
@@ -167,8 +181,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He++ flux</Name>
       <ParameterKey>AlphaFlux</ParameterKey>
@@ -177,8 +191,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaFlux_DELTA</ParameterKey>
@@ -187,8 +201,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O+/++ flux</Name>
       <ParameterKey>OpFlux</ParameterKey>
@@ -197,8 +211,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpFlux_DELTA</ParameterKey>
@@ -207,8 +221,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O3+ flux</Name>
       <ParameterKey>O3pFlux</ParameterKey>
@@ -217,8 +231,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ flux uncertainty</Name>
       <ParameterKey>O3pFlux_DELTA</ParameterKey>
@@ -227,8 +241,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional H+ flux (zero energy)</Name>
       <ParameterKey>H0Flux</ParameterKey>
@@ -237,8 +251,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H0 flux uncertainty</Name>
       <ParameterKey>H0Flux_DELTA</ParameterKey>
@@ -247,8 +261,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He flux (zero energy)</Name>
       <ParameterKey>He0Flux</ParameterKey>
@@ -257,8 +271,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He0 flux uncertainty</Name>
       <ParameterKey>He0Flux_DELTA</ParameterKey>
@@ -267,8 +281,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O flux (zero energy)</Name>
       <ParameterKey>O0Flux</ParameterKey>
@@ -277,8 +291,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O0 flux uncertainty</Name>
       <ParameterKey>O0Flux_DELTA</ParameterKey>
@@ -287,8 +301,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion flux (DCR)</Name>
       <ParameterKey>DCRFlux</ParameterKey>
@@ -297,8 +311,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion flux uncertainty</Name>
       <ParameterKey>DCRFlux_DELTA</ParameterKey>
@@ -307,8 +321,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion flux (FSR)</Name>
       <ParameterKey>FSRFlux</ParameterKey>
@@ -317,8 +331,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion flux uncertainty</Name>
       <ParameterKey>FSRFlux_DELTA</ParameterKey>
@@ -327,8 +341,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HFluxSpin</ParameterKey>
@@ -337,8 +351,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HFluxSpin_DELTA</ParameterKey>
@@ -347,8 +361,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepFluxSpin</ParameterKey>
@@ -357,8 +371,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepFluxSpin_DELTA</ParameterKey>
@@ -367,8 +381,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaFluxSpin</ParameterKey>
@@ -377,8 +391,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaFluxSpin_DELTA</ParameterKey>
@@ -387,8 +401,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux</Name>
       <ParameterKey>OpFluxSpin</ParameterKey>
@@ -397,8 +411,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpFluxSpin_DELTA</ParameterKey>
@@ -407,8 +421,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ flux</Name>
       <ParameterKey>O3pFluxSpin</ParameterKey>
@@ -417,8 +431,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ flux uncertainty</Name>
       <ParameterKey>O3pFluxSpin_DELTA</ParameterKey>
@@ -427,8 +441,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux (zero energy)</Name>
       <ParameterKey>H0FluxSpin</ParameterKey>
@@ -437,8 +451,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H0 flux uncertainty</Name>
       <ParameterKey>H0FluxSpin_DELTA</ParameterKey>
@@ -447,8 +461,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He flux (zero energy)</Name>
       <ParameterKey>He0FluxSpin</ParameterKey>
@@ -457,8 +471,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He0 flux uncertainty</Name>
       <ParameterKey>He0FluxSpin_DELTA</ParameterKey>
@@ -467,8 +481,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O flux (zero energy)</Name>
       <ParameterKey>O0FluxSpin</ParameterKey>
@@ -477,8 +491,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O0 flux uncertainty</Name>
       <ParameterKey>O0FluxSpin_DELTA</ParameterKey>
@@ -487,8 +501,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional H+ count rate</Name>
       <ParameterKey>HCounts</ParameterKey>
@@ -497,8 +511,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate uncertainty</Name>
       <ParameterKey>HCounts_DELTA</ParameterKey>
@@ -507,8 +521,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He+ count rate</Name>
       <ParameterKey>HepCounts</ParameterKey>
@@ -517,8 +531,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ count rate uncertainty</Name>
       <ParameterKey>HepCounts_DELTA</ParameterKey>
@@ -527,8 +541,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He++ count rate</Name>
       <ParameterKey>AlphaCounts</ParameterKey>
@@ -537,8 +551,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ count rate uncertainty</Name>
       <ParameterKey>AlphaCounts_DELTA</ParameterKey>
@@ -547,8 +561,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O+/++ count rate</Name>
       <ParameterKey>OpCounts</ParameterKey>
@@ -557,8 +571,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ count rate uncertainty</Name>
       <ParameterKey>OpCounts_DELTA</ParameterKey>
@@ -567,8 +581,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O3+ count rate</Name>
       <ParameterKey>O3pCounts</ParameterKey>
@@ -577,8 +591,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ count rate uncertainty</Name>
       <ParameterKey>O3pCounts_DELTA</ParameterKey>
@@ -587,8 +601,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional CN+/++ count rate</Name>
       <ParameterKey>CNpCounts</ParameterKey>
@@ -597,8 +611,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN+/++ count rate uncertainty</Name>
       <ParameterKey>CNpCounts_DELTA</ParameterKey>
@@ -607,8 +621,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional H+ count rate (zero energy)</Name>
       <ParameterKey>H0Counts</ParameterKey>
@@ -617,8 +631,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate uncertainty</Name>
       <ParameterKey>H0Counts_DELTA</ParameterKey>
@@ -627,8 +641,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He count rate (zero energy)</Name>
       <ParameterKey>He0Counts</ParameterKey>
@@ -637,8 +651,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate uncertainty</Name>
       <ParameterKey>He0Counts_DELTA</ParameterKey>
@@ -647,8 +661,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O count rate (zero energy)</Name>
       <ParameterKey>O0Counts</ParameterKey>
@@ -657,8 +671,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate uncertainty</Name>
       <ParameterKey>O0Counts_DELTA</ParameterKey>
@@ -667,8 +681,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate (DCR)</Name>
       <ParameterKey>DCRCounts</ParameterKey>
@@ -677,8 +691,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate uncertainty</Name>
       <ParameterKey>DCRCounts_DELTA</ParameterKey>
@@ -687,8 +701,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate (FSR)</Name>
       <ParameterKey>FSRCounts</ParameterKey>
@@ -697,8 +711,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate uncertainty</Name>
       <ParameterKey>FSRCounts_DELTA</ParameterKey>
@@ -707,8 +721,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional CN3+ count rate</Name>
       <ParameterKey>CN3pCounts</ParameterKey>
@@ -717,8 +731,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN3+ count rate uncertainty</Name>
       <ParameterKey>CN3pCounts_DELTA</ParameterKey>
@@ -727,8 +741,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional Ne-Si count rate</Name>
       <ParameterKey>NeSiCounts</ParameterKey>
@@ -737,8 +751,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Ne-Si count rate uncertainty</Name>
       <ParameterKey>NeSiCounts_DELTA</ParameterKey>
@@ -747,8 +761,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional S-Ni count rate</Name>
       <ParameterKey>SNiCounts</ParameterKey>
@@ -757,8 +771,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>S-Ni count rate uncertainty</Name>
       <ParameterKey>SNiCounts_DELTA</ParameterKey>
@@ -767,8 +781,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate</Name>
       <ParameterKey>HCountsSpin</ParameterKey>
@@ -777,8 +791,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate uncertainty</Name>
       <ParameterKey>HCountsSpin_DELTA</ParameterKey>
@@ -787,8 +801,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ count rate</Name>
       <ParameterKey>HepCountsSpin</ParameterKey>
@@ -797,8 +811,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ count rate uncertainty</Name>
       <ParameterKey>HepCountsSpin_DELTA</ParameterKey>
@@ -807,8 +821,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ count rate</Name>
       <ParameterKey>AlphaCountsSpin</ParameterKey>
@@ -817,8 +831,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ count rate uncertainty</Name>
       <ParameterKey>AlphaCountsSpin_DELTA</ParameterKey>
@@ -827,8 +841,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ count rate</Name>
       <ParameterKey>OpCountsSpin</ParameterKey>
@@ -837,8 +851,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ count rate uncertainty</Name>
       <ParameterKey>OpCountsSpin_DELTA</ParameterKey>
@@ -847,8 +861,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ count rate</Name>
       <ParameterKey>O3pCountsSpin</ParameterKey>
@@ -857,8 +871,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O3+ count rate uncertainty</Name>
       <ParameterKey>O3pCountsSpin_DELTA</ParameterKey>
@@ -867,8 +881,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN+/++ count rate</Name>
       <ParameterKey>CNpCountsSpin</ParameterKey>
@@ -877,8 +891,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN+/++ count rate uncertainty</Name>
       <ParameterKey>CNpCountsSpin_DELTA</ParameterKey>
@@ -887,8 +901,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ count rate (zero energy)</Name>
       <ParameterKey>H0CountsSpin</ParameterKey>
@@ -897,8 +911,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H0 count rate uncertainty</Name>
       <ParameterKey>H0CountsSpin_DELTA</ParameterKey>
@@ -907,8 +921,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He count rate (zero energy)</Name>
       <ParameterKey>He0CountsSpin</ParameterKey>
@@ -917,8 +931,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He0 count rate uncertainty</Name>
       <ParameterKey>He0CountsSpin_DELTA</ParameterKey>
@@ -927,8 +941,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O count rate (zero energy)</Name>
       <ParameterKey>O0CountsSpin</ParameterKey>
@@ -937,8 +951,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O0 count rate uncertainty</Name>
       <ParameterKey>O0CountsSpin_DELTA</ParameterKey>
@@ -947,8 +961,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate (DCR)</Name>
       <ParameterKey>DCRCountsSpin</ParameterKey>
@@ -957,8 +971,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate uncertainty</Name>
       <ParameterKey>DCRCountsSpin_DELTA</ParameterKey>
@@ -967,8 +981,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate (FSR)</Name>
       <ParameterKey>FSRCountsSpin</ParameterKey>
@@ -977,8 +991,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Total ion count rate uncertainty</Name>
       <ParameterKey>FSRCountsSpin_DELTA</ParameterKey>
@@ -987,8 +1001,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN3+ count rate</Name>
       <ParameterKey>CN3pCountsSpin</ParameterKey>
@@ -997,8 +1011,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>CN3+ count rate uncertainty</Name>
       <ParameterKey>CN3pCountsSpin_DELTA</ParameterKey>
@@ -1007,8 +1021,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Ne-Si count rate</Name>
       <ParameterKey>NeSiCountsSpin</ParameterKey>
@@ -1017,8 +1031,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Ne-Si count rate uncertainty</Name>
       <ParameterKey>NeSiCountsSpin_DELTA</ParameterKey>
@@ -1027,8 +1041,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>S-Ni count rate</Name>
       <ParameterKey>SNiCountsSpin</ParameterKey>
@@ -1037,8 +1051,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>S-Ni count rate uncertainty</Name>
       <ParameterKey>SNiCountsSpin_DELTA</ParameterKey>
@@ -1047,8 +1061,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>3He+ count rate</Name>
       <ParameterKey>He3CountsSpin</ParameterKey>
@@ -1057,8 +1071,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>3He+ count rate uncertainty</Name>
       <ParameterKey>He3CountsSpin_DELTA</ParameterKey>
@@ -1067,8 +1081,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H2+ count rate</Name>
       <ParameterKey>H2CountsSpin</ParameterKey>
@@ -1077,8 +1091,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H2+ count rate uncertainty</Name>
       <ParameterKey>H2CountsSpin_DELTA</ParameterKey>
@@ -1087,8 +1101,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Molecule count rate</Name>
       <ParameterKey>MolCountsSpin</ParameterKey>
@@ -1097,8 +1111,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Molecule count rate uncertainty</Name>
       <ParameterKey>MolCountsSpin_DELTA</ParameterKey>
@@ -1107,8 +1121,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Other species count rate</Name>
       <ParameterKey>OtherCountsSpin</ParameterKey>
@@ -1117,8 +1131,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Others count rate uncertainty</Name>
       <ParameterKey>OtherCountsSpin_DELTA</ParameterKey>
@@ -1127,8 +1141,8 @@
       <Units>sec!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Matrix scaler counts</Name>
       <ParameterKey>MatrixCounts</ParameterKey>
@@ -1136,8 +1150,8 @@
       <Caveats>Number of counts in each matrix scaler.</Caveats>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Matrix scaler count uncertainty</Name>
       <ParameterKey>MatrixCounts_DELTA</ParameterKey>
@@ -1145,8 +1159,8 @@
       <Caveats>Combines uncertainty from RS compression and Poisson stats.</Caveats>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Mass</Name>
       <ParameterKey>Mass</ParameterKey>
@@ -1155,8 +1169,8 @@
       <Units>amu</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>M/Q</Name>
       <ParameterKey>MperQ</ParameterKey>
@@ -1165,8 +1179,8 @@
       <Units>amu/e</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>M/Q half-width</Name>
       <ParameterKey>MperQ_DELTA</ParameterKey>
@@ -1174,8 +1188,8 @@
       <Units>amu/e</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional H+ flux</Name>
       <ParameterKey>HTotal</ParameterKey>
@@ -1184,8 +1198,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotal_DELTA</ParameterKey>
@@ -1194,8 +1208,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He+ flux</Name>
       <ParameterKey>HepTotal</ParameterKey>
@@ -1204,8 +1218,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotal_DELTA</ParameterKey>
@@ -1214,8 +1228,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional He++ flux</Name>
       <ParameterKey>AlphaTotal</ParameterKey>
@@ -1224,8 +1238,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotal_DELTA</ParameterKey>
@@ -1234,8 +1248,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O+ flux</Name>
       <ParameterKey>OpTotal</ParameterKey>
@@ -1244,8 +1258,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotal_DELTA</ParameterKey>
@@ -1254,8 +1268,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O++ flux</Name>
       <ParameterKey>OppTotal</ParameterKey>
@@ -1264,8 +1278,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotal_DELTA</ParameterKey>
@@ -1274,8 +1288,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Directional O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotal</ParameterKey>
@@ -1284,8 +1298,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotal_DELTA</ParameterKey>
@@ -1294,8 +1308,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HTotalSpin</ParameterKey>
@@ -1304,8 +1318,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotalSpin_DELTA</ParameterKey>
@@ -1314,8 +1328,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepTotalSpin</ParameterKey>
@@ -1324,8 +1338,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotalSpin_DELTA</ParameterKey>
@@ -1334,8 +1348,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaTotalSpin</ParameterKey>
@@ -1344,8 +1358,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotalSpin_DELTA</ParameterKey>
@@ -1354,8 +1368,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+ flux</Name>
       <ParameterKey>OpTotalSpin</ParameterKey>
@@ -1364,8 +1378,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotalSpin_DELTA</ParameterKey>
@@ -1374,8 +1388,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux</Name>
       <ParameterKey>OppTotalSpin</ParameterKey>
@@ -1384,8 +1398,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotalSpin_DELTA</ParameterKey>
@@ -1394,8 +1408,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotalSpin</ParameterKey>
@@ -1404,8 +1418,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotalSpin_DELTA</ParameterKey>
@@ -1414,8 +1428,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HTotalOmni</ParameterKey>
@@ -1424,8 +1438,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotalOmni_DELTA</ParameterKey>
@@ -1434,8 +1448,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepTotalOmni</ParameterKey>
@@ -1444,8 +1458,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotalOmni_DELTA</ParameterKey>
@@ -1454,8 +1468,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaTotalOmni</ParameterKey>
@@ -1464,8 +1478,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotalOmni_DELTA</ParameterKey>
@@ -1474,8 +1488,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+ flux</Name>
       <ParameterKey>OpTotalOmni</ParameterKey>
@@ -1484,8 +1498,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotalOmni_DELTA</ParameterKey>
@@ -1494,8 +1508,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux</Name>
       <ParameterKey>OppTotalOmni</ParameterKey>
@@ -1504,8 +1518,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotalOmni_DELTA</ParameterKey>
@@ -1514,8 +1528,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotalOmni</ParameterKey>
@@ -1524,8 +1538,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotalOmni_DELTA</ParameterKey>
@@ -1534,8 +1548,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HTotalPar</ParameterKey>
@@ -1544,8 +1558,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotalPar_DELTA</ParameterKey>
@@ -1554,8 +1568,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepTotalPar</ParameterKey>
@@ -1564,8 +1578,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotalPar_DELTA</ParameterKey>
@@ -1574,8 +1588,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaTotalPar</ParameterKey>
@@ -1584,8 +1598,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotalPar_DELTA</ParameterKey>
@@ -1594,8 +1608,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+ flux</Name>
       <ParameterKey>OpTotalPar</ParameterKey>
@@ -1604,8 +1618,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotalPar_DELTA</ParameterKey>
@@ -1614,8 +1628,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux</Name>
       <ParameterKey>OppTotalPar</ParameterKey>
@@ -1624,8 +1638,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotalPar_DELTA</ParameterKey>
@@ -1634,8 +1648,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotalPar</ParameterKey>
@@ -1644,8 +1658,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotalPar_DELTA</ParameterKey>
@@ -1654,8 +1668,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HTotalAnti</ParameterKey>
@@ -1664,8 +1678,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotalAnti_DELTA</ParameterKey>
@@ -1674,8 +1688,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepTotalAnti</ParameterKey>
@@ -1684,8 +1698,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotalAnti_DELTA</ParameterKey>
@@ -1694,8 +1708,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaTotalAnti</ParameterKey>
@@ -1704,8 +1718,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotalAnti_DELTA</ParameterKey>
@@ -1714,8 +1728,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+ flux</Name>
       <ParameterKey>OpTotalAnti</ParameterKey>
@@ -1724,8 +1738,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotalAnti_DELTA</ParameterKey>
@@ -1734,8 +1748,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux</Name>
       <ParameterKey>OppTotalAnti</ParameterKey>
@@ -1744,8 +1758,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotalAnti_DELTA</ParameterKey>
@@ -1754,8 +1768,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotalAnti</ParameterKey>
@@ -1764,8 +1778,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotalAnti_DELTA</ParameterKey>
@@ -1774,8 +1788,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux</Name>
       <ParameterKey>HTotalPerp</ParameterKey>
@@ -1784,8 +1798,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>H+ flux uncertainty</Name>
       <ParameterKey>HTotalPerp_DELTA</ParameterKey>
@@ -1794,8 +1808,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux</Name>
       <ParameterKey>HepTotalPerp</ParameterKey>
@@ -1804,8 +1818,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He+ flux uncertainty</Name>
       <ParameterKey>HepTotalPerp_DELTA</ParameterKey>
@@ -1814,8 +1828,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux</Name>
       <ParameterKey>AlphaTotalPerp</ParameterKey>
@@ -1824,8 +1838,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>He++ flux uncertainty</Name>
       <ParameterKey>AlphaTotalPerp_DELTA</ParameterKey>
@@ -1834,8 +1848,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+ flux</Name>
       <ParameterKey>OpTotalPerp</ParameterKey>
@@ -1844,8 +1858,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O+/++ flux uncertainty</Name>
       <ParameterKey>OpTotalPerp_DELTA</ParameterKey>
@@ -1854,8 +1868,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux</Name>
       <ParameterKey>OppTotalPerp</ParameterKey>
@@ -1864,8 +1878,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O++ flux uncertainty</Name>
       <ParameterKey>OppTotalPerp_DELTA</ParameterKey>
@@ -1874,8 +1888,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux</Name>
       <ParameterKey>OHiTotalPerp</ParameterKey>
@@ -1884,8 +1898,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>O&gt;=3+ flux uncertainty</Name>
       <ParameterKey>OHiTotalPerp_DELTA</ParameterKey>
@@ -1894,8 +1908,8 @@
       <Units>cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N</Units>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>He0ChargeLo</ParameterKey>
@@ -1907,8 +1921,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>He0ChargeHi</ParameterKey>
@@ -1920,8 +1934,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>He0MeanChargeLo</ParameterKey>
@@ -1933,8 +1947,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>He0MeanChargeHi</ParameterKey>
@@ -1946,8 +1960,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>O0ChargeLo</ParameterKey>
@@ -1959,8 +1973,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>O0ChargeHi</ParameterKey>
@@ -1972,8 +1986,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>O0MeanChargeLo</ParameterKey>
@@ -1985,8 +1999,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>O0MeanChargeHi</ParameterKey>
@@ -1998,8 +2012,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>OpChargeLo</ParameterKey>
@@ -2011,8 +2025,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>OpChargeHi</ParameterKey>
@@ -2024,8 +2038,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>OpMeanChargeLo</ParameterKey>
@@ -2037,8 +2051,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>OpMeanChargeHi</ParameterKey>
@@ -2050,8 +2064,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>O3pChargeLo</ParameterKey>
@@ -2063,8 +2077,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Charge</Name>
       <ParameterKey>O3pChargeHi</ParameterKey>
@@ -2076,8 +2090,8 @@
       <FillValue>-128</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>O3pMeanChargeLo</ParameterKey>
@@ -2089,8 +2103,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>avg charge</Name>
       <ParameterKey>O3pMeanChargeHi</ParameterKey>
@@ -2102,7 +2116,7 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

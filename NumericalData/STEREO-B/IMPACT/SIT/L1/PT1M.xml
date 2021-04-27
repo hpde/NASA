@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-B/IMPACT/SIT/L1/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT (In-Situ Measurements of Particles and CME Transients) Suprathermal Ion Telescope (SIT)1-min Level 1 Multi-Z Ion Spectra</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The IMPACT Suprathermal Ion Telescope (SIT) data 
 consist of 1-min resolution ion fluxes of the following species (and
 numbers of energy bands, typically spanning ~0.04-9 MeV/n): H(12), 
@@ -27,7 +27,7 @@ of UCB</Acknowledgement>
         <URL>https://cdaweb.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/stb_l1_sit_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/STEREO-B/IMPACT/SIT/L1/PT1M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT/SIT/L1/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT/SIT/L1/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -54,6 +54,21 @@ of UCB</Acknowledgement>
         <Units>kB</Units>
         <Per>P1D</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge the P.I., Janet Luhmann of UCB, 
+and CDAWeb at GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STB_L1_SIT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the P.I., Janet Luhmann of UCB, 
 and CDAWeb at GSFC/SPDF</Acknowledgement>
     </AccessInformation>

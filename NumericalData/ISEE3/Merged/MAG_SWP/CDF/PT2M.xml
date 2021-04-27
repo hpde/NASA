@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 3 Merged Vector Helium Magnetometer (MAG), and Solar WInd Plasma (SWP), 2 min CDF Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>These Files provides access to ISEE 3 Merged Field and Plasma 2-min data generated at the NSSDC as part of preparing ISEE 3 data for the creation of new OMNI data sets. Input to the data set were ISEE 3 Magnetometer, MAG, 1 min Data, Solar Wind Plasma, SWP, 24 s data, and spacecraft position 1 day data, all obtained from ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/. Pertinent documentation may be found at the same FTP directory. The annual files of this ASCII data set may be accessed at ftps://spdf.gsfc.nasa.gov/pub/data/isee/isee3/2_min_merged_mag_plasma/as well. Time span: magnetic field from 1978-09-11 to 1982-10-12 and solar wind plasma from 1978-09-11 to 1980-02-19. Note that the magnetic field is given in Spacecraft-Centered, Solar Ecliptic, SE, coordinates.</Description>
       <Acknowledgement>E.J. Smith, Helium Vector Magnetometer, J.T. Gosling, Solar Wind Plasma</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
         <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/2_min_merged_mag_plasma/aareadme.txt</URL>
         <Description>Description of the Format of the ISEE-3 Merged Magnetic Field and Solar Wind Plasma 2 min Average ASCII Data</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ISEE3/Merged/MAG_SWP/CDF/PT2M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -53,6 +53,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>E.J. Smith, Helium Vector Magnetometer, J.T. Gosling, Solar Wind Plasma. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>E.J. Smith, Helium Vector Magnetometer, J.T. Gosling, Solar Wind Plasma. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -172,7 +186,7 @@
       <ParameterKey>Vp_long</ParameterKey>
       <Description>Proton Flow Velocity, Longitude</Description>
       <Cadence>PT2M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -198,7 +212,7 @@
       <ParameterKey>Vp_lat</ParameterKey>
       <Description>Proton Flow Velocity, Latitude</Description>
       <Cadence>PT2M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -246,7 +260,7 @@
       <ParameterKey>Temp</ParameterKey>
       <Description>Plasma Temperature</Description>
       <Cadence>PT2M</Cadence>
-      <Units>&#xB0;K</Units>
+      <Units>°K</Units>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>T_plasma, K</AxisLabel>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/A/EFW/L2/UVW/Hires</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A High Resolution DC Electric Field in UVW Coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data set contains high-resolution DC Electric Field data in UVW coordinates as measured by the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A. As a reference for spin axis vector in GSE, there was no spinning-frame offset removal.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -28,7 +28,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/EFW/UVW</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EFW/L2/E-HIRES-UVW/UTC</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/A/EFW/L2/UVW/Hires</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/A/EFW/L2/UVW/Hires</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -57,6 +57,20 @@
         <ProductKey>RBSPA_EFW-L2_E-HIRES-UVW</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSPA_EFW-L2_E-HIRES-UVW</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/EFW</InstrumentID>
     <MeasurementType>ElectricField</MeasurementType>

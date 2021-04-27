@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/SWICS_SWIMS/L2/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Ion Composition Spectrometer (SWICS) Solar Wind Plasma Elemental and Isotopic Density, Speed, Thermal Speed, Charge State, and Ratio Parameters, Level 2 (L2), Daily Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This ACE SWICS/SWIMS Data Set contains the He/O, C/O, N/O, Ne/O, Mg/O, Si/O, S/O, Fe/O Abundance Ratios, C, O, Mg, Si, Fe Average Charge States, C+6/C+4, C+6/C+5, O+7/O+6 Charge State Ratios, He+2, C+5, O+6, Fe+10 Speeds and Thermal Speeds, and a Solar Wind Type Parameter that characterizes the Solar Wind as either Streamer, Coronal Hole, Coronal Mass Ejection (CME), or Unidentified.
                       
                       The Solar Wind Ion Composition Spectrometer (SWICS), prior to August 23, 2011 and denoted as SWICS Version 1.1, determines uniquely the Chemical and Ionic Charge State Composition of the Solar Wind, the Temperatures and Mean Speeds of major Solar Wind Ions at all Speeds above 300 km/s for Protons and 170 km/s for Fe+16, and resolves Protons and Helium Isotopes of Solar and Interstellar Sources. SWICS 1.1 measures the Distribution Functions of Interstellar Cloud Pick-Up Ions and Interplanetary Dust Cloud Pick-Up Ions up to Energies of 100 keV/e.
@@ -44,7 +44,7 @@
         <Description>ACE SWICS Instrument Home Page at UM</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/PT24HR</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/P1D</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/SWICS_SWIMS/L2/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -68,6 +68,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>G. Gloeckler, Please acknowledge the Principal Investigator, G. Gloeckler of University of Maryland See the Rules of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_H4_SWI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>G. Gloeckler, Please acknowledge the Principal Investigator, G. Gloeckler of University of Maryland See the Rules of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>

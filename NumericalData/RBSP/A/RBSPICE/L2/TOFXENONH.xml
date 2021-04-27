@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/A/RBSPICE/L2/TOFXENONH</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A RBSPICE TOF x Energy non Hydrogen (Helium and Oxygen) Rates converted Level-2 data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description> This data set contains Van Allen Probe A RBSPICE (Radiation Belt Storm Probes Ion Composition Experiment) TOF x (Time of Flight) energy of heavy ions (i.e., helium and oxygen) that are measured at high-energy and low-time resolution by 6 telescopes in 28 channels from ~0.02-1.0 MeV and are available in physical units (counts/(s*sr*cm^2*MeV) by telescope in sector order.  Also available are percentage error of measurement, quality flag, current sector number where each spin is dividied into 36 sectors, duration of the accumulation, current spin number of the spacecraft, orbit number, dipole L value using the SM reference frame, and position of the spacecraft in SM coordinates.</Description>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
       <Contact>
@@ -32,7 +32,7 @@
         <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
       </InformationURL>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/RBSPICE/LEV-2/TOFXENONH/sub spin resolution</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/L2/TOFXENONH</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/A/RBSPICE/L2/TOFXENONH</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -61,6 +61,20 @@
         <ProductKey>RBSP-A-RBSPICE_LEV-2_TOFXENONH</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSP-A-RBSPICE_LEV-2_TOFXENONH</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/RBSP/A/RBSPICE</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>

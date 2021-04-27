@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/B/RPS/L2/PT0.058S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Van Allen Probe B Proton Spectrometer Belt Research - Relativistic Proton Spectrometer (PSBR-RPS) Energies from &#126;60 MeV to &#126;2 GeV, Level 2 (L2), 0.058 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ResourceName>Van Allen Probe B Proton Spectrometer Belt Research - Relativistic Proton Spectrometer (PSBR-RPS) Energies from ~60 MeV to ~2 GeV, Level 2 (L2), 0.058 s Data</ResourceName>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Van Allen Probe B, Relativistic Proton Spectrometer, RPS, Proton Spectrometer Belt Research, PSBR, Data. The RPS instrument is a solid state detector telescope combined with a Cherenkov radiator. It measures protons with energies from about 60 MeV to about 2 GeV. For more information, see http://rbsp.aerospace.org/. For a complete description of the instrument, see Mazur et al., 2012, The Relativistic Proton Spectrometer (RPS) for the Van Allen Probes Mission (formerly known as Radiation Belt Storm Probes, RBSP), Space Science Reviews. DOI 10.1007/s11214-012-9926-9, http://www.springerlink.com/content/p84680786570g7qp/. The instrument PI, Joseph Mazur, can be reached at Joseph.E.Mazur@aero.org.</Description>
       <Acknowledgement>J. Mazur. The Aerospace Corporation designed and built the RPS Instrument with Funding from The National Reconnaissance Office. The RPS Principal Investigator is Joseph Mazur. Those wishing to use RPS Data are strongly urged to notify the Principal Investigator concerning the Topic of their Work. This will enable the RPS Team to assist in Use of the Data and to track the Utility of the Instrument to the broader Community.</Acknowledgement>
       <Contact>
@@ -23,7 +23,7 @@
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
-        <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
+        <Description>Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
       </InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
@@ -42,7 +42,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/PSBR/RPS/L2/PT0.150S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/PSBR/RelativisticProtonSpectrometer/level2</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/B/RPS/L2/PT0.058S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/RPS/L2/PT0.058S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -66,6 +66,21 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Mazur. The Aerospace Corporation designed and built the RPS Instrument with Funding from The National Reconnaissance Office. The RPS Principal Investigator is Joseph Mazur. Those wishing to use RPS Data are strongly urged to notify the Principal Investigator concerning the Topic of their Work. This will enable the RPS Team to assist in Use of the Data and to track the Utility of the Instrument to the broader Community. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSPB_L2_PSBR-RPS@0</ProductKey>
+        <ProductKey>RBSPB_L2_PSBR-RPS@1</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Mazur. The Aerospace Corporation designed and built the RPS Instrument with Funding from The National Reconnaissance Office. The RPS Principal Investigator is Joseph Mazur. Those wishing to use RPS Data are strongly urged to notify the Principal Investigator concerning the Topic of their Work. This will enable the RPS Team to assist in Use of the Data and to track the Utility of the Instrument to the broader Community. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -375,7 +390,7 @@
       <ParameterKey>EarthRadialAngle</ParameterKey>
       <Description>Particle Incidence Angle coming from the Center of Earth relative to Normal Incidence</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -397,7 +412,7 @@
       <ParameterKey>EarthConeAngle</ParameterKey>
       <Description>Earth Cone Angle, Half-Angle of Earth as seen from the Spacecraft</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1355,7 +1370,7 @@
       <ParameterKey>Alpha</ParameterKey>
       <Description>Pitch Angle, Alpha, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1375,9 +1390,9 @@
       <Name>Gyrophase Angle, Beta, incoming along the RPS Boresight Axis</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>Beta</ParameterKey>
-      <Description>Gyrophase Angle, Beta, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis, 0&#176; when heading away from the Earth, when heading toward from the Earth, 180&#176;</Description>
+      <Description>Gyrophase Angle, Beta, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis, 0° when heading away from the Earth, when heading toward from the Earth, 180°</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1422,7 +1437,7 @@
       <ParameterKey>Alpha_Eq</ParameterKey>
       <Description>Equatorial Pitch Angle, Alpha, for an incoming Particle along the Relativistic Proton Spectrometer, RPS, Boresight Axis, computed by using the Olson-Pfitzer 1977 Quiet, OP77Q, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1461,10 +1476,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Roederer L&#42; generalized L Shell Parameter, normally incident Particle, OP77Q Magnetic Field Model</Name>
+      <Name>Roederer L* generalized L Shell Parameter, normally incident Particle, OP77Q Magnetic Field Model</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>L_star</ParameterKey>
-      <Description>Roederer L&#42; generalized L Shell Parameter for a normally incident Particle, computed by using the Olson-Pfitzer 1977 Quiet, OP77Q, Magnetic Field Model</Description>
+      <Description>Roederer L* generalized L Shell Parameter for a normally incident Particle, computed by using the Olson-Pfitzer 1977 Quiet, OP77Q, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
       <Units>Re</Units>
       <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
@@ -1673,7 +1688,7 @@
       <ParameterKey>Alpha_Eq_T89Q</ParameterKey>
       <Description>Equatorial Pitch Angle, Alpha, for an incoming Particle along the Relativistic Proton Spectrometer, RPS, Boresight Axis, computed by using the Tsyganenko 1989 Quiet, T89Q, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1712,10 +1727,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Roederer L&#42; generalized L Shell Parameter, normally incident Particle, T89Q Magnetic Field Model</Name>
+      <Name>Roederer L* generalized L Shell Parameter, normally incident Particle, T89Q Magnetic Field Model</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>L_star_T89Q</ParameterKey>
-      <Description>Roederer L&#42; generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko 1989 Quiet, T89Q, Magnetic Field Model</Description>
+      <Description>Roederer L* generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko 1989 Quiet, T89Q, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
       <Units>Earth radii</Units>
       <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
@@ -1924,7 +1939,7 @@
       <ParameterKey>Alpha_Eq_T89D</ParameterKey>
       <Description>Equatorial Pitch Angle, Alpha, for an incoming Particle along the Relativistic Proton Spectrometer, RPS, Boresight Axis, computed by using the Tsyganenko 1989 Disturbed, T89D, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1963,10 +1978,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Roederer L&#42; generalized L Shell Parameter, normally incident Particle, T89D Magnetic Field Model</Name>
+      <Name>Roederer L* generalized L Shell Parameter, normally incident Particle, T89D Magnetic Field Model</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>L_star_T89D</ParameterKey>
-      <Description>Roederer L&#42; generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko 1989 Disturbed, T89D, Magnetic Field Model</Description>
+      <Description>Roederer L* generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko 1989 Disturbed, T89D, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
       <Units>Earth radii</Units>
       <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
@@ -2175,7 +2190,7 @@
       <ParameterKey>Alpha_Eq_TS04D</ParameterKey>
       <Description>Equatorial Pitch Angle, Alpha, for an incoming Particle along the Relativistic Proton Spectrometer, RPS, Boresight Axis, computed by using the Tsyganenko-Sitnov 2004 Disturbed, TS04D, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -2214,10 +2229,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Roederer L&#42; generalized L Shell Parameter, normally incident Particle, TS04D Magnetic Field Model</Name>
+      <Name>Roederer L* generalized L Shell Parameter, normally incident Particle, TS04D Magnetic Field Model</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>L_star_TS04D</ParameterKey>
-      <Description>Roederer L&#42; generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko-Sitnov 2004 Disturbed, TS04D, Magnetic Field Model</Description>
+      <Description>Roederer L* generalized L Shell Parameter for a normally incident Particle, computed by using the Tsyganenko-Sitnov 2004 Disturbed, TS04D, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
       <Units>Earth radii</Units>
       <UnitsConversion>6.3712e6&gt;m</UnitsConversion>
@@ -2756,7 +2771,7 @@
       <ParameterKey>EVENT_Alpha</ParameterKey>
       <Description>Event Pitch Angle, Alpha, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -2778,9 +2793,9 @@
       <Name>Event Gyrophase Angle, Beta, incoming along the RPS Boresight Axis</Name>
       <Set>Time Series defined by using: EVENT_EPOCH</Set>
       <ParameterKey>EVENT_Beta</ParameterKey>
-      <Description>Event Gyrophase Angle, Beta, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis, 0&#176; when heading away from the Earth, when heading toward from the Earth, 180&#176;</Description>
+      <Description>Event Gyrophase Angle, Beta, incoming along the Relativistic Proton Spectrometer, RPS, Boresight Axis, 0° when heading away from the Earth, when heading toward from the Earth, 180°</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -2827,7 +2842,7 @@
       <ParameterKey>EVENT_Alpha_Eq</ParameterKey>
       <Description>Event Equatorial Pitch Angle, Alpha, for an incoming Particle along the Relativistic Proton Spectrometer, RPS, Boresight Axis, computed by using the Olson-Pfitzer 1977 Quiet, OP77Q, Magnetic Field Model</Description>
       <Cadence>PT0.058S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>

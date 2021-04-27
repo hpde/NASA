@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ST5-155/Ephemeris/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-155 satellite position and magnetic field data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>ST5-A satellite position and magnetic field model information.</Description>
       <!-- Automatically generated for SSC on 2013-05-22T13:55:29Z -->
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) Satellite Situation Center (SSC).</Acknowledgement>
@@ -14,7 +14,7 @@
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VMO/NumericalData/ST5-155/MAG/v1_PT01S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ST5-155/Ephemeris/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ST5-155/Ephemeris/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -48,6 +48,20 @@
         <Description>Tri-axial magnetometer data from NASA Space Technology 5.</Description>
       </AccessURL>
       <Format>Text</Format>
+      <Acknowledgement> Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>ST5-155_1SEC_MAG</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement> Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/ST5-155/Ephemeris</InstrumentID>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/CRIS/L2/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Cosmic Ray Isotope Spectrometer (CRIS) Daily Level 2 Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>ACE Cosmic Ray Isotope Spectrometer (CRIS) intensities and counts, for each of 7 energy bins for each of 24 elements (Z=5, boron, to Z=28, nickel) at 1-hour time resolution. Overall energy ranges coveredgo from 49-172 MeV/n for boron to 130-496 MeV/n for nickel. Calibrated science quality data. Parameter segments below address intensities but not alsothe count rates included in the data set. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. Daily averaged L2 fluxes and rates are also available from these access paths. The "parameter keys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledgethe ACE/CRIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -24,7 +24,7 @@
       <PriorID>spase://VHO/NumericalData/ACE/CRIS/L2_P1D</PriorID>
       <PriorID>spase://VSPO/NumericalData/ACE/CRIS/PT86400S</PriorID>
       <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_CRIS_L2_1D</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/CRIS/L2/P1D</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/CRIS/L2/P1D</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -47,6 +47,20 @@
         <Description>ACE/CRIS L2 hourly data with subset, plot, list functionalities from CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_H3_CRIS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the ACE/CRIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>

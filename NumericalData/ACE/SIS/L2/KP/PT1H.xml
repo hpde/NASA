@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/SIS/L2/KP/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Isotope Spectrometer (SIS) 1-Hour Level 2 Key Parameter Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>ACE Solar Isotope Spectrometer (SIS) hourly intensities and count rates, for each of 14 elements (He,C,N,O,Ne,Na,Mg,Al,Si,S,Ar,Ca,Fe,Ni).in each of 8 energy bins. Overall energy ranges covered go from 3.4-41 MeV/n for helium to 10.5-168 MeV/n for iron. These are calibrated science quality data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The "parameter keys" given below are as used by CDAWeb.</Description>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team and the ACE Science Center</Acknowledgement>
       <Contact>
@@ -31,7 +31,7 @@
       <PriorID>spase://VHO/NumericalData/ACE/SIS/L2_KP_PT1H</PriorID>
       <PriorID>spase://VSPO/NumericalData/ACE/SIS/PT3600S</PriorID>
       <PriorID>&gt;spase://VSPO/NumericalData/P_ACE_HDR_SIS_3600S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/SIS/L2/KP/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/SIS/L2/KP/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -53,6 +53,20 @@
         <Description>For plots, numeric lists, and user specified files</Description>
       </AccessURL>
       <Format>CDF</Format>
+      <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_K0_SIS</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the ACE/SIS instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF</Acknowledgement>
     </AccessInformation>
     <AccessInformation>

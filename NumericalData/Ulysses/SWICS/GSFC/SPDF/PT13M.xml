@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses olar Wind Ion Composition Spectrometer (SWICS) Full Resolution Matrix Rate Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The Ulysses/SWICS instrument is a mass spectrometer combining an electrostatic analyzer with post acceleration, followed by a time-of-flight and energy measurement. The instrument covers an energy per charge range from 0.16 to 59.6 keV/e with a time resolution of about 13 minutes. SWICS is designed to determine uniquely the elemental and ionic-charge composition, the temperatures and mean speeds of all major solar wind ions, from H through Fe. For more information see G. Gloeckler, J. Geiss et al., Astron. Astrophys. Suppl. Ser. 92, 267-289, 1992. These data consist of all 18 Matrix Rates (MR) as a function of energy per charge (E/q) and of time. Each MR represents a specific element in one or several ionization states, but it may also contain significant contributions from neighbouring elements due to spillover. The MRs are given in units of count rates only. SAPRO (SWICS Archive Processor) software can be used both to convert the MR count rates to physical units (differential flux, phase space density), to correct for spillover between different MRs, and to obtain kinetic parameters (density, speed, thermal speed) of selected ions (to be used with caution).</Description>
       <Acknowledgement>Please acknowledge G. Gloeckler (P.I.)</Acknowledgement>
       <Contact>
@@ -33,7 +33,7 @@
       <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT3H</PriorID>
       <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</PriorID>
       <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GLG/H0/PT13M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Ulysses/SWICS/GSFC/SPDF/PT13M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -56,6 +56,20 @@
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>UY_H0_GLG</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Ulysses/SWICS</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>

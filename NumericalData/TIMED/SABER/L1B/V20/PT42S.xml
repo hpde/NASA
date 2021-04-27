@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd'">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/TIMED/SABER/L1B/V20/PT42S</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)IR Radiances in 10 channels (1.27 to 17ym) from 0 to 150 km, Version 1.07, Level 1B (L1B), 42 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Contains the SABER Level 1B calibrated radiance profiles converted to radiance units with instrument effects removed, geolocated and gridded to uniform angle spacing.</Description>
       <Acknowledgement>NASA, James M. Russell III</Acknowledgement>
       <Contact>
@@ -18,7 +18,7 @@
       </InformationURL>
       <PriorID>spase://VITMO/NumericalData/TIMED/SABER/L1B</PriorID>
       <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L1B</PriorID>
-        <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L1B/V20/PT42S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/TIMED/SABER/L1B/V20/PT42S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/TIMED/SABER_POC</RepositoryID>
@@ -61,6 +61,20 @@
         <Description>TIMED SABER L1B version 1.07 data with subset, plot, list from CDAWeb</Description>
       </AccessURL>
       <Format>Text</Format>
+      <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>TIMED_L1BV20_SABER</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

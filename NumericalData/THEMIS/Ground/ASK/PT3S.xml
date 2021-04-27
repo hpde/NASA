@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS Ground-based All Sky Imager Keogram, Level-1</ResourceName>
       <AlternateName>THEMIS-Ground ASK</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>THEMIS Ground All Sky Imager Keograms for all observatories.  Keograms are composed of thin images slices taken down the middle of all-sky images and graphed against time.  Keograms allow for substorm analysis without the need for full sized raw images.   The ASI stations each monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours a sun shades deploy to protect the CCD.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.</Acknowledgement>
       <!--Vassilis Angelopoulos -->
@@ -25,7 +25,7 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <PriorID>spase://VMO/NumericalData/THEMIS/Ground/ASK/PT3S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/ASK/PT3S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/ASK/PT3S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +49,39 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THG_L1_ASK@0</ProductKey>
+        <ProductKey>THG_L1_ASK@1</ProductKey>
+        <ProductKey>THG_L1_ASK@10</ProductKey>
+        <ProductKey>THG_L1_ASK@11</ProductKey>
+        <ProductKey>THG_L1_ASK@12</ProductKey>
+        <ProductKey>THG_L1_ASK@13</ProductKey>
+        <ProductKey>THG_L1_ASK@14</ProductKey>
+        <ProductKey>THG_L1_ASK@15</ProductKey>
+        <ProductKey>THG_L1_ASK@16</ProductKey>
+        <ProductKey>THG_L1_ASK@17</ProductKey>
+        <ProductKey>THG_L1_ASK@18</ProductKey>
+        <ProductKey>THG_L1_ASK@19</ProductKey>
+        <ProductKey>THG_L1_ASK@2</ProductKey>
+        <ProductKey>THG_L1_ASK@3</ProductKey>
+        <ProductKey>THG_L1_ASK@4</ProductKey>
+        <ProductKey>THG_L1_ASK@5</ProductKey>
+        <ProductKey>THG_L1_ASK@6</ProductKey>
+        <ProductKey>THG_L1_ASK@7</ProductKey>
+        <ProductKey>THG_L1_ASK@8</ProductKey>
+        <ProductKey>THG_L1_ASK@9</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
@@ -96,9 +129,9 @@
         <Description>THEMIS-GBOs/UCLA site, Lat 64.7, Long 249.3</Description>
       </AccessURL>
       <AccessURL>
-	     <Name>Flin Flon/The Pas, MB, Canada (TPAS), ASI Thumbnails Data</Name>
-		 <URL>https://hpde.io/NASA/NumericalData/THEMIS/Ground/The.Pas/ASI/thumb_PT3S</URL>
-		 <Description>THEMIS-GBOs/UCLA site, Lat 64.7, Long 249.3</Description>
+        <Name>Flin Flon/The Pas, MB, Canada (TPAS), ASI Thumbnails Data</Name>
+        <URL>https://hpde.io/NASA/NumericalData/THEMIS/Ground/The.Pas/ASI/thumb_PT3S</URL>
+        <Description>THEMIS-GBOs/UCLA site, Lat 64.7, Long 249.3</Description>
       </AccessURL>
       <AccessURL>
         <Name>Fort Simpson, NT, Canada (FSIM), Full Resolution Images</Name>
@@ -251,9 +284,9 @@
         <Description>THEMIS-GBOs/UCLA site, Lat 63.6, Long 249.1</Description>
       </AccessURL>
       <AccessURL>
-	     <Name>Taloyoak, NT, Canada (TALO), Full Resolution Images</Name>
-	     <URL>https://hpde.io/NASA/NumericalData/THEMIS/Ground/Taloyoak/ASI/full_PT3S</URL>
-		 <Description>THEMIS-GBO/Carisma site, Lat 69.5, Long 266.4</Description>
+        <Name>Taloyoak, NT, Canada (TALO), Full Resolution Images</Name>
+        <URL>https://hpde.io/NASA/NumericalData/THEMIS/Ground/Taloyoak/ASI/full_PT3S</URL>
+        <Description>THEMIS-GBO/Carisma site, Lat 69.5, Long 266.4</Description>
       </AccessURL>
       <AccessURL>
         <Name>Taloyoak, NT, Canada (TALO), ASI Thumbnails Data</Name>

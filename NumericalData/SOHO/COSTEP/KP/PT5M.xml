@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/SOHO/COSTEP/KP/PT5M</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO Comprehensive Suprathermal and Energetic Particle Analyzer (COSTEP) Key Parameter Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Data include 5-min differential fluxes of protons 
 at seven energies between 0.54 and 47 MeV, of electrons at four energies
 between 0.5 and 7.4 MeV and of alpha particles at four energies between
@@ -21,7 +22,7 @@ of Universitat Kiel</Acknowledgement>
         <URL>https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/so_k0_cst_00000000_v01.skt</URL>
       </InformationURL>
       <PriorID>spase://VEPO/NumericalData/SOHO/COSTEP/KP/PT5M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/SOHO/COSTEP/KP/PT5M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/SOHO/COSTEP/KP/PT5M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -48,6 +49,21 @@ of Universitat Kiel</Acknowledgement>
         <Units>kB</Units>
         <Per>P1D</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge the P.I., Horst W. Kunow 
+of Universitat Kiel, and CDAWeb at GSFC/SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>SO_K0_CST</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the P.I., Horst W. Kunow 
 of Universitat Kiel, and CDAWeb at GSFC/SPDF</Acknowledgement>
     </AccessInformation>

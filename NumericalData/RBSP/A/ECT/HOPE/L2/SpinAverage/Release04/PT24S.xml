@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release04/PT24S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A ECT HOPE Science Release #4 Spin Averaged Level 2 Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>RBSP-A Energetic Particle, Composition, and Thermal Plasma Suite (ECT) Helium Oxygen Proton Electron Electrostatic Analyzer (HOPE) Spin-Averaged Science Data. Electron ~15 to 50,000 eV, Ion ~1 to 50,000 eV Fluxes, Electrons and Ions measured in Alternate Spin Cadence</Description>
       <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel</Acknowledgement>
       <Contact>
@@ -46,7 +46,7 @@
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release03/PT24S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/Science/Release03/SpinAverage/Level2</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/ECT/HOPE-SCI-L2SA/PT24S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release04/PT24S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/A/ECT/HOPE/L2/SpinAverage/Release04/PT24S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -70,6 +70,21 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSPA_REL04_ECT-HOPE-SCI-L2SA@0</ProductKey>
+        <ProductKey>RBSPA_REL04_ECT-HOPE-SCI-L2SA@1</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Herb Funsten, Ruth Skoug, Reiner Friedel. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE GSE 12-min Position Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>ACE satellite positions.</Description>
       <Contact>
         <!-- Jan Merka -->
@@ -17,7 +17,7 @@
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://VHO/NumericalData/ACE/Ephemeris/PT12M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/Ephemeris/PT12M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/Ephemeris/PT12M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -43,6 +43,20 @@
         <ProductKey>ace</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_OR_SSC</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/ACE/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>

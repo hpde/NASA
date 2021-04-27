@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/B/RBSPICE/L3/PAP/TOFXPHOLEHT/PT10.9S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Van Allen Probe B Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Time of Flight &#215; Pulse Height, Low-Energy Resolution, High-Time Resolution Oxygen Intensities and Pressures sorted by Pitch Angles, Level 3 (L3), 10.9 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>Van Allen Probe B, Radiation Belt Storm Probes Ion Composition Experiment, RBSPICE, Low Energy Resolution, High Time Resolution, Time of Flight &#215; Pulse Height Oxygen, TOFxPHOLEHT, Pitch Angles and Pressures, PAP, Level 3 Data Product. Oxygen Differential Flux Intensities and Pressures sorted by Pitch Angle.
+      <ResourceName>Van Allen Probe B Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE) Time of Flight × Pulse Height, Low-Energy Resolution, High-Time Resolution Oxygen Intensities and Pressures sorted by Pitch Angles, Level 3 (L3), 10.9 s Data</ResourceName>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <Description>Van Allen Probe B, Radiation Belt Storm Probes Ion Composition Experiment, RBSPICE, Low Energy Resolution, High Time Resolution, Time of Flight × Pulse Height Oxygen, TOFxPHOLEHT, Pitch Angles and Pressures, PAP, Level 3 Data Product. Oxygen Differential Flux Intensities and Pressures sorted by Pitch Angle.
                       
-                      This Data Set contains Van Allen Probe B Radiation Belt Storm Probes Ion Composition Experiment, RBSPICE, Level 3 Data, Time of Flight &#215; Pulse Height (TOF&#215;PH) Oxygen Flux Intensities and Pressures that are sorted by Pitch Angles. The Data include Unidirectional Differential Oxygen Fluxes (FPDU) that are measured at Low-Energy Resolution, High-Time Resolution by 6 Telescopes in 28 Channels from &#126;0.01 MeV to 2.0 MeV. The Data are listed by Telescope in Sector Order, with Spin Accumulation. plotted at the End of Accumulation. Also available are Percentage Error of Measurement, Quality Flag for the each Measurement Pitch Angle Bin and Time Step, calculated Perpendicular and Parallel Partial Pressure, Number Density calculated by integrating the Distribution Function and Pitch Angle, Total Flux Intensity observed during the Spin by intergrating over Energy and Pitch Angle, and Omnidirectional Total Flux Intensity per Spin. In addition, the Data Set contains Orbit Number, Spacecraft Position of the Spacecraft in GEO, SM, and GSM Coordinates, current Sector Number where each Spin is divided into 36 Sectors, Duration of the Accumulation, current Spin Number of the Spacecraft, Orbit Number, Dipole L Values in different Reference Frames. Level 3 Data include all Level 2 Data plus Spacecraft Positions, Pitch Angles of the six Telescopes based upon the measured Magnetic Field received from the Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, Instrument. This Processing is done in a Series of algorithmic Steps in which the EMFISIS Magnetic Field Data are loaded, the Energetic Particle, Composition and Thermal Plasma Suite, ECT, Magnetic Ephemeris Data are loaded, the Level 2 Flux Intensity Data File is copied, and the Pitch Angles are calculated and placed. Finally, the calculated Pitch Angles are written out along with the Level 2 Data Parameters to create the Level 3 RBSPICE Data Files.</Description>
+                      This Data Set contains Van Allen Probe B Radiation Belt Storm Probes Ion Composition Experiment, RBSPICE, Level 3 Data, Time of Flight × Pulse Height (TOF×PH) Oxygen Flux Intensities and Pressures that are sorted by Pitch Angles. The Data include Unidirectional Differential Oxygen Fluxes (FPDU) that are measured at Low-Energy Resolution, High-Time Resolution by 6 Telescopes in 28 Channels from ~0.01 MeV to 2.0 MeV. The Data are listed by Telescope in Sector Order, with Spin Accumulation. plotted at the End of Accumulation. Also available are Percentage Error of Measurement, Quality Flag for the each Measurement Pitch Angle Bin and Time Step, calculated Perpendicular and Parallel Partial Pressure, Number Density calculated by integrating the Distribution Function and Pitch Angle, Total Flux Intensity observed during the Spin by intergrating over Energy and Pitch Angle, and Omnidirectional Total Flux Intensity per Spin. In addition, the Data Set contains Orbit Number, Spacecraft Position of the Spacecraft in GEO, SM, and GSM Coordinates, current Sector Number where each Spin is divided into 36 Sectors, Duration of the Accumulation, current Spin Number of the Spacecraft, Orbit Number, Dipole L Values in different Reference Frames. Level 3 Data include all Level 2 Data plus Spacecraft Positions, Pitch Angles of the six Telescopes based upon the measured Magnetic Field received from the Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, Instrument. This Processing is done in a Series of algorithmic Steps in which the EMFISIS Magnetic Field Data are loaded, the Energetic Particle, Composition and Thermal Plasma Suite, ECT, Magnetic Ephemeris Data are loaded, the Level 2 Flux Intensity Data File is copied, and the Pitch Angles are calculated and placed. Finally, the calculated Pitch Angles are written out along with the Level 2 Data Parameters to create the Level 3 RBSPICE Data Files.</Description>
       <Acknowledgement>L. Lanzerotti, The RBSPICE Instrument was supported under a NASA Contract with the New Jersey Institute of Technology, with Subcontracts to the Johns Hopkins University Applied Physics Laboratory and to Fundamental Technologies, LLC.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
@@ -23,7 +23,7 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Name>
+        <Name>Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
         <Description>Van Allen Probes Home Page, JHU/APL</Description>
       </InformationURL>
@@ -50,7 +50,7 @@
       <PriorID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L3/PAP/TOFXPHOLEHT/PT0.02S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L3/PAP/TOFXPHOLEHT/PT0.020S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/TOFxPulseHeight/Oxygen/PitchAnglesAndPressures/LowEnergyHighTime/Level3</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L3/PAP/TOFXPHOLEHT/PT10.9S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/RBSPICE/L3/PAP/TOFXPHOLEHT/PT10.9S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -74,6 +74,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>L. Lanzerotti, The RBSPICE Instrument was supported under a NASA Contract with the New Jersey Institute of Technology, with Subcontracts to the Johns Hopkins University Applied Physics Laboratory and to Fundamental Technologies, LLC. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSP-B-RBSPICE_LEV-3-PAP_TOFXPHOLEHT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>L. Lanzerotti, The RBSPICE Instrument was supported under a NASA Contract with the New Jersey Institute of Technology, with Subcontracts to the Johns Hopkins University Applied Physics Laboratory and to Fundamental Technologies, LLC. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -344,7 +358,7 @@
       <Name>Percentage Error, Oxygen Differential Flux Intensity, UniDirectional, Pitch Angle binned</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>FODU_Error</ParameterKey>
-      <Description>Percentage Error, Oxygen Differential Flux Intensity, UniDirectional, Poisson Statistical Counting Percentage Error of the Measurement for each Energy Channel and Bin calculated by using 100&#42;sqrt(Counts)^-1.
+      <Description>Percentage Error, Oxygen Differential Flux Intensity, UniDirectional, Poisson Statistical Counting Percentage Error of the Measurement for each Energy Channel and Bin calculated by using 100*sqrt(Counts)^-1.
                       Column 1 Labels from FODU_ENERGY: [ 0.0639000, 0.106000, 0.147000].
                       Column 2 Labels from PA_MIDPOINT: [ 7.50000, 20.0000, 30.0000, 40.0000, 50.0000, 60.0000, 70.0000, 80.0000, 90.0000, 100.000, 110.000, 120.000, 130.000, 140.000, 150.000, 160.000, 172.500].</Description>
       <Cadence>PT10.9S</Cadence>
@@ -769,7 +783,7 @@
       <ParameterKey>PA_Midpoint</ParameterKey>
       <Description>Pitch Angle Bin Midpoint, Center Points of the Bin Ranges</Description>
       <Cadence>PT10.9S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <RenderingHints>
         <AxisLabel>PA</AxisLabel>
         <ValueFormat>F6.2</ValueFormat>
@@ -999,14 +1013,14 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Roederer L&#42; Value, for the Average Pitch Angle, computed by using ECT MagEIS Ephemeris Data</Name>
+      <Name>Roederer L* Value, for the Average Pitch Angle, computed by using ECT MagEIS Ephemeris Data</Name>
       <Set>Time Series defined by using: EPOCH</Set>
       <ParameterKey>L_Star</ParameterKey>
-      <Description>Roederer L&#42; Value, for the Average Pitch Angle, derived from the Energetic Particle, Composition, and Thermal Plasma, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Ephemeris Data</Description>
+      <Description>Roederer L* Value, for the Average Pitch Angle, derived from the Energetic Particle, Composition, and Thermal Plasma, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Ephemeris Data</Description>
       <Cadence>PT10.9S</Cadence>
       <Units>Earth radii</Units>
       <RenderingHints>
-        <AxisLabel>L&#42;</AxisLabel>
+        <AxisLabel>L*</AxisLabel>
         <ValueFormat>E10.4</ValueFormat>
       </RenderingHints>
       <ValidMin>0.0</ValidMin>
@@ -1042,7 +1056,7 @@
       <ParameterKey>MLT</ParameterKey>
       <Description>Spacecraft Position, Magnetic Local Time, MLT, Centered Dipole, CD, Coordinates, derived from the Energetic Particle, Composition, and Thermal Plasma, ECT, Magnetic Electron Ion Spectrometer, MagEIS, Ephemeris Data</Description>
       <Cadence>PT10.9S</Cadence>
-      <Units>&#176;</Units>
+      <Units>°</Units>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>MAG</CoordinateSystemName>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind 3DP 92-sec Key Parameter Data</ResourceName>
       <DOI>https://doi.org/10.48322/kwfz-zk29</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Wind 3DP (3-D Plasma Analyzer), 92-s key parameters, ion and electron fluxes (at 7 energy steps), flow velocities, densities and temperatures</Description>
       <Acknowledgement>User will acknowledge the Wind 3DP Team in any publication resulting from use of this data.</Acknowledgement>
       <PublicationInfo>
-         <Authors>Lin, Robert, P; Bale, Stuart, D</Authors>
-         <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-         <PublishedBy>NASA Space Physics Data Facility; Space Sciences Laboratory, University of California Berkeley</PublishedBy>
+        <Authors>Lin, Robert, P; Bale, Stuart, D</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility; Space Sciences Laboratory, University of California Berkeley</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.Schroeder</PersonID>
@@ -30,7 +30,7 @@
       <PriorID>spase://VHO/NumericalData/Wind/3DP/KP.PT92S</PriorID>
       <PriorID>spase://VSPO/NumericalData/Wind/3DP/KeyParameters/PT92S</PriorID>
       <PriorID>spase://VSPO/NumericalData/P_Wind_HDR_3DP_92S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Wind/3DP/KP/PT92S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/3DP/KP/PT92S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -52,6 +52,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>Acknowledge the 3DP and SPDF teams</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_K0_3DP</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Acknowledge the 3DP and SPDF teams</Acknowledgement>
     </AccessInformation>
     <AccessInformation>

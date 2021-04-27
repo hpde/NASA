@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind 3DP SST Open Proton Energy-Angle Distributions</ResourceName>
       <DOI>https://doi.org/10.48322/yw1c-yf03</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Proton energy-angle distributions 70 keV - 6.8 MeV, often at 24 sec, SST Open, Wind 3DP - R. Lin (UC Berkeley)</Description>
       <Acknowledgement>Principle Investigators Robert Lin and Stuart Bale, the Wind 3DP team, and the Space Physics Data Facility (SPDF)/NASA GSFC</Acknowledgement>
       <PublicationInfo>
-         <Authors>Lin, Robert, P; Bale, Stuart, D; Wilson III, Lynn, B</Authors>
-         <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Lin, Robert, P; Bale, Stuart, D; Wilson III, Lynn, B</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
@@ -36,7 +36,7 @@
         <URL>http://sprg.ssl.berkeley.edu/wind3dp/</URL>
         <Description>home page at UCB (with plotting and digital data)</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/Wind/3DP/SST_Open/PD/PT24S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/3DP/SST_Open/PD/PT24S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -65,6 +65,20 @@
         <ProductKey>WI_SOPD_3DP</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_SOPD_3DP</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Wind/3DP</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>

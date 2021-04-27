@@ -1,51 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Voyager1/PLS/Jupiter/Composition/VIPER/PT96S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 Plasma Spectrometer (PLS) VIPER-Fit Plasma Ion Composition near Jupiter, 96 s Data</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:54Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>These Data are from a Re-Analysis of the Voyager Plasma Spectrometer, PLS, Data at Jupiter by the PLS Group at the Laboratory for Atmospheric and Space Physics, LASP, at the University of Colorado. Density, Temperature, and Flow Velocity Fits for total and individual Ions were done using the Voyager Ion PLS Experiment Response, VIPER, Code and Error Analysis as described at http://lasp.colorado.edu/home.mop/missions/voyager/viper/. Fits are determined from processing of the Ion Currents from the A, B, C, and D Cups of the Instrument. As per the Fit Case Variable, one of five different Constraints were used in the VIPER Fits for each 96 s Time Interval: (1) Free Variation of all Parameters (mainly for the cold Ion Torus), (2) Constraint of the Ion Abundances for the five major Species (O+, O++, S+, S++, S+++) to standard Composition as determined from Delamere et al., (2005), (3) fixed Ion Composition and Flow Speed, (4) Cold Blobs in the Plasmasheet where resolved Peaks can be Fit with allowance for some Variance in Composition, (5) Interpolation between Composition of Cold Torus and standard Abundances at 6 RJ from Delamere et al., (2005). Reference: Delamere, P.A., Bagenal, F., and Steffl, A. (2005), Radial Variations in the Io Plasma Torus During the Cassini Era, J. of Geophys. Res., Space Phys., 110(A12), A12223, doi:10.1029/2005JA011251.</Description>
       <Acknowledgement>J.D. Richardson, F. Bagenal, Please acknowledge the Voyager 1 and Voyager 2 PLS PI, J.D. Richardson, MIT, and the Data Set Producer, F. Bagenal of the University of Colorado. For Public Distribution but Users are advised to contact F. Bagenal on Questions about how the Data were produced.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/John.D.Richardson</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Frances.Bagenal</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Documentation for the Voyager PLS Instrument, hosted at the Massachusetts Institute of Technology, MIT</Name>
         <URL>http://web.mit.edu/jbelcher/www/VoyagerInterstellar.pdf</URL>
         <Description>Voyager PLS Instrument Documentation, MIT</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Fits to Spectra Source Data at LASP</Name>
         <URL>http://lasp.colorado.edu/home/mop/missions/voyager/fits-to-spectra/</URL>
         <Description>Fits to Spectra Source Data at the Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>The VIPER, Voyager Ion PLS Experiment Response, Web Page at the Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Name>
         <URL>http://lasp.colorado.edu/home/mop/missions/voyager/viper/</URL>
         <Description>The VIPER Web Page, LASP</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>The VIPER, Voyager Ion PLS Experiment Response, Instruction Manual available from the Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Name>
         <URL>http://lasp.colorado.edu/home/mop/files/2015/06/VoyagerPLSAnalysisManual-1.pdf</URL>
         <Description>The VIPER Instruction Manual, LASP</Description>
-</InformationURL>
-        <PriorID>spase://VSPO/NumericalData/Voyager1/PLS/Jupiter/Composition/VIPER/PT96S</PriorID>
-</ResourceHeader>
+      </InformationURL>
+      <PriorID>spase://VSPO/NumericalData/Voyager1/PLS/Jupiter/Composition/VIPER/PT96S</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -54,22 +54,36 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/plasma_cdaweb/composition/1979/</URL>
         <Description>Access to Data in CDF Format via ftp from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/plasma_cdaweb/composition/1979/</URL>
         <Description>Access to Data in CDF Format via http from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/index.html/</URL>
         <ProductKey>VOYAGER1_PLS_COMPOSITION</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>J.D. Richardson, F. Bagenal, Please acknowledge the Voyager 1 and Voyager 2 PLS PI, J.D. Richardson, MIT, and the Data Set Producer, F. Bagenal of the University of Colorado. For Public Distribution but Users are advised to contact F. Bagenal on Questions about how the Data were produced. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>VOYAGER1_PLS_COMPOSITION</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>J.D. Richardson, F. Bagenal, Please acknowledge the Voyager 1 and Voyager 2 PLS PI, J.D. Richardson, MIT, and the Data Set Producer, F. Bagenal of the University of Colorado. For Public Distribution but Users are advised to contact F. Bagenal on Questions about how the Data were produced. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/Voyager1/PLS</InstrumentID>
     <MeasurementType>ThermalPlasma</MeasurementType>
@@ -77,9 +91,9 @@
       <TimeSpan>
         <StartDate>1979-03-03T10:23:58.000</StartDate>
         <StopDate>1979-03-05T19:24:54.000</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT96S</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Jupiter.Magnetosphere</ObservedRegion>
     <Parameter>
       <Name>Time since 0 A.D.</Name>
@@ -91,14 +105,14 @@
       <RenderingHints>
         <AxisLabel>Epoch</AxisLabel>
         <ScaleType>LinearScale</ScaleType>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>01-Jan-1970 00:00:00.000</ValidMin>
       <ValidMax>31-Dec-2020 23:59:59.000</ValidMax>
       <FillValue>31-Dec-9999 23:59:59.999</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Year</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -111,14 +125,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Year</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>1970</ValidMin>
       <ValidMax>2020</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Fractional Year</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -131,14 +145,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Fraction of the Year</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>1970.0</ValidMin>
       <ValidMax>2020.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Day of Year</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -151,14 +165,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Day of the Year</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>366</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Hour of Day</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -171,14 +185,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Hour</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>23</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Minute of Hour</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -191,14 +205,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Minute</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>59</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Start Date, Seconds of Minute</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -210,14 +224,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Second</AxisLabel>
         <ValueFormat>I4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0</ValidMin>
       <ValidMax>59</ValidMax>
       <FillValue>-2147483648</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Location, Radial Distance, RJ, RHSII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -229,15 +243,15 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Jovian Radii</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>Magnitude</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Location, Co-Latitude, RHSIII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -250,20 +264,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>JSO</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>R Theta</AxisLabel>
         <ValueFormat>F6.1</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spacecraft Location, East Longitude, RHSIII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -276,20 +290,20 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>JSO</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>R Phi</AxisLabel>
         <ValueFormat>F7.1</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>VIPER Fit Case Number</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -301,14 +315,14 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Fit Case</AxisLabel>
         <ValueFormat>F4</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Radial Flow Velocity, RHSII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -321,12 +335,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>JSO</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Radial Velocity</AxisLabel>
         <ValueFormat>F8.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -334,8 +348,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Component.I</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Bulk Plasma Flow Velocity, East Longitude, RHSIII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -348,12 +362,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>JSO</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>V Phi Velocity</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -361,8 +375,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Component.J</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Northward Flow Velocity, RHSIII</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -375,12 +389,12 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>JSO</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Vz Velocity</AxisLabel>
         <ValueFormat>F7.2</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -388,8 +402,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Component.K</Qualifier>
         <ParticleQuantity>Velocity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Total Ion Charge Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -402,7 +416,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Charge Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>30000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -410,8 +424,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>H+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -424,7 +438,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>H+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -433,8 +447,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>H+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -446,7 +460,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>H+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -455,8 +469,8 @@
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
         <AtomicNumber>1</AtomicNumber>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>O+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -469,7 +483,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>O+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -477,8 +491,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>O+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -490,7 +504,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>O+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -498,8 +512,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>O++ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -512,7 +526,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>O++ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -520,8 +534,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>O++ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -533,7 +547,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>O++ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -541,8 +555,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -555,7 +569,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -563,8 +577,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -576,7 +590,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -584,8 +598,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S++ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -598,7 +612,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S++ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -606,8 +620,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S++ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -619,7 +633,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S++ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -627,8 +641,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S+++ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -641,7 +655,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S+++ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -649,8 +663,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>S+++ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -662,7 +676,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>S+++ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -670,8 +684,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Na+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -684,7 +698,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Na+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -692,8 +706,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Na+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -705,7 +719,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Na+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -713,8 +727,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>SO2+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -727,7 +741,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>SO2+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -735,8 +749,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>SO2+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -748,7 +762,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>SO2+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -756,8 +770,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Hot O+ Number Density</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -770,7 +784,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Hot O+ Density</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -778,8 +792,8 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>NumberDensity</ParticleQuantity>
-</Particle>
-</Parameter>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Hot O+ Temperature</Name>
       <Set>Time Series defined by using: EPOCH</Set>
@@ -791,7 +805,7 @@
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Hot O+ Temperature</AxisLabel>
         <ValueFormat>F12.6</ValueFormat>
-</RenderingHints>
+      </RenderingHints>
       <ValidMin>0.0</ValidMin>
       <ValidMax>10000.0</ValidMax>
       <FillValue>-1.0e+31</FillValue>
@@ -799,7 +813,7 @@
         <ParticleType>Ion</ParticleType>
         <Qualifier>Scalar</Qualifier>
         <ParticleQuantity>Temperature</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

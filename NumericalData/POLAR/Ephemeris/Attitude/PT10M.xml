@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/Ephemeris/Attitude/PT10M</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Attitude Data, 10 min Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Polar Attitude data, 10-min GSE and GSM (originally "predicted," but so good that generation of "definitive" data were dropped)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -35,6 +35,20 @@
         <Description>PO_AT_PRE</Description>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_AT_PRE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/POLAR/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>

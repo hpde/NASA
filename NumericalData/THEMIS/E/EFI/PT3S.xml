@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/E/EFI/PT3S</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-E (P4), Electric Field Instrument (EFI) Spacecraft measured Electric Field</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
-      <Description>THEMIS-E: Electric Field Instrument, EFI, Electric Field Measurements. The L2 Product is a 3D Estimate of the perpnedicular Electric Field, Eperp, derived from the Spin Plane E-Field Measurements assuming E &#x22C5; B = 0, using relevant Flux-Gate Magnetometer, FGM, Data. This Data Product includes Spin-Averaged, and Fast Survey Field Data. The Spin-Averaged Data, EFS_DOT0, has approximately 3 s Time Resolution. Fast Survey, EFF_DOT0, Data has 0.125 s Time Resolution.</Description>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <Description>THEMIS-E: Electric Field Instrument, EFI, Electric Field Measurements. The L2 Product is a 3D Estimate of the perpnedicular Electric Field, Eperp, derived from the Spin Plane E-Field Measurements assuming E ⋅ B = 0, using relevant Flux-Gate Magnetometer, FGM, Data. This Data Product includes Spin-Averaged, and Fast Survey Field Data. The Spin-Averaged Data, EFS_DOT0, has approximately 3 s Time Resolution. Fast Survey, EFF_DOT0, Data has 0.125 s Time Resolution.</Description>
       <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
@@ -49,7 +49,7 @@
         <Description>THEMIS Rules of the Road, Details on the THEMIS Data Policy and on Publication Citation</Description>
       </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/E/EFI/PT3S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/E/EFI/PT3S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/E/EFI/PT3S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -73,6 +73,25 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THE_L2_EFI@0</ProductKey>
+        <ProductKey>THE_L2_EFI@1</ProductKey>
+        <ProductKey>THE_L2_EFI@2</ProductKey>
+        <ProductKey>THE_L2_EFI@3</ProductKey>
+        <ProductKey>THE_L2_EFI@4</ProductKey>
+        <ProductKey>THE_L2_EFI@5</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>V. Angelopoulos, J. Bonnell, F. Mozer, NASA Contract NAS5-02099. Open Data for Scientific Use. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
@@ -106,9 +125,9 @@
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Caveats>Measurements on the Axial booms, 5 &amp; 6, may have large Errors due to their Proximity to the Spacecraft as the Axial Booms are much shorter than other Booms. The Spin Plane Booms for THEMIS were not deployed until January 14, 2008 at 1700 UT. Any EFI Measurements obtained prior to this Date and Time should not be used. See the THEMIS Website for more Information.</Caveats>
     <Parameter>
-      <Name>Epoch for Electric Field, Slow Survey using E&#x22C5;B=0, 3 s</Name>
+      <Name>Epoch for Electric Field, Slow Survey using E⋅B=0, 3 s</Name>
       <ParameterKey>the_efs_dot0_epoch</ParameterKey>
-      <Description>Epoch for Electric Field Vector, Slow Survey using E&#x22C5;B=0, 3 s Data</Description>
+      <Description>Epoch for Electric Field Vector, Slow Survey using E⋅B=0, 3 s Data</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function COMP_THEMIS_EPOCH with the following input parameters: the_efs_dot0_epoch0, the_efs_dot0_time.</Caveats>
       <Cadence>PT3S</Cadence>
       <RenderingHints>
@@ -122,10 +141,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Slow Survey using E&#x22C5;B=0, GSE XYZ, 3 s</Name>
+      <Name>Electric Field, Slow Survey using E⋅B=0, GSE XYZ, 3 s</Name>
       <Set>Time series defined by using: THE_EFS_DOT0_EPOCH</Set>
       <ParameterKey>the_efs_dot0_gse</ParameterKey>
-      <Description>Electric Field Vector, Slow Survey using E&#x22C5;B=0, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates, 3 s Data</Description>
+      <Description>Electric Field Vector, Slow Survey using E⋅B=0, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates, 3 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -171,10 +190,10 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Slow Survey using E&#x22C5;B=0, GSM XYZ, 3 s</Name>
+      <Name>Electric Field, Slow Survey using E⋅B=0, GSM XYZ, 3 s</Name>
       <Set>Time series defined by using: THE_EFS_DOT0_EPOCH</Set>
       <ParameterKey>the_efs_dot0_gsm</ParameterKey>
-      <Description>Electric Field Vector, Slow Survey using E&#x22C5;B=0, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, 3 s Data</Description>
+      <Description>Electric Field Vector, Slow Survey using E⋅B=0, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, 3 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -220,10 +239,10 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Slow Survey using E&#x22C5;B=0, DSL XYZ, 3 s</Name>
+      <Name>Electric Field, Slow Survey using E⋅B=0, DSL XYZ, 3 s</Name>
       <Set>Time series defined by using: THE_EFS_DOT0_EPOCH</Set>
       <ParameterKey>the_efs_dot0_dsl</ParameterKey>
-      <Description>Electric Field Vector, Slow Survey using E&#x22C5;B=0, Despun Spacecraft, DSL, Cartesian Coordinates, 3 s Data</Description>
+      <Description>Electric Field Vector, Slow Survey using E⋅B=0, Despun Spacecraft, DSL, Cartesian Coordinates, 3 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -269,9 +288,9 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Epoch Time, UTC, for Electric Field, Slow Survey using E&#x22C5;B=0, 3 s</Name>
+      <Name>Epoch Time, UTC, for Electric Field, Slow Survey using E⋅B=0, 3 s</Name>
       <ParameterKey>the_efs_dot0_time</ParameterKey>
-      <Description>Time, UTC, in Seconds since 1970-01-01, for Electric Field Vector, Slow Survey using E&#x22C5;B=0, 3 s Data</Description>
+      <Description>Time, UTC, in Seconds since 1970-01-01, for Electric Field Vector, Slow Survey using E⋅B=0, 3 s Data</Description>
       <Caveats>Unleaped seconds</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>s</Units>
@@ -393,9 +412,9 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Epoch0 for Electric Field, Slow Survey using E&#x22C5;B=0, 3 s</Name>
+      <Name>Epoch0 for Electric Field, Slow Survey using E⋅B=0, 3 s</Name>
       <ParameterKey>the_efs_dot0_epoch0</ParameterKey>
-      <Description>Epoch0 for Electric Field Vector, Slow Survey using E&#x22C5;B=0</Description>
+      <Description>Epoch0 for Electric Field Vector, Slow Survey using E⋅B=0</Description>
       <Caveats>EPOCH of 01-Jan-1970 00:00:00</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>ms</Units>
@@ -412,9 +431,9 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Epoch for Electric Field, Fast Survey using E&#x22C5;B=0, 1/8 s</Name>
+      <Name>Epoch for Electric Field, Fast Survey using E⋅B=0, 1/8 s</Name>
       <ParameterKey>the_eff_dot0_epoch</ParameterKey>
-      <Description>Epoch for Electric Field Vector, Fast Survey using E&#x22C5;B=0, 1/8 s Data</Description>
+      <Description>Epoch for Electric Field Vector, Fast Survey using E⋅B=0, 1/8 s Data</Description>
       <Caveats>This parameter is virtual. It is calculated by calling the function COMP_THEMIS_EPOCH with the following input parameters: the_eff_dot0_epoch0, the_eff_dot0_time.</Caveats>
       <Cadence>PT3S</Cadence>
       <RenderingHints>
@@ -428,10 +447,10 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Fast Survey using E&#x22C5;B=0, GSE XYZ, 1/8 s</Name>
+      <Name>Electric Field, Fast Survey using E⋅B=0, GSE XYZ, 1/8 s</Name>
       <Set>Time series defined by using: THE_EFF_DOT0_EPOCH</Set>
       <ParameterKey>the_eff_dot0_gse</ParameterKey>
-      <Description>Electric Field Vector, Fast Survey using E&#x22C5;B=0, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates, 1/8 s Data</Description>
+      <Description>Electric Field Vector, Fast Survey using E⋅B=0, Geocentric Solar Ecliptic, GSE, Cartesian Coordinates, 1/8 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -477,10 +496,10 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Fast Survey using E&#x22C5;B=0, GSM XYZ, 1/8 s</Name>
+      <Name>Electric Field, Fast Survey using E⋅B=0, GSM XYZ, 1/8 s</Name>
       <Set>Time series defined by using: THE_EFF_DOT0_EPOCH</Set>
       <ParameterKey>the_eff_dot0_gsm</ParameterKey>
-      <Description>Electric Field Vector, Fast Survey using E&#x22C5;B=0, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, 1/8 s Data</Description>
+      <Description>Electric Field Vector, Fast Survey using E⋅B=0, Geocentric Solar Magnetospheric, GSM, Cartesian Coordinates, 1/8 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -526,10 +545,10 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Electric Field, Fast Survey using E&#x22C5;B=0, DSL XYZ, 1/8 s</Name>
+      <Name>Electric Field, Fast Survey using E⋅B=0, DSL XYZ, 1/8 s</Name>
       <Set>Time series defined by using: THE_EFF_DOT0_EPOCH</Set>
       <ParameterKey>the_eff_dot0_dsl</ParameterKey>
-      <Description>Electric Field Vector, Fast Survey using E&#x22C5;B=0, Despun Spacecraft, DSL, Cartesian Coordinates, 1/8 s Data</Description>
+      <Description>Electric Field Vector, Fast Survey using E⋅B=0, Despun Spacecraft, DSL, Cartesian Coordinates, 1/8 s Data</Description>
       <Caveats>Units are in mV/m Average Type: standard</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>mV/m</Units>
@@ -575,9 +594,9 @@
       </Field>
     </Parameter>
     <Parameter>
-      <Name>Epoch Time, UTC, for Electric Field, Fast Survey using E&#x22C5;B=0, 1/8 s</Name>
+      <Name>Epoch Time, UTC, for Electric Field, Fast Survey using E⋅B=0, 1/8 s</Name>
       <ParameterKey>the_eff_dot0_time</ParameterKey>
-      <Description>Time, UTC, in Seconds since 1970-01-01, for Electric Field Vector, Fast Survey using E&#x22C5;B=0, 1/8 s Data</Description>
+      <Description>Time, UTC, in Seconds since 1970-01-01, for Electric Field Vector, Fast Survey using E⋅B=0, 1/8 s Data</Description>
       <Caveats>Unleaped seconds</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>s</Units>
@@ -865,9 +884,9 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>Epoch0 for Electric Field, Fast Survey using E&#x22C5;B=0, 1/8 s</Name>
+      <Name>Epoch0 for Electric Field, Fast Survey using E⋅B=0, 1/8 s</Name>
       <ParameterKey>the_eff_dot0_epoch0</ParameterKey>
-      <Description>Epoch0 for Electric Field Vector, Fast Survey using E&#x22C5;B=0</Description>
+      <Description>Epoch0 for Electric Field Vector, Fast Survey using E⋅B=0</Description>
       <Caveats>EPOCH of 01-Jan-1970 00:00:00</Caveats>
       <Cadence>PT3S</Cadence>
       <Units>ms</Units>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -5,28 +6,28 @@
     <ResourceHeader>
       <ResourceName>Wind EPACT/LEMT 1-Hr He,C,O,Ne,Si,Fe Solar Energetic Particle Intensities Level 2 Data</ResourceName>
       <DOI>https://doi.org/10.48322/n0f2-3519</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Hourly-averaged fluxes of He, C, O Ne,Si, Fe nuclei in the general range 2-11 MeV/n. Poisson uncertainties are given for each flux.</Description>
       <Acknowledgement>Dr. Tycho T. Von Rosenvinge</Acknowledgement>
       <PublicationInfo>
-          <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V; Tan, Lun, C</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Rosenvinge, Tycho, T, Von; Reames, Donald, V; Tan, Lun, C</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.V.Reames</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
-        <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/L2/PT1H</PriorID>
-</ResourceHeader>
+      </Contact>
+      <PriorID>spase://VSPO/NumericalData/Wind/EPACT/LEMT/L2/PT1H</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -35,15 +36,15 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/wind/epact/epact_l2-1hour-sep/</URL>
         <Description>In CDF via ftp from CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/epact/epact_l2-1hour-sep/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -52,19 +53,33 @@
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WI_L2-1HOUR-SEP_EPACT-LEMT&amp;index=sp_phys</URL>
         <ProductKey>WI_L2-1HOUR-SEP_EPACT-LEMT</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_L2-1HOUR-SEP_EPACT-LEMT</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>NASA Space Physics Data Facility (SPDF) CDAWeb.</Acknowledgement>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Wind/EPACT</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1994-11-03T00:00:00.000Z</StartDate>
         <RelativeStopDate>-P30D</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT1H</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <Parameter>
       <Name>Epoch Time</Name>
       <ParameterKey>Epoch</ParameterKey>
@@ -76,8 +91,8 @@
       <FillValue>-1.0E31</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Helium Flux</Name>
       <ParameterKey>flux_He</ParameterKey>
@@ -88,7 +103,7 @@
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -97,9 +112,9 @@ of the 7 energy windows</Description>
           <Low>2</Low>
           <High>9.64</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Carbon Flux</Name>
       <ParameterKey>flux_C</ParameterKey>
@@ -110,7 +125,7 @@ of the 7 energy windows</Description>
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -119,9 +134,9 @@ of the 7 energy windows</Description>
           <Low>2.57</Low>
           <High>13.7</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Oxygen Flux</Name>
       <ParameterKey>flux_O</ParameterKey>
@@ -132,7 +147,7 @@ of the 7 energy windows</Description>
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -141,9 +156,9 @@ of the 7 energy windows</Description>
           <Low>2.56</Low>
           <High>13.4</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Neon Flux</Name>
       <ParameterKey>flux_Ne</ParameterKey>
@@ -154,7 +169,7 @@ of the 7 energy windows</Description>
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -163,9 +178,9 @@ of the 7 energy windows</Description>
           <Low>3.27</Low>
           <High>12.7</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Silicon Flux</Name>
       <ParameterKey>flux_Si</ParameterKey>
@@ -176,7 +191,7 @@ of the 7 energy windows</Description>
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -185,9 +200,9 @@ of the 7 energy windows</Description>
           <Low>2.5</Low>
           <High>13.6</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Iron Flux</Name>
       <ParameterKey>flux_Fe</ParameterKey>
@@ -198,7 +213,7 @@ of the 7 energy windows</Description>
         <Size>7 1</Size>
         <Description>This is a 7 x 1 matrix, with 7 rows for each
 of the 7 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleType>Ion</ParticleType>
@@ -207,8 +222,8 @@ of the 7 energy windows</Description>
           <Low>2.4</Low>
           <High>12.5</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
-</NumericalData>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

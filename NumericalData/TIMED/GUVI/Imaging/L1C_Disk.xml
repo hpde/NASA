@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI Imaging Level 1C Disk</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This Level 1C data product measured over multiple scans on the disk contains data directly measure by the sensors such as photometer counts, uncertainties, light intensities and pointing information derived from the GUVI raw sensor data and the TIMED Satellite ephemeris data. The data are geolocated at a 150 km altitude, then gridded and binned to a 25 km X 25 km resolution GUVI-based coordinate system consisting of the along orbit position of the sensor and the angle of the scan from the nadir position. This gridding eliminates overlap from scan to scan due to the large instantaneous field-of-view of GUVI (about 12 degrees) and involves coaddition to place the values on a uniform instrument shared grid. The data is then determined whether its from day, night, aurora or twilight pixels.</Description>
       <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       <Contact>
@@ -17,7 +17,7 @@
         <URL>http://guvitimed.jhuapl.edu/sites/default/files/data/documents/L1C_datainfo.pdf</URL>
       </InformationURL>
       <PriorID>spase://VITMO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
-        <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
+      <PriorID>spase://VSPO/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/TIMED/GUVI_POC</RepositoryID>
@@ -60,6 +60,21 @@
         <Description>TIMED GUVI Imaging L1C data with subset, plot, list from CDAWeb</Description>
       </AccessURL>
       <Format>Text</Format>
+      <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>TIMED_L1CDISK_GUVI@0</ProductKey>
+        <ProductKey>TIMED_L1CDISK_GUVI@1</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the support from the CDAWeb team at GSFC/SPDF.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -306,7 +321,7 @@
     <Parameter>
       <Name>Data Region</Name>
       <ParameterKey>DataRegion</ParameterKey>
-      <Description>Data Region where Bit 0: Dayside 0&#xB0;&lt;SZA&lt;90&#xB0;; Bit 1: Nightside 110&#xB0;&lt;SZA&lt;180&#xB0;; Bit 2: Twilight 90&#xB0;&lt;SZA&lt;110&#xB0;; Bit 3: Polar Region 50&#xB0; &lt; Geomaglat &lt; 90&#xB0;; Bit 4: Equatorial Region 0&#xB0;&lt; Geomaglat &lt;50&#xB0;; Bit 5,6: Unused; Bit 7: Unknown region. Valid values are [1 = daylight; 2 = night; 4 = twilight; 8 = Polar; 9 = Daylight Polar; 10 = Night Polar; 12 = Twilight polar; 16 = Equatorial; 17 = Daylight equatorial; 18 = night equatorial; 20 = twilight equatorial; 128 = Geolocation error]</Description>
+      <Description>Data Region where Bit 0: Dayside 0°&lt;SZA&lt;90°; Bit 1: Nightside 110°&lt;SZA&lt;180°; Bit 2: Twilight 90°&lt;SZA&lt;110°; Bit 3: Polar Region 50° &lt; Geomaglat &lt; 90°; Bit 4: Equatorial Region 0°&lt; Geomaglat &lt;50°; Bit 5,6: Unused; Bit 7: Unknown region. Valid values are [1 = daylight; 2 = night; 4 = twilight; 8 = Polar; 9 = Daylight Polar; 10 = Night Polar; 12 = Twilight polar; 16 = Equatorial; 17 = Daylight equatorial; 18 = night equatorial; 20 = twilight equatorial; 128 = Geolocation error]</Description>
       <Units>unitless</Units>
       <Structure>
         <Size/>

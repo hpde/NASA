@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind Magnetic Field Investigation (MFI) Data at full resolution</ResourceName>
       <DOI>https://doi.org/10.48322/0v0h-df27</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data product contains Wind MFI full resolution magnetic field magnitude and GSE and GSM Cartesian components. Time resolution is typically 0.046s or 0.092s from launch through 1997, and is 0.092s thereafter. Final Version 5 data are accessible to within about 3 months of current date, newly defined Version 4 data (with final Bz offsets and not-yet-final spacecraft position vectors) between 3 months and about 2 weeks of current date, and newly defined Version 3 data (with the most recently determined Bz offset value, not yet final for the Version 3 interval) from 2 weeks to about 2 days of current.</Description>
       <Acknowledgement>User will acknowledge the Wind MFI instrument team, and the server from which the data were accessed, in any publication resulting from the use of these data.</Acknowledgement>
       <PublicationInfo>
-          <Authors>Koval, Andriy; Szabo, Adam</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Koval, Andriy; Szabo, Adam</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Andriy.Koval</PersonID>
@@ -24,7 +24,7 @@
         <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/Wind/MFI/PT0.092S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Wind/MFI/PT0.092S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/MFI/PT0.092S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
@@ -66,6 +66,20 @@
         <Description>CDAWeb interactive interface for subsets, plots and lists of MFI data</Description>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_H2_MFI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Wind/MFI</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>

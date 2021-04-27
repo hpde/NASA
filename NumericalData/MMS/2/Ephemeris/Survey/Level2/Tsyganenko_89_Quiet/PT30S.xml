@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/MMS/2/Ephemeris/Survey/Level2/Tsyganenko_89_Quiet/PT30S</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS 2 Magnetic Ephemeris and Coordinates (MEC) Magnetic Ephemeris and Support (Tsyganenko 1989 Model, Quiet Conditions), Quick-Look Survey</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Magnetospheric Multiscale 2 (MMS 2) spacecraft position, velocity, attitude, angular momentum vector, and magnetic ephemeris and coordinates (MEC), Level-2 science data at Quick-Look (30 s) time resolution. The Magnetic ephemeris data are calculated by using the Tsyganenko 1989 magnetic field model for quiet magnetospheric conditions. Many variables are included in this data product including the magnetic field measured at the spacecraft. If possible, the northern and southern hemisphere footpoints of the spacecraft are found by tracing along the magnetic field line threading through the spacecraft per the given Tsyganenko and internal magnetic field models. The northern and southern hemisphere loss cone angles are also given. The magnetic field strength at the footpoints and the minimum magnetic field strength along the field line are also calculated by using the field models. Other variables list the spacecraft L-shell, the magnetic local time, the magnetic latitude and longitude, and whether the threading field line is open, closed, etc. Rotational quaternions are provided to allow coordinate transformation from GEI into 6 other coordinate systems including BSC, GEO, GSE, GSE2000, GSE, and SM. The list of ancillary variables includes the dipole tilt angle, the Dst and Kp actvity indices, and separate flags that denote satellite eclipse by the Earth and Moon.</Description>
       <Acknowledgement>M.G. Henderson, S.K. Morley</Acknowledgement>
       <Contact>
@@ -34,7 +34,7 @@
         <URL>https://lasp.colorado.edu/mms/sdc/public/datasets/mec/</URL>
         <Description>The Magnetospheric Multiscale (MMS) Mission home page hosted by the Laboratory of Atmospheric and Space Physics, Science Data Center (LASP, SDC) at the University of Colorado, Boulder.</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/MMS/2/Ephemeris/Survey/Level2/Tsyganenko_89_Quiet/PT30S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/MMS/2/Ephemeris/Survey/Level2/Tsyganenko_89_Quiet/PT30S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -58,6 +58,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>M.G. Henderson, S.K. Morley. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>MMS2_MEC_SRVY_L2_EPHT89Q</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>M.G. Henderson, S.K. Morley. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -105,7 +119,7 @@
       <ParameterKey>mms2_mec_dipole_tilt</ParameterKey>
       <Description>mms2_mec_dipole_tilt</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>mms2_mec_dipole_tilt</AxisLabel>
@@ -126,7 +140,7 @@
       <ParameterKey>mms2_mec_gmst</ParameterKey>
       <Description>mms2_mec_gmst</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>mms2_mec_gmst</AxisLabel>
@@ -147,7 +161,7 @@
       <ParameterKey>mms2_mec_mlat</ParameterKey>
       <Description>mms2_mec_mlat</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -256,7 +270,7 @@
       <ParameterKey>mms2_mec_ang_mom_vec</ParameterKey>
       <Description>mms2_mec_ang_mom_vec</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -292,7 +306,7 @@
       <ParameterKey>mms2_mec_ang_mom_phase</ParameterKey>
       <Description>mms2_mec_ang_mom_phase</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -1075,7 +1089,7 @@
       <ParameterKey>mms2_mec_geod_lat</ParameterKey>
       <Description>mms2_mec_geod_lat</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -1100,7 +1114,7 @@
       <ParameterKey>mms2_mec_geod_lon</ParameterKey>
       <Description>mms2_mec_geod_lon</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -1315,7 +1329,7 @@
       <ParameterKey>mms2_mec_loss_cone_angle_s</ParameterKey>
       <Description>mms2_mec_loss_cone_angle_s</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>mms2_mec_loss_cone_angle_s</AxisLabel>
@@ -1336,7 +1350,7 @@
       <ParameterKey>mms2_mec_loss_cone_angle_n</ParameterKey>
       <Description>mms2_mec_loss_cone_angle_n</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <AxisLabel>mms2_mec_loss_cone_angle_n</AxisLabel>
@@ -1357,7 +1371,7 @@
       <ParameterKey>mms2_mec_pfs_geod_latlon</ParameterKey>
       <Description>mms2_mec_pfs_geod_latlon</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -1393,7 +1407,7 @@
       <ParameterKey>mms2_mec_pfn_geod_latlon</ParameterKey>
       <Description>mms2_mec_pfn_geod_latlon</Description>
       <Cadence>PT30S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>

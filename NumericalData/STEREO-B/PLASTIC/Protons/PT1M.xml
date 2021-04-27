@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-B/PLASTIC/Protons/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B Plasma and Suprathermal Ion Composition (PLASTIC) 1-min Proton Plasma Parameters</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data product contains 1-minute values of solar wind proton flow speed, density, and temperature and corresponding thermal speed. The records also hold flow velocity vector components and direction angles in HERTN and RTN coordinates. Chi-squared and statistical uncertainties are included, as are various flags. STEREO position information is given in radial distance and HEE, HEEQ and HCI direction angles.</Description>
       <Acknowledgement>Please acknowledge STEREO PLASTIC Investigation (A.B. Galvin, PI) and NASA Contract NAS5-00132.</Acknowledgement>
       <Contact>
@@ -17,7 +17,7 @@
         <URL>http://stereo.sr.unh.edu/data/PLASTIC_Resources/index.htm</URL>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/STEREO-B/PLASTIC/Protons/PT1M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Protons/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/PLASTIC/Protons/PT1M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -29,6 +29,20 @@
         <ProductKey>STB_L2_PLA_1DMAX_1MIN</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STB_L2_PLA_1DMAX_1MIN</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

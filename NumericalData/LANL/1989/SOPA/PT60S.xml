@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>LANL 1989 Synchronous Orbit Particle Analyzer (SOPA) at 60 sec Resolution in Spacecraft Coordinates</ResourceName>
       <AlternateName>LANL 046 SOPA data</AlternateName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The LANL 1989-046 SOPA data set contains various parameters in a variety of coordinates systems including GEI, spacecraft, polar geographic, and polar magnetic coordinates at about 60 s resolution. These parameters include universal time, spacecraft location, electron and on density, electron and on temperature, electron and ion particle flux, electron and ion energies, electron and ion rangies, and data quality flags. </Description>
       <Acknowledgement>Los Alamos National Laboratory;  Dr. Reiner Friedel</Acknowledgement>
       <Contact>
@@ -29,7 +29,7 @@
       <PriorID>spase://VSPO/NumericalData/P_LANL1989_HDR_SPA_60S</PriorID>
       <PriorID>spase://VMO/NumericalData/LANL/LANL1989/SOPA/PT60S</PriorID>
       <PriorID>spase://VMO/NumericalData/LANL/1989/SOPA/PT60S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/LANL/1989/SOPA/PT60S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/LANL/1989/SOPA/PT60S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -51,6 +51,20 @@
         <Description>Synchronous Orbit Particle Analyzer data on LANL 046.</Description>
       </AccessURL>
       <Format>CDF</Format>
+      <Acknowledgement>LANL;  Dr. Reiner Friedel</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>L9_K0_SPA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>LANL;  Dr. Reiner Friedel</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

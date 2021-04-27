@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-A/IMPACT/Burst/L1/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-A In-Situ Measurements of Particles and CME Transients (IMPACT) Burst Criteria</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>STEREO Ahead In-situ Measurements of Particles and CME Transients, IMPACT, Burst Criteria, Level 1 Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/Burst/L1/PT2S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-A/IMPACT/Burst/L1/PT2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +49,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STA_L1_IMPACT_BURST</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/B/EFW/L2/MGSE/PT11S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe B Spinfit DC Electric Field estimates level-2 in M-GSE coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This data set contains spinfit DC Electric Field estimates in M-GSE coordinates that are measured by the Electric Field and Waves Suite (EFW) onboard Van Allen Probe A.  One 2D vector estimate of the E-field is computed at a cadence of once per spin period (typically 10.7 to 11.1 s) using the survey E-field data product - the potential difference between EFW sensors V1 and V2 (E12) sampled at a nominal rate of 32 samp/s with a resolution of 16 bits.
 
 The X-component of the E-field estimate, corresponding to the axial component in the spacecraft coordinate system, is set to zero in this data product.  See the EFW-FAQ (http://rbsp.space.umn.edu/efw_faq.html) for a discussion of this convention for this data product.
@@ -35,7 +35,7 @@ The root mean square residual between the data included in the fit and the resul
       <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/MGSE/PT11S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/B/EFW/L2/E-SPINFIT-MGSE/UTC</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSPB_EFW-L2/UTC</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/L2/MGSE/PT11S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/L2/MGSE/PT11S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -64,6 +64,21 @@ The root mean square residual between the data included in the fit and the resul
         <ProductKey>RBSPB_EFW-L2_E-SPINFIT-MGSE</ProductKey>
       </AccessURL>
       <Format>Text</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSPB_EFW-L2_E-SPINFIT-MGSE@0</ProductKey>
+        <ProductKey>RBSPB_EFW-L2_E-SPINFIT-MGSE@1</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/RBSP/B/EFW</InstrumentID>
     <MeasurementType>ElectricField</MeasurementType>

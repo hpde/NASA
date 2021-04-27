@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ACE/SWEPAM/L2/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) Plasma Moments, Level 2 (H2), 1 h Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This Data Product contains Measurements from the ACE Solar Wind Electron Proton Alpha Monitor (SWEPAM) Instrument. The Quality of the ACE Level 2 Data are such that it is suitable for serious Scientific Study. However, to avoid Confusion and Misunderstanding, it is recommended that Users consult with the appropriate ACE Team Members before publishing Work derived from the Data. The ACE Team has worked hard to ensure that the Level 2 Data are free from Errors, but the Team cannot accept Responsibility for erroneous Data, or for Misunderstandings about how the Data may be used. This is especially true if the appropriate ACE Team Members are not consulted before Publication. At the very least, Preprints should be forwarded to the ACE Team before Publication. SWEPAM References: http://www.srl.caltech.edu/ACE/</Description>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. See the Rules Of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html.</Acknowledgement>
       <Contact>
@@ -40,7 +41,7 @@
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT3600S</PriorID>
       <PriorID>spase://VSPO/NumericalData/P_ACE_HDR_SWEPAM_1HR</PriorID>
-        <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/ACE/SWEPAM/L2/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -64,6 +65,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. See the Rules Of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>AC_H2_SWE</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>D.J. McComas, Please acknowledge the Principal Investigator, D.J. McComas, Southwest Research Institute. See the Rules Of Use available from the ACE Science Center at: http://www.srl.caltech.edu/ace/asc/level2/policy_lvl2.html. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProviderProcessingLevel>Calculated</ProviderProcessingLevel>

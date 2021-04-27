@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/IMP8/GME/PT30M</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Goddard Medium Energy (GME) 30-min energetic particle rates and fluxes</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This CDAWeb-accessible data set contains 30-minute,
 spin-averaged count rates and fluxes, and their statistical uncertainties,
 of energetic particles from the IMP8 GME experiment.  Included are fluxes
@@ -16,18 +17,18 @@ coincidence modes.  Proton and alpha particle fluxes, for every other energy bin
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A-09</URL>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>CDAWeb Skeleton Table</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/software/cdawlib/0SKELTABLES/i8_h0_gme_00000000_v01.skt</URL>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VEPO/NumericalData/IMP8/GME/PT30M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/IMP8/GME/PT30M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/IMP8/GME/PT30M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -36,25 +37,39 @@ coincidence modes.  Proton and alpha particle fluxes, for every other energy bin
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_gme/data/flux/gme_h0/</URL>
         <Description>ftp access to 6-month CDF files</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/particles_gme/data/flux/gme_h0/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=I8_H0_GME&amp;index=sp_phys</URL>
         <ProductKey>I8_H0_GME</ProductKey>
         <Description>Subset, plot and list via CDAWeb; ASCII output option</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <DataExtent>
         <Quantity>200</Quantity>
         <Units>MB</Units>
-</DataExtent>
+      </DataExtent>
       <Acknowledgement>Acknowledge Robert E. McGuire, the PI, and CDAWeb</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>I8_H0_GME</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement>Acknowledge Robert E. McGuire, the PI, and CDAWeb</Acknowledgement>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -63,24 +78,24 @@ coincidence modes.  Proton and alpha particle fluxes, for every other energy bin
         <Name>FTPBrowser</Name>
         <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/imp8_gme_30m.html</URL>
         <Description>Subset, plot and list H and He fluxes</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>Multi-Source Spectral Plot</Name>
         <URL>https://omniweb.sci.gsfc.nasa.gov/ftpbrowser/flux_spectr_m.html</URL>
         <Description>Spectral plots and power law fits for arbitrary durations for H and He fluxes</Description>
-</AccessURL>
+      </AccessURL>
       <Format>Text</Format>
       <Acknowledgement>Acknowledge Robert E. McGuire, the PI, SPDF and the service used</Acknowledgement>
-</AccessInformation>
+    </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/IMP8/MCGUIRE</InstrumentID>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1973-11-01T00:00:00</StartDate>
         <StopDate>2001-10-26T00:00:00</StopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT30M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <Parameter>
       <Name>Proton fluxes</Name>
@@ -93,7 +108,7 @@ uncertainties in these fluxes</Description>
         <Size>30 2</Size>
         <Description>Array of fluxes and corresponding uncertainties at 30
 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>Proton</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
@@ -102,9 +117,9 @@ energy windows</Description>
           <Low>0.88</Low>
           <High>485</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Alpha particle fluxes</Name>
       <Description>Spin-integrated fluxes of alpha particles, at 30-min
@@ -116,7 +131,7 @@ MeV/n, and statistical uncertainties in these fluxes</Description>
         <Size>21 2</Size>
         <Description>Array of fluxes and corresponding uncertainties at 21
 energy windows</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>AlphaParticle</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
@@ -125,9 +140,9 @@ energy windows</Description>
           <Low>1.14</Low>
           <High>81</High>
           <Units>MeV/n</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Electron fluxes</Name>
       <Description>Spin-integrated fluxes of 3-18 MeV electrons, at
@@ -137,7 +152,7 @@ energy windows</Description>
       <Structure>
         <Size>2</Size>
         <Description>Array of one flux and its corresponding uncertainty</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
@@ -145,9 +160,9 @@ energy windows</Description>
           <Low>3</Low>
           <High>18</High>
           <Units>MeV</Units>
-</EnergyRange>
-</Particle>
-</Parameter>
+        </EnergyRange>
+      </Particle>
+    </Parameter>
     <Parameter>
       <Name>Electron background fluxes</Name>
       <Description>Spin-integrated fluxes considered as background
@@ -158,11 +173,11 @@ uncertainties in these fluxes</Description>
       <Structure>
         <Size>2</Size>
         <Description>Array of one flux and its corresponding uncertainty</Description>
-</Structure>
+      </Structure>
       <Particle>
         <ParticleType>Electron</ParticleType>
         <ParticleQuantity>NumberFlux</ParticleQuantity>
-</Particle>
-</Parameter>
-</NumericalData>
+      </Particle>
+    </Parameter>
+  </NumericalData>
 </Spase>

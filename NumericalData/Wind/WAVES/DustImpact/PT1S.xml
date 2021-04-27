@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Wind Plasma and Radio Waves (WAVES) Time Domain Sampler (TDS) Dust Impact, Level 3, 1 s Data</ResourceName>
       <DOI>https://doi.org/10.48322/635a-nc73</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
-      <Description>Wind WAVES Time Domain Sampler, TDS, Dust Data File References: 1) Bougeret, J.-L., et al., WAVES: The Radio and Plasma Wave Investigation on the Wind Spacecraft, Space Sci. Rev., 71, 231-263, 1995, doi:10.1007/BF00751331. 2) Malaspina, D.M., M. Horanyi, A. Zaslavsky, K. Goetz, L.B. Wilson III, and K. Kersten, Interplanetary and Interstellar Dust observed by the Wind/WAVES Electric Field Instrument, Geophys. Res. Lett., 41, 266-272, 2014, doi:10.1002/2013GL058786. 3) Malaspina, D.M., and L.B. Wilson III, A Database of Interplanetary and Interstellar Dust Detected by the Wind Spacecraft, J. Geophys. Res., 121, 9369&#x2013;9377, 2016, doi:10.1002/2016JA023209.</Description>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <Description>Wind WAVES Time Domain Sampler, TDS, Dust Data File References: 1) Bougeret, J.-L., et al., WAVES: The Radio and Plasma Wave Investigation on the Wind Spacecraft, Space Sci. Rev., 71, 231-263, 1995, doi:10.1007/BF00751331. 2) Malaspina, D.M., M. Horanyi, A. Zaslavsky, K. Goetz, L.B. Wilson III, and K. Kersten, Interplanetary and Interstellar Dust observed by the Wind/WAVES Electric Field Instrument, Geophys. Res. Lett., 41, 266-272, 2014, doi:10.1002/2013GL058786. 3) Malaspina, D.M., and L.B. Wilson III, A Database of Interplanetary and Interstellar Dust Detected by the Wind Spacecraft, J. Geophys. Res., 121, 9369–9377, 2016, doi:10.1002/2016JA023209.</Description>
       <Acknowledgement>D.M. Malaspina, L.B. Wilson III, R.J. MacDowall, We would like to thank the Wind/WAVES team, especially Keith Goetz, Paul J. Kellogg, Kris Kersten, and Josh Lynch for their Support with Data Retrieval and Calibration. Please Cite or Reference the Wind WAVES Paper by J.-L. Bougeret et al., 1995 in Space Sci. Rev. and Work by D.M. Malaspina et al., 2014 in Geophys. Res. Lett., doi:10.1002/2013GL058786. We would also appreciate a Reference to the Wind Dust Impact Database Paper: D.M. Malaspina et al., 2016, in J. Geophys. Res., doi:10.1002/2016JA023209.</Acknowledgement>
       <PublicationInfo>
-         <Authors>Malaspina, David, M; Wilson III, Lynn, B; Goetz, Keith; Macdowall, Robert, J</Authors>
-         <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Malaspina, David, M; Wilson III, Lynn, B; Goetz, Keith; Macdowall, Robert, J</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/David.M.Malaspina</PersonID>
@@ -39,7 +39,7 @@
         <URL>https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016JA023209</URL>
         <Description>The Wind Database of Interplanetary and Interstellar Dust Events, JGR Article</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/Wind/WAVES/DustImpact/PT1S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/WAVES/DustImpact/PT1S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -63,6 +63,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>D.M. Malaspina, L.B. Wilson III, R.J. MacDowall, We would like to thank the Wind/WAVES team, especially Keith Goetz, Paul J. Kellogg, Kris Kersten, and Josh Lynch for their Support with Data Retrieval and Calibration. Please Cite or Reference the Wind WAVES Paper by J.-L. Bougeret et al., 1995 in Space Sci. Rev. and Work by D.M. Malaspina et al., 2014 in Geophys. Res. Lett., doi:10.1002/2013GL058786. We would also appreciate a Reference to the Wind Dust Impact Database Paper: D.M. Malaspina et al., 2016, in J. Geophys. Res., doi:10.1002/2016JA023209.. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_L3-DUSTIMPACT_WAVES</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>D.M. Malaspina, L.B. Wilson III, R.J. MacDowall, We would like to thank the Wind/WAVES team, especially Keith Goetz, Paul J. Kellogg, Kris Kersten, and Josh Lynch for their Support with Data Retrieval and Calibration. Please Cite or Reference the Wind WAVES Paper by J.-L. Bougeret et al., 1995 in Space Sci. Rev. and Work by D.M. Malaspina et al., 2014 in Geophys. Res. Lett., doi:10.1002/2013GL058786. We would also appreciate a Reference to the Wind Dust Impact Database Paper: D.M. Malaspina et al., 2016, in J. Geophys. Res., doi:10.1002/2016JA023209.. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -141,7 +155,7 @@
       <Description>Spacecraft Spin Rate</Description>
       <Caveats>The Spacecraft, SC, Spin Rate in '/s was determined by using the known Event Duration and Angle subtended during each TDS Event. This Value is accurate to much less than 1', where the Uncertainties arise from the Onboard Sample Rate Clock of the TDS Receiver and Sun Pulse Detector Time Accuracy. The Spin Period in Seconds was then determined by using 360' divided by the Spin Rate Value. Both Values assume that the Spin Rate and Spin Period are constant during the TDS Event, which should be an accurate Assumption for nearly all Events.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;/s</Units>
+      <Units>°/s</Units>
       <UnitsConversion>0.0174532925&gt;rad/s</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -275,9 +289,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Ch1ImpAnt_E_S_Angle</ParameterKey>
       <Description>Average Clockwise Angle of the Closest Ex Antenna to the Dust Impact on the Spacecraft Bus from Earth-Sun Line, roughly GSE +X, Channel 1</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -393,9 +407,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Ch2ImpAnt_E_S_Angle</ParameterKey>
       <Description>Average Clockwise Angle of the Closest Ey Antenna to the Dust Impact on the Spacecraft Bus from the Earth-Sun Line, roughly GSE +X, Channel 2</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -421,9 +435,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Pos_Ax_SCS_Angle</ParameterKey>
       <Description>Average Clockwise Angle of +Ex Antenna from the Spacecraft-Sun Line</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -449,9 +463,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Pos_Ax_E_S_Angle</ParameterKey>
       <Description>Average Clockwise Angle of +Ex Antenna from the Earth-Sun Line, roughly GSE +X</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -477,9 +491,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Pos_Ay_E_S_Angle</ParameterKey>
       <Description>Average Clockwise Angle of +Ey Antenna from the Earth-Sun Line, roughly GSE +X</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -505,9 +519,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>Pos_Ax_E_S_Delta_Angle</ParameterKey>
       <Description>Average Clockwise Angle of +Ex Antenna from the Earth-Sun Line, roughly GSE +X, Uncertainty</Description>
-      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017&#xB0;. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018&#xB0;. The Spacecraft, SC, Spin Axis is aligned within ~0.8&#xB0; of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1&#xB0;. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0&#xB0; to 360&#xB0;, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360&#xB0; that is greater than 0 &#xB0;. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
+      <Caveats>The Angle accounts for the XY-GSE Displacement of Wind but assumes Earth remains at exactly 1 AU always. The Error introduced by not including the Change of the Earth's Radial Position throughout its annual Orbit is less than ~0.017°. The Error introduced by not including the Change of the Spacecraft's Out-of-Ecliptic Displacement is less than ~0.0018°. The Spacecraft, SC, Spin Axis is aligned within ~0.8° of the South Ecliptic Pole. This varies annually due to the Differences in Torque applied to the SC Bus by Solar Radiation. The Angle can be as low as 0.1°. We define Clockwise (CW) Angles as being less than zero for CW Rotations to remain consistent with Euler Angle Notation. We define CW as viewed from the North Ecliptic Pole looking down upon the XY-GSE Plane. All Angles herein vary from 0° to 360°, Absolute Values, thus a positive Counter-Clockwise Angle corresponds to a Clockwise Angle plus 360° that is greater than 0 °. The Impact Antenna Angle depends upon the closest Impact Antenna, defined by the CDF Variables Ch01___ImpactAntenna and Ch02___ImpactAntenna. An Example Image illustrating the various Angles within these CDF Files can be found in the Malaspina and Wilson, 2016.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
@@ -534,9 +548,9 @@
       <Set>Time series defined by using: EPOCH</Set>
       <ParameterKey>ImpAnt_E_S_Delta_Angle</ParameterKey>
       <Description>Average Clockwise Angle of the E[x,y] Impact Antenna from the Earth-Sun Angle, roughly GSE +X, Uncertainty</Description>
-      <Caveats>The Impact Angle Uncertainties are mostly controlled by the Quadrant or Hemisphere in which the Dust Impact occurred. This is true for the Ch1ImpAnt_E_S_Angle and Ch2ImpAnt_E_S_Angle. This is roughly &#xB1;45&#xB0;, i.e., Quadrant, for all Events. For the other Sun Angles, that is, Pos_Ax_SCS_Angle, Pos_Ax_E_S_Angle, and Pos_Ay_E_S_Angle, the Uncertainty is controlled by the Spin Rate of the Spacecraft as determined by Event Duration and Angle subtended during an Event multiplied by the TDSF Event Duration plus the DPU Clock Latency Uncertainty, i.e., about 10.6 ms. Thus, this Uncertainty is currently less than 13&#xB0; for the Worst Case Scenario with Fastest Spin Rate and Slowest Sampling Rate. In the Best Case Scenario and for most Events, the Uncertainties drop to ~3&#xB0;.</Caveats>
+      <Caveats>The Impact Angle Uncertainties are mostly controlled by the Quadrant or Hemisphere in which the Dust Impact occurred. This is true for the Ch1ImpAnt_E_S_Angle and Ch2ImpAnt_E_S_Angle. This is roughly ±45°, i.e., Quadrant, for all Events. For the other Sun Angles, that is, Pos_Ax_SCS_Angle, Pos_Ax_E_S_Angle, and Pos_Ay_E_S_Angle, the Uncertainty is controlled by the Spin Rate of the Spacecraft as determined by Event Duration and Angle subtended during an Event multiplied by the TDSF Event Duration plus the DPU Clock Latency Uncertainty, i.e., about 10.6 ms. Thus, this Uncertainty is currently less than 13° for the Worst Case Scenario with Fastest Spin Rate and Slowest Sampling Rate. In the Best Case Scenario and for most Events, the Uncertainties drop to ~3°.</Caveats>
       <Cadence>PT1S</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>

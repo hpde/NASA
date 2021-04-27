@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
   <Version>2.3.0</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/RBSP/A/EMFISIS/WFR/L2/WaveformContinuousBurst/PT6S</ResourceID>
     <ResourceHeader>
       <ResourceName>Van Allen Probe A Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS) WaveForm Receiver (WFR) Three Axis Electric Field and Magnetic Field Continuous Burst Waveforms as 16384 Samples at 35 kS/sec, Level 2 (L2), 6 s Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Van Allen Probe A, Electric and Magnetic Field Instrument Suite and Integrated Science, EMFISIS, WaveForm Receiver, WFR, Level 2 Data. Three Axis Electric Field (Eu, Ev, Ew) and three Axis Magnetic Field (Bu, Bv, Bw) Continuous Burst Waveforms at 35 kS/s.
                       
-                      The Continuous Waveform Burst Mode is very similar to the Waveform Burst with Spectral Matrices Mode in that it produces a standard Survey Set of Spectral Matrices based on a 0.5 s Waveform Capture every 6 s. In addition, this Mode captures Continuous Waveforms for 5.968 s between each 6 s Survey Data Set, leaving a 0.032 s Gap between successive Captures. This Mode can be operated continuously for fixed Durations up to several Minutes. Alternatively, it can be used in conjunction with Burst Quality Flags that retain the best N 5.968 s Captures (N &#8804; 20) in a preset Time Interval.
+                      The Continuous Waveform Burst Mode is very similar to the Waveform Burst with Spectral Matrices Mode in that it produces a standard Survey Set of Spectral Matrices based on a 0.5 s Waveform Capture every 6 s. In addition, this Mode captures Continuous Waveforms for 5.968 s between each 6 s Survey Data Set, leaving a 0.032 s Gap between successive Captures. This Mode can be operated continuously for fixed Durations up to several Minutes. Alternatively, it can be used in conjunction with Burst Quality Flags that retain the best N 5.968 s Captures (N ≤ 20) in a preset Time Interval.
                       
                       This Description is adapted from Kletzing et al., Space Sci. Rev. (2013) 179: 127-181, https://doi.org/10.1007/s11214-013-9993-6.</Description>
       <Acknowledgement>C.A. Kletzing</Acknowledgement>
@@ -27,7 +27,7 @@
       <InformationURL>
         <Name>Van Allen Probes Home Page, JHU/APL</Name>
         <URL>http://vanallenprobes.jhuapl.edu</URL>
-        <Description>Van Allen Probes Home Page, Exploring Earth&apos;s Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
+        <Description>Van Allen Probes Home Page, Exploring Earth's Radiation Belts and the Extremes of Space Weather, Applied Physics Laboratory, Johns Hopkins University</Description>
       </InformationURL>
       <InformationURL>
         <Name>Van Allen Probes Science Gateway for access to Data, Models, Software and Tools for Researchers, Students and the General Public, JHU/APL</Name>
@@ -61,7 +61,7 @@
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST/QUICK-LOOK/PT6S</PriorID>
       <PriorID>spase://ViRBO/NumericalData/RBSP/A/EMFISIS/WFR-WAVEFORM-BURST/L2/PT1S</PriorID>
       <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR-WAVEFORM-CONTINUOUS-BURST/PT6S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/WaveformContinuousBurst/PT6S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/RBSP/A/EMFISIS/WFR/L2/WaveformContinuousBurst/PT6S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -85,6 +85,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>C.A. Kletzing. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>RBSP-A_WFR-WAVEFORM-CONTINUOUS-BURST_EMFISIS-L2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>C.A. Kletzing. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>

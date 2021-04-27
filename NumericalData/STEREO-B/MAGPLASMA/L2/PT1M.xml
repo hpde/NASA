@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients from the Magnetometer and the Plasma and Suprathermal Ion and Composition Instruments (IMPACT/MAG, PLASTIC) Solar Wind Plasma Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>STEREO-B In-situ Measurements of Particles and CME Transients, IMPACT, Magnetometer Instrument, MAG, Magnetic Field Vector and PLAsma and SupraThermal Ion Composition, PLASTIC, Solar Wind Parameter, Level 2, Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -25,9 +25,9 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
-      <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT-PLASTIC/PT1M</PriorID>   
-        <PriorID>spase://VSPO/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</PriorID>
- </ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT-PLASTIC/PT1M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/MAGPLASMA/L2/PT1M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
@@ -50,6 +50,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STB_L2_MAGPLASMA_1M</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -523,7 +537,7 @@
       <ParameterKey>Tp</ParameterKey>
       <Description>PLASTIC Proton Temperature</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;K</Units>
+      <Units>°K</Units>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>Temperature</AxisLabel>
@@ -710,7 +724,7 @@
       <ParameterKey>Cone_Angle</ParameterKey>
       <Description>PLASTIC, IMPACT/MAG Cone Angle</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
@@ -731,7 +745,7 @@
       <ParameterKey>Clock_Angle</ParameterKey>
       <Description>PLASTIC, IMPACT/MAG Clock Angle</Description>
       <Cadence>PT1M</Cadence>
-      <Units>&#xB0;</Units>
+      <Units>°</Units>
       <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>

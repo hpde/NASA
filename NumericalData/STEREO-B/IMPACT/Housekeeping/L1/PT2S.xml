@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/STEREO-B/IMPACT/Housekeeping/L1/PT2S</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B In-Situ Measurements of Particles and CME Transients (IMPACT) Housekeeping</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>STEREO-B, In-situ Measurements of Particles and CME Transients, IMPACT, Instrument, State of Health and Housekeeping, Level 1, Data</Description>
       <Acknowledgement>J. Luhmann</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
         <Description>STEREO, In-situ Measurements of Particles and CME Transients, IMPACT, Experiment and Data Descriptions</Description>
       </InformationURL>
-        <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT/Housekeeping/L1/PT2S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/STEREO-B/IMPACT/Housekeeping/L1/PT2S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -49,6 +49,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>STB_L1_IMPACT_HKP</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>J. Luhmann. Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
@@ -1032,8 +1046,8 @@
       <ParameterKey>MAGTemp</ParameterKey>
       <Description>MAG Sensor Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>MAG Temp</AxisLabel>
@@ -1076,8 +1090,8 @@
       <ParameterKey>STEUTemp</ParameterKey>
       <Description>STE-U Temp</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>STEU Temp</AxisLabel>
@@ -1098,8 +1112,8 @@
       <ParameterKey>STEUDACTemp</ParameterKey>
       <Description>STE-U Interface Printed Wiring Board, PWB, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>STEU DAC Temp</AxisLabel>
@@ -1394,8 +1408,8 @@
       <ParameterKey>SWEAMCPTemp</ParameterKey>
       <Description>SWEA Micro-Channel Plate, MCP, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>SWEA MCP Temp</AxisLabel>
@@ -1416,8 +1430,8 @@
       <ParameterKey>STEDTemp</ParameterKey>
       <Description>STE-D Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>STED Temp</AxisLabel>
@@ -1438,8 +1452,8 @@
       <ParameterKey>SWEADACTemp</ParameterKey>
       <Description>SWEA Printed Wiring Board, PWB, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>SWEA DAC Temp</AxisLabel>
@@ -2617,8 +2631,8 @@
       <ParameterKey>PTAC0_TSP</ParameterKey>
       <Description>PLASTIC Time to Amplitude Converter Board 0 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PTAC0_TSP</AxisLabel>
@@ -2639,8 +2653,8 @@
       <ParameterKey>PTAC2_TSP</ParameterKey>
       <Description>PLASTIC Time to Amplitude Converter Board 2 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PTAC2_TSP</AxisLabel>
@@ -2661,8 +2675,8 @@
       <ParameterKey>PSB0_TSP</ParameterKey>
       <Description>PLASTIC Signal Board 0 Temperature, Not in use</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PSB0_TSP</AxisLabel>
@@ -2683,8 +2697,8 @@
       <ParameterKey>PSB1_TSP</ParameterKey>
       <Description>PLASTIC Signal Board 1 Temperature, Not in use</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PSB1_TSP</AxisLabel>
@@ -2705,8 +2719,8 @@
       <ParameterKey>PTOF_HV0_TSP</ParameterKey>
       <Description>PLASTIC Time-of-Flight System High-Voltage, HV, 0 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PTOF_HV0_TSP</AxisLabel>
@@ -2727,8 +2741,8 @@
       <ParameterKey>PTOF_HV1_TSP</ParameterKey>
       <Description>PLASTIC Time-of-Flight System High-Voltage, HV, 1 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PTOF_HV1_TSP</AxisLabel>
@@ -2749,8 +2763,8 @@
       <ParameterKey>PS_C_0_TSP</ParameterKey>
       <Description>PLASTIC Spacecraft/Instrument Case Temperature 0</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PS_C_0_TSP</AxisLabel>
@@ -2771,8 +2785,8 @@
       <ParameterKey>PS_C_1_TSP</ParameterKey>
       <Description>PLASTIC Spacecraft/Instrument Case Temperature 1</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PS_C_1_TSP</AxisLabel>
@@ -2793,8 +2807,8 @@
       <ParameterKey>PLVC0_TSP</ParameterKey>
       <Description>PLASTIC Low-Voltage Converter 0 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PLVC0_TSP</AxisLabel>
@@ -2815,8 +2829,8 @@
       <ParameterKey>PLVC1_TSP</ParameterKey>
       <Description>PLASTIC Low-Voltage Converter 1 Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PLVC1_TSP</AxisLabel>
@@ -2962,8 +2976,8 @@
       <ParameterKey>PSSD_TC0</ParameterKey>
       <Description>PLASTIC Solid State Detector 0, SSD 0, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PSSD_TC0</AxisLabel>
@@ -2984,8 +2998,8 @@
       <ParameterKey>PSSD_TC1</ParameterKey>
       <Description>PLASTIC Solid State Detector 1, SSD 1, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PSSD_TC1</AxisLabel>
@@ -3006,8 +3020,8 @@
       <ParameterKey>PSSD_TC2</ParameterKey>
       <Description>PLASTIC Solid State Detector 2, SSD 2, Temperature</Description>
       <Cadence>PT2S</Cadence>
-      <Units>&#xB0;C</Units>
-      <UnitsConversion>&#xB0;C+273.15&gt;&#xB0;K</UnitsConversion>
+      <Units>°C</Units>
+      <UnitsConversion>°C+273.15&gt;°K</UnitsConversion>
       <RenderingHints>
         <DisplayType>TimeSeries</DisplayType>
         <AxisLabel>PSSD_TC2</AxisLabel>

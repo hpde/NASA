@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/A/Ephemeris/PT01M</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A Level 1 Probe State Data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The L1 STATE files contain the following data, sampled at one-minute intervals:
 
                * probe position and velocity in GEI, GSE, and GSM coordinates;
@@ -26,25 +26,25 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>THEMIS Data Overview</Name>
         <URL>http://themis.ssl.berkeley.edu/overview_data.shtml</URL>
         <Description>Overview of THEMIS data, descriptions, and data policy.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>THEMIS Data Policy and Credits</Name>
         <URL>http://themis.ssl.berkeley.edu/roadrules.shtml</URL>
         <Description>Details on THEMIS data policy and giving proper credits in publications.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>THEMIS Ephemeris Format Definition</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/documents/tdas/docs/thm_ogs_431m_ephemeris_format_definition.pdf</URL>
         <Description>Ephemeris file format and quantity details including RoI descriptions.</Description>
-</InformationURL>
+      </InformationURL>
       <PriorID>spase://VMO/NumericalData/THEMIS/A/Ephemeris/PT01M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/A/Ephemeris/PT01M</PriorID>
-</ResourceHeader>
+      <PriorID>spase://VSPO/NumericalData/THEMIS/A/Ephemeris/PT01M</PriorID>
+    </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
@@ -53,26 +53,42 @@
         <Name>FTPS from SPDF (not with most browsers)</Name>
         <URL>ftps://spdf.gsfc.nasa.gov/pub/data/themis/tha/l1/state/</URL>
         <Description>NASA/GSFC CDAWeb ftp access to the data.</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/tha/l1/state/</URL>
         <Description>In CDF via HTTP from SPDF</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L1_STATE&amp;index=sp_phys</URL>
         <ProductKey>THA_L1_STATE</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-</AccessURL>
+      </AccessURL>
       <AccessURL>
         <Name>SSCWeb</Name>
         <URL>https://sscweb.gsfc.nasa.gov/cgi-bin/Locator.cgi</URL>
         <ProductKey>themisa</ProductKey>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-</AccessInformation>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>THA_L1_STATE@0</ProductKey>
+        <ProductKey>THA_L1_STATE@1</ProductKey>
+        <ProductKey>THA_L1_STATE@2</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
+    </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCB/THEMIS</RepositoryID>
       <Availability>Online</Availability>
@@ -81,10 +97,10 @@
         <Name>THEMIS L1 state data at UC Berkeley</Name>
         <URL>http://themis.ssl.berkeley.edu/data/themis/tha/l1/state/</URL>
         <Description>CDF data files for download, organized by date.</Description>
-</AccessURL>
+      </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
-</AccessInformation>
+    </AccessInformation>
     <ProcessingLevel>Uncalibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
     <ProviderVersion>v3</ProviderVersion>
@@ -94,9 +110,9 @@
       <TimeSpan>
         <StartDate>2007-02-17T23:35:58</StartDate>
         <RelativeStopDate>-P7D</RelativeStopDate>
-</TimeSpan>
+      </TimeSpan>
       <Cadence>PT01M</Cadence>
-</TemporalDescription>
+    </TemporalDescription>
     <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
@@ -111,33 +127,33 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X GEI</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y GEI</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z GEI</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000000.0</ValidMin>
       <ValidMax>1000000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Velocity (GEI)</Name>
       <ParameterKey>tha_vel</ParameterKey>
@@ -147,33 +163,33 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx GEI</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy GEI</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz GEI</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Velocity</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Maneuver Flag</Name>
       <ParameterKey>tha_man</ParameterKey>
@@ -198,8 +214,8 @@
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A RoI</Name>
       <ParameterKey>tha_roi</ParameterKey>
@@ -230,8 +246,8 @@
       <FillValue>4294967295</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Right Ascension</Name>
       <ParameterKey>tha_spinras</ParameterKey>
@@ -241,15 +257,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Declination</Name>
       <ParameterKey>tha_spindec</ParameterKey>
@@ -259,15 +275,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>GEI</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>-90.0</ValidMin>
       <ValidMax>90.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Alpha</Name>
       <ParameterKey>tha_spinalpha</ParameterKey>
@@ -276,15 +292,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>360.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Beta</Name>
       <ParameterKey>tha_spinbeta</ParameterKey>
@@ -293,15 +309,15 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Spherical</CoordinateRepresentation>
         <CoordinateSystemName>SC</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <ValidMin>0.0</ValidMin>
       <ValidMax>180.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>DirectionAngle.PolarAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Period</Name>
       <ParameterKey>tha_spinper</ParameterKey>
@@ -312,8 +328,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin PhaseAngle</Name>
       <ParameterKey>tha_spinphase</ParameterKey>
@@ -325,8 +341,8 @@
       <Support>
         <Qualifier>PhaseAngle</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Time</Name>
       <ParameterKey>tha_state_time</ParameterKey>
@@ -338,8 +354,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spin Correction Time</Name>
       <ParameterKey>tha_spin_correction_time</ParameterKey>
@@ -351,8 +367,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Initial Spin Period</Name>
       <ParameterKey>tha_spin_spinper</ParameterKey>
@@ -363,8 +379,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Time</Name>
       <ParameterKey>tha_spin_time</ParameterKey>
@@ -376,8 +392,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin End Time</Name>
       <ParameterKey>tha_spin_tend</ParameterKey>
@@ -389,8 +405,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Drift Term ('c')</Name>
       <ParameterKey>tha_spin_c</ParameterKey>
@@ -402,8 +418,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Correction</Name>
       <ParameterKey>tha_spin_correction</ParameterKey>
@@ -415,8 +431,8 @@
       <Support>
         <Qualifier>DirectionAngle</Qualifier>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spin Axis Right Ascension Correction</Name>
       <ParameterKey>tha_spinras_correction</ParameterKey>
@@ -427,8 +443,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>Spin Axis Declination Correction</Name>
       <ParameterKey>tha_spindec_correction</ParameterKey>
@@ -439,8 +455,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Phase Error</Name>
       <ParameterKey>tha_spin_phaserr</ParameterKey>
@@ -453,8 +469,8 @@
       <Support>
         <Qualifier>Uncertainty</Qualifier>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Spin Number</Name>
       <ParameterKey>tha_spin_nspins</ParameterKey>
@@ -464,8 +480,8 @@
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Sample Number</Name>
       <ParameterKey>tha_spin_npts</ParameterKey>
@@ -475,8 +491,8 @@
       <FillValue>65535</FillValue>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Pulse Gap</Name>
       <ParameterKey>tha_spin_maxgap</ParameterKey>
@@ -487,8 +503,8 @@
       <FillValue>NaN</FillValue>
       <Support>
         <SupportQuantity>Temporal</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Position (GSE)</Name>
       <ParameterKey>tha_pos_gse</ParameterKey>
@@ -499,33 +515,33 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X GSE</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y GSE</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z GSE</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000000.0</ValidMin>
       <ValidMax>1000000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Position (GSM)</Name>
       <ParameterKey>tha_pos_gsm</ParameterKey>
@@ -536,33 +552,33 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>X GSM</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Y GSM</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Z GSM</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000000.0</ValidMin>
       <ValidMax>1000000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Positional</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Velocity (GSE)</Name>
       <ParameterKey>tha_vel_gse</ParameterKey>
@@ -573,33 +589,33 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSE</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx GSE</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy GSE</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz GSE</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Velocity</SupportQuantity>
-</Support>
-</Parameter>
+      </Support>
+    </Parameter>
     <Parameter>
       <Name>THEMIS-A Velocity (GSM)</Name>
       <ParameterKey>tha_vel_gsm</ParameterKey>
@@ -610,32 +626,32 @@
       <CoordinateSystem>
         <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
         <CoordinateSystemName>GSM</CoordinateSystemName>
-</CoordinateSystem>
+      </CoordinateSystem>
       <Structure>
         <Size>3</Size>
         <Element>
           <Name>Vx GSM</Name>
           <Qualifier>Component.I</Qualifier>
           <Index>1</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vy GSM</Name>
           <Qualifier>Component.J</Qualifier>
           <Index>2</Index>
-</Element>
+        </Element>
         <Element>
           <Name>Vz GSM</Name>
           <Qualifier>Component.K</Qualifier>
           <Index>3</Index>
-</Element>
-</Structure>
+        </Element>
+      </Structure>
       <ValidMin>-1000.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>NaN</FillValue>
       <Support>
         <Qualifier>Vector</Qualifier>
         <SupportQuantity>Velocity</SupportQuantity>
-</Support>
-</Parameter>
-</NumericalData>
+      </Support>
+    </Parameter>
+  </NumericalData>
 </Spase>

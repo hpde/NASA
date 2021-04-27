@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/EFI/SC/GSE/Attitude/PT600S</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Electric Fields Instrument (EFI), Spacecraft Attitude in GSE coordinates</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>the Polar spacecraft positive spin axis direction vector (normalized to magnitude 1), in GSE coordinates.</Description>
       <Acknowledgement>Please acknowledge the instrument PI, F.S. Mozer, and CDAWeb when using these data.</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
       </Contact>
       <PriorID>spase://VWO/NumericalData/POLAR/EFI/S_C_GSE_Attitude</PriorID>
       <PriorID>spase://VSPO/NumericalData/POLAR/EFI/Attitude/PT10M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/EFI/SC/GSE/Attitude/PT600S</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/EFI/SC/GSE/Attitude/PT600S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -50,6 +50,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the instrument PI, F.S. Mozer, and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_10MINATT_EFI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the instrument PI, F.S. Mozer, and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>

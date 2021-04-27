@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
@@ -6,12 +6,12 @@
     <ResourceHeader>
       <ResourceName>Wind Definitive Orbit, 10 min Data, Spacecraft Position and Velocity in GCI, GSE, GSM, HEC, and HG Coordinates</ResourceName>
       <DOI>https://doi.org/10.48322/t0jm-c908</DOI>
-      <ReleaseDate>2021-04-16T13:30:09Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>Wind Definitive Orbit, Spacecraft Position and Velocity in Geocentric Celestial Inertial, GCI, Geocentric Solar Ecliptic, GSE, Geocentric Solar Magnetospheric, GSM, Heliospheric Ecliptic, HEC, and Heliographic, HG, Coordinates</Description>
       <PublicationInfo>
-          <Authors>Candey, Robert, M; Wind, Flight Operations Team</Authors>
-          <PublicationDate>2021-01-01T00:00:00</PublicationDate>
-          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+        <Authors>Candey, Robert, M; Wind, Flight Operations Team</Authors>
+        <PublicationDate>2021-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -42,7 +42,7 @@
       <PriorID>spase://VHO/NumericalData/Wind/Ephemeris/predicted_PT10M</PriorID>
       <PriorID>spase://VHO/NumericalData/Wind/Ephemeris/definitive_PT10M</PriorID>
       <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/Definitive/PT10M</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/definitive/PT10M</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Wind/Ephemeris/definitive/PT10M</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/Wind</RepositoryID>
@@ -78,6 +78,20 @@
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
+      <Acknowledgement>Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>WI_OR_DEF</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Wind/Ephemeris</InstrumentID>

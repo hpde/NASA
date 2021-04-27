@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd'">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/POLAR/UVI/L1_CDF</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar UVI Imagery from CDAWeb</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
 Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view. Images are generated once 
 every 37 seconds with a nominal pixel angular resolution of 0.036 degrees.</Description>
@@ -25,7 +25,7 @@ user to view 36 second images and key parameter mosaics from the mission and dow
 to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.</Description>
             </InformationURL> -->
       <PriorID>spase://VMO/NumericalData/POLAR/UVI/L1_CDF</PriorID>
-        <PriorID>spase://VSPO/NumericalData/POLAR/UVI/L1_CDF</PriorID>
+      <PriorID>spase://VSPO/NumericalData/POLAR/UVI/L1_CDF</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -47,6 +47,20 @@ to the UVI data archive, to lists of UVI publications and presentations, and sev
         <ProductKey>PO_LEVEL1_UVI</ProductKey>
       </AccessURL>
       <Format>CDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>PO_LEVEL1_UVI</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
+      <Acknowledgement/>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>

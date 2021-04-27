@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/Helios2/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 2 hourly merged magnetic field and plasma data</ResourceName>
-      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
+      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
       <Description>This is an hourly resolution, merged magnetic field and plasma data set created at NSSDC for COHOWeb. Magnetic field vectors and plasma flow direction angles are given in RTN coordinates. Spacecraft position data are given in Heliographic inertial (HGI coordinates).</Description>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
       <Contact>
@@ -32,7 +33,7 @@
         <URL>https://spdf.gsfc.nasa.gov/pub/data/helios/helios2/merged/he2mgd.txt</URL>
       </InformationURL>
       <PriorID>spase://VHO/NumericalData/Helios2/MAGandPLS/PT1H</PriorID>
-        <PriorID>spase://VSPO/NumericalData/Helios2/MAGandPLS/PT1H</PriorID>
+      <PriorID>spase://VSPO/NumericalData/Helios2/MAGandPLS/PT1H</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -70,6 +71,20 @@
         <Units>MB</Units>
         <Per>P1Y</Per>
       </DataExtent>
+      <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>CDAWeb HAPI Server</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+        <Style>HAPI</Style>
+        <ProductKey>HELIOS2_COHO1HR_MERGED_MAG_PLASMA</ProductKey>
+        <Description>Web Service to this product using the HAPI interface.</Description>
+      </AccessURL>
+      <Format>CSV</Format>
       <Acknowledgement>Please acknowledge N.F. Ness (P.I.) and F. Mariani for magnetic field data and H. Rosenbauer (P.I.) and R. Schwenn for plasma data, and NSSDC or GSFC-SPDF</Acknowledgement>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Helios2/E1</InstrumentID>
