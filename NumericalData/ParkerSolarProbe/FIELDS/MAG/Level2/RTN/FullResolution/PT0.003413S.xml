@@ -5,7 +5,8 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/MAG/Level2/RTN/FullResolution/PT0.003413S</ResourceID>
     <ResourceHeader>
       <ResourceName>PSP FIELDS Fluxgate Magnetometer (MAG) Magnetic Field Vectors, Radial-Tangential-Normal, RTN, Coordinates, Full Resolution, Level 2 (L2), 3.413 ms Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/0yy0-ba92</DOI>
+      <ReleaseDate>2021-05-06T13:57:52Z</ReleaseDate>
       <Description>Parker Solar Probe FIELDS Instrument Suite Fluxgate Magnetometer, MAG, Data: The time resolution of the MAG time series data varies with instrument mode ranging from 2.289 samples/s to 292.9 samples/s. These two data sampling rates corresponding to 2 samples or 256 samples per 0.874 s where 0.874 s is equal to 2^25 divided 38.4 MHz. See reference [2] for a complete explanation of the MAG instrument sampling methodology. The Magnetometer has four ranges: ±1024 nT, ±4096 nT, ±16,384 nT, and ±65,536 nT. The Magnetometer Range is selected by an algorithm based on the strength of the ambient magnetic field. The magnetic field measurement precision is ±15 bits, based on the 16-bit Analog to Digital Converter, ADC.
 
 References:
@@ -13,6 +14,11 @@ References:
 * 1. Fox, N.J., Velli, M.C., Bale, S.D. et al. Space Sci Rev (2016) 204: 7. https://doi.org/10.1007/s11214-015-0211-6
 * 2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s11214-016-0244-5</Description>
       <Acknowledgement>Please acknowledge S.D. Bale for use of the Data</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Bale, Stuart D</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -33,7 +39,7 @@ References:
       <InformationURL>
         <Name>PSP FIELDS Instrument Suite, Data Description, SOC Web Site, UC Berkeley</Name>
         <URL>http://fields.ssl.berkeley.edu/data/</URL>
-        <Description>Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description, Spacecraft Operations Center, SOC, Web Site, UC Berkeley</Description>
+        <Description>Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description and Access, Spacecraft Operations Center, SOC, Web Site, UC Berkeley</Description>
       </InformationURL>
       <InformationURL>
         <Name>PSP FIELDS Instrument Suite, Rules of the Road, SOC Web Site, UC Berkeley</Name>

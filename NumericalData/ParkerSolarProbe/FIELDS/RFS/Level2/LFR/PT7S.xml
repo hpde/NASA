@@ -5,7 +5,8 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/RFS/Level2/LFR/PT7S</ResourceID>
     <ResourceHeader>
       <ResourceName>Parker Solar Probe, FIELDS Radio Frequency Spectrometer, RFS, Low Frequency Receiver, LFR, Spectra, Level 2 (L2), 7 s and 56 s Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/re4h-tk40</DOI>
+      <ReleaseDate>2021-05-06T13:57:52Z</ReleaseDate>
       <Description>PSP FIELDS Radio Frequency Spectrometer, RFS, Low Frequency Reciever, LFR, Data:
 
 The RFS is the high frequency component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1]. For a full description of the FIELDS experiment, see reference [2]. For a description of the RFS, see reference [3].
@@ -24,6 +25,11 @@ References:
       <Acknowledgement>Please acknowledge S.D. Bale for use of the Data. 
 
 PSP/FIELDS Rules of the Road available at http://fields.ssl.berkeley.edu/rules/</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Bale, Stuart D</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
         <Role>PrincipalInvestigator</Role>

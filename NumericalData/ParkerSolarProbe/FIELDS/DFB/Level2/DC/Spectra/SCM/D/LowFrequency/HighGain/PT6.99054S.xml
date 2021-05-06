@@ -5,7 +5,8 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/DC/Spectra/SCM/D/LowFrequency/HighGain/PT6.99054S</ResourceID>
     <ResourceHeader>
       <ResourceName>PSP FIELDS Digital Fields Board (DFB) DC-coupled Searchcoil Magnetometer, SCM, Spectra, Low Frequency, High Gain, d-component, Sensor coordinates, Level 2 (L2), 6.99054 s Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/nf08-v237</DOI>
+      <ReleaseDate>2021-05-06T13:57:52Z</ReleaseDate>
       <Description>PSP FIELDS Digital Fields Board, DFB, SCMdlfhg data:
 
 The DFB is the low frequency, less than 75 kHz, component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1] below. For a full description of the FIELDS experiment, see reference [2]. For a description of the DFB, see reference [3].
@@ -39,6 +40,11 @@ References:
 2) Bale, S.D., Goetz, K., Harvey, P.R. et al., Space Sci Rev (2016) 204:49. https://doi.org/10.1007/s1121401602445
 3) Malaspina, D.M., Ergun, R.E., Bolton, M. et al., JGR Space Physics (2016), 121, 5088-5096. https://doi.org/10.1002/2016JA022344</Description>
       <Acknowledgement>Please acknowledge S.D. Bale for use of the Data</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Bale, Stuart D</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -64,7 +70,7 @@ References:
       <InformationURL>
         <Name>PSP FIELDS Instrument Suite, Data Description, SOC Web Site, UC Berkeley</Name>
         <URL>http://fields.ssl.berkeley.edu/data/</URL>
-        <Description>Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description, Spacecraft Operations Center, SOC, Web Site, UC Berkeley</Description>
+        <Description>Parker Solar Probe, PSP, FIELDS Instrument Suite, Data Description and Access, Spacecraft Operations Center, SOC, Web Site, UC Berkeley</Description>
       </InformationURL>
       <InformationURL>
         <Name>PSP FIELDS Instrument Suite, Rules of the Road, SOC Web Site, UC Berkeley</Name>
