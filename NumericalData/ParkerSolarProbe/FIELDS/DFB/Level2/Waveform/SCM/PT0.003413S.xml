@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/FIELDS/DFB/Level2/Waveform/SCM/PT0.003413S</ResourceID>
     <ResourceHeader>
+      <ResourceName>PSP FIELDS Digital Fields Board (DFB) Searchcoil Magnetometer Waveform, Level 2 (L2), 3.413 ms Data</ResourceName>
       <DOI>https://doi.org/10.48322/h34r-jn18</DOI>
       <ReleaseDate>2021-05-06T13:57:52Z</ReleaseDate>
-      <ResourceName>PSP FIELDS Digital Fields Board (DFB) Searchcoil Magnetometer Waveform, Level 2 (L2), 3.413 ms Data</ResourceName>
       <Description>PSP FIELDS Digital Fields Board, DFB, Search Coil Magnetometer data:
 
 The DFB is the low frequency, less than 75 kHz, component of the FIELDS experiment on the Parker Solar Probe spacecraft, see reference [1] below. For a full description of the FIELDS experiment, see reference [2]. For a description of the DFB, see reference [3].
