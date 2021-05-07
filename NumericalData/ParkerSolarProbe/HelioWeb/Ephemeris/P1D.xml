@@ -5,7 +5,8 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/HelioWeb/Ephemeris/P1D</ResourceID>
     <ResourceHeader>
       <ResourceName>Parker Solar Probe Ephemeris, Heliocentric Trajectories, Heliographic, Heliographic Inertial, and Solar Ecliptic Coordinates, HelioWeb, Daily Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>2021-05-07T14:16:08Z</DOI>
+      <ReleaseDate>2021-05-07T14:16:08Z</ReleaseDate>
       <Description>Heliocentric trajectories for Parker Solar Probe in Heliographic, HG, Heliographic Inertial, HGI, and Solar Ecliptic, SE, Coordinates
 
 The original trajectory data are taken from http://ssd.jpl.nasa.gov/horizons.cgi where users can find many more objects. In the case of orbit data for planets, the orbit data can be used as a proxy for spacecraft ephemeris that are in orbit about the planets. On a heliospheric scale, differences between the planet orbital tarjectory and that of the spacecraft are very small. For instance, the heliocentric longitudes differ by only 0.25° for a spacecraft stationed near the L1 Lagrange point at approximately 100 Earth radii upstream of the Earth.
@@ -23,8 +24,15 @@ The production of the HG, HGI, and SE trajectory data requires a values for the 
 
 The heliocentric trajectory data included in this data product have been calculated by using the Equinox Epoch: defined via the "Mean of Date" method.
 
-More precise coordinates, and some planet-centered coordinates, are found in the "traj" subdirectories of spacecraft specific directories at https://spdf.gsfc.nasa.gov/pub/data/ and http://ssd.jpl.nasa.gov/horizons.cgi.</Description>
+More precise coordinates, and some planet-centered coordinates, are found in the "traj" subdirectories of spacecraft specific directories at https://spdf.gsfc.nasa.gov/pub/data/ and http://ssd.jpl.nasa.gov/horizons.cgi.
+
+Citation: Szabo, A. (2020). Parker Solar Probe Ephemeris, Heliocentric Trajectories, Heliographic, Heliographic Inertial, and Solar Ecliptic Coordinates, HelioWeb, Daily Data [Data set]. NASA Space Physics Data Facility. https://doi.org/10.48322/41S1-HX58</Description>
       <Acknowledgement>Please acknowledge N.E. Papitashvili for use of the Data</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Szabo, Adam</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
         <Role>GeneralContact</Role>

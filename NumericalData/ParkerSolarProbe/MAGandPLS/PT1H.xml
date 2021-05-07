@@ -5,15 +5,23 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/MAGandPLS/PT1H</ResourceID>
     <ResourceHeader>
       <ResourceName>Parker Solar Probe (PSP) Merged Magnetic Field, Plasma, and Ephemeris, Hourly Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/19ed-kz70</DOI>
+      <ReleaseDate>2021-05-07T14:16:08Z</ReleaseDate>
       <Description>The NSSDC Coordinated Heliospheric Observations Web, COHOWeb, hourly and daily Parker Solar Probe, PSP, data were made by using high resolution data from from CDAWeb.
 
 The PSP COHO file include data derived from the PSP FIELDS Fluxgate Magnetometer data as well as Densities, Vector Velocities, and Scalar Radial Component Temperatures of Solar Wind Protons measured by the PSP SWEAP Solar Probe Cup, SPC. The original PSP magnetic field data comes from the PSP_FLD_L2_MAG_RTN_1MIN data product while the original plasma data comes from the PSP_SWP_SPC_L3I data product by applying the following conditions:
 
 * Proton bulk velocity from 1-dimensional Maxwellian fitting, only good quality, in the inertial RTN frame
 * Total proton number density from 1-dimensional Maxwellian fitting, only good quality
-* Proton most probable thermal speed, radial component, from 1-dimensional maxwellian Fitting, only good quality</Description>
+* Proton most probable thermal speed, radial component, from 1-dimensional maxwellian Fitting, only good quality
+
+Citation: Papitashvili, N. E. (2020). Parker Solar Probe (PSP) Merged Magnetic Field, Plasma, and Ephemeris, Hourly Data [Data set]. NASA Space Physics Data Facility. https://doi.org/10.48322/19ED-KZ70</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator N.E. Papitashvili for use of the Data</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Papitashvili, Natalia E</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
         <Role>PrincipalInvestigator</Role>

@@ -5,7 +5,8 @@
     <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT10S</ResourceID>
     <ResourceHeader>
       <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) High Energy Telescope (HET) Rates, Level 2 (L2), 10 s Data</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <DOI>https://doi.org/10.48322/6b2f-mx69</DOI>
+      <ReleaseDate>2021-05-07T14:16:08Z</ReleaseDate>
       <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Energetic Particle Instrument, EPI-Hi, High Energy Telescope, HET, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the ISOIS data please refer to the Energetic Particle Data User Guide available from the PSP ISOIS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
 
 The public data reflect current instrument calibration as determined by the IS☉IS science team. Calibration efforts are ongoing and the public data will be updated over the course of the mission based on improved understanding of instrument response to the near-Sun energetic particle environment. IS☉IS visualization tools are provided as a quicklook utility for the community to better access the IS☉IS data and are also under continual development. While we make every effort to ensure their accuracy, the IS☉IS team cannot guarantee that they are error-free. For questions regarding the use of IS☉IS data, please contact Colin Joyce (cjjoyce@princeton.edu).
@@ -16,8 +17,13 @@ The PSP ISOIS effort is funded as part of the NASA Parker Solar Probe mission un
 
 Acknowledgement: Thanks to the Integrated Science Investigation of the Sun (IS☉IS) Science Team (PI: D.J. McComas, Princeton University).
 
-Citation: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-0059-1</Description>
+Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) High Energy Telescope (HET) Rates, Level 2 (L2), 10 s Data [Data set]. NASA Space Physics Data Facility. https://doi.org/10.48322/6B2F-MX69</Description>
       <Acknowledgement>Please acknowledge the Principal Investigator D.J. McComas by using the following text: Thanks to the Integrated Science Investigation of the Sun (IS☉IS) Science Team (PI: D.J. McComas, Princeton University). And, please cite the PSP ISOIS instrument suite publication: McComas, D.J. et al (2016). Space Sci. Rev., doi:10.1007/s11214-014-0059-1. See http://spp-isois.sr.unh.edu/ISOIS_Terms_of_Use.html.</Acknowledgement>
+      <PublicationInfo>
+        <Authors>McComas, David J</Authors>
+        <PublicationDate>2020-01-01T00:00:00</PublicationDate>
+        <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
