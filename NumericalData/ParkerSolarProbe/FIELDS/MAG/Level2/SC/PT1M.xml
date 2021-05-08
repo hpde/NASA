@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>PSP FIELDS Fluxgate Magnetometer (MAG) Magnetic Field Vectors, Spacecraft, SC, Coordinates, Level 2 (L2), 1 min Data</ResourceName>
       <DOI>https://doi.org/10.48322/7hrp-ya88</DOI>
-      <ReleaseDate>2021-05-06T13:57:52Z</ReleaseDate>
+      <ReleaseDate>2021-05-08T21:30:02Z</ReleaseDate>
       <Description>Parker Solar Probe FIELDS Instrument Suite Fluxgate Magnetometer, MAG, Data: The time resolution of the MAG time series data varies with instrument mode ranging from 2.289 samples/s to 292.9 samples/s. These two data sampling rates corresponding to 2 samples or 256 samples per 0.874 s where 0.874 s is equal to 2^25 divided 38.4 MHz. See reference [2] for a complete explanation of the MAG instrument sampling methodology. The Magnetometer has four ranges: ±1024 nT, ±4096 nT, ±16,384 nT, and ±65,536 nT. The Magnetometer Range is selected by an algorithm based on the strength of the ambient magnetic field. The magnetic field measurement precision is ±15 bits, based on the 16-bit Analog to Digital Converter, ADC.
 
 References:
@@ -15,7 +15,7 @@ References:
 * 2. Bale, S.D., Goetz, K., Harvey, P.R. et al. Space Sci Rev (2016) 204: 49. https://doi.org/10.1007/s11214-016-0244-5</Description>
       <Acknowledgement>Please acknowledge S.D. Bale for use of the Data</Acknowledgement>
      <PublicationInfo>
-        <Authors>Bale, Stuart D</Authors>
+        <Authors>Bale, Stuart D; MacDowal, Robert J; Koval, Andriy; Pulupa, Marc; Quinn, Timothy; Schroeder, Peter</Authors>
         <PublicationDate>2020-01-01T00:00:00</PublicationDate>
         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
