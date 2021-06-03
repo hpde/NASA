@@ -53,13 +53,10 @@
          <ParameterKey>DATE</ParameterKey>
          <Description>Date of observations</Description>
          <Units>YYYY-DOY</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -69,13 +66,10 @@
          <ParameterKey>WAVE</ParameterKey>
          <Description>Array of wavelength intervals, half-Angstrom centers</Description>
          <Units>nm</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -89,8 +83,6 @@
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Wave>
             <WaveType>Electromagnetic</WaveType>
             <WaveQuantity>Wavelength</WaveQuantity>
@@ -106,13 +98,10 @@
          <ParameterKey>DIFF_MA</ParameterKey>
          <Description>Array of differences between the median and weighted averaged solar irradiances for each wavelength interval</Description>
          <Units>W / m^2 / nm</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -122,13 +111,10 @@
          <ParameterKey>ERR_TOT</ParameterKey>
          <Description>Accuracy of solar irradiance</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -138,13 +124,10 @@
          <ParameterKey>ERR_MEAS</ParameterKey>
          <Description>Measurement precision</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -154,13 +137,10 @@
          <ParameterKey>STDEV_MEAS</ParameterKey>
          <Description>Standard deviation of the median</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -170,13 +150,10 @@
          <ParameterKey>NUMPT</ParameterKey>
          <Description>Array of the Number of points (1-Angstrom-gridded measurements) used in determining the observation average for each wavelength interval</Description>
          <Units>NONE</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -186,13 +163,10 @@
          <ParameterKey>COR_OS_MED</ParameterKey>
          <Description>Order Sorting correction applied to flux_median</Description>
          <Units>W/m^2/nm</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8 1690</Size>
             <Description>Dimensions: [Number_of_observations, Number_of_wavelength_intervals] - where Number_of_observations is the number of observations in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -202,13 +176,10 @@
          <ParameterKey>COR_1AU</ParameterKey>
          <Description>AU correction factor for date</Description>
          <Units>1 / (AU^2)</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -218,13 +189,10 @@
          <ParameterKey>SLIT</ParameterKey>
          <Description>0 is calibration slit, 1 is normal slit</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -234,13 +202,10 @@
          <ParameterKey>START_TIME</ParameterKey>
          <Description>Array of observation start times</Description>
          <Units>UT seconds of day</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -250,13 +215,10 @@
          <ParameterKey>STOP_TIME</ParameterKey>
          <Description>Array of observation stop times</Description>
          <Units>UT seconds of day</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -266,13 +228,10 @@
          <ParameterKey>ODC_ID</ParameterKey>
          <Description>Array of observation identifiers (1-254), A value of 0 means the observation did not produce data used in routine products.</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -282,13 +241,10 @@
          <ParameterKey>FLARE</ParameterKey>
          <Description>Ratio of observation flux_median to daily flux_median</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>8</Size>
             <Description>Dimensions: [Number_of_observations] - where Number_of_observations is the number of observations in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>

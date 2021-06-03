@@ -391,7 +391,6 @@ for creating the OMNI data set.</Acknowledgement>
     </Parameter>
     <Parameter>
       <Name>Magnetic field vector, GSM</Name>
-      <ParameterKey/>
       <Description>Averaged GSM Cartesian components of magnetic field vector</Description>
       <Caveats>Note that Bx(GSM)=Bx(GSE) is given only once in data record.</Caveats>
       <Cadence>PT1H</Cadence>

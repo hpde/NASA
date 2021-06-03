@@ -65,7 +65,6 @@
     <Parameter>
       <Name>Data quality/status indicator</Name>
       <ParameterKey>Rec_Status</ParameterKey>
-      <Units/>
       <ValidMin>0</ValidMin>
       <ValidMax>255</ValidMax>
       <FillValue>255</FillValue>
@@ -132,7 +131,6 @@
     <Parameter>
       <Name>Antenna mode - 'E'/'M'</Name>
       <ParameterKey>AntMode</ParameterKey>
-      <FillValue/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -162,7 +160,6 @@
     <Parameter>
       <Name>Common mode S/C postive potential - unconverted</Name>
       <ParameterKey>CMPSCPot</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>127.0</ValidMax>
       <FillValue>-128.0</FillValue>
@@ -237,7 +234,6 @@
     <Parameter>
       <Name>SC2-1,-2, -3 status bit word</Name>
       <ParameterKey>SC2Stat</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>65535.0</ValidMax>
       <FillValue>-128.0</FillValue>
@@ -275,7 +271,6 @@
     <Parameter>
       <Name>SC2-1,-2 detector bias boost indicator</Name>
       <ParameterKey>SC21DBias</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>2.0</ValidMax>
       <FillValue>-9.0</FillValue>
@@ -302,7 +297,6 @@
     <Parameter>
       <Name>SC2-1 program id</Name>
       <ParameterKey>SC21Prog</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -310,7 +304,6 @@
     <Parameter>
       <Name>SC2-1 mode</Name>
       <ParameterKey>SC21Mode</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>-99.0</FillValue>
@@ -321,7 +314,6 @@
     <Parameter>
       <Name>SC2-1 energy step number</Name>
       <ParameterKey>SC21Step</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -329,7 +321,6 @@
     <Parameter>
       <Name>SC2-1 mode/step0/step4 identifier</Name>
       <ParameterKey>SC21ModeCheck</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>64.0</FillValue>
@@ -367,7 +358,6 @@
     <Parameter>
       <Name>SC2-1,-2 detector bias boost indicator</Name>
       <ParameterKey>SC22DBias</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>2.0</ValidMax>
       <FillValue>-9.0</FillValue>
@@ -394,7 +384,6 @@
     <Parameter>
       <Name>SC2-2 program id</Name>
       <ParameterKey>SC22Prog</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -402,7 +391,6 @@
     <Parameter>
       <Name>SC2-2 mode</Name>
       <ParameterKey>SC22Mode</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>-99.0</FillValue>
@@ -413,7 +401,6 @@
     <Parameter>
       <Name>SC2-2 energy step number</Name>
       <ParameterKey>SC22Step</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -421,7 +408,6 @@
     <Parameter>
       <Name>SC2-2 mode/step0/step4 identifier</Name>
       <ParameterKey>SC22ModeCheck</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>64.0</FillValue>
@@ -448,7 +434,6 @@
     <Parameter>
       <Name>SC2-3 detector bias boost indicator</Name>
       <ParameterKey>SC23DBias</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>2.0</ValidMax>
       <FillValue>-9.0</FillValue>
@@ -475,7 +460,6 @@
     <Parameter>
       <Name>SC2-3 program id</Name>
       <ParameterKey>SC23Prog</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -483,7 +467,6 @@
     <Parameter>
       <Name>SC2-3 mode</Name>
       <ParameterKey>SC23Mode</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>-99.0</FillValue>
@@ -494,7 +477,6 @@
     <Parameter>
       <Name>SC2-3 energy step</Name>
       <ParameterKey>SC23Step</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -502,7 +484,6 @@
     <Parameter>
       <Name>SC2-3 mode/step0/step4 identifier</Name>
       <ParameterKey>SC23ModeCheck</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>63.0</ValidMax>
       <FillValue>64.0</FillValue>
@@ -561,7 +542,6 @@
     <Parameter>
       <Name>SC3 status bit word</Name>
       <ParameterKey>SC3Stat</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -585,7 +565,6 @@
     <Parameter>
       <Name>SC8 status bit word</Name>
       <ParameterKey>SC8Stat</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>65535.0</ValidMax>
       <FillValue>0.0</FillValue>
@@ -648,7 +627,6 @@
     <Parameter>
       <Name>SC10 instrument status byte</Name>
       <ParameterKey>SC10Stat</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>127.0</ValidMax>
       <FillValue>-128.0</FillValue>
@@ -659,7 +637,6 @@
     <Parameter>
       <Name>Ion/Electron gun operation flag</Name>
       <ParameterKey>GunStat</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>127.0</ValidMax>
       <FillValue>-128.0</FillValue>

@@ -7,7 +7,7 @@
       <ResourceName>DE 2 Magnetic Field Observations Triaxial Fluxgate Magnetometer (MAG-B)data</ResourceName>
       <AlternateName>Dynamics Explorer 2 MAG-B data</AlternateName>
       <AlternateName>DE-B MAG-B data</AlternateName>
-      <ReleaseDate>2020-07-07T21:14:32Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
       <Description>Dynamics Explorer 2 Magnetic Field Observations Triaxial Fluxgate Magnetometer</Description>
       <Acknowledgement>NASA; Masahisa Sugiura</Acknowledgement>
       <Contact>
@@ -46,8 +46,8 @@
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>1981-09-15T00:00:00</StartDate>
-        <StopDate>1981-02-19T00:00:00</StopDate>
+        <StartDate>1981-02-19T00:00:00</StartDate>
+        <StopDate>1981-09-15T00:00:00</StopDate>
         <Note>Time format in data files is: Year, Day of Year, Milliseconds of the Day</Note>
 </TimeSpan>
       <Cadence>PT0.062S</Cadence>

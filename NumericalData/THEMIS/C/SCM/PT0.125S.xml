@@ -92,7 +92,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
@@ -274,7 +273,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Particle-Burst Magnetic Field Magnitude</Name>
       <ParameterKey>thc_scp_btotal</ParameterKey>
       <Description>Total B-Field magnitude from SCP data(particle burst, 1/128 second time resolution).</Description>
-      <Caveats/>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
       <ValidMin>0.0</ValidMin>
@@ -290,7 +288,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Particle-Burst Magnetic Field Vector (GSE)</Name>
       <ParameterKey>thc_scp_gse</ParameterKey>
       <Description>B-Field vector from particle burst mode (1/128 second time resolution) in GSE coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0078125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -334,7 +331,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Particle-Burst Magnetic Field Vector (GSM)</Name>
       <ParameterKey>thc_scp_gsm</ParameterKey>
       <Description>B-Field vector from particle burst mode (1/128 second time resolution) in GSM coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0078125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -378,7 +374,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Particle-Burst Magnetic Field Vector (DSL)</Name>
       <ParameterKey>thc_scp_dsl</ParameterKey>
       <Description>B-Field vector from particle burst mode (1/128 second time resolution) in DSL (despun spacecraft) coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0078125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -436,7 +431,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Wave-Burst Magnetic field Magnitude</Name>
       <ParameterKey>thc_scw_btotal</ParameterKey>
       <Description>Total B-Field magnitude from SCW data(wave burst mode, 1/8192 second time resolution).</Description>
-      <Caveats/>
       <Cadence>PT0.0001220703125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -453,7 +447,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Wave-Burst Magnetic Field Vector (GSE)</Name>
       <ParameterKey>thc_scw_gse</ParameterKey>
       <Description>B-Field vector from wave burst mode(1/8192 second time resolution) in GSE coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0001220703125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -497,7 +490,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Wave-Burst Magnetic Field Vector (GSM)</Name>
       <ParameterKey>thc_scw_gsm</ParameterKey>
       <Description>B-Field vector from wave burst mode(1/8192 second time resolution) in GSM coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0001220703125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>
@@ -541,7 +533,6 @@ SCM Telemetry Modes (Only first 3 apply to level 2 SCM products):
       <Name>Wave-Burst Magnetic Field Vector (DSL)</Name>
       <ParameterKey>thc_scw_dsl</ParameterKey>
       <Description>B-Field vector from wave burst mode(1/8192 second time resolution) in DSL (despun spacecraft) coordinates.</Description>
-      <Caveats/>
       <Cadence>PT0.0001220703125S</Cadence>
       <Units>nT</Units>
       <UnitsConversion>1e-9&gt;T</UnitsConversion>

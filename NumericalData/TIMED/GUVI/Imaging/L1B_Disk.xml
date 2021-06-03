@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1B_Disk</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI Imaging Level 1B Disk</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
+         <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
          <Description>Level 1B Disk data contains calibrated radiance data over multiple scans that are geolocated into a GUVI-based coordinate system on the disk.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -85,7 +85,7 @@
          <Description>Date of observation in number of days since start of current year.</Description>
          <Units>days</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>1</ValidMin>
@@ -101,7 +101,7 @@
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -116,7 +116,7 @@
          <Description>Detector number of detector being used</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>1</ValidMin>
@@ -131,7 +131,7 @@
          <Description>Slit position being used where 0 = closed, 1 = wide, 2 = medium, 3 = narrow, and 4 = unknown.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -146,7 +146,7 @@
          <Description>Starting position of the mirror.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>49</ValidMin>
@@ -161,7 +161,7 @@
          <Description>Position of the mirror when at nadir.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>249</ValidMin>

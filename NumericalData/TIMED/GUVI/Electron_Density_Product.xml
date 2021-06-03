@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Electron_Density_Product</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI L2B Electron Density Profiles</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
       <Description>The Level-2 Electron Density Profiles data product contains F-region electron density as a function of altitude and latitude derived from the GUVI limb data.  Summaries of estimated peak electron density and total electron content are also given as Level 3 products.
 The profiles are derived from the 135.6-nm channel of the GUVI limb data. The 135.6-nm emission at night is due almost exclusively to recombination of O+ ions.  Since O+ is the primary ion in the F region, the 135.6-nm volume emission rate is closely related to the square of the electron density.
 Details of the procedure of producing the electron densities are given in: DeMajistre, R., L.J. Paxton, D. Morrison, J-H. Yee, L.P. Goncherenko and A.B. Christensen, Retrievals of nighttime electron density from Thermosphere Ionosphere Mesosphere and Dynamics (TIMED) mission Global Ultraviolet Imager (GUVI) Measurements, J. Geophys Res., 109, A05305, doi:10.1029/2003JA010296.
@@ -101,7 +101,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geographic Latitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -114,7 +114,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geographic Longitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -127,7 +127,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geomagnetic (simple dipole) Latitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -140,7 +140,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geomagnetic (simple dipole) Longitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -154,7 +154,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Units>ms</Units>
       <UnitsConversion>1e-3&gt;s</UnitsConversion>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <ValidMin>0</ValidMin>
@@ -267,7 +267,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Chapman Layer Maximum Density</Description>
       <Units>cm-3</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -280,7 +280,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Chapman Layer Maximum Radius</Description>
       <Units>km</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -293,7 +293,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Chapman Layer Topside Scaleheight</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -306,7 +306,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Uncertainty in Chapman Layer Maximum Density</Description>
       <Units>cm -3</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -319,7 +319,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Uncertainty in Chapman Layer Maximum Radius</Description>
       <Units>km</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -332,7 +332,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Uncertainty in Chapman Layer Topside Scaleheight</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -345,7 +345,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geomagnetic (AACGM) Latitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -358,7 +358,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Geomagnetic (AACGM) Longitude (registered at ~300km)</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -371,7 +371,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Earth radius at the given geographic latitude</Description>
       <Units>km</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -384,7 +384,7 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Description>Index map into level 1B file</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
       </Structure>
       <Support>
@@ -421,7 +421,6 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Name>Chapman Layers Parameters Existence flag</Name>
       <ParameterKey>pf</ParameterKey>
       <Description> If 1, chapman layers parameters present, 0 if not</Description>
-      <Units/>
       <Structure>
         <Size>1</Size>
         <Description>Dimensions: [1] - a single value per orbital file.</Description>
@@ -460,7 +459,6 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Name>H+ Correction flag</Name>
       <ParameterKey>hpcor</ParameterKey>
       <Description>H+ correction from IRI made, -1 if not</Description>
-      <Units/>
       <Structure>
         <Size>1</Size>
         <Description>Dimensions: [1] - a single value per orbital file.</Description>
@@ -473,7 +471,6 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       <Name>Number of limb scans for smoothing</Name>
       <ParameterKey>ncomb(nonvariant_var)</ParameterKey>
       <Description>Number of limb scans for smoothing</Description>
-      <Units/>
       <Structure>
         <Size>1</Size>
         <Description>Dimensions: [1] - a single value per orbital file.</Description>
@@ -483,10 +480,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_nonpar_w0</Name>
       <ParameterKey>k_nonpar_w0</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>448</Size>
         <Description>Dimensions: [448,n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
@@ -496,10 +491,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_nonpar_w1</Name>
       <ParameterKey>k_nonpar_w1</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>448</Size>
         <Description>Dimensions: [448,n] - where n is the number of profiles (i.e., records) in an orbital file (n is approximately 136).</Description>
@@ -509,10 +502,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_nonpar_w0c</Name>
       <ParameterKey>k_nonpar_w0c</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>32 2</Size>
         <Description>Dimensions: [32,2].</Description>
@@ -522,10 +513,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_nonpar_w1c</Name>
       <ParameterKey>k_nonpar_w1c</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>32 2</Size>
         <Description>Dimensions: [32,2].</Description>
@@ -535,10 +524,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_par_r</Name>
       <ParameterKey>k_par_r</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>50</Size>
         <Description>Dimensions: [50].</Description>
@@ -548,10 +535,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_par_thetapix</Name>
       <ParameterKey>k_par_thetapix</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>32</Size>
         <Description>Dimensions: [32].</Description>
@@ -561,10 +546,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_par_w0</Name>
       <ParameterKey>k_par_w0</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>448 50</Size>
         <Description>Dimensions: [448,50].</Description>
@@ -574,10 +557,8 @@ Details of the procedure of producing the electron densities are given in: DeMaj
       </Support>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>k_par_w1</Name>
       <ParameterKey>k_par_w1</ParameterKey>
-      <Description/>
-      <Units/>
       <Structure>
         <Size>448 50</Size>
         <Description>Dimensions: [448,50].</Description>

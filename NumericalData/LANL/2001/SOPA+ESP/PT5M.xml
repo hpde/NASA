@@ -77,7 +77,6 @@
       <ParameterKey>Position_Quality</ParameterKey>
       <Description>Position Quality flag</Description>
       <Caveats>0 denotes highest quality.</Caveats>
-      <Units/>
       <ValidMin>-32767</ValidMin>
       <ValidMax>32767</ValidMax>
       <FillValue>-32767</FillValue>
@@ -146,8 +145,6 @@
       <ParameterKey>I</ParameterKey>
       <Description>Adiabatic invariant (bounce)</Description>
       <Caveats>Calculated using ONERA-DESP library Internal field: DGRF/IGRF External field: Olson &amp; Pfitzer quiet</Caveats>
-      <Units/>
-      <UnitsConversion/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1.0E31</ValidMax>
       <FillValue>-1.0E31</FillValue>
@@ -224,7 +221,6 @@
       <ParameterKey>FPDO_Quality</ParameterKey>
       <Description>FPDO Quality flag</Description>
       <Caveats>0 denotes highest quality, 1 denotes problem with time resolution,2 denotes possible contamination, 3 denotes saturation and 4 denotes any other problem</Caveats>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -233,9 +229,6 @@
       <Name>FPDO Crosscalib</Name>
       <ParameterKey>FPDO_Crosscalib</ParameterKey>
       <Description>Crosscalibration factors for FPDO</Description>
-      <Caveats/>
-      <Units/>
-      <UnitsConversion/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -267,7 +260,6 @@
       <ParameterKey>FEIO_Quality</ParameterKey>
       <Description>FEIO Quality flag</Description>
       <Caveats>0 denotes highest quality, 1 denotes problem with time resolution,2 denotes possible contamination, 3 denotes saturation and 4 denotes any other problem</Caveats>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -276,9 +268,6 @@
       <Name>FEIO Crosscalib</Name>
       <ParameterKey>FEIO_Crosscalib</ParameterKey>
       <Description>Crosscalibration factors for FEIO</Description>
-      <Caveats/>
-      <Units/>
-      <UnitsConversion/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -310,7 +299,6 @@
       <ParameterKey>FEDO_Quality</ParameterKey>
       <Description>FEDO Quality flag</Description>
       <Caveats>0 denotes highest quality, 1 denotes problem with time resolution,2 denotes possible contamination, 3 denotes saturation and 4 denotes any other problem</Caveats>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -319,9 +307,6 @@
       <Name>FEDO Crosscalib</Name>
       <ParameterKey>FEDO_Crosscalib</ParameterKey>
       <Description>Crosscalibration factors for FEDO</Description>
-      <Caveats/>
-      <Units/>
-      <UnitsConversion/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>

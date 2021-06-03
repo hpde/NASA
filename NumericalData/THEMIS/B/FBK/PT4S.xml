@@ -104,7 +104,6 @@ Cascade  |  Frequency content of Input Signal  |  Low-pass Filter Cutoff Frequen
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <ProviderVersion>xxxx</ProviderVersion>
     <InstrumentID>spase://SMWG/Instrument/THEMIS/B/EFI</InstrumentID>
@@ -162,7 +161,6 @@ Cascade  |  Frequency content of Input Signal  |  Low-pass Filter Cutoff Frequen
     <Parameter>
       <Name>thb_fbh_compno</Name>
       <ParameterKey>thb_fb_hff_compno</ParameterKey>
-      <Description/>
       <Units>num</Units>
       <Structure>
         <Size>2</Size>

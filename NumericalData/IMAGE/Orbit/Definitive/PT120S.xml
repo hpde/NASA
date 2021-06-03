@@ -51,7 +51,6 @@
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
-      <Acknowledgement/>
     </AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/IMAGE/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
@@ -292,7 +291,6 @@
     <Parameter>
       <Name>GEO local time</Name>
       <ParameterKey>GEO_LCT_T</ParameterKey>
-      <Description/>
       <Units>hours</Units>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
@@ -376,7 +374,6 @@
     <Parameter>
       <Name>GM local time</Name>
       <ParameterKey>GM_LCT_T</ParameterKey>
-      <Description/>
       <Units>hours</Units>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
@@ -460,7 +457,6 @@
     <Parameter>
       <Name>GSE local time</Name>
       <ParameterKey>GSE_LCT_T</ParameterKey>
-      <Description/>
       <Units>hours</Units>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>
@@ -615,7 +611,6 @@
     <Parameter>
       <Name>SM local time</Name>
       <ParameterKey>SM_LCT_T</ParameterKey>
-      <Description/>
       <Units>hours</Units>
       <ValidMin>0.0</ValidMin>
       <ValidMax>24.0</ValidMax>

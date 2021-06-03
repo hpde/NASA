@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/Voyager2/MAG/ASCII/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data in ASCII Format</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:58Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T21:15:58Z</ReleaseDate>
       <Description>The average magnetic field strength produced by the spacecraft at the location of the 
         outboard magnetometer, of the dual magnetometers system on V2, varies between 0.1 and 0.2 nT, comparable 
         to the most probable magnetic field strength in the inner heliosheath and significantly larger 
@@ -163,7 +163,7 @@ meaning Heliographic Inertial</Description>
       </Field>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>Magnitude average</Name>
       <ParameterKey>Column_6</ParameterKey>
       <Description>Magnitude of vector constituted by average field components</Description>
       <Units>nT</Units>

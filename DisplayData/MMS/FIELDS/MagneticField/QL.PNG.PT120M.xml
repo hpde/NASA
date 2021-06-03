@@ -155,7 +155,6 @@ NASA MMS Science Data Management Plan: SwRI Document 10160.18-PDMP-01
     <Parameter>
       <Name>Power Spectral Density</Name>
       <Description>Spectrograms for each of the 4 MMS spacecraft. Displayed frequency is in units of Hz.</Description>
-      <Caveats/>
       <Units>nT^2*Hz^-1</Units>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
@@ -168,6 +167,5 @@ NASA MMS Science Data Management Plan: SwRI Document 10160.18-PDMP-01
 </FrequencyRange>
 </Wave>
 </Parameter>
-    <Extension/>
 </DisplayData>
 </Spase>

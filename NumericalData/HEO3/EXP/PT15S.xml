@@ -36,14 +36,12 @@
       <Format>Text.ASCII</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <ProviderResourceName/>
     <ProviderVersion>1</ProviderVersion>
     <MeasurementType>EnergeticParticles</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
         <StartDate>1997-11-09T00:00:00.00000</StartDate>
         <StopDate>2008-05-15T00:00:00.00000</StopDate>
-        <Note/>
       </TimeSpan>
       <Cadence>PT15S</Cadence>
     </TemporalDescription>
@@ -52,7 +50,6 @@
       <Name>Year</Name>
       <ParameterKey>Year</ParameterKey>
       <Description>Year of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -61,7 +58,6 @@
       <Name>Month</Name>
       <ParameterKey>Month</ParameterKey>
       <Description>Month of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -70,7 +66,6 @@
       <Name>Day</Name>
       <ParameterKey>Day</ParameterKey>
       <Description>Day of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -79,7 +74,6 @@
       <Name>DecDay</Name>
       <ParameterKey>DecDay</ParameterKey>
       <Description>Decimal Day of Measurement</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -295,7 +289,6 @@
       <Name>JulDate</Name>
       <ParameterKey>JulDate</ParameterKey>
       <Description>Julian Date</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -304,7 +297,6 @@
       <Name>Orbit_Status_IGRF</Name>
       <ParameterKey>Orbit_Status_IGRF</ParameterKey>
       <Description>flag, identifies orbit segment with respect to IGRF B-field model</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -313,7 +305,6 @@
       <Name>Orbit_Status_OP</Name>
       <ParameterKey>Orbit_Status_OP</ParameterKey>
       <Description>flag, identifies orbit segment with respect to Olson-Pfitzer B-field model model</Description>
-      <Units/>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>
       </Mixed>
@@ -321,7 +312,6 @@
     <Parameter>
       <Name>TiltAngle</Name>
       <ParameterKey>TiltAngle</ParameterKey>
-      <Description/>
       <Units>degrees</Units>
       <Mixed>
         <MixedQuantity>Other</MixedQuantity>

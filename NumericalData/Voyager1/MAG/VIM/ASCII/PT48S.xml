@@ -4,7 +4,7 @@
     <ResourceID>spase://NASA/NumericalData/Voyager1/MAG/VIM/ASCII/PT48S</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1 48-s Triaxial Fluxgate Magnetometer (MAG) Magnetic Field Data Near and Beyond Termination Shock in ASCII Format</ResourceName>
-      <ReleaseDate>2020-07-07T21:15:54Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T21:15:54Z</ReleaseDate>
       <Description>The  main science objectives for the VOYAGER interplanetary mission are as  
 follows: 
 - investigate the structure of the solar wind magnetic fields and plasma in the
@@ -157,7 +157,7 @@ meaning Heliographic Inertial</Description>
       </Field>
     </Parameter>
     <Parameter>
-      <Name/>
+      <Name>Magnitude average</Name>
       <ParameterKey>Column_6</ParameterKey>
       <Description>Magnitude of vector constituted by average field components</Description>
       <Units>nT</Units>
