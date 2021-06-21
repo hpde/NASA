@@ -53,13 +53,10 @@
          <ParameterKey>DATE</ParameterKey>
          <Description>Date of observation</Description>
          <Units>YYYY-DOY</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -69,13 +66,10 @@
          <ParameterKey>CHANNEL</ParameterKey>
          <Description>Channel index of the 12 XUV Photometers (1-12)</Description>
          <Units>NONE</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -85,13 +79,10 @@
          <ParameterKey>WAVE(structure_elements, dim1_WAVE)</ParameterKey>
          <Description>Bandpass wavelength range</Description>
          <Units>nm</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9 2</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges, Bandpass_wavelength_range_limits] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges, and Bandpass_wavelength_range_limits is the pair of values specifying the lower and upper wavelength limits.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -101,13 +92,10 @@
          <ParameterKey>FLUX_MEDIAN</ParameterKey>
          <Description>Solar irradiance - median for the day</Description>
          <Units>W / m^2</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Wave>
             <WaveType>Electromagnetic</WaveType>
             <WaveQuantity>Wavelength</WaveQuantity>
@@ -168,13 +156,10 @@
          <ParameterKey>DIFF_MA</ParameterKey>
          <Description>Difference of median and weighted average solar irradiance over the day</Description>
          <Units>W / m^2</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -184,13 +169,10 @@
          <ParameterKey>ERR_TOT</ParameterKey>
          <Description>Accuracy of solar irradiance averaged over the day</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -200,13 +182,10 @@
          <ParameterKey>ERR_MEAS</ParameterKey>
          <Description>Measurement precision averaged over the day</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -216,13 +195,10 @@
          <ParameterKey>STDEV_MEAS</ParameterKey>
          <Description>Standard deviation of median for good measurements</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -232,13 +208,10 @@
          <ParameterKey>COR_1AU</ParameterKey>
          <Description>AU correction factor for date</Description>
          <Units>1 / (AU^2)</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -248,13 +221,10 @@
          <ParameterKey>CURRENT</ParameterKey>
          <Description>Median of Total-Dark-Visible currents from level 1 with FOV and 1-AU corrections applied</Description>
          <Units>nanoAmps</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -264,13 +234,10 @@
          <ParameterKey>NUMPT</ParameterKey>
          <Description>Number of measurements used in daily average</Description>
          <Units>NONE</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -280,13 +247,10 @@
          <ParameterKey>COR_DEGRADE</ParameterKey>
          <Description>Instrument degradation correction factor</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -296,13 +260,10 @@
          <ParameterKey>DEGRADE_MODEL</ParameterKey>
          <Description>Long value = 1 if degradation function is linearly extrapolated, 0 if linearly interpolated</Description>
          <Units>None</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -312,13 +273,10 @@
          <ParameterKey>COR_ATMOS.AVG</ParameterKey>
          <Description>Average of atmospheric correction factors</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -328,13 +286,10 @@
          <ParameterKey>COR_ATMOS.MIN</ParameterKey>
          <Description>Minimum of atmospheric correction factors</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -344,13 +299,10 @@
          <ParameterKey>COR_ATMOS.MAX</ParameterKey>
          <Description>Maximum of atmospheric correction factors</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>9</Size>
             <Description>Dimensions: [Number_of_bandpass_wavelength_ranges] - where Number_of_bandpass_wavelength_ranges is the number of bandpass wavelength ranges.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>

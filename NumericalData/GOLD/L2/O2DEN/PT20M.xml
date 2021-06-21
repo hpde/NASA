@@ -89,7 +89,6 @@
       <Cadence>PT20M</Cadence>
     </TemporalDescription>
 	<ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-    <Keyword></Keyword>
     <Keyword>Day disk data</Keyword>
     <Keyword>GOLD</Keyword>
     <Keyword>SES-14</Keyword> 
@@ -208,8 +207,7 @@
 	    <Description>Number of points in data altitude grid.</Description>
 	    <Caveats>The size of the data array varies with the number of stellar occultations.</Caveats>
 	    <Cadence>PT20M</Cadence>
-	    <Units></Units>
-		<FillValue>-2147483647</FillValue>
+			<FillValue>-2147483647</FillValue>
 	    <Support>
 		    <Qualifier>Scalar</Qualifier>
 	        <SupportQuantity>Other</SupportQuantity>

@@ -84,7 +84,6 @@
     <Parameter>
       <Name>Count rate error of averaged B-field coordinates</Name>
       <ParameterKey>BSigma_GSM</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -310,7 +309,6 @@
     <Parameter>
       <Name>E-perp differential flux fractional error</Name>
       <ParameterKey>EEPpDfFlx</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -326,7 +324,6 @@
     <Parameter>
       <Name>E-parl differential flux fractional error</Name>
       <ParameterKey>EEPlDfFlx</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -394,7 +391,6 @@
     <Parameter>
       <Name>P-perp differential flux fractional error</Name>
       <ParameterKey>EPPpDfFlx</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -410,7 +406,6 @@
     <Parameter>
       <Name>P-parl differential flux fractional error</Name>
       <ParameterKey>EPPlDfFlx</ParameterKey>
-      <Units/>
       <Support>
         <SupportQuantity>Other</SupportQuantity>
       </Support>
@@ -629,7 +624,6 @@
     <Parameter>
       <Name>L - shell</Name>
       <ParameterKey>LShell</ParameterKey>
-      <Units/>
       <ValidMin>0.0</ValidMin>
       <ValidMax>1000.0</ValidMax>
       <FillValue>-999.99</FillValue>
@@ -670,7 +664,6 @@
     <Parameter>
       <Name>Ion/Electron gun operation flag</Name>
       <ParameterKey>GunStat</ParameterKey>
-      <Units/>
       <ValidMin>-128.0</ValidMin>
       <ValidMax>127.0</ValidMax>
       <FillValue>-128.0</FillValue>

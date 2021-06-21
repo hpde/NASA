@@ -5,7 +5,7 @@
     <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Imaging/L1C_Disk</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED GUVI Imaging Level 1C Disk</ResourceName>
-      <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
       <Description>This Level 1C data product measured over multiple scans on the disk contains data directly measure by the sensors such as photometer counts, uncertainties, light intensities and pointing information derived from the GUVI raw sensor data and the TIMED Satellite ephemeris data. The data are geolocated at a 150 km altitude, then gridded and binned to a 25 km X 25 km resolution GUVI-based coordinate system consisting of the along orbit position of the sensor and the angle of the scan from the nadir position. This gridding eliminates overlap from scan to scan due to the large instantaneous field-of-view of GUVI (about 12 degrees) and involves coaddition to place the values on a uniform instrument shared grid. The data is then determined whether its from day, night, aurora or twilight pixels.</Description>
       <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
       <Contact>
@@ -131,7 +131,7 @@
       <Description>Date of observation in number of days since start of current year.</Description>
       <Units>days</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumPhiBins] - where NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>1</ValidMin>
@@ -147,7 +147,7 @@
       <Units>ms</Units>
       <UnitsConversion>1e-3&gt;s</UnitsConversion>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumPhiBins] - where NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>0</ValidMin>
@@ -162,7 +162,7 @@
       <Description>Detector # of detector being used</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumPhiBins] - where NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>1</ValidMin>
@@ -177,7 +177,7 @@
       <Description>Slit position being used where 0 = closed, 1 = wide, 2 = medium, 3 = narrow, and 4 = unknown.</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumPhiBins] - where NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>0</ValidMin>
@@ -192,7 +192,7 @@
       <Description>Geographic latitude of pixel center of 25-km x 25-km bin</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>-90.0</ValidMin>
@@ -207,7 +207,7 @@
       <Description>Geographic longitude of pixel center of 25-km x 25-km bin</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>-180.0</ValidMin>
@@ -222,7 +222,7 @@
       <Description>Geomagnetic latitude of pixel center of 25-km x 25-km bin</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>-90.0</ValidMin>
@@ -237,7 +237,7 @@
       <Description>Geomagnetic longitude of pixel center of 25-km x 25-km bin</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>-180.0</ValidMin>
@@ -296,7 +296,7 @@
       <Description>Pierce Point Altitude</Description>
       <Units>km</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <Support>
@@ -309,7 +309,7 @@
       <Description>Solar Zenith Angle</Description>
       <Units>degrees</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>-90</ValidMin>
@@ -324,7 +324,7 @@
       <Description>Data Region where Bit 0: Dayside 0°&lt;SZA&lt;90°; Bit 1: Nightside 110°&lt;SZA&lt;180°; Bit 2: Twilight 90°&lt;SZA&lt;110°; Bit 3: Polar Region 50° &lt; Geomaglat &lt; 90°; Bit 4: Equatorial Region 0°&lt; Geomaglat &lt;50°; Bit 5,6: Unused; Bit 7: Unknown region. Valid values are [1 = daylight; 2 = night; 4 = twilight; 8 = Polar; 9 = Daylight Polar; 10 = Night Polar; 12 = Twilight polar; 16 = Equatorial; 17 = Daylight equatorial; 18 = night equatorial; 20 = twilight equatorial; 128 = Geolocation error]</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <ValidMin>1</ValidMin>
@@ -339,7 +339,7 @@
       <Description>Data Quality Indicator stored as bit-encoded integers where Bits 0-6 are unused; Bit 7: 1 = No Data, 0 = Valid Pixel Data.</Description>
       <Units>unitless</Units>
       <Structure>
-        <Size/>
+        <Size>0</Size>
         <Description>Dimensions: [NumThetaBins,NumPhiBins] - where NumThetaBins is the number of across-track bins (nominally 119); NumPhiBins is the number of along-track bins (nominally 1647) in an orbital file.</Description>
       </Structure>
       <Support>

@@ -53,13 +53,10 @@
          <ParameterKey>DATE</ParameterKey>
          <Description>Date of observation</Description>
          <Units>YYYY-DOY</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -69,13 +66,10 @@
          <ParameterKey>CHANNEL</ParameterKey>
          <Description>Channel index of the 12 XUV Photometers (1-12)</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -85,13 +79,10 @@
          <ParameterKey>WAVE</ParameterKey>
          <Description>Bandpass wavelength range</Description>
          <Units>nm</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53 2</Size>
             <Description>Dimensions: [Number_of_elements, Number_of_wavelength_intervals] - where Number_of_elements is the number of elements in the file, and Number_of_wavelength_intervals is the number of wavelength intervals.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -101,13 +92,10 @@
          <ParameterKey>FLUX_MEDIAN</ParameterKey>
          <Description>Solar irradiance - median for the day</Description>
          <Units>W / m^2</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Wave>
             <WaveType>Electromagnetic</WaveType>
             <WaveQuantity>Wavelength</WaveQuantity>
@@ -168,13 +156,10 @@
          <ParameterKey>ERR_TOT</ParameterKey>
          <Description>Accuracy of solar irradiance averaged over the day</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -184,13 +169,10 @@
          <ParameterKey>ERR_MEAS</ParameterKey>
          <Description>Measurement precision averaged over the day</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -200,13 +182,10 @@
          <ParameterKey>STDEV_MEAS</ParameterKey>
          <Description>Standard deviation of median for good measurements</Description>
          <Units>Fractional</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -216,13 +195,10 @@
          <ParameterKey>COR_1AU</ParameterKey>
          <Description>AU correction factor for date</Description>
          <Units>1 / (AU^2)</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -232,13 +208,10 @@
          <ParameterKey>CURRENT</ParameterKey>
          <Description>Median of Total-Dark-Visible currents from level 1 with FOV and 1-AU corrections applied</Description>
          <Units>nanoAmps</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -248,13 +221,10 @@
          <ParameterKey>NUMPT</ParameterKey>
          <Description>Number of measurements used in daily average</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -264,13 +234,10 @@
          <ParameterKey>QUALITY_FLAGS</ParameterKey>
          <Description>0 means XPS measures flux greater than 3-sigma above the GOES XRS long channel correlation, 1 means the XPS is within 3-sigma of the expected value, 2 is indeterminate due to a lack of available GOES long channel correlation data</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -280,13 +247,10 @@
          <ParameterKey>ODC_ID</ParameterKey>
          <Description>Memory address of command, valid from 1-254</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -296,13 +260,10 @@
          <ParameterKey>START_TIME</ParameterKey>
          <Description>UT time in seconds of day for start integration used in observation</Description>
          <Units>Seconds</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -312,13 +273,10 @@
          <ParameterKey>STOP_TIME</ParameterKey>
          <Description>UT time in seconds of day for the end integration used in observation</Description>
          <Units>Seconds</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>
@@ -328,13 +286,10 @@
          <ParameterKey>FLARE</ParameterKey>
          <Description>Ratio of observation flux_median to daily flux_median</Description>
          <Units>none</Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>53</Size>
             <Description>Dimensions: [Number_of_elements] - where Number_of_elements is the number of elements in the file.</Description>
          </Structure>
-         <ValidMin></ValidMin>
-         <ValidMax></ValidMax>
          <Support>
             <SupportQuantity>Other</SupportQuantity>
          </Support>

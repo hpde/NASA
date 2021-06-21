@@ -85,7 +85,7 @@
          <Description>Date of observation in number of days since start of current year.</Description>
          <Units>days</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>1</ValidMin>
@@ -101,7 +101,7 @@
          <Units>ms</Units>
          <UnitsConversion>1e-3&gt;s</UnitsConversion>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -116,7 +116,7 @@
          <Description>Detector number of detector being used</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>1</ValidMin>
@@ -131,7 +131,7 @@
          <Description>Slit position being used where 0 = closed, 1 = wide, 2 = medium, 3 = narrow, and 4 = unknown.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -146,7 +146,7 @@
          <Description>Starting position of the mirror.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>49</ValidMin>
@@ -161,7 +161,7 @@
          <Description>Position of the mirror when at nadir.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n] - where n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
          </Structure>
          <ValidMin>249</ValidMin>
@@ -285,7 +285,6 @@
          <Name>Right Ascension</Name>
          <ParameterKey>RA</ParameterKey>
          <Description>Right Ascension</Description>
-         <Units></Units>
          <Structure>
             <Size>14 32</Size>
             <Description>Dimensions: [14,32,n] - where 14 is the number of along track pixels, or NumAlongTrackPixels; 32 is the number of across track pixels, or NumAcrossTrackPixels; n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>
@@ -298,7 +297,6 @@
          <Name>Declination</Name>
          <ParameterKey>DEC</ParameterKey>
          <Description>Declination</Description>
-         <Units></Units>
          <Structure>
             <Size>14 32</Size>
             <Description>Dimensions: [14,32,n] - where 14 is the number of along track pixels, or NumAlongTrackPixels; 32 is the number of across track pixels, or NumAcrossTrackPixels; n is the number of scans, or NumScans, (i.e., records) in an orbital file.</Description>

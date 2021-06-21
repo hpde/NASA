@@ -165,8 +165,7 @@ Polar Mesospheric Cloud brightness.
 		<Parameter>
 			<Name>Position Information</Name>
 			<ParameterKey>MASS_DATA.POSITION</ParameterKey>
-			<Description></Description>
-			<Structure>
+						<Structure>
 				<Size>15752 5</Size>
 				<Description>Positional Information</Description>
 				<Element>
@@ -283,8 +282,6 @@ Polar Mesospheric Cloud brightness.
 			<Structure>
 				<Size>15752 10</Size>
 			</Structure>
-			<ValidMin></ValidMin>
-			<ValidMax></ValidMax>
 			<Support>
 				<SupportQuantity>Other</SupportQuantity>
 			</Support>

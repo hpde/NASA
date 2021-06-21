@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Neutral_Density_Product</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI L2B Neutral Density Profiles</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:38Z</ReleaseDate>
+         <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
          <Description>O2, N2, and O neutral density profiles over an orbit as a function of latitude and altitude derived from GUVI OI 135.6 nm and N2 LBH short and long radiance profiles.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -56,7 +56,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (n is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -71,7 +71,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -86,7 +86,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -101,7 +101,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>kelvin</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -116,7 +116,7 @@
          <Description>1-sigma uncertainty in atomic oxygen number density</Description>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -130,7 +130,7 @@
          <Description>1-sigma uncertainty in molecular oxygen number density</Description>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -144,8 +144,8 @@
          <Description>1-sigma uncertainty in molecular nitrogen number density</Description>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
-            <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
+             <Size>21 100</Size>
+           <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
             <ParticleType>Molecule</ParticleType>
@@ -158,7 +158,7 @@
          <Description>1-sigma uncertainty in temperature</Description>
          <Units>kelvin</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -173,8 +173,8 @@
          <Description>The solar energy flux from the TIMED/SEE data. Multiply Qeuv by MORBIT(0).M(4) x MORBIT(0).M(7) to obtain the solar flux required to fit the GUVI dayglow.</Description>
          <Units>mW/m2</Units>
          <Structure>
-            <Size></Size>
-            <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
+           <Size>0</Size>
+           <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Wave>
             <WaveType>Electromagnetic</WaveType>
@@ -187,7 +187,7 @@
          <Description>Altitude grid in model</Description>
          <Units>km</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>
@@ -200,7 +200,7 @@
          <Description>O/N2 column ratio computed from retrieved O and N2 densities</Description>
          <Units>km</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>
@@ -215,7 +215,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -230,7 +230,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -245,7 +245,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>cm-3</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -260,7 +260,7 @@
          <Caveats>Note that the retrieved densities and temperatures are given for the full zm (110 - 667 km) altitude range. But the highest accuracy is due to sensitivity of the dayglow between about 150 and 300 km to the parameters. So densities outside of that altitude range should be viewed as extrapolations of the best-fit model within that interval.  However, our initial comparisons with total mass densities above 400 km from satellite drag and accelerometers show good agreement with the GUVI retrievals?a very promising result.  If any of the elements in the FLAG parameter are set, retrievals should be used with caution, or preferably not used at all</Caveats>
          <Units>kelvin</Units>
          <Structure>
-            <Size></Size>
+            <Size>21 100</Size>
             <Description>Dimensions: [n,i] - where n is the number of levels in a limb scan (n is nominally 21); i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Particle>
@@ -275,7 +275,7 @@
          <Description>O/N2 column ratio computed from NRLMSIS O and N2 densities</Description>
          <Units>km</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>
@@ -289,7 +289,7 @@
          <Description>The number of retrieval iteration steps for a given limb scan</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>
@@ -330,7 +330,7 @@
          <Description>The day of year of the limb scan</Description>
          <Units>days</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>1</ValidMin>
@@ -345,7 +345,7 @@
          <Description>The UT seconds of day of the limb scan</Description>
          <Units>UT seconds</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -360,7 +360,7 @@
          <Description>The geolocated latitude of the limb scan assigned to the tangent point near the peak of the airglow layer, roughly 160 km</Description>
          <Units>degrees</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>-90</ValidMin>
@@ -375,7 +375,7 @@
          <Description>The geolocated longitude of the limb scan assigned to the tangent point near the peak of the airglow layer, roughly 160 km</Description>
          <Units>degrees</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>-180</ValidMin>
@@ -390,7 +390,7 @@
          <Description>The solar time of the limb scan</Description>
          <Units>hours</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -405,7 +405,7 @@
          <Description>The 81-day average of the observed solar 10.7-cm radio flux as recorded by DRAO at Pentiction, British Columbia, Canada, at 2000 UT.</Description>
          <Units>10-22W m-2 Hz-1</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Wave>
@@ -419,7 +419,7 @@
          <Description>The previous-day observed solar 10.7-cm radio flux as recorded by DRAO at Pentiction, British Columbia, Canada, at 2000 UT.</Description>
          <Units>10-22W m-2 Hz-1</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Wave>
@@ -433,7 +433,7 @@
          <Description>The current-day observed solar 10.7-cm radio flux as recorded by DRAO at Pentiction, British Columbia, Canada, at 2000 UT.</Description>
          <Units>10-22W m-2 Hz-1</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Wave>
@@ -447,7 +447,7 @@
          <Description>The current-day daily geomagnetic Ap index.</Description>
          <Units>unitless</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>0</ValidMin>
@@ -462,7 +462,7 @@
          <Description>The solar zenith angle at the geolocated tangent point.</Description>
          <Units>degrees</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <ValidMin>-180</ValidMin>
@@ -478,7 +478,7 @@
          <Description>A structure containing the model parameters and other information and constraints.  Components are M, an array of model parameters, which are retrieved from the inversion process; MINIT, an array of initial guesses of the parameter vector, M ; NAME, an array containing the string name of the model parameter; CHANGE, an array indicating the parameters that are allowed to vary during the inversion process, LOWERLIMIT, an array indicating the lower limits of the parameter, UPPERLIMIT, an array indicating the upper limits of the parameter, COVFIT, a covariance matrix for the retrieved model parameters.</Description>
          <Units>various</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>
@@ -491,7 +491,7 @@
          <Description>A structure containing the data, retrieved fits, and other information.  Components are DIN, an array of the original data; NAME, an array containing the name of the measured intensity (eg, 1356 or LBH); D, an array containing the best fit model intensities; D0, an array containing the intensities computed using the initial guess parameters; ALT, an array containing the tangent altitudes for the intensities; COVDATA, an array containing the covariance of the data.</Description>
          <Units>various</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [i] - where i is the number of limb scans (i.e., records) in an orbital file (i is approximately 100).</Description>
          </Structure>
          <Support>

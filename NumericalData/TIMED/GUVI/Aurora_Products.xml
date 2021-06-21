@@ -4,7 +4,7 @@
       <ResourceID>spase://NASA/NumericalData/TIMED/GUVI/Aurora_Products</ResourceID>
       <ResourceHeader>
          <ResourceName>TIMED GUVI L3 Aurora Products</ResourceName>
-         <ReleaseDate>2020-07-07T21:15:37Z</ReleaseDate>
+         <ReleaseDate>2021-06-02T21:15:37Z</ReleaseDate>
          <Description>Contains estimated electron average energy (Eavg) and energy flux (Q) in the auroral oval. Data is available in both geomagnetic and geographic coordinates.</Description>
          <Acknowledgement>NASA, Andrew B. Christensen</Acknowledgement>
          <Contact>
@@ -54,7 +54,7 @@
          <Description>Estimated magnetic north electron average energy (Eavg)</Description>
          <Units>keV</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Particle>
@@ -68,7 +68,7 @@
          <Description>Estimated magnetic south electron average energy (Eavg)</Description>
          <Units>keV</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Particle>
@@ -82,7 +82,7 @@
          <Description>Estimated magnetic north electron energy flux (Q)</Description>
          <Units>ergs/s/cm^2</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Particle>
@@ -96,7 +96,7 @@
          <Description>Estimated magnetic south electron energy flux (Q)</Description>
          <Units>ergs/s/cm^2</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Particle>
@@ -107,10 +107,9 @@
       <Parameter>
          <Name>Magnetic North UT</Name>
          <ParameterKey>Magnetic North UT second</ParameterKey>
-         <Description></Description>
          <Units>seconds</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -120,10 +119,9 @@
       <Parameter>
          <Name>Magnetic North latitude</Name>
          <ParameterKey>Magnetic North latitude</ParameterKey>
-         <Description></Description>
          <Units>degree</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -133,10 +131,9 @@
       <Parameter>
          <Name>Magnetic North Local Time</Name>
          <ParameterKey>Magnetic North Local Time UT</ParameterKey>
-         <Description></Description>
          <Units>hours</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -146,10 +143,9 @@
       <Parameter>
          <Name>Magnetic South UT</Name>
          <ParameterKey>Magnetic South UT second</ParameterKey>
-         <Description></Description>
          <Units>seconds</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -159,10 +155,9 @@
       <Parameter>
          <Name>Magnetic South latitude</Name>
          <ParameterKey>Magnetic South latitude</ParameterKey>
-         <Description></Description>
          <Units>degrees</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -172,10 +167,9 @@
       <Parameter>
          <Name>Magnetic South Local Time</Name>
          <ParameterKey>Magnetic South Local Time</ParameterKey>
-         <Description></Description>
          <Units>hours</Units>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Max dat points,Number of orbits] - where Max dat points is the number of data points in the file, Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -185,9 +179,8 @@
       <Parameter>
          <Name>Orbit Number</Name>
          <ParameterKey>Orbit Number</ParameterKey>
-         <Description></Description>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Number of orbits] - where Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -197,9 +190,8 @@
       <Parameter>
          <Name>Northern Data points</Name>
          <ParameterKey>Northern Data points</ParameterKey>
-         <Description></Description>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Number of orbits] - where Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -209,9 +201,8 @@
       <Parameter>
          <Name>Southern data points</Name>
          <ParameterKey>Southern data points</ParameterKey>
-         <Description></Description>
          <Structure>
-            <Size></Size>
+            <Size>0</Size>
             <Description>Dimensions: [Number of orbits] - where Number of orbits is the number of orbits in the orbital file.</Description>
          </Structure>
          <Support>
@@ -246,7 +237,6 @@
          <Name>Day</Name>
          <ParameterKey>Day</ParameterKey>
          <Description>Starting day of month of file&apos;s observation.</Description>
-         <Units></Units>
          <Structure>
             <Size>1</Size>
             <Description>Dimensions: [1] - this parameter is a single element per file.</Description>
@@ -259,8 +249,6 @@
          <Name>DOY</Name>
          <ParameterKey>DOY</ParameterKey>
          <Description>Starting day of year of file&apos;s observation.</Description>
-         <Units></Units>
-         <UnitsConversion></UnitsConversion>
          <Structure>
             <Size>1</Size>
             <Description>Dimensions: [1] - this parameter is a single element per file.</Description>
