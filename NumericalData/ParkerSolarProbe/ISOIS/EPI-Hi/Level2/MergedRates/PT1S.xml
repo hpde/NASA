@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/Level2/MergedRates/PT1S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) Merged Rates, Level 2 (L2), 1 s Data</ResourceName>
          <DOI>https://doi.org/10.48322/8ng6-5z57</DOI>
-         <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
-               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality conntrol for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
+               <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
+               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality control for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, IS☉IS, Energetic Particle Instrument, EPI-Hi, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the IS☉IS data please refer to the Energetic Particle Data User Guide available from the PSP IS☉IS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
@@ -141,22 +141,24 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate LET1 A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>0.595 to 1.000</Name>
+               <Name>0.6 - 1.0 MeV</Name>
                <Index>1</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>1.000 to 2.000</Name>
+               <Name>1.0 - 2.0 MeV</Name>
                <Index>2</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>1.40000</AxisLabel>
                </RenderingHints>
@@ -194,9 +196,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Support>
       </Parameter>
       <Parameter>
-         <Name>LET, Electron, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>LET, Electron, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <ParameterKey>LET_Electrons_ENERGY</ParameterKey>
-         <Description>LET, Electron, e-, Bin Characteristic Energy Value for the Differential Count Rate Parameters</Description>
+         <Description>LET, Electron, e-, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -242,12 +244,12 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Support>
       </Parameter>
       <Parameter>
-         <Name>LET, Electron, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>LET, Electron, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <ParameterKey>LET_Electrons_ENERGY_DELTAMINUS</ParameterKey>
-         <Description>LET, Electron, e-, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>LET, Electron, e-, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy lower extent</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
@@ -263,14 +265,13 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>LET, Electron, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>LET, Electron, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <ParameterKey>LET_Electrons_ENERGY_DELTAPLUS</ParameterKey>
-         <Description>LET, Electron, e-, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>LET, Electron, e-, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -289,7 +290,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
@@ -305,28 +305,28 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate LET1 B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1.000 to 2.380</Name>
+               <Name>1.0 - 2.4 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1.50000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>2.380 to 5.660</Name>
+               <Name>2.4 - 5.7 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>3.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>5.660 to 16.000</Name>
+               <Name>5.7 - 16.0 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>9.50000</AxisLabel>
@@ -345,9 +345,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>LET, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>LET, H, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <ParameterKey>LET_H_ENERGY</ParameterKey>
-         <Description>LET, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters</Description>
+         <Description>LET, Proton, H, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -371,12 +371,12 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>LET, H, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>LET, H, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <ParameterKey>LET_H_ENERGY_DELTAMINUS</ParameterKey>
-         <Description>LET, Proton, H, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>LET, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy lower extent</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
@@ -392,15 +392,14 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>LET, H, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>LET, H, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <ParameterKey>LET_H_ENERGY_DELTAPLUS</ParameterKey>
-         <Description>LET, Proton, H, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>LET, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -419,7 +418,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -439,7 +437,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -466,21 +465,21 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate HET B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>9.510 to 16.000</Name>
+               <Name>9.5 - 16.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>16.000 to 32.000</Name>
+               <Name>16.0 - 32.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>22.6000</AxisLabel>
@@ -499,9 +498,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>HET, H, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <ParameterKey>HET_H_ENERGY</ParameterKey>
-         <Description>HET, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters</Description>
+         <Description>HET, Proton, H, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -525,12 +524,12 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, H, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>HET, H, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <ParameterKey>HET_H_ENERGY_DELTAMINUS</ParameterKey>
-         <Description>HET, Proton, H, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>HET, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy lower extent</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
@@ -546,15 +545,14 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, H, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>HET, H, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <ParameterKey>HET_H_ENERGY_DELTAPLUS</ParameterKey>
-         <Description>HET, Proton, H, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>HET, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -573,7 +571,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -590,6 +587,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -633,6 +631,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -674,7 +673,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -701,28 +701,28 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate HET A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>0.595 to 1.000</Name>
+               <Name>0.6 - 1.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>1.000 to 2.000</Name>
+               <Name>1.0 - 2.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>1.40000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>2.000 to 4.000</Name>
+               <Name>2.0 - 4.0 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>2.80000</AxisLabel>
@@ -740,9 +740,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, Electron, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>HET, Electron, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <ParameterKey>HET_Electrons_ENERGY</ParameterKey>
-         <Description>HET, Electron, e-, Bin Characteristic Energy Value for the Differential Count Rate Parameters</Description>
+         <Description>HET, Electron, e-, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -765,12 +765,12 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, Electron, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>HET, Electron, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <ParameterKey>HET_Electrons_ENERGY_DELTAMINUS</ParameterKey>
-         <Description>HET, Electron, e-, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>HET, Electron, e-, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy lower extent</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
@@ -786,14 +786,13 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>HET, Electron, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>HET, Electron, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <ParameterKey>HET_Electrons_ENERGY_DELTAPLUS</ParameterKey>
-         <Description>HET, Electron, e-, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>HET, Electron, e-, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Cadence>PT1S</Cadence>
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
@@ -812,7 +811,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
@@ -828,6 +826,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -871,6 +870,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -914,21 +914,21 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate HET A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>9.510 to 16.000</Name>
+               <Name>9.5 - 16.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>16.000 to 32.000</Name>
+               <Name>16.0 - 32.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>22.6000</AxisLabel>
@@ -958,6 +958,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1001,28 +1002,28 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate LET2 C</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1.000 to 2.380</Name>
+               <Name>1.0 - 2.4 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1.50000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>2.380 to 5.660</Name>
+               <Name>2.4 - 5.7 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>3.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>5.660 to 16.000</Name>
+               <Name>5.7 - 16.0 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>9.50000</AxisLabel>
@@ -1050,7 +1051,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1077,21 +1079,21 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate LET2 C</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>0.595 to 1.000</Name>
+               <Name>0.6 - 1.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>1.000 to 2.000</Name>
+               <Name>1.0 - 2.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>1.40000</AxisLabel>
@@ -1123,7 +1125,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1133,8 +1136,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1150,28 +1154,28 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate LET1 A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>1.000 to 2.380</Name>
+               <Name>1.0 - 2.4 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>1.50000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>2.380 to 5.660</Name>
+               <Name>2.4 - 5.7 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>3.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>5.660 to 16.000</Name>
+               <Name>5.7 - 16.0 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>9.50000</AxisLabel>
@@ -1199,7 +1203,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1226,6 +1231,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1272,7 +1278,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -1302,7 +1309,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1312,8 +1320,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1329,6 +1338,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1375,7 +1385,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1385,8 +1396,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1400,7 +1412,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1427,21 +1440,21 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate LET1 B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>2</Size>
             <Element>
-               <Name>0.595 to 1.000</Name>
+               <Name>0.6 - 1.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>1.000 to 2.000</Name>
+               <Name>1.0 - 2.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>1.40000</AxisLabel>
@@ -1470,6 +1483,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1513,6 +1527,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1556,6 +1571,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1597,7 +1613,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1627,7 +1644,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1637,8 +1655,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1654,28 +1673,28 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate HET B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>3</Size>
             <Element>
-               <Name>0.595 to 1.000</Name>
+               <Name>0.6 - 1.0 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>1.000 to 2.000</Name>
+               <Name>1.0 - 2.0 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>1.40000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>2.000 to 4.000</Name>
+               <Name>2.0 - 4.0 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>2.80000</AxisLabel>
@@ -1821,6 +1840,466 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Velocity</SupportQuantity>
          </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, HET, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>HET_A_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, HET, Side A</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>HET A Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>0.6 - 1.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 2.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.0 - 4.0 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>2.80000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, HET, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>HET_A_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, HET, Side A</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>HET A H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>2</Size>
+            <Element>
+               <Name>9.5 - 16.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 32.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>22.6000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, HET, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>HET_B_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, HET, Side B</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>HET B Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>0.6 - 1.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 2.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.0 - 4.0 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>2.80000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, HET, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>HET_B_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, HET, Side B</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>HET B H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>2</Size>
+            <Element>
+               <Name>9.5 - 16.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 32.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>22.6000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, LET1, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET1_A_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, LET1, Side A</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET1 A Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>2</Size>
+            <Element>
+               <Name>0.6 - 1.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 2.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, LET1, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET1_A_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, LET1, Side A</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET1 A H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>1.0 - 2.4 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>1.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.4 - 5.7 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>3.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>5.7 - 16.0 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>9.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, LET1, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET1_B_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, LET1, Side B</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET1 B Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>2</Size>
+            <Element>
+               <Name>0.6 - 1.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 2.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, LET1, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET1_B_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, LET1, Side B</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET1 B H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>1.0 - 2.4 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>1.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.4 - 5.7 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>3.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>5.7 - 16.0 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>9.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, LET2, Side C</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET2_C_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, LET2, Side C</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET2 C Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>2</Size>
+            <Element>
+               <Name>0.6 - 1.0 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 2.0 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>1.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, LET2, Side C</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>LET2_C_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, LET2, Side C</Description>
+         <Caveats>Mnenomic Pattern: HET_B_Electrons&gt;rate</Caveats>
+         <Cadence>PT1S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>LET2 C H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>3</Size>
+            <Element>
+               <Name>1.0 - 2.4 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>1.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.4 - 5.7 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>3.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>5.7 - 16.0 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>9.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
       </Parameter>
    </NumericalData>
 </Spase>

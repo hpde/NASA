@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Hi/HET/Level2/Rates/PT10S</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Hi (ISOIS EPI-Hi) High Energy Telescope (HET) Rates, Level 2 (L2), 10 s Data</ResourceName>
          <DOI>https://doi.org/10.48322/6b2f-mx69</DOI>
-         <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
-               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality conntrol for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
+               <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
+               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality control for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, IS☉IS, Energetic Particle Instrument, EPI-Hi, High Energy Telescope, HET, Rates: The Epoch time tags indicate midpoint of integration. For information concerning use of the IS☉IS data please refer to the Energetic Particle Data User Guide available from the PSP IS☉IS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
@@ -139,106 +139,120 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He rate B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
+               <Units>s^-1</Units>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
                </RenderingHints>
@@ -277,9 +291,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Support>
       </Parameter>
       <Parameter>
-         <Name>He, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>He, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <ParameterKey>He_ENERGY</ParameterKey>
-         <Description>Helium, He, Bin Characteristic Energy Value for the Differential Count Rate Parameters</Description>
+         <Description>Helium, He, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters</Description>
          <Caveats>Mnenomic Pattern: He_ENERGY</Caveats>
          <Cadence>PT10S</Cadence>
          <Units>MeV/n</Units>
@@ -327,14 +341,14 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Support>
       </Parameter>
       <Parameter>
-         <Name>He, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>He, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <ParameterKey>He_ENERGY_DELTAMINUS</ParameterKey>
-         <Description>Helium, He, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>Helium, He, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT10S</Cadence>
          <Units>MeV/n</Units>
          <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>He_ENERGY_DELTAMINUS</AxisLabel>
+            <AxisLabel>He ENERGY DELTAMINUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -348,20 +362,19 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Ion</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>He, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>He, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <ParameterKey>He_ENERGY_DELTAPLUS</ParameterKey>
-         <Description>Helium, He, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>Helium, He, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Cadence>PT10S</Cadence>
          <Units>MeV/n</Units>
          <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>He_ENERGY_DELTAPLUS</AxisLabel>
+            <AxisLabel>He ENERGY DELTAPLUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -375,7 +388,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Ion</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
          </Particle>
@@ -394,98 +406,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H flux A</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -517,98 +529,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H uncertainty A</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -623,7 +635,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -660,10 +671,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ParameterKey>H_ENERGY_DELTAMINUS</ParameterKey>
          <Description>Proton, H, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT10S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>H_ENERGY_DELTAMINUS</AxisLabel>
+            <AxisLabel>H ENERGY DELTAMINUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -677,7 +688,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -690,7 +700,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>H_ENERGY_DELTAPLUS</AxisLabel>
+            <AxisLabel>H ENERGY DELTAPLUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -704,7 +714,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -723,98 +732,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H flux B</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -846,98 +855,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H uncertainty B</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -952,7 +961,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -972,7 +980,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -1001,105 +1010,105 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He flux B</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
@@ -1131,105 +1140,105 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He uncertainty B</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
@@ -1244,7 +1253,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
          </Particle>
@@ -1261,133 +1269,133 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>18</Size>
             <Element>
-               <Name>Energy 0.545</Name>
+               <Name>0.5 - 0.6 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.500000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.648</Name>
+               <Name>0.6 - 0.7 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>0.600000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.771</Name>
+               <Name>0.7 - 0.8 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.917</Name>
+               <Name>0.8 - 1.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>0.900000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.091</Name>
+               <Name>1.0 - 1.2 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>1.10000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.297</Name>
+               <Name>1.2 - 1.4 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>1.30000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.542</Name>
+               <Name>1.4 - 1.7 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>1.50000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.834</Name>
+               <Name>1.7 - 2.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>1.80000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 2.181</Name>
+               <Name>2.0 - 2.4 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>2.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 2.594</Name>
+               <Name>2.4 - 2.8 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>2.60000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 3.084</Name>
+               <Name>2.8 - 3.4 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>3.10000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 3.668</Name>
+               <Name>3.4 - 4.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>3.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 4.362</Name>
+               <Name>4.0 - 4.8 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>4.40000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 5.187</Name>
+               <Name>4.8 - 5.7 MeV</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>5.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 6.169</Name>
+               <Name>5.7 - 6.7 MeV</Name>
                <Index>15</Index>
                <RenderingHints>
                   <AxisLabel>6.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 7.336</Name>
+               <Name>6.7 - 8.0 MeV</Name>
                <Index>16</Index>
                <RenderingHints>
                   <AxisLabel>7.30000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>17</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>18</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
@@ -1435,10 +1443,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ParameterKey>Electrons_ENERGY_DELTAMINUS</ParameterKey>
          <Description>Electron, e-, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Cadence>PT10S</Cadence>
-         <Units>MeV/n</Units>
-         <UnitsConversion>1.602176565e-13&gt;J/n</UnitsConversion>
+         <Units>MeV</Units>
+         <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Electrons_ENERGY_DELTAMINUS</AxisLabel>
+            <AxisLabel>Electrons ENERGY DELTAMINUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1452,7 +1460,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
@@ -1464,7 +1471,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>MeV</Units>
          <UnitsConversion>1.602176565e-13&gt;J</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Electrons_ENERGY_DELTAPLUS</AxisLabel>
+            <AxisLabel>Electrons ENERGY DELTAPLUS</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1478,7 +1485,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Electron</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
          </Particle>
       </Parameter>
@@ -1497,7 +1503,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1507,8 +1514,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1524,6 +1532,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1567,6 +1576,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1610,98 +1620,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -1731,98 +1741,98 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>H rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>13</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
@@ -1850,7 +1860,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1880,7 +1891,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1890,8 +1902,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1907,6 +1920,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -1953,7 +1967,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -1980,105 +1995,105 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
@@ -2111,7 +2126,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -2121,8 +2137,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2138,133 +2155,133 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>Electrons rate B</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>18</Size>
             <Element>
-               <Name>Energy 0.545</Name>
+               <Name>0.5 - 0.6 MeV</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>0.500000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.648</Name>
+               <Name>0.6 - 0.7 MeV</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>0.600000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.771</Name>
+               <Name>0.7 - 0.8 MeV</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>0.800000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 0.917</Name>
+               <Name>0.8 - 1.0 MeV</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>0.900000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.091</Name>
+               <Name>1.0 - 1.2 MeV</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>1.10000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.297</Name>
+               <Name>1.2 - 1.4 MeV</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>1.30000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.542</Name>
+               <Name>1.4 - 1.7 MeV</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>1.50000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 1.834</Name>
+               <Name>1.7 - 2.0 MeV</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>1.80000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 2.181</Name>
+               <Name>2.0 - 2.4 MeV</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>2.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 2.594</Name>
+               <Name>2.4 - 2.8 MeV</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>2.60000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 3.084</Name>
+               <Name>2.8 - 3.4 MeV</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>3.10000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 3.668</Name>
+               <Name>3.4 - 4.0 MeV</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>3.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 4.362</Name>
+               <Name>4.0 - 4.8 MeV</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>4.40000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 5.187</Name>
+               <Name>4.8 - 5.7 MeV</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>5.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 6.169</Name>
+               <Name>5.7 - 6.7 MeV</Name>
                <Index>15</Index>
                <RenderingHints>
                   <AxisLabel>6.20000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 7.336</Name>
+               <Name>6.7 - 8.0 MeV</Name>
                <Index>16</Index>
                <RenderingHints>
                   <AxisLabel>7.30000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV</Name>
                <Index>17</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV</Name>
                <Index>18</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
@@ -2293,6 +2310,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleMin>-1.0</ScaleMin>
@@ -2334,7 +2352,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -2363,105 +2382,105 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He flux A</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
@@ -2493,105 +2512,105 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>Spectrogram</DisplayType>
             <AxisLabel>He uncertainty A</AxisLabel>
             <ValueFormat>F13.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>14</Size>
             <Element>
-               <Name>Energy 8.724</Name>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
                <Index>1</Index>
                <RenderingHints>
                   <AxisLabel>8.70000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 10.375</Name>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
                <Index>2</Index>
                <RenderingHints>
                   <AxisLabel>10.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 12.338</Name>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
                <Index>3</Index>
                <RenderingHints>
                   <AxisLabel>12.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 14.672</Name>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
                <Index>4</Index>
                <RenderingHints>
                   <AxisLabel>14.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 17.448</Name>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
                <Index>5</Index>
                <RenderingHints>
                   <AxisLabel>17.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 20.749</Name>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
                <Index>6</Index>
                <RenderingHints>
                   <AxisLabel>20.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 24.675</Name>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
                <Index>7</Index>
                <RenderingHints>
                   <AxisLabel>24.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 29.344</Name>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
                <Index>8</Index>
                <RenderingHints>
                   <AxisLabel>29.3000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 34.896</Name>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
                <Index>9</Index>
                <RenderingHints>
                   <AxisLabel>34.9000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 41.499</Name>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
                <Index>10</Index>
                <RenderingHints>
                   <AxisLabel>41.5000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 49.351</Name>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
                <Index>11</Index>
                <RenderingHints>
                   <AxisLabel>49.4000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 58.688</Name>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
                <Index>12</Index>
                <RenderingHints>
                   <AxisLabel>58.7000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 69.793</Name>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
                <Index>13</Index>
                <RenderingHints>
                   <AxisLabel>69.8000</AxisLabel>
                </RenderingHints>
             </Element>
             <Element>
-               <Name>Energy 82.998</Name>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
                <Index>14</Index>
                <RenderingHints>
                   <AxisLabel>83</AxisLabel>
@@ -2606,7 +2625,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
          </Particle>
@@ -2626,7 +2644,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -2636,8 +2655,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2694,6 +2714,814 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Velocity</SupportQuantity>
          </Support>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, TELESCOPE, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>A_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, TELESCOPE, Side A</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>A_Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>18</Size>
+            <Element>
+               <Name>0.5 - 0.6 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.500000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.6 - 0.7 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>0.600000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.7 - 0.8 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.8 - 1.0 MeV</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>0.900000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 1.2 MeV</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>1.10000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.2 - 1.4 MeV</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>1.30000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.4 - 1.7 MeV</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>1.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.7 - 2.0 MeV</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>1.80000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.0 - 2.4 MeV</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>2.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.4 - 2.8 MeV</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>2.60000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.8 - 3.4 MeV</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>3.10000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>3.4 - 4.0 MeV</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>3.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>4.0 - 4.8 MeV</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>4.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>4.8 - 5.7 MeV</Name>
+               <Index>14</Index>
+               <RenderingHints>
+                  <AxisLabel>5.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>5.7 - 6.7 MeV</Name>
+               <Index>15</Index>
+               <RenderingHints>
+                  <AxisLabel>6.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>6.7 - 8.0 MeV</Name>
+               <Index>16</Index>
+               <RenderingHints>
+                  <AxisLabel>7.30000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>8.0 - 9.5 MeV</Name>
+               <Index>17</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV</Name>
+               <Index>18</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, TELESCOPE, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>A_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, TELESCOPE, Side A</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>A_H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>13</Size>
+            <Element>
+               <Name>8.0 - 9.5 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>11.3 - 13.5 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>13.5 - 16.0 MeV</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>14.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 19.0 MeV</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>17.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>19.0 - 22.6 MeV</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>20.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>22.6 - 26.9 MeV</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>24.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>26.9 - 32.0 MeV</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>29.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>32.0 - 38.1 MeV</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>34.9000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>38.1 - 45.3 MeV</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>41.5000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>45.3 - 53.8 MeV</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>49.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>53.8 - 64.0 MeV</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>58.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>64.0 - 76.1 MeV</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>69.8000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He, Differential Counts, TELESCOPE, Side A</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>A_He</ParameterKey>
+         <Description>Helium, He, Differential Counts, TELESCOPE, Side A</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>A_He</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>14</Size>
+            <Element>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>14.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>17.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>20.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>24.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>29.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>34.9000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>41.5000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>49.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>58.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>69.8000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
+               <Index>14</Index>
+               <RenderingHints>
+                  <AxisLabel>83</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Electron, Differential Counts, TELESCOPE, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>B_Electrons</ParameterKey>
+         <Description>Electron, e-, Differential Counts, TELESCOPE, Side B</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>B_Electrons</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>18</Size>
+            <Element>
+               <Name>0.5 - 0.6 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>0.500000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.6 - 0.7 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>0.600000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.7 - 0.8 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>0.800000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>0.8 - 1.0 MeV</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>0.900000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.0 - 1.2 MeV</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>1.10000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.2 - 1.4 MeV</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>1.30000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.4 - 1.7 MeV</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>1.50000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>1.7 - 2.0 MeV</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>1.80000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.0 - 2.4 MeV</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>2.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.4 - 2.8 MeV</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>2.60000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>2.8 - 3.4 MeV</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>3.10000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>3.4 - 4.0 MeV</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>3.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>4.0 - 4.8 MeV</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>4.40000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>4.8 - 5.7 MeV</Name>
+               <Index>14</Index>
+               <RenderingHints>
+                  <AxisLabel>5.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>5.7 - 6.7 MeV</Name>
+               <Index>15</Index>
+               <RenderingHints>
+                  <AxisLabel>6.20000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>6.7 - 8.0 MeV</Name>
+               <Index>16</Index>
+               <RenderingHints>
+                  <AxisLabel>7.30000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>8.0 - 9.5 MeV</Name>
+               <Index>17</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV</Name>
+               <Index>18</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Electron</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H, Differential Counts, TELESCOPE, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>B_H</ParameterKey>
+         <Description>Proton, H, Differential Counts, TELESCOPE, Side B</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>B_H</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>13</Size>
+            <Element>
+               <Name>8.0 - 9.5 MeV</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>11.3 - 13.5 MeV</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>13.5 - 16.0 MeV</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>14.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 19.0 MeV</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>17.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>19.0 - 22.6 MeV</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>20.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>22.6 - 26.9 MeV</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>24.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>26.9 - 32.0 MeV</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>29.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>32.0 - 38.1 MeV</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>34.9000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>38.1 - 45.3 MeV</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>41.5000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>45.3 - 53.8 MeV</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>49.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>53.8 - 64.0 MeV</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>58.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>64.0 - 76.1 MeV</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>69.8000</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He, Differential Counts, TELESCOPE, Side B</Name>
+         <Set>Time series defined by using: EPOCH</Set>
+         <ParameterKey>B_He</ParameterKey>
+         <Description>Helium, He, Differential Counts, TELESCOPE, Side B</Description>
+         <Caveats>* See Franz, D. and M. Draper, Heliospheric Coordinate Systems, Planet. Space Sci., 50, 217-233, 2002.
+* Mnenomic Pattern: HCI_Lon</Caveats>
+         <Cadence>PT10S</Cadence>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>B_He</AxisLabel>
+            <ValueFormat>I8</ValueFormat>
+            <ScaleMin>0</ScaleMin>
+            <ScaleMax>1000</ScaleMax>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>14</Size>
+            <Element>
+               <Name>8.0 - 9.5 MeV/nuc</Name>
+               <Index>1</Index>
+               <RenderingHints>
+                  <AxisLabel>8.70000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>9.5 - 11.3 MeV/nuc</Name>
+               <Index>2</Index>
+               <RenderingHints>
+                  <AxisLabel>10.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>11.3 - 13.5 MeV/nuc</Name>
+               <Index>3</Index>
+               <RenderingHints>
+                  <AxisLabel>12.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>13.5 - 16.0 MeV/nuc</Name>
+               <Index>4</Index>
+               <RenderingHints>
+                  <AxisLabel>14.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>16.0 - 19.0 MeV/nuc</Name>
+               <Index>5</Index>
+               <RenderingHints>
+                  <AxisLabel>17.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>19.0 - 22.6 MeV/nuc</Name>
+               <Index>6</Index>
+               <RenderingHints>
+                  <AxisLabel>20.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>22.6 - 26.9 MeV/nuc</Name>
+               <Index>7</Index>
+               <RenderingHints>
+                  <AxisLabel>24.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>26.9 - 32.0 MeV/nuc</Name>
+               <Index>8</Index>
+               <RenderingHints>
+                  <AxisLabel>29.3000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>32.0 - 38.1 MeV/nuc</Name>
+               <Index>9</Index>
+               <RenderingHints>
+                  <AxisLabel>34.9000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>38.1 - 45.3 MeV/nuc</Name>
+               <Index>10</Index>
+               <RenderingHints>
+                  <AxisLabel>41.5000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>45.3 - 53.8 MeV/nuc</Name>
+               <Index>11</Index>
+               <RenderingHints>
+                  <AxisLabel>49.4000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>53.8 - 64.0 MeV/nuc</Name>
+               <Index>12</Index>
+               <RenderingHints>
+                  <AxisLabel>58.7000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>64.0 - 76.1 MeV/nuc</Name>
+               <Index>13</Index>
+               <RenderingHints>
+                  <AxisLabel>69.8000</AxisLabel>
+               </RenderingHints>
+            </Element>
+            <Element>
+               <Name>76.1 - 90.5 MeV/nuc</Name>
+               <Index>14</Index>
+               <RenderingHints>
+                  <AxisLabel>83</AxisLabel>
+               </RenderingHints>
+            </Element>
+         </Structure>
+         <ValidMin>0</ValidMin>
+         <ValidMax>16777215</ValidMax>
+         <FillValue>-2147483648</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
       </Parameter>
    </NumericalData>
 </Spase>

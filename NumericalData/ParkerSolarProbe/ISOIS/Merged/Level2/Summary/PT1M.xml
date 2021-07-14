@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument (ISOIS EPI) Merged Summary, Level 2 (L2), 1 min Data</ResourceName>
          <DOI>https://doi.org/10.48322/mede-7j02</DOI>
-         <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
-               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality conntrol for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, Revised Resource ID to reflect correction of the Cadence value, LFB</Note>
+               <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
+               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality control for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, IS☉IS, Energetic Particle Instrument, EPI-Hi and EPI-Lo, Summary data: The Epoch time tags indicate midpoint of integration. For information concerning use of the IS☉IS data please refer to the Energetic Particle Data User Guide available from the PSP IS☉IS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
@@ -73,7 +73,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Language>en</Language>
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT1S</PriorID>
-         <PriorID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/Merged/Level2/Summary/PT!S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -107,10 +106,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Name>CDAWeb HAPI Server</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
             <Style>HAPI</Style>
-            <ProductKey>PSP_ISOIS_L2-SUMMARY@0</ProductKey>
-            <ProductKey>PSP_ISOIS_L2-SUMMARY@1</ProductKey>
-            <ProductKey>PSP_ISOIS_L2-SUMMARY@2</ProductKey>
-            <ProductKey>PSP_ISOIS_L2-SUMMARY@3</ProductKey>
+            <ProductKey>PSP_ISOIS_L2-SUMMARY</ProductKey>
             <Description>Web Service to this product using the HAPI interface.</Description>
          </AccessURL>
          <Format>CSV</Format>
@@ -146,7 +142,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>H rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -217,7 +213,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>s^-1</Units>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H rate chanT</AxisLabel>
+            <AxisLabel>H rate ChanT</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleMin>0.001</ScaleMin>
             <ScaleMax>1.0</ScaleMax>
@@ -269,7 +265,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J/n</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -338,6 +334,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -368,6 +365,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -384,7 +382,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>s^-1</Units>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>Electron rate chanE</AxisLabel>
+            <AxisLabel>Electron rate ChanE</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleMin>0.001</ScaleMin>
             <ScaleMax>1.0</ScaleMax>
@@ -435,7 +433,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -550,7 +548,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>H rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -589,7 +587,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
       <Parameter>
          <Name>Epoch Time Delta Plus/Minus, HET</Name>
          <ParameterKey>HET_Epoch_DELTA</ParameterKey>
-         <Description>Epoch Time Delta Plus/Minus, one half of the Integration Time in Nanoseconds, used for Delta in Epoch for HET Parameters</Description>
+         <Description>Epoch Time Delta Plus/Minus, one half of the Integration Time in Nanoseconds for HET Parameters</Description>
          <Caveats>Mnenomic Pattern: Epoch_DELTA</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>ns</Units>
@@ -622,7 +620,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Electrons rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -637,10 +635,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>C, Differential Count Rate, Side A, spectrogram</Name>
+         <Name>C Average Count Rates, CHANNEL_TERSE</Name>
          <Set>Time series defined by using: EPOCH</Set>
          <ParameterKey>A_Heavy_Rate_TS</ParameterKey>
-         <Description>Carbon, C, Differential Count Rate, Side A, for spectrogram display</Description>
+         <Description>Carbon, C Average Count Rates, CHANNEL_VERBOSE</Description>
          <Caveats>* Mnenomic Pattern: A_Electrons&gt;rate
 * Variable Parent: A_Electrons_Rate_TS_Parent</Caveats>
          <Cadence>PT1M</Cadence>
@@ -649,7 +647,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Heavy ion rate A</AxisLabel>
             <ValueFormat>F10.1</ValueFormat>
-            <ScaleMin>0.0001</ScaleMin>
+            <ScaleMin>0.0</ScaleMin>
             <ScaleMax>1000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -657,11 +655,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>2.0e+07</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
-            <ParticleType>Proton</ParticleType>
+            <ParticleType>Electron</ParticleType>
             <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
             <ParticleQuantity>CountRate</ParticleQuantity>
-            <AtomicNumber>1</AtomicNumber>
          </Particle>
       </Parameter>
    </NumericalData>

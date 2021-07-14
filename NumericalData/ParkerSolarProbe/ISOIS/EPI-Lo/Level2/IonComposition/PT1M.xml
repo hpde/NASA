@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1M</ResourceID>
       <ResourceHeader>
          <ResourceName>PSP Integrated Science Investigation of the Sun, Energetic Particle Instrument-Lo (ISOIS EPI-Lo) Ion Composition, Level 2 (L2), 1 min Data</ResourceName>
          <DOI>https://doi.org/10.48322/vrve-qw24</DOI>
-         <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2021-06-08T12:34:56.789</ReleaseDate>
-               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality conntrol for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, Revised Resource ID to reflect correction of the Cadence value, LFB</Note>
+               <ReleaseDate>2021-07-02T12:34:56.789</ReleaseDate>
+               <Note>Added/Updated SPASE Parameter level metadata for revised PSP data products as needed, Applied quality control for DOI usage, and Added HAPI Access URL to the ADAPT pipeline for SPASE Numerical Data generation, LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, IS☉IS, Energetic Particle Instrument, EPI-Lo, Ion Composition data: The Epoch time tags indicate midpoint of integration. For information concerning use of the IS☉IS data please refer to the Energetic Particle Data User Guide available from the PSP IS☉IS Science Operations Center, SOC, web site hosted by the University of New Hampshire. The energetic particle pitch angle calculations are made possible via use of magnetic field data provided by the PSP FIELDS team.
@@ -73,7 +73,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Language>en</Language>
          </InformationURL>
          <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1S</PriorID>
-         <PriorID>spase://NASA/NumericalData/ParkerSolarProbe/ISOIS/EPI-Lo/Level2/IonComposition/PT1S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -107,10 +106,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Name>CDAWeb HAPI Server</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
             <Style>HAPI</Style>
-            <ProductKey>PSP_ISOIS-EPILO_L2-IC@0</ProductKey>
-            <ProductKey>PSP_ISOIS-EPILO_L2-IC@1</ProductKey>
-            <ProductKey>PSP_ISOIS-EPILO_L2-IC@2</ProductKey>
-            <ProductKey>PSP_ISOIS-EPILO_L2-IC@3</ProductKey>
+            <ProductKey>PSP_ISOIS-EPILO_L2-IC</ProductKey>
             <Description>Web Service to this product using the HAPI interface.</Description>
          </AccessURL>
          <Format>CSV</Format>
@@ -146,6 +142,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -269,6 +266,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -344,7 +342,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>H flux chanR</AxisLabel>
+            <AxisLabel>H flux ChanR</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -375,7 +373,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H unc. chanR</AxisLabel>
+            <AxisLabel>H unc. ChanR</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -388,7 +386,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -427,7 +424,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -535,7 +532,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>H flux chanP</AxisLabel>
+            <AxisLabel>H flux ChanP</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -566,7 +563,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H unc. chanP</AxisLabel>
+            <AxisLabel>H unc. ChanP</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -579,7 +576,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -618,7 +614,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -726,7 +722,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -737,7 +734,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -756,7 +752,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -767,7 +764,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -786,7 +782,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -796,8 +793,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -816,7 +814,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -827,7 +826,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -891,6 +889,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -921,7 +920,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -932,7 +932,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -951,6 +950,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -979,9 +979,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
 * Variable Purpose: PRIMARY_VAR,SUMMARY</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV/n)^-1</Units>
-         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J/n)^-1</UnitsConversion>
+         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>H flux chanT</AxisLabel>
+            <AxisLabel>H flux ChanT</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1009,10 +1009,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
 * Mnenomic Pattern: Flux_DELTA</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV/n)^-1</Units>
-         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J/n)^-1</UnitsConversion>
+         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H unc. chanT</AxisLabel>
+            <AxisLabel>H unc. ChanT</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1025,16 +1025,15 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>Channel T, H, Bin Characteristic Energy Value, Count Rate Parameters</Name>
+         <Name>Channel T, H, Bin Characteristic Energy Value per Nuclide, Count Rate Parameters</Name>
          <Set>Time series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_ChanT_Energy</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
+         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value per Nuclide for the Differential Count Rate Parameters.
 
 * Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
          <Caveats>Mnenomic Pattern: Energy</Caveats>
@@ -1043,7 +1042,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J/n</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -1059,10 +1058,10 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>Channel T, H, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Name>Channel T, H, Bin Characteristic Energy Value per Nuclide Delta Minus, Count Rate Parameters</Name>
          <Set>Time series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_ChanT_Energy_DELTAMINUS</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
          <Caveats>Mnenomic Pattern: Energy_DELTA_MINUS</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>keV/n</Units>
@@ -1080,15 +1079,16 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>Minimum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>Channel T, H, Bin Characteristic Energy Value Delta Plus, Count Rate Parameters</Name>
+         <Name>Channel T, H, Bin Characteristic Energy Value per Nuclide Delta Plus, Count Rate Parameters</Name>
          <Set>Time series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_ChanT_Energy_DELTAPLUS</ParameterKey>
-         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
+         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value per Nuclide, Delta Plus, bin top minus bin geometric center, for the Differential Count Rate Parameters</Description>
          <Caveats>Mnenomic Pattern: Energy_DELTA_PLUS</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>keV/n</Units>
@@ -1106,6 +1106,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <ParticleType>Proton</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>Maximum</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
          </Particle>
@@ -1125,6 +1126,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [x,y,z] HCI</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -1152,8 +1154,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>Mg rate chanD</AxisLabel>
+            <AxisLabel>Mg rate ChanD</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1182,7 +1183,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -1266,7 +1267,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1276,8 +1278,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1296,7 +1299,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1306,8 +1310,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1326,7 +1331,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1336,8 +1342,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1356,7 +1363,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -1367,7 +1375,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1386,7 +1393,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1396,8 +1404,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1416,7 +1425,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1426,8 +1436,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1443,8 +1454,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>He3 rate chanC</AxisLabel>
+            <AxisLabel>He3 rate ChanC</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1473,7 +1483,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -1530,7 +1540,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1540,8 +1551,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1560,7 +1572,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1570,8 +1583,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1590,7 +1604,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1600,8 +1615,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1620,7 +1636,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1630,8 +1647,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1650,7 +1668,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1660,8 +1679,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1680,7 +1700,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_longitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI longitude</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>360.0</ScaleMax>
@@ -1690,8 +1711,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>360.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.AzimuthAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1710,7 +1732,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1720,8 +1743,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1737,8 +1761,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>He4 rate chanC</AxisLabel>
+            <AxisLabel>He4 rate ChanC</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -1767,7 +1790,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -1851,7 +1874,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1861,8 +1885,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1881,7 +1906,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1891,8 +1917,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1911,7 +1938,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1921,8 +1949,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1941,7 +1970,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -1952,7 +1982,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -1971,7 +2000,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -1981,8 +2011,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2001,7 +2032,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -2012,7 +2044,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2028,8 +2059,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>Si rate chanD</AxisLabel>
+            <AxisLabel>Si rate ChanD</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2052,13 +2082,13 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Description>Channel D, Ion Mode 2, Silicon, Si, Bin Characteristic Energy Value for the Differential Count Rate Parameters.
 
 * Column 1 Labels from LOOK_DIRECTION_80: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]</Description>
-         <Caveats>This parameter is virtual. It is calculated by calling the function ARR_SLICE with the following input parameters: Si_ChanD_Energy.</Caveats>
+         <Caveats>Mnenomic Pattern: Energy</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>keV</Units>
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -2142,7 +2172,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -2152,8 +2183,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2172,7 +2204,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HGI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HGC latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -2182,8 +2215,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2202,7 +2236,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_latitude</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>HCI latitude</AxisLabel>
             <ValueFormat>F6.1</ValueFormat>
             <ScaleMin>-180.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -2212,8 +2247,9 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>180.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Support>
-            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
+            <Qualifier>Scalar</Qualifier>
             <Qualifier>Magnitude</Qualifier>
+            <Qualifier>DirectionAngle.ElevationAngle</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2229,8 +2265,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H rate chanT</AxisLabel>
+            <AxisLabel>H rate ChanT</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2258,8 +2293,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H rate chanR</AxisLabel>
+            <AxisLabel>H rate ChanR</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2287,8 +2321,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H rate chanP</AxisLabel>
+            <AxisLabel>H rate ChanP</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2316,8 +2349,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>C rate chanD</AxisLabel>
+            <AxisLabel>C rate ChanD</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2346,7 +2378,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -2427,8 +2459,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>Fe rate chanC</AxisLabel>
+            <AxisLabel>Fe rate ChanC</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2456,7 +2487,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -2537,7 +2568,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -2548,7 +2580,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2567,7 +2598,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -2578,7 +2610,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2597,6 +2628,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -2627,6 +2659,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -2657,7 +2690,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>He4 flux chanC</AxisLabel>
+            <AxisLabel>He4 flux ChanC</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2688,7 +2721,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>He4 unc. chanC</AxisLabel>
+            <AxisLabel>He4 unc. ChanC</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -2701,7 +2734,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Array</Qualifier>
             <Qualifier>Differential</Qualifier>
             <Qualifier>Magnitude</Qualifier>
-            <Qualifier>Uncertainty</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>2</AtomicNumber>
          </Particle>
@@ -2721,6 +2753,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -2751,7 +2784,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>HCI</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
-            <AxisLabel>Pos_R</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>R</AxisLabel>
             <ValueFormat>F5.3</ValueFormat>
             <ScaleMin>0.04</ScaleMin>
             <ScaleMax>1.03</ScaleMax>
@@ -2762,7 +2796,6 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <FillValue>-1.0e+31</FillValue>
          <Support>
             <Qualifier>Scalar</Qualifier>
-            <Qualifier>Magnitude</Qualifier>
             <SupportQuantity>Positional</SupportQuantity>
          </Support>
       </Parameter>
@@ -2776,7 +2809,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -3366,8 +3400,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Cadence>PT1M</Cadence>
          <Units>s^-1</Units>
          <RenderingHints>
-            <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>O rate chanC</AxisLabel>
+            <AxisLabel>O rate ChanC</AxisLabel>
             <ValueFormat>F14.3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -3396,7 +3429,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
@@ -3475,7 +3508,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -4068,6 +4102,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -4098,6 +4133,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <CoordinateSystemName>RTN</CoordinateSystemName>
          </CoordinateSystem>
          <RenderingHints>
+            <DisplayType>TimeSeries</DisplayType>
             <AxisLabel>Direction [R,T,N]</AxisLabel>
             <ValueFormat>F6.3</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
@@ -4123,7 +4159,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -4711,7 +4748,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -5299,7 +5337,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>&#176;</Units>
          <UnitsConversion>0.0174532925&gt;rad</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>Pitch</AxisLabel>
+            <DisplayType>TimeSeries</DisplayType>
+            <AxisLabel>PA</AxisLabel>
             <ValueFormat>F5.1</ValueFormat>
             <ScaleMin>0.0</ScaleMin>
             <ScaleMax>180.0</ScaleMax>
@@ -8833,8 +8872,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
-            <ScaleMin>1.0</ScaleMin>
+            <ValueFormat>G10.2E3</ValueFormat>
+            <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -8863,8 +8902,8 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
-            <ScaleMin>1.0</ScaleMin>
+            <ValueFormat>G10.2E3</ValueFormat>
+            <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -8883,18 +8922,18 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>H, Channel T, Energy</Name>
+         <Name>Channel T, H, Bin Characteristic Energy Value, Count Rate Parameters, spectrogram</Name>
          <Set>Time series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_ChanT_Energy_SLICE</ParameterKey>
-         <Description>Proton, H, Channel T, Ion Time of Flight, TOF, Mode, Energy for slice</Description>
+         <Description>Channel T, Ion Time of Flight, TOF, Mode, Proton, H, Bin Characteristic Energy Value for the Differential Count Rate Parameters, for spectrogram display</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function ARR_SLICE with the following input parameters: H_ChanT_Energy.</Caveats>
          <Cadence>PT1M</Cadence>
-         <Units>keV</Units>
-         <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
+         <Units>keV/n</Units>
+         <UnitsConversion>1.602176565e-16&gt;J/n</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
-            <ScaleMin>1.0</ScaleMin>
+            <ValueFormat>G10.2E3</ValueFormat>
+            <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -8923,7 +8962,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -8952,17 +8991,17 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Units>keV</Units>
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
-            <AxisLabel>He3 ChanC Energy DELTAMINUS</AxisLabel>
-            <ValueFormat>F8.2</ValueFormat>
-            <ScaleMin>0.1</ScaleMin>
-            <ScaleMax>100.0</ScaleMax>
+            <AxisLabel>Energy</AxisLabel>
+            <ValueFormat>G10.2E3</ValueFormat>
+            <ScaleMin>10.0</ScaleMin>
+            <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
          <Structure>
             <Size>48</Size>
          </Structure>
-         <ValidMin>0.0</ValidMin>
-         <ValidMax>60000.0</ValidMax>
+         <ValidMin>1.0</ValidMin>
+         <ValidMax>300000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
             <ParticleType>Ion</ParticleType>
@@ -8983,7 +9022,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -9007,13 +9046,13 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <Set>Time series defined by using: EPOCH_CHAND</Set>
          <ParameterKey>Si_ChanD_Energy_SLICE</ParameterKey>
          <Description>Silicon, Si, Channel D, Ion Mode 2, Energy for slice</Description>
-         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ARR_SLICE with the following input parameters: Si_ChanD_Energy.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>keV</Units>
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -9043,7 +9082,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -9055,11 +9094,11 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <ValidMax>300000.0</ValidMax>
          <FillValue>-1.0e+31</FillValue>
          <Particle>
-            <ParticleType>Proton</ParticleType>
+            <ParticleType>Ion</ParticleType>
             <Qualifier>Array</Qualifier>
             <Qualifier>Magnitude</Qualifier>
             <ParticleQuantity>Energy</ParticleQuantity>
-            <AtomicNumber>1</AtomicNumber>
+            <AtomicNumber>6</AtomicNumber>
          </Particle>
       </Parameter>
       <Parameter>
@@ -9073,7 +9112,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -9102,7 +9141,7 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
          <RenderingHints>
             <AxisLabel>Energy</AxisLabel>
-            <ValueFormat>G10.2</ValueFormat>
+            <ValueFormat>G10.2E3</ValueFormat>
             <ScaleMin>10.0</ScaleMin>
             <ScaleMax>300000.0</ScaleMax>
             <ScaleType>LogScale</ScaleType>
@@ -9122,17 +9161,17 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>He4, Flux Channel C</Name>
+         <Name>He4, Average Flux Channel C</Name>
          <Set>Time series defined by using: EPOCH_CHANC</Set>
          <ParameterKey>He4_Flux_ChanC_avg</ParameterKey>
-         <Description>Alpha Particle, He4, Flux Channel C, Ion Mode 1, Ions1 mode, averaged over all look direction</Description>
+         <Description>Alpha Particle, He4, Average Flux Channel C, Ion Mode 1, Ions1 mode, averaged over all look direction</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: He4_Flux_ChanC.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>He4 flux chanC_avg</AxisLabel>
+            <AxisLabel>He4 flux ChanC avg</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -9150,17 +9189,17 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>H, Flux Channel P</Name>
+         <Name>H, Average Flux Channel P</Name>
          <Set>Time series defined by using: EPOCH_CHANP</Set>
          <ParameterKey>H_Flux_ChanP_avg</ParameterKey>
-         <Description>Proton, H, Flux Channel P, High Resolution Mode, HiResProtons mode, averaged over all look direction</Description>
+         <Description>Proton, H, Average Flux Channel P, High Resolution Mode, HiResProtons mode, averaged over all look direction</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_Flux_ChanP.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H flux chanP_avg</AxisLabel>
+            <AxisLabel>H flux ChanP avg</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -9178,17 +9217,17 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>H, Flux Channel R</Name>
+         <Name>H, Average Flux Channel R</Name>
          <Set>Time series defined by using: EPOCH_CHANR</Set>
          <ParameterKey>H_Flux_ChanR_avg</ParameterKey>
-         <Description>Proton, H, Flux Channel R, High Time Resolution Mode, HiResProtons mode, averaged over all look direction</Description>
+         <Description>Proton, H, Average Flux Channel R, High Time Resolution Mode, HiResProtons mode, averaged over all look direction</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_Flux_ChanR.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV)^-1</Units>
          <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H flux chanR_avg</AxisLabel>
+            <AxisLabel>H flux ChanR avg</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -9206,17 +9245,17 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
          </Particle>
       </Parameter>
       <Parameter>
-         <Name>H, Flux Channel T</Name>
+         <Name>H, Average Flux Channel T</Name>
          <Set>Time series defined by using: EPOCH_CHANT</Set>
          <ParameterKey>H_Flux_ChanT_avg</ParameterKey>
-         <Description>Proton, H, Flux Channel T, Ion Time of Flight, TOF, Mode, IonsTOF mode, averaged over all look direction</Description>
+         <Description>Proton, H, Average Flux Channel T, Ion Time of Flight, TOF, Mode, IonsTOF mode, averaged over all look direction</Description>
          <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_Flux_ChanT.</Caveats>
          <Cadence>PT1M</Cadence>
          <Units>(cm^2 s sr keV/n)^-1</Units>
-         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J/n)^-1</UnitsConversion>
+         <UnitsConversion>6.24161e-16&gt;(m^2 s sr J)^-1</UnitsConversion>
          <RenderingHints>
             <DisplayType>Spectrogram</DisplayType>
-            <AxisLabel>H flux chanT_avg</AxisLabel>
+            <AxisLabel>H flux ChanT avg</AxisLabel>
             <ValueFormat>F20.2</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -9231,6 +9270,551 @@ Citation: McComas, D. J. (2020). PSP Integrated Science Investigation of the Sun
             <Qualifier>Magnitude</Qualifier>
             <ParticleQuantity>NumberFlux</ParticleQuantity>
             <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>C Average Count Rates, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>C_CountRate_ChanD_avg</ParameterKey>
+         <Description>Carbon, C Average Count Rates, Channel D, Ion Mode 2</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: C_CountRate_ChanD.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>C rate ChanD avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>C Counts, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>C_Counts_ChanD</ParameterKey>
+         <Description>Carbon, C Counts, Channel D, Ion Mode 2.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>C counts ChanD</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Fe Average Count Rates, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>Fe_CountRate_ChanC_avg</ParameterKey>
+         <Description>Fe, Fe Average Count Rates, Channel C, Ion Mode 1</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: Fe_CountRate_ChanC.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>Fe rate ChanC avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Fe Counts, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>Fe_Counts_ChanC</ParameterKey>
+         <Description>Fe, Fe Counts, Channel C, Ion Mode 1.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>Fe counts ChanC</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Average Count Rates, Channel P</Name>
+         <Set>Time series defined by using: EPOCH_CHANP</Set>
+         <ParameterKey>H_CountRate_ChanP_avg</ParameterKey>
+         <Description>Proton, H Average Count Rates, Channel P, High Resolution Mode</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_CountRate_ChanP.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>H rate ChanP avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Average Count Rates, Channel R</Name>
+         <Set>Time series defined by using: EPOCH_CHANR</Set>
+         <ParameterKey>H_CountRate_ChanR_avg</ParameterKey>
+         <Description>Proton, H Average Count Rates, Channel R, High Time Resolution Mode</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_CountRate_ChanR.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>H rate ChanR avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Average Count Rates, Channel T</Name>
+         <Set>Time series defined by using: EPOCH_CHANT</Set>
+         <ParameterKey>H_CountRate_ChanT_avg</ParameterKey>
+         <Description>Proton, H Average Count Rates, Channel T, Ion Time of Flight, TOF, Mode</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: H_CountRate_ChanT.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>H rate ChanT avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 47</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Counts, Channel P</Name>
+         <Set>Time series defined by using: EPOCH_CHANP</Set>
+         <ParameterKey>H_Counts_ChanP</ParameterKey>
+         <Description>Proton, H Counts, Channel P, High Resolution Mode.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>H counts ChanP</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Counts, Channel R</Name>
+         <Set>Time series defined by using: EPOCH_CHANR</Set>
+         <ParameterKey>H_Counts_ChanR</ParameterKey>
+         <Description>Proton, H Counts, Channel R, High Time Resolution Mode.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>H counts ChanR</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>H Counts, Channel T</Name>
+         <Set>Time series defined by using: EPOCH_CHANT</Set>
+         <ParameterKey>H_Counts_ChanT</ParameterKey>
+         <Description>Proton, H Counts, Channel T, Ion Time of Flight, TOF, Mode.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>H counts ChanT</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 47</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Proton</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>1</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Channel C, He3, Bin Characteristic Energy Value Delta Minus, Count Rate Parameters</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>He3_ChanC_Energy_DELTAMINUS</ParameterKey>
+         <Description>Channel C, Ion Mode 1, Helium 3, He3, Bin Characteristic Energy Value, Delta Minus, bin geometric center minus bin bottom, for the Differential Count Rate Parameters</Description>
+         <Caveats>Mnenomic Pattern: Energy_DELTA_MINUS</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>keV</Units>
+         <UnitsConversion>1.602176565e-16&gt;J</UnitsConversion>
+         <RenderingHints>
+            <AxisLabel>He3 ChanC Energy DELTAMINUS</AxisLabel>
+            <ValueFormat>F8.2</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <Qualifier>Minimum</Qualifier>
+            <ParticleQuantity>Energy</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He3 Average Count Rates, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>He3_CountRate_ChanC_avg</ParameterKey>
+         <Description>Helium 3, He3 Average Count Rates, Channel C, Ion Mode 1</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: He3_CountRate_ChanC.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>He3 rate ChanC avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He3 Counts, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>He3_Counts_ChanC</ParameterKey>
+         <Description>Helium 3, He3 Counts, Channel C, Ion Mode 1.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>He3 counts ChanC</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He4 Average Count Rates, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>He4_CountRate_ChanC_avg</ParameterKey>
+         <Description>Alpha Particle, He4 Average Count Rates, Channel C, Ion Mode 1</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: He4_CountRate_ChanC.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>He4 rate ChanC avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>AlphaParticle</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>He4 Counts, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>He4_Counts_ChanC</ParameterKey>
+         <Description>Alpha Particle, He4 Counts, Channel C, Ion Mode 1.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>He4 counts ChanC</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>AlphaParticle</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>2</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Mg Average Count Rates, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>Mg_CountRate_ChanD_avg</ParameterKey>
+         <Description>Magnesium, Mg Average Count Rates, Channel D, Ion Mode 2</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: Mg_CountRate_ChanD.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>Mg rate ChanD avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>12</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Mg Counts, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>Mg_Counts_ChanD</ParameterKey>
+         <Description>Magnesium, Mg Counts, Channel D, Ion Mode 2.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>Mg counts ChanD</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>12</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>O Average Count Rates, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>O_CountRate_ChanC_avg</ParameterKey>
+         <Description>Oxygen, O Average Count Rates, Channel C, Ion Mode 1</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: O_CountRate_ChanC.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>O rate ChanC avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>8</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>O Counts, Channel C</Name>
+         <Set>Time series defined by using: EPOCH_CHANC</Set>
+         <ParameterKey>O_Counts_ChanC</ParameterKey>
+         <Description>Oxygen, O Counts, Channel C, Ion Mode 1.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>O counts ChanC</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>8</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Si Average Count Rates, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>Si_CountRate_ChanD_avg</ParameterKey>
+         <Description>Silicon, Si Average Count Rates, Channel D, Ion Mode 2</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function SPDF_3D_TO_2D_AVG_OVER_COL with the following input parameters: Si_CountRate_ChanD.</Caveats>
+         <Cadence>PT1M</Cadence>
+         <Units>s^-1</Units>
+         <RenderingHints>
+            <DisplayType>Spectrogram</DisplayType>
+            <AxisLabel>Si rate ChanD avg</AxisLabel>
+            <ValueFormat>F14.3</ValueFormat>
+            <ScaleType>LogScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-1.0e+31</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>CountRate</ParticleQuantity>
+            <AtomicNumber>14</AtomicNumber>
+         </Particle>
+      </Parameter>
+      <Parameter>
+         <Name>Si Counts, Channel D</Name>
+         <Set>Time series defined by using: EPOCH_CHAND</Set>
+         <ParameterKey>Si_Counts_ChanD</ParameterKey>
+         <Description>Silicon, Si Counts, Channel D, Ion Mode 2.
+
+* Column 1 Labels from LOOK_DIRECTION_80: ["L00","L01","L02","L03","L04","L05","L06","L07","L08","L09","L10","L11","L12","L13","L14","L15","L16","L17","L18","L19","L20","L21","L22","L23","L24","L25","L26","L27","L28","L29","L30","L31","L32","L33","L34","L35","L36","L37","L38","L39","L40","L41","L42","L43","L44","L45","L46","L47","L48","L49","L50","L51","L52","L53","L54","L55","L56","L57","L58","L59","L60","L61","L62","L63","L64","L65","L66","L67","L68","L69","L70","L71","L72","L73","L74","L75","L76","L77","L78","L79"]</Description>
+         <Caveats>Mnenomic Pattern: PA_ChanR</Caveats>
+         <Cadence>PT1M</Cadence>
+         <RenderingHints>
+            <AxisLabel>Si counts ChanD</AxisLabel>
+            <ValueFormat>I10</ValueFormat>
+            <ScaleType>LinearScale</ScaleType>
+         </RenderingHints>
+         <Structure>
+            <Size>80 48</Size>
+         </Structure>
+         <FillValue>-9223372036854775808</FillValue>
+         <Particle>
+            <ParticleType>Ion</ParticleType>
+            <Qualifier>Array</Qualifier>
+            <Qualifier>Magnitude</Qualifier>
+            <ParticleQuantity>Counts</ParticleQuantity>
+            <AtomicNumber>14</AtomicNumber>
          </Particle>
       </Parameter>
    </NumericalData>
