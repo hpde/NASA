@@ -1,11 +1,17 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-  <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Annotation>
     <ResourceID>spase://NASA/Annotation/Alysha.Reinard/CME/Voyager2.1999-06-24T00_00_00</ResourceID>
     <ResourceHeader>
       <ResourceName>ICME observed by Voyager2</ResourceName>
-      <ReleaseDate>2020-07-07T19:01:30Z</ReleaseDate>
+      <ReleaseDate>2021-07-19T14:39:57Z</ReleaseDate>
+      <RevisionHistory>
+         <RevisionEvent>
+            <ReleaseDate>2021-07-19T14:39:57Z</ReleaseDate>
+            <Note>Changed an Association ID from VSPO to NASA</Note>
+         </RevisionEvent>
+      </RevisionHistory>
       <Description>Helium particle enhancements were used to identify the ICME at Voyager</Description>
       <Acknowledgement>FIXME</Acknowledgement>
       <Contact>
@@ -26,7 +32,7 @@
         <AssociationType>ObservedBy</AssociationType>
 </Association>
       <Association>
-        <AssociationID>spase://VSPO/Annotation/Alysha.Reinard/CME/Ulysses.1998-11-27T00_00_00</AssociationID>
+        <AssociationID>spase://NASA/Annotation/Alysha.Reinard/CME/Ulysses.1998-11-27T00_00_00</AssociationID>
         <AssociationType>Other</AssociationType>
 </Association>
       <PriorID>spase://VHO/Annotation/Alysha.Reinard/CME/Voyager2.1999-06-24T00_00_00</PriorID>
