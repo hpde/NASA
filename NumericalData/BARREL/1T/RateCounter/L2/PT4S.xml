@@ -6,10 +6,24 @@
       <ResourceHeader>
          <ResourceName>BARREL 1T Rate Counter (RCNT) NaI Scintillator Diagnostics, Level 2, 4 s Data</ResourceName>
          <DOI>https://doi.org/10.48322/x1fx-bj09</DOI>
-         <ReleaseDate>2022-04-16T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2022-05-11T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-03-29T12:34:56.789</ReleaseDate>
+               <Note>Last prior known metadata Release Date</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2022-04-16T12:34:56.789</ReleaseDate>
+               <Note>BARREL: DOI and PublicationInfo added, metadata revised by LFB on 2022-04-16, reviewed by TAK</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2022-05-11T12:34:56.789</ReleaseDate>
+               <Note>BARREL: Campaign_and_launches.txt InformationURL added, typo fixed, metadata revised by LFB on 2022-05-11</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>This data product consists of measurements from rate counters. The rate count data are diagnostic fields, have uncalibrated energy ranges, and wrap near or above 16384 counts/s. The rate count values are stored as 4 s accumulations of counts.
 
-The BARREL Mission was a multiple-balloon investigation designed to study electron losses from Earth$apos;s Radiation Belts. Selected as a NASA Living with a Star Mission of Opportunity, BARREL was designed to augment the Radiation Belt Storm Probes, RBSP, mission by providing measurements of the spatial and temporal variations of electron precipitation from the radiation belts. The RBSP mission has since been renamed the Van Allen Probes mission. Each BARREL balloon carried an X-ray spectrometer to measure the bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with neutrals in the atmosphere, and a DC magnetometer to measure ULF-timescale variations of the magnetic field. BARREL observations collected near latitudes close to either the antarctic and arctic circles at stratospheric altitudes at about 30 km. The BARREL instrumentation provided the first balloon measurements of relativistic electron precipitation while comprehensive in situ measurements of both plasma waves and energetic particles were available. Also, the BARREL data has been used to characterize the spatial scale of precipitation at relativistic energies.
+The BARREL Mission was a multiple-balloon investigation designed to study electron losses from Earth&apos;s Radiation Belts. Selected as a NASA Living with a Star Mission of Opportunity, BARREL was designed to augment the Radiation Belt Storm Probes, RBSP, mission by providing measurements of the spatial and temporal variations of electron precipitation from the radiation belts. The RBSP mission has since been renamed the Van Allen Probes mission. Each BARREL balloon carried an X-ray spectrometer to measure the bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with neutrals in the atmosphere, and a DC magnetometer to measure ULF-timescale variations of the magnetic field. BARREL observations collected near latitudes close to either the antarctic and arctic circles at stratospheric altitudes at about 30 km. The BARREL instrumentation provided the first balloon measurements of relativistic electron precipitation while comprehensive in situ measurements of both plasma waves and energetic particles were available. Also, the BARREL data has been used to characterize the spatial scale of precipitation at relativistic energies.
 
 The initial pair of balloon campaigns that were conducted initially during the Austral summer months of January and February of 2013 and 2014 with launches from two stations located in Antarctica: the British base located at Halley Bay on the Brunt Ice Shelf and the South African SANAE IV base (SANAE stand for South African National Antarctic Expedition) located in Vesleskarvet, Queen Maud Land. For the 2013 and 2014 the balloon campaigns, the launch plan was designed to maintain an array with about five payloads spread across about six hours of magnetic local time, MLT, in the region that magnetically maps to the radiation belts. Thus, the BARREL balloon constellation constituted an evolving and slowly moving array able to study relativistic electron precipitation from the radiation belts.
 
@@ -91,6 +105,12 @@ BARREL will make all its scientific data products quickly and publicly available
             <Name>BARREL Data Usage Policy</Name>
             <URL>https://barrel.rmillan.host.dartmouth.edu/documents/data.use.policy.pdf</URL>
             <Description>BARREL Mission Data Usage Policy PDF</Description>
+            <Language>en</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Balloon Campaign Information</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/pub/data/barrel/Campaigns_and_launches.txt</URL>
+            <Description>Annotated BARREL campaign information with balloon release locations along with dates and times of balloon launch and termination of data acquisition. Text file provided by Warren Rexroad</Description>
             <Language>en</Language>
          </InformationURL>
          <InformationURL>
