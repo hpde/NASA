@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
    <Version>2.4.0</Version>
    <NumericalData>
@@ -6,22 +6,26 @@
       <ResourceHeader>
          <ResourceName>ACE Ultra Low Energy Isotope Spectrometer (ULEIS) Ion Fluxes, Level 2, Hourly Data</ResourceName>
          <DOI>https://doi.org/10.48322/agmq-ex61</DOI>
-         <ReleaseDate>2022-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2022-05-17T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
                <ReleaseDate>2021-04-27T15:38:11</ReleaseDate>
-               <Note>Prior Metadata Release Date</Note>
+               <Note>Last prior known metadata Release Date</Note>
             </RevisionEvent>
             <RevisionEvent>
-               <ReleaseDate>2022-04-20T12:34:56.789</ReleaseDate>
-               <Note>DOI and PublicationInfo added, AccessURL URL updated, metadata revised by J.M. Weygand on 2022-04-08, reviewed by LFB</Note>
+               <ReleaseDate>2022-04-20T00:00:00</ReleaseDate>
+               <Note>ACE: DOI and PublicationInfo added, metadata revised by J.M. Weygand on 2022-04-08, reviewed by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2022-05-17T12:34:56.789</ReleaseDate>
+               <Note>ACE: Updated to SPASE Version 2.4.0, revised by LFB on 2022-05-17</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>The Ultra Low Energy Isotope Spectrometer measures Ion Fluxes over the Charge Range from H through Ni from about 20 keV/nucleon to 10 MeV/nucleon, thus covering both Suprathermal and Energetic Particle Energy Ranges. Exploratory Measurements of Ultra-Heavy Species (Mass Range above Ni) will also be performed in a more limited Energy Range near 0.5 MeV/nucleon. ULEIS will be studying the Elemental and Isotopic Composition of Solar Energetic Particles, and the Mechanisms by which these Particles are energized in the Solar Corona. ULEIS will also investigate Mechanisms by which Supersonic Interplanetary Shock Waves energize Ions. To avoid Confusion and Misunderstanding, it is recommended that Users consult with the appropriate ACE Team Members before publishing Work derived from the Data. The ACE Team has worked hard to ensure that the Level 2 Data are free from Errors, but the Team cannot accept Responsibility for Erroneous Data, or for Misunderstandings about how the Data may be used. This is especially true if the appropriate ACE Team Members are not consulted before Publication. At the very least, Preprints should be forwarded to the ACE Team before Publication.</Description>
          <Acknowledgement>Please acknowledge the ACE ULEIS Instrument Team and the Principal Investigator Glenn Mason of JHU/APL.</Acknowledgement>
          <PublicationInfo>
-            <Authors>G. M. Mason, M. I .Desai, J. E. Mazur, J. R. Dwyer, R. E. Gold, S. M. Krimigis, and M. A. Dayeh</Authors>
-            <PublicationDate>2022-04-07T10:00:00</PublicationDate>
+            <Authors>Mason, G.M., Desai, M.I., Mazur, J.E., Dwyer, J.R., Gold, R.E., Krimigis, S.M., and Dayeh, M.A.</Authors>
+            <PublicationDate>2022-04-27T00:00:00</PublicationDate>
             <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
          </PublicationInfo>
          <Contact>
