@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_4_1.xsd">
    <Version>2.4.1</Version>
    <NumericalData>
-      <ResourceID>spase://NASA/NumericalData/ACE/EPAM/L2/PT1H</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ACE/EPAM/L2/PT12S</ResourceID>
       <ResourceHeader>
-         <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 1-Hour Level 2 Data</ResourceName>
-         <DOI>https://doi.org/10.48322/pn1t-zx03</DOI>
+         <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) 12-sec Level 2 Data</ResourceName>
+         <DOI>https://doi.org/10.48322/jqj0-vn49</DOI>
          <ReleaseDate>2022-07-25T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
@@ -14,10 +14,10 @@
             </RevisionEvent>
             <RevisionEvent>
                <ReleaseDate>2022-07-25T12:34:56.789</ReleaseDate>
-               <Note>Added DOI and PublicationInfo by JMW 2022-06-02, updated three InformationURL URLs, metadata updated to SPASE 2.4.1, reviewed by LFB 20220724</Note>
+               <Note>Added DOI and PublicationInfo by JMW 2022-06-02, revised NumericalData ResourceID, added Prior ID, updated three InformationURL URLs, metadata updated to SPASE 2.4.1, reviewed by LFB 20220724</Note>
             </RevisionEvent>
          </RevisionHistory>
-         <Description>ACE Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 1-hour time resolution. Calibrated science quality data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The &quot;parameter keys&quot; given below are as used by CDAWeb. Daily and 27-day averages are also available via the ASC paths given below.</Description>
+         <Description>ACE EPAM Electron Proton Alpha Monitor (EPAM) Level 2 intensities at 12-sec time resolution. Calibrated science quality data. The data are accessible via ftp in HDF and CDF from the ACE Science Center and CDAWeb, respectively, and in ASCII format from the value-added interfaces at those sites. The &quot;parameter keys&quot; given below are as used by CDAWeb.</Description>
          <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
          <PublicationInfo>
             <Authors>Gold, R. E., Roelof, E. C., Krimigis, S., Haggerty, D., Armstrong, T., Manweiler, J. W., and Patterson, J. D.</Authors>
@@ -46,8 +46,8 @@
             <URL>https://izw1.caltech.edu/ACE/ASC/level2/policy_lvl2.html</URL>
             <Description>ACE level 2 data rules of use, and caveats</Description>
          </InformationURL>
-         <PriorID>spase://VHO/NumericalData/ACE/EPAM/L2_PT1H</PriorID>
-         <PriorID>spase://VSPO/NumericalData/ACE/EPAM/L2/PT1H</PriorID>
+         <PriorID>spase://VSPO/NumericalData/ACE/EPAM/L2_PT12S</PriorID>
+         <PriorID>NASA/NumericalData/ACE/EPAM/L2/PT12S</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -55,12 +55,12 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTPS from SPDF (not with most browsers)</Name>
-            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h2/</URL>
-            <Description>FTP repository of 1-hour ACE/EPAM L2 data in CDF format at CDAWeb</Description>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h3/</URL>
+            <Description>FTP repository of 12-sec ACE/EPAM L2 data in CDF format at CDAWeb</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h2/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/ace/epam/level_2_cdaweb/epm_h3/</URL>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -72,9 +72,9 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H2_EPM&amp;index=sp_phys</URL>
-            <ProductKey>AC_H2_EPM</ProductKey>
-            <Description>ACE/EPAM L2 1-hour data with subset, plot, list from CDAWeb</Description>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AC_H3_EPM&amp;index=sp_phys</URL>
+            <ProductKey>AC_H3_EPM</ProductKey>
+            <Description>ACE/EPAM L2 12-sec data with subset, plot, list from CDAWeb</Description>
          </AccessURL>
          <Format>Text</Format>
          <Acknowledgement>Please acknowledge the ACE/EPAM instrument team, the ACE Science Center, and the CDAWeb team at GSFC/SPDF.</Acknowledgement>
@@ -87,7 +87,7 @@
             <Name>CDAWeb HAPI Server</Name>
             <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
             <Style>HAPI</Style>
-            <ProductKey>AC_H2_EPM</ProductKey>
+            <ProductKey>AC_H3_EPM</ProductKey>
             <Description>Web Service to this product using the HAPI interface.</Description>
          </AccessURL>
          <Format>CSV</Format>
@@ -100,7 +100,7 @@
          <AccessURL>
             <Name>ACE Science Center ftp area</Name>
             <URL>ftp://mussel.srl.caltech.edu/pub/ace/level2/epam/</URL>
-            <Description>FTP repository of 1-hour ACE/EPAM L2 data in HDF format at ACE Science Center</Description>
+            <Description>FTP repository of 12-sec ACE/EPAM L2 data in HDF format at ACE Science Center</Description>
          </AccessURL>
          <Format>HDF</Format>
          <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
@@ -112,22 +112,22 @@
          <AccessURL>
             <Name>ACE Science Center</Name>
             <URL>https://izw1.caltech.edu/ACE/ASC/level2/lvl2DATA_EPAM.html</URL>
-            <Description>ACE/EPAM L2 1-hour data with subset, plot, list from the ACE Science Center.</Description>
+            <Description>ACE/EPAM L2 12-sec data with subset, plot, list from the ACE Science Center</Description>
          </AccessURL>
          <Format>Text</Format>
          <Acknowledgement>Please acknowledge the ACE/EPAM instrument team and the ACE Science Center</Acknowledgement>
       </AccessInformation>
-      <ProviderResourceName>ACE EPAM Level 2 Data, 1-hour averages</ProviderResourceName>
+      <ProviderResourceName>ACE EPAM Level 2 Data, 12-sec averages</ProviderResourceName>
       <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
       <ProviderVersion>5</ProviderVersion>
       <InstrumentID>spase://SMWG/Instrument/ACE/EPAM</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>1997-08-29T00:00:00Z</StartDate>
-            <RelativeStopDate>-P2M</RelativeStopDate>
+            <StartDate>1997-08-31T00:00:00Z</StartDate>
+            <RelativeStopDate>-P4M</RelativeStopDate>
          </TimeSpan>
-         <Cadence>PT1H</Cadence>
+         <Cadence>PT12S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
       <Caveats>The quality of ACE level 2 data is such that it is suitable for serious scientific study. However, to avoid confusion and misunderstanding, it is recommended that users consult with the appropriate ACE team members before publishing work derived from the data The ACE team has worked hard to ensure that the level 2 data are free from errors, but the team cannot accept responsibility for erroneous data, or for misunderstandings about how the data may be used. This is especially true if the appropriate ACE team members are not consulted before publication. At the very least, preprints should be forwarded to the ACE team before publication.</Caveats>
@@ -135,7 +135,7 @@
          <Name>Time</Name>
          <ParameterKey>Epoch</ParameterKey>
          <Description>Number of milliseconds since CDF_EPOCH: 0000-01-01T00:00:00.000. Timestamp marks beginning of interval</Description>
-         <Cadence>PT1H</Cadence>
+         <Cadence>PT5M</Cadence>
          <Units>ms</Units>
          <UnitsConversion>1.0e-3 &gt; s</UnitsConversion>
          <ValidMin>28-Aug-1997 00:00:00.000</ValidMin>
@@ -149,7 +149,7 @@
          <Name>Time PB5</Name>
          <ParameterKey>Time_PB5</ParameterKey>
          <Description>Time of observation in year, day of year, and milliseconds. Timestamp marks beginning of interval</Description>
-         <Cadence>PT1H</Cadence>
+         <Cadence>PT5M</Cadence>
          <Structure>
             <Size>3</Size>
             <Element>
