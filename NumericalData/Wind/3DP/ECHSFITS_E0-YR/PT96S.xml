@@ -49,14 +49,41 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
-            <Name>CDAWeb</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_echsfits_e0-day/</URL>
-            <ProductKey>wind_3dp_echsfits_e0-day</ProductKey>
+            <Name>HTTPS from SPDF</Name>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/3dp/3dp_echsfits_e0-yr/</URL>
+            <ProductKey>WIND_3DP_ECHSFITS_E0-YR</ProductKey>
             <Description>In CDF via HTTP from SPDF</Description>
          </AccessURL>
          <Format>CDF</Format>
          <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
       </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF.html</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>CDAWeb</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=WIND_3DP_ECHSFITS_E0-YR&amp;index=sp_phys</URL>
+            <ProductKey>WIND_3DP_ECHSFITS_E0-YR</ProductKey>
+            <Description>In CDF via HTTP from SPDF: Online plotting and data listing</Description>
+         </AccessURL>
+         <Format>Text</Format>
+         <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF.html</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>HAPI</Name>
+            <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+            <ProductKey>WIND_3DP_ECHSFITS_E0-YR</ProductKey>
+            <Description>Web Service to this product using the HAPI interface.</Description>
+         </AccessURL>
+         <Format>CSV</Format>
+         <Acknowledgement>Please acknowledge the CDAWeb team at GSFC/SPDF.</Acknowledgement>
+      </AccessInformation>
+
       <MeasurementType>EnergeticParticles</MeasurementType>
    </NumericalData>
 </Spase>
