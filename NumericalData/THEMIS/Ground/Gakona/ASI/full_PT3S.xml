@@ -2,11 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
   <Version>2.5.0</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Fort.Smith/ASI/full_PT3S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/Ground/Gakona/ASI/full_PT3S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Fort Smith THEMIS Ground-based All Sky Imager; Full Resolution Images.</ResourceName>
+      <ResourceName>Gakona THEMIS Ground-based All Sky Imager; Full Resolution Images.</ResourceName>
       <AlternateName>THEMIS-Ground ASF</AlternateName>
-	  <DOI>https://doi.org/10.48322/cetf-sh30</DOI>
       <ReleaseDate>2023-06-26T13:00:00Z</ReleaseDate>
 	  <RevisionHistory>
         <RevisionEvent>
@@ -14,14 +13,9 @@
           <Note>Made changes requested by F. Frey, Updated version. Added contact and DOI info.</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>THEMIS Ground All Sky Imager at Fort Smith (60.03 deg GLat, 248.07 deg GLong): 256 x 256 pixel full resolution images of auroral oval.  The ASI stations monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD in a stainless steel enclosure topped with a transparent acrylic dome.  The CCD has a resolution of 256 x 256 pixels.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours a sun shades deploy to protect the CCD.
+      <Description>THEMIS Ground All Sky Imager at Gakona (62.39 deg GLat, 214.87 deg GLong): 256 x 256 pixel full resolution images of auroral oval.  The ASI stations monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD in a stainless steel enclosure topped with a transparent acrylic dome.  The CCD has a resolution of 256 x 256 pixels.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours a sun shades deploy to protect the CCD.
 	  </Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.</Acknowledgement>
-	  <PublicationInfo>
-        <Authors>Angelopoulos, V., Mende, S. B., Donovan, E., and Frey, H. U.</Authors>
-        <PublicationDate>2023-01-01T00:00:00</PublicationDate>
-        <PublishedBy>University of California, Berkeley</PublishedBy>
-      </PublicationInfo>
       <!--Vassilis Angelopoulos -->
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
@@ -47,8 +41,8 @@
         <URL>http://themis.ssl.berkeley.edu/gbo/display.py?view_type=summary</URL>
         <Description>Summary plots containing ASI thumbnail images; useful for determining when ASI data exists.</Description>
       </InformationURL>
-      <PriorID>spase://VMO/NumericalData/THEMIS/Ground/CANMAG/FSMI/ASI/full_PT3S</PriorID>
-        <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Fort.Smith/ASI/full_PT3S</PriorID>
+      <PriorID>spase://VMO/NumericalData/THEMIS/Ground/CANMAG/GAKO/ASI/full_PT3S</PriorID>
+        <PriorID>spase://VSPO/NumericalData/THEMIS/Ground/Gakona/ASI/full_PT3S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UCB/THEMIS</RepositoryID>
@@ -56,25 +50,25 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>THEMIS Web Data</Name>
-        <URL>http://themis.ssl.berkeley.edu/data/themis/thg/l1/asi/fsmi/</URL>
+        <URL>http://themis.ssl.berkeley.edu/data/themis/thg/l1/asi/gako/</URL>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/THEMIS/Ground/CANMAG/FSMI/ASI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/THEMIS/Ground/UCLA-GBO/GAKO/ASI</InstrumentID>
     <MeasurementType>ImageIntensity</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2006-01-01T00:00:00</StartDate>
+        <StartDate>2006-09-12T05:00:00</StartDate>
         <RelativeStopDate>-P1Y</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT3S</Cadence>
     </TemporalDescription>
-    <Caveats>ASF data is retrieved by physically swapping hard drives at GBO site, therefore the data is usually not available for at least 3-5 months.</Caveats>
+    <Caveats>ASF data is retrieved by physically swapping hard drives at GBO site therefore the data is usually not available for at least 3-5 months.</Caveats>
     <!--Physical Parameters-->
     <Parameter>
-      <Name>thg_asf_fsmi</Name>
-      <ParameterKey>thg_asf_fsmi</ParameterKey>
+      <Name>thg_asf_gako</Name>
+      <ParameterKey>thg_asf_gako</ParameterKey>
       <Description>Full images of 256x256 pixels; saturation counts for each pixel.</Description>
       <Units>counts</Units>
       <Structure>
@@ -86,8 +80,8 @@
       </Wave>
     </Parameter>
     <Parameter>
-      <Name>thg_asf_fsmi_column</Name>
-      <ParameterKey>thg_asf_fsmi_column</ParameterKey>
+      <Name>thg_asf_gako_column</Name>
+      <ParameterKey>thg_asf_gako_column</ParameterKey>
       <Description>Image column number; x-dimension, image width.</Description>
       <Structure>
         <Size>256</Size>
@@ -97,8 +91,8 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>thg_asf_fsmi_row</Name>
-      <ParameterKey>thg_asf_fsmi_row</ParameterKey>
+      <Name>thg_asf_gako_row</Name>
+      <ParameterKey>thg_asf_gako_row</ParameterKey>
       <Description>Image row number; y-dimension, image height.</Description>
       <Structure>
         <Size>256</Size>
@@ -108,8 +102,8 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>thg_asf_fsmi_time</Name>
-      <ParameterKey>thg_asf_fsmi_time</ParameterKey>
+      <Name>thg_asf_gako_time</Name>
+      <ParameterKey>thg_asf_gako_time</ParameterKey>
       <Description>Start of integration time, UTC, in seconds since 01-Jan-1970 00:00:00</Description>
       <Caveats>Not including leap seconds</Caveats>
       <Units>s</Units>
@@ -121,8 +115,8 @@
       </Support>
     </Parameter>
     <Parameter>
-      <Name>thg_asf_fsmi_tend</Name>
-      <ParameterKey>thg_asf_fsmi_tend</ParameterKey>
+      <Name>thg_asf_gako_tend</Name>
+      <ParameterKey>thg_asf_gako_tend</ParameterKey>
       <Description>Integration end time, UTC, in seconds since 01-Jan-1970 00:00:00</Description>
       <Caveats>Not including leap seconds</Caveats>
       <Units>s</Units>
