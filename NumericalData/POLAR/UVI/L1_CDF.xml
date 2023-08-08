@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/POLAR/UVI/L1_CDF</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar UVI Imagery from CDAWeb</ResourceName>
-         <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/10.48322/kchw-gw93</DOI>
+         <ReleaseDate>2023-08-01T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-04-27T15:38:11</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2023-08-01T12:34:56.789</ReleaseDate>
+               <Note>Added DOI and PublicationInfo minted by LFB, metadata versioned up to SPASE 2.6.0, reviewed by LFB 20230727</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night. Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view. Images are generated once every 37 seconds with a nominal pixel angular resolution of 0.036 degrees.</Description>
+         <PublicationInfo>
+            <Authors>Parks, George, K.</Authors>
+            <PublicationDate>2023-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -15,16 +31,20 @@
             <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <!--<InformationURL>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
             <Name>UVI Home Page</Name>
             <URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
             <Description>The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the user to view 36 second images and key parameter mosaics from the mission and download software, plus links to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.</Description>
-         </InformationURL>-->
+         </InformationURL>
          <PriorID>spase://VMO/NumericalData/POLAR/UVI/L1_CDF</PriorID>
          <PriorID>spase://VSPO/NumericalData/POLAR/UVI/L1_CDF</PriorID>
       </ResourceHeader>
       <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
@@ -45,7 +65,7 @@
          <Format>CDF</Format>
       </AccessInformation>
       <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
@@ -58,7 +78,7 @@
          <Format>CSV</Format>
       </AccessInformation>
       <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
@@ -68,7 +88,7 @@
          </AccessURL>
          <Format>GIF</Format>
       </AccessInformation>
-      <!--<AccessInformation>
+      <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/NSSTC/POLAR.UVI</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
@@ -77,7 +97,7 @@
             <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata</URL>
          </AccessURL>
          <Format>CDF</Format>
-      </AccessInformation>-->
+      </AccessInformation>
       <ProviderProcessingLevel>Calibrated</ProviderProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/POLAR/UVI</InstrumentID>
       <MeasurementType>ImageIntensity</MeasurementType>
@@ -196,7 +216,7 @@
       <Parameter>
          <Name>SECDET</Name>
          <ParameterKey>SECDET</ParameterKey>
-         <Description>Secondary detector electronics temperature"</Description>
+         <Description>Secondary detector electronics temperature&quot;</Description>
          <Units>deg. C</Units>
          <ValidMin>-25.0</ValidMin>
          <ValidMax>40.0</ValidMax>

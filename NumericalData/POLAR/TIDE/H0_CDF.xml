@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
-   <Version>2.3.2</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <NumericalData>
       <ResourceID>spase://NASA/NumericalData/POLAR/TIDE/H0_CDF</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar TIDE 6-s H, He, O Data</ResourceName>
-         <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+         <DOI>https://doi.org/10.48322/10.48322/zkvp-5751</DOI>
+         <ReleaseDate>2023-08-01T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-04-27T15:38:11</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2023-08-01T12:34:56.789</ReleaseDate>
+               <Note>Added DOI and PublicationInfo minted by LFB, metadata versioned up to SPASE 2.6.0, reviewed by LFB 20230727</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The TIDE H0 CDF files contain H+, O+, and He+ data below 411 eV. Data are available for 1996-03-27 through 1996-09-30. Data is accumulated over the 6-second Polar spacecraft spin. For each ion, the files contain moments density, velocity (Vx, Vy, Vz), temperature (T_perp and T_para) and spectogram for differential energy flux versus energy (flux averaged over spin and polar angle), differential energy flux versus spin angle (flux averaged over energy and polar angle), and differential energy flux versus polar angle (flux averaged over energy and spin angle). Support data includes EFI spacecraft potential (adjusted by +2 volts), magnetic field location, spacecraft ram direction, plotting information, and several parameters that describe the instrument status and details about the data processing.</Description>
+         <PublicationInfo>
+            <Authors>Moore, Thomas, E.; Craven, Paul, D.</Authors>
+            <PublicationDate>2023-01-01T00:00:00</PublicationDate>
+            <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+         </PublicationInfo>
          <Contact>
             <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -20,15 +36,19 @@
             <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <!--<InformationURL>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
             <Name>TIDE NSSTC (MSFC) Home Page</Name>
             <URL>http://tideuvira.nsstc.nasa.gov/tide</URL>
-         </InformationURL>-->
+         </InformationURL>
          <PriorID>spase://VMO/NumericalData/POLAR/TIDE/H0_CDF</PriorID>
          <PriorID>spase://VSPO/NumericalData/POLAR/TIDE/H0_CDF</PriorID>
       </ResourceHeader>
       <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
@@ -48,7 +68,7 @@
          <Format>CDF</Format>
       </AccessInformation>
       <AccessInformation>
-         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
+         <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
@@ -60,7 +80,7 @@
          </AccessURL>
          <Format>CSV</Format>
       </AccessInformation>
-      <!--<AccessInformation>
+      <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/NSSTC</RepositoryID>
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
@@ -69,7 +89,7 @@
             <URL>http://tideuvira.nsstc.nasa.gov/tide/archive/tid_cdf/h0_tid/</URL>
          </AccessURL>
          <Format>CDF</Format>
-      </AccessInformation>-->
+      </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/POLAR/TIDE</InstrumentID>
@@ -1879,5 +1899,4 @@
             <SupportQuantity>Other</SupportQuantity>
          </Support>
       </Parameter>
-   </NumericalData>
-Spase>
+   </NumericalData>Spase>
