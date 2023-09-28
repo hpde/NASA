@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.5.0</Version>
+    <Version>2.6.0</Version>
     <Catalog>
         <ResourceID>spase://NASA/Catalog/STEREO/SIRs.List</ResourceID>
         <ResourceHeader>
             <ResourceName>STEREO Stream Interaction Region List</ResourceName>
 			<DOI>https://doi.org/10.48322/s7mq-ns41</DOI>
-            <ReleaseDate>2023-05-11T12:34:56.789Z</ReleaseDate>
+            <ReleaseDate>2023-09-27T12:34:56.789Z</ReleaseDate>
 			<RevisionHistory>
                <RevisionEvent>
                   <ReleaseDate>2023-05-11T12:34:56.789</ReleaseDate>
@@ -21,7 +21,7 @@ density and flow speed, and minimum flow speed.  It is expected that this
 list, given in both PDF and Excel formats, will be updated periodically.</Description>
             <Acknowledgement>STEREO IMPACT/Magnetometer Team</Acknowledgement>
 			<PublicationInfo>
-			   <Authors>STEREO IMPACT</Authors>
+			   <Authors>L. Jian</Authors>
 			   <PublicationDate>2022-01-01T00:00:00</PublicationDate>
 			   <PublishedBy>NASA, STEREO Science Center</PublishedBy>
 			</PublicationInfo>
