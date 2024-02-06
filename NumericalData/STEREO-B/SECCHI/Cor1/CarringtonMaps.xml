@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
    <Version>2.6.0</Version>
-   <DisplayData>
-      <ResourceID>spase://NASA/DisplayData/STEREO-B/SECCHI/Cor1/CarringtonMaps</ResourceID>
+   <NumericalData>
+      <ResourceID>spase://NASA/NumericalData/STEREO-B/SECCHI/Cor1/CarringtonMaps</ResourceID>
       <ResourceHeader>
          <ResourceName>STEREO-B Carrington Maps for the SECCHI Cor1 Telescope</ResourceName>
          <ReleaseDate>2024-01-03T00:08:46</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2024-01-03T00:08:46</ReleaseDate>
-               <Note>Modified from the NumericalData description.</Note>
-            </RevisionEvent>
-            <RevisionEvent>
                <ReleaseDate>2024-02-06T00:08:46</ReleaseDate>
-               <Note>Updated Publicationinfo</Note>
+               <Note>Updated by SY</Note>
             </RevisionEvent>
          </RevisionHistory>
-         <Description>PNG images of Synoptic (or Carrington) Maps comprise an efficient method to summarize both short term and long term coronal evolution. This resource contains East and West limb maps from the Cor1 and Cor2 coronagraphs, East(West) limb maps for HI1/2-A (HI1/2-B) imagers, and central meridian maps from the EUVI telescope. Maps are available for each Carrington Rotation since the beginning of the STEREO mission. The maps demonstrate the evolution of the corona from a relatively simple, two-sectored structure to an increasingly complex multi-sectored structure. Distortions and discontinuities in the streamer belt visible in the limb maps are associated with active regions on the sun, the shape of the current sheet, and coronal mass ejections. Meridian maps for EUVI illustrate the corresponding structures and long-term changes in the lower atmosphere.</Description>
+         <Description>Synoptic (or Carrington) Maps comprise an efficient method to summarize both short term and long term coronal evolution. This resource contains East and West limb maps from the Cor1 and Cor2 coronagraphs, East(West) limb maps for HI1/2-A (HI1/2-B) imagers, and central meridian maps from the EUVI telescope. Maps are available for each Carrington Rotation since the beginning of the STEREO mission. The maps demonstrate the evolution of the corona from a relatively simple, two-sectored structure to an increasingly complex multi-sectored structure. Distortions and discontinuities in the streamer belt visible in the limb maps are associated with active regions on the sun, the shape of the current sheet, and coronal mass ejections. Meridian maps for EUVI illustrate the corresponding structures and long-term changes in the lower atmosphere.</Description>
          <Acknowledgement>Please note that all of the SECCHI data is free for public use, but if you use them in presentations, published work, websites, etc, please give the appropriate image credits (&quot;STEREO/SECCHI&quot; will usually suffice).</Acknowledgement>
          <PublicationInfo>
             <Authors>Thernisien, Arnaud; Hutting, Lynn; Rich, Nathan, B.; Vourlidas, Angelos; Thompson, William, T.; Davila, Joseph, M.; Howard, Russell, A. ; Wood, Brian</Authors>
@@ -70,9 +66,9 @@
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</RepositoryID>
          <AccessURL>
-            <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/secchi/carrmaps/b/cor1/cm/png/</URL>
+            <URL>https://stereo-ssc.nascom.nasa.gov/data/ins_data/secchi/carrmaps/b/cor1/cm/fits/</URL>
          </AccessURL>
-         <Format>PNG</Format>
+         <Format>FITS</Format>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
       <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
@@ -81,7 +77,7 @@
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2007-02-25T00:00:00Z</StartDate>
-            <StopDate>2012-08-31T00:00:00</StopDate>
+            <StopDate>2012-02-04T00:00:00</StopDate>
             <Note>Routine processing stopped in late 2018. The archive is being updated</Note>
          </TimeSpan>
       </TemporalDescription>
@@ -93,5 +89,5 @@
             <CoordinateSystemName>Carrington</CoordinateSystemName>
          </CoordinateSystem>
       </SpatialCoverage>
-   </DisplayData>
+   </NumericalData>
 </Spase>
