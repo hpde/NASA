@@ -2,18 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
    <Version>2.6.0</Version>
    <NumericalData>
-      <ResourceID>spase://NASA/NumericalData/AeroCube-6/A/Dosimeter/PT1S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/AeroCube-6/B/Dosimeter/PT1S</ResourceID>
       <ResourceHeader>
-         <ResourceName>AeroCube-6A Dosimeter Data, 1 s and 0.1 s Data</ResourceName>
+         <ResourceName>AeroCube-6B Dosimeter Data, 1 s and 0.1 s Data</ResourceName>
          <ReleaseDate>2024-04-26T12:34:56.789</ReleaseDate>
 		 <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2024-04-22T12:34:56.789Z</ReleaseDate>
-               <Note>Numerical metadata added to the Github.</Note>
-            </RevisionEvent>
-			<RevisionEvent>
                <ReleaseDate>2024-04-26T12:34:56.789Z</ReleaseDate>
-               <Note>Minor changes, added Funding agency. JMW</Note>
+               <Note>Numerical metadata added to the Github. JMW</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>Each AeroCube-6 vechicle carries three dosimeters measuring electrons with energies from about 
@@ -66,13 +62,13 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/aaa_smallsats_cubesats/aerocube/aerocube-6/aerocube6-a/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/aaa_smallsats_cubesats/aerocube/aerocube-6/aerocube6-b/</URL>
             <Description>Access to Data in CDF Format via https from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AEROCUBE-6-A_DOSIMETER_L2&amp;index=sp_phys</URL>
-            <ProductKey>AEROCUBE-6-A_DOSIMETER_L2</ProductKey>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=AEROCUBE-6-B_DOSIMETER_L2&amp;index=sp_phys</URL>
+            <ProductKey>AEROCUBE-6-B_DOSIMETER_L2</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -81,12 +77,12 @@
 		 the Data Providers and CDAWeb when using these Data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://NASA/Instrument/AeroCube-6/A/Dosimeter</InstrumentID>
+      <InstrumentID>spase://NASA/Instrument/AeroCube-6/B/Dosimeter</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
             <StartDate>2014-06-21T00:00:00.000</StartDate>
-            <StopDate>2019-04-12T23:59:59.000</StopDate>
+            <StopDate>2017-06-30T23:59:59.000</StopDate>
          </TimeSpan>
          <Cadence>PT1S</Cadence>
       </TemporalDescription>
