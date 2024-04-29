@@ -1,23 +1,23 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
-  <Version>2.5.0</Version>
+  <Version>2.6.0</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/ICON/IVM/L2/PT1S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ICON/IVM/L2/B/PT1S</ResourceID>
     <ResourceHeader>
-      <ResourceName>ICON Ion Velocity Meter Data</ResourceName>
-	  <AlternateName>IVM Data</AlternateName>
-	  <DOI>https://doi.org/10.48322/2mv5-xy46</DOI>
-      <ReleaseDate>2023-08-01T00:00:00Z</ReleaseDate>
+      <ResourceName>ICON Ion Velocity Meter (IVM) B Data</ResourceName>
+	  <AlternateName>IVM B Data</AlternateName>
+	  <DOI></DOI>
+      <ReleaseDate>2024-04-29T00:00:00Z</ReleaseDate>
       <RevisionHistory>
          <RevisionEvent>
-            <ReleaseDate>2023-08-01T00:00:00Z</ReleaseDate>
-            <Note>Added DOI and PublicationInfo minted by JMW on 20230801. Updated SPASE version.</Note>
+            <ReleaseDate>2024-04-29T00:00:00Z</ReleaseDate>
+            <Note>Created Numerical metadata. Update AccessInformation. Added DOI and PublicationInfo minted by JMW. Updated SPASE version.</Note>
          </RevisionEvent>
       </RevisionHistory>
       <Description>The IVM consists of two planar thermal ion sensors, a retarding potential analyzer (RPA) and an ion drift meter (IDM).</Description>
 	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Roderick A. Heelis; Dr. Thomas Immel</Acknowledgement>
       <PublicationInfo>
          <Authors>Heelis, R. A.</Authors>
-         <PublicationDate>2023-01-01T00:00:00</PublicationDate>
+         <PublicationDate>2024-01-01T00:00:00</PublicationDate>
          <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
 	  <Funding>
@@ -40,28 +40,40 @@
         <Description>Space Science Reviews, 212(1-2), pp.615-629. DOI: 10.1007/s11214-017-0383-3</Description>
       </InformationURL>
     </ResourceHeader>
-	<AccessInformation>
-		<RepositoryID>spase://SMWG/Repository/NASA/GSFC/CDAW</RepositoryID>
-		<Availability>Online</Availability>
-		<AccessRights>Open</AccessRights>
-		<AccessURL>
-			<Name>HTTPS from CDAWeb</Name>
-			<URL>https://cdaweb.gsfc.nasa.gov/pub/data/icon/l2/</URL>
-			<Description>FTPS access to ICON data via ftps at the Space Physics Data Facility (SPDF)</Description>
-		</AccessURL>
-		<Format>NetCDF</Format>
-	</AccessInformation>
     <AccessInformation>
-		<RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
-		<Availability>Online</Availability>
-		<AccessRights>Open</AccessRights>
-		<AccessURL>
-			<Name>HTTPS from SPDF</Name>
-			<URL>https://spdf.gsfc.nasa.gov/pub/data/icon/l2/</URL>
-			<Description>HTTPS access to ICON data at the Space Physics Data Facility (SPDF)</Description>
-		</AccessURL>
-		<Format>NetCDF</Format>
-	</AccessInformation>
+       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+       <Availability>Online</Availability>
+       <AccessRights>Open</AccessRights>
+       <AccessURL>
+          <Name>CDAWeb HAPI Server</Name>
+          <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
+          <Style>HAPI</Style>
+          <ProductKey>ICON_L2-7_IVM-B</ProductKey>
+          <Description>Web Service to this product using the HAPI interface.</Description>
+       </AccessURL>
+       <Format>NetCDF</Format>
+       <Acknowledgement>National Aeronautics and Space Administration; Dr. Roderick A. Heelis; Dr. Thomas Immel.</Acknowledgement>
+    </AccessInformation>
+    <AccessInformation>
+       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+       <Availability>Online</Availability>
+       <AccessRights>Open</AccessRights>
+       <AccessURL>
+          <Name>HTTPS from SPDF</Name>
+          <URL>https://spdf.gsfc.nasa.gov/pub/data/icon/l2/l2-7_ivm-b/</URL>
+          <ProductKey>ICON_L2-7_IVM-B</ProductKey>
+          <Description>Access to Data in NetCDF Format via https from SPDF</Description>
+       </AccessURL>
+       <AccessURL>
+       <Name>CDAWeb</Name>
+          <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ICON_L2-7_IVM-B&amp;index=sp_phys</URL>
+          <ProductKey>ICON_L2-7_IVM-B</ProductKey>
+          <Description>Access to ASCII, NetCDF, CDF, and Plots via NASA/GSFC CDAWeb</Description>
+       </AccessURL>
+       <Format>NetCDF</Format>
+       <Encoding>None</Encoding>
+       <Acknowledgement>National Aeronautics and Space Administration; Dr. Roderick A. Heelis; Dr. Thomas Immel.</Acknowledgement>
+    </AccessInformation>	
 	<ProcessingLevel>Calibrated</ProcessingLevel>
 	<ProviderName>ICON Ion Velocity Meter team</ProviderName>
 		<InstrumentID>spase://SMWG/Instrument/ICON/IVM</InstrumentID>
@@ -75,7 +87,6 @@
 	</TemporalDescription>
 	<ObservedRegion>Earth.NearSurface.Atmosphere</ObservedRegion>
 	<ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
-	
 	<Parameter>
 	    <Name>Epoch time</Name>
 	    <ParameterKey>Epoch</ParameterKey>
