@@ -2,29 +2,21 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
    <Version>2.6.0</Version>
    <NumericalData>
-      <ResourceID>spase://NASA/NumericalData/ELFIN/A/EPD/L1/ion/PT0.264S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/ELFIN/B/EPD/L1/electron/PT0.2S</ResourceID>
       <ResourceHeader>
-         <ResourceName>ELFIN A  Energetic Particle Detectors for Ions (EPD-I) 0.264 s Data</ResourceName>
-		 <DOI>https://doi.org/10.48322/csjm-bk25</DOI>
-         <ReleaseDate>2024-06-24T12:34:56.789</ReleaseDate>
+         <ResourceName>ELFIN B Energetic Particle Detectors for Electrons (EPD-E) 0.2 s Data</ResourceName>
+		 <DOI>https://doi.org/10.48322/w4ac-2h02</DOI>
+         <ReleaseDate>2024-06-26T12:34:56.789</ReleaseDate>
 		 <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2024-06-10T12:34:56.789Z</ReleaseDate>
+               <ReleaseDate>2024-06-26T12:34:56.789Z</ReleaseDate>
                <Note>Numerical data metadata added to the Github. JMW</Note>
             </RevisionEvent>
-			<RevisionEvent>
-               <ReleaseDate>2024-06-19T12:34:56.789Z</ReleaseDate>
-               <Note>Revised metadata and added DOI. JMW</Note>
-            </RevisionEvent>
-			<RevisionEvent>
-               <ReleaseDate>2024-06-24T12:34:56.789Z</ReleaseDate>
-               <Note>Added additional contacts and funding. JMW</Note>
-            </RevisionEvent>
          </RevisionHistory>
-         <Description>The Electron Losses and Fields Investigation (ELFIN) mission is a space weather mission using three scientific instruments in a 3U+ CubeSat. Each spacecraft has two Energetic Particle Detectors, one for Electrons (EPD-E) and one for Ions (EPD-I), as well as a Fluxgate Magnetometer deployed at the end of a 75cm stacer boom. These science instruments were developed by UCLA staff at the Institute for Geophysics and Planetary Physics (IGPP) and the Earth, Planetary, and Space Sciences department (EPSS).</Description>
+         <Description>The Electron Losses and Fields Investigation (ELFIN) mission is a space weather mission using three scientific instruments in a 3U+ CubeSat. Each spacecraft has two Energetic Particle Detectors, one for Electrons (EPD-E) and one for Ions (EPD-I), as well as a Fluxgate Magnetometer deployed at the end of a 75cm stacer boom. These science instruments were developed by UCLA staff at the Institute for Geophysics and Planetary Physics (IGPP) and the Earth, Planetary, and Space Sciences department (EPSS). </Description>
          <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos, NASA, and NSF for providing the Data. Open Data for Scientific Use.</Acknowledgement>
-         <PublicationInfo>
-		    <Authors>Angelopoulos, V., Russell, C., Wu, J., Wilkins, C., Caron, R., Tsai, E., King, J., and Norris, A. </Authors>
+		 <PublicationInfo>
+		    <Authors>Angelopoulos, V., Russell, C., Wu, J., Wilkins, C., Caron, R., Tsai, E., King, J., and Norris, A.</Authors>
 			<PublicationDate>2024-06-19T12:34:56.789Z</PublicationDate>
 			<PublishedBy>NASA Space Physics Data Facility</PublishedBy>
 		 </PublicationInfo>
@@ -43,8 +35,8 @@
 			<Project>ELFIN funding</Project>
 			<AwardNumber>AGS-2019950</AwardNumber>
 		 </Funding>
-		 <Contact>
-            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos	</PersonID>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
 		 <Contact>
@@ -88,7 +80,7 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Electron Losses and Fields INvestigation-A twin satellite mission</Name>
+            <Name>Electron Losses and Fields INvestigation-B twin satellite mission</Name>
             <URL>https://elfin.igpp.ucla.edu</URL>
             <Description>http://elfin.igpp.ucla.edu</Description>
             <Language>en</Language>
@@ -100,18 +92,18 @@
          <AccessRights>Open</AccessRights>
          <AccessURL>
             <Name>FTPS from SPDF (not with most browsers)</Name>
-            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/elfin/elfina/l1/fast/ion/</URL>
+            <URL>ftps://spdf.gsfc.nasa.gov/pub/data/elfin/elfinb/l1/fast/electron/</URL>
             <Description>Access to Data in CDF Format via ftps from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>HTTPS from SPDF</Name>
-            <URL>https://spdf.gsfc.nasa.gov/pub/data/elfin/elfina/l1/fast/ion/</URL>
+            <URL>https://spdf.gsfc.nasa.gov/pub/data/elfin/elfinb/l1/fast/electron/</URL>
             <Description>Access to Data in CDF Format via https from SPDF</Description>
          </AccessURL>
          <AccessURL>
             <Name>CDAWeb</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ELA_L1_EPDIF&amp;index=sp_phys</URL>
-            <ProductKey>ELA_L1_EPDIF</ProductKey>
+            <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=ELB_L1_EPDEF&amp;index=sp_phys</URL>
+            <ProductKey>ELB_L1_EPDEF</ProductKey>
             <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
          </AccessURL>
          <Format>CDF</Format>
@@ -119,14 +111,14 @@
          <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos, NASA, and NSF. Please acknowledge the Data Providers and CDAWeb when using these Data.</Acknowledgement>
       </AccessInformation>
       <ProcessingLevel>Calibrated</ProcessingLevel>
-      <InstrumentID>spase://NASA/Instrument/ELFIN/A/EPD</InstrumentID>
+      <InstrumentID>spase://NASA/Instrument/ELFIN/B/EPD</InstrumentID>
       <MeasurementType>EnergeticParticles</MeasurementType>
       <TemporalDescription>
          <TimeSpan>
-            <StartDate>2018-12-04T00:00:00.000</StartDate>
-            <StopDate>2022-09-11T23:59:59.999</StopDate>
+            <StartDate>2019-05-22T00:00:00.000</StartDate>
+            <StopDate>2022-09-24T23:59:59.999</StopDate>
          </TimeSpan>
-         <Cadence>PT0.264S</Cadence>
+         <Cadence>PT0.2S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
       <ObservedRegion>Earth.Magnetosphere.Polar</ObservedRegion>
@@ -137,13 +129,13 @@
       <ObservedRegion>Earth.NearSurface.PolarCap</ObservedRegion>
       <Parameter>
          <Name>Time since Jan 1, 2000</Name>
-         <ParameterKey>ela_pif_time</ParameterKey>
-         <Description>ela_pif_time, UTC, in seconds since</Description>
+         <ParameterKey>elb_pef_time</ParameterKey>
+         <Description>elb_pef_time, UTC, in seconds since</Description>
          <Caveats>Unleaped seconds</Caveats>
-		 <Cadence>PT0.264S</Cadence>
+		 <Cadence>PT0.2S</Cadence>
          <Units>s</Units>
          <RenderingHints>
-            <AxisLabel>ela_pif_time</AxisLabel>
+            <AxisLabel>elb_pef_time</AxisLabel>
             <ValueFormat>E12.2</ValueFormat>
             <ScaleType>LinearScale</ScaleType>
          </RenderingHints>
@@ -155,14 +147,14 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Ion Differential-Directional Counts</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif</ParameterKey>
-         <Description>[ADC UNITS ONLY] L1 EPD Ion differential-directional counts, Fast Mode - all 16 energies. All energy elements are the log-mean values of the channel. </Description>
-         <Cadence>PT0.264S</Cadence>
+         <Name>Electron Differential-Directional Counts</Name>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef</ParameterKey>
+         <Description>[ADC UNITS ONLY] L1 EPD Electron differential-directional counts, Fast Mode - all 16 energies. All energy elements are the log-mean values of the channel.</Description>
+         <Cadence>PT0.2S</Cadence>
          <Units>raw counts</Units>
          <RenderingHints>
-            <AxisLabel>Ion counts/sector</AxisLabel>
+            <AxisLabel>Electron counts/sector</AxisLabel>
             <ValueFormat>F12.8</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -285,18 +277,18 @@
          <ValidMax>1.0e+06</ValidMax>
          <FillValue>NaN</FillValue>
 		 <Particle>
-		    <ParticleType>Ion</ParticleType>
+		    <ParticleType>Electron</ParticleType>
 			<ParticleQuantity>Counts</ParticleQuantity>
 		 </Particle>
       </Parameter>
       <Parameter>
-         <Name>Central Energies for Each of the 16 EPD Ion Channels</Name>
-         <ParameterKey>ela_pif_energies_mean</ParameterKey>
-         <Description>Central energies for each of 16 EPD ion channels. All values are the log-mean energies of each differential channel and not summed averages.</Description>
-		 <Cadence>PT0.264S</Cadence>
+         <Name>Central Energies for Each of the 16 EPD Electron Channels</Name>
+         <ParameterKey>elb_pef_energies_mean</ParameterKey>
+         <Description>Central energies for each of 16 EPD electron channels. All values are the log-mean energies of each differential channel and not summed averages.</Description>
+		 <Cadence>PT0.2S</Cadence>
          <Units>keV</Units>
          <RenderingHints>
-            <AxisLabel>Central energies for ech ion bin</AxisLabel>
+            <AxisLabel>Central energies for ech eletron bin</AxisLabel>
             <ValueFormat>F12.8</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -311,13 +303,13 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Minimum Energy for Each of the 16 EPD Ion Channels</Name>
-         <ParameterKey>ela_pif_energies_min</ParameterKey>
-         <Description>Min energy bins associated with each of 16 EPD ion channels</Description>
-		 <Cadence>PT0.264S</Cadence>
+         <Name>Minimum Energy for Each of the 16 EPD Electron Channels</Name>
+         <ParameterKey>elb_pef_energies_min</ParameterKey>
+         <Description>Min energy bins associated with each of 16 EPD electron channels</Description>
+		 <Cadence>PT0.2S</Cadence>
          <Units>keV</Units>
          <RenderingHints>
-            <AxisLabel>Min Ion energy bins</AxisLabel>
+            <AxisLabel>Min Electron energy bins</AxisLabel>
             <ValueFormat>F12.8</ValueFormat>
          </RenderingHints>
          <Structure>
@@ -331,10 +323,10 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name>Maximum Energy for Each of the 16 EPD Ion Channels</Name>
-         <ParameterKey>ela_pif_energies_max</ParameterKey>
-         <Description>Max energy bins for each of 16 EPD ion channels</Description>
-		 <Cadence>PT0.264S</Cadence>
+         <Name>Maximum Energy for Each of the 16 EPD Electron Channels</Name>
+         <ParameterKey>elb_pef_energies_max</ParameterKey>
+         <Description>Max energy bins for each of 16 EPD electron channels</Description>
+		 <Cadence>PT0.2S</Cadence>
          <Units>keV</Units>
          <RenderingHints>
             <AxisLabel>Max energy bins</AxisLabel>
@@ -352,10 +344,10 @@
       </Parameter>
       <Parameter>
          <Name>Sector Number</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_sectnum</ParameterKey>
-         <Description>Sector number</Description>
-         <Cadence>PT0.264S</Cadence>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_sectnum</ParameterKey>
+         <Description>sector number</Description>
+         <Cadence>PT0.2S</Cadence>
          <Units>num sector</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
@@ -371,10 +363,10 @@
       </Parameter>
       <Parameter>
          <Name>Number Spins in Sum</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_nspinsinsum</ParameterKey>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_nspinsinsum</ParameterKey>
          <Description>The number spins in the sum.</Description>
-         <Cadence>PT0.264S</Cadence>
+         <Cadence>PT0.2S</Cadence>
          <Units>num spins in sum</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
@@ -390,10 +382,10 @@
       </Parameter>
       <Parameter>
          <Name>Number of Spin Sectors</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_nsectors</ParameterKey>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_nsectors</ParameterKey>
          <Description>Number of spin sectors</Description>
-         <Cadence>PT0.264S</Cadence>
+         <Cadence>PT0.2S</Cadence>
          <Units>num sectors</Units>
          <RenderingHints>
             <DisplayType>TimeSeries</DisplayType>
@@ -409,10 +401,10 @@
       </Parameter>
       <Parameter>
          <Name>Spin Period</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_spinper</ParameterKey>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_spinper</ParameterKey>
          <Description>spinperiod</Description>
-         <Cadence>PT0.264S</Cadence>
+         <Cadence>PT0.2S</Cadence>
          <Units>s</Units>
          <RenderingHints>
             <AxisLabel>spinper</AxisLabel>
@@ -424,17 +416,17 @@
 		 <Support>
             <SupportQuantity>SpinPeriod</SupportQuantity>
          </Support>
-      </Parameter> 
+      </Parameter>
 	  <Parameter>
-         <Name>Ion Counts</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_8</ParameterKey>
-         <Description>---&gt; just bottom eight energy channels</Description>
-         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: ela_pif.</Caveats>
-         <Cadence>PT0.264S</Cadence>
+         <Name>Electron Counts</Name>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_8</ParameterKey>
+         <Description>---&gt; just the bottom eight energy channels</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: elb_pef.</Caveats>
+         <Cadence>PT0.2S</Cadence>
          <Units>raw counts</Units>
          <RenderingHints>
-            <AxisLabel>Ion counts/sector</AxisLabel>
+            <AxisLabel>Electron counts/sector</AxisLabel>
             <ValueFormat>F12.8</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -557,20 +549,20 @@
          <ValidMax>1.0e+06</ValidMax>
          <FillValue>nan</FillValue>
 		 <Particle>
-		    <ParticleType>Ion</ParticleType>
+		    <ParticleType>Electron</ParticleType>
 			<ParticleQuantity>Counts</ParticleQuantity>
 		 </Particle>
-      </Parameter> 
+      </Parameter>
 	  <Parameter>
-         <Name>Ion Counts</Name>
-         <Set>Time series defined by using: ela_pif_time</Set>
-         <ParameterKey>ela_pif_top8</ParameterKey>
-         <Description>---&gt; just top eight energy channels</Description>
-         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: ela_pif.</Caveats>
-         <Cadence>PT0.264S</Cadence>
+         <Name>Electron Counts</Name>
+         <Set>Time series defined by using: elb_pef_time</Set>
+         <ParameterKey>elb_pef_top8</ParameterKey>
+         <Description>---&gt; just the top eight energy channels</Description>
+         <Caveats>This parameter is virtual. It is calculated by calling the function ALTERNATE_VIEW with the following input parameters: elb_pef.</Caveats>
+         <Cadence>PT0.2S</Cadence>
          <Units>raw counts</Units>
          <RenderingHints>
-            <AxisLabel>Ion counts/sector</AxisLabel>
+            <AxisLabel>Electron counts/sector</AxisLabel>
             <ValueFormat>F12.8</ValueFormat>
             <ScaleType>LogScale</ScaleType>
          </RenderingHints>
@@ -693,7 +685,7 @@
          <ValidMax>1.0e+06</ValidMax>
          <FillValue>nan</FillValue>
 		 <Particle>
-		    <ParticleType>Ion</ParticleType>
+		    <ParticleType>Electron</ParticleType>
 			<ParticleQuantity>Counts</ParticleQuantity>
 		 </Particle>
       </Parameter>
