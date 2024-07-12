@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_4_1.xsd">
    <Version>2.4.1</Version>
    <NumericalData>
-      <ResourceID>spase://NASA/NumericalData/RBSP/B/EFW/L3/PT11S</ResourceID>
+      <ResourceID>spase://NASA/NumericalData/RBSP/B/EFW/L3/MGSE/PT11S</ResourceID>
       <ResourceHeader>
          <ResourceName>Van Allen Probe B Electric Fields and Waves (EFW) Spin-fit Electric field in modified-GSE (MGSE) coord, density, and other products</ResourceName>
          <DOI>https://doi.org/10.48322/p4ze-4247</DOI>
@@ -46,6 +46,7 @@
             <URL>https://vanallenprobes.jhuapl.edu</URL>
             <Description>Science Gateway (including Mission Rules of the Road for Data Usage)</Description>
          </InformationURL>
+         <PriorID>spase://NASA/NumericalData/RBSP/B/EFW/L3/PT11S</PriorID>
          <PriorID>spase://VWO/NumericalData/RBSP/B/EFW/L3/PT11S</PriorID>
          <PriorID>spase://VSPO/NumericalData/RBSP/B/EFW/L3/PT11S</PriorID>
       </ResourceHeader>
