@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
   <Version>2.6.1</Version>
   <NumericalOutput>
-    <ResourceID>spase://NASA/NumericalOutput/ICON/TIEGCM/L4/PT60M</ResourceID>
+    <ResourceID>spase://NASA/NumericalOutput/ICON/TIEGCM-NOHME/L4/PT60M</ResourceID>
     <ResourceHeader>
-      <ResourceName>Ionospheric Connection Explorer (ICON) Thermosphere Ionosphere Electrodynamics General Circulation Model (TIEGCM) Model Product</ResourceName>
+      <ResourceName>Ionospheric Connection Explorer (ICON) Thermosphere Ionosphere Electrodynamics General Circulation Model without Hough Mode Extension (HME) input (TIEGCM-NOHME) Model Product</ResourceName>
 	  <AlternateName>ICON TIEGCM Model Products</AlternateName>
       <ReleaseDate>2024-09-25T00:00:00Z</ReleaseDate>
-      <Description>Thermosphere Ionosphere Electrodynamics General Circulation Model (TIEGCM) L4-3 with Hough Mode Extension (HME) forcing. These metadtaa include both the model input data and model output data.</Description>
+      <Description>Thermosphere Ionosphere Electrodynamics General Circulation Model (TIEGCM) L4-3 without Hough Mode Extension (HME) forcing. These metadata include both the model input data and model output data.</Description>
 	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Astrid Maute; Dr. Thomas J. Immel</Acknowledgement>
 	  <Funding>
 		<Agency>National Aeronautics and Space Administration</Agency>
@@ -69,7 +69,7 @@
 	<TemporalDescription>
 		<TimeSpan>
 			<StartDate>2019-12-21T00:00:00Z</StartDate>
-			<StopDate>2022-11-10T23:59:59Z</StopDate>
+			<StopDate>2021-12-31T23:59:59Z</StopDate>
 		</TimeSpan>
 		<Cadence>PT60M</Cadence>
 	</TemporalDescription>
@@ -163,6 +163,30 @@
 		  <ParticleQuantity>Mass</ParticleQuantity>
 	   </Particle>
 	</Parameter>
+	
+	<Parameter>
+	   <Name>Magnetic Eastward Gravity and Plasma Pressure Gradient Driven Current Density</Name>
+	   <ParameterKey>JE1PG_DYN</ParameterKey>
+	   <Description>Magnetic eastward gravity and plasma pressure gradient driven current density (used in electrodynamo if CALC_JPG=1, used in L4.3). This is a 4 dimensional array: 144x72x57x24. The dimensions are based on the size of the arrays (144x72x57x24): lon, lat, lev, and time.</Description>
+	   <Cadence>PT60M</Cadence>
+	   <Units>A m^-2</Units>
+	   <Field>
+	      <Qualifier>Direction</Qualifier>
+		  <FieldQuantity>CurrentDensity</FieldQuantity>
+	   </Field>
+	</Parameter>
+	<Parameter>
+	   <Name>Magnetic Down-/Equatorward Gravity and Plasma Pressure Gradient Driven Current Density</Name>
+	   <ParameterKey>JE2PG_DYN</ParameterKey>
+	   <Description>Magnetic down-/equatorward gravity and plasma pressure gradient driven current density (used in electrodynamo if CALC_JPG=1, used in L4.3).  This is a 4 dimensional array: 144x72x57x24. The dimensions are based on the size of the arrays (144x72x57x24): lon, lat, lev, and time.</Description>
+	   <Cadence>PT60M</Cadence>
+	   <Units>A m^-2</Units>
+	   <Field>
+	      <Qualifier>Direction</Qualifier>
+		  <FieldQuantity>CurrentDensity</FieldQuantity>
+	   </Field>
+	</Parameter>
+	
 	<Parameter>
 	   <Name>Kp index</Name>
 	   <ParameterKey>Kp</ParameterKey>
@@ -1055,7 +1079,7 @@
 	<Parameter>
 	   <Name>Magnetic Midpoint Levels</Name>
 	   <ParameterKey>imlev</ParameterKey>
-	   <Description>Magnetic midpoint levels. ln(p0/p). Atmosphere ln pressure coordinate. p(k) = p0 * exp(-mlev(k))</Description>
+	   <Description>Magnetic midpoint levels. ln(p0/p). Atmosphere ln pressure coordinate. p(k) = p0 * exp(-imlev(k))</Description>
 	   <Support>
 		  <SupportQuantity>Other</SupportQuantity>
 	   </Support>
@@ -1146,7 +1170,7 @@
 	<Parameter>
 	   <Name>Amplitudes and Phases of semi-diurnal tide</Name>
 	   <ParameterKey>sdtide</ParameterKey>
-	   <Description>Amplitudes and phases of semi-diurnal tide. This is a 2 dimensional array: 1024x24.</Description>
+	   <Description>Amplitudes and phases of semi-diurnal tide. This is a 2 dimensional array: 10x24.</Description>
 	   <Cadence>PT60M</Cadence>
 	   <Support>
 		  <SupportQuantity>Other</SupportQuantity>
@@ -1204,7 +1228,7 @@
 	<Parameter>
 	   <Name>Time</Name>
 	   <ParameterKey>time</ParameterKey>
-	   <Description>Time minutes since 2022-1-1 0:0:0.</Description>
+	   <Description>Time minutes since 2022-1-2 0:0:0.</Description>
 	   <Cadence>PT60M</Cadence>
 	   <Units>minutes</Units>
 	   <Support>
