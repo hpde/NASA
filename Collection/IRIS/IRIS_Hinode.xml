@@ -1,14 +1,19 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
-   <Version>2.5.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
    <Collection>
-      <ResourceID>spase://NASA/Collection/IRIS_HINODE</ResourceID>
+      <ResourceID>spase://NASA/Collection/IRIS/IRIS_Hinode</ResourceID>
       <ResourceHeader>
          <ResourceName>Co-aligned Interface Region Imaging Spectrograph (IRIS) and Hinode Observations</ResourceName>
-         <ReleaseDate>2022-12-13T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2022-12-13T00:08:46</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
                <ReleaseDate>2022-12-13T12:34:56.789Z</ReleaseDate>
                <Note>Created by SY, reviewed by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-10-09T00:08:46</ReleaseDate>
+               <Note>Updated ResourceID</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>These data sets consist of co-aligned, high-resolution, simultaneous observations taken with the Interface Region Imaging Spectrograph (IRIS) and the Hinode satellite. The data provides science-ready images and spectra of solar features in the photosphere (the surface of the sun), chromosphere (lower atmospheric layers), and the transition region (the layer between the chromosphere and corona).
@@ -59,6 +64,7 @@ IRIS and Hinode/SOT-SP/NFI/BFI images are co-aligned using their respective head
             <URL>https://www.lmsal.com/hek/hcr?cmd=view-planned-events&amp;instrument=iris</URL>
             <Description>Planned Observations for IRIS</Description>
          </InformationURL>
+         <PriorID>spase://NASA/Collection/IRIS_HINODE</PriorID>
       </ResourceHeader>
       <AccessInformation>
          <RepositoryID>spase://SMWG/Repository/LMSAL</RepositoryID>
