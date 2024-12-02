@@ -61,7 +61,7 @@ The level 4 spectra products consist of a model spectrum at a 1-minute cadence, 
             <StartDate>2010-04-30T00:00:00</StartDate>
             <RelativeStopDate>-P1D</RelativeStopDate>
          </TimeSpan>
-         <Cadence>PT0.25S</Cadence>
+         <Cadence>PT60S</Cadence>
       </TemporalDescription>
       <ObservedRegion>Sun</ObservedRegion>
    </NumericalData>
