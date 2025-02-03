@@ -6,11 +6,16 @@
     <ResourceHeader>
       <ResourceName>Ionospheric Connection Explorer (ICON) Hough Mode Extension (TIEGCM) Model Product</ResourceName>
 	  <AlternateName>ICON HME Model Products</AlternateName>
-      <ReleaseDate>2024-12-18T00:00:00Z</ReleaseDate>
+	  <DOI>https://doi.org/10.48322/6xns-1n29</DOI>
+      <ReleaseDate>2025-02-02T00:00:00Z</ReleaseDate>
 	  <RevisionHistory>
          <RevisionEvent>
             <ReleaseDate>2024-04-29T00:00:00Z</ReleaseDate>
             <Note>Created Numerical metadata. JMW</Note>
+         </RevisionEvent>
+		 <RevisionEvent>
+            <ReleaseDate>2025-02-02T00:00:00Z</ReleaseDate>
+            <Note>Recised Contacts.  Added DOI. JMW</Note>
          </RevisionEvent>
       </RevisionHistory>
       <Description> This data product contains the lower boundary of TIE-GCM including zonal wind, meridional wind, 
@@ -24,7 +29,12 @@ methodologies are summarized in Forbes et al. [1994] and Oberheide et al. [2011]
 application to TIEGCM simulation is summarized in Forbes et al. [2017] and Maute [2017], respectively, 
 and sensitivity study of HME fitting to the data coverage can be found in Cullens et al. [2020]. 
 These metadata include the model output data.</Description>
-	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Astrid Maute; Dr. Thomas J. Immel</Acknowledgement>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Astrid Maute; Dr. Thomas J. Immel; Dr. Chihoko Cullens</Acknowledgement>
+	  <PublicationInfo>
+         <Authors>Immel, T.J., Maute, A. Cullens, C.</Authors>
+         <PublicationDate>2025-01-01T00:00:00</PublicationDate>
+         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
+      </PublicationInfo>
 	  <Funding>
 		<Agency>National Aeronautics and Space Administration</Agency>
 		<Project>Explorers Program</Project>
@@ -35,9 +45,17 @@ These metadata include the model output data.</Description>
 		<Project>Explorers Program</Project>
 		<AwardNumber>contracts NNG12FA42I</AwardNumber>
 	  </Funding>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Chihoko.Yamashita</PersonID>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.J.Immel</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/Astrid.Maute</PersonID>
+        <Role>CoInvestigator </Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Chihoko.Cullens</PersonID>
+        <Role>CoInvestigator</Role>
       </Contact>
 	    <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
