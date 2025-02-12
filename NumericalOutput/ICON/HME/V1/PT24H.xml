@@ -108,7 +108,7 @@ These metadata include the model output data.</Description>
 	<TemporalDescription>
 		<TimeSpan>
 			<StartDate>2019-12-16T00:00:00Z</StartDate>
-			<StopDate>2022-08-08T23:59:59Z</StopDate>
+			<StopDate>2021-12-31T23:59:59Z</StopDate>
 		</TimeSpan>
 		<Cadence>PT60M</Cadence>
 	</TemporalDescription>
@@ -116,6 +116,8 @@ These metadata include the model output data.</Description>
 	<ModeledRegion>Earth.NearSurface.AuroralRegion</ModeledRegion>
 	<ModeledRegion>Earth.NearSurface.EquatorialRegion</ModeledRegion>
 	<ModeledRegion>Earth.NearSurface.Ionosphere</ModeledRegion>
+	
+	
     <Parameter>
 	   <Name>Geographic Latitude</Name>
 	   <ParameterKey>Latitude</ParameterKey>
