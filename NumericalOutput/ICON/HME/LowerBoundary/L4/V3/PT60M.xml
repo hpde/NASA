@@ -2,27 +2,21 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
   <Version>2.7.0</Version>
   <NumericalOutput>
-    <ResourceID>spase://NASA/NumericalOutput/ICON/HME/LowerBoundary/L4/V1/PT24H</ResourceID>
+    <ResourceID>spase://NASA/NumericalOutput/ICON/HME/LowerBoundary/L4/V3/PT24H</ResourceID>
 	<NamingAuthority>NASA</NamingAuthority>
     <ResourceType>NumericalOutput</ResourceType>
     <ResourceHeader>
-      <ResourceName>Ionospheric Connection Explorer (ICON) Hough Mode Extension (TIEGCM) Model Product Version 1</ResourceName>
-	  <AlternateName>ICON L4 HME TIEGCM Lower Boundary Model Products Version 1</AlternateName>
-	  <DOI>https://doi.org/10.48322/3znm-v680</DOI>
+      <ResourceName>Ionospheric Connection Explorer (ICON) Hough Mode Extension (TIEGCM) Model Product Version 3</ResourceName>
+	  <AlternateName>ICON L4 HME TIEGCM Lower Boundary Model Products Version 3</AlternateName>
+	  <DOI></DOI>
       <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
 	  <RevisionHistory>
          <RevisionEvent>
-            <ReleaseDate>2025-02-10T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
             <Note>Created Numerical metadata. JMW</Note>
          </RevisionEvent>
-		 <RevisionEvent>
-            <ReleaseDate>2025-02-28T00:00:00Z</ReleaseDate>
-            <Note>Revised metadata. JMW</Note>
-         </RevisionEvent>
       </RevisionHistory>
-      <Description>This data product contains global diurnal and semi-diurnal tides obtained using Hough Mode Extension (HME) 
-	  for the lower boundary of TIE-GCM model. Diurnal and Semi-diurnal tides in zonal winds, meridional winds, temperature, 
-	  and geopotential heights at 97 km are provided. Latitude coverage of HME is +/- 88.75 degree.</Description>
+      <Description>This data product contains global diurnal and semi-diurnal tides obtained using Hough Mode Extension (HME) for the lower boundary of TIE-GCM model. Diurnal and Semi-diurnal tides in zonal winds, meridional winds, temperature, and geopotential heights at 97 km are provided. Latitude coverage of HME is +/- 88.75 degree.</Description>
 	  <Acknowledgement>National Aeronautics and Space Administration, Dr. Chihoko Cullens, Dr. Jeffery Forbes, Dr. Astrid Maute, and Dr. Thomas J. Immel</Acknowledgement>
 	  <PublicationInfo>
          <Authors>Cullens, C., Forbes, J.M., Maute, A.</Authors>
@@ -91,7 +85,7 @@
 	<ProcessingLevel>ValueAdded</ProcessingLevel>
 	<ProviderResourceName>ICON HME team</ProviderResourceName>
 	<ProviderProcessingLevel>ValueAdded</ProviderProcessingLevel>
-	<ProviderVersion>1</ProviderVersion>
+	<ProviderVersion>3</ProviderVersion>
 	<MeasurementType>Waves</MeasurementType>
 	<TemporalDescription>
 		<TimeSpan>
