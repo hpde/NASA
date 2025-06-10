@@ -2,11 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ProtonAlphaFullSpectra/PT1.74S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ElectronsFullSpectra/PT1.74S</ResourceID>
     <ResourceHeader>
       <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPAN-A Electron Energy Spectra, Level 2 (L2), 1.74 s Data</ResourceName>
       <DOI>https://doi.org/10.48322/9pz0-sj43</DOI>
       <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <RevisionHistory>
+         <RevisionEvent>
+              <ReleaseDate>2025-06-10T15:27:07.239Z</ReleaseDate>
+           <Note>ResourceID fixed, electrons replaced protons in id, requested by LJ, SAB</Note>
+         </RevisionEvent>
+      </RevisionHistory>
       <Description>SPAN-E Level 2 ELectron Energy Spectra Data
 -------------------------------------------
 
@@ -97,8 +103,12 @@ As part of the development of collaboration with the broader Heliophysics commun
         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
-        <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+        <PersonID>spase://SMWG/Person/Michael.Louis.Stevens</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Davin.Larson</PersonID>
+        <Role>HostContact</Role>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -124,6 +134,7 @@ As part of the development of collaboration with the broader Heliophysics commun
         <Description>Parker Solar Probe, PSP, SWEAP Data Access web site, Smithsonian Astrophysical Observatory</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ProtonAlphaFullSpectra/PT1.74S</PriorID>
+      <PriorID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-A/Level2/ProtonAlphaFullSpectra/PT1.74S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
