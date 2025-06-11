@@ -2,11 +2,17 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
   <Version>2.3.2</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-B/Level2/ProtonAlphaFullSpectra/PT1.74S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-B/Level2/ElectronsFullSpectra/PT1.74S</ResourceID>
     <ResourceHeader>
       <ResourceName>PSP Solar Wind Electrons Alphas and Protons (SWEAP) SPAN-B Electron Energy Spectra, Level 2 (L2), 1.74 s Data</ResourceName>
       <DOI>https://doi.org/10.48322/db2p-rk78</DOI>
       <ReleaseDate>2021-04-27T15:38:11Z</ReleaseDate>
+      <RevisionHistory>
+         <RevisionEvent>
+              <ReleaseDate>2025-06-11T09:34:27.802Z</ReleaseDate>
+           <Note>ResourceID fixed, updated Acknowledgement and Contacts, requested by LJ, SAB</Note>
+         </RevisionEvent>
+      </RevisionHistory>
       <Description>SPAN-E Level 2 ELectron Energy Spectra Data
 -------------------------------------------
 
@@ -90,15 +96,19 @@ As part of the development of collaboration with the broader Heliophysics commun
 * 4) Users should acknowledge the sources of data used in all publications, presentations, and reports: "We acknowledge the NASA Parker Solar Probe Mission and the SWEAP team led by J. Kasper for use of data.".
 
 * 5) Users are encouraged to provide the PI a copy of each manuscript that uses the PI data prior to submission of that manuscript for consideration of publication. On publication, the citation should be transmitted to the PI and any other providers of data.</Description>
-      <Acknowledgement>Please acknowledge the Principal Investigator J.C. Kasper for use of the Data</Acknowledgement>
+      <Acknowledgement>Please acknowledge the Principal Investigator Michael Louis Stevens for use of the Data</Acknowledgement>
       <PublicationInfo>
         <Authors>Whittlesey, Phyllis; Larson, Davin E.; Rahmati, Ali</Authors>
         <PublicationDate>2020-01-01T00:00:00</PublicationDate>
         <PublishedBy>NASA Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
-        <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+        <PersonID>spase://SMWG/Person/Michael.Louis.Stevens</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Davin.Larson</PersonID>
+        <Role>HostContact</Role>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -124,6 +134,7 @@ As part of the development of collaboration with the broader Heliophysics commun
         <Description>Parker Solar Probe, PSP, SWEAP Data Access web site, Smithsonian Astrophysical Observatory</Description>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/ParkerSolarProbe/SWEAP/SPAN-B/Level2/ProtonAlphaFullSpectra/PT1.74S</PriorID>
+          <PriorID>spase://NASA/NumericalData/ParkerSolarProbe/SWEAP/SPAN-B/Level2/ProtonAlphaFullSpectra/PT1.74S</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
