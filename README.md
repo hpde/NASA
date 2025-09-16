@@ -35,12 +35,12 @@ You can jump to the last step by clicking "Export" on the list of steps on the l
 
 The easiest way to load a description into the SPASE Metadata Editor is to find the 
 landing page for a resource description by replacing the "spase://" in the 
-SPASE Resource ID with "https://hpde.io/". For example, change
+SPASE Resource ID with "https://spase-metadata.org/". For example, change
 
     spase://ESA/NumericalData/PROBA2/LYRA/Flarelist/PT24H
 
 to
-    https://hpde.io/ESA/NumericalData/PROBA2/LYRA/Flarelist/PT24H
+    https://spase-metadata.org/ESA/NumericalData/PROBA2/LYRA/Flarelist/PT24H
 
 Navigate to that URL with a browser, the click "Edit" to load the description into the SPASE Metadata editor.
 
@@ -67,3 +67,4 @@ last loaded the page, then refresh the page.
 **Notes for repository administrator**: There is no garbage collection for workflows. So, its a good practice to
 occassionally visit the [action workflows](../../actions) and remove old workflow runs. To remove a run click
 the elipses (...) for a work flow and select "Delete workflow run". Typically you would only need the most recent run.
+
