@@ -9,7 +9,7 @@ SPASE resource descriptions with the NASA naming authority.
 
 # How to Use This Repository
 
-If you are a consumer of the metadata simple clone the repostory
+If you are a consumer of the metadata simply clone the repostory
 
 ````
 git clone -b master --single-branch --depth=1 https://github.com/hpde/NASA
@@ -67,4 +67,5 @@ last loaded the page, then refresh the page.
 **Notes for repository administrator**: There is no garbage collection for workflows. So, its a good practice to
 occassionally visit the [action workflows](../../actions) and remove old workflow runs. To remove a run click
 the elipses (...) for a work flow and select "Delete workflow run". Typically you would only need the most recent run.
+
 
