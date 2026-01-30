@@ -12,12 +12,11 @@
     </Rights>
   </MetadataRightsList>
   <DisplayData>
-    <ResourceID>spase://NASA/DisplayData/POLAR/UVI/H1</ResourceID>
+    <ResourceID>spase://NASA/DisplayData/POLAR/UVI/H0</ResourceID>
     <NamingAuthority>NASA</NamingAuthority>
     <ResourceType>DisplayData</ResourceType>
     <ResourceHeader>
-      <ResourceName>Polar Ultraviolet Imager H1 High-Resolution Images</ResourceName>
-      <DOI>https://doi.org/10.48322/trh2-a717</DOI>
+      <ResourceName>Polar Ultraviolet Imager H0 High-Resolution Images</ResourceName>
       <ReleaseDate>2025-12-04T13:28:01Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -33,7 +32,7 @@
           <Note>Added MetadataRightsList and RightsList(s). Updated to 2.7.1. ZCB</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>This dataset contains high resolution MPEG canned images of aurora and airglow from the Polar Ultraviolet Imager (UVI).</Description>
+      <Description>This data set contains detected and produced images of the ultraviolet light of the aurora, day and night. from the Polar UltraViolet Imager (UVI) experiment.</Description>
       <PublicationInfo>
         <Authors>Parks, George K.</Authors>
         <PublicationDate>2025-11-14T16:17:32Z</PublicationDate>
@@ -43,8 +42,12 @@
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H1</PriorID>
-      <PriorID>spase://VSPO/DisplayData/POLAR/UVI/H1</PriorID>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <PriorID>spase://VSPO/DisplayData/P_POLAR_HDR_UVI_H0</PriorID>
+      <PriorID>spase://VSPO/DisplayData/POLAR/UVI/H0</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
@@ -62,18 +65,18 @@
       </RightsList>
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h1/</URL>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h0/</URL>
         <Description>Polar Ultraviolet Imager, High Res from SPDF via FTP</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h1/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/uvi_h0/</URL>
         <Description>Polar Ultraviolet Imager, High Res from SPDF via HTTP</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H1_UVI&amp;index=sp_phys</URL>
-        <ProductKey>PO_H1_UVI</ProductKey>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=PO_H0_UVI&amp;index=sp_phys</URL>
+        <ProductKey>PO_H0_UVI</ProductKey>
       </AccessURL>
       <Format>MPEG</Format>
     </AccessInformation>
@@ -95,12 +98,13 @@
         <Name>CDAWeb HAPI Server</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>PO_H1_UVI</ProductKey>
+        <ProductKey>PO_H0_UVI</ProductKey>
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
     </AccessInformation>
-    <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
+    <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderProcessingLevel>Level 1</ProviderProcessingLevel>
     <InstrumentID>spase://SMWG/Instrument/POLAR/UVI</InstrumentID>
     <MeasurementType>ImageIntensity</MeasurementType>
     <TemporalDescription>
