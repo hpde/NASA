@@ -2,12 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
    <Version>2.7.0</Version>
    <Catalog>
-      <ResourceID>spase://NASA/Catalog/STEREO/LineupCAT </ResourceID>
+      <ResourceID>spase://NASA/Catalog/STEREO/LineupCAT</ResourceID>
       <ResourceHeader>
          <ResourceName>LineupCAT - a catalog of multipoint solar storm observations</ResourceName>
          <ReleaseDate>2025-07-20T11:12:22</ReleaseDate>
-         <Description>This is the HELIO4CAST LineupCAT, a catalog for interplanetary coronal mass ejections (ICMEs) observed by multiple spacecraft.
-</Description>
+         <Description>This is the HELIO4CAST LineupCAT, a catalog for interplanetary coronal mass ejections (ICMEs) observed by multiple spacecraft.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Eva.Weiler</PersonID>
             <Role>Author</Role>
@@ -17,7 +16,7 @@
             <Role>Author</Role>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Emma.E.Davies </PersonID>
+            <PersonID>spase://SMWG/Person/Emma.E.Davies</PersonID>
             <Role>Author</Role>
          </Contact>
          <Contact>
@@ -44,8 +43,8 @@
          <StopDate>2024-12-17T04:28:00</StopDate>
       </TimeSpan>
       <Parameter>
-         <Name> event</Name>
-         <Description> event: To which multipoint event the row belongs to, unit: integer.</Description>
+         <Name>event</Name>
+         <Description>event: To which multipoint event the row belongs to, unit: integer.</Description>
          <Support>
             <SupportQuantity>Housekeeping</SupportQuantity>
          </Support>
@@ -58,8 +57,8 @@
          </Support>
       </Parameter>
       <Parameter>
-         <Name> event_start_time</Name>
-         <Description> event_start_time: For in situ spacecraft, similar to icme_start_time in the ICMECAT. For STEREO-A-HI (HIA), its the see_launch_time from HIGeoCAT, for DONKI its time21_5 from the DONKI database. unit: UTC.</Description>
+         <Name>event_start_time</Name>
+         <Description>event_start_time: For in situ spacecraft, similar to icme_start_time in the ICMECAT. For STEREO-A-HI (HIA), its the see_launch_time from HIGeoCAT, for DONKI its time21_5 from the DONKI database. unit: UTC.</Description>
          <Support>
             <SupportQuantity>Temporal</SupportQuantity>
          </Support>
