@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <Catalog>
-      <ResourceID>spase://NASA/Catalog/Wind/WAVES/TypeIIandIVRadioBursts </ResourceID>
+      <ResourceID>spase://NASA/Catalog/Wind/WAVES/TypeIIandIVRadioBursts</ResourceID>
       <ResourceHeader>
          <ResourceName>Possible Type II and IV Radio Bursts Observed by WIND/WAVES and STEREO/WAVES</ResourceName>
          <ReleaseDate>2026-02-17T18:14:32</ReleaseDate>
@@ -16,7 +16,7 @@
             <Role>Author</Role>
          </Contact>
          <Contact>
-            <PersonID>	spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
       </ResourceHeader>
@@ -33,7 +33,7 @@
       <PhenomenonType>RadioBurst</PhenomenonType>
       <TimeSpan>
          <StartDate>1994-12-23T12:30:00</StartDate>
-         <StopDate>2020-12-07T17:30:00	</StopDate>
+         <StopDate>2020-12-07T17:30:00</StopDate>
       </TimeSpan>
       <Parameter>
          <Name>No.</Name>
