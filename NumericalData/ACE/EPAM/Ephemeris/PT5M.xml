@@ -19,7 +19,7 @@
       <ResourceName>ACE Electron Proton Alpha Monitor (EPAM) Ephemeris Data, 5 min Averages</ResourceName>
       <AlternateName>EPAM-EPH-5M</AlternateName>
       <DOI>https://doi.org/10.48322/6841-z560</DOI>
-      <ReleaseDate>2025-12-04T13:28:12Z</ReleaseDate>
+      <ReleaseDate>2026-06-26T15:23:12Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-07-07T21:14:07</ReleaseDate>
@@ -37,6 +37,10 @@
           <ReleaseDate>2025-12-04T13:28:12Z</ReleaseDate>
           <Note>Added MetadataRightsList. Updated to 2.7.1. ZCB</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-06-26T15:23:12Z</ReleaseDate>
+          <Note>Updated PersonID for Dennis Haggerty to include middle initial (K). JWL</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>5min-averaged ephemeris data for the ACE spacecraft, Earth, and Jupiter. Also included are the orientation of the ACE spin-axis, and a rotation matrix for transforming from HEE cartisian coordinates to RTN coordinates.</Description>
       <Acknowledgement>Thomas P. Armstrong, Fundamental Technologies LLC</Acknowledgement>
@@ -46,7 +50,7 @@
         <PublishedBy>Space Physics Data Facility</PublishedBy>
       </PublicationInfo>
       <Contact>
-        <PersonID>spase://SMWG/Person/Dennis.Haggerty</PersonID>
+        <PersonID>spase://SMWG/Person/Dennis.K.Haggerty</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <Contact>
