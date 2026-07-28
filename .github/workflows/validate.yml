@@ -81,7 +81,7 @@ jobs:
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
         if: always()
-        uses: dawidd6/action-send-mail@v2
+        uses: dawidd6/action-send-mail@v3
         with:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
@@ -98,7 +98,7 @@ jobs:
             --
             For details see attachment.
           # comma-separated string, send email to
-          to: ${{ secrets.EMAIL_LIST }},${{ secrets.EMAIL_TO }}
+          to: ${{ secrets.EMAIL_LIST }}
           # from email name
           from: HPDE Mailer
           # Attachements:
