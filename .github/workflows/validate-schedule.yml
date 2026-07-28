@@ -35,7 +35,7 @@ jobs:
 
        # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Prepare for logs
       - name: Prepare Log directory
@@ -85,7 +85,7 @@ jobs:
         # Only send e-mail when a 'failure' occurs.
         # if: always()
         if: job.status == 'failure'
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v18
         with:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}

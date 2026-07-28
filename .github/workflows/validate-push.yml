@@ -28,7 +28,7 @@ jobs:
 
        # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Find files that have changed
       - name: Find changed files
@@ -93,15 +93,14 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Get changed files
-        uses: jitterbit/get-changed-files@v1
+        uses: tj-actions/changed-files@v45
         id: changed
         with:
-          format: json
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
         if: always()
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v18
         with:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
