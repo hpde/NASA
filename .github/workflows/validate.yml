@@ -34,6 +34,8 @@ jobs:
        # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required to accurately fetch historical diffs
 
       # Prepare for logs
       - name: Prepare Log directory
@@ -86,6 +88,7 @@ jobs:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
           server_port: 465
+          secure: true
           # user credentials
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
@@ -100,6 +103,6 @@ jobs:
           # comma-separated string, send email to
           to: ${{ secrets.EMAIL_LIST }}
           # from email name
-          from: HPDE Mailer
+          from: "HPDE Mailer <${{ secrets.EMAIL_USERNAME }}>"
           # Attachements:
           attachments: logs/validate.log

@@ -88,14 +88,17 @@ jobs:
     name: Notify that a push has occurred
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.1.0
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required to accurately fetch historical diffs
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Get changed files
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
         id: changed
         with:
+          separator: "\n" # Formats output arrays with newlines to match jitterbit
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
@@ -105,6 +108,7 @@ jobs:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
           server_port: 465
+          secure: true
           # user credentials
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
@@ -117,20 +121,20 @@ jobs:
             ${{ github.repository }} files added or updated:
             --
             Added
-            ${{ steps.changed.outputs.added }}
+            ${{ steps.changed.outputs.added_files }}
             --
             Removed
-            ${{ steps.changed.outputs.removed }}
+            ${{ steps.changed.outputs.deleted_files }}
             --
             Renamed
-            ${{ steps.changed.outputs.renamed }}
+            ${{ steps.changed.outputs.renamed_files }}
             --
             Modified
-            ${{ steps.changed.outputs.modified }}
+            ${{ steps.changed.outputs.modified_files }}
             --
             Added+Modified:
-            ${{ steps.changed.outputs.added_modified }}
+            ${{ steps.changed.outputs.any_changed }}
           # comma-separated string, send email to
           to: ${{ secrets.EMAIL_LIST }}
           # from email name
-          from: HPDE Mailer
+          from: "HPDE Mailer <${{ secrets.EMAIL_USERNAME }}>"
