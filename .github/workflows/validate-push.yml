@@ -22,7 +22,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '14'
-          cache: 'npm' # Automatically configures dependency caching for stability    
       - run: npm install
       - name: Install SPASE-Resource-tools
         run: npm install -g spase-resource-tools
