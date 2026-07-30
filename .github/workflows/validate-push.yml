@@ -109,8 +109,8 @@ jobs:
         with:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
-          server_port: 465
-          secure: true
+          server_port: 587
+          secure: false
           # user credentials
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
