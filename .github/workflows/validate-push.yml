@@ -102,6 +102,16 @@ jobs:
         with:
           separator: "\n" # Formats output arrays with newlines to match jitterbit
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Verify Secret Presence
+        run: |
+          if [ -z "${{ secrets.EMAIL_SERVER }}" ]; then
+            echo "❌ CRITICAL: GitHub is passing an EMPTY string for EMAIL_SERVER!"
+            exit 1
+          else
+            echo "✅ Success: Secret is accessible. Length is ${#SECRET} characters."
+          fi
+        env:
+          SECRET: ${{ secrets.EMAIL_SERVER }}
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
         if: always()
