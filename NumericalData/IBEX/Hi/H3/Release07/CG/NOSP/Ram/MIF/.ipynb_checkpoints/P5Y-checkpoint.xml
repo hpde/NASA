@@ -12,12 +12,12 @@
     </Rights>
   </MetadataRightsList>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/IBEX/Hi/H3/Release07/CG/NOSP/Omni/MIF/P5Y</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/IBEX/Hi/H3/Release07/CG/NOSP/Ram/MIF/P5Y</ResourceID>
     <NamingAuthority>NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
-      <ResourceName>IBEX High Energy Neutral Atom Imager (Hi) Data Release 07, Compton-Getting corrected, not Survival Probability corrected, Omnidirectional, Mono Inertial Frame, Level H3 (H3), 1-to-10-map average Data</ResourceName>
-      <AlternateName>IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP</AlternateName>
+      <ResourceName>IBEX High Energy Neutral Atom Imager (Hi) Data Release 07, Compton-Getting corrected, not Survival Probability corrected, Ram-directional, Mono Inertial Frame, Level H3 (H3), five-year average Data</ResourceName>
+      <AlternateName>IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR</AlternateName>
       <ReleaseDate>2026-07-28T15:30:56Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -33,7 +33,7 @@
           <Note>Add 'Z' to ReleaseDate, RevisionEvent:ReleaseDate(s), TemporalDescription:TimeSpan:StartDate, TemporalDescription:TimeSpan:StopDate. ZCB</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>The Interstellar Boundary Explorer (IBEX) has operated in space since 2008, improving understanding of the outer heliosphere and its interaction with the local interstellar medium. This data set is from Release 7 1-to-10-map-average IBEX-Hi map data for the years 2009-2014. It contains omnidirectional energetic neutral atom (hydrogen) flux maps in the Mono Inertial Frame between 1 and 100 AU, with Compton-Getting correction applied to the flux spectra and no survival-probability correction applied. The data consist of all-sky maps in solar ecliptic longitude and latitude for IBEX-Hi energy channels 2-6. Energy-channel FWHM ranges are 0.52-0.95, 0.84-1.55, 1.36-2.50, 1.99-3.75, and 3.13-6.00 keV, with center-point energies of 0.71, 1.11, 1.74, 2.73, and 4.29 keV, respectively. The CDAWeb ProductKey is IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP.</Description>
+      <Description>The Interstellar Boundary Explorer (IBEX) has operated in space since 2008, improving understanding of the outer heliosphere and its interaction with the local interstellar medium. This data set is from Release 7 1-to-5-year-average IBEX-Hi map data for the years 2009-2014. It contains ram-directional energetic neutral atom (hydrogen) flux maps in the Mono Inertial Frame between 1 and 100 AU, with Compton-Getting correction applied to the flux spectra and no survival-probability correction applied. The data consist of all-sky maps in solar ecliptic longitude and latitude for IBEX-Hi energy channels 2-6. Energy-channel FWHM ranges are 0.52-0.95, 0.84-1.55, 1.36-2.50, 1.99-3.75, and 3.13-6.00 keV, with center-point energies of 0.71, 1.11, 1.74, 2.73, and 4.29 keV, respectively. The CDAWeb ProductKey is IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR.</Description>
       <Acknowledgement>Please acknowledge the IBEX Mission Principal Investigator, Dr. David J McComas of Princeton University. The IBEX Release 7 data are archived as fully citable data. Please consult IBEX team publications and personnel for further details on production, processing, and usage of these data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
@@ -48,7 +48,7 @@
       <InformationURL>
         <Name>IBEX Data Release 7</Name>
         <URL>https://ibex.princeton.edu/DataRelease</URL>
-        <Description>IBEX Data Release-7, IBEX-Hi 10 map average maps in ascii list and image formats</Description>
+        <Description>IBEX Data Release-7, IBEX-Hi 5-year average maps in ascii list and image formats</Description>
         <Language>en</Language>
       </InformationURL>
     </ResourceHeader>
@@ -68,20 +68,20 @@
       </RightsList>
       <AccessURL>
         <Name>FTPS from SPDF (not with most browsers)</Name>
-        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release07/ena_hi_r07_cg_nosp_omni_mif_10mp/</URL>
-        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP</ProductKey>
+        <URL>ftps://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release07/ena_hi_r07_cg_nosp_ram_mif_5yr/</URL>
+        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR</ProductKey>
         <Description>Access to Data in CDF Format via ftps from SPDF</Description>
       </AccessURL>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release07/ena_hi_r07_cg_nosp_omni_mif_10mp/</URL>
-        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP</ProductKey>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/ibex/cdf/h3/release07/ena_hi_r07_cg_nosp_ram_mif_5yr/</URL>
+        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR</ProductKey>
         <Description>Access to Data in CDF Format via https from SPDF</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP&amp;index=sp_phys</URL>
-        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP</ProductKey>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR&amp;index=sp_phys</URL>
+        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR</ProductKey>
         <Description>Access to ASCII, CDF, and Plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
@@ -106,7 +106,7 @@
         <Name>CDAWeb HAPI Server</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/hapi</URL>
         <Style>HAPI</Style>
-        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_OMNI_MIF_10MP</ProductKey>
+        <ProductKey>IBEX_H3_ENA_HI_R07_CG_NOSP_RAM_MIF_5YR</ProductKey>
         <Description>Web Service to this product using the HAPI interface.</Description>
       </AccessURL>
       <Format>CSV</Format>
