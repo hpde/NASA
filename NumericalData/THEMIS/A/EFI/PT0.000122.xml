@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-  <Version>2.7.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <NumericalData>
     <ResourceID>spase://NASA/NumericalData/THEMIS/A/EFI/PT0.000122</ResourceID>
     <NamingAuthority>NASA</NamingAuthority>
@@ -8,11 +8,15 @@
     <ResourceHeader>
       <ResourceName>Themis Probe A L2 DATA EFW</ResourceName>
       <AlternateName>tha_l2_efw</AlternateName>
-      <ReleaseDate>2025-11-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-09-21T18:41:48Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2026-05-29T11:01:54.654Z</ReleaseDate>
-          <Note>Only known prior ReleaseDate of the metadata, AWB</Note>
+          <Note>Only known prior ReleaseDate of the metadata, SAB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-09-21T18:41:48Z</ReleaseDate>
+          <Note>Modified file for NumericalData, AWB</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>THEMIS-A: Electric Field Instrument Wave Burst Mode (EFW) Electric field measurements. The L2 product is the cleaned 3D E-field with 1/16384 second time resolution.</Description>
@@ -46,10 +50,9 @@
       </InformationURL>
       <InformationURL>
         <Name>The Electric Field Instrument (EFI) for THEMIS</Name>
-        <URL>DOI 10.1007/s11214-008-9469-2</URL>
+        <URL>https://doi.org/10.1007/s11214-008-9469-2</URL>
         <Description>Instrument Paper</Description>
       </InformationURL>
-      <PriorID>spase://placeholder/NoPriorID</PriorID>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
@@ -72,7 +75,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/index.html</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THA_L2_EFI&index=sp_phys</URL>
         <ProductKey>THA_L2_EFI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
