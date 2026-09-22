@@ -12,7 +12,7 @@
     </Rights>
   </MetadataRightsList>
   <NumericalData>
-    <ResourceID>spase://SMWG/NumericalData/ICON/EUV-FUV/L3/Oplus/PT12S</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/ICON/EUV-FUV/L3/Oplus/PT12S</ResourceID>
 	<NamingAuthority>NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
@@ -23,6 +23,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-08-18T00:00:00Z</ReleaseDate>
           <Note>First release. JMW.</Note>
+        </RevisionEvent>
+		<RevisionEvent>
+          <ReleaseDate>2026-09-22T00:00:00Z</ReleaseDate>
+          <Note>Fixed ResourceID error. JMW.</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>This describes the Level 3.2 data product for ICON which is in NetCDF4 format. These files are named ICON_L3-2_YYYY-MM-DD_vXXrZZZ.NC, 
