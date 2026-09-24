@@ -2,12 +2,12 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
   <Version>2.7.2</Version>
   <NumericalData>
-    <ResourceID>spase://NASA/NumericalData/THEMIS/E/EFI/PT0.000122</ResourceID>
+    <ResourceID>spase://NASA/NumericalData/THEMIS/C/EFI/PT0.000122</ResourceID>
     <NamingAuthority>NASA</NamingAuthority>
     <ResourceType>NumericalData</ResourceType>
     <ResourceHeader>
-      <ResourceName>Themis Probe E L2 DATA EFW</ResourceName>
-      <AlternateName>the_l2_efw</AlternateName>
+      <ResourceName>Themis Probe C L2 DATA EFW</ResourceName>
+      <AlternateName>thc_l2_efw</AlternateName>
       <ReleaseDate>2026-09-21T18:41:48Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
@@ -19,7 +19,7 @@
           <Note>Modified file for NumericalData, AWB</Note>
         </RevisionEvent>
       </RevisionHistory>
-      <Description>THEMIS-E: Electric Field Instrument Wave Burst Mode (EFW) Electric field measurements. The L2 product is the cleaned 3D E-field with 1/16384 second time resolution.</Description>
+      <Description>THEMIS-C: Electric Field Instrument Wave Burst Mode (EFW) Electric field measurements. The L2 product is the cleaned 3D E-field with 1/16384 second time resolution.</Description>
       <Acknowledgement>J.W. Bonnell</Acknowledgement>
       <PublicationInfo>
         <Authors>Angelopoulos, Vassilis; Bonnell, John, W.; Mozer, Forrest, S.</Authors>
@@ -70,20 +70,20 @@
       </RightsList>
       <AccessURL>
         <Name>HTTPS from SPDF</Name>
-        <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/the/l2/efi/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/themis/thc/l2/efi/</URL>
         <Description>In CDF via http from SPDF.</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THE_L2_EFI&index=sp_phys</URL>
-        <ProductKey>THE_L2_EFI</ProductKey>
+        <URL>https://cdaweb.gsfc.nasa.gov/cgi-bin/eval2.cgi?dataset=THC_L2_EFI&amp;index=sp_phys</URL>
+        <ProductKey>THC_L2_EFI</ProductKey>
         <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Please acknowledge J. W. Bonnell (University of California, Berkeley). Please acknowledge the data providers and CDAWeb when using these data.</Acknowledgement>
     </AccessInformation>
-    <InstrumentID>spase://SMWG/Instrument/THEMIS/E/EFI</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/THEMIS/C/EFI</InstrumentID>
     <MeasurementType>ElectricField</MeasurementType>
     <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
   </NumericalData>
