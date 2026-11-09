@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
    <Instrument>
-      <ResourceID>spase://NASA/Instrument/TRACERS/FluxgateMagnetometer</ResourceID>
+      <ResourceID>spase://NASA/Instrument/TRACERS/1/FluxgateMagnetometer</ResourceID>
       <ResourceHeader>
-         <ResourceName>TRACERS Spacecraft Fluxgate Magnetometer</ResourceName>
-         <ReleaseDate>2026-04-03T00:00:00</ReleaseDate>
+         <ResourceName>TRACERS 1 Spacecraft Fluxgate Magnetometer</ResourceName>
+         <ReleaseDate>2026-10-31T00:00:00</ReleaseDate>
          <Description>The 3-axis vector fluxgate magnetometer has a sampling rate of 128 samples/s in the ROI and 16 samples/s in the BOR.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
@@ -32,6 +32,6 @@
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InvestigationName>TRACERS Mission Magnetic Fluxgate Magnetometer (MAG)</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/TRACERS</ObservatoryID>
+      <ObservatoryID>spase://NASA/Observatory/TRACERS/1</ObservatoryID>
    </Instrument>
 </Spase>
